@@ -26,7 +26,15 @@ ZinsserBench also measures how closely each judge matches the rest of the panel.
 
 ![Judge quality](runs/2026-03-07-openrouter-v0-1-salvage-1/analysis/judge_quality.svg)
 
-### Caveats for this run
+### ⚠️ Preliminary results — do not treat as a reliable leaderboard
+
+These scores are **preliminary**. During the salvage run, Gemini outputs were regenerated after the token cap was raised, while other models (notably Claude Opus, Claude Sonnet, and GPT-5.4) kept their earlier outputs generated under a lower cap. As a result, most non-Gemini models were truncated at ~500 tokens on nearly every output, while Gemini could write complete pieces. **Token truncation currently explains most — but not all — of the score differences.** Among outputs that were not truncated, model quality converges to a much narrower band. Until a clean run is done from scratch with a uniform, generous token budget, these rankings should not be cited as meaningful quality comparisons.
+
+Additionally, some models leaked internal reasoning traces into their output (Qwen) or included non-prose artifacts that inflated or deflated scores in ways unrelated to writing quality. These issues are being tracked and fixed before the next run.
+
+See the [detailed analysis](docs/2026-03-07-openrouter-v0-1-salvage-1/index.md) for the full breakdown.
+
+### Other caveats for this run
 
 This is an early `v0.1` run using OpenRouter with `--reasoning-effort medium`. Treat the results as directional, not definitive.
 
