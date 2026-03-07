@@ -159,7 +159,7 @@ class OpenRouterBackend(ModelBackend):
         try:
             payload = _extract_json_object(text)
             return data, text, payload
-        except json.JSONDecodeError:
+        except (json.JSONDecodeError, RuntimeError):
             retry_settings = dict(settings)
             retry_settings["reasoning_effort"] = "none"
             retry_settings["temperature"] = 0
