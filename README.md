@@ -6,10 +6,11 @@ Version `v0.1` is intentionally small and cheap enough to run as a pilot while s
 
 ## What the benchmark measures
 
-Every enabled model in a benchmark version does two jobs:
+Every enabled model in a benchmark version does one job:
 
 1. It writes one response for every prompt.
-2. It judges every model response, including its own, against the rubric.
+
+A configured judge panel scores every model response against the rubric.
 
 This produces two headline metrics:
 
@@ -31,6 +32,7 @@ benchmark_versions/<version>/
   prompts.json
   rubric.json
   models.json
+  judges.json
 
 runs/<run_name>/
   manifest.json
@@ -85,6 +87,12 @@ python3 -m zinsserbench run \
 ```
 
 On startup, the CLI loads `.env` and `.env.local` from `--root` if present. Existing shell environment variables still take precedence, so a one-off `export OPENROUTER_API_KEY=...` overrides the file for that session.
+
+Judge selection is versioned in `benchmark_versions/<version>/judges.json`. For `v0.1`, the lite panel is:
+
+- `openai/gpt-5.4`
+- `anthropic/claude-opus-4.6`
+- `google/gemini-3.1-pro-preview`
 
 You can also run stages separately. Each stage is resumable and skips any artifact that already exists.
 

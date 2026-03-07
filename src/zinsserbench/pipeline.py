@@ -17,6 +17,7 @@ def initialize_run(
     backend_name: str,
     settings: Dict[str, object],
     model_ids: List[str],
+    judge_model_ids: List[str],
 ) -> RunStorage:
     storage = RunStorage(root, run_name)
     manifest = storage.load_manifest()
@@ -29,11 +30,13 @@ def initialize_run(
             created_at=now,
             updated_at=now,
             model_ids=model_ids,
+            judge_model_ids=judge_model_ids,
             settings=settings,
         )
     else:
         manifest.updated_at = now
         manifest.model_ids = sorted(set(manifest.model_ids) | set(model_ids))
+        manifest.judge_model_ids = judge_model_ids
         manifest.settings = settings
         manifest.backend = backend_name
         manifest.benchmark_version = benchmark_version
@@ -50,7 +53,13 @@ def generate_missing(
 ) -> Dict[str, int]:
     benchmark = load_benchmark_version(root, benchmark_version)
     storage = initialize_run(
-        root, run_name, benchmark_version, backend.name, settings, [model.model_id for model in benchmark.models]
+        root,
+        run_name,
+        benchmark_version,
+        backend.name,
+        settings,
+        [model.model_id for model in benchmark.models],
+        [model.model_id for model in benchmark.judges],
     )
     tasks: List[Tuple] = []
     for prompt in benchmark.prompts:
@@ -70,7 +79,13 @@ def judge_missing(
 ) -> Dict[str, int]:
     benchmark = load_benchmark_version(root, benchmark_version)
     storage = initialize_run(
-        root, run_name, benchmark_version, backend.name, settings, [model.model_id for model in benchmark.models]
+        root,
+        run_name,
+        benchmark_version,
+        backend.name,
+        settings,
+        [model.model_id for model in benchmark.models],
+        [model.model_id for model in benchmark.judges],
     )
     outputs = {
         (record.prompt_id, record.candidate_model_id): record
@@ -83,7 +98,7 @@ def judge_missing(
             output = outputs.get((prompt.prompt_id, candidate.model_id))
             if output is None:
                 continue
-            for judge in benchmark.models:
+            for judge in benchmark.judges:
                 if not storage.has_judgment(benchmark_version, prompt.prompt_id, candidate.model_id, judge.model_id):
                     tasks.append((prompt, candidate, judge, output.response_text))
     _run_parallel(

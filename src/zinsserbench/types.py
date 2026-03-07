@@ -65,6 +65,7 @@ class BenchmarkVersion:
     prompts: List[Prompt]
     rubric: Rubric
     models: List[ModelSpec]
+    judges: List[ModelSpec]
 
 
 @dataclass
@@ -105,6 +106,7 @@ class RunManifest:
     updated_at: str
     model_ids: List[str]
     settings: Dict[str, object]
+    judge_model_ids: List[str] = field(default_factory=list)
 
 
 def utc_now_iso() -> str:

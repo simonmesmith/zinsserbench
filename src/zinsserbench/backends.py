@@ -3,6 +3,7 @@ from __future__ import annotations
 import hashlib
 import json
 import os
+import time
 import urllib.error
 import urllib.request
 from abc import ABC, abstractmethod
@@ -83,7 +84,7 @@ class OpenRouterBackend(ModelBackend):
             },
             {"role": "user", "content": prompt.task},
         ]
-        data = self._chat_completion(model.model_id, messages, settings)
+        data = self._chat_completion_with_reasoning_fallback(model.model_id, messages, settings)
         return {
             "response_text": _extract_text(data),
             "metadata": {"id": data.get("id"), "usage": data.get("usage", {})},
@@ -126,7 +127,9 @@ class OpenRouterBackend(ModelBackend):
                 ),
             },
         ]
-        data = self._chat_completion(judge_model.model_id, messages, settings)
+        judge_settings = dict(settings)
+        judge_settings["json_mode"] = True
+        data = self._chat_completion_with_reasoning_fallback(judge_model.model_id, messages, judge_settings)
         text = _extract_text(data)
         payload = _extract_json_object(text)
         return {
@@ -134,6 +137,21 @@ class OpenRouterBackend(ModelBackend):
             "rationale": payload.get("rationale", ""),
             "metadata": {"id": data.get("id"), "usage": data.get("usage", {}), "raw_text": text},
         }
+
+    def _chat_completion_with_reasoning_fallback(
+        self, model_id: str, messages: List[Dict[str, str]], settings: Dict[str, object]
+    ) -> Dict[str, object]:
+        data = self._chat_completion(model_id, messages, settings)
+        if _response_has_empty_content(data) and settings.get("reasoning_effort") != "none":
+            retry_settings = dict(settings)
+            retry_settings["reasoning_effort"] = "none"
+            data = self._chat_completion(model_id, messages, retry_settings)
+        if _response_has_empty_content(data):
+            retry_settings = dict(settings)
+            retry_settings["reasoning_effort"] = "none"
+            retry_settings["max_output_tokens"] = max(int(settings.get("max_output_tokens", 500)) * 3, 1200)
+            data = self._chat_completion(model_id, messages, retry_settings)
+        return data
 
     def _chat_completion(self, model_id: str, messages: List[Dict[str, str]], settings: Dict[str, object]) -> Dict[str, object]:
         reasoning = None
@@ -163,12 +181,18 @@ class OpenRouterBackend(ModelBackend):
             },
             method="POST",
         )
-        try:
-            with urllib.request.urlopen(request, timeout=int(settings.get("timeout_seconds", 120))) as response:
-                return json.loads(response.read().decode("utf-8"))
-        except urllib.error.HTTPError as exc:
-            body = exc.read().decode("utf-8", errors="replace")
-            raise RuntimeError(f"OpenRouter request failed ({exc.code}): {body}") from exc
+        max_attempts = int(settings.get("request_retries", 3))
+        for attempt in range(max_attempts):
+            try:
+                with urllib.request.urlopen(request, timeout=int(settings.get("timeout_seconds", 120))) as response:
+                    return json.loads(response.read().decode("utf-8"))
+            except urllib.error.HTTPError as exc:
+                body = exc.read().decode("utf-8", errors="replace")
+                if exc.code == 429 and attempt + 1 < max_attempts:
+                    time.sleep(_extract_retry_after_seconds(body) or (attempt + 1) * 5)
+                    continue
+                raise RuntimeError(f"OpenRouter request failed ({exc.code}): {body}") from exc
+        raise RuntimeError("OpenRouter request failed after retries")
 
 
 def build_backend(name: str) -> ModelBackend:
@@ -199,6 +223,28 @@ def _extract_text(payload: Dict[str, object]) -> str:
                 parts.append(item.get("text", ""))
         return "\n".join(part for part in parts if part).strip()
     raise RuntimeError(f"Unsupported OpenRouter response format: {payload}")
+
+
+def _response_has_empty_content(payload: Dict[str, object]) -> bool:
+    choices = payload.get("choices", [])
+    if not choices:
+        return False
+    message = choices[0].get("message", {})
+    content = message.get("content")
+    return content is None
+
+
+def _extract_retry_after_seconds(body: str) -> int | None:
+    try:
+        payload = json.loads(body)
+    except json.JSONDecodeError:
+        return None
+    error = payload.get("error", {})
+    metadata = error.get("metadata", {})
+    value = metadata.get("retry_after_seconds")
+    if isinstance(value, int):
+        return value
+    return None
 
 
 def _extract_json_object(text: str) -> Dict[str, object]:

@@ -7,7 +7,7 @@ import unittest
 from pathlib import Path
 
 from zinsserbench.aggregate import aggregate_run
-from zinsserbench.backends import MockBackend
+from zinsserbench.backends import MockBackend, OpenRouterBackend, _extract_retry_after_seconds
 from zinsserbench.env import load_dotenv
 from zinsserbench.pipeline import generate_missing, judge_missing
 from zinsserbench.report import generate_report
@@ -32,6 +32,11 @@ class ZinsserBenchTests(unittest.TestCase):
         benchmark = load_benchmark_version(self.temp_dir, "v0.1")
         self.assertEqual(20, len(benchmark.prompts))
         self.assertEqual(12, len(benchmark.models))
+        self.assertEqual(3, len(benchmark.judges))
+        self.assertEqual(
+            ["openai/gpt-5.4", "anthropic/claude-opus-4.6", "google/gemini-3.1-pro-preview"],
+            [judge.model_id for judge in benchmark.judges],
+        )
         self.assertEqual("memo", benchmark.prompts[0].category)
 
     def test_incremental_generation_and_judging(self) -> None:
@@ -42,7 +47,7 @@ class ZinsserBenchTests(unittest.TestCase):
 
         first_judge = judge_missing(self.temp_dir, "fixture-run", "v0.1", self.backend, self.settings)
         second_judge = judge_missing(self.temp_dir, "fixture-run", "v0.1", self.backend, self.settings)
-        self.assertEqual(2880, first_judge["scheduled"])
+        self.assertEqual(720, first_judge["scheduled"])
         self.assertEqual(0, second_judge["scheduled"])
 
     def test_aggregation_outputs_and_reports(self) -> None:
@@ -83,7 +88,7 @@ class ZinsserBenchTests(unittest.TestCase):
         generate_result = generate_missing(self.temp_dir, "fixture-run", "v0.1", self.backend, self.settings)
         judge_result = judge_missing(self.temp_dir, "fixture-run", "v0.1", self.backend, self.settings)
         self.assertEqual(20, generate_result["scheduled"])
-        self.assertEqual(500, judge_result["scheduled"])
+        self.assertEqual(60, judge_result["scheduled"])
 
     def test_load_dotenv_reads_local_env_file_without_overriding_existing_env(self) -> None:
         env_path = self.temp_dir / ".env"
@@ -112,6 +117,103 @@ class ZinsserBenchTests(unittest.TestCase):
                 os.environ.pop("OTHER_KEY", None)
             else:
                 os.environ["OTHER_KEY"] = old_other
+
+    def test_openrouter_retries_without_reasoning_when_content_is_empty(self) -> None:
+        backend = OpenRouterBackend(api_key="test-key")
+        calls = []
+        responses = [
+            {
+                "choices": [
+                    {
+                        "message": {"content": None},
+                        "finish_reason": "length",
+                    }
+                ],
+                "usage": {"completion_tokens_details": {"reasoning_tokens": 400}},
+            },
+            {
+                "choices": [
+                    {
+                        "message": {"content": "final text"},
+                        "finish_reason": "stop",
+                    }
+                ],
+                "usage": {},
+            },
+        ]
+
+        def fake_chat_completion(model_id, messages, settings):
+            calls.append(dict(settings))
+            return responses[len(calls) - 1]
+
+        backend._chat_completion = fake_chat_completion  # type: ignore[method-assign]
+        data = backend._chat_completion_with_reasoning_fallback(
+            "qwen/qwen3.5-35b-a3b",
+            [{"role": "user", "content": "test"}],
+            {"reasoning_effort": "medium"},
+        )
+
+        self.assertEqual("medium", calls[0]["reasoning_effort"])
+        self.assertEqual("none", calls[1]["reasoning_effort"])
+        self.assertEqual("final text", data["choices"][0]["message"]["content"])
+
+    def test_openrouter_retries_with_larger_budget_when_empty_content_persists(self) -> None:
+        backend = OpenRouterBackend(api_key="test-key")
+        calls = []
+        responses = [
+            {
+                "choices": [
+                    {
+                        "message": {"content": None},
+                        "finish_reason": "length",
+                    }
+                ],
+                "usage": {},
+            },
+            {
+                "choices": [
+                    {
+                        "message": {"content": None},
+                        "finish_reason": "length",
+                    }
+                ],
+                "usage": {},
+            },
+            {
+                "choices": [
+                    {
+                        "message": {"content": "expanded text"},
+                        "finish_reason": "stop",
+                    }
+                ],
+                "usage": {},
+            },
+        ]
+
+        def fake_chat_completion(model_id, messages, settings):
+            calls.append(dict(settings))
+            return responses[len(calls) - 1]
+
+        backend._chat_completion = fake_chat_completion  # type: ignore[method-assign]
+        data = backend._chat_completion_with_reasoning_fallback(
+            "z-ai/glm-5",
+            [{"role": "user", "content": "test"}],
+            {"reasoning_effort": "medium", "max_output_tokens": 500},
+        )
+
+        self.assertEqual("medium", calls[0]["reasoning_effort"])
+        self.assertEqual("none", calls[1]["reasoning_effort"])
+        self.assertEqual("none", calls[2]["reasoning_effort"])
+        self.assertEqual(1500, calls[2]["max_output_tokens"])
+        self.assertEqual("expanded text", data["choices"][0]["message"]["content"])
+
+    def test_extract_retry_after_seconds_from_openrouter_error(self) -> None:
+        body = (
+            '{"error":{"message":"Provider returned error","code":429,'
+            '"metadata":{"retry_after_seconds":60}}}'
+        )
+        self.assertEqual(60, _extract_retry_after_seconds(body))
+        self.assertIsNone(_extract_retry_after_seconds("not json"))
 
     def _copy_tree(self, source: Path, destination: Path) -> None:
         for path in source.rglob("*"):
