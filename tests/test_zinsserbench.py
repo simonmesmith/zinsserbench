@@ -1,0 +1,98 @@
+from __future__ import annotations
+
+import csv
+import tempfile
+import unittest
+from pathlib import Path
+
+from zinsserbench.aggregate import aggregate_run
+from zinsserbench.backends import MockBackend
+from zinsserbench.pipeline import generate_missing, judge_missing
+from zinsserbench.report import generate_report
+from zinsserbench.specs import load_benchmark_version
+
+
+class ZinsserBenchTests(unittest.TestCase):
+    def setUp(self) -> None:
+        self.repo_root = Path(__file__).resolve().parent.parent
+        self.temp_dir = Path(tempfile.mkdtemp(prefix="zinsserbench-test-"))
+        self._copy_tree(self.repo_root / "benchmark_versions", self.temp_dir / "benchmark_versions")
+        self.backend = MockBackend()
+        self.settings = {
+            "generation_concurrency": 2,
+            "judge_concurrency": 2,
+            "temperature": 0.2,
+            "max_output_tokens": 300,
+            "timeout_seconds": 30,
+        }
+
+    def test_spec_validation(self) -> None:
+        benchmark = load_benchmark_version(self.temp_dir, "v0.1")
+        self.assertEqual(20, len(benchmark.prompts))
+        self.assertEqual(12, len(benchmark.models))
+        self.assertEqual("memo", benchmark.prompts[0].category)
+
+    def test_incremental_generation_and_judging(self) -> None:
+        first_generate = generate_missing(self.temp_dir, "fixture-run", "v0.1", self.backend, self.settings)
+        second_generate = generate_missing(self.temp_dir, "fixture-run", "v0.1", self.backend, self.settings)
+        self.assertEqual(240, first_generate["scheduled"])
+        self.assertEqual(0, second_generate["scheduled"])
+
+        first_judge = judge_missing(self.temp_dir, "fixture-run", "v0.1", self.backend, self.settings)
+        second_judge = judge_missing(self.temp_dir, "fixture-run", "v0.1", self.backend, self.settings)
+        self.assertEqual(2880, first_judge["scheduled"])
+        self.assertEqual(0, second_judge["scheduled"])
+
+    def test_aggregation_outputs_and_reports(self) -> None:
+        generate_missing(self.temp_dir, "fixture-run", "v0.1", self.backend, self.settings)
+        judge_missing(self.temp_dir, "fixture-run", "v0.1", self.backend, self.settings)
+        summary = generate_report(self.temp_dir, "fixture-run")
+
+        self.assertIn("writing_by_model", summary)
+        self.assertIn("writing_by_model_category", summary)
+        self.assertIn("writing_by_model_prompt", summary)
+        self.assertIn("judge_quality", summary)
+
+        analysis_dir = self.temp_dir / "runs" / "fixture-run" / "analysis"
+        self.assertTrue((analysis_dir / "summary.json").exists())
+        self.assertTrue((analysis_dir / "REPORT.md").exists())
+        self.assertTrue((analysis_dir / "overall_scores.svg").exists())
+        self.assertTrue((analysis_dir / "judge_quality.svg").exists())
+
+        with (analysis_dir / "writing_by_model.csv").open("r", encoding="utf-8") as handle:
+            rows = list(csv.DictReader(handle))
+        self.assertEqual(12, len(rows))
+
+        with (analysis_dir / "model_prompt_details.csv").open("r", encoding="utf-8") as handle:
+            rows = list(csv.DictReader(handle))
+        self.assertEqual(240, len(rows))
+
+    def test_add_model_only_backfills_missing_work(self) -> None:
+        generate_missing(self.temp_dir, "fixture-run", "v0.1", self.backend, self.settings)
+        judge_missing(self.temp_dir, "fixture-run", "v0.1", self.backend, self.settings)
+
+        models_path = self.temp_dir / "benchmark_versions" / "v0.1" / "models.json"
+        original = models_path.read_text(encoding="utf-8")
+        models_path.write_text(
+            original.rstrip()[:-1] + ',\n  { "model_id": "test/new-model", "label": "New Model" }\n]\n',
+            encoding="utf-8",
+        )
+
+        generate_result = generate_missing(self.temp_dir, "fixture-run", "v0.1", self.backend, self.settings)
+        judge_result = judge_missing(self.temp_dir, "fixture-run", "v0.1", self.backend, self.settings)
+        self.assertEqual(20, generate_result["scheduled"])
+        self.assertEqual(500, judge_result["scheduled"])
+
+    def _copy_tree(self, source: Path, destination: Path) -> None:
+        for path in source.rglob("*"):
+            relative = path.relative_to(source)
+            target = destination / relative
+            if path.is_dir():
+                target.mkdir(parents=True, exist_ok=True)
+            else:
+                target.parent.mkdir(parents=True, exist_ok=True)
+                target.write_bytes(path.read_bytes())
+
+
+if __name__ == "__main__":
+    unittest.main()

@@ -1,0 +1,42 @@
+{
+  "score_min": 1,
+  "score_max": 5,
+  "axes": [
+    {
+      "axis_id": "clarity",
+      "name": "Clarity",
+      "description": "The writing is easy to understand on a first read and avoids confusion."
+    },
+    {
+      "axis_id": "simplicity",
+      "name": "Simplicity",
+      "description": "The language is plain, direct, and free of inflated or needless wording."
+    },
+    {
+      "axis_id": "brevity_economy",
+      "name": "Brevity and economy",
+      "description": "The piece uses only the space it needs and avoids throat-clearing or repetition."
+    },
+    {
+      "axis_id": "structure_flow",
+      "name": "Structure and flow",
+      "description": "The organization is logical and carries the reader smoothly from one point to the next."
+    },
+    {
+      "axis_id": "specificity_precision",
+      "name": "Specificity and precision",
+      "description": "The piece uses concrete, exact, informative wording rather than vague generalities."
+    },
+    {
+      "axis_id": "humanity_voice",
+      "name": "Humanity and voice",
+      "description": "The writing sounds human, engaged, and reader-aware rather than bureaucratic or mechanical."
+    },
+    {
+      "axis_id": "overall",
+      "name": "Overall effectiveness",
+      "description": "Overall nonfiction writing quality for the task."
+    }
+  ],
+  "judging_instructions": "Score the response against each axis on a 1-5 scale. Judge the writing that is on the page, not the model's reputation. Keep the rationale short and concrete."
+}

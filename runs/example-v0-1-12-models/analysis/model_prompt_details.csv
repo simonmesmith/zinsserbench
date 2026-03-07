@@ -1,0 +1,721 @@
+candidate_model_id,prompt_id,prompt_category,candidate_response_text,scores
+anthropic/claude-opus-4.6,explain_food_recall,explain,"Claude Opus 4.6 response to Food recall explainer.
+
+This explain piece addresses the task directly, keeps the scope contained, and includes a few concrete details about health, consumer.","{'clarity': 2.75, 'simplicity': 2.5, 'brevity_economy': 3.0833, 'structure_flow': 3.6667, 'specificity_precision': 3.0, 'humanity_voice': 2.75, 'overall': 2.5}"
+anthropic/claude-opus-4.6,explain_heat_pumps,explain,"Claude Opus 4.6 response to Heat pump explainer.
+
+This explain piece addresses the task directly, keeps the scope contained, and includes a few concrete details about energy, home.","{'clarity': 2.75, 'simplicity': 3.3333, 'brevity_economy': 3.5, 'structure_flow': 2.4167, 'specificity_precision': 3.0, 'humanity_voice': 2.75, 'overall': 3.3333}"
+anthropic/claude-opus-4.6,explain_municipal_bonds,explain,"Claude Opus 4.6 response to Municipal bonds explainer.
+
+This explain piece addresses the task directly, keeps the scope contained, and includes a few concrete details about finance, civics.","{'clarity': 2.75, 'simplicity': 2.9167, 'brevity_economy': 3.0833, 'structure_flow': 2.8333, 'specificity_precision': 3.4167, 'humanity_voice': 2.75, 'overall': 2.9167}"
+anthropic/claude-opus-4.6,explain_property_tax,explain,"Claude Opus 4.6 response to Property tax explainer.
+
+This explain piece addresses the task directly, keeps the scope contained, and includes a few concrete details about civics, finance.","{'clarity': 2.25, 'simplicity': 2.4167, 'brevity_economy': 3.0, 'structure_flow': 3.5833, 'specificity_precision': 3.75, 'humanity_voice': 2.25, 'overall': 2.4167}"
+anthropic/claude-opus-4.6,howto_neighborhood_meeting,service_howto,"Claude Opus 4.6 response to Neighborhood meeting guide.
+
+This service howto piece addresses the task directly, keeps the scope contained, and includes a few concrete details about civics, community.","{'clarity': 2.5833, 'simplicity': 2.3333, 'brevity_economy': 3.3333, 'structure_flow': 3.9167, 'specificity_precision': 2.8333, 'humanity_voice': 2.5833, 'overall': 2.3333}"
+anthropic/claude-opus-4.6,howto_report_water_leak,service_howto,"Claude Opus 4.6 response to Water leak guide.
+
+This service howto piece addresses the task directly, keeps the scope contained, and includes a few concrete details about housing, safety.","{'clarity': 2.9167, 'simplicity': 3.0833, 'brevity_economy': 3.25, 'structure_flow': 3.4167, 'specificity_precision': 2.3333, 'humanity_voice': 2.9167, 'overall': 3.0833}"
+anthropic/claude-opus-4.6,howto_school_board_comment,service_howto,"Claude Opus 4.6 response to School board comment guide.
+
+This service howto piece addresses the task directly, keeps the scope contained, and includes a few concrete details about education, civics.","{'clarity': 3.0, 'simplicity': 3.1667, 'brevity_economy': 3.3333, 'structure_flow': 3.5, 'specificity_precision': 2.0, 'humanity_voice': 3.0, 'overall': 3.1667}"
+anthropic/claude-opus-4.6,memo_budget_freeze,memo,"Claude Opus 4.6 response to Budget freeze memo.
+
+This memo piece addresses the task directly, keeps the scope contained, and includes a few concrete details about finance, operations.","{'clarity': 2.9167, 'simplicity': 3.5, 'brevity_economy': 3.25, 'structure_flow': 2.5833, 'specificity_precision': 2.75, 'humanity_voice': 2.9167, 'overall': 3.5}"
+anthropic/claude-opus-4.6,memo_incident_response,memo,"Claude Opus 4.6 response to Incident response memo.
+
+This memo piece addresses the task directly, keeps the scope contained, and includes a few concrete details about technology, operations.","{'clarity': 3.25, 'simplicity': 3.4167, 'brevity_economy': 3.1667, 'structure_flow': 2.5, 'specificity_precision': 2.6667, 'humanity_voice': 3.25, 'overall': 3.4167}"
+anthropic/claude-opus-4.6,memo_remote_work_policy,memo,"Claude Opus 4.6 response to Remote work memo.
+
+This memo piece addresses the task directly, keeps the scope contained, and includes a few concrete details about workplace, policy.","{'clarity': 2.75, 'simplicity': 2.9167, 'brevity_economy': 3.0833, 'structure_flow': 2.8333, 'specificity_precision': 3.4167, 'humanity_voice': 2.75, 'overall': 2.9167}"
+anthropic/claude-opus-4.6,memo_schedule_change,memo,"Claude Opus 4.6 response to Schedule change memo.
+
+This memo piece addresses the task directly, keeps the scope contained, and includes a few concrete details about operations, workplace.","{'clarity': 2.1667, 'simplicity': 3.1667, 'brevity_economy': 3.75, 'structure_flow': 3.9167, 'specificity_precision': 2.0, 'humanity_voice': 2.1667, 'overall': 3.1667}"
+anthropic/claude-opus-4.6,oped_bus_lanes,persuasion_oped,"Claude Opus 4.6 response to Bus lanes op-ed.
+
+This persuasion oped piece addresses the task directly, keeps the scope contained, and includes a few concrete details about transportation, policy.","{'clarity': 2.8333, 'simplicity': 3.0, 'brevity_economy': 3.1667, 'structure_flow': 2.9167, 'specificity_precision': 3.0833, 'humanity_voice': 2.8333, 'overall': 3.0}"
+anthropic/claude-opus-4.6,oped_corner_store,persuasion_oped,"Claude Opus 4.6 response to Corner store zoning op-ed.
+
+This persuasion oped piece addresses the task directly, keeps the scope contained, and includes a few concrete details about urbanism, community.","{'clarity': 3.75, 'simplicity': 3.0833, 'brevity_economy': 2.4167, 'structure_flow': 2.5833, 'specificity_precision': 3.1667, 'humanity_voice': 3.75, 'overall': 3.0833}"
+anthropic/claude-opus-4.6,oped_library_hours,persuasion_oped,"Claude Opus 4.6 response to Library hours op-ed.
+
+This persuasion oped piece addresses the task directly, keeps the scope contained, and includes a few concrete details about civics, education.","{'clarity': 2.5833, 'simplicity': 3.1667, 'brevity_economy': 4.1667, 'structure_flow': 3.5, 'specificity_precision': 1.5833, 'humanity_voice': 2.5833, 'overall': 3.1667}"
+anthropic/claude-opus-4.6,personal_first_day_union_job,personal_nonfiction,"Claude Opus 4.6 response to First union job essay.
+
+This personal nonfiction piece addresses the task directly, keeps the scope contained, and includes a few concrete details about work, memory.","{'clarity': 3.4167, 'simplicity': 3.1667, 'brevity_economy': 2.5, 'structure_flow': 2.6667, 'specificity_precision': 3.25, 'humanity_voice': 3.4167, 'overall': 3.1667}"
+anthropic/claude-opus-4.6,personal_night_shift_bus,personal_nonfiction,"Claude Opus 4.6 response to Night shift bus essay.
+
+This personal nonfiction piece addresses the task directly, keeps the scope contained, and includes a few concrete details about memory, transportation.","{'clarity': 2.8333, 'simplicity': 3.0, 'brevity_economy': 3.1667, 'structure_flow': 2.9167, 'specificity_precision': 3.0833, 'humanity_voice': 2.8333, 'overall': 3.0}"
+anthropic/claude-opus-4.6,personal_public_pool,personal_nonfiction,"Claude Opus 4.6 response to Public pool essay.
+
+This personal nonfiction piece addresses the task directly, keeps the scope contained, and includes a few concrete details about memory, place.","{'clarity': 2.3333, 'simplicity': 2.9167, 'brevity_economy': 3.5, 'structure_flow': 3.25, 'specificity_precision': 3.0, 'humanity_voice': 2.3333, 'overall': 2.9167}"
+anthropic/claude-opus-4.6,profile_ferry_captain,profile,"Claude Opus 4.6 response to Ferry captain profile.
+
+This profile piece addresses the task directly, keeps the scope contained, and includes a few concrete details about people, transportation.","{'clarity': 3.1667, 'simplicity': 2.9167, 'brevity_economy': 3.0833, 'structure_flow': 2.4167, 'specificity_precision': 3.4167, 'humanity_voice': 3.1667, 'overall': 2.9167}"
+anthropic/claude-opus-4.6,profile_public_defender,profile,"Claude Opus 4.6 response to Public defender profile.
+
+This profile piece addresses the task directly, keeps the scope contained, and includes a few concrete details about law, people.","{'clarity': 2.5, 'simplicity': 3.0833, 'brevity_economy': 2.8333, 'structure_flow': 3.4167, 'specificity_precision': 3.1667, 'humanity_voice': 2.5, 'overall': 3.0833}"
+anthropic/claude-opus-4.6,profile_school_custodian,profile,"Claude Opus 4.6 response to Custodian profile.
+
+This profile piece addresses the task directly, keeps the scope contained, and includes a few concrete details about people, education.","{'clarity': 2.8333, 'simplicity': 3.0, 'brevity_economy': 3.1667, 'structure_flow': 3.3333, 'specificity_precision': 2.6667, 'humanity_voice': 2.8333, 'overall': 3.0}"
+anthropic/claude-sonnet-4.6,explain_food_recall,explain,"Claude Sonnet 4.6 response to Food recall explainer.
+
+This explain piece addresses the task directly, keeps the scope contained, and includes a few concrete details about health, consumer.","{'clarity': 2.3333, 'simplicity': 2.9167, 'brevity_economy': 3.5, 'structure_flow': 3.25, 'specificity_precision': 3.0, 'humanity_voice': 2.3333, 'overall': 2.9167}"
+anthropic/claude-sonnet-4.6,explain_heat_pumps,explain,"Claude Sonnet 4.6 response to Heat pump explainer.
+
+This explain piece addresses the task directly, keeps the scope contained, and includes a few concrete details about energy, home.","{'clarity': 1.9167, 'simplicity': 2.9167, 'brevity_economy': 3.0833, 'structure_flow': 3.25, 'specificity_precision': 3.8333, 'humanity_voice': 1.9167, 'overall': 2.9167}"
+anthropic/claude-sonnet-4.6,explain_municipal_bonds,explain,"Claude Sonnet 4.6 response to Municipal bonds explainer.
+
+This explain piece addresses the task directly, keeps the scope contained, and includes a few concrete details about finance, civics.","{'clarity': 3.1667, 'simplicity': 2.9167, 'brevity_economy': 3.0833, 'structure_flow': 2.8333, 'specificity_precision': 3.0, 'humanity_voice': 3.1667, 'overall': 2.9167}"
+anthropic/claude-sonnet-4.6,explain_property_tax,explain,"Claude Sonnet 4.6 response to Property tax explainer.
+
+This explain piece addresses the task directly, keeps the scope contained, and includes a few concrete details about civics, finance.","{'clarity': 3.4167, 'simplicity': 3.1667, 'brevity_economy': 2.9167, 'structure_flow': 2.6667, 'specificity_precision': 2.8333, 'humanity_voice': 3.4167, 'overall': 3.1667}"
+anthropic/claude-sonnet-4.6,howto_neighborhood_meeting,service_howto,"Claude Sonnet 4.6 response to Neighborhood meeting guide.
+
+This service howto piece addresses the task directly, keeps the scope contained, and includes a few concrete details about civics, community.","{'clarity': 2.6667, 'simplicity': 2.4167, 'brevity_economy': 2.5833, 'structure_flow': 3.5833, 'specificity_precision': 3.75, 'humanity_voice': 2.6667, 'overall': 2.4167}"
+anthropic/claude-sonnet-4.6,howto_report_water_leak,service_howto,"Claude Sonnet 4.6 response to Water leak guide.
+
+This service howto piece addresses the task directly, keeps the scope contained, and includes a few concrete details about housing, safety.","{'clarity': 3.1667, 'simplicity': 3.3333, 'brevity_economy': 2.6667, 'structure_flow': 2.8333, 'specificity_precision': 3.0, 'humanity_voice': 3.1667, 'overall': 3.3333}"
+anthropic/claude-sonnet-4.6,howto_school_board_comment,service_howto,"Claude Sonnet 4.6 response to School board comment guide.
+
+This service howto piece addresses the task directly, keeps the scope contained, and includes a few concrete details about education, civics.","{'clarity': 3.4167, 'simplicity': 2.75, 'brevity_economy': 3.3333, 'structure_flow': 2.25, 'specificity_precision': 3.25, 'humanity_voice': 3.4167, 'overall': 2.75}"
+anthropic/claude-sonnet-4.6,memo_budget_freeze,memo,"Claude Sonnet 4.6 response to Budget freeze memo.
+
+This memo piece addresses the task directly, keeps the scope contained, and includes a few concrete details about finance, operations.","{'clarity': 3.1667, 'simplicity': 2.9167, 'brevity_economy': 2.6667, 'structure_flow': 2.8333, 'specificity_precision': 3.4167, 'humanity_voice': 3.1667, 'overall': 2.9167}"
+anthropic/claude-sonnet-4.6,memo_incident_response,memo,"Claude Sonnet 4.6 response to Incident response memo.
+
+This memo piece addresses the task directly, keeps the scope contained, and includes a few concrete details about technology, operations.","{'clarity': 2.25, 'simplicity': 2.8333, 'brevity_economy': 3.4167, 'structure_flow': 3.5833, 'specificity_precision': 2.9167, 'humanity_voice': 2.25, 'overall': 2.8333}"
+anthropic/claude-sonnet-4.6,memo_remote_work_policy,memo,"Claude Sonnet 4.6 response to Remote work memo.
+
+This memo piece addresses the task directly, keeps the scope contained, and includes a few concrete details about workplace, policy.","{'clarity': 3.0, 'simplicity': 3.1667, 'brevity_economy': 3.3333, 'structure_flow': 2.6667, 'specificity_precision': 2.8333, 'humanity_voice': 3.0, 'overall': 3.1667}"
+anthropic/claude-sonnet-4.6,memo_schedule_change,memo,"Claude Sonnet 4.6 response to Schedule change memo.
+
+This memo piece addresses the task directly, keeps the scope contained, and includes a few concrete details about operations, workplace.","{'clarity': 2.5833, 'simplicity': 2.75, 'brevity_economy': 3.75, 'structure_flow': 2.6667, 'specificity_precision': 3.25, 'humanity_voice': 2.5833, 'overall': 2.75}"
+anthropic/claude-sonnet-4.6,oped_bus_lanes,persuasion_oped,"Claude Sonnet 4.6 response to Bus lanes op-ed.
+
+This persuasion oped piece addresses the task directly, keeps the scope contained, and includes a few concrete details about transportation, policy.","{'clarity': 3.5833, 'simplicity': 2.9167, 'brevity_economy': 2.6667, 'structure_flow': 2.8333, 'specificity_precision': 3.0, 'humanity_voice': 3.5833, 'overall': 2.9167}"
+anthropic/claude-sonnet-4.6,oped_corner_store,persuasion_oped,"Claude Sonnet 4.6 response to Corner store zoning op-ed.
+
+This persuasion oped piece addresses the task directly, keeps the scope contained, and includes a few concrete details about urbanism, community.","{'clarity': 3.0833, 'simplicity': 3.25, 'brevity_economy': 3.8333, 'structure_flow': 2.75, 'specificity_precision': 2.0833, 'humanity_voice': 3.0833, 'overall': 3.25}"
+anthropic/claude-sonnet-4.6,oped_library_hours,persuasion_oped,"Claude Sonnet 4.6 response to Library hours op-ed.
+
+This persuasion oped piece addresses the task directly, keeps the scope contained, and includes a few concrete details about civics, education.","{'clarity': 2.75, 'simplicity': 2.9167, 'brevity_economy': 3.5, 'structure_flow': 3.25, 'specificity_precision': 2.5833, 'humanity_voice': 2.75, 'overall': 2.9167}"
+anthropic/claude-sonnet-4.6,personal_first_day_union_job,personal_nonfiction,"Claude Sonnet 4.6 response to First union job essay.
+
+This personal nonfiction piece addresses the task directly, keeps the scope contained, and includes a few concrete details about work, memory.","{'clarity': 3.0, 'simplicity': 3.1667, 'brevity_economy': 2.5, 'structure_flow': 3.0833, 'specificity_precision': 3.25, 'humanity_voice': 3.0, 'overall': 3.1667}"
+anthropic/claude-sonnet-4.6,personal_night_shift_bus,personal_nonfiction,"Claude Sonnet 4.6 response to Night shift bus essay.
+
+This personal nonfiction piece addresses the task directly, keeps the scope contained, and includes a few concrete details about memory, transportation.","{'clarity': 3.4167, 'simplicity': 3.1667, 'brevity_economy': 2.5, 'structure_flow': 2.6667, 'specificity_precision': 3.25, 'humanity_voice': 3.4167, 'overall': 3.1667}"
+anthropic/claude-sonnet-4.6,personal_public_pool,personal_nonfiction,"Claude Sonnet 4.6 response to Public pool essay.
+
+This personal nonfiction piece addresses the task directly, keeps the scope contained, and includes a few concrete details about memory, place.","{'clarity': 3.0, 'simplicity': 3.1667, 'brevity_economy': 2.9167, 'structure_flow': 3.0833, 'specificity_precision': 2.8333, 'humanity_voice': 3.0, 'overall': 3.1667}"
+anthropic/claude-sonnet-4.6,profile_ferry_captain,profile,"Claude Sonnet 4.6 response to Ferry captain profile.
+
+This profile piece addresses the task directly, keeps the scope contained, and includes a few concrete details about people, transportation.","{'clarity': 3.1667, 'simplicity': 3.3333, 'brevity_economy': 3.5, 'structure_flow': 2.4167, 'specificity_precision': 2.5833, 'humanity_voice': 3.1667, 'overall': 3.3333}"
+anthropic/claude-sonnet-4.6,profile_public_defender,profile,"Claude Sonnet 4.6 response to Public defender profile.
+
+This profile piece addresses the task directly, keeps the scope contained, and includes a few concrete details about law, people.","{'clarity': 3.75, 'simplicity': 3.0833, 'brevity_economy': 2.4167, 'structure_flow': 2.5833, 'specificity_precision': 3.1667, 'humanity_voice': 3.75, 'overall': 3.0833}"
+anthropic/claude-sonnet-4.6,profile_school_custodian,profile,"Claude Sonnet 4.6 response to Custodian profile.
+
+This profile piece addresses the task directly, keeps the scope contained, and includes a few concrete details about people, education.","{'clarity': 3.0, 'simplicity': 2.75, 'brevity_economy': 2.9167, 'structure_flow': 3.0833, 'specificity_precision': 3.25, 'humanity_voice': 3.0, 'overall': 2.75}"
+deepseek/deepseek-v3.2,explain_food_recall,explain,"DeepSeek V3.2 response to Food recall explainer.
+
+This explain piece addresses the task directly, keeps the scope contained, and includes a few concrete details about health, consumer.","{'clarity': 3.0, 'simplicity': 3.1667, 'brevity_economy': 3.3333, 'structure_flow': 2.6667, 'specificity_precision': 2.8333, 'humanity_voice': 3.0, 'overall': 3.1667}"
+deepseek/deepseek-v3.2,explain_heat_pumps,explain,"DeepSeek V3.2 response to Heat pump explainer.
+
+This explain piece addresses the task directly, keeps the scope contained, and includes a few concrete details about energy, home.","{'clarity': 3.6667, 'simplicity': 2.5833, 'brevity_economy': 2.3333, 'structure_flow': 3.3333, 'specificity_precision': 3.0833, 'humanity_voice': 3.6667, 'overall': 2.5833}"
+deepseek/deepseek-v3.2,explain_municipal_bonds,explain,"DeepSeek V3.2 response to Municipal bonds explainer.
+
+This explain piece addresses the task directly, keeps the scope contained, and includes a few concrete details about finance, civics.","{'clarity': 2.75, 'simplicity': 3.3333, 'brevity_economy': 2.6667, 'structure_flow': 3.25, 'specificity_precision': 3.0, 'humanity_voice': 2.75, 'overall': 3.3333}"
+deepseek/deepseek-v3.2,explain_property_tax,explain,"DeepSeek V3.2 response to Property tax explainer.
+
+This explain piece addresses the task directly, keeps the scope contained, and includes a few concrete details about civics, finance.","{'clarity': 3.25, 'simplicity': 2.5833, 'brevity_economy': 3.1667, 'structure_flow': 2.9167, 'specificity_precision': 3.0833, 'humanity_voice': 3.25, 'overall': 2.5833}"
+deepseek/deepseek-v3.2,howto_neighborhood_meeting,service_howto,"DeepSeek V3.2 response to Neighborhood meeting guide.
+
+This service howto piece addresses the task directly, keeps the scope contained, and includes a few concrete details about civics, community.","{'clarity': 3.5, 'simplicity': 3.25, 'brevity_economy': 2.1667, 'structure_flow': 2.75, 'specificity_precision': 3.3333, 'humanity_voice': 3.5, 'overall': 3.25}"
+deepseek/deepseek-v3.2,howto_report_water_leak,service_howto,"DeepSeek V3.2 response to Water leak guide.
+
+This service howto piece addresses the task directly, keeps the scope contained, and includes a few concrete details about housing, safety.","{'clarity': 3.0833, 'simplicity': 2.8333, 'brevity_economy': 3.0, 'structure_flow': 2.75, 'specificity_precision': 3.3333, 'humanity_voice': 3.0833, 'overall': 2.8333}"
+deepseek/deepseek-v3.2,howto_school_board_comment,service_howto,"DeepSeek V3.2 response to School board comment guide.
+
+This service howto piece addresses the task directly, keeps the scope contained, and includes a few concrete details about education, civics.","{'clarity': 2.6667, 'simplicity': 2.4167, 'brevity_economy': 3.4167, 'structure_flow': 3.5833, 'specificity_precision': 2.9167, 'humanity_voice': 2.6667, 'overall': 2.4167}"
+deepseek/deepseek-v3.2,memo_budget_freeze,memo,"DeepSeek V3.2 response to Budget freeze memo.
+
+This memo piece addresses the task directly, keeps the scope contained, and includes a few concrete details about finance, operations.","{'clarity': 2.5, 'simplicity': 3.0833, 'brevity_economy': 3.6667, 'structure_flow': 3.0, 'specificity_precision': 2.75, 'humanity_voice': 2.5, 'overall': 3.0833}"
+deepseek/deepseek-v3.2,memo_incident_response,memo,"DeepSeek V3.2 response to Incident response memo.
+
+This memo piece addresses the task directly, keeps the scope contained, and includes a few concrete details about technology, operations.","{'clarity': 2.75, 'simplicity': 3.3333, 'brevity_economy': 3.5, 'structure_flow': 2.8333, 'specificity_precision': 2.5833, 'humanity_voice': 2.75, 'overall': 3.3333}"
+deepseek/deepseek-v3.2,memo_remote_work_policy,memo,"DeepSeek V3.2 response to Remote work memo.
+
+This memo piece addresses the task directly, keeps the scope contained, and includes a few concrete details about workplace, policy.","{'clarity': 3.6667, 'simplicity': 2.1667, 'brevity_economy': 2.75, 'structure_flow': 2.9167, 'specificity_precision': 3.5, 'humanity_voice': 3.6667, 'overall': 2.1667}"
+deepseek/deepseek-v3.2,memo_schedule_change,memo,"DeepSeek V3.2 response to Schedule change memo.
+
+This memo piece addresses the task directly, keeps the scope contained, and includes a few concrete details about operations, workplace.","{'clarity': 2.5833, 'simplicity': 3.1667, 'brevity_economy': 3.75, 'structure_flow': 3.0833, 'specificity_precision': 2.4167, 'humanity_voice': 2.5833, 'overall': 3.1667}"
+deepseek/deepseek-v3.2,oped_bus_lanes,persuasion_oped,"DeepSeek V3.2 response to Bus lanes op-ed.
+
+This persuasion oped piece addresses the task directly, keeps the scope contained, and includes a few concrete details about transportation, policy.","{'clarity': 2.3333, 'simplicity': 3.3333, 'brevity_economy': 3.0833, 'structure_flow': 3.25, 'specificity_precision': 3.0, 'humanity_voice': 2.3333, 'overall': 3.3333}"
+deepseek/deepseek-v3.2,oped_corner_store,persuasion_oped,"DeepSeek V3.2 response to Corner store zoning op-ed.
+
+This persuasion oped piece addresses the task directly, keeps the scope contained, and includes a few concrete details about urbanism, community.","{'clarity': 3.5, 'simplicity': 2.8333, 'brevity_economy': 3.0, 'structure_flow': 3.1667, 'specificity_precision': 2.5, 'humanity_voice': 3.5, 'overall': 2.8333}"
+deepseek/deepseek-v3.2,oped_library_hours,persuasion_oped,"DeepSeek V3.2 response to Library hours op-ed.
+
+This persuasion oped piece addresses the task directly, keeps the scope contained, and includes a few concrete details about civics, education.","{'clarity': 2.75, 'simplicity': 3.3333, 'brevity_economy': 3.5, 'structure_flow': 2.4167, 'specificity_precision': 3.0, 'humanity_voice': 2.75, 'overall': 3.3333}"
+deepseek/deepseek-v3.2,personal_first_day_union_job,personal_nonfiction,"DeepSeek V3.2 response to First union job essay.
+
+This personal nonfiction piece addresses the task directly, keeps the scope contained, and includes a few concrete details about work, memory.","{'clarity': 3.0833, 'simplicity': 2.8333, 'brevity_economy': 3.0, 'structure_flow': 2.75, 'specificity_precision': 3.3333, 'humanity_voice': 3.0833, 'overall': 2.8333}"
+deepseek/deepseek-v3.2,personal_night_shift_bus,personal_nonfiction,"DeepSeek V3.2 response to Night shift bus essay.
+
+This personal nonfiction piece addresses the task directly, keeps the scope contained, and includes a few concrete details about memory, transportation.","{'clarity': 3.9167, 'simplicity': 2.8333, 'brevity_economy': 3.0, 'structure_flow': 2.3333, 'specificity_precision': 2.9167, 'humanity_voice': 3.9167, 'overall': 2.8333}"
+deepseek/deepseek-v3.2,personal_public_pool,personal_nonfiction,"DeepSeek V3.2 response to Public pool essay.
+
+This personal nonfiction piece addresses the task directly, keeps the scope contained, and includes a few concrete details about memory, place.","{'clarity': 2.4167, 'simplicity': 3.0, 'brevity_economy': 3.1667, 'structure_flow': 3.75, 'specificity_precision': 2.6667, 'humanity_voice': 2.4167, 'overall': 3.0}"
+deepseek/deepseek-v3.2,profile_ferry_captain,profile,"DeepSeek V3.2 response to Ferry captain profile.
+
+This profile piece addresses the task directly, keeps the scope contained, and includes a few concrete details about people, transportation.","{'clarity': 3.1667, 'simplicity': 3.75, 'brevity_economy': 2.25, 'structure_flow': 2.8333, 'specificity_precision': 3.0, 'humanity_voice': 3.1667, 'overall': 3.75}"
+deepseek/deepseek-v3.2,profile_public_defender,profile,"DeepSeek V3.2 response to Public defender profile.
+
+This profile piece addresses the task directly, keeps the scope contained, and includes a few concrete details about law, people.","{'clarity': 2.6667, 'simplicity': 3.25, 'brevity_economy': 2.5833, 'structure_flow': 3.1667, 'specificity_precision': 3.3333, 'humanity_voice': 2.6667, 'overall': 3.25}"
+deepseek/deepseek-v3.2,profile_school_custodian,profile,"DeepSeek V3.2 response to Custodian profile.
+
+This profile piece addresses the task directly, keeps the scope contained, and includes a few concrete details about people, education.","{'clarity': 3.6667, 'simplicity': 3.8333, 'brevity_economy': 2.3333, 'structure_flow': 2.5, 'specificity_precision': 2.6667, 'humanity_voice': 3.6667, 'overall': 3.8333}"
+google/gemini-3.1-flash-lite-preview,explain_food_recall,explain,"Gemini 3.1 Flash Lite Preview response to Food recall explainer.
+
+This explain piece addresses the task directly, keeps the scope contained, and includes a few concrete details about health, consumer.","{'clarity': 3.4167, 'simplicity': 3.1667, 'brevity_economy': 3.3333, 'structure_flow': 2.6667, 'specificity_precision': 2.4167, 'humanity_voice': 3.4167, 'overall': 3.1667}"
+google/gemini-3.1-flash-lite-preview,explain_heat_pumps,explain,"Gemini 3.1 Flash Lite Preview response to Heat pump explainer.
+
+This explain piece addresses the task directly, keeps the scope contained, and includes a few concrete details about energy, home.","{'clarity': 3.0, 'simplicity': 1.9167, 'brevity_economy': 2.9167, 'structure_flow': 3.5, 'specificity_precision': 3.6667, 'humanity_voice': 3.0, 'overall': 1.9167}"
+google/gemini-3.1-flash-lite-preview,explain_municipal_bonds,explain,"Gemini 3.1 Flash Lite Preview response to Municipal bonds explainer.
+
+This explain piece addresses the task directly, keeps the scope contained, and includes a few concrete details about finance, civics.","{'clarity': 3.4167, 'simplicity': 2.75, 'brevity_economy': 2.9167, 'structure_flow': 2.6667, 'specificity_precision': 3.25, 'humanity_voice': 3.4167, 'overall': 2.75}"
+google/gemini-3.1-flash-lite-preview,explain_property_tax,explain,"Gemini 3.1 Flash Lite Preview response to Property tax explainer.
+
+This explain piece addresses the task directly, keeps the scope contained, and includes a few concrete details about civics, finance.","{'clarity': 3.0833, 'simplicity': 3.25, 'brevity_economy': 3.0, 'structure_flow': 3.1667, 'specificity_precision': 2.5, 'humanity_voice': 3.0833, 'overall': 3.25}"
+google/gemini-3.1-flash-lite-preview,howto_neighborhood_meeting,service_howto,"Gemini 3.1 Flash Lite Preview response to Neighborhood meeting guide.
+
+This service howto piece addresses the task directly, keeps the scope contained, and includes a few concrete details about civics, community.","{'clarity': 2.1667, 'simplicity': 2.75, 'brevity_economy': 3.3333, 'structure_flow': 3.9167, 'specificity_precision': 2.8333, 'humanity_voice': 2.1667, 'overall': 2.75}"
+google/gemini-3.1-flash-lite-preview,howto_report_water_leak,service_howto,"Gemini 3.1 Flash Lite Preview response to Water leak guide.
+
+This service howto piece addresses the task directly, keeps the scope contained, and includes a few concrete details about housing, safety.","{'clarity': 3.0, 'simplicity': 2.75, 'brevity_economy': 2.9167, 'structure_flow': 3.0833, 'specificity_precision': 3.25, 'humanity_voice': 3.0, 'overall': 2.75}"
+google/gemini-3.1-flash-lite-preview,howto_school_board_comment,service_howto,"Gemini 3.1 Flash Lite Preview response to School board comment guide.
+
+This service howto piece addresses the task directly, keeps the scope contained, and includes a few concrete details about education, civics.","{'clarity': 2.4167, 'simplicity': 2.5833, 'brevity_economy': 3.1667, 'structure_flow': 3.3333, 'specificity_precision': 3.5, 'humanity_voice': 2.4167, 'overall': 2.5833}"
+google/gemini-3.1-flash-lite-preview,memo_budget_freeze,memo,"Gemini 3.1 Flash Lite Preview response to Budget freeze memo.
+
+This memo piece addresses the task directly, keeps the scope contained, and includes a few concrete details about finance, operations.","{'clarity': 2.5833, 'simplicity': 2.75, 'brevity_economy': 3.3333, 'structure_flow': 3.5, 'specificity_precision': 2.8333, 'humanity_voice': 2.5833, 'overall': 2.75}"
+google/gemini-3.1-flash-lite-preview,memo_incident_response,memo,"Gemini 3.1 Flash Lite Preview response to Incident response memo.
+
+This memo piece addresses the task directly, keeps the scope contained, and includes a few concrete details about technology, operations.","{'clarity': 3.0, 'simplicity': 2.75, 'brevity_economy': 3.3333, 'structure_flow': 3.0833, 'specificity_precision': 2.8333, 'humanity_voice': 3.0, 'overall': 2.75}"
+google/gemini-3.1-flash-lite-preview,memo_remote_work_policy,memo,"Gemini 3.1 Flash Lite Preview response to Remote work memo.
+
+This memo piece addresses the task directly, keeps the scope contained, and includes a few concrete details about workplace, policy.","{'clarity': 3.25, 'simplicity': 3.0, 'brevity_economy': 2.75, 'structure_flow': 2.5, 'specificity_precision': 3.5, 'humanity_voice': 3.25, 'overall': 3.0}"
+google/gemini-3.1-flash-lite-preview,memo_schedule_change,memo,"Gemini 3.1 Flash Lite Preview response to Schedule change memo.
+
+This memo piece addresses the task directly, keeps the scope contained, and includes a few concrete details about operations, workplace.","{'clarity': 3.25, 'simplicity': 3.0, 'brevity_economy': 2.3333, 'structure_flow': 2.9167, 'specificity_precision': 3.5, 'humanity_voice': 3.25, 'overall': 3.0}"
+google/gemini-3.1-flash-lite-preview,oped_bus_lanes,persuasion_oped,"Gemini 3.1 Flash Lite Preview response to Bus lanes op-ed.
+
+This persuasion oped piece addresses the task directly, keeps the scope contained, and includes a few concrete details about transportation, policy.","{'clarity': 2.5833, 'simplicity': 3.1667, 'brevity_economy': 2.9167, 'structure_flow': 3.5, 'specificity_precision': 2.8333, 'humanity_voice': 2.5833, 'overall': 3.1667}"
+google/gemini-3.1-flash-lite-preview,oped_corner_store,persuasion_oped,"Gemini 3.1 Flash Lite Preview response to Corner store zoning op-ed.
+
+This persuasion oped piece addresses the task directly, keeps the scope contained, and includes a few concrete details about urbanism, community.","{'clarity': 3.75, 'simplicity': 2.6667, 'brevity_economy': 2.4167, 'structure_flow': 3.0, 'specificity_precision': 3.1667, 'humanity_voice': 3.75, 'overall': 2.6667}"
+google/gemini-3.1-flash-lite-preview,oped_library_hours,persuasion_oped,"Gemini 3.1 Flash Lite Preview response to Library hours op-ed.
+
+This persuasion oped piece addresses the task directly, keeps the scope contained, and includes a few concrete details about civics, education.","{'clarity': 2.6667, 'simplicity': 3.25, 'brevity_economy': 3.4167, 'structure_flow': 2.75, 'specificity_precision': 2.9167, 'humanity_voice': 2.6667, 'overall': 3.25}"
+google/gemini-3.1-flash-lite-preview,personal_first_day_union_job,personal_nonfiction,"Gemini 3.1 Flash Lite Preview response to First union job essay.
+
+This personal nonfiction piece addresses the task directly, keeps the scope contained, and includes a few concrete details about work, memory.","{'clarity': 3.25, 'simplicity': 2.5833, 'brevity_economy': 3.5833, 'structure_flow': 2.9167, 'specificity_precision': 2.6667, 'humanity_voice': 3.25, 'overall': 2.5833}"
+google/gemini-3.1-flash-lite-preview,personal_night_shift_bus,personal_nonfiction,"Gemini 3.1 Flash Lite Preview response to Night shift bus essay.
+
+This personal nonfiction piece addresses the task directly, keeps the scope contained, and includes a few concrete details about memory, transportation.","{'clarity': 2.1667, 'simplicity': 2.75, 'brevity_economy': 3.3333, 'structure_flow': 3.0833, 'specificity_precision': 3.6667, 'humanity_voice': 2.1667, 'overall': 2.75}"
+google/gemini-3.1-flash-lite-preview,personal_public_pool,personal_nonfiction,"Gemini 3.1 Flash Lite Preview response to Public pool essay.
+
+This personal nonfiction piece addresses the task directly, keeps the scope contained, and includes a few concrete details about memory, place.","{'clarity': 2.5833, 'simplicity': 2.75, 'brevity_economy': 2.9167, 'structure_flow': 3.0833, 'specificity_precision': 3.6667, 'humanity_voice': 2.5833, 'overall': 2.75}"
+google/gemini-3.1-flash-lite-preview,profile_ferry_captain,profile,"Gemini 3.1 Flash Lite Preview response to Ferry captain profile.
+
+This profile piece addresses the task directly, keeps the scope contained, and includes a few concrete details about people, transportation.","{'clarity': 2.6667, 'simplicity': 3.25, 'brevity_economy': 3.8333, 'structure_flow': 2.75, 'specificity_precision': 2.5, 'humanity_voice': 2.6667, 'overall': 3.25}"
+google/gemini-3.1-flash-lite-preview,profile_public_defender,profile,"Gemini 3.1 Flash Lite Preview response to Public defender profile.
+
+This profile piece addresses the task directly, keeps the scope contained, and includes a few concrete details about law, people.","{'clarity': 3.0833, 'simplicity': 3.6667, 'brevity_economy': 3.4167, 'structure_flow': 2.3333, 'specificity_precision': 2.5, 'humanity_voice': 3.0833, 'overall': 3.6667}"
+google/gemini-3.1-flash-lite-preview,profile_school_custodian,profile,"Gemini 3.1 Flash Lite Preview response to Custodian profile.
+
+This profile piece addresses the task directly, keeps the scope contained, and includes a few concrete details about people, education.","{'clarity': 2.5833, 'simplicity': 3.1667, 'brevity_economy': 2.9167, 'structure_flow': 2.6667, 'specificity_precision': 3.6667, 'humanity_voice': 2.5833, 'overall': 3.1667}"
+google/gemini-3.1-pro-preview,explain_food_recall,explain,"Gemini 3.1 Pro Preview response to Food recall explainer.
+
+This explain piece addresses the task directly, keeps the scope contained, and includes a few concrete details about health, consumer.","{'clarity': 2.3333, 'simplicity': 3.3333, 'brevity_economy': 3.5, 'structure_flow': 3.25, 'specificity_precision': 2.5833, 'humanity_voice': 2.3333, 'overall': 3.3333}"
+google/gemini-3.1-pro-preview,explain_heat_pumps,explain,"Gemini 3.1 Pro Preview response to Heat pump explainer.
+
+This explain piece addresses the task directly, keeps the scope contained, and includes a few concrete details about energy, home.","{'clarity': 3.0833, 'simplicity': 3.6667, 'brevity_economy': 3.4167, 'structure_flow': 1.9167, 'specificity_precision': 2.9167, 'humanity_voice': 3.0833, 'overall': 3.6667}"
+google/gemini-3.1-pro-preview,explain_municipal_bonds,explain,"Gemini 3.1 Pro Preview response to Municipal bonds explainer.
+
+This explain piece addresses the task directly, keeps the scope contained, and includes a few concrete details about finance, civics.","{'clarity': 3.3333, 'simplicity': 3.0833, 'brevity_economy': 3.25, 'structure_flow': 3.0, 'specificity_precision': 2.3333, 'humanity_voice': 3.3333, 'overall': 3.0833}"
+google/gemini-3.1-pro-preview,explain_property_tax,explain,"Gemini 3.1 Pro Preview response to Property tax explainer.
+
+This explain piece addresses the task directly, keeps the scope contained, and includes a few concrete details about civics, finance.","{'clarity': 3.3333, 'simplicity': 3.5, 'brevity_economy': 2.4167, 'structure_flow': 3.0, 'specificity_precision': 2.75, 'humanity_voice': 3.3333, 'overall': 3.5}"
+google/gemini-3.1-pro-preview,howto_neighborhood_meeting,service_howto,"Gemini 3.1 Pro Preview response to Neighborhood meeting guide.
+
+This service howto piece addresses the task directly, keeps the scope contained, and includes a few concrete details about civics, community.","{'clarity': 3.0, 'simplicity': 3.1667, 'brevity_economy': 2.9167, 'structure_flow': 3.5, 'specificity_precision': 2.4167, 'humanity_voice': 3.0, 'overall': 3.1667}"
+google/gemini-3.1-pro-preview,howto_report_water_leak,service_howto,"Gemini 3.1 Pro Preview response to Water leak guide.
+
+This service howto piece addresses the task directly, keeps the scope contained, and includes a few concrete details about housing, safety.","{'clarity': 2.5, 'simplicity': 2.6667, 'brevity_economy': 3.25, 'structure_flow': 3.8333, 'specificity_precision': 2.75, 'humanity_voice': 2.5, 'overall': 2.6667}"
+google/gemini-3.1-pro-preview,howto_school_board_comment,service_howto,"Gemini 3.1 Pro Preview response to School board comment guide.
+
+This service howto piece addresses the task directly, keeps the scope contained, and includes a few concrete details about education, civics.","{'clarity': 3.25, 'simplicity': 3.0, 'brevity_economy': 2.75, 'structure_flow': 3.75, 'specificity_precision': 2.25, 'humanity_voice': 3.25, 'overall': 3.0}"
+google/gemini-3.1-pro-preview,memo_budget_freeze,memo,"Gemini 3.1 Pro Preview response to Budget freeze memo.
+
+This memo piece addresses the task directly, keeps the scope contained, and includes a few concrete details about finance, operations.","{'clarity': 3.9167, 'simplicity': 2.4167, 'brevity_economy': 2.5833, 'structure_flow': 3.1667, 'specificity_precision': 2.9167, 'humanity_voice': 3.9167, 'overall': 2.4167}"
+google/gemini-3.1-pro-preview,memo_incident_response,memo,"Gemini 3.1 Pro Preview response to Incident response memo.
+
+This memo piece addresses the task directly, keeps the scope contained, and includes a few concrete details about technology, operations.","{'clarity': 3.1667, 'simplicity': 3.3333, 'brevity_economy': 3.5, 'structure_flow': 2.4167, 'specificity_precision': 2.5833, 'humanity_voice': 3.1667, 'overall': 3.3333}"
+google/gemini-3.1-pro-preview,memo_remote_work_policy,memo,"Gemini 3.1 Pro Preview response to Remote work memo.
+
+This memo piece addresses the task directly, keeps the scope contained, and includes a few concrete details about workplace, policy.","{'clarity': 2.6667, 'simplicity': 2.8333, 'brevity_economy': 3.4167, 'structure_flow': 3.1667, 'specificity_precision': 2.9167, 'humanity_voice': 2.6667, 'overall': 2.8333}"
+google/gemini-3.1-pro-preview,memo_schedule_change,memo,"Gemini 3.1 Pro Preview response to Schedule change memo.
+
+This memo piece addresses the task directly, keeps the scope contained, and includes a few concrete details about operations, workplace.","{'clarity': 2.25, 'simplicity': 2.8333, 'brevity_economy': 3.4167, 'structure_flow': 3.5833, 'specificity_precision': 2.9167, 'humanity_voice': 2.25, 'overall': 2.8333}"
+google/gemini-3.1-pro-preview,oped_bus_lanes,persuasion_oped,"Gemini 3.1 Pro Preview response to Bus lanes op-ed.
+
+This persuasion oped piece addresses the task directly, keeps the scope contained, and includes a few concrete details about transportation, policy.","{'clarity': 3.1667, 'simplicity': 2.5, 'brevity_economy': 2.6667, 'structure_flow': 3.25, 'specificity_precision': 3.4167, 'humanity_voice': 3.1667, 'overall': 2.5}"
+google/gemini-3.1-pro-preview,oped_corner_store,persuasion_oped,"Gemini 3.1 Pro Preview response to Corner store zoning op-ed.
+
+This persuasion oped piece addresses the task directly, keeps the scope contained, and includes a few concrete details about urbanism, community.","{'clarity': 3.5, 'simplicity': 3.25, 'brevity_economy': 2.5833, 'structure_flow': 2.75, 'specificity_precision': 2.9167, 'humanity_voice': 3.5, 'overall': 3.25}"
+google/gemini-3.1-pro-preview,oped_library_hours,persuasion_oped,"Gemini 3.1 Pro Preview response to Library hours op-ed.
+
+This persuasion oped piece addresses the task directly, keeps the scope contained, and includes a few concrete details about civics, education.","{'clarity': 2.8333, 'simplicity': 3.4167, 'brevity_economy': 3.1667, 'structure_flow': 2.9167, 'specificity_precision': 2.6667, 'humanity_voice': 2.8333, 'overall': 3.4167}"
+google/gemini-3.1-pro-preview,personal_first_day_union_job,personal_nonfiction,"Gemini 3.1 Pro Preview response to First union job essay.
+
+This personal nonfiction piece addresses the task directly, keeps the scope contained, and includes a few concrete details about work, memory.","{'clarity': 2.75, 'simplicity': 3.3333, 'brevity_economy': 3.0833, 'structure_flow': 3.25, 'specificity_precision': 2.5833, 'humanity_voice': 2.75, 'overall': 3.3333}"
+google/gemini-3.1-pro-preview,personal_night_shift_bus,personal_nonfiction,"Gemini 3.1 Pro Preview response to Night shift bus essay.
+
+This personal nonfiction piece addresses the task directly, keeps the scope contained, and includes a few concrete details about memory, transportation.","{'clarity': 3.5833, 'simplicity': 2.9167, 'brevity_economy': 2.25, 'structure_flow': 2.8333, 'specificity_precision': 3.4167, 'humanity_voice': 3.5833, 'overall': 2.9167}"
+google/gemini-3.1-pro-preview,personal_public_pool,personal_nonfiction,"Gemini 3.1 Pro Preview response to Public pool essay.
+
+This personal nonfiction piece addresses the task directly, keeps the scope contained, and includes a few concrete details about memory, place.","{'clarity': 2.75, 'simplicity': 2.9167, 'brevity_economy': 2.6667, 'structure_flow': 2.8333, 'specificity_precision': 3.8333, 'humanity_voice': 2.75, 'overall': 2.9167}"
+google/gemini-3.1-pro-preview,profile_ferry_captain,profile,"Gemini 3.1 Pro Preview response to Ferry captain profile.
+
+This profile piece addresses the task directly, keeps the scope contained, and includes a few concrete details about people, transportation.","{'clarity': 2.5, 'simplicity': 3.0833, 'brevity_economy': 2.8333, 'structure_flow': 3.4167, 'specificity_precision': 3.1667, 'humanity_voice': 2.5, 'overall': 3.0833}"
+google/gemini-3.1-pro-preview,profile_public_defender,profile,"Gemini 3.1 Pro Preview response to Public defender profile.
+
+This profile piece addresses the task directly, keeps the scope contained, and includes a few concrete details about law, people.","{'clarity': 3.5, 'simplicity': 2.8333, 'brevity_economy': 3.0, 'structure_flow': 2.75, 'specificity_precision': 2.9167, 'humanity_voice': 3.5, 'overall': 2.8333}"
+google/gemini-3.1-pro-preview,profile_school_custodian,profile,"Gemini 3.1 Pro Preview response to Custodian profile.
+
+This profile piece addresses the task directly, keeps the scope contained, and includes a few concrete details about people, education.","{'clarity': 2.5833, 'simplicity': 2.75, 'brevity_economy': 3.75, 'structure_flow': 3.0833, 'specificity_precision': 2.8333, 'humanity_voice': 2.5833, 'overall': 2.75}"
+minimax/minimax-m2.5,explain_food_recall,explain,"MiniMax M2.5 response to Food recall explainer.
+
+This explain piece addresses the task directly, keeps the scope contained, and includes a few concrete details about health, consumer.","{'clarity': 3.5, 'simplicity': 2.8333, 'brevity_economy': 3.0, 'structure_flow': 2.75, 'specificity_precision': 2.9167, 'humanity_voice': 3.5, 'overall': 2.8333}"
+minimax/minimax-m2.5,explain_heat_pumps,explain,"MiniMax M2.5 response to Heat pump explainer.
+
+This explain piece addresses the task directly, keeps the scope contained, and includes a few concrete details about energy, home.","{'clarity': 2.9167, 'simplicity': 2.6667, 'brevity_economy': 2.8333, 'structure_flow': 3.4167, 'specificity_precision': 3.1667, 'humanity_voice': 2.9167, 'overall': 2.6667}"
+minimax/minimax-m2.5,explain_municipal_bonds,explain,"MiniMax M2.5 response to Municipal bonds explainer.
+
+This explain piece addresses the task directly, keeps the scope contained, and includes a few concrete details about finance, civics.","{'clarity': 2.25, 'simplicity': 2.4167, 'brevity_economy': 3.4167, 'structure_flow': 3.1667, 'specificity_precision': 3.75, 'humanity_voice': 2.25, 'overall': 2.4167}"
+minimax/minimax-m2.5,explain_property_tax,explain,"MiniMax M2.5 response to Property tax explainer.
+
+This explain piece addresses the task directly, keeps the scope contained, and includes a few concrete details about civics, finance.","{'clarity': 2.5, 'simplicity': 3.0833, 'brevity_economy': 2.8333, 'structure_flow': 3.4167, 'specificity_precision': 3.1667, 'humanity_voice': 2.5, 'overall': 3.0833}"
+minimax/minimax-m2.5,howto_neighborhood_meeting,service_howto,"MiniMax M2.5 response to Neighborhood meeting guide.
+
+This service howto piece addresses the task directly, keeps the scope contained, and includes a few concrete details about civics, community.","{'clarity': 3.5, 'simplicity': 2.8333, 'brevity_economy': 2.5833, 'structure_flow': 2.75, 'specificity_precision': 3.3333, 'humanity_voice': 3.5, 'overall': 2.8333}"
+minimax/minimax-m2.5,howto_report_water_leak,service_howto,"MiniMax M2.5 response to Water leak guide.
+
+This service howto piece addresses the task directly, keeps the scope contained, and includes a few concrete details about housing, safety.","{'clarity': 3.5, 'simplicity': 3.25, 'brevity_economy': 2.5833, 'structure_flow': 2.75, 'specificity_precision': 2.9167, 'humanity_voice': 3.5, 'overall': 3.25}"
+minimax/minimax-m2.5,howto_school_board_comment,service_howto,"MiniMax M2.5 response to School board comment guide.
+
+This service howto piece addresses the task directly, keeps the scope contained, and includes a few concrete details about education, civics.","{'clarity': 2.5, 'simplicity': 2.6667, 'brevity_economy': 3.25, 'structure_flow': 4.25, 'specificity_precision': 2.3333, 'humanity_voice': 2.5, 'overall': 2.6667}"
+minimax/minimax-m2.5,memo_budget_freeze,memo,"MiniMax M2.5 response to Budget freeze memo.
+
+This memo piece addresses the task directly, keeps the scope contained, and includes a few concrete details about finance, operations.","{'clarity': 2.9167, 'simplicity': 3.0833, 'brevity_economy': 3.25, 'structure_flow': 2.5833, 'specificity_precision': 3.1667, 'humanity_voice': 2.9167, 'overall': 3.0833}"
+minimax/minimax-m2.5,memo_incident_response,memo,"MiniMax M2.5 response to Incident response memo.
+
+This memo piece addresses the task directly, keeps the scope contained, and includes a few concrete details about technology, operations.","{'clarity': 3.3333, 'simplicity': 3.0833, 'brevity_economy': 3.6667, 'structure_flow': 2.5833, 'specificity_precision': 2.3333, 'humanity_voice': 3.3333, 'overall': 3.0833}"
+minimax/minimax-m2.5,memo_remote_work_policy,memo,"MiniMax M2.5 response to Remote work memo.
+
+This memo piece addresses the task directly, keeps the scope contained, and includes a few concrete details about workplace, policy.","{'clarity': 3.0, 'simplicity': 3.1667, 'brevity_economy': 3.3333, 'structure_flow': 3.5, 'specificity_precision': 2.0, 'humanity_voice': 3.0, 'overall': 3.1667}"
+minimax/minimax-m2.5,memo_schedule_change,memo,"MiniMax M2.5 response to Schedule change memo.
+
+This memo piece addresses the task directly, keeps the scope contained, and includes a few concrete details about operations, workplace.","{'clarity': 3.0833, 'simplicity': 3.25, 'brevity_economy': 3.0, 'structure_flow': 2.75, 'specificity_precision': 2.9167, 'humanity_voice': 3.0833, 'overall': 3.25}"
+minimax/minimax-m2.5,oped_bus_lanes,persuasion_oped,"MiniMax M2.5 response to Bus lanes op-ed.
+
+This persuasion oped piece addresses the task directly, keeps the scope contained, and includes a few concrete details about transportation, policy.","{'clarity': 3.5, 'simplicity': 2.4167, 'brevity_economy': 2.5833, 'structure_flow': 3.5833, 'specificity_precision': 2.9167, 'humanity_voice': 3.5, 'overall': 2.4167}"
+minimax/minimax-m2.5,oped_corner_store,persuasion_oped,"MiniMax M2.5 response to Corner store zoning op-ed.
+
+This persuasion oped piece addresses the task directly, keeps the scope contained, and includes a few concrete details about urbanism, community.","{'clarity': 2.75, 'simplicity': 2.5, 'brevity_economy': 3.0833, 'structure_flow': 3.25, 'specificity_precision': 3.4167, 'humanity_voice': 2.75, 'overall': 2.5}"
+minimax/minimax-m2.5,oped_library_hours,persuasion_oped,"MiniMax M2.5 response to Library hours op-ed.
+
+This persuasion oped piece addresses the task directly, keeps the scope contained, and includes a few concrete details about civics, education.","{'clarity': 3.25, 'simplicity': 3.0, 'brevity_economy': 2.75, 'structure_flow': 3.3333, 'specificity_precision': 2.6667, 'humanity_voice': 3.25, 'overall': 3.0}"
+minimax/minimax-m2.5,personal_first_day_union_job,personal_nonfiction,"MiniMax M2.5 response to First union job essay.
+
+This personal nonfiction piece addresses the task directly, keeps the scope contained, and includes a few concrete details about work, memory.","{'clarity': 3.5, 'simplicity': 2.4167, 'brevity_economy': 2.1667, 'structure_flow': 3.1667, 'specificity_precision': 3.75, 'humanity_voice': 3.5, 'overall': 2.4167}"
+minimax/minimax-m2.5,personal_night_shift_bus,personal_nonfiction,"MiniMax M2.5 response to Night shift bus essay.
+
+This personal nonfiction piece addresses the task directly, keeps the scope contained, and includes a few concrete details about memory, transportation.","{'clarity': 3.25, 'simplicity': 3.4167, 'brevity_economy': 2.75, 'structure_flow': 3.3333, 'specificity_precision': 2.25, 'humanity_voice': 3.25, 'overall': 3.4167}"
+minimax/minimax-m2.5,personal_public_pool,personal_nonfiction,"MiniMax M2.5 response to Public pool essay.
+
+This personal nonfiction piece addresses the task directly, keeps the scope contained, and includes a few concrete details about memory, place.","{'clarity': 3.6667, 'simplicity': 3.0, 'brevity_economy': 2.75, 'structure_flow': 2.9167, 'specificity_precision': 2.6667, 'humanity_voice': 3.6667, 'overall': 3.0}"
+minimax/minimax-m2.5,profile_ferry_captain,profile,"MiniMax M2.5 response to Ferry captain profile.
+
+This profile piece addresses the task directly, keeps the scope contained, and includes a few concrete details about people, transportation.","{'clarity': 3.0833, 'simplicity': 2.4167, 'brevity_economy': 3.0, 'structure_flow': 3.1667, 'specificity_precision': 3.3333, 'humanity_voice': 3.0833, 'overall': 2.4167}"
+minimax/minimax-m2.5,profile_public_defender,profile,"MiniMax M2.5 response to Public defender profile.
+
+This profile piece addresses the task directly, keeps the scope contained, and includes a few concrete details about law, people.","{'clarity': 3.25, 'simplicity': 3.0, 'brevity_economy': 2.75, 'structure_flow': 2.9167, 'specificity_precision': 3.0833, 'humanity_voice': 3.25, 'overall': 3.0}"
+minimax/minimax-m2.5,profile_school_custodian,profile,"MiniMax M2.5 response to Custodian profile.
+
+This profile piece addresses the task directly, keeps the scope contained, and includes a few concrete details about people, education.","{'clarity': 3.5, 'simplicity': 2.8333, 'brevity_economy': 2.5833, 'structure_flow': 2.75, 'specificity_precision': 3.3333, 'humanity_voice': 3.5, 'overall': 2.8333}"
+moonshotai/kimi-k2.5,explain_food_recall,explain,"Kimi K2.5 response to Food recall explainer.
+
+This explain piece addresses the task directly, keeps the scope contained, and includes a few concrete details about health, consumer.","{'clarity': 3.1667, 'simplicity': 2.0833, 'brevity_economy': 2.6667, 'structure_flow': 3.25, 'specificity_precision': 3.8333, 'humanity_voice': 3.1667, 'overall': 2.0833}"
+moonshotai/kimi-k2.5,explain_heat_pumps,explain,"Kimi K2.5 response to Heat pump explainer.
+
+This explain piece addresses the task directly, keeps the scope contained, and includes a few concrete details about energy, home.","{'clarity': 3.4167, 'simplicity': 4.0, 'brevity_economy': 2.5, 'structure_flow': 2.25, 'specificity_precision': 2.8333, 'humanity_voice': 3.4167, 'overall': 4.0}"
+moonshotai/kimi-k2.5,explain_municipal_bonds,explain,"Kimi K2.5 response to Municipal bonds explainer.
+
+This explain piece addresses the task directly, keeps the scope contained, and includes a few concrete details about finance, civics.","{'clarity': 3.4167, 'simplicity': 2.75, 'brevity_economy': 3.3333, 'structure_flow': 2.6667, 'specificity_precision': 2.8333, 'humanity_voice': 3.4167, 'overall': 2.75}"
+moonshotai/kimi-k2.5,explain_property_tax,explain,"Kimi K2.5 response to Property tax explainer.
+
+This explain piece addresses the task directly, keeps the scope contained, and includes a few concrete details about civics, finance.","{'clarity': 3.6667, 'simplicity': 2.5833, 'brevity_economy': 2.3333, 'structure_flow': 2.9167, 'specificity_precision': 3.5, 'humanity_voice': 3.6667, 'overall': 2.5833}"
+moonshotai/kimi-k2.5,howto_neighborhood_meeting,service_howto,"Kimi K2.5 response to Neighborhood meeting guide.
+
+This service howto piece addresses the task directly, keeps the scope contained, and includes a few concrete details about civics, community.","{'clarity': 2.8333, 'simplicity': 3.0, 'brevity_economy': 3.1667, 'structure_flow': 3.3333, 'specificity_precision': 2.6667, 'humanity_voice': 2.8333, 'overall': 3.0}"
+moonshotai/kimi-k2.5,howto_report_water_leak,service_howto,"Kimi K2.5 response to Water leak guide.
+
+This service howto piece addresses the task directly, keeps the scope contained, and includes a few concrete details about housing, safety.","{'clarity': 2.1667, 'simplicity': 2.75, 'brevity_economy': 3.75, 'structure_flow': 3.5, 'specificity_precision': 2.8333, 'humanity_voice': 2.1667, 'overall': 2.75}"
+moonshotai/kimi-k2.5,howto_school_board_comment,service_howto,"Kimi K2.5 response to School board comment guide.
+
+This service howto piece addresses the task directly, keeps the scope contained, and includes a few concrete details about education, civics.","{'clarity': 3.0, 'simplicity': 2.3333, 'brevity_economy': 2.9167, 'structure_flow': 3.5, 'specificity_precision': 3.25, 'humanity_voice': 3.0, 'overall': 2.3333}"
+moonshotai/kimi-k2.5,memo_budget_freeze,memo,"Kimi K2.5 response to Budget freeze memo.
+
+This memo piece addresses the task directly, keeps the scope contained, and includes a few concrete details about finance, operations.","{'clarity': 3.5833, 'simplicity': 2.9167, 'brevity_economy': 2.6667, 'structure_flow': 2.8333, 'specificity_precision': 3.0, 'humanity_voice': 3.5833, 'overall': 2.9167}"
+moonshotai/kimi-k2.5,memo_incident_response,memo,"Kimi K2.5 response to Incident response memo.
+
+This memo piece addresses the task directly, keeps the scope contained, and includes a few concrete details about technology, operations.","{'clarity': 3.0, 'simplicity': 3.5833, 'brevity_economy': 3.3333, 'structure_flow': 2.25, 'specificity_precision': 2.8333, 'humanity_voice': 3.0, 'overall': 3.5833}"
+moonshotai/kimi-k2.5,memo_remote_work_policy,memo,"Kimi K2.5 response to Remote work memo.
+
+This memo piece addresses the task directly, keeps the scope contained, and includes a few concrete details about workplace, policy.","{'clarity': 2.6667, 'simplicity': 2.8333, 'brevity_economy': 3.0, 'structure_flow': 3.1667, 'specificity_precision': 3.3333, 'humanity_voice': 2.6667, 'overall': 2.8333}"
+moonshotai/kimi-k2.5,memo_schedule_change,memo,"Kimi K2.5 response to Schedule change memo.
+
+This memo piece addresses the task directly, keeps the scope contained, and includes a few concrete details about operations, workplace.","{'clarity': 3.1667, 'simplicity': 2.9167, 'brevity_economy': 3.5, 'structure_flow': 2.8333, 'specificity_precision': 2.5833, 'humanity_voice': 3.1667, 'overall': 2.9167}"
+moonshotai/kimi-k2.5,oped_bus_lanes,persuasion_oped,"Kimi K2.5 response to Bus lanes op-ed.
+
+This persuasion oped piece addresses the task directly, keeps the scope contained, and includes a few concrete details about transportation, policy.","{'clarity': 3.1667, 'simplicity': 2.9167, 'brevity_economy': 2.25, 'structure_flow': 3.25, 'specificity_precision': 3.4167, 'humanity_voice': 3.1667, 'overall': 2.9167}"
+moonshotai/kimi-k2.5,oped_corner_store,persuasion_oped,"Kimi K2.5 response to Corner store zoning op-ed.
+
+This persuasion oped piece addresses the task directly, keeps the scope contained, and includes a few concrete details about urbanism, community.","{'clarity': 2.25, 'simplicity': 2.8333, 'brevity_economy': 3.0, 'structure_flow': 3.5833, 'specificity_precision': 3.3333, 'humanity_voice': 2.25, 'overall': 2.8333}"
+moonshotai/kimi-k2.5,oped_library_hours,persuasion_oped,"Kimi K2.5 response to Library hours op-ed.
+
+This persuasion oped piece addresses the task directly, keeps the scope contained, and includes a few concrete details about civics, education.","{'clarity': 2.75, 'simplicity': 2.9167, 'brevity_economy': 3.0833, 'structure_flow': 3.25, 'specificity_precision': 3.0, 'humanity_voice': 2.75, 'overall': 2.9167}"
+moonshotai/kimi-k2.5,personal_first_day_union_job,personal_nonfiction,"Kimi K2.5 response to First union job essay.
+
+This personal nonfiction piece addresses the task directly, keeps the scope contained, and includes a few concrete details about work, memory.","{'clarity': 3.0, 'simplicity': 3.1667, 'brevity_economy': 3.75, 'structure_flow': 2.6667, 'specificity_precision': 2.4167, 'humanity_voice': 3.0, 'overall': 3.1667}"
+moonshotai/kimi-k2.5,personal_night_shift_bus,personal_nonfiction,"Kimi K2.5 response to Night shift bus essay.
+
+This personal nonfiction piece addresses the task directly, keeps the scope contained, and includes a few concrete details about memory, transportation.","{'clarity': 4.0833, 'simplicity': 3.0, 'brevity_economy': 2.3333, 'structure_flow': 2.5, 'specificity_precision': 3.0833, 'humanity_voice': 4.0833, 'overall': 3.0}"
+moonshotai/kimi-k2.5,personal_public_pool,personal_nonfiction,"Kimi K2.5 response to Public pool essay.
+
+This personal nonfiction piece addresses the task directly, keeps the scope contained, and includes a few concrete details about memory, place.","{'clarity': 3.0833, 'simplicity': 3.6667, 'brevity_economy': 3.4167, 'structure_flow': 2.3333, 'specificity_precision': 2.5, 'humanity_voice': 3.0833, 'overall': 3.6667}"
+moonshotai/kimi-k2.5,profile_ferry_captain,profile,"Kimi K2.5 response to Ferry captain profile.
+
+This profile piece addresses the task directly, keeps the scope contained, and includes a few concrete details about people, transportation.","{'clarity': 2.25, 'simplicity': 3.25, 'brevity_economy': 3.4167, 'structure_flow': 3.5833, 'specificity_precision': 2.5, 'humanity_voice': 2.25, 'overall': 3.25}"
+moonshotai/kimi-k2.5,profile_public_defender,profile,"Kimi K2.5 response to Public defender profile.
+
+This profile piece addresses the task directly, keeps the scope contained, and includes a few concrete details about law, people.","{'clarity': 3.1667, 'simplicity': 2.5, 'brevity_economy': 3.0833, 'structure_flow': 2.8333, 'specificity_precision': 3.4167, 'humanity_voice': 3.1667, 'overall': 2.5}"
+moonshotai/kimi-k2.5,profile_school_custodian,profile,"Kimi K2.5 response to Custodian profile.
+
+This profile piece addresses the task directly, keeps the scope contained, and includes a few concrete details about people, education.","{'clarity': 3.1667, 'simplicity': 3.75, 'brevity_economy': 2.6667, 'structure_flow': 2.4167, 'specificity_precision': 3.0, 'humanity_voice': 3.1667, 'overall': 3.75}"
+openai/gpt-5.3-chat,explain_food_recall,explain,"GPT-5.3 Chat response to Food recall explainer.
+
+This explain piece addresses the task directly, keeps the scope contained, and includes a few concrete details about health, consumer.","{'clarity': 2.1667, 'simplicity': 2.75, 'brevity_economy': 3.3333, 'structure_flow': 3.5, 'specificity_precision': 3.25, 'humanity_voice': 2.1667, 'overall': 2.75}"
+openai/gpt-5.3-chat,explain_heat_pumps,explain,"GPT-5.3 Chat response to Heat pump explainer.
+
+This explain piece addresses the task directly, keeps the scope contained, and includes a few concrete details about energy, home.","{'clarity': 2.5833, 'simplicity': 3.5833, 'brevity_economy': 2.9167, 'structure_flow': 2.6667, 'specificity_precision': 3.25, 'humanity_voice': 2.5833, 'overall': 3.5833}"
+openai/gpt-5.3-chat,explain_municipal_bonds,explain,"GPT-5.3 Chat response to Municipal bonds explainer.
+
+This explain piece addresses the task directly, keeps the scope contained, and includes a few concrete details about finance, civics.","{'clarity': 3.75, 'simplicity': 2.25, 'brevity_economy': 2.4167, 'structure_flow': 3.0, 'specificity_precision': 3.5833, 'humanity_voice': 3.75, 'overall': 2.25}"
+openai/gpt-5.3-chat,explain_property_tax,explain,"GPT-5.3 Chat response to Property tax explainer.
+
+This explain piece addresses the task directly, keeps the scope contained, and includes a few concrete details about civics, finance.","{'clarity': 2.8333, 'simplicity': 3.4167, 'brevity_economy': 2.3333, 'structure_flow': 2.9167, 'specificity_precision': 3.5, 'humanity_voice': 2.8333, 'overall': 3.4167}"
+openai/gpt-5.3-chat,howto_neighborhood_meeting,service_howto,"GPT-5.3 Chat response to Neighborhood meeting guide.
+
+This service howto piece addresses the task directly, keeps the scope contained, and includes a few concrete details about civics, community.","{'clarity': 2.75, 'simplicity': 2.9167, 'brevity_economy': 3.5, 'structure_flow': 2.8333, 'specificity_precision': 3.0, 'humanity_voice': 2.75, 'overall': 2.9167}"
+openai/gpt-5.3-chat,howto_report_water_leak,service_howto,"GPT-5.3 Chat response to Water leak guide.
+
+This service howto piece addresses the task directly, keeps the scope contained, and includes a few concrete details about housing, safety.","{'clarity': 3.0833, 'simplicity': 2.4167, 'brevity_economy': 3.0, 'structure_flow': 3.1667, 'specificity_precision': 3.3333, 'humanity_voice': 3.0833, 'overall': 2.4167}"
+openai/gpt-5.3-chat,howto_school_board_comment,service_howto,"GPT-5.3 Chat response to School board comment guide.
+
+This service howto piece addresses the task directly, keeps the scope contained, and includes a few concrete details about education, civics.","{'clarity': 3.0, 'simplicity': 3.1667, 'brevity_economy': 3.3333, 'structure_flow': 3.0833, 'specificity_precision': 2.4167, 'humanity_voice': 3.0, 'overall': 3.1667}"
+openai/gpt-5.3-chat,memo_budget_freeze,memo,"GPT-5.3 Chat response to Budget freeze memo.
+
+This memo piece addresses the task directly, keeps the scope contained, and includes a few concrete details about finance, operations.","{'clarity': 2.3333, 'simplicity': 2.5, 'brevity_economy': 3.5, 'structure_flow': 3.25, 'specificity_precision': 3.4167, 'humanity_voice': 2.3333, 'overall': 2.5}"
+openai/gpt-5.3-chat,memo_incident_response,memo,"GPT-5.3 Chat response to Incident response memo.
+
+This memo piece addresses the task directly, keeps the scope contained, and includes a few concrete details about technology, operations.","{'clarity': 2.9167, 'simplicity': 2.25, 'brevity_economy': 2.8333, 'structure_flow': 3.8333, 'specificity_precision': 3.1667, 'humanity_voice': 2.9167, 'overall': 2.25}"
+openai/gpt-5.3-chat,memo_remote_work_policy,memo,"GPT-5.3 Chat response to Remote work memo.
+
+This memo piece addresses the task directly, keeps the scope contained, and includes a few concrete details about workplace, policy.","{'clarity': 2.5, 'simplicity': 3.0833, 'brevity_economy': 2.8333, 'structure_flow': 3.4167, 'specificity_precision': 3.1667, 'humanity_voice': 2.5, 'overall': 3.0833}"
+openai/gpt-5.3-chat,memo_schedule_change,memo,"GPT-5.3 Chat response to Schedule change memo.
+
+This memo piece addresses the task directly, keeps the scope contained, and includes a few concrete details about operations, workplace.","{'clarity': 2.6667, 'simplicity': 2.8333, 'brevity_economy': 3.0, 'structure_flow': 3.1667, 'specificity_precision': 3.3333, 'humanity_voice': 2.6667, 'overall': 2.8333}"
+openai/gpt-5.3-chat,oped_bus_lanes,persuasion_oped,"GPT-5.3 Chat response to Bus lanes op-ed.
+
+This persuasion oped piece addresses the task directly, keeps the scope contained, and includes a few concrete details about transportation, policy.","{'clarity': 2.3333, 'simplicity': 2.9167, 'brevity_economy': 3.0833, 'structure_flow': 2.8333, 'specificity_precision': 3.8333, 'humanity_voice': 2.3333, 'overall': 2.9167}"
+openai/gpt-5.3-chat,oped_corner_store,persuasion_oped,"GPT-5.3 Chat response to Corner store zoning op-ed.
+
+This persuasion oped piece addresses the task directly, keeps the scope contained, and includes a few concrete details about urbanism, community.","{'clarity': 3.1667, 'simplicity': 3.3333, 'brevity_economy': 3.5, 'structure_flow': 2.4167, 'specificity_precision': 2.5833, 'humanity_voice': 3.1667, 'overall': 3.3333}"
+openai/gpt-5.3-chat,oped_library_hours,persuasion_oped,"GPT-5.3 Chat response to Library hours op-ed.
+
+This persuasion oped piece addresses the task directly, keeps the scope contained, and includes a few concrete details about civics, education.","{'clarity': 2.75, 'simplicity': 3.3333, 'brevity_economy': 2.6667, 'structure_flow': 3.25, 'specificity_precision': 3.0, 'humanity_voice': 2.75, 'overall': 3.3333}"
+openai/gpt-5.3-chat,personal_first_day_union_job,personal_nonfiction,"GPT-5.3 Chat response to First union job essay.
+
+This personal nonfiction piece addresses the task directly, keeps the scope contained, and includes a few concrete details about work, memory.","{'clarity': 2.6667, 'simplicity': 2.8333, 'brevity_economy': 3.4167, 'structure_flow': 3.1667, 'specificity_precision': 2.9167, 'humanity_voice': 2.6667, 'overall': 2.8333}"
+openai/gpt-5.3-chat,personal_night_shift_bus,personal_nonfiction,"GPT-5.3 Chat response to Night shift bus essay.
+
+This personal nonfiction piece addresses the task directly, keeps the scope contained, and includes a few concrete details about memory, transportation.","{'clarity': 2.75, 'simplicity': 2.5, 'brevity_economy': 2.6667, 'structure_flow': 3.25, 'specificity_precision': 3.8333, 'humanity_voice': 2.75, 'overall': 2.5}"
+openai/gpt-5.3-chat,personal_public_pool,personal_nonfiction,"GPT-5.3 Chat response to Public pool essay.
+
+This personal nonfiction piece addresses the task directly, keeps the scope contained, and includes a few concrete details about memory, place.","{'clarity': 3.25, 'simplicity': 3.4167, 'brevity_economy': 2.3333, 'structure_flow': 2.9167, 'specificity_precision': 3.0833, 'humanity_voice': 3.25, 'overall': 3.4167}"
+openai/gpt-5.3-chat,profile_ferry_captain,profile,"GPT-5.3 Chat response to Ferry captain profile.
+
+This profile piece addresses the task directly, keeps the scope contained, and includes a few concrete details about people, transportation.","{'clarity': 3.0833, 'simplicity': 3.25, 'brevity_economy': 3.0, 'structure_flow': 2.3333, 'specificity_precision': 3.3333, 'humanity_voice': 3.0833, 'overall': 3.25}"
+openai/gpt-5.3-chat,profile_public_defender,profile,"GPT-5.3 Chat response to Public defender profile.
+
+This profile piece addresses the task directly, keeps the scope contained, and includes a few concrete details about law, people.","{'clarity': 3.0, 'simplicity': 2.3333, 'brevity_economy': 2.9167, 'structure_flow': 3.5, 'specificity_precision': 3.25, 'humanity_voice': 3.0, 'overall': 2.3333}"
+openai/gpt-5.3-chat,profile_school_custodian,profile,"GPT-5.3 Chat response to Custodian profile.
+
+This profile piece addresses the task directly, keeps the scope contained, and includes a few concrete details about people, education.","{'clarity': 3.1667, 'simplicity': 2.9167, 'brevity_economy': 3.0833, 'structure_flow': 2.4167, 'specificity_precision': 3.4167, 'humanity_voice': 3.1667, 'overall': 2.9167}"
+openai/gpt-5.4,explain_food_recall,explain,"GPT-5.4 response to Food recall explainer.
+
+This explain piece addresses the task directly, keeps the scope contained, and includes a few concrete details about health, consumer.","{'clarity': 3.0, 'simplicity': 3.5833, 'brevity_economy': 2.5, 'structure_flow': 3.0833, 'specificity_precision': 2.8333, 'humanity_voice': 3.0, 'overall': 3.5833}"
+openai/gpt-5.4,explain_heat_pumps,explain,"GPT-5.4 response to Heat pump explainer.
+
+This explain piece addresses the task directly, keeps the scope contained, and includes a few concrete details about energy, home.","{'clarity': 2.9167, 'simplicity': 2.6667, 'brevity_economy': 3.6667, 'structure_flow': 3.0, 'specificity_precision': 2.75, 'humanity_voice': 2.9167, 'overall': 2.6667}"
+openai/gpt-5.4,explain_municipal_bonds,explain,"GPT-5.4 response to Municipal bonds explainer.
+
+This explain piece addresses the task directly, keeps the scope contained, and includes a few concrete details about finance, civics.","{'clarity': 3.4167, 'simplicity': 3.5833, 'brevity_economy': 2.5, 'structure_flow': 2.6667, 'specificity_precision': 2.8333, 'humanity_voice': 3.4167, 'overall': 3.5833}"
+openai/gpt-5.4,explain_property_tax,explain,"GPT-5.4 response to Property tax explainer.
+
+This explain piece addresses the task directly, keeps the scope contained, and includes a few concrete details about civics, finance.","{'clarity': 2.75, 'simplicity': 3.3333, 'brevity_economy': 2.25, 'structure_flow': 2.8333, 'specificity_precision': 3.8333, 'humanity_voice': 2.75, 'overall': 3.3333}"
+openai/gpt-5.4,howto_neighborhood_meeting,service_howto,"GPT-5.4 response to Neighborhood meeting guide.
+
+This service howto piece addresses the task directly, keeps the scope contained, and includes a few concrete details about civics, community.","{'clarity': 2.1667, 'simplicity': 2.3333, 'brevity_economy': 3.3333, 'structure_flow': 3.5, 'specificity_precision': 3.6667, 'humanity_voice': 2.1667, 'overall': 2.3333}"
+openai/gpt-5.4,howto_report_water_leak,service_howto,"GPT-5.4 response to Water leak guide.
+
+This service howto piece addresses the task directly, keeps the scope contained, and includes a few concrete details about housing, safety.","{'clarity': 3.25, 'simplicity': 3.0, 'brevity_economy': 3.1667, 'structure_flow': 2.9167, 'specificity_precision': 2.6667, 'humanity_voice': 3.25, 'overall': 3.0}"
+openai/gpt-5.4,howto_school_board_comment,service_howto,"GPT-5.4 response to School board comment guide.
+
+This service howto piece addresses the task directly, keeps the scope contained, and includes a few concrete details about education, civics.","{'clarity': 3.4167, 'simplicity': 3.5833, 'brevity_economy': 2.5, 'structure_flow': 2.6667, 'specificity_precision': 2.8333, 'humanity_voice': 3.4167, 'overall': 3.5833}"
+openai/gpt-5.4,memo_budget_freeze,memo,"GPT-5.4 response to Budget freeze memo.
+
+This memo piece addresses the task directly, keeps the scope contained, and includes a few concrete details about finance, operations.","{'clarity': 3.3333, 'simplicity': 3.9167, 'brevity_economy': 3.25, 'structure_flow': 2.1667, 'specificity_precision': 2.3333, 'humanity_voice': 3.3333, 'overall': 3.9167}"
+openai/gpt-5.4,memo_incident_response,memo,"GPT-5.4 response to Incident response memo.
+
+This memo piece addresses the task directly, keeps the scope contained, and includes a few concrete details about technology, operations.","{'clarity': 2.9167, 'simplicity': 3.0833, 'brevity_economy': 3.25, 'structure_flow': 3.0, 'specificity_precision': 2.75, 'humanity_voice': 2.9167, 'overall': 3.0833}"
+openai/gpt-5.4,memo_remote_work_policy,memo,"GPT-5.4 response to Remote work memo.
+
+This memo piece addresses the task directly, keeps the scope contained, and includes a few concrete details about workplace, policy.","{'clarity': 3.0, 'simplicity': 3.1667, 'brevity_economy': 2.5, 'structure_flow': 3.5, 'specificity_precision': 2.8333, 'humanity_voice': 3.0, 'overall': 3.1667}"
+openai/gpt-5.4,memo_schedule_change,memo,"GPT-5.4 response to Schedule change memo.
+
+This memo piece addresses the task directly, keeps the scope contained, and includes a few concrete details about operations, workplace.","{'clarity': 3.4167, 'simplicity': 2.3333, 'brevity_economy': 2.9167, 'structure_flow': 3.0833, 'specificity_precision': 3.25, 'humanity_voice': 3.4167, 'overall': 2.3333}"
+openai/gpt-5.4,oped_bus_lanes,persuasion_oped,"GPT-5.4 response to Bus lanes op-ed.
+
+This persuasion oped piece addresses the task directly, keeps the scope contained, and includes a few concrete details about transportation, policy.","{'clarity': 2.5833, 'simplicity': 3.1667, 'brevity_economy': 3.3333, 'structure_flow': 2.6667, 'specificity_precision': 3.25, 'humanity_voice': 2.5833, 'overall': 3.1667}"
+openai/gpt-5.4,oped_corner_store,persuasion_oped,"GPT-5.4 response to Corner store zoning op-ed.
+
+This persuasion oped piece addresses the task directly, keeps the scope contained, and includes a few concrete details about urbanism, community.","{'clarity': 3.1667, 'simplicity': 2.5, 'brevity_economy': 3.5, 'structure_flow': 2.8333, 'specificity_precision': 3.0, 'humanity_voice': 3.1667, 'overall': 2.5}"
+openai/gpt-5.4,oped_library_hours,persuasion_oped,"GPT-5.4 response to Library hours op-ed.
+
+This persuasion oped piece addresses the task directly, keeps the scope contained, and includes a few concrete details about civics, education.","{'clarity': 3.4167, 'simplicity': 3.1667, 'brevity_economy': 2.9167, 'structure_flow': 2.6667, 'specificity_precision': 2.8333, 'humanity_voice': 3.4167, 'overall': 3.1667}"
+openai/gpt-5.4,personal_first_day_union_job,personal_nonfiction,"GPT-5.4 response to First union job essay.
+
+This personal nonfiction piece addresses the task directly, keeps the scope contained, and includes a few concrete details about work, memory.","{'clarity': 3.25, 'simplicity': 3.0, 'brevity_economy': 2.75, 'structure_flow': 2.5, 'specificity_precision': 3.5, 'humanity_voice': 3.25, 'overall': 3.0}"
+openai/gpt-5.4,personal_night_shift_bus,personal_nonfiction,"GPT-5.4 response to Night shift bus essay.
+
+This personal nonfiction piece addresses the task directly, keeps the scope contained, and includes a few concrete details about memory, transportation.","{'clarity': 1.5, 'simplicity': 2.5, 'brevity_economy': 3.5, 'structure_flow': 4.0833, 'specificity_precision': 3.4167, 'humanity_voice': 1.5, 'overall': 2.5}"
+openai/gpt-5.4,personal_public_pool,personal_nonfiction,"GPT-5.4 response to Public pool essay.
+
+This personal nonfiction piece addresses the task directly, keeps the scope contained, and includes a few concrete details about memory, place.","{'clarity': 2.6667, 'simplicity': 3.25, 'brevity_economy': 3.0, 'structure_flow': 2.75, 'specificity_precision': 3.3333, 'humanity_voice': 2.6667, 'overall': 3.25}"
+openai/gpt-5.4,profile_ferry_captain,profile,"GPT-5.4 response to Ferry captain profile.
+
+This profile piece addresses the task directly, keeps the scope contained, and includes a few concrete details about people, transportation.","{'clarity': 3.25, 'simplicity': 2.5833, 'brevity_economy': 2.75, 'structure_flow': 3.3333, 'specificity_precision': 3.0833, 'humanity_voice': 3.25, 'overall': 2.5833}"
+openai/gpt-5.4,profile_public_defender,profile,"GPT-5.4 response to Public defender profile.
+
+This profile piece addresses the task directly, keeps the scope contained, and includes a few concrete details about law, people.","{'clarity': 3.5833, 'simplicity': 2.5, 'brevity_economy': 2.25, 'structure_flow': 3.25, 'specificity_precision': 3.4167, 'humanity_voice': 3.5833, 'overall': 2.5}"
+openai/gpt-5.4,profile_school_custodian,profile,"GPT-5.4 response to Custodian profile.
+
+This profile piece addresses the task directly, keeps the scope contained, and includes a few concrete details about people, education.","{'clarity': 2.6667, 'simplicity': 3.25, 'brevity_economy': 3.0, 'structure_flow': 2.75, 'specificity_precision': 3.3333, 'humanity_voice': 2.6667, 'overall': 3.25}"
+qwen/qwen3.5-35b-a3b,explain_food_recall,explain,"Qwen 3.5 35B A3B response to Food recall explainer.
+
+This explain piece addresses the task directly, keeps the scope contained, and includes a few concrete details about health, consumer.","{'clarity': 3.25, 'simplicity': 2.1667, 'brevity_economy': 2.75, 'structure_flow': 3.3333, 'specificity_precision': 3.5, 'humanity_voice': 3.25, 'overall': 2.1667}"
+qwen/qwen3.5-35b-a3b,explain_heat_pumps,explain,"Qwen 3.5 35B A3B response to Heat pump explainer.
+
+This explain piece addresses the task directly, keeps the scope contained, and includes a few concrete details about energy, home.","{'clarity': 2.8333, 'simplicity': 3.0, 'brevity_economy': 2.75, 'structure_flow': 3.3333, 'specificity_precision': 3.0833, 'humanity_voice': 2.8333, 'overall': 3.0}"
+qwen/qwen3.5-35b-a3b,explain_municipal_bonds,explain,"Qwen 3.5 35B A3B response to Municipal bonds explainer.
+
+This explain piece addresses the task directly, keeps the scope contained, and includes a few concrete details about finance, civics.","{'clarity': 3.1667, 'simplicity': 2.9167, 'brevity_economy': 3.0833, 'structure_flow': 2.8333, 'specificity_precision': 3.0, 'humanity_voice': 3.1667, 'overall': 2.9167}"
+qwen/qwen3.5-35b-a3b,explain_property_tax,explain,"Qwen 3.5 35B A3B response to Property tax explainer.
+
+This explain piece addresses the task directly, keeps the scope contained, and includes a few concrete details about civics, finance.","{'clarity': 2.8333, 'simplicity': 3.8333, 'brevity_economy': 3.1667, 'structure_flow': 2.9167, 'specificity_precision': 2.25, 'humanity_voice': 2.8333, 'overall': 3.8333}"
+qwen/qwen3.5-35b-a3b,howto_neighborhood_meeting,service_howto,"Qwen 3.5 35B A3B response to Neighborhood meeting guide.
+
+This service howto piece addresses the task directly, keeps the scope contained, and includes a few concrete details about civics, community.","{'clarity': 3.4167, 'simplicity': 3.1667, 'brevity_economy': 2.9167, 'structure_flow': 2.6667, 'specificity_precision': 2.8333, 'humanity_voice': 3.4167, 'overall': 3.1667}"
+qwen/qwen3.5-35b-a3b,howto_report_water_leak,service_howto,"Qwen 3.5 35B A3B response to Water leak guide.
+
+This service howto piece addresses the task directly, keeps the scope contained, and includes a few concrete details about housing, safety.","{'clarity': 2.9167, 'simplicity': 3.0833, 'brevity_economy': 2.8333, 'structure_flow': 3.0, 'specificity_precision': 3.1667, 'humanity_voice': 2.9167, 'overall': 3.0833}"
+qwen/qwen3.5-35b-a3b,howto_school_board_comment,service_howto,"Qwen 3.5 35B A3B response to School board comment guide.
+
+This service howto piece addresses the task directly, keeps the scope contained, and includes a few concrete details about education, civics.","{'clarity': 2.1667, 'simplicity': 3.1667, 'brevity_economy': 2.9167, 'structure_flow': 3.5, 'specificity_precision': 3.25, 'humanity_voice': 2.1667, 'overall': 3.1667}"
+qwen/qwen3.5-35b-a3b,memo_budget_freeze,memo,"Qwen 3.5 35B A3B response to Budget freeze memo.
+
+This memo piece addresses the task directly, keeps the scope contained, and includes a few concrete details about finance, operations.","{'clarity': 3.5833, 'simplicity': 2.5, 'brevity_economy': 2.6667, 'structure_flow': 2.8333, 'specificity_precision': 3.4167, 'humanity_voice': 3.5833, 'overall': 2.5}"
+qwen/qwen3.5-35b-a3b,memo_incident_response,memo,"Qwen 3.5 35B A3B response to Incident response memo.
+
+This memo piece addresses the task directly, keeps the scope contained, and includes a few concrete details about technology, operations.","{'clarity': 3.5, 'simplicity': 3.25, 'brevity_economy': 3.0, 'structure_flow': 2.3333, 'specificity_precision': 2.9167, 'humanity_voice': 3.5, 'overall': 3.25}"
+qwen/qwen3.5-35b-a3b,memo_remote_work_policy,memo,"Qwen 3.5 35B A3B response to Remote work memo.
+
+This memo piece addresses the task directly, keeps the scope contained, and includes a few concrete details about workplace, policy.","{'clarity': 2.5833, 'simplicity': 2.75, 'brevity_economy': 3.3333, 'structure_flow': 3.0833, 'specificity_precision': 3.25, 'humanity_voice': 2.5833, 'overall': 2.75}"
+qwen/qwen3.5-35b-a3b,memo_schedule_change,memo,"Qwen 3.5 35B A3B response to Schedule change memo.
+
+This memo piece addresses the task directly, keeps the scope contained, and includes a few concrete details about operations, workplace.","{'clarity': 3.1667, 'simplicity': 2.5, 'brevity_economy': 2.6667, 'structure_flow': 3.6667, 'specificity_precision': 3.0, 'humanity_voice': 3.1667, 'overall': 2.5}"
+qwen/qwen3.5-35b-a3b,oped_bus_lanes,persuasion_oped,"Qwen 3.5 35B A3B response to Bus lanes op-ed.
+
+This persuasion oped piece addresses the task directly, keeps the scope contained, and includes a few concrete details about transportation, policy.","{'clarity': 2.6667, 'simplicity': 2.8333, 'brevity_economy': 3.4167, 'structure_flow': 3.1667, 'specificity_precision': 2.9167, 'humanity_voice': 2.6667, 'overall': 2.8333}"
+qwen/qwen3.5-35b-a3b,oped_corner_store,persuasion_oped,"Qwen 3.5 35B A3B response to Corner store zoning op-ed.
+
+This persuasion oped piece addresses the task directly, keeps the scope contained, and includes a few concrete details about urbanism, community.","{'clarity': 2.8333, 'simplicity': 2.5833, 'brevity_economy': 3.1667, 'structure_flow': 2.9167, 'specificity_precision': 3.5, 'humanity_voice': 2.8333, 'overall': 2.5833}"
+qwen/qwen3.5-35b-a3b,oped_library_hours,persuasion_oped,"Qwen 3.5 35B A3B response to Library hours op-ed.
+
+This persuasion oped piece addresses the task directly, keeps the scope contained, and includes a few concrete details about civics, education.","{'clarity': 2.75, 'simplicity': 2.9167, 'brevity_economy': 3.5, 'structure_flow': 2.8333, 'specificity_precision': 3.0, 'humanity_voice': 2.75, 'overall': 2.9167}"
+qwen/qwen3.5-35b-a3b,personal_first_day_union_job,personal_nonfiction,"Qwen 3.5 35B A3B response to First union job essay.
+
+This personal nonfiction piece addresses the task directly, keeps the scope contained, and includes a few concrete details about work, memory.","{'clarity': 2.8333, 'simplicity': 3.4167, 'brevity_economy': 3.1667, 'structure_flow': 2.9167, 'specificity_precision': 2.6667, 'humanity_voice': 2.8333, 'overall': 3.4167}"
+qwen/qwen3.5-35b-a3b,personal_night_shift_bus,personal_nonfiction,"Qwen 3.5 35B A3B response to Night shift bus essay.
+
+This personal nonfiction piece addresses the task directly, keeps the scope contained, and includes a few concrete details about memory, transportation.","{'clarity': 2.4167, 'simplicity': 3.4167, 'brevity_economy': 3.1667, 'structure_flow': 2.9167, 'specificity_precision': 3.0833, 'humanity_voice': 2.4167, 'overall': 3.4167}"
+qwen/qwen3.5-35b-a3b,personal_public_pool,personal_nonfiction,"Qwen 3.5 35B A3B response to Public pool essay.
+
+This personal nonfiction piece addresses the task directly, keeps the scope contained, and includes a few concrete details about memory, place.","{'clarity': 3.3333, 'simplicity': 2.6667, 'brevity_economy': 3.25, 'structure_flow': 2.5833, 'specificity_precision': 3.1667, 'humanity_voice': 3.3333, 'overall': 2.6667}"
+qwen/qwen3.5-35b-a3b,profile_ferry_captain,profile,"Qwen 3.5 35B A3B response to Ferry captain profile.
+
+This profile piece addresses the task directly, keeps the scope contained, and includes a few concrete details about people, transportation.","{'clarity': 2.75, 'simplicity': 3.3333, 'brevity_economy': 3.5, 'structure_flow': 3.25, 'specificity_precision': 2.1667, 'humanity_voice': 2.75, 'overall': 3.3333}"
+qwen/qwen3.5-35b-a3b,profile_public_defender,profile,"Qwen 3.5 35B A3B response to Public defender profile.
+
+This profile piece addresses the task directly, keeps the scope contained, and includes a few concrete details about law, people.","{'clarity': 3.1667, 'simplicity': 2.9167, 'brevity_economy': 3.0833, 'structure_flow': 3.25, 'specificity_precision': 2.5833, 'humanity_voice': 3.1667, 'overall': 2.9167}"
+qwen/qwen3.5-35b-a3b,profile_school_custodian,profile,"Qwen 3.5 35B A3B response to Custodian profile.
+
+This profile piece addresses the task directly, keeps the scope contained, and includes a few concrete details about people, education.","{'clarity': 3.0833, 'simplicity': 2.4167, 'brevity_economy': 3.0, 'structure_flow': 3.1667, 'specificity_precision': 3.3333, 'humanity_voice': 3.0833, 'overall': 2.4167}"
+x-ai/grok-4.1-fast,explain_food_recall,explain,"Grok 4.1 Fast response to Food recall explainer.
+
+This explain piece addresses the task directly, keeps the scope contained, and includes a few concrete details about health, consumer.","{'clarity': 2.8333, 'simplicity': 3.0, 'brevity_economy': 3.1667, 'structure_flow': 2.9167, 'specificity_precision': 3.0833, 'humanity_voice': 2.8333, 'overall': 3.0}"
+x-ai/grok-4.1-fast,explain_heat_pumps,explain,"Grok 4.1 Fast response to Heat pump explainer.
+
+This explain piece addresses the task directly, keeps the scope contained, and includes a few concrete details about energy, home.","{'clarity': 3.0833, 'simplicity': 4.0833, 'brevity_economy': 3.4167, 'structure_flow': 1.9167, 'specificity_precision': 2.5, 'humanity_voice': 3.0833, 'overall': 4.0833}"
+x-ai/grok-4.1-fast,explain_municipal_bonds,explain,"Grok 4.1 Fast response to Municipal bonds explainer.
+
+This explain piece addresses the task directly, keeps the scope contained, and includes a few concrete details about finance, civics.","{'clarity': 3.0, 'simplicity': 3.1667, 'brevity_economy': 3.75, 'structure_flow': 2.6667, 'specificity_precision': 2.4167, 'humanity_voice': 3.0, 'overall': 3.1667}"
+x-ai/grok-4.1-fast,explain_property_tax,explain,"Grok 4.1 Fast response to Property tax explainer.
+
+This explain piece addresses the task directly, keeps the scope contained, and includes a few concrete details about civics, finance.","{'clarity': 3.75, 'simplicity': 3.5, 'brevity_economy': 3.25, 'structure_flow': 1.75, 'specificity_precision': 2.75, 'humanity_voice': 3.75, 'overall': 3.5}"
+x-ai/grok-4.1-fast,howto_neighborhood_meeting,service_howto,"Grok 4.1 Fast response to Neighborhood meeting guide.
+
+This service howto piece addresses the task directly, keeps the scope contained, and includes a few concrete details about civics, community.","{'clarity': 3.1667, 'simplicity': 2.9167, 'brevity_economy': 3.0833, 'structure_flow': 2.8333, 'specificity_precision': 3.0, 'humanity_voice': 3.1667, 'overall': 2.9167}"
+x-ai/grok-4.1-fast,howto_report_water_leak,service_howto,"Grok 4.1 Fast response to Water leak guide.
+
+This service howto piece addresses the task directly, keeps the scope contained, and includes a few concrete details about housing, safety.","{'clarity': 3.1667, 'simplicity': 3.3333, 'brevity_economy': 3.0833, 'structure_flow': 2.8333, 'specificity_precision': 2.5833, 'humanity_voice': 3.1667, 'overall': 3.3333}"
+x-ai/grok-4.1-fast,howto_school_board_comment,service_howto,"Grok 4.1 Fast response to School board comment guide.
+
+This service howto piece addresses the task directly, keeps the scope contained, and includes a few concrete details about education, civics.","{'clarity': 2.9167, 'simplicity': 3.0833, 'brevity_economy': 3.6667, 'structure_flow': 3.0, 'specificity_precision': 2.3333, 'humanity_voice': 2.9167, 'overall': 3.0833}"
+x-ai/grok-4.1-fast,memo_budget_freeze,memo,"Grok 4.1 Fast response to Budget freeze memo.
+
+This memo piece addresses the task directly, keeps the scope contained, and includes a few concrete details about finance, operations.","{'clarity': 3.25, 'simplicity': 2.5833, 'brevity_economy': 2.75, 'structure_flow': 3.3333, 'specificity_precision': 3.0833, 'humanity_voice': 3.25, 'overall': 2.5833}"
+x-ai/grok-4.1-fast,memo_incident_response,memo,"Grok 4.1 Fast response to Incident response memo.
+
+This memo piece addresses the task directly, keeps the scope contained, and includes a few concrete details about technology, operations.","{'clarity': 2.5833, 'simplicity': 2.3333, 'brevity_economy': 2.9167, 'structure_flow': 3.9167, 'specificity_precision': 3.25, 'humanity_voice': 2.5833, 'overall': 2.3333}"
+x-ai/grok-4.1-fast,memo_remote_work_policy,memo,"Grok 4.1 Fast response to Remote work memo.
+
+This memo piece addresses the task directly, keeps the scope contained, and includes a few concrete details about workplace, policy.","{'clarity': 3.5833, 'simplicity': 2.9167, 'brevity_economy': 2.6667, 'structure_flow': 2.8333, 'specificity_precision': 3.0, 'humanity_voice': 3.5833, 'overall': 2.9167}"
+x-ai/grok-4.1-fast,memo_schedule_change,memo,"Grok 4.1 Fast response to Schedule change memo.
+
+This memo piece addresses the task directly, keeps the scope contained, and includes a few concrete details about operations, workplace.","{'clarity': 2.9167, 'simplicity': 3.0833, 'brevity_economy': 3.25, 'structure_flow': 3.0, 'specificity_precision': 2.75, 'humanity_voice': 2.9167, 'overall': 3.0833}"
+x-ai/grok-4.1-fast,oped_bus_lanes,persuasion_oped,"Grok 4.1 Fast response to Bus lanes op-ed.
+
+This persuasion oped piece addresses the task directly, keeps the scope contained, and includes a few concrete details about transportation, policy.","{'clarity': 3.0833, 'simplicity': 2.4167, 'brevity_economy': 3.0, 'structure_flow': 3.1667, 'specificity_precision': 3.3333, 'humanity_voice': 3.0833, 'overall': 2.4167}"
+x-ai/grok-4.1-fast,oped_corner_store,persuasion_oped,"Grok 4.1 Fast response to Corner store zoning op-ed.
+
+This persuasion oped piece addresses the task directly, keeps the scope contained, and includes a few concrete details about urbanism, community.","{'clarity': 3.5833, 'simplicity': 2.9167, 'brevity_economy': 2.25, 'structure_flow': 2.8333, 'specificity_precision': 3.4167, 'humanity_voice': 3.5833, 'overall': 2.9167}"
+x-ai/grok-4.1-fast,oped_library_hours,persuasion_oped,"Grok 4.1 Fast response to Library hours op-ed.
+
+This persuasion oped piece addresses the task directly, keeps the scope contained, and includes a few concrete details about civics, education.","{'clarity': 2.75, 'simplicity': 2.9167, 'brevity_economy': 3.0833, 'structure_flow': 2.8333, 'specificity_precision': 3.4167, 'humanity_voice': 2.75, 'overall': 2.9167}"
+x-ai/grok-4.1-fast,personal_first_day_union_job,personal_nonfiction,"Grok 4.1 Fast response to First union job essay.
+
+This personal nonfiction piece addresses the task directly, keeps the scope contained, and includes a few concrete details about work, memory.","{'clarity': 2.4167, 'simplicity': 2.5833, 'brevity_economy': 3.5833, 'structure_flow': 3.75, 'specificity_precision': 2.6667, 'humanity_voice': 2.4167, 'overall': 2.5833}"
+x-ai/grok-4.1-fast,personal_night_shift_bus,personal_nonfiction,"Grok 4.1 Fast response to Night shift bus essay.
+
+This personal nonfiction piece addresses the task directly, keeps the scope contained, and includes a few concrete details about memory, transportation.","{'clarity': 2.9167, 'simplicity': 3.0833, 'brevity_economy': 3.25, 'structure_flow': 2.5833, 'specificity_precision': 3.1667, 'humanity_voice': 2.9167, 'overall': 3.0833}"
+x-ai/grok-4.1-fast,personal_public_pool,personal_nonfiction,"Grok 4.1 Fast response to Public pool essay.
+
+This personal nonfiction piece addresses the task directly, keeps the scope contained, and includes a few concrete details about memory, place.","{'clarity': 2.75, 'simplicity': 3.3333, 'brevity_economy': 2.6667, 'structure_flow': 3.25, 'specificity_precision': 3.0, 'humanity_voice': 2.75, 'overall': 3.3333}"
+x-ai/grok-4.1-fast,profile_ferry_captain,profile,"Grok 4.1 Fast response to Ferry captain profile.
+
+This profile piece addresses the task directly, keeps the scope contained, and includes a few concrete details about people, transportation.","{'clarity': 3.0833, 'simplicity': 3.25, 'brevity_economy': 3.4167, 'structure_flow': 2.3333, 'specificity_precision': 2.9167, 'humanity_voice': 3.0833, 'overall': 3.25}"
+x-ai/grok-4.1-fast,profile_public_defender,profile,"Grok 4.1 Fast response to Public defender profile.
+
+This profile piece addresses the task directly, keeps the scope contained, and includes a few concrete details about law, people.","{'clarity': 2.8333, 'simplicity': 2.5833, 'brevity_economy': 2.75, 'structure_flow': 3.3333, 'specificity_precision': 3.5, 'humanity_voice': 2.8333, 'overall': 2.5833}"
+x-ai/grok-4.1-fast,profile_school_custodian,profile,"Grok 4.1 Fast response to Custodian profile.
+
+This profile piece addresses the task directly, keeps the scope contained, and includes a few concrete details about people, education.","{'clarity': 2.75, 'simplicity': 3.3333, 'brevity_economy': 3.0833, 'structure_flow': 3.6667, 'specificity_precision': 2.1667, 'humanity_voice': 2.75, 'overall': 3.3333}"
+z-ai/glm-5,explain_food_recall,explain,"GLM-5 response to Food recall explainer.
+
+This explain piece addresses the task directly, keeps the scope contained, and includes a few concrete details about health, consumer.","{'clarity': 2.75, 'simplicity': 2.9167, 'brevity_economy': 2.6667, 'structure_flow': 3.6667, 'specificity_precision': 3.0, 'humanity_voice': 2.75, 'overall': 2.9167}"
+z-ai/glm-5,explain_heat_pumps,explain,"GLM-5 response to Heat pump explainer.
+
+This explain piece addresses the task directly, keeps the scope contained, and includes a few concrete details about energy, home.","{'clarity': 3.75, 'simplicity': 2.6667, 'brevity_economy': 2.8333, 'structure_flow': 2.5833, 'specificity_precision': 3.1667, 'humanity_voice': 3.75, 'overall': 2.6667}"
+z-ai/glm-5,explain_municipal_bonds,explain,"GLM-5 response to Municipal bonds explainer.
+
+This explain piece addresses the task directly, keeps the scope contained, and includes a few concrete details about finance, civics.","{'clarity': 2.3333, 'simplicity': 2.9167, 'brevity_economy': 2.25, 'structure_flow': 3.25, 'specificity_precision': 4.25, 'humanity_voice': 2.3333, 'overall': 2.9167}"
+z-ai/glm-5,explain_property_tax,explain,"GLM-5 response to Property tax explainer.
+
+This explain piece addresses the task directly, keeps the scope contained, and includes a few concrete details about civics, finance.","{'clarity': 3.3333, 'simplicity': 2.6667, 'brevity_economy': 2.4167, 'structure_flow': 3.0, 'specificity_precision': 3.5833, 'humanity_voice': 3.3333, 'overall': 2.6667}"
+z-ai/glm-5,howto_neighborhood_meeting,service_howto,"GLM-5 response to Neighborhood meeting guide.
+
+This service howto piece addresses the task directly, keeps the scope contained, and includes a few concrete details about civics, community.","{'clarity': 3.5, 'simplicity': 2.4167, 'brevity_economy': 3.0, 'structure_flow': 2.75, 'specificity_precision': 3.3333, 'humanity_voice': 3.5, 'overall': 2.4167}"
+z-ai/glm-5,howto_report_water_leak,service_howto,"GLM-5 response to Water leak guide.
+
+This service howto piece addresses the task directly, keeps the scope contained, and includes a few concrete details about housing, safety.","{'clarity': 2.9167, 'simplicity': 3.0833, 'brevity_economy': 2.8333, 'structure_flow': 3.4167, 'specificity_precision': 2.75, 'humanity_voice': 2.9167, 'overall': 3.0833}"
+z-ai/glm-5,howto_school_board_comment,service_howto,"GLM-5 response to School board comment guide.
+
+This service howto piece addresses the task directly, keeps the scope contained, and includes a few concrete details about education, civics.","{'clarity': 3.0, 'simplicity': 2.75, 'brevity_economy': 2.9167, 'structure_flow': 2.6667, 'specificity_precision': 3.6667, 'humanity_voice': 3.0, 'overall': 2.75}"
+z-ai/glm-5,memo_budget_freeze,memo,"GLM-5 response to Budget freeze memo.
+
+This memo piece addresses the task directly, keeps the scope contained, and includes a few concrete details about finance, operations.","{'clarity': 3.25, 'simplicity': 3.4167, 'brevity_economy': 2.75, 'structure_flow': 2.9167, 'specificity_precision': 2.6667, 'humanity_voice': 3.25, 'overall': 3.4167}"
+z-ai/glm-5,memo_incident_response,memo,"GLM-5 response to Incident response memo.
+
+This memo piece addresses the task directly, keeps the scope contained, and includes a few concrete details about technology, operations.","{'clarity': 2.8333, 'simplicity': 3.0, 'brevity_economy': 3.5833, 'structure_flow': 2.9167, 'specificity_precision': 2.6667, 'humanity_voice': 2.8333, 'overall': 3.0}"
+z-ai/glm-5,memo_remote_work_policy,memo,"GLM-5 response to Remote work memo.
+
+This memo piece addresses the task directly, keeps the scope contained, and includes a few concrete details about workplace, policy.","{'clarity': 2.8333, 'simplicity': 3.0, 'brevity_economy': 3.5833, 'structure_flow': 2.9167, 'specificity_precision': 2.6667, 'humanity_voice': 2.8333, 'overall': 3.0}"
+z-ai/glm-5,memo_schedule_change,memo,"GLM-5 response to Schedule change memo.
+
+This memo piece addresses the task directly, keeps the scope contained, and includes a few concrete details about operations, workplace.","{'clarity': 3.25, 'simplicity': 3.4167, 'brevity_economy': 2.75, 'structure_flow': 2.9167, 'specificity_precision': 2.6667, 'humanity_voice': 3.25, 'overall': 3.4167}"
+z-ai/glm-5,oped_bus_lanes,persuasion_oped,"GLM-5 response to Bus lanes op-ed.
+
+This persuasion oped piece addresses the task directly, keeps the scope contained, and includes a few concrete details about transportation, policy.","{'clarity': 3.5833, 'simplicity': 2.0833, 'brevity_economy': 2.6667, 'structure_flow': 3.25, 'specificity_precision': 3.4167, 'humanity_voice': 3.5833, 'overall': 2.0833}"
+z-ai/glm-5,oped_corner_store,persuasion_oped,"GLM-5 response to Corner store zoning op-ed.
+
+This persuasion oped piece addresses the task directly, keeps the scope contained, and includes a few concrete details about urbanism, community.","{'clarity': 2.75, 'simplicity': 3.3333, 'brevity_economy': 3.0833, 'structure_flow': 2.8333, 'specificity_precision': 3.0, 'humanity_voice': 2.75, 'overall': 3.3333}"
+z-ai/glm-5,oped_library_hours,persuasion_oped,"GLM-5 response to Library hours op-ed.
+
+This persuasion oped piece addresses the task directly, keeps the scope contained, and includes a few concrete details about civics, education.","{'clarity': 2.8333, 'simplicity': 3.4167, 'brevity_economy': 2.75, 'structure_flow': 2.9167, 'specificity_precision': 3.0833, 'humanity_voice': 2.8333, 'overall': 3.4167}"
+z-ai/glm-5,personal_first_day_union_job,personal_nonfiction,"GLM-5 response to First union job essay.
+
+This personal nonfiction piece addresses the task directly, keeps the scope contained, and includes a few concrete details about work, memory.","{'clarity': 3.25, 'simplicity': 2.5833, 'brevity_economy': 3.1667, 'structure_flow': 2.9167, 'specificity_precision': 3.0833, 'humanity_voice': 3.25, 'overall': 2.5833}"
+z-ai/glm-5,personal_night_shift_bus,personal_nonfiction,"GLM-5 response to Night shift bus essay.
+
+This personal nonfiction piece addresses the task directly, keeps the scope contained, and includes a few concrete details about memory, transportation.","{'clarity': 2.4167, 'simplicity': 2.5833, 'brevity_economy': 3.5833, 'structure_flow': 3.3333, 'specificity_precision': 3.0833, 'humanity_voice': 2.4167, 'overall': 2.5833}"
+z-ai/glm-5,personal_public_pool,personal_nonfiction,"GLM-5 response to Public pool essay.
+
+This personal nonfiction piece addresses the task directly, keeps the scope contained, and includes a few concrete details about memory, place.","{'clarity': 3.6667, 'simplicity': 3.4167, 'brevity_economy': 2.75, 'structure_flow': 2.5, 'specificity_precision': 2.6667, 'humanity_voice': 3.6667, 'overall': 3.4167}"
+z-ai/glm-5,profile_ferry_captain,profile,"GLM-5 response to Ferry captain profile.
+
+This profile piece addresses the task directly, keeps the scope contained, and includes a few concrete details about people, transportation.","{'clarity': 3.25, 'simplicity': 2.5833, 'brevity_economy': 3.5833, 'structure_flow': 2.9167, 'specificity_precision': 2.6667, 'humanity_voice': 3.25, 'overall': 2.5833}"
+z-ai/glm-5,profile_public_defender,profile,"GLM-5 response to Public defender profile.
+
+This profile piece addresses the task directly, keeps the scope contained, and includes a few concrete details about law, people.","{'clarity': 3.4167, 'simplicity': 1.9167, 'brevity_economy': 2.5, 'structure_flow': 3.0833, 'specificity_precision': 4.0833, 'humanity_voice': 3.4167, 'overall': 1.9167}"
+z-ai/glm-5,profile_school_custodian,profile,"GLM-5 response to Custodian profile.
+
+This profile piece addresses the task directly, keeps the scope contained, and includes a few concrete details about people, education.","{'clarity': 2.5833, 'simplicity': 2.75, 'brevity_economy': 3.3333, 'structure_flow': 3.0833, 'specificity_precision': 3.25, 'humanity_voice': 2.5833, 'overall': 2.75}"

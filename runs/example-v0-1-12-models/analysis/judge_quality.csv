@@ -1,0 +1,13 @@
+judge_model_id,agreement_overall,agreement_clarity,agreement_simplicity,agreement_brevity_economy,agreement_structure_flow,agreement_specificity_precision,agreement_humanity_voice
+anthropic/claude-opus-4.6,0.4536,0.4456,0.4536,0.4312,0.4355,0.4456,0.4456
+anthropic/claude-sonnet-4.6,0.4499,0.4382,0.4499,0.4536,0.4329,0.4319,0.4382
+deepseek/deepseek-v3.2,0.4365,0.4491,0.4365,0.4341,0.4399,0.4326,0.4491
+google/gemini-3.1-flash-lite-preview,0.458,0.4339,0.458,0.4614,0.4361,0.4258,0.4339
+google/gemini-3.1-pro-preview,0.4394,0.4308,0.4394,0.4541,0.4582,0.4397,0.4308
+minimax/minimax-m2.5,0.4399,0.4394,0.4399,0.4413,0.4407,0.4288,0.4394
+moonshotai/kimi-k2.5,0.4368,0.4484,0.4368,0.4384,0.4332,0.4326,0.4484
+openai/gpt-5.3-chat,0.4397,0.4461,0.4397,0.4475,0.4396,0.4497,0.4461
+openai/gpt-5.4,0.4404,0.4384,0.4404,0.4382,0.4469,0.4341,0.4384
+qwen/qwen3.5-35b-a3b,0.4244,0.4175,0.4244,0.4433,0.4531,0.4547,0.4175
+x-ai/grok-4.1-fast,0.4324,0.4572,0.4324,0.4293,0.4462,0.4422,0.4572
+z-ai/glm-5,0.4467,0.4403,0.4467,0.447,0.4329,0.4415,0.4403

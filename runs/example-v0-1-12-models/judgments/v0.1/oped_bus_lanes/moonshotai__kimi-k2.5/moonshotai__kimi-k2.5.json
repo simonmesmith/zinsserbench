@@ -1,0 +1,23 @@
+{
+  "backend": "mock",
+  "benchmark_version": "v0.1",
+  "candidate_model_id": "moonshotai/kimi-k2.5",
+  "created_at": "2026-03-07T14:44:03Z",
+  "judge_model_id": "moonshotai/kimi-k2.5",
+  "metadata": {
+    "mode": "mock"
+  },
+  "prompt_category": "persuasion_oped",
+  "prompt_id": "oped_bus_lanes",
+  "rationale": "Kimi K2.5 mock judgment for Kimi K2.5 on oped_bus_lanes: clear enough, moderately structured, with room for sharper detail.",
+  "run_name": "example-v0-1-12-models",
+  "scores": {
+    "brevity_economy": 2,
+    "clarity": 5,
+    "humanity_voice": 5,
+    "overall": 1,
+    "simplicity": 1,
+    "specificity_precision": 4,
+    "structure_flow": 3
+  }
+}

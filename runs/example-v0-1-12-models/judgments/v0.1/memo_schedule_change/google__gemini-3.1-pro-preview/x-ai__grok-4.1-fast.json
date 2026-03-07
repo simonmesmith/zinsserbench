@@ -1,0 +1,23 @@
+{
+  "backend": "mock",
+  "benchmark_version": "v0.1",
+  "candidate_model_id": "google/gemini-3.1-pro-preview",
+  "created_at": "2026-03-07T14:44:04Z",
+  "judge_model_id": "x-ai/grok-4.1-fast",
+  "metadata": {
+    "mode": "mock"
+  },
+  "prompt_category": "memo",
+  "prompt_id": "memo_schedule_change",
+  "rationale": "Grok 4.1 Fast mock judgment for Gemini 3.1 Pro Preview on memo_schedule_change: clear enough, moderately structured, with room for sharper detail.",
+  "run_name": "example-v0-1-12-models",
+  "scores": {
+    "brevity_economy": 3,
+    "clarity": 1,
+    "humanity_voice": 1,
+    "overall": 2,
+    "simplicity": 2,
+    "specificity_precision": 5,
+    "structure_flow": 4
+  }
+}

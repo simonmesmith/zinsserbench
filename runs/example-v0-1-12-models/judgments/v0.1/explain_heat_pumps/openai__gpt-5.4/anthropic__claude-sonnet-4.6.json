@@ -1,0 +1,23 @@
+{
+  "backend": "mock",
+  "benchmark_version": "v0.1",
+  "candidate_model_id": "openai/gpt-5.4",
+  "created_at": "2026-03-07T14:44:03Z",
+  "judge_model_id": "anthropic/claude-sonnet-4.6",
+  "metadata": {
+    "mode": "mock"
+  },
+  "prompt_category": "explain",
+  "prompt_id": "explain_heat_pumps",
+  "rationale": "Claude Sonnet 4.6 mock judgment for GPT-5.4 on explain_heat_pumps: clear enough, moderately structured, with room for sharper detail.",
+  "run_name": "example-v0-1-12-models",
+  "scores": {
+    "brevity_economy": 2,
+    "clarity": 5,
+    "humanity_voice": 5,
+    "overall": 1,
+    "simplicity": 1,
+    "specificity_precision": 4,
+    "structure_flow": 3
+  }
+}
