@@ -154,7 +154,7 @@ zinsserbench run \
   --generation-concurrency 4 \
   --judge-concurrency 4 \
   --reasoning-effort medium \
-  --max-output-tokens 2500
+  --max-output-tokens 10000
 ```
 
 The CLI loads `.env` and `.env.local` from `--root` on startup. Shell environment variables take precedence.
@@ -200,6 +200,11 @@ After a run, `runs/<run_name>/analysis/` contains:
 - `REPORT.md` -- human-readable summary
 - `summary.json`
 - `quarantined_outputs.csv`
+- `exact_cap_hits.csv`
+- `truncation_warnings.csv`
+- `sanitization_warnings.csv`
+- `skipped_same_company_judgments.csv`
+- `excluded_for_insufficient_judges.csv`
 - `response_lengths_by_model.csv`
 - `writing_by_model.csv` -- the leaderboard
 - `writing_by_model_axis.csv`, `writing_by_model_category.csv`, `writing_by_model_prompt.csv`

@@ -13,9 +13,10 @@ from zinsserbench.aggregate import aggregate_run
 from zinsserbench.backends import MockBackend, OpenRouterBackend, _extract_retry_after_seconds
 from zinsserbench.env import load_dotenv
 from zinsserbench.pipeline import generate_missing, judge_missing
-from zinsserbench.quality import evaluate_output
+from zinsserbench.quality import detect_truncation, evaluate_output, sanitize_output
 from zinsserbench.report import generate_report
 from zinsserbench.specs import load_benchmark_version
+from zinsserbench.types import model_company
 
 
 class ZinsserBenchTests(unittest.TestCase):
@@ -28,7 +29,7 @@ class ZinsserBenchTests(unittest.TestCase):
             "generation_concurrency": 2,
             "judge_concurrency": 2,
             "temperature": 0.2,
-            "max_output_tokens": 300,
+            "max_output_tokens": 10000,
             "judge_max_output_tokens": 120,
             "timeout_seconds": 30,
         }
@@ -52,7 +53,7 @@ class ZinsserBenchTests(unittest.TestCase):
 
         first_judge = judge_missing(self.temp_dir, "fixture-run", "v0.1", self.backend, self.settings)
         second_judge = judge_missing(self.temp_dir, "fixture-run", "v0.1", self.backend, self.settings)
-        self.assertEqual(720, first_judge["scheduled"])
+        self.assertEqual(600, first_judge["scheduled"])
         self.assertEqual(0, second_judge["scheduled"])
 
     def test_aggregation_outputs_and_reports(self) -> None:
@@ -70,6 +71,10 @@ class ZinsserBenchTests(unittest.TestCase):
         self.assertTrue((analysis_dir / "REPORT.md").exists())
         self.assertTrue((analysis_dir / "overall_scores.svg").exists())
         self.assertTrue((analysis_dir / "judge_quality.svg").exists())
+        self.assertTrue((analysis_dir / "exact_cap_hits.csv").exists())
+        self.assertTrue((analysis_dir / "truncation_warnings.csv").exists())
+        self.assertTrue((analysis_dir / "sanitization_warnings.csv").exists())
+        self.assertTrue((analysis_dir / "skipped_same_company_judgments.csv").exists())
 
         with (analysis_dir / "writing_by_model.csv").open("r", encoding="utf-8") as handle:
             rows = list(csv.DictReader(handle))
@@ -158,7 +163,7 @@ class ZinsserBenchTests(unittest.TestCase):
         generate_missing(self.temp_dir, "fixture-run", "v0.1", backend, self.settings)
         judge_result = judge_missing(self.temp_dir, "fixture-run", "v0.1", backend, self.settings)
 
-        self.assertEqual(717, judge_result["scheduled"])
+        self.assertEqual(598, judge_result["scheduled"])
 
     def test_aggregate_reports_quarantined_outputs(self) -> None:
         class ShortOutputBackend(MockBackend):
@@ -176,6 +181,99 @@ class ZinsserBenchTests(unittest.TestCase):
         self.assertEqual(1, len(summary["quarantined_outputs"]))
         self.assertEqual("openai/gpt-5.4", summary["quarantined_outputs"][0]["candidate_model_id"])
         self.assertTrue((self.temp_dir / "runs" / "fixture-run" / "analysis" / "quarantined_outputs.csv").exists())
+
+    def test_same_company_judging_is_excluded(self) -> None:
+        generate_missing(self.temp_dir, "fixture-run", "v0.1", self.backend, self.settings)
+        judge_missing(self.temp_dir, "fixture-run", "v0.1", self.backend, self.settings)
+        summary = aggregate_run(self.temp_dir, "fixture-run")
+
+        self.assertEqual(120, len(summary["skipped_same_company_judgments"]))
+        self.assertEqual(
+            {"openai", "anthropic", "google"},
+            {row["company"] for row in summary["skipped_same_company_judgments"]},
+        )
+
+    def test_sanitize_output_strips_reasoning_traces(self) -> None:
+        result = sanitize_output("<think>plan</think>\n\nThinking Process: draft it\n\nActual prose.")
+        self.assertEqual("Actual prose.", result.text)
+        self.assertTrue(result.changed)
+        self.assertIn("think_block", result.patterns)
+
+    def test_detect_truncation_flags_cap_hits_and_incomplete_endings(self) -> None:
+        result = detect_truncation(
+            "This response trails off in the middle",
+            {"finish_reason": "length", "usage": {"completion_tokens": 10000}},
+            10000,
+        )
+        self.assertTrue(result.is_truncated)
+        self.assertIn("finish_reason_length", result.reasons)
+        self.assertIn("completion_tokens_at_cap", result.reasons)
+
+    def test_detect_truncation_allows_clean_completed_text(self) -> None:
+        result = detect_truncation(
+            "This response finishes cleanly.",
+            {"finish_reason": "stop", "usage": {"completion_tokens": 400}},
+            10000,
+        )
+        self.assertFalse(result.is_truncated)
+
+    def test_generation_retries_after_heavy_sanitization(self) -> None:
+        calls = []
+        retry_settings = dict(self.settings)
+        retry_settings["generation_concurrency"] = 1
+
+        class RetryBackend(MockBackend):
+            def generate(self, model, prompt, settings):
+                calls.append(dict(settings))
+                if len(calls) == 1:
+                    return {
+                        "response_text": "<think>secret plan</think>\nVisible draft.",
+                        "metadata": {"finish_reason": "stop", "usage": {"completion_tokens": 100}},
+                    }
+                return {
+                    "response_text": "Visible draft that is safe to judge.",
+                    "metadata": {"finish_reason": "stop", "usage": {"completion_tokens": 100}},
+                }
+
+        generate_missing(self.temp_dir, "fixture-run", "v0.1", RetryBackend(), retry_settings)
+        output_path = (
+            self.temp_dir
+            / "runs"
+            / "fixture-run"
+            / "outputs"
+            / "v0.1"
+            / "memo_remote_work_policy"
+            / "openai__gpt-5.4.json"
+        )
+        payload = json.loads(output_path.read_text(encoding="utf-8"))
+        self.assertEqual(2, payload["metadata"]["generation_attempt"])
+        self.assertEqual("none", calls[1]["reasoning_effort"])
+
+    def test_generation_quarantines_truncated_output_after_retry(self) -> None:
+        class TruncatedBackend(MockBackend):
+            def generate(self, model, prompt, settings):
+                payload = super().generate(model, prompt, settings)
+                if model.model_id != "openai/gpt-5.4" or prompt.prompt_id != "memo_remote_work_policy":
+                    return payload
+                return {
+                    "response_text": "This ends without closure",
+                    "metadata": {
+                        "finish_reason": "length",
+                        "usage": {"completion_tokens": settings["max_output_tokens"]},
+                    },
+                }
+
+        generate_missing(self.temp_dir, "fixture-run", "v0.1", TruncatedBackend(), self.settings)
+        judge_result = judge_missing(self.temp_dir, "fixture-run", "v0.1", TruncatedBackend(), self.settings)
+        self.assertEqual(598, judge_result["scheduled"])
+
+        summary = aggregate_run(self.temp_dir, "fixture-run")
+        self.assertEqual(1, len(summary["quarantined_outputs"]))
+        self.assertEqual(1, len(summary["truncation_warnings"]))
+
+    def test_model_company_uses_prefix_before_slash(self) -> None:
+        self.assertEqual("openai", model_company("openai/gpt-5.4"))
+        self.assertEqual("custom", model_company("custom"))
 
     def test_placeholders_do_not_trigger_quarantine_by_themselves(self) -> None:
         benchmark = load_benchmark_version(self.temp_dir, "v0.1")

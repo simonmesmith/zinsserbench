@@ -1,8 +1,6 @@
 from __future__ import annotations
 
 import html
-import json
-from pathlib import Path
 from typing import Dict, List
 
 from .aggregate import aggregate_run
@@ -56,6 +54,9 @@ def _report_markdown(summary: Dict[str, object]) -> str:
         f"- Benchmark version: `{summary['benchmark_version']}`",
         f"- Models evaluated: `{len(summary['writing_by_model'])}`",
         f"- Quarantined outputs excluded from scoring: `{len(summary.get('quarantined_outputs', []))}`",
+        f"- Outputs with truncation warnings: `{len(summary.get('truncation_warnings', []))}`",
+        f"- Outputs sanitized before judging: `{len(summary.get('sanitization_warnings', []))}`",
+        f"- Same-company judgments skipped: `{len(summary.get('skipped_same_company_judgments', []))}`",
         "",
         "## Overall writing leaderboard",
         "",
@@ -81,9 +82,34 @@ def _report_markdown(summary: Dict[str, object]) -> str:
 
     lines.extend(
         [
+            "## Generation warnings",
+            "",
+        ]
+    )
+    warning_sections = [
+        ("Exact cap hits", "exact_cap_hits", ["candidate_model_id", "prompt_id", "completion_tokens", "max_output_tokens"]),
+        ("Truncation warnings", "truncation_warnings", ["candidate_model_id", "prompt_id", "reasons", "generation_attempt"]),
+        ("Sanitization warnings", "sanitization_warnings", ["candidate_model_id", "prompt_id", "removed_ratio", "patterns", "generation_attempt"]),
+        ("Skipped same-company judgments", "skipped_same_company_judgments", ["candidate_model_id", "prompt_id", "judge_model_id", "company"]),
+    ]
+    for title, key, fields in warning_sections:
+        lines.extend([f"### {title}", ""])
+        rows = summary.get(key, [])
+        if rows:
+            lines.extend([table(rows, fields), ""])
+        else:
+            lines.extend(["None.", ""])
+
+    lines.extend(
+        [
         "## Analysis files",
         "",
         "- `quarantined_outputs.csv`",
+        "- `exact_cap_hits.csv`",
+        "- `truncation_warnings.csv`",
+        "- `sanitization_warnings.csv`",
+        "- `skipped_same_company_judgments.csv`",
+        "- `excluded_for_insufficient_judges.csv`",
         "- `response_lengths_by_model.csv`",
         "- `writing_by_model.csv`",
         "- `writing_by_model_axis.csv`",

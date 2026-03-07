@@ -42,7 +42,7 @@ class MockBackend(ModelBackend):
             f"and adds concrete detail about {topic} while keeping the prose readable. "
         )
         text = f"{model.label} response to {prompt.title}.\n\n" + (sentence * 24)
-        return {"response_text": text, "metadata": {"mode": "mock"}}
+        return {"response_text": text, "metadata": {"mode": "mock", "finish_reason": "stop", "usage": {"completion_tokens": 200}}}
 
     def judge(
         self,
@@ -88,7 +88,7 @@ class OpenRouterBackend(ModelBackend):
         data = self._chat_completion_with_reasoning_fallback(model.model_id, messages, settings)
         return {
             "response_text": _extract_text(data),
-            "metadata": {"id": data.get("id"), "usage": data.get("usage", {})},
+            "metadata": {"id": data.get("id"), "usage": data.get("usage", {}), "finish_reason": _extract_finish_reason(data)},
         }
 
     def judge(
@@ -257,6 +257,14 @@ def _response_has_empty_content(payload: Dict[str, object]) -> bool:
     message = choices[0].get("message", {})
     content = message.get("content")
     return content is None
+
+
+def _extract_finish_reason(payload: Dict[str, object]) -> str | None:
+    choices = payload.get("choices", [])
+    if not choices:
+        return None
+    finish_reason = choices[0].get("finish_reason")
+    return finish_reason if isinstance(finish_reason, str) else None
 
 
 def _response_needs_visibility_retry(payload: Dict[str, object]) -> bool:

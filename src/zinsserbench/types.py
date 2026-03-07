@@ -124,3 +124,7 @@ def validate_axis_scores(scores: Dict[str, float], score_min: int, score_max: in
             raise ValueError(
                 f"Score for axis {axis!r} must be between {score_min} and {score_max}, got {value}"
             )
+
+
+def model_company(model_id: str) -> str:
+    return model_id.split("/", 1)[0] if "/" in model_id else model_id

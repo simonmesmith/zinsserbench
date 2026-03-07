@@ -2,13 +2,13 @@ from __future__ import annotations
 
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from pathlib import Path
-from typing import Callable, Dict, Iterable, List, Optional, Sequence, Tuple
+from typing import Callable, Dict, List, Sequence, Tuple
 
 from .backends import ModelBackend
-from .quality import evaluate_output
+from .quality import detect_truncation, evaluate_output, sanitize_output
 from .specs import load_benchmark_version
 from .storage import RunStorage
-from .types import GenerationRecord, JudgmentRecord, RunManifest, validate_axis_scores, utc_now_iso
+from .types import GenerationRecord, JudgmentRecord, RunManifest, model_company, validate_axis_scores, utc_now_iso
 
 
 def initialize_run(
@@ -100,9 +100,14 @@ def judge_missing(
             output = outputs.get((prompt.prompt_id, candidate.model_id))
             if output is None:
                 continue
+            guard = output.metadata.get("quality_guard", {})
+            if isinstance(guard, dict) and guard.get("status") != "ok":
+                continue
             if not evaluate_output(prompt, output.response_text).is_valid:
                 continue
             for judge in benchmark.judges:
+                if model_company(candidate.model_id) == model_company(judge.model_id):
+                    continue
                 if not storage.has_judgment(benchmark_version, prompt.prompt_id, candidate.model_id, judge.model_id):
                     tasks.append((prompt, candidate, judge, output.response_text))
     _run_parallel(
@@ -121,12 +126,19 @@ def _generate_one(
     prompt,
     model,
 ) -> None:
-    payload = backend.generate(model, prompt, settings)
-    guard = evaluate_output(prompt, payload["response_text"])
-    metadata = dict(payload.get("metadata", {}))
+    payload, text, metadata = _generate_with_post_processing(backend, model, prompt, settings)
+    guard = evaluate_output(prompt, text)
+    status = "ok"
+    reason = ""
+    if not guard.is_valid:
+        status = "quarantined"
+        reason = guard.reason
+    elif metadata.get("truncation", {}).get("is_truncated"):
+        status = "quarantined"
+        reason = "truncated"
     metadata["quality_guard"] = {
-        "status": "ok" if guard.is_valid else "quarantined",
-        "reason": guard.reason,
+        "status": status,
+        "reason": reason,
         "word_count": guard.word_count,
         "minimum_words": guard.minimum_words,
     }
@@ -137,7 +149,7 @@ def _generate_one(
         prompt_category=prompt.category,
         candidate_model_id=model.model_id,
         candidate_label=model.label,
-        response_text=payload["response_text"],
+        response_text=text,
         created_at=utc_now_iso(),
         backend=backend.name,
         metadata=metadata,
@@ -182,3 +194,49 @@ def _run_parallel(tasks: Sequence[Tuple], max_workers: int, fn: Callable[[Tuple]
         futures = [executor.submit(fn, task) for task in tasks]
         for future in as_completed(futures):
             future.result()
+
+
+def _generate_with_post_processing(backend, model, prompt, settings):
+    base_max_tokens = int(settings.get("max_output_tokens", 10000))
+    attempts = [
+        dict(settings),
+        dict(settings, reasoning_effort="none", max_output_tokens=max(base_max_tokens * 2, 20000)),
+    ]
+    last_payload = None
+    last_text = ""
+    last_metadata = {}
+
+    for attempt_index, attempt_settings in enumerate(attempts, start=1):
+        payload = backend.generate(model, prompt, attempt_settings)
+        raw_text = payload["response_text"]
+        metadata = dict(payload.get("metadata", {}))
+        metadata["raw_response_text"] = raw_text
+        metadata["generation_attempt"] = attempt_index
+        metadata["generation_settings"] = {
+            "max_output_tokens": int(attempt_settings.get("max_output_tokens", base_max_tokens)),
+            "reasoning_effort": attempt_settings.get("reasoning_effort"),
+        }
+
+        sanitized = sanitize_output(raw_text)
+        metadata["sanitization"] = {
+            "changed": sanitized.changed,
+            "removed_chars": sanitized.removed_chars,
+            "removed_ratio": round(sanitized.removed_ratio, 4),
+            "patterns": sanitized.patterns,
+        }
+        truncation = detect_truncation(
+            sanitized.text,
+            metadata,
+            int(attempt_settings.get("max_output_tokens", base_max_tokens)),
+        )
+        metadata["truncation"] = {"is_truncated": truncation.is_truncated, "reasons": truncation.reasons}
+
+        last_payload = payload
+        last_text = sanitized.text
+        last_metadata = metadata
+
+        heavy_sanitization = sanitized.removed_ratio > 0.10
+        if not heavy_sanitization and not truncation.is_truncated:
+            break
+
+    return last_payload, last_text, last_metadata

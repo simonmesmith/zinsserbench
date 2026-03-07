@@ -66,7 +66,7 @@ def _common_run_parser(parser: argparse.ArgumentParser) -> argparse.ArgumentPars
     parser.add_argument("--generation-concurrency", type=int, default=4)
     parser.add_argument("--judge-concurrency", type=int, default=4)
     parser.add_argument("--temperature", type=float, default=0.2)
-    parser.add_argument("--max-output-tokens", type=int, default=2500)
+    parser.add_argument("--max-output-tokens", type=int, default=10000)
     parser.add_argument(
         "--judge-max-output-tokens",
         type=int,
