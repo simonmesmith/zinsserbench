@@ -215,6 +215,50 @@ class ZinsserBenchTests(unittest.TestCase):
         self.assertEqual(60, _extract_retry_after_seconds(body))
         self.assertIsNone(_extract_retry_after_seconds("not json"))
 
+    def test_judge_retries_when_first_json_parse_fails(self) -> None:
+        backend = OpenRouterBackend(api_key="test-key")
+        calls = []
+        responses = [
+            {
+                "choices": [
+                    {
+                        "message": {"content": '{"scores":{"clarity":5}'},
+                        "finish_reason": "stop",
+                    }
+                ],
+                "usage": {},
+            },
+            {
+                "choices": [
+                    {
+                        "message": {
+                            "content": '{"scores":{"clarity":5,"simplicity":5,"brevity_economy":5,"structure_flow":5,"specificity_precision":5,"humanity_voice":5,"overall":5},"rationale":"ok"}'
+                        },
+                        "finish_reason": "stop",
+                    }
+                ],
+                "usage": {},
+            },
+        ]
+
+        def fake_chat_completion(model_id, messages, settings):
+            calls.append(dict(settings))
+            return responses[len(calls) - 1]
+
+        backend._chat_completion = fake_chat_completion  # type: ignore[method-assign]
+        data, text, payload = backend._judge_completion_with_parse_fallback(
+            "openai/gpt-5.4",
+            [{"role": "user", "content": "test"}],
+            {"reasoning_effort": "medium", "json_mode": True, "max_output_tokens": 500, "temperature": 0.2},
+        )
+
+        self.assertEqual(2, len(calls))
+        self.assertEqual("medium", calls[0]["reasoning_effort"])
+        self.assertEqual("none", calls[1]["reasoning_effort"])
+        self.assertEqual(0, calls[1]["temperature"])
+        self.assertEqual(1000, calls[1]["max_output_tokens"])
+        self.assertEqual("ok", payload["rationale"])
+
     def _copy_tree(self, source: Path, destination: Path) -> None:
         for path in source.rglob("*"):
             relative = path.relative_to(source)

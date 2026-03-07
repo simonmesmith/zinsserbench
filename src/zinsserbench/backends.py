@@ -129,9 +129,7 @@ class OpenRouterBackend(ModelBackend):
         ]
         judge_settings = dict(settings)
         judge_settings["json_mode"] = True
-        data = self._chat_completion_with_reasoning_fallback(judge_model.model_id, messages, judge_settings)
-        text = _extract_text(data)
-        payload = _extract_json_object(text)
+        data, text, payload = self._judge_completion_with_parse_fallback(judge_model.model_id, messages, judge_settings)
         return {
             "scores": payload["scores"],
             "rationale": payload.get("rationale", ""),
@@ -152,6 +150,24 @@ class OpenRouterBackend(ModelBackend):
             retry_settings["max_output_tokens"] = max(int(settings.get("max_output_tokens", 500)) * 3, 1200)
             data = self._chat_completion(model_id, messages, retry_settings)
         return data
+
+    def _judge_completion_with_parse_fallback(
+        self, model_id: str, messages: List[Dict[str, str]], settings: Dict[str, object]
+    ) -> tuple[Dict[str, object], str, Dict[str, object]]:
+        data = self._chat_completion_with_reasoning_fallback(model_id, messages, settings)
+        text = _extract_text(data)
+        try:
+            payload = _extract_json_object(text)
+            return data, text, payload
+        except json.JSONDecodeError:
+            retry_settings = dict(settings)
+            retry_settings["reasoning_effort"] = "none"
+            retry_settings["temperature"] = 0
+            retry_settings["max_output_tokens"] = max(int(settings.get("max_output_tokens", 500)) * 2, 1000)
+            data = self._chat_completion_with_reasoning_fallback(model_id, messages, retry_settings)
+            text = _extract_text(data)
+            payload = _extract_json_object(text)
+            return data, text, payload
 
     def _chat_completion(self, model_id: str, messages: List[Dict[str, str]], settings: Dict[str, object]) -> Dict[str, object]:
         reasoning = None
