@@ -14,7 +14,7 @@ def generate_report(root: Path, run_name: str) -> Dict[str, object]:
     storage = RunStorage(root, run_name)
 
     leaderboard_svg = _bar_chart_svg(
-        title="Overall Writing Score",
+        title="Nonfiction Writing Overall Score",
         rows=[
             (row["candidate_model_id"], row["overall"])
             for row in sorted(summary["writing_by_model"], key=lambda item: item["overall"], reverse=True)
@@ -106,17 +106,22 @@ def _report_markdown(summary: Dict[str, object]) -> str:
 
 def _bar_chart_svg(title: str, rows: List[tuple], value_label: str, max_value: float) -> str:
     width = 900
-    top = 60
+    left_padding = 24
+    title_y = 32
+    subtitle_y = 56
+    top = 72
     row_height = 36
-    chart_left = 220
+    source_text = "Source: ZinsserBench (github.com/simonmesmith/zinsserbench)"
+    max_label_length = max((len(str(label)) for label, _ in rows), default=0)
+    chart_left = max(280, min(420, left_padding + max_label_length * 9))
     chart_right = width - 40
     chart_width = chart_right - chart_left
-    height = top + row_height * max(1, len(rows)) + 40
+    height = top + row_height * max(1, len(rows)) + 56
     parts = [
         f'<svg xmlns="http://www.w3.org/2000/svg" width="{width}" height="{height}" viewBox="0 0 {width} {height}">',
-        '<style>text { font-family: Menlo, Consolas, monospace; fill: #1f2937; } .title { font-size: 24px; font-weight: 700; } .label { font-size: 13px; } .value { font-size: 12px; } .bar { fill: #2f6fed; } .axis { stroke: #d1d5db; stroke-width: 1; }</style>',
-        f'<text x="24" y="32" class="title">{html.escape(title)}</text>',
-        f'<text x="{chart_left}" y="32" class="label">{html.escape(value_label)}</text>',
+        '<style>text { font-family: Menlo, Consolas, monospace; fill: #1f2937; } .title { font-size: 24px; font-weight: 700; } .label { font-size: 13px; } .value { font-size: 12px; } .source { font-size: 12px; fill: #4b5563; } .bar { fill: #2f6fed; } .axis { stroke: #d1d5db; stroke-width: 1; }</style>',
+        f'<text x="{left_padding}" y="{title_y}" class="title">{html.escape(title)}</text>',
+        f'<text x="{chart_left}" y="{subtitle_y}" class="label">{html.escape(value_label)}</text>',
         f'<line x1="{chart_left}" y1="{top - 12}" x2="{chart_right}" y2="{top - 12}" class="axis" />',
     ]
     for index, (label, value) in enumerate(rows):
@@ -124,10 +129,11 @@ def _bar_chart_svg(title: str, rows: List[tuple], value_label: str, max_value: f
         bar_width = 0 if max_value <= 0 else (float(value) / max_value) * chart_width
         parts.extend(
             [
-                f'<text x="24" y="{y + 18}" class="label">{html.escape(str(label))}</text>',
+                f'<text x="{left_padding}" y="{y + 18}" class="label">{html.escape(str(label))}</text>',
                 f'<rect x="{chart_left}" y="{y}" width="{bar_width:.2f}" height="20" rx="4" class="bar" />',
                 f'<text x="{chart_left + bar_width + 8:.2f}" y="{y + 15}" class="value">{float(value):.3f}</text>',
             ]
         )
+    parts.append(f'<text x="{left_padding}" y="{height - 20}" class="source">{html.escape(source_text)}</text>')
     parts.append("</svg>")
     return "\n".join(parts)

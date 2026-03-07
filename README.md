@@ -198,7 +198,7 @@ After a run, `runs/<run_name>/analysis/` contains:
 - `writing_by_prompt_axis.csv`
 - `judge_quality.csv`
 - `model_prompt_details.csv` -- the main drill-down table for a specific model + prompt
-- Headline SVG charts
+- Headline SVG charts with adaptive left margins for long model names and source attribution
 
 ### Testing
 
