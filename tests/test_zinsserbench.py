@@ -1,12 +1,14 @@
 from __future__ import annotations
 
 import csv
+import os
 import tempfile
 import unittest
 from pathlib import Path
 
 from zinsserbench.aggregate import aggregate_run
 from zinsserbench.backends import MockBackend
+from zinsserbench.env import load_dotenv
 from zinsserbench.pipeline import generate_missing, judge_missing
 from zinsserbench.report import generate_report
 from zinsserbench.specs import load_benchmark_version
@@ -82,6 +84,34 @@ class ZinsserBenchTests(unittest.TestCase):
         judge_result = judge_missing(self.temp_dir, "fixture-run", "v0.1", self.backend, self.settings)
         self.assertEqual(20, generate_result["scheduled"])
         self.assertEqual(500, judge_result["scheduled"])
+
+    def test_load_dotenv_reads_local_env_file_without_overriding_existing_env(self) -> None:
+        env_path = self.temp_dir / ".env"
+        env_path.write_text(
+            "# comment\n"
+            "OPENROUTER_API_KEY=from-dotenv\n"
+            "export OTHER_KEY='quoted-value'\n",
+            encoding="utf-8",
+        )
+
+        old_openrouter = os.environ.get("OPENROUTER_API_KEY")
+        old_other = os.environ.get("OTHER_KEY")
+        try:
+            os.environ["OPENROUTER_API_KEY"] = "already-set"
+            os.environ.pop("OTHER_KEY", None)
+
+            self.assertTrue(load_dotenv(env_path))
+            self.assertEqual("already-set", os.environ["OPENROUTER_API_KEY"])
+            self.assertEqual("quoted-value", os.environ["OTHER_KEY"])
+        finally:
+            if old_openrouter is None:
+                os.environ.pop("OPENROUTER_API_KEY", None)
+            else:
+                os.environ["OPENROUTER_API_KEY"] = old_openrouter
+            if old_other is None:
+                os.environ.pop("OTHER_KEY", None)
+            else:
+                os.environ["OTHER_KEY"] = old_other
 
     def _copy_tree(self, source: Path, destination: Path) -> None:
         for path in source.rglob("*"):

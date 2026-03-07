@@ -71,7 +71,8 @@ Each judgment contains scores from `1` to `5` for:
 OpenRouter is the default backend for real runs.
 
 ```bash
-export OPENROUTER_API_KEY=...
+cp .env.example .env
+# then edit .env and set OPENROUTER_API_KEY=...
 python3 -m zinsserbench run \
   --root . \
   --benchmark-version v0.1 \
@@ -82,6 +83,8 @@ python3 -m zinsserbench run \
   --reasoning-effort medium \
   --max-output-tokens 500
 ```
+
+On startup, the CLI loads `.env` and `.env.local` from `--root` if present. Existing shell environment variables still take precedence, so a one-off `export OPENROUTER_API_KEY=...` overrides the file for that session.
 
 You can also run stages separately. Each stage is resumable and skips any artifact that already exists.
 

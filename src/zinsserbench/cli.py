@@ -7,6 +7,7 @@ from typing import Dict
 
 from .aggregate import aggregate_run
 from .backends import build_backend
+from .env import load_dotenv
 from .pipeline import generate_missing, judge_missing
 from .report import generate_report
 
@@ -25,6 +26,8 @@ def main() -> None:
 
     args = parser.parse_args()
     root = Path(args.root).resolve()
+    load_dotenv(root / ".env")
+    load_dotenv(root / ".env.local")
 
     if args.command == "run":
         settings = _settings_from_args(args)
