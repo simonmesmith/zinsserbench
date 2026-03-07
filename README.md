@@ -2,11 +2,9 @@
 
 ZinsserBench is a benchmark for AI nonfiction writing.
 
-It asks a simple question: when a model writes for real readers, does it produce prose that is clear, simple, well-structured, specific, and recognizably human?
+It asks a simple question: which models write the best nonfiction for real readers?
 
-The benchmark is inspired by William Zinsser, the journalist, editor, teacher, and author of *On Writing Well*. Zinsser argued that good nonfiction should be lucid, economical, concrete, and alive on the page. This repo does not ask models to imitate his voice. It uses his recurring principles as a practical standard for judging modern AI writing.
-
-## Latest scores
+## Leaderboards
 
 Most visitors want the current results first. The most recent run in this repo is `2026-03-07-openrouter-v0-1`, using benchmark version `v0.1`.
 
@@ -19,38 +17,25 @@ Most visitors want the current results first. The most recent run in this repo i
 
 ### Writing leaderboard
 
+If you only want the headline: in this run, `openai/gpt-5.3-chat` ranked first on writing quality, followed by `z-ai/glm-5` and `anthropic/claude-opus-4.6`.
+
 Scores are on a `1` to `5` scale. Higher is better. Gemini candidate models are omitted here because their saved generations were truncated by the upstream failure noted above.
 
-| Rank | Model | Overall writing score |
-| --- | --- | ---: |
-| 1 | `openai/gpt-5.3-chat` | `4.1833` |
-| 2 | `z-ai/glm-5` | `4.0500` |
-| 3 | `anthropic/claude-opus-4.6` | `4.0250` |
-| 4 | `anthropic/claude-sonnet-4.6` | `3.8333` |
-| 5 | `x-ai/grok-4.1-fast` | `3.7917` |
-| 6 | `deepseek/deepseek-v3.2` | `3.7000` |
-| 7 | `minimax/minimax-m2.5` | `3.5167` |
-| 8 | `openai/gpt-5.4` | `3.5167` |
-| 9 | `moonshotai/kimi-k2.5` | `3.1000` |
-| 10 | `qwen/qwen3.5-35b-a3b` | `2.5333` |
+![Overall scores](runs/2026-03-07-openrouter-v0-1/analysis/overall_scores.svg)
 
 ### Judge agreement
 
-This benchmark also checks how closely each judge matches the rest of the panel. Higher agreement means a judge is more aligned with panel consensus.
+This benchmark also checks how closely each judge matches the rest of the panel. In this run, `google/gemini-3.1-pro-preview` had the highest agreement, narrowly ahead of `openai/gpt-5.4`.
 
-| Rank | Judge model | Agreement score |
-| --- | --- | ---: |
-| 1 | `google/gemini-3.1-pro-preview` | `0.6752` |
-| 2 | `openai/gpt-5.4` | `0.6732` |
-| 3 | `anthropic/claude-opus-4.6` | `0.5919` |
+![Judge quality](runs/2026-03-07-openrouter-v0-1/analysis/judge_quality.svg)
 
 Latest report: [runs/2026-03-07-openrouter-v0-1/analysis/REPORT.md](runs/2026-03-07-openrouter-v0-1/analysis/REPORT.md)
 
 Response length audit: [runs/2026-03-07-openrouter-v0-1/analysis/response_lengths_by_model.csv](runs/2026-03-07-openrouter-v0-1/analysis/response_lengths_by_model.csv)
 
-![Overall scores](runs/2026-03-07-openrouter-v0-1/analysis/overall_scores.svg)
+## Introduction
 
-![Judge quality](runs/2026-03-07-openrouter-v0-1/analysis/judge_quality.svg)
+The benchmark is inspired by William Zinsser, the journalist, editor, teacher, and author of *On Writing Well*. Zinsser argued that good nonfiction should be lucid, economical, concrete, and alive on the page. This repo does not ask models to imitate his voice. It uses his recurring principles as a practical standard for judging modern AI writing.
 
 ## What this benchmark measures
 
