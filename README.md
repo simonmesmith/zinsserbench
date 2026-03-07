@@ -1,31 +1,120 @@
 # ZinsserBench
 
-ZinsserBench is a public benchmark for evaluating AI models on nonfiction writing quality and model-based judging quality. It uses a Zinsser-inspired rubric grounded in recurring principles from *On Writing Well*: clarity, simplicity, brevity, structure, specificity, and humanity.
+ZinsserBench is a benchmark for AI nonfiction writing.
 
-Version `v0.1` is intentionally small and cheap enough to run as a pilot while still supporting deeper analysis across models, prompts, prompt categories, rubric elements, and judges.
+It asks a simple question: when a model writes for real readers, does it produce prose that is clear, simple, well-structured, specific, and recognizably human?
 
-## What the benchmark measures
+The benchmark is inspired by William Zinsser, the journalist, editor, teacher, and author of *On Writing Well*. Zinsser argued that good nonfiction should be lucid, economical, concrete, and alive on the page. This repo does not ask models to imitate his voice. It uses his recurring principles as a practical standard for judging modern AI writing.
 
-Every enabled model in a benchmark version does one job:
+## Latest scores
 
-1. It writes one response for every prompt.
+Most visitors want the current results first. The most recent run in this repo is `2026-03-07-openrouter-v0-1`, using benchmark version `v0.1`.
 
-A configured judge panel scores every model response against the rubric.
+- Important note: this was a very early `v0.1` run using OpenRouter with `--reasoning-effort medium`. Treat the results as directional, not definitive.
+- Important note: the two Gemini candidate models had an OpenRouter failure in this run. They spent most of their token budget on reasoning and returned visibly truncated text, so they are excluded from the README leaderboard below.
+- Prompts: `20`
+- Candidate models: `12`
+- Judge panel: `openai/gpt-5.4`, `anthropic/claude-opus-4.6`, `google/gemini-3.1-pro-preview`
+- Prompt mix: `4` explainers, `4` memos, `3` profiles, `3` service guides, `3` opinion pieces, `3` personal nonfiction essays
 
-This produces two headline metrics:
+### Writing leaderboard
 
-- `writing score`: average rubric performance across all prompts and all judges
-- `judge quality`: leave-one-out agreement with panel consensus
+Scores are on a `1` to `5` scale. Higher is better. Gemini candidate models are omitted here because their saved generations were truncated by the upstream failure noted above.
 
-The stored data also supports drill-down analysis for:
+| Rank | Model | Overall writing score |
+| --- | --- | ---: |
+| 1 | `openai/gpt-5.3-chat` | `4.1833` |
+| 2 | `z-ai/glm-5` | `4.0500` |
+| 3 | `anthropic/claude-opus-4.6` | `4.0250` |
+| 4 | `anthropic/claude-sonnet-4.6` | `3.8333` |
+| 5 | `x-ai/grok-4.1-fast` | `3.7917` |
+| 6 | `deepseek/deepseek-v3.2` | `3.7000` |
+| 7 | `minimax/minimax-m2.5` | `3.5167` |
+| 8 | `openai/gpt-5.4` | `3.5167` |
+| 9 | `moonshotai/kimi-k2.5` | `3.1000` |
+| 10 | `qwen/qwen3.5-35b-a3b` | `2.5333` |
 
-- model + prompt
-- model + prompt category
-- model + rubric element
-- prompt + rubric element
-- judge model
+### Judge agreement
 
-## Repository layout
+This benchmark also checks how closely each judge matches the rest of the panel. Higher agreement means a judge is more aligned with panel consensus.
+
+| Rank | Judge model | Agreement score |
+| --- | --- | ---: |
+| 1 | `google/gemini-3.1-pro-preview` | `0.6752` |
+| 2 | `openai/gpt-5.4` | `0.6732` |
+| 3 | `anthropic/claude-opus-4.6` | `0.5919` |
+
+Latest report: [runs/2026-03-07-openrouter-v0-1/analysis/REPORT.md](runs/2026-03-07-openrouter-v0-1/analysis/REPORT.md)
+
+Response length audit: [runs/2026-03-07-openrouter-v0-1/analysis/response_lengths_by_model.csv](runs/2026-03-07-openrouter-v0-1/analysis/response_lengths_by_model.csv)
+
+![Overall scores](runs/2026-03-07-openrouter-v0-1/analysis/overall_scores.svg)
+
+![Judge quality](runs/2026-03-07-openrouter-v0-1/analysis/judge_quality.svg)
+
+## What this benchmark measures
+
+ZinsserBench scores each response on seven dimensions:
+
+- `clarity`: easy to understand on a first read
+- `simplicity`: plain, direct language without puffed-up wording
+- `brevity and economy`: no wasted space, repetition, or throat-clearing
+- `structure and flow`: ideas arrive in a logical, readable order
+- `specificity and precision`: concrete details instead of vague abstraction
+- `humanity and voice`: sounds written for people, not by committee
+- `overall effectiveness`: overall nonfiction quality for the task
+
+The goal is not literary imitation. The goal is strong public-facing prose.
+
+## How it works
+
+At a high level, the process is straightforward:
+
+1. ZinsserBench gives every candidate model the same set of nonfiction writing prompts.
+2. The prompts cover several common forms: explainers, internal memos, profiles, practical how-to guidance, opinion writing, and personal nonfiction.
+3. A separate judge panel scores every response on the rubric above.
+4. The repo aggregates those scores into two headline views:
+
+- `writing score`: how well a model writes across the full benchmark
+- `judge quality`: how closely a judge agrees with the rest of the panel
+
+This makes the benchmark useful for two different questions:
+
+- Which models currently write the strongest nonfiction?
+- Which models are the most reliable judges of nonfiction quality?
+
+## Why the benchmark focuses on nonfiction
+
+A great deal of real-world AI writing is nonfiction: memos, consumer explainers, civic guides, service writing, profiles, and opinion pieces. These are not edge cases. They are everyday forms that people read to understand work, institutions, money, health, policy, and one another.
+
+Nonfiction is where weak writing habits become obvious. Models can hide behind flourish in fiction; they have less room to hide when they need to explain, persuade, or inform plainly.
+
+## Prompt design
+
+Version `v0.1` uses `20` prompts:
+
+- `memo`: `4`
+- `explain`: `4`
+- `profile`: `3`
+- `service_howto`: `3`
+- `persuasion_oped`: `3`
+- `personal_nonfiction`: `3`
+
+Prompts are intentionally short and direct. They do not ask for Zinsser pastiche or elaborate stylistic role-play. The benchmark is trying to measure writing quality, not prompt-following on a baroque instruction set.
+
+## Repo guide for nontechnical readers
+
+If you only want the results:
+
+- Read the latest report: [runs/2026-03-07-openrouter-v0-1/analysis/REPORT.md](runs/2026-03-07-openrouter-v0-1/analysis/REPORT.md)
+- Check response lengths: [runs/2026-03-07-openrouter-v0-1/analysis/response_lengths_by_model.csv](runs/2026-03-07-openrouter-v0-1/analysis/response_lengths_by_model.csv)
+- View the charts in `runs/2026-03-07-openrouter-v0-1/analysis/`
+- Inspect `writing_by_model.csv` for the leaderboard
+- Inspect `model_prompt_details.csv` for prompt-by-prompt performance
+
+## Technical details
+
+### Repository layout
 
 ```text
 benchmark_versions/<version>/
@@ -41,44 +130,48 @@ runs/<run_name>/
   analysis/
 ```
 
-Benchmark versions are immutable. If prompts, rubric, or scoring policy change in a material way, create a new version directory and rerun the full matrix for that version.
+Benchmark versions are intended to be immutable. If you materially change prompts, rubric, or scoring policy, create a new version directory and rerun the benchmark for that version.
 
-## Prompt taxonomy
+### Installation
 
-Each prompt has a required category so results can be analyzed by nonfiction form:
+ZinsserBench is a small Python package with no external runtime dependency declared beyond Python itself.
 
-- `memo`
-- `explain`
-- `profile`
-- `service_howto`
-- `persuasion_oped`
-- `personal_nonfiction`
+```bash
+python3 -m venv .venv
+source .venv/bin/activate
+pip install -e .
+```
 
-Prompts are short and direct by design. They do not ask models to imitate Zinsser or to follow elaborate stylistic instructions.
+You can also run it directly from source:
 
-## Rubric
+```bash
+PYTHONPATH=src python3 -m zinsserbench --help
+```
 
-Each judgment contains scores from `1` to `5` for:
+### Configuration
 
-- `clarity`
-- `simplicity`
-- `brevity_economy`
-- `structure_flow`
-- `specificity_precision`
-- `humanity_voice`
-- `overall`
+The benchmark uses two versioned config files for model selection:
 
-## Running the benchmark
+- `benchmark_versions/<version>/models.json` for candidate models
+- `benchmark_versions/<version>/judges.json` for the judge panel
 
-OpenRouter is the default backend for real runs.
+The current `v0.1` judge panel is intentionally lightweight:
+
+- `openai/gpt-5.4`
+- `anthropic/claude-opus-4.6`
+- `google/gemini-3.1-pro-preview`
+
+### Running the benchmark
+
+OpenRouter is the default live backend.
 
 ```bash
 cp .env.example .env
 # then edit .env and set OPENROUTER_API_KEY=...
-python3 -m zinsserbench run \
+zinsserbench run \
   --root . \
   --benchmark-version v0.1 \
-  --run-name 2026-03-07-v0-1 \
+  --run-name 2026-03-07-openrouter-v0-1 \
   --backend openrouter \
   --generation-concurrency 4 \
   --judge-concurrency 4 \
@@ -86,61 +179,38 @@ python3 -m zinsserbench run \
   --max-output-tokens 500
 ```
 
-On startup, the CLI loads `.env` and `.env.local` from `--root` if present. Existing shell environment variables still take precedence, so a one-off `export OPENROUTER_API_KEY=...` overrides the file for that session.
+On startup, the CLI loads `.env` and `.env.local` from `--root` if present. Existing shell environment variables still take precedence.
 
-Judge selection is versioned in `benchmark_versions/<version>/judges.json`. For `v0.1`, the lite panel is:
+Existing runs are resumable. If work is partially complete, reuse the same `--run-name` instead of starting over.
 
-- `openai/gpt-5.4`
-- `anthropic/claude-opus-4.6`
-- `google/gemini-3.1-pro-preview`
+### Running stages separately
 
-You can also run stages separately. Each stage is resumable and skips any artifact that already exists.
+Each stage skips artifacts that already exist.
 
 ```bash
-python3 -m zinsserbench generate --root . --benchmark-version v0.1 --run-name 2026-03-07-v0-1 --backend openrouter
-python3 -m zinsserbench judge --root . --benchmark-version v0.1 --run-name 2026-03-07-v0-1 --backend openrouter
-python3 -m zinsserbench analyze --root . --run-name 2026-03-07-v0-1
+zinsserbench generate --root . --benchmark-version v0.1 --run-name 2026-03-07-openrouter-v0-1 --backend openrouter
+zinsserbench judge --root . --benchmark-version v0.1 --run-name 2026-03-07-openrouter-v0-1 --backend openrouter
+zinsserbench analyze --root . --run-name 2026-03-07-openrouter-v0-1
 ```
 
-When OpenRouter supports reasoning controls for a model, ZinsserBench sends `reasoning: { "effort": "medium", "exclude": true }` by default. This keeps the requested reasoning level consistent across supported models while avoiding returned reasoning blocks in stored artifacts. Models that do not support the parameter simply ignore it.
+### OpenRouter handling
 
-## v0.1 models
+This repo includes defensive handling for provider quirks that have shown up in live runs:
 
-- `openai/gpt-5.4`
-- `openai/gpt-5.3-chat`
-- `google/gemini-3.1-flash-lite-preview`
-- `google/gemini-3.1-pro-preview`
-- `anthropic/claude-sonnet-4.6`
-- `anthropic/claude-opus-4.6`
-- `x-ai/grok-4.1-fast`
-- `z-ai/glm-5`
-- `deepseek/deepseek-v3.2`
-- `moonshotai/kimi-k2.5`
-- `qwen/qwen3.5-35b-a3b`
-- `minimax/minimax-m2.5`
+- some providers return `content: null` after spending tokens on reasoning
+- some providers need a retry with reasoning disabled and a larger token budget
+- some providers return `429` with `retry_after_seconds`, which should be honored instead of treated as a fatal failure
+- judge calls should stay in JSON mode
 
-## Latest run in this repo
+When OpenRouter supports reasoning controls for a model, ZinsserBench sends reasoning effort while excluding returned reasoning blocks by default. Models that do not support the parameter ignore it.
 
-Latest live OpenRouter run: `2026-03-07-openrouter-v0-1`
-
-- Candidate models: `12`
-- Judge panel: `openai/gpt-5.4`, `anthropic/claude-opus-4.6`, `google/gemini-3.1-pro-preview`
-- Top writing models: `openai/gpt-5.3-chat`, `z-ai/glm-5`, `anthropic/claude-opus-4.6`
-
-Latest report: [runs/2026-03-07-openrouter-v0-1/analysis/REPORT.md](/Users/simonsmith/Scratch/2026-03-07-zinsserbench/runs/2026-03-07-openrouter-v0-1/analysis/REPORT.md)
-
-Latest charts:
-
-![Overall scores](/Users/simonsmith/Scratch/2026-03-07-zinsserbench/runs/2026-03-07-openrouter-v0-1/analysis/overall_scores.svg)
-
-![Judge quality](/Users/simonsmith/Scratch/2026-03-07-zinsserbench/runs/2026-03-07-openrouter-v0-1/analysis/judge_quality.svg)
-
-## Outputs and analysis
+### Analysis outputs
 
 For each run, `runs/<run_name>/analysis/` contains:
 
 - `summary.json`
 - `REPORT.md`
+- `response_lengths_by_model.csv`
 - `writing_by_model.csv`
 - `writing_by_model_axis.csv`
 - `writing_by_model_category.csv`
@@ -148,11 +218,11 @@ For each run, `runs/<run_name>/analysis/` contains:
 - `writing_by_prompt_axis.csv`
 - `judge_quality.csv`
 - `model_prompt_details.csv`
-- SVG charts for headline metrics
+- headline SVG charts
 
-`model_prompt_details.csv` is the key drill-down table for inspecting an individual model/prompt pair alongside its aggregated rubric scores.
+`model_prompt_details.csv` is the main drill-down table for inspecting a specific model and prompt together with its aggregated rubric scores.
 
-## Testing
+### Testing
 
 The test suite uses the standard library only.
 

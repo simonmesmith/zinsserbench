@@ -207,6 +207,49 @@ class ZinsserBenchTests(unittest.TestCase):
         self.assertEqual(1500, calls[2]["max_output_tokens"])
         self.assertEqual("expanded text", data["choices"][0]["message"]["content"])
 
+    def test_openrouter_retries_when_reasoning_exhausts_budget_and_visible_text_is_tiny(self) -> None:
+        backend = OpenRouterBackend(api_key="test-key")
+        calls = []
+        responses = [
+            {
+                "choices": [
+                    {
+                        "message": {"content": "A promising title that cuts off"},
+                        "finish_reason": "length",
+                    }
+                ],
+                "usage": {
+                    "completion_tokens": 496,
+                    "completion_tokens_details": {"reasoning_tokens": 478},
+                },
+            },
+            {
+                "choices": [
+                    {
+                        "message": {"content": "A complete response with enough visible text to score." * 10},
+                        "finish_reason": "stop",
+                    }
+                ],
+                "usage": {"completion_tokens": 220, "completion_tokens_details": {"reasoning_tokens": 0}},
+            },
+        ]
+
+        def fake_chat_completion(model_id, messages, settings):
+            calls.append(dict(settings))
+            return responses[len(calls) - 1]
+
+        backend._chat_completion = fake_chat_completion  # type: ignore[method-assign]
+        data = backend._chat_completion_with_reasoning_fallback(
+            "google/gemini-3.1-pro-preview",
+            [{"role": "user", "content": "test"}],
+            {"reasoning_effort": "medium", "max_output_tokens": 500},
+        )
+
+        self.assertEqual(2, len(calls))
+        self.assertEqual("medium", calls[0]["reasoning_effort"])
+        self.assertEqual("none", calls[1]["reasoning_effort"])
+        self.assertGreater(len(data["choices"][0]["message"]["content"]), 200)
+
     def test_extract_retry_after_seconds_from_openrouter_error(self) -> None:
         body = (
             '{"error":{"message":"Provider returned error","code":429,'

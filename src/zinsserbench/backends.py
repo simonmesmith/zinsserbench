@@ -140,11 +140,11 @@ class OpenRouterBackend(ModelBackend):
         self, model_id: str, messages: List[Dict[str, str]], settings: Dict[str, object]
     ) -> Dict[str, object]:
         data = self._chat_completion(model_id, messages, settings)
-        if _response_has_empty_content(data) and settings.get("reasoning_effort") != "none":
+        if _response_needs_visibility_retry(data) and settings.get("reasoning_effort") != "none":
             retry_settings = dict(settings)
             retry_settings["reasoning_effort"] = "none"
             data = self._chat_completion(model_id, messages, retry_settings)
-        if _response_has_empty_content(data):
+        if _response_needs_visibility_retry(data):
             retry_settings = dict(settings)
             retry_settings["reasoning_effort"] = "none"
             retry_settings["max_output_tokens"] = max(int(settings.get("max_output_tokens", 500)) * 3, 1200)
@@ -248,6 +248,36 @@ def _response_has_empty_content(payload: Dict[str, object]) -> bool:
     message = choices[0].get("message", {})
     content = message.get("content")
     return content is None
+
+
+def _response_needs_visibility_retry(payload: Dict[str, object]) -> bool:
+    if _response_has_empty_content(payload):
+        return True
+
+    choices = payload.get("choices", [])
+    if not choices:
+        return False
+    choice = choices[0]
+    if choice.get("finish_reason") != "length":
+        return False
+
+    text = _extract_text(payload)
+    if len(text.strip()) >= 200:
+        return False
+
+    usage = payload.get("usage", {})
+    completion_tokens = usage.get("completion_tokens")
+    details = usage.get("completion_tokens_details", {})
+    if not isinstance(details, dict):
+        details = {}
+    reasoning_tokens = details.get("reasoning_tokens", 0)
+    if not isinstance(reasoning_tokens, int):
+        return False
+    if completion_tokens is None:
+        completion_tokens = reasoning_tokens
+    if not isinstance(completion_tokens, int) or completion_tokens <= 0:
+        return False
+    return reasoning_tokens >= int(completion_tokens * 0.5)
 
 
 def _extract_retry_after_seconds(body: str) -> int | None:
