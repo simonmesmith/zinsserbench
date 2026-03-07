@@ -1,0 +1,47 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.1",
+  "candidate_model_id": "anthropic/claude-sonnet-4.6",
+  "created_at": "2026-03-07T21:22:17Z",
+  "judge_model_id": "anthropic/claude-opus-4.6",
+  "metadata": {
+    "id": "gen-1772918530-Gv0Bi9ooBl2XAAYnvtOW",
+    "raw_text": "{\"scores\": {\"clarity\": 5, \"simplicity\": 5, \"brevity_economy\": 4, \"structure_flow\": 5, \"specificity_precision\": 4, \"humanity_voice\": 5, \"overall\": 5}, \"rationale\": \"Exceptionally clear and readable opinion piece. The language is direct and vivid without being overwrought \u2014 lines like 'a library that exists for the unemployed, the retired, and those lucky enough to set their own schedules' land with precision and punch. The structure moves logically from the working-hours argument to the digital-divide argument, each section building the case. Concrete examples (the parent working two jobs, the student finishing practice at 5:45) ground the argument effectively. The Pew Research Center citation adds credibility, though more specific data points would strengthen it further. Minor ding on brevity: a few phrases like 'not just compelling. It's urgent' and 'fundamentally transform' edge toward rhetorical inflation, though they're appropriate for the opinion genre. The voice is warm, persuasive, and genuinely human throughout. The piece is incomplete (cuts off mid-argument), which limits full assessment, but what's present is excellent.\"}",
+    "usage": {
+      "completion_tokens": 272,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 0
+      },
+      "cost": 0.010955,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.0068,
+        "upstream_inference_cost": 0.010955,
+        "upstream_inference_prompt_cost": 0.004155
+      },
+      "is_byok": false,
+      "prompt_tokens": 831,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 1103
+    }
+  },
+  "prompt_category": "persuasion_oped",
+  "prompt_id": "oped_library_hours",
+  "rationale": "Exceptionally clear and readable opinion piece. The language is direct and vivid without being overwrought \u2014 lines like 'a library that exists for the unemployed, the retired, and those lucky enough to set their own schedules' land with precision and punch. The structure moves logically from the working-hours argument to the digital-divide argument, each section building the case. Concrete examples (the parent working two jobs, the student finishing practice at 5:45) ground the argument effectively. The Pew Research Center citation adds credibility, though more specific data points would strengthen it further. Minor ding on brevity: a few phrases like 'not just compelling. It's urgent' and 'fundamentally transform' edge toward rhetorical inflation, though they're appropriate for the opinion genre. The voice is warm, persuasive, and genuinely human throughout. The piece is incomplete (cuts off mid-argument), which limits full assessment, but what's present is excellent.",
+  "run_name": "2026-03-07-openrouter-v0-1-salvage-1",
+  "scores": {
+    "brevity_economy": 4,
+    "clarity": 5,
+    "humanity_voice": 5,
+    "overall": 5,
+    "simplicity": 5,
+    "specificity_precision": 4,
+    "structure_flow": 5
+  }
+}

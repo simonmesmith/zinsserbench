@@ -1,0 +1,37 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.1",
+  "candidate_label": "GPT-5.3 Chat",
+  "candidate_model_id": "openai/gpt-5.3-chat",
+  "created_at": "2026-03-07T15:04:31Z",
+  "metadata": {
+    "id": "gen-1772895866-IOt6vJQycACMWe0uPbTV",
+    "usage": {
+      "completion_tokens": 430,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 0
+      },
+      "cost": 0.0061215,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.00602,
+        "upstream_inference_cost": 0.0061215,
+        "upstream_inference_prompt_cost": 0.0001015
+      },
+      "is_byok": false,
+      "prompt_tokens": 58,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 488
+    }
+  },
+  "prompt_category": "explain",
+  "prompt_id": "explain_municipal_bonds",
+  "response_text": "Municipal bonds (often called \u201cmunis\u201d) are loans that investors make to local governments. When you buy a municipal bond, you are essentially lending money to a city, county, or other public authority. In return, the government promises to pay you interest over time and repay the original amount on a set date in the future.\n\nCities issue municipal bonds because many public projects cost a lot of money up front. Things like building schools, repairing roads, upgrading water systems, constructing public transit, or building hospitals can cost millions or even billions of dollars. Rather than raising all that money immediately through taxes, a city can borrow it by selling bonds and then pay the money back gradually over many years.\n\nHere\u2019s how it typically works in simple terms. Suppose a city wants to build a new bridge that will cost $200 million. The city issues bonds to investors to raise that money now. Investors buy the bonds, providing the cash needed for construction. Over time\u2014often 10, 20, or 30 years\u2014the city pays investors regular interest payments and eventually returns the original investment when the bond \u201cmatures.\u201d\n\nMunicipal bonds are popular with some investors because the interest they earn is often exempt from federal income taxes, and sometimes from state or local taxes as well if the investor lives in the same state where the bond was issued. That tax advantage can make the bonds attractive even though they usually pay lower interest than some other investments.\n\nThere are two common types of municipal bonds. General obligation bonds are backed by a city\u2019s general tax revenue. That means the government pledges its ability to collect taxes to repay investors. Revenue bonds, on the other hand, are repaid using income from a specific project, such as tolls from a highway, fares from a transit system, or fees from a water utility.\n\nFor cities and towns, municipal bonds are a key way to finance long-term infrastructure without needing all the money at once. For investors, they offer a relatively steady income stream and potential tax benefits. In short, municipal bonds help connect public needs\u2014like schools and roads\u2014with private investment that helps pay for them.",
+  "run_name": "2026-03-07-openrouter-v0-1"
+}

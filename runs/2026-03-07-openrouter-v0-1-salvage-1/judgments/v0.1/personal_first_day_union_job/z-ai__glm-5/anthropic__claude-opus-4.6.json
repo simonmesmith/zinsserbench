@@ -1,0 +1,47 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.1",
+  "candidate_model_id": "z-ai/glm-5",
+  "created_at": "2026-03-07T21:25:47Z",
+  "judge_model_id": "anthropic/claude-opus-4.6",
+  "metadata": {
+    "id": "gen-1772918741-JPgwrf7EhYP75tJdSsff",
+    "raw_text": "{\"scores\": {\"clarity\": 5, \"simplicity\": 5, \"brevity_economy\": 5, \"structure_flow\": 4, \"specificity_precision\": 5, \"humanity_voice\": 5, \"overall\": 4}, \"rationale\": \"Exceptionally clear, direct prose with zero wasted words. The specificity is outstanding\u2014'six-minute increments,' 'Local 23,' 'Darla with gray in her braid and a Teamsters jacket'\u2014grounding every moment in concrete detail. The voice is deeply human, with a weary authority earned through lived experience. The catalog of prior jobs ('bathroom breaks were monitored in six-minute increments') is efficient and devastating. Structure builds logically from trained habits to backstory to the new setting. Docked slightly on structure/flow and overall because the piece is clearly incomplete\u2014it cuts off mid-dialogue just as the transformative moment is about to arrive, so the essay never delivers on the prompt's core promise of showing how the union job changed the writer's idea of work. What's here is excellent, but it's an opening, not an essay.\"}",
+    "usage": {
+      "completion_tokens": 253,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 0
+      },
+      "cost": 0.00982,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.006325,
+        "upstream_inference_cost": 0.00982,
+        "upstream_inference_prompt_cost": 0.003495
+      },
+      "is_byok": false,
+      "prompt_tokens": 699,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 952
+    }
+  },
+  "prompt_category": "personal_nonfiction",
+  "prompt_id": "personal_first_day_union_job",
+  "rationale": "Exceptionally clear, direct prose with zero wasted words. The specificity is outstanding\u2014'six-minute increments,' 'Local 23,' 'Darla with gray in her braid and a Teamsters jacket'\u2014grounding every moment in concrete detail. The voice is deeply human, with a weary authority earned through lived experience. The catalog of prior jobs ('bathroom breaks were monitored in six-minute increments') is efficient and devastating. Structure builds logically from trained habits to backstory to the new setting. Docked slightly on structure/flow and overall because the piece is clearly incomplete\u2014it cuts off mid-dialogue just as the transformative moment is about to arrive, so the essay never delivers on the prompt's core promise of showing how the union job changed the writer's idea of work. What's here is excellent, but it's an opening, not an essay.",
+  "run_name": "2026-03-07-openrouter-v0-1-salvage-1",
+  "scores": {
+    "brevity_economy": 5,
+    "clarity": 5,
+    "humanity_voice": 5,
+    "overall": 4,
+    "simplicity": 5,
+    "specificity_precision": 5,
+    "structure_flow": 4
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.1",
+  "candidate_model_id": "anthropic/claude-opus-4.6",
+  "created_at": "2026-03-07T21:37:05Z",
+  "judge_model_id": "anthropic/claude-opus-4.6",
+  "metadata": {
+    "id": "gen-1772919418-K3tV3YPe4DWyVO0XaIEf",
+    "raw_text": "{\"scores\": {\"clarity\": 5, \"simplicity\": 4, \"brevity_economy\": 5, \"structure_flow\": 5, \"specificity_precision\": 5, \"humanity_voice\": 5, \"overall\": 5}, \"rationale\": \"Exceptional personal essay writing. The specificity is outstanding\u2014'Maple and 4th,' 'five-mile walk in February,' '11:51 or 11:54'\u2014grounding abstract reflection in concrete detail. The metaphors are fresh and earned (coin in a fountain, single yellow eye). The observation about late-night buses as unperformed public space is genuinely insightful. The prose has a distinctive, warm voice without ever feeling overwrought. Simplicity gets a 4 rather than 5 because some constructions lean literary ('the particular math of a life that didn't add up to a car'), but these feel purposeful rather than inflated. The piece is cut short but what exists is nearly flawless in economy\u2014no wasted sentences. Structure flows naturally from introduction to scene-setting to reflection, with the section break well-placed.\"}",
+    "usage": {
+      "completion_tokens": 252,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 0
+      },
+      "cost": 0.010365,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.0063,
+        "upstream_inference_cost": 0.010365,
+        "upstream_inference_prompt_cost": 0.004065
+      },
+      "is_byok": false,
+      "prompt_tokens": 813,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 1065
+    }
+  },
+  "prompt_category": "personal_nonfiction",
+  "prompt_id": "personal_night_shift_bus",
+  "rationale": "Exceptional personal essay writing. The specificity is outstanding\u2014'Maple and 4th,' 'five-mile walk in February,' '11:51 or 11:54'\u2014grounding abstract reflection in concrete detail. The metaphors are fresh and earned (coin in a fountain, single yellow eye). The observation about late-night buses as unperformed public space is genuinely insightful. The prose has a distinctive, warm voice without ever feeling overwrought. Simplicity gets a 4 rather than 5 because some constructions lean literary ('the particular math of a life that didn't add up to a car'), but these feel purposeful rather than inflated. The piece is cut short but what exists is nearly flawless in economy\u2014no wasted sentences. Structure flows naturally from introduction to scene-setting to reflection, with the section break well-placed.",
+  "run_name": "2026-03-07-openrouter-v0-1-salvage-1",
+  "scores": {
+    "brevity_economy": 5,
+    "clarity": 5,
+    "humanity_voice": 5,
+    "overall": 5,
+    "simplicity": 4,
+    "specificity_precision": 5,
+    "structure_flow": 5
+  }
+}

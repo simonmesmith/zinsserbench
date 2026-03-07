@@ -1,0 +1,47 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.1",
+  "candidate_model_id": "x-ai/grok-4.1-fast",
+  "created_at": "2026-03-07T21:19:40Z",
+  "judge_model_id": "anthropic/claude-opus-4.6",
+  "metadata": {
+    "id": "gen-1772918365-JwGplswdPumn1zm3drpE",
+    "raw_text": "{\"scores\": {\"clarity\": 5, \"simplicity\": 5, \"brevity_economy\": 4, \"structure_flow\": 5, \"specificity_precision\": 5, \"humanity_voice\": 4, \"overall\": 4}, \"rationale\": \"What's on the page is excellent: clear numbered steps, scannable bullet points, a useful comparison table for venues, concrete specifics (10-20 households, Google Forms, 6-8 PM, 20-50 attendees, sample speed example). Language is plain and direct throughout. Structure logically moves from goal-setting to logistics to agenda. Voice is warm and reader-aware ('even if you're new to activism'). The main limitation is the response is cut off mid-agenda in Step 3, so the guide is incomplete\u2014missing later steps presumably about facilitation, follow-up, and engaging officials. Brevity gets a 4 rather than 5 because the intro paragraph is slightly front-loaded, though not egregiously so. Overall docked one point for incompleteness despite the high quality of what exists.\"}",
+    "usage": {
+      "completion_tokens": 698,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 456
+      },
+      "cost": 0.022355,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.01745,
+        "upstream_inference_cost": 0.022355,
+        "upstream_inference_prompt_cost": 0.004905
+      },
+      "is_byok": false,
+      "prompt_tokens": 981,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 1679
+    }
+  },
+  "prompt_category": "service_howto",
+  "prompt_id": "howto_neighborhood_meeting",
+  "rationale": "What's on the page is excellent: clear numbered steps, scannable bullet points, a useful comparison table for venues, concrete specifics (10-20 households, Google Forms, 6-8 PM, 20-50 attendees, sample speed example). Language is plain and direct throughout. Structure logically moves from goal-setting to logistics to agenda. Voice is warm and reader-aware ('even if you're new to activism'). The main limitation is the response is cut off mid-agenda in Step 3, so the guide is incomplete\u2014missing later steps presumably about facilitation, follow-up, and engaging officials. Brevity gets a 4 rather than 5 because the intro paragraph is slightly front-loaded, though not egregiously so. Overall docked one point for incompleteness despite the high quality of what exists.",
+  "run_name": "2026-03-07-openrouter-v0-1-salvage-1",
+  "scores": {
+    "brevity_economy": 4,
+    "clarity": 5,
+    "humanity_voice": 4,
+    "overall": 4,
+    "simplicity": 5,
+    "specificity_precision": 5,
+    "structure_flow": 5
+  }
+}

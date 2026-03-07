@@ -1,0 +1,47 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.1",
+  "candidate_model_id": "z-ai/glm-5",
+  "created_at": "2026-03-07T21:36:53Z",
+  "judge_model_id": "openai/gpt-5.4",
+  "metadata": {
+    "id": "gen-1772919408-FQMjTQcA8m2E0a3beiNr",
+    "raw_text": "{\"scores\":{\"clarity\":5,\"simplicity\":4,\"brevity_economy\":4,\"structure_flow\":5,\"specificity_precision\":5,\"humanity_voice\":5,\"overall\":5},\"rationale\":\"Clear, controlled, and highly readable. The essay is well organized around a year of repeated rides, with vivid concrete details (times, stops, riders, seasonal changes) that make the bus route feel lived-in. The voice is humane and reflective without losing focus. It is slightly more lyrical than plainspoken, and a few passages linger for atmosphere, so simplicity and economy are a touch below perfect.\"}",
+    "usage": {
+      "completion_tokens": 237,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 102
+      },
+      "cost": 0.00813,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.003555,
+        "upstream_inference_cost": 0.00813,
+        "upstream_inference_prompt_cost": 0.004575
+      },
+      "is_byok": false,
+      "prompt_tokens": 1830,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 2067
+    }
+  },
+  "prompt_category": "personal_nonfiction",
+  "prompt_id": "personal_night_shift_bus",
+  "rationale": "Clear, controlled, and highly readable. The essay is well organized around a year of repeated rides, with vivid concrete details (times, stops, riders, seasonal changes) that make the bus route feel lived-in. The voice is humane and reflective without losing focus. It is slightly more lyrical than plainspoken, and a few passages linger for atmosphere, so simplicity and economy are a touch below perfect.",
+  "run_name": "2026-03-07-openrouter-v0-1-salvage-1",
+  "scores": {
+    "brevity_economy": 4,
+    "clarity": 5,
+    "humanity_voice": 5,
+    "overall": 5,
+    "simplicity": 4,
+    "specificity_precision": 5,
+    "structure_flow": 5
+  }
+}

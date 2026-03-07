@@ -1,0 +1,47 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.1",
+  "candidate_model_id": "anthropic/claude-sonnet-4.6",
+  "created_at": "2026-03-07T21:28:58Z",
+  "judge_model_id": "anthropic/claude-opus-4.6",
+  "metadata": {
+    "id": "gen-1772918931-TsqEbqbgALI4glibne8T",
+    "raw_text": "{\"scores\": {\"clarity\": 5, \"simplicity\": 5, \"brevity_economy\": 4, \"structure_flow\": 5, \"specificity_precision\": 5, \"humanity_voice\": 4, \"overall\": 5}, \"rationale\": \"Exceptionally clear and well-organized memo. The root cause explanation (misconfigured update \u2192 memory leak \u2192 cascading auth failure) is precise and accessible to a non-technical audience. The timeline table, bulleted affected-systems list, and clear section headers make it easy to scan. Specificity is strong: exact times, named systems, concrete technical details without jargon overload. The human touches ('We recognize this disruption affected your ability to do your work') are present but slightly formulaic \u2014 competent corporate empathy rather than genuinely distinctive voice. Brevity is good but the piece leans slightly expansive for an internal memo (e.g., the overview paragraph partly restates what the headers already signal). The response is cut off, which prevents full evaluation of the 'next steps' section, but what's present is excellent. Overall a high-quality professional communication.\"}",
+    "usage": {
+      "completion_tokens": 251,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 0
+      },
+      "cost": 0.01047,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.006275,
+        "upstream_inference_cost": 0.01047,
+        "upstream_inference_prompt_cost": 0.004195
+      },
+      "is_byok": false,
+      "prompt_tokens": 839,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 1090
+    }
+  },
+  "prompt_category": "memo",
+  "prompt_id": "memo_incident_response",
+  "rationale": "Exceptionally clear and well-organized memo. The root cause explanation (misconfigured update \u2192 memory leak \u2192 cascading auth failure) is precise and accessible to a non-technical audience. The timeline table, bulleted affected-systems list, and clear section headers make it easy to scan. Specificity is strong: exact times, named systems, concrete technical details without jargon overload. The human touches ('We recognize this disruption affected your ability to do your work') are present but slightly formulaic \u2014 competent corporate empathy rather than genuinely distinctive voice. Brevity is good but the piece leans slightly expansive for an internal memo (e.g., the overview paragraph partly restates what the headers already signal). The response is cut off, which prevents full evaluation of the 'next steps' section, but what's present is excellent. Overall a high-quality professional communication.",
+  "run_name": "2026-03-07-openrouter-v0-1-salvage-1",
+  "scores": {
+    "brevity_economy": 4,
+    "clarity": 5,
+    "humanity_voice": 4,
+    "overall": 5,
+    "simplicity": 5,
+    "specificity_precision": 5,
+    "structure_flow": 5
+  }
+}

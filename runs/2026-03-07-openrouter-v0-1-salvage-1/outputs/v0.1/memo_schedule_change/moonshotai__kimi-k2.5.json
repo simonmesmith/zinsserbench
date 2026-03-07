@@ -1,0 +1,43 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.1",
+  "candidate_label": "Kimi K2.5",
+  "candidate_model_id": "moonshotai/kimi-k2.5",
+  "created_at": "2026-03-07T21:06:22Z",
+  "metadata": {
+    "id": "gen-1772917560-kLkpcTPPdPdMWuCoIKHg",
+    "quality_guard": {
+      "minimum_words": 100,
+      "reason": "placeholder_text",
+      "status": "quarantined",
+      "word_count": 397
+    },
+    "usage": {
+      "completion_tokens": 1145,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 731
+      },
+      "cost": 0.0032402,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.003206,
+        "upstream_inference_cost": 0.0032402,
+        "upstream_inference_prompt_cost": 3.42e-05
+      },
+      "is_byok": false,
+      "prompt_tokens": 57,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 1202
+    }
+  },
+  "prompt_category": "memo",
+  "prompt_id": "memo_schedule_change",
+  "response_text": "**TO:** All Warehouse Operations Staff  \n**FROM:** [Your Name], Warehouse Operations Manager  \n**DATE:** [Date]  \n**RE:** Holiday Season Schedule Changes \u2013 Effective [Start Date]\n\nAs we prepare for the upcoming holiday rush, I want to first thank you for the hard work that has positioned us to meet the surge in customer demand ahead. To ensure we maintain our service standards and safety protocols during peak volume, we are implementing temporary schedule adjustments beginning **[Insert Date]** through **[Insert End Date, typically early January]**.\n\n**NEW SHIFT STRUCTURE**\n\nAll warehouse shifts will extend by **two hours** during peak weeks. Your updated schedules are as follows:\n\n\u2022 **Day Shift:** 6:00 AM \u2013 4:30 PM (previously 6:00 AM \u2013 2:30 PM)  \n\u2022 **Evening Shift:** 2:00 PM \u2013 12:30 AM (previously 2:00 PM \u2013 10:30 PM)  \n\u2022 **Overnight Shift:** 10:00 PM \u2013 8:30 AM (previously 10:00 PM \u2013 6:30 AM)\n\n**MANDATORY OVERTIME PERIODS**\nPlease note that **Saturdays will be mandatory workdays** during the following peak periods:\n- November 25 \u2013 December 23\n- December 26 \u2013 December 30 (for returns processing)\n\n**WHAT TO EXPECT**\n\u2022 **Meal provisions:** Dinner will be provided for evening and overnight shifts; breakfast provided for day shift on Saturdays\n\u2022 **Break extensions:** All 15-minute breaks extended to 20 minutes to accommodate increased physical demands\n\u2022 **Parking:** Additional lighting and security patrols have been added to the west lot for those leaving during late hours\n\u2022 **Pay rate:** All hours over 40 per week will be paid at time-and-a-half; Saturday shifts receive an additional $2/hour shift differential\n\n**ACTION REQUIRED BY [DATE]**\n1. Confirm your availability for the extended schedule with your direct supervisor by **[Deadline]**\n2. Update your transportation arrangements if needed\u2014please see HR if you require parking permits for the auxiliary lot\n3. Review the attached Holiday Safety Checklist (mandatory refresher training required by [Date])\n\nWe recognize these extended hours require significant sacrifice, particularly during the holiday season. If you encounter scheduling conflicts or hardship due to these changes, please contact me or HR immediately to discuss accommodation options.\n\nThank you for your flexibility and commitment to getting our customers what they need this holiday season. Your safety remains our top priority\u2014if you feel fatigued or unsafe at any point, notify your floor supervisor immediately.\n\nQuestions? Contact me at [extension/email] or see me during floor rounds between 2:00 PM \u2013 4:00 PM daily.\n\n**[Your Name]**  \nWarehouse Operations Manager  \n[Contact Information]",
+  "run_name": "2026-03-07-openrouter-v0-1-salvage-1"
+}

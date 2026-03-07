@@ -1,0 +1,47 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.1",
+  "candidate_model_id": "x-ai/grok-4.1-fast",
+  "created_at": "2026-03-07T21:11:14Z",
+  "judge_model_id": "anthropic/claude-opus-4.6",
+  "metadata": {
+    "id": "gen-1772917859-4lxzx3ojO2UBrkLFqJlN",
+    "raw_text": "{\"scores\": {\"clarity\": 5, \"simplicity\": 4, \"brevity_economy\": 5, \"structure_flow\": 5, \"specificity_precision\": 5, \"humanity_voice\": 4, \"overall\": 5}, \"rationale\": \"Exceptionally well-structured memo that cleanly addresses all three prompt requirements (affected, not affected, questions to bring forward) under clearly labeled headers. Specificity is a standout strength: 30-day duration, $1,000 threshold, October 17 meeting deadline, 24-hour exception turnaround, contact extension and email. Language is direct and professional throughout with minimal filler. Simplicity docked slightly for a few stock corporate phrases ('safeguarding our long-term operations,' 'your leadership is vital to our hospital's resilience'). Humanity/voice is appropriate for the genre\u2014respectful, reader-aware, explains the 'why' upfront\u2014but remains firmly in polished-template territory rather than sounding like a specific human wrote it. Overall, this is a near-ideal execution of the task.\"}",
+    "usage": {
+      "completion_tokens": 646,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 385
+      },
+      "cost": 0.02114,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.01615,
+        "upstream_inference_cost": 0.02114,
+        "upstream_inference_prompt_cost": 0.00499
+      },
+      "is_byok": false,
+      "prompt_tokens": 998,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 1644
+    }
+  },
+  "prompt_category": "memo",
+  "prompt_id": "memo_budget_freeze",
+  "rationale": "Exceptionally well-structured memo that cleanly addresses all three prompt requirements (affected, not affected, questions to bring forward) under clearly labeled headers. Specificity is a standout strength: 30-day duration, $1,000 threshold, October 17 meeting deadline, 24-hour exception turnaround, contact extension and email. Language is direct and professional throughout with minimal filler. Simplicity docked slightly for a few stock corporate phrases ('safeguarding our long-term operations,' 'your leadership is vital to our hospital's resilience'). Humanity/voice is appropriate for the genre\u2014respectful, reader-aware, explains the 'why' upfront\u2014but remains firmly in polished-template territory rather than sounding like a specific human wrote it. Overall, this is a near-ideal execution of the task.",
+  "run_name": "2026-03-07-openrouter-v0-1-salvage-1",
+  "scores": {
+    "brevity_economy": 5,
+    "clarity": 5,
+    "humanity_voice": 4,
+    "overall": 5,
+    "simplicity": 4,
+    "specificity_precision": 5,
+    "structure_flow": 5
+  }
+}

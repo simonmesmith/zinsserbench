@@ -1,0 +1,47 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.1",
+  "candidate_model_id": "anthropic/claude-sonnet-4.6",
+  "created_at": "2026-03-07T21:39:33Z",
+  "judge_model_id": "anthropic/claude-opus-4.6",
+  "metadata": {
+    "id": "gen-1772919557-Dlw3CQEPDRuk2RUbEowo",
+    "raw_text": "{\"scores\": {\"clarity\": 5, \"simplicity\": 5, \"brevity_economy\": 5, \"structure_flow\": 4, \"specificity_precision\": 5, \"humanity_voice\": 4, \"overall\": 4}, \"rationale\": \"Exceptionally clear and specific: exact shift times, date ranges, deadlines, contact info, and overtime policies are all concrete and unambiguous. Language is plain and direct throughout with no jargon or padding. Logical section progression (Purpose \u2192 Changes \u2192 Staffing Notes \u2192 Action Items) guides the reader smoothly. The numbered action steps are a smart touch for a warehouse audience. The main flaw is the truncation\u2014'A Note of' cuts off what was likely an appreciative closing, which undermines completeness and slightly docks structure/flow and voice. The tone is professional and respectful but stops just short of feeling genuinely warm, partly because the human-touch section got cut off.\"}",
+    "usage": {
+      "completion_tokens": 631,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 362
+      },
+      "cost": 0.020075,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.015775,
+        "upstream_inference_cost": 0.020075,
+        "upstream_inference_prompt_cost": 0.0043
+      },
+      "is_byok": false,
+      "prompt_tokens": 860,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 1491
+    }
+  },
+  "prompt_category": "memo",
+  "prompt_id": "memo_schedule_change",
+  "rationale": "Exceptionally clear and specific: exact shift times, date ranges, deadlines, contact info, and overtime policies are all concrete and unambiguous. Language is plain and direct throughout with no jargon or padding. Logical section progression (Purpose \u2192 Changes \u2192 Staffing Notes \u2192 Action Items) guides the reader smoothly. The numbered action steps are a smart touch for a warehouse audience. The main flaw is the truncation\u2014'A Note of' cuts off what was likely an appreciative closing, which undermines completeness and slightly docks structure/flow and voice. The tone is professional and respectful but stops just short of feeling genuinely warm, partly because the human-touch section got cut off.",
+  "run_name": "2026-03-07-openrouter-v0-1-salvage-1",
+  "scores": {
+    "brevity_economy": 5,
+    "clarity": 5,
+    "humanity_voice": 4,
+    "overall": 4,
+    "simplicity": 5,
+    "specificity_precision": 5,
+    "structure_flow": 4
+  }
+}

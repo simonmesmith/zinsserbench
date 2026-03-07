@@ -1,0 +1,43 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.1",
+  "candidate_label": "Kimi K2.5",
+  "candidate_model_id": "moonshotai/kimi-k2.5",
+  "created_at": "2026-03-07T21:03:57Z",
+  "metadata": {
+    "id": "gen-1772917423-j6HKHHKnaRSo3FTWXqLW",
+    "quality_guard": {
+      "minimum_words": 200,
+      "reason": "",
+      "status": "ok",
+      "word_count": 804
+    },
+    "usage": {
+      "completion_tokens": 1477,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 504
+      },
+      "cost": 0.003723,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.0036925,
+        "upstream_inference_cost": 0.003723,
+        "upstream_inference_prompt_cost": 3.05e-05
+      },
+      "is_byok": false,
+      "prompt_tokens": 61,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 1538
+    }
+  },
+  "prompt_category": "profile",
+  "prompt_id": "profile_ferry_captain",
+  "response_text": "At 4:47 a.m., while the sky above Millhaven Harbor remains the color of wet slate, Captain Elias Thorne unlocks the wheelhouse of the M/V *Susan B.* with a key that has worn smooth against his thigh over thirty years. The ferry\u2014a 98-foot, single-deck vessel built in 1987\u2014smells of diesel, coffee, and the particular brackish damp that never quite dries from the bilge. Thorne, sixty-two, with a beard gone the color of harbor fog and hands mapped with rope burns and arthritis, does not consult the checklist laminated on the console. He knows by the pitch of the engine\u2019s idle, by the resistance of the throttle, whether the old girl is ready to make her first run of the day.\n\nThe crossing between Millhaven and Port Cressy takes forty-three minutes on calm water, fifty-two when the tide is running hard against the wind. Thorne has made this trip approximately 16,000 times, though he stopped counting after the millennium. The route is a narrow channel between two granite headlands, a passage that looks straightforward on nautical charts but conceals rips and back-eddies that shift with each storm. He navigates less by GPS than by memory\u2014knowing that when the abandoned cannery\u2019s chimney aligns with the white oak on Cressy Point, he is precisely in the channel\u2019s deepest thread, regardless of what the electronics suggest.\n\nHe began at thirty-two, hired away from a Gloucester trawler after the cod collapsed. The *Susan B.* was already aging then, her paint peeling, her hydraulic lift groaning. Thorne thought he would stay a season, maybe two, until something better came along. Instead, he became the route\u2019s custodian, its chronicler, its reluctant mayor. The ferry is the only link between the towns\u2014no bridge, no road around the bay\u2014and so Thorne\u2019s vessel functions as a floating Main Street. He has watched Port Cressy\u2019s children grow into Millhaven\u2019s teachers; he has transported wedding cakes, caskets, and once, memorably, a pregnant cow that broke loose in the passenger cabin during a nor\u2019easter.\n\nThe job has distilled in him a specific, narrow expertise. He can read the water\u2019s mood by the way it wrinkles against the pilings, predicting squalls that radar misses. He knows which regulars need silence and which need conversation\u2014Mrs. Gable, who rides every Tuesday to visit her sister\u2019s grave, sits starboard with her tea; the Dyer brothers, lobstermen who commute to their traps, stand aft arguing about Red Sox pitching in voices that carry over the engine noise. Thorne speaks little, but he listens, accumulating the history of two towns the way the *Susan B.* accumulates barnacles on her hull.\n\nOver three decades, the world has intruded slowly. The paper mill in Millhaven closed in 2008; the summer people started arriving with different cars, different accents. The ferry\u2019s radar was upgraded, then upgraded again. Thorne\u2019s first mate, Jimmy Voss, retired last spring, replaced by a young woman from away who calls the deck \u201cthe floor\u201d and wears headphones under her cap. But the essential transaction remains unchanged: the loading of vehicles, the casting off of lines, the slow pivot away from the dock that Thorne executes with the unconscious grace of a man tying his shoes.\n\nOn the bridge, Thorne keeps a logbook that is less about navigation than about observation. \u201cOct 14\u2014Fog so thick the Cressy light disappeared at 200 yards. Heron on the north piling, same spot as last year.\u201d The entries form a weather diary, a census of wildlife, a record of small emergencies\u2014averted collisions, heart attacks, a suicide he talked down one gray November afternoon by keeping the vessel circling in the channel until the Coast Guard arrived.\n\nHe lives alone in a house above Millhaven, but his real residence is this wheelhouse, this forty-three-minute kingdom where he controls the only thing that matters: safe passage. When asked if he regrets never captaining a larger ship, or seeing foreign ports, Thorne gestures toward the window, where the channel is beginning to silver with dawn. \u201cI know every rock between here and there,\u201d he says. \u201cI know where the bluefish run in September, where the ice builds first in January. That\u2019s not small. That\u2019s just concentrated.\u201d\n\nThe *Susan B.* docks in Port Cressy with a gentle bump. Thorne kills the engine. The silence that follows is profound, broken only by the gulls and the clank of the ramp lowering. He has thirty minutes before the return trip\u2014time for coffee that tastes of tin, time to watch the town wake up across the water. He will make this crossing again at noon, again at four, again tomorrow and next year until his hands can no longer grip the wheel. The channel does not change, only the light upon it, and Thorne has learned that repetition is not stagnation but a kind of deepening, the way a river deepens its bed by running.",
+  "run_name": "2026-03-07-openrouter-v0-1-salvage-1"
+}

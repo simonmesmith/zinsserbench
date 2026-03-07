@@ -1,0 +1,47 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.1",
+  "candidate_model_id": "anthropic/claude-sonnet-4.6",
+  "created_at": "2026-03-07T21:33:19Z",
+  "judge_model_id": "openai/gpt-5.4",
+  "metadata": {
+    "id": "gen-1772919195-AaFOxZ3vKWx2BlAa7J0F",
+    "raw_text": "{\"scores\":{\"clarity\":4,\"simplicity\":4,\"brevity_economy\":4,\"structure_flow\":3,\"specificity_precision\":4,\"humanity_voice\":4,\"overall\":3},\"rationale\":\"Clear, practical, and easy to follow, with useful specifics like agenda review, sign-up rules, and time limits. The tone is approachable and the organization is strong up to the cutoff. However, the sample is incomplete and ends mid-bullet, which hurts flow and overall effectiveness for the full task.\"}",
+    "usage": {
+      "completion_tokens": 233,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 117
+      },
+      "cost": 0.0054,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.003495,
+        "upstream_inference_cost": 0.0054,
+        "upstream_inference_prompt_cost": 0.001905
+      },
+      "is_byok": false,
+      "prompt_tokens": 762,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 995
+    }
+  },
+  "prompt_category": "service_howto",
+  "prompt_id": "howto_school_board_comment",
+  "rationale": "Clear, practical, and easy to follow, with useful specifics like agenda review, sign-up rules, and time limits. The tone is approachable and the organization is strong up to the cutoff. However, the sample is incomplete and ends mid-bullet, which hurts flow and overall effectiveness for the full task.",
+  "run_name": "2026-03-07-openrouter-v0-1-salvage-1",
+  "scores": {
+    "brevity_economy": 4,
+    "clarity": 4,
+    "humanity_voice": 4,
+    "overall": 3,
+    "simplicity": 4,
+    "specificity_precision": 4,
+    "structure_flow": 3
+  }
+}

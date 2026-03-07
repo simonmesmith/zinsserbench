@@ -1,15 +1,19 @@
 from __future__ import annotations
 
 import csv
+import json
 import os
 import tempfile
+import urllib.error
 import unittest
 from pathlib import Path
+from unittest import mock
 
 from zinsserbench.aggregate import aggregate_run
 from zinsserbench.backends import MockBackend, OpenRouterBackend, _extract_retry_after_seconds
 from zinsserbench.env import load_dotenv
 from zinsserbench.pipeline import generate_missing, judge_missing
+from zinsserbench.quality import evaluate_output
 from zinsserbench.report import generate_report
 from zinsserbench.specs import load_benchmark_version
 
@@ -25,6 +29,7 @@ class ZinsserBenchTests(unittest.TestCase):
             "judge_concurrency": 2,
             "temperature": 0.2,
             "max_output_tokens": 300,
+            "judge_max_output_tokens": 120,
             "timeout_seconds": 30,
         }
 
@@ -89,6 +94,102 @@ class ZinsserBenchTests(unittest.TestCase):
         judge_result = judge_missing(self.temp_dir, "fixture-run", "v0.1", self.backend, self.settings)
         self.assertEqual(20, generate_result["scheduled"])
         self.assertEqual(60, judge_result["scheduled"])
+
+    def test_judging_uses_separate_output_budget(self) -> None:
+        calls = []
+
+        class CaptureBackend(MockBackend):
+            def judge(self, judge_model, candidate_model, prompt, candidate_text, rubric, settings):
+                calls.append(dict(settings))
+                return super().judge(judge_model, candidate_model, prompt, candidate_text, rubric, settings)
+
+        backend = CaptureBackend()
+        generate_missing(self.temp_dir, "fixture-run", "v0.1", backend, self.settings)
+        judge_missing(self.temp_dir, "fixture-run", "v0.1", backend, self.settings)
+
+        self.assertTrue(calls)
+        self.assertEqual(120, calls[0]["max_output_tokens"])
+
+    def test_judge_prompt_is_blind_to_candidate_identity(self) -> None:
+        benchmark = load_benchmark_version(self.temp_dir, "v0.1")
+        backend = OpenRouterBackend(api_key="test-key")
+        captured = {}
+
+        def fake_judge_completion(model_id, messages, settings):
+            captured["messages"] = messages
+            return (
+                {"id": "ok", "usage": {}, "choices": [{"message": {"content": "{}"}, "finish_reason": "stop"}]},
+                '{"scores":{"clarity":5,"simplicity":5,"brevity_economy":5,"structure_flow":5,"specificity_precision":5,"humanity_voice":5,"overall":5},"rationale":"ok"}',
+                {
+                    "scores": {
+                        "clarity": 5,
+                        "simplicity": 5,
+                        "brevity_economy": 5,
+                        "structure_flow": 5,
+                        "specificity_precision": 5,
+                        "humanity_voice": 5,
+                        "overall": 5,
+                    },
+                    "rationale": "ok",
+                },
+            )
+
+        backend._judge_completion_with_parse_fallback = fake_judge_completion  # type: ignore[method-assign]
+        backend.judge(
+            benchmark.judges[0],
+            benchmark.models[0],
+            benchmark.prompts[0],
+            "Candidate response text",
+            benchmark.rubric,
+            self.settings,
+        )
+
+        self.assertNotIn("Candidate model:", captured["messages"][1]["content"])
+
+    def test_judge_missing_skips_quarantined_outputs(self) -> None:
+        class ShortOutputBackend(MockBackend):
+            def generate(self, model, prompt, settings):
+                payload = super().generate(model, prompt, settings)
+                if model.model_id == "openai/gpt-5.4" and prompt.prompt_id == "memo_remote_work_policy":
+                    payload["response_text"] = "Too short to score."
+                return payload
+
+        backend = ShortOutputBackend()
+        generate_missing(self.temp_dir, "fixture-run", "v0.1", backend, self.settings)
+        judge_result = judge_missing(self.temp_dir, "fixture-run", "v0.1", backend, self.settings)
+
+        self.assertEqual(717, judge_result["scheduled"])
+
+    def test_aggregate_reports_quarantined_outputs(self) -> None:
+        class ShortOutputBackend(MockBackend):
+            def generate(self, model, prompt, settings):
+                payload = super().generate(model, prompt, settings)
+                if model.model_id == "openai/gpt-5.4" and prompt.prompt_id == "memo_remote_work_policy":
+                    payload["response_text"] = "Too short to score."
+                return payload
+
+        backend = ShortOutputBackend()
+        generate_missing(self.temp_dir, "fixture-run", "v0.1", backend, self.settings)
+        judge_missing(self.temp_dir, "fixture-run", "v0.1", backend, self.settings)
+        summary = generate_report(self.temp_dir, "fixture-run")
+
+        self.assertEqual(1, len(summary["quarantined_outputs"]))
+        self.assertEqual("openai/gpt-5.4", summary["quarantined_outputs"][0]["candidate_model_id"])
+        self.assertTrue((self.temp_dir / "runs" / "fixture-run" / "analysis" / "quarantined_outputs.csv").exists())
+
+    def test_placeholders_do_not_trigger_quarantine_by_themselves(self) -> None:
+        benchmark = load_benchmark_version(self.temp_dir, "v0.1")
+        prompt = next(item for item in benchmark.prompts if item.prompt_id == "memo_budget_freeze")
+        body = (
+            "This memo explains the temporary freeze, what is affected, what is not, "
+            "and which operational risks managers should raise immediately. "
+        ) * 20
+
+        output = evaluate_output(
+            prompt,
+            f"To: Department Heads\nDate: [Insert Date]\nStart: [Insert Start Date]\n\n{body}",
+        )
+        self.assertTrue(output.is_valid)
 
     def test_load_dotenv_reads_local_env_file_without_overriding_existing_env(self) -> None:
         env_path = self.temp_dir / ".env"
@@ -302,6 +403,64 @@ class ZinsserBenchTests(unittest.TestCase):
         self.assertEqual(1000, calls[1]["max_output_tokens"])
         self.assertEqual("ok", payload["rationale"])
 
+    def test_openrouter_request_requires_provider_parameters(self) -> None:
+        backend = OpenRouterBackend(api_key="test-key")
+        captured = {}
+
+        class FakeResponse:
+            def __enter__(self):
+                return self
+
+            def __exit__(self, exc_type, exc, tb):
+                return False
+
+            def read(self):
+                return b'{"choices":[{"message":{"content":"ok"},"finish_reason":"stop"}],"usage":{}}'
+
+        def fake_urlopen(request, timeout):
+            captured["payload"] = json.loads(request.data.decode("utf-8"))
+            return FakeResponse()
+
+        with mock.patch("zinsserbench.backends.urllib.request.urlopen", side_effect=fake_urlopen):
+            backend._chat_completion(
+                "openai/gpt-5.4",
+                [{"role": "user", "content": "test"}],
+                {"reasoning_effort": "medium", "max_output_tokens": 500},
+            )
+
+        self.assertEqual({"require_parameters": True}, captured["payload"]["provider"])
+
+    def test_openrouter_retries_without_require_parameters_when_no_compatible_endpoint_exists(self) -> None:
+        backend = OpenRouterBackend(api_key="test-key")
+        calls = []
+
+        def fake_urlopen(request, timeout):
+            payload = json.loads(request.data.decode("utf-8"))
+            calls.append(payload)
+            if len(calls) == 1:
+                raise urllib.error.HTTPError(
+                    request.full_url,
+                    404,
+                    "Not Found",
+                    hdrs=None,
+                    fp=FakeHttpBody(
+                        b'{"error":{"message":"No endpoints found that can handle the requested parameters.","code":404}}'
+                    ),
+                )
+            return FakeResponseBody(b'{"choices":[{"message":{"content":"ok"},"finish_reason":"stop"}],"usage":{}}')
+
+        with mock.patch("zinsserbench.backends.urllib.request.urlopen", side_effect=fake_urlopen):
+            data = backend._chat_completion(
+                "openai/gpt-5.4",
+                [{"role": "user", "content": "test"}],
+                {"reasoning_effort": "medium", "max_output_tokens": 500},
+            )
+
+        self.assertEqual(2, len(calls))
+        self.assertEqual({"require_parameters": True}, calls[0]["provider"])
+        self.assertEqual({"require_parameters": False}, calls[1]["provider"])
+        self.assertEqual("ok", data["choices"][0]["message"]["content"])
+
     def _copy_tree(self, source: Path, destination: Path) -> None:
         for path in source.rglob("*"):
             relative = path.relative_to(source)
@@ -311,6 +470,30 @@ class ZinsserBenchTests(unittest.TestCase):
             else:
                 target.parent.mkdir(parents=True, exist_ok=True)
                 target.write_bytes(path.read_bytes())
+
+class FakeResponseBody:
+    def __init__(self, body: bytes):
+        self.body = body
+
+    def __enter__(self):
+        return self
+
+    def __exit__(self, exc_type, exc, tb):
+        return False
+
+    def read(self):
+        return self.body
+
+
+class FakeHttpBody:
+    def __init__(self, body: bytes):
+        self.body = body
+
+    def read(self):
+        return self.body
+
+    def close(self):
+        return None
 
 
 if __name__ == "__main__":

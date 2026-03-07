@@ -1,0 +1,47 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.1",
+  "candidate_model_id": "qwen/qwen3.5-35b-a3b",
+  "created_at": "2026-03-07T21:40:06Z",
+  "judge_model_id": "anthropic/claude-opus-4.6",
+  "metadata": {
+    "id": "gen-1772919592-yXeg5tJQOOuVqdU7fYzy",
+    "raw_text": "{\"scores\": {\"clarity\": 5, \"simplicity\": 4, \"brevity_economy\": 4, \"structure_flow\": 5, \"specificity_precision\": 5, \"humanity_voice\": 4, \"overall\": 5}, \"rationale\": \"Exceptionally well-structured memo with clear headers, bullet points, and numbered next steps that make it immediately scannable. Specificity is a standout strength: concrete dates (Nov 15\u2013Jan 5), hours (6 AM\u20138 PM), pay rates (1.5x, double-time), and deadlines (Oct 27, Oct 30) leave no ambiguity. Language is mostly plain and direct, though a few phrases lean corporate ('navigate this busy period,' 'vital to our success'). The 'We understand changes can be challenging' line is mildly formulaic but does serve a humanizing role; warmth is present but slightly templated. Flow is logical: context \u2192 changes \u2192 compensation \u2192 action items \u2192 close. Nothing extraneous, though the opening paragraph could be trimmed slightly. Overall, this is a near-ideal internal memo\u2014practical, complete, and respectful of the reader's time.\"}",
+    "usage": {
+      "completion_tokens": 592,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 318
+      },
+      "cost": 0.01922,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.0148,
+        "upstream_inference_cost": 0.01922,
+        "upstream_inference_prompt_cost": 0.00442
+      },
+      "is_byok": false,
+      "prompt_tokens": 884,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 1476
+    }
+  },
+  "prompt_category": "memo",
+  "prompt_id": "memo_schedule_change",
+  "rationale": "Exceptionally well-structured memo with clear headers, bullet points, and numbered next steps that make it immediately scannable. Specificity is a standout strength: concrete dates (Nov 15\u2013Jan 5), hours (6 AM\u20138 PM), pay rates (1.5x, double-time), and deadlines (Oct 27, Oct 30) leave no ambiguity. Language is mostly plain and direct, though a few phrases lean corporate ('navigate this busy period,' 'vital to our success'). The 'We understand changes can be challenging' line is mildly formulaic but does serve a humanizing role; warmth is present but slightly templated. Flow is logical: context \u2192 changes \u2192 compensation \u2192 action items \u2192 close. Nothing extraneous, though the opening paragraph could be trimmed slightly. Overall, this is a near-ideal internal memo\u2014practical, complete, and respectful of the reader's time.",
+  "run_name": "2026-03-07-openrouter-v0-1-salvage-1",
+  "scores": {
+    "brevity_economy": 4,
+    "clarity": 5,
+    "humanity_voice": 4,
+    "overall": 5,
+    "simplicity": 4,
+    "specificity_precision": 5,
+    "structure_flow": 5
+  }
+}

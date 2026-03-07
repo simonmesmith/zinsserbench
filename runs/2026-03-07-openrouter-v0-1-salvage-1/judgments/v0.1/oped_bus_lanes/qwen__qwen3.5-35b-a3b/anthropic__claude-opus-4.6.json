@@ -1,0 +1,47 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.1",
+  "candidate_model_id": "qwen/qwen3.5-35b-a3b",
+  "created_at": "2026-03-07T21:24:22Z",
+  "judge_model_id": "anthropic/claude-opus-4.6",
+  "metadata": {
+    "id": "gen-1772918657-OxSY1madB0g8AbKtOwDM",
+    "raw_text": "{\"scores\": {\"clarity\": 1, \"simplicity\": 1, \"brevity_economy\": 1, \"structure_flow\": 1, \"specificity_precision\": 1, \"humanity_voice\": 1, \"overall\": 1}, \"rationale\": \"The response is entirely a planning outline and thinking process\u2014no actual opinion piece was written. The draft section cuts off mid-sentence after 'Body Paragraph 2 (The Human'. There is no finished prose to evaluate on any axis. The task asked for an opinion piece; none was delivered.\"}",
+    "usage": {
+      "completion_tokens": 199,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 74
+      },
+      "cost": 0.00966,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.004975,
+        "upstream_inference_cost": 0.00966,
+        "upstream_inference_prompt_cost": 0.004685
+      },
+      "is_byok": false,
+      "prompt_tokens": 937,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 1136
+    }
+  },
+  "prompt_category": "persuasion_oped",
+  "prompt_id": "oped_bus_lanes",
+  "rationale": "The response is entirely a planning outline and thinking process\u2014no actual opinion piece was written. The draft section cuts off mid-sentence after 'Body Paragraph 2 (The Human'. There is no finished prose to evaluate on any axis. The task asked for an opinion piece; none was delivered.",
+  "run_name": "2026-03-07-openrouter-v0-1-salvage-1",
+  "scores": {
+    "brevity_economy": 1,
+    "clarity": 1,
+    "humanity_voice": 1,
+    "overall": 1,
+    "simplicity": 1,
+    "specificity_precision": 1,
+    "structure_flow": 1
+  }
+}

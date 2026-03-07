@@ -1,0 +1,37 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.1",
+  "candidate_label": "DeepSeek V3.2",
+  "candidate_model_id": "deepseek/deepseek-v3.2",
+  "created_at": "2026-03-07T15:04:19Z",
+  "metadata": {
+    "id": "gen-1772895837-hV9l5DtQTpjevGZQBVuy",
+    "usage": {
+      "completion_tokens": 663,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 163
+      },
+      "cost": 0.00026598,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.00025194,
+        "upstream_inference_cost": 0.00026598,
+        "upstream_inference_prompt_cost": 1.404e-05
+      },
+      "is_byok": false,
+      "prompt_tokens": 54,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 717
+    }
+  },
+  "prompt_category": "explain",
+  "prompt_id": "explain_heat_pumps",
+  "response_text": "### How Heat Pumps Work & Why You Might Choose One\n\n**How They Work: The Simple Idea**\nThink of a heat pump as a smart, reversible air conditioner. Instead of generating heat by burning fuel (like a furnace), it moves existing heat from one place to another.\n\n*   **In Winter:** It extracts heat from the cold outdoor air (yes, there's still heat energy even in cold air!) and \"pumps\" it indoors to warm your home.\n*   **In Summer:** It reverses the process, acting like an air conditioner by removing heat from inside your house and pumping it outdoors.\n\nIt does this using a refrigerant circulating through a loop between an outdoor unit and an indoor unit. A compressor and a series of coils move this thermal energy efficiently.\n\n---\n\n### Heat Pump vs. Gas Furnace: Key Considerations\n\n**Why You Might Choose a Heat Pump:**\n\n1.  **Efficiency & Lower Operating Costs:** This is the biggest advantage. Heat pumps are incredibly efficient because they transfer heat rather than create it. For every unit of electricity they use, they can move 2-3 units of heat, often resulting in significantly lower monthly energy bills compared to a gas furnace, especially in moderate climates.\n\n2.  **One System for Heating & Cooling:** A heat pump is an all-in-one solution. You replace both your furnace and your air conditioner with a single, streamlined system, simplifying maintenance.\n\n3.  **Safety & Air Quality:** With no on-site combustion (no flame, no exhaust), there's no risk of carbon monoxide leaks. It also provides more consistent, even heating without the \"blast of hot air\" feel of a furnace, and can help dehumidify your home better in cooling mode.\n\n4.  **Environmental Impact:** If your electricity comes from renewable or low-carbon sources, a heat pump drastically reduces your home's carbon footprint. Even on a standard grid, its high efficiency often makes it a cleaner option than burning natural gas.\n\n**When a Gas Furnace Might Still Be a Consideration:**\n\n*   **Extreme Cold Climates:** While modern **cold-climate heat pumps** work well below freezing, traditional models can lose efficiency in sustained, sub-freezing temperatures. In very cold regions, a gas furnace can provide more powerful, reliable heat. Many homeowners in cold areas opt for a **dual-fuel system**, which pairs a heat pump with a gas furnace for optimal efficiency and backup.\n*   **Lower Upfront Cost",
+  "run_name": "2026-03-07-openrouter-v0-1"
+}

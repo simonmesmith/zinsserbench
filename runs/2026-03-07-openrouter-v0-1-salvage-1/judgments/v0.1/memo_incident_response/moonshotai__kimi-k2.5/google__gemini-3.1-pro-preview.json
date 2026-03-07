@@ -1,0 +1,47 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.1",
+  "candidate_model_id": "moonshotai/kimi-k2.5",
+  "created_at": "2026-03-07T21:29:27Z",
+  "judge_model_id": "google/gemini-3.1-pro-preview",
+  "metadata": {
+    "id": "gen-1772918960-v49zB0wM5eKHM6gmIef0",
+    "raw_text": "{\n  \"scores\": {\n    \"clarity\": 4,\n    \"simplicity\": 4,\n    \"brevity_economy\": 4,\n    \"structure_flow\": 3,\n    \"specificity_precision\": 5,\n    \"humanity_voice\": 4,\n    \"overall\": 2\n  },\n  \"rationale\": \"The writing is clear, highly specific, and well-structured up to the point where it abruptly cuts off. Because the response is incomplete and fails to address the prompt's requirements regarding what was fixed and what to expect next, the overall effectiveness score is low.\"\n}",
+    "usage": {
+      "completion_tokens": 470,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 331
+      },
+      "cost": 0.006816,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.00564,
+        "upstream_inference_cost": 0.006816,
+        "upstream_inference_prompt_cost": 0.001176
+      },
+      "is_byok": false,
+      "prompt_tokens": 588,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 1058
+    }
+  },
+  "prompt_category": "memo",
+  "prompt_id": "memo_incident_response",
+  "rationale": "The writing is clear, highly specific, and well-structured up to the point where it abruptly cuts off. Because the response is incomplete and fails to address the prompt's requirements regarding what was fixed and what to expect next, the overall effectiveness score is low.",
+  "run_name": "2026-03-07-openrouter-v0-1-salvage-1",
+  "scores": {
+    "brevity_economy": 4,
+    "clarity": 4,
+    "humanity_voice": 4,
+    "overall": 2,
+    "simplicity": 4,
+    "specificity_precision": 5,
+    "structure_flow": 3
+  }
+}

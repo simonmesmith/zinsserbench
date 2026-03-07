@@ -1,0 +1,47 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.1",
+  "candidate_model_id": "z-ai/glm-5",
+  "created_at": "2026-03-07T21:32:07Z",
+  "judge_model_id": "openai/gpt-5.4",
+  "metadata": {
+    "id": "gen-1772919122-tnqJL4Dbpd2z8zucH9Jy",
+    "raw_text": "{\"scores\":{\"clarity\":4,\"simplicity\":3,\"brevity_economy\":4,\"structure_flow\":4,\"specificity_precision\":4,\"humanity_voice\":5,\"overall\":4},\"rationale\":\"Vivid, readable opening with strong voice and concrete details that quickly establish Reyes, her workload, and the setting. The piece flows well from scene to background, but some lines lean literary or inflated ('the particular desperation of bureaucratic inertia'), which reduces simplicity. It is also incomplete as a full profile, so the overall effect is strong but not fully developed.\"}",
+    "usage": {
+      "completion_tokens": 253,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 126
+      },
+      "cost": 0.0055,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.003795,
+        "upstream_inference_cost": 0.0055,
+        "upstream_inference_prompt_cost": 0.001705
+      },
+      "is_byok": false,
+      "prompt_tokens": 682,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 935
+    }
+  },
+  "prompt_category": "profile",
+  "prompt_id": "profile_public_defender",
+  "rationale": "Vivid, readable opening with strong voice and concrete details that quickly establish Reyes, her workload, and the setting. The piece flows well from scene to background, but some lines lean literary or inflated ('the particular desperation of bureaucratic inertia'), which reduces simplicity. It is also incomplete as a full profile, so the overall effect is strong but not fully developed.",
+  "run_name": "2026-03-07-openrouter-v0-1-salvage-1",
+  "scores": {
+    "brevity_economy": 4,
+    "clarity": 4,
+    "humanity_voice": 5,
+    "overall": 4,
+    "simplicity": 3,
+    "specificity_precision": 4,
+    "structure_flow": 4
+  }
+}

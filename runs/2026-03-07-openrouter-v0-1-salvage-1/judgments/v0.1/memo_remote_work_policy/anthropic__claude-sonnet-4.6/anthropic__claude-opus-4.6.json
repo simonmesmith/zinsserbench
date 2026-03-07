@@ -1,0 +1,47 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.1",
+  "candidate_model_id": "anthropic/claude-sonnet-4.6",
+  "created_at": "2026-03-07T21:09:35Z",
+  "judge_model_id": "anthropic/claude-opus-4.6",
+  "metadata": {
+    "id": "gen-1772917768-fO3U3XK3hjpZjzxLYGr9",
+    "raw_text": "{\"scores\": {\"clarity\": 5, \"simplicity\": 5, \"brevity_economy\": 4, \"structure_flow\": 5, \"specificity_precision\": 5, \"humanity_voice\": 3, \"overall\": 4}, \"rationale\": \"Exceptionally clear and well-organized memo with logical sections, bold formatting for key details, and highly specific information (dates, office days, core hours, mileage threshold, number of remote roles). Language is plain and direct throughout. Loses a point on brevity because the response is cut off\u2014it never finishes the international section, never delivers the 'why' section or the 'what to do next' action items, which are core requirements of the prompt. Humanity/voice is adequate but leans toward standard corporate tone without much warmth or personality; the opening nods to 'feedback gathering' but doesn't convey genuine engagement. Overall effectiveness is strong for what's present, but the incomplete response means it fails to fully satisfy the prompt's three requirements (policy, reason, next steps).\"}",
+    "usage": {
+      "completion_tokens": 234,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 0
+      },
+      "cost": 0.01006,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.00585,
+        "upstream_inference_cost": 0.01006,
+        "upstream_inference_prompt_cost": 0.00421
+      },
+      "is_byok": false,
+      "prompt_tokens": 842,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 1076
+    }
+  },
+  "prompt_category": "memo",
+  "prompt_id": "memo_remote_work_policy",
+  "rationale": "Exceptionally clear and well-organized memo with logical sections, bold formatting for key details, and highly specific information (dates, office days, core hours, mileage threshold, number of remote roles). Language is plain and direct throughout. Loses a point on brevity because the response is cut off\u2014it never finishes the international section, never delivers the 'why' section or the 'what to do next' action items, which are core requirements of the prompt. Humanity/voice is adequate but leans toward standard corporate tone without much warmth or personality; the opening nods to 'feedback gathering' but doesn't convey genuine engagement. Overall effectiveness is strong for what's present, but the incomplete response means it fails to fully satisfy the prompt's three requirements (policy, reason, next steps).",
+  "run_name": "2026-03-07-openrouter-v0-1-salvage-1",
+  "scores": {
+    "brevity_economy": 4,
+    "clarity": 5,
+    "humanity_voice": 3,
+    "overall": 4,
+    "simplicity": 5,
+    "specificity_precision": 5,
+    "structure_flow": 5
+  }
+}

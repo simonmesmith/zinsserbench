@@ -1,0 +1,47 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.1",
+  "candidate_model_id": "google/gemini-3.1-pro-preview",
+  "created_at": "2026-03-07T21:31:54Z",
+  "judge_model_id": "anthropic/claude-opus-4.6",
+  "metadata": {
+    "id": "gen-1772919106-2PD3VCTDUsBwvtswvin9",
+    "raw_text": "{\"scores\": {\"clarity\": 5, \"simplicity\": 4, \"brevity_economy\": 4, \"structure_flow\": 5, \"specificity_precision\": 5, \"humanity_voice\": 5, \"overall\": 5}, \"rationale\": \"Exceptionally well-crafted profile that reads like polished longform journalism. The chronological structure (shadowing Elias through a single day) gives it natural momentum and coherence. Specificity is outstanding\u2014172 active felonies vs. ABA's 150 recommendation, $62,000 salary, twelve minutes per client, the squeaking briefcase wheels, bleach-and-sweat smell of holding cells. The quotes feel authentic and revealing. The piece earns its emotional moments (Arthur taking the plea, the mother's probation) without sentimentality. Minor dings: a few metaphors lean slightly literary for a profile ('emptying the ocean with a slotted spoon,' 'clawing her way out of the abyss'), and the piece occasionally edges toward writerly flourish over plainness. But these are small quibbles in a piece that is vivid, structurally tight, and deeply human. The ending lands perfectly\u2014no grand summation, just the light still on and another folder opened.\"}",
+    "usage": {
+      "completion_tokens": 288,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 0
+      },
+      "cost": 0.01502,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.0072,
+        "upstream_inference_cost": 0.01502,
+        "upstream_inference_prompt_cost": 0.00782
+      },
+      "is_byok": false,
+      "prompt_tokens": 1564,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 1852
+    }
+  },
+  "prompt_category": "profile",
+  "prompt_id": "profile_public_defender",
+  "rationale": "Exceptionally well-crafted profile that reads like polished longform journalism. The chronological structure (shadowing Elias through a single day) gives it natural momentum and coherence. Specificity is outstanding\u2014172 active felonies vs. ABA's 150 recommendation, $62,000 salary, twelve minutes per client, the squeaking briefcase wheels, bleach-and-sweat smell of holding cells. The quotes feel authentic and revealing. The piece earns its emotional moments (Arthur taking the plea, the mother's probation) without sentimentality. Minor dings: a few metaphors lean slightly literary for a profile ('emptying the ocean with a slotted spoon,' 'clawing her way out of the abyss'), and the piece occasionally edges toward writerly flourish over plainness. But these are small quibbles in a piece that is vivid, structurally tight, and deeply human. The ending lands perfectly\u2014no grand summation, just the light still on and another folder opened.",
+  "run_name": "2026-03-07-openrouter-v0-1-salvage-1",
+  "scores": {
+    "brevity_economy": 4,
+    "clarity": 5,
+    "humanity_voice": 5,
+    "overall": 5,
+    "simplicity": 4,
+    "specificity_precision": 5,
+    "structure_flow": 5
+  }
+}

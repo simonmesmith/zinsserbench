@@ -1,0 +1,47 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.1",
+  "candidate_model_id": "minimax/minimax-m2.5",
+  "created_at": "2026-03-07T21:32:45Z",
+  "judge_model_id": "openai/gpt-5.4",
+  "metadata": {
+    "id": "gen-1772919158-sDOuiLrdwoV5ZJL6kzgy",
+    "raw_text": "{\"scores\":{\"clarity\":4,\"simplicity\":4,\"brevity_economy\":3,\"structure_flow\":3,\"specificity_precision\":5,\"humanity_voice\":5,\"overall\":4},\"rationale\":\"Vivid, specific reporting details and a strong human voice make Maria Santos feel real. The prose is mostly clear and direct, though a few lines are slightly writerly, and the piece ends abruptly/incompletely, which weakens flow, structure, and overall effectiveness.\"}",
+    "usage": {
+      "completion_tokens": 373,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 264
+      },
+      "cost": 0.007305,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.005595,
+        "upstream_inference_cost": 0.007305,
+        "upstream_inference_prompt_cost": 0.00171
+      },
+      "is_byok": false,
+      "prompt_tokens": 684,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 1057
+    }
+  },
+  "prompt_category": "profile",
+  "prompt_id": "profile_public_defender",
+  "rationale": "Vivid, specific reporting details and a strong human voice make Maria Santos feel real. The prose is mostly clear and direct, though a few lines are slightly writerly, and the piece ends abruptly/incompletely, which weakens flow, structure, and overall effectiveness.",
+  "run_name": "2026-03-07-openrouter-v0-1-salvage-1",
+  "scores": {
+    "brevity_economy": 3,
+    "clarity": 4,
+    "humanity_voice": 5,
+    "overall": 4,
+    "simplicity": 4,
+    "specificity_precision": 5,
+    "structure_flow": 3
+  }
+}

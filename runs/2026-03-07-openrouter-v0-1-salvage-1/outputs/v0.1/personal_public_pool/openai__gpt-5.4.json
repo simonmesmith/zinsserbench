@@ -1,0 +1,37 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.1",
+  "candidate_label": "GPT-5.4",
+  "candidate_model_id": "openai/gpt-5.4",
+  "created_at": "2026-03-07T15:11:13Z",
+  "metadata": {
+    "id": "gen-1772896261-12d0n1hrp8OZ7uPv54Aj",
+    "usage": {
+      "completion_tokens": 500,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 148
+      },
+      "cost": 0.0076375,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.0075,
+        "upstream_inference_cost": 0.0076375,
+        "upstream_inference_prompt_cost": 0.0001375
+      },
+      "is_byok": false,
+      "prompt_tokens": 55,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 555
+    }
+  },
+  "prompt_category": "personal_nonfiction",
+  "prompt_id": "personal_public_pool",
+  "response_text": "The public pool in my neighborhood sat behind the Little League fields and beside the municipal building, as if the town had arranged its values in a row: government, baseball, swimming. It was a plain place, a low cinder-block bathhouse with a tin roof that pinged in summer storms, a square of turquoise water, and a chain-link fence that gave everything inside it the feeling of being both protected and displayed. From the parking lot you could smell chlorine before you saw the gate. By noon on hot days the pavement shimmered, the white concrete deck burned your feet, and the whole place sounded like a shaken box of silverware: whistles, laughter, the slap of flip-flops, the hard crack of a kickboard hitting water.\n\nI spent entire summers there when I was a kid, long enough that the pool began to feel less like a recreational facility than a version of the town itself. The same hierarchies, the same alliances, the same habits of exclusion and generosity all appeared there in miniature, clarified by heat and boredom and the requirement that everybody wear approximately the same amount of clothing.\n\nThe pool had its own geography. The shallow end belonged to the little kids with orange arm floaties and mothers calling warnings no one obeyed. The deep end belonged to boys who wanted an audience for their risks. The strip of deck along the fence, where the sun stayed hottest, belonged to teenage girls who turned themselves over every twenty minutes with the discipline of people basting a roast. Under the one sycamore tree, where a wedge of shade moved slowly across the grass, there were grandmothers with paperbacks and women who had known one another since high school and could continue a conversation after thirty years",
+  "run_name": "2026-03-07-openrouter-v0-1"
+}

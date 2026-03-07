@@ -1,0 +1,47 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.1",
+  "candidate_model_id": "anthropic/claude-opus-4.6",
+  "created_at": "2026-03-07T21:32:15Z",
+  "judge_model_id": "anthropic/claude-opus-4.6",
+  "metadata": {
+    "id": "gen-1772919128-vCkqCmPXcNCgjQVhe9c8",
+    "raw_text": "{\"scores\": {\"clarity\": 5, \"simplicity\": 5, \"brevity_economy\": 5, \"structure_flow\": 5, \"specificity_precision\": 5, \"humanity_voice\": 5, \"overall\": 5}, \"rationale\": \"This is exceptional magazine-quality profile writing. Every sentence earns its place. The opening scene is cinematic yet economical\u2014gas-station coffee, two monitors, the note 'Ask about the landlord'\u2014each detail doing double duty as atmosphere and characterization. The sticky note reading '241' is a masterful concrete anchor for the caseload abstraction, immediately contextualized against the ABA's 150-case standard. The quote ('If I think about it as a number, I'll drown') is perfectly placed and the parenthetical 'not quite convincingly' shows a writer with a keen observational eye. The language is plain and muscular ('a topography of crisis,' 'each one a person facing the loss of their freedom') without ever becoming overwrought. Structure flows naturally from scene to context to voice to biographical setup. The piece is incomplete but what exists is essentially flawless narrative nonfiction.\"}",
+    "usage": {
+      "completion_tokens": 263,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 0
+      },
+      "cost": 0.010475,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.006575,
+        "upstream_inference_cost": 0.010475,
+        "upstream_inference_prompt_cost": 0.0039
+      },
+      "is_byok": false,
+      "prompt_tokens": 780,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 1043
+    }
+  },
+  "prompt_category": "profile",
+  "prompt_id": "profile_public_defender",
+  "rationale": "This is exceptional magazine-quality profile writing. Every sentence earns its place. The opening scene is cinematic yet economical\u2014gas-station coffee, two monitors, the note 'Ask about the landlord'\u2014each detail doing double duty as atmosphere and characterization. The sticky note reading '241' is a masterful concrete anchor for the caseload abstraction, immediately contextualized against the ABA's 150-case standard. The quote ('If I think about it as a number, I'll drown') is perfectly placed and the parenthetical 'not quite convincingly' shows a writer with a keen observational eye. The language is plain and muscular ('a topography of crisis,' 'each one a person facing the loss of their freedom') without ever becoming overwrought. Structure flows naturally from scene to context to voice to biographical setup. The piece is incomplete but what exists is essentially flawless narrative nonfiction.",
+  "run_name": "2026-03-07-openrouter-v0-1-salvage-1",
+  "scores": {
+    "brevity_economy": 5,
+    "clarity": 5,
+    "humanity_voice": 5,
+    "overall": 5,
+    "simplicity": 5,
+    "specificity_precision": 5,
+    "structure_flow": 5
+  }
+}

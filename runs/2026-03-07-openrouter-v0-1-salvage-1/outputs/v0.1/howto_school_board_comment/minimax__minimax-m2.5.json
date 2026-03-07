@@ -1,0 +1,37 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.1",
+  "candidate_label": "MiniMax M2.5",
+  "candidate_model_id": "minimax/minimax-m2.5",
+  "created_at": "2026-03-07T15:13:50Z",
+  "metadata": {
+    "id": "gen-1772896426-MgmWE5OdjbRC7YVRjYFJ",
+    "usage": {
+      "completion_tokens": 500,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 131
+      },
+      "cost": 0.0006183,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.0006,
+        "upstream_inference_cost": 0.0006183,
+        "upstream_inference_prompt_cost": 1.83e-05
+      },
+      "is_byok": false,
+      "prompt_tokens": 61,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 561
+    }
+  },
+  "prompt_category": "service_howto",
+  "prompt_id": "howto_school_board_comment",
+  "response_text": "# Speaking at a School Board Meeting: A Practical Guide for Parents\n\nSchool board meetings can feel intimidating\u2014especially when you're there to advocate for your child or your community. But with some preparation, you can present your concerns clearly and effectively. Here's how to get ready.\n\n---\n\n## 1. Do Your Homework Before the Meeting\n\n**Understand the agenda.** Most school boards post meeting agendas online in advance. Review what's being discussed and identify the best time to speak. Public comment periods are usually at the beginning or end of the meeting\u2014know which slot applies to you.\n\n**Learn the rules.** Each district has its own procedures for public comments. Find out:\n\n- How long you get to speak (often 2\u20135 minutes)\n- Whether you need to sign up in advance\n- Whether topics must be on the agenda\n- Any restrictions on what you can discuss\n\n**Gather facts.** Bring specific examples, data, or documents that support your point. Board members respond better to concrete information than general complaints. If you're raising an issue about a policy, know what the current policy says. If it's about an incident, note dates and people involved.\n\n---\n\n## 2. Craft Your Message\n\n**Define one clear goal.** What do you want the board to do? Do you want them to vote a certain way, investigate an issue, or simply hear your perspective? Keep your remarks focused on that goal.\n\n**Structure your remarks.** A simple framework works well:\n\n1. **Who you are** \u2014 Briefly introduce yourself (name, your children's grades or schools, your connection to the community)\n2. **The issue** \u2014 State the problem clearly and factually\n3. **The impact** \u2014 Explain why it matters, especially for students\n4. **Your request** \u2014 Be specific about what you'd like the board to consider or do\n5. **Thank them** \u2014 Close respectfully\n\n**Keep it short.** If you have 3 minutes, aim",
+  "run_name": "2026-03-07-openrouter-v0-1"
+}

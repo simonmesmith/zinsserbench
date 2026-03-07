@@ -1,0 +1,47 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.1",
+  "candidate_model_id": "openai/gpt-5.3-chat",
+  "created_at": "2026-03-07T21:26:39Z",
+  "judge_model_id": "anthropic/claude-opus-4.6",
+  "metadata": {
+    "id": "gen-1772918792-6tnfYuI01T7IM8HWUjCc",
+    "raw_text": "{\"scores\": {\"clarity\": 5, \"simplicity\": 5, \"brevity_economy\": 5, \"structure_flow\": 5, \"specificity_precision\": 5, \"humanity_voice\": 5, \"overall\": 5}, \"rationale\": \"This is exceptionally well-crafted personal nonfiction. Every sentence earns its place. The specificity is outstanding\u2014'canvas bags,' 'foam kickboards,' 'the price of corn,' 'sawdust and sun'\u2014grounding the essay in lived experience without ever feeling overwrought. The structure moves elegantly through the day as an organizing principle (morning lap swimmers, late-morning lessons, afternoon crowds), which simultaneously reveals the town's social layers. The voice is warm, observant, and confident, with lines that land perfectly ('not by your birthday, but by how long you stood at the edge deciding whether to jump'). The language is plain and direct throughout\u2014no inflation, no throat-clearing. The diving board passage is a small masterpiece of metaphor that never announces itself as one. The piece fulfills the prompt beautifully: the pool genuinely reveals the town. The only minor note is that it ends somewhat abruptly (it reads as if it could continue), but what's on the page is nearly flawless.\"}",
+    "usage": {
+      "completion_tokens": 288,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 0
+      },
+      "cost": 0.01143,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.0072,
+        "upstream_inference_cost": 0.01143,
+        "upstream_inference_prompt_cost": 0.00423
+      },
+      "is_byok": false,
+      "prompt_tokens": 846,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 1134
+    }
+  },
+  "prompt_category": "personal_nonfiction",
+  "prompt_id": "personal_public_pool",
+  "rationale": "This is exceptionally well-crafted personal nonfiction. Every sentence earns its place. The specificity is outstanding\u2014'canvas bags,' 'foam kickboards,' 'the price of corn,' 'sawdust and sun'\u2014grounding the essay in lived experience without ever feeling overwrought. The structure moves elegantly through the day as an organizing principle (morning lap swimmers, late-morning lessons, afternoon crowds), which simultaneously reveals the town's social layers. The voice is warm, observant, and confident, with lines that land perfectly ('not by your birthday, but by how long you stood at the edge deciding whether to jump'). The language is plain and direct throughout\u2014no inflation, no throat-clearing. The diving board passage is a small masterpiece of metaphor that never announces itself as one. The piece fulfills the prompt beautifully: the pool genuinely reveals the town. The only minor note is that it ends somewhat abruptly (it reads as if it could continue), but what's on the page is nearly flawless.",
+  "run_name": "2026-03-07-openrouter-v0-1-salvage-1",
+  "scores": {
+    "brevity_economy": 5,
+    "clarity": 5,
+    "humanity_voice": 5,
+    "overall": 5,
+    "simplicity": 5,
+    "specificity_precision": 5,
+    "structure_flow": 5
+  }
+}

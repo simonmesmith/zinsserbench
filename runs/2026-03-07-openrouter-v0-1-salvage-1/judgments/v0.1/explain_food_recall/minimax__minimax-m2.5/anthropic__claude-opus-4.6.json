@@ -1,0 +1,47 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.1",
+  "candidate_model_id": "minimax/minimax-m2.5",
+  "created_at": "2026-03-07T21:31:06Z",
+  "judge_model_id": "anthropic/claude-opus-4.6",
+  "metadata": {
+    "id": "gen-1772919059-O2R8aoTbxrLIQtpe8pSq",
+    "raw_text": "{\"scores\": {\"clarity\": 4, \"simplicity\": 5, \"brevity_economy\": 4, \"structure_flow\": 3, \"specificity_precision\": 4, \"humanity_voice\": 3, \"overall\": 3}, \"rationale\": \"The writing that exists is clear, plain-spoken, and well-organized with useful specifics (named pathogens, named agencies, concrete examples of allergens). However, the piece is incomplete\u2014it cuts off mid-section and never delivers the critical second half of the prompt: what people should actually do if a recalled product is in their kitchen. That's the most actionable part of the assignment. Structure earns only a 3 because the reader is left dangling. Voice is competent but leans slightly toward boilerplate listicle tone without much personality or direct address to the reader's concerns. What's present is solid consumer journalism, but an unfinished piece can't score high overall.\"}",
+    "usage": {
+      "completion_tokens": 250,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 25
+      },
+      "cost": 0.01014,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.00625,
+        "upstream_inference_cost": 0.01014,
+        "upstream_inference_prompt_cost": 0.00389
+      },
+      "is_byok": false,
+      "prompt_tokens": 778,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 1028
+    }
+  },
+  "prompt_category": "explain",
+  "prompt_id": "explain_food_recall",
+  "rationale": "The writing that exists is clear, plain-spoken, and well-organized with useful specifics (named pathogens, named agencies, concrete examples of allergens). However, the piece is incomplete\u2014it cuts off mid-section and never delivers the critical second half of the prompt: what people should actually do if a recalled product is in their kitchen. That's the most actionable part of the assignment. Structure earns only a 3 because the reader is left dangling. Voice is competent but leans slightly toward boilerplate listicle tone without much personality or direct address to the reader's concerns. What's present is solid consumer journalism, but an unfinished piece can't score high overall.",
+  "run_name": "2026-03-07-openrouter-v0-1-salvage-1",
+  "scores": {
+    "brevity_economy": 4,
+    "clarity": 4,
+    "humanity_voice": 3,
+    "overall": 3,
+    "simplicity": 5,
+    "specificity_precision": 4,
+    "structure_flow": 3
+  }
+}

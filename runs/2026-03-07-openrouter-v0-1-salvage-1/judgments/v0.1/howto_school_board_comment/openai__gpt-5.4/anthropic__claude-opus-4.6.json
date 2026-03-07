@@ -1,0 +1,47 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.1",
+  "candidate_model_id": "openai/gpt-5.4",
+  "created_at": "2026-03-07T21:33:11Z",
+  "judge_model_id": "anthropic/claude-opus-4.6",
+  "metadata": {
+    "id": "gen-1772919185-cSyPz7MZOk8yS4oFWsqG",
+    "raw_text": "{\"scores\": {\"clarity\": 5, \"simplicity\": 5, \"brevity_economy\": 5, \"structure_flow\": 5, \"specificity_precision\": 5, \"humanity_voice\": 5, \"overall\": 5}, \"rationale\": \"Exceptionally clear and scannable with numbered sections, bullet lists, and bold headers. Language is plain and direct throughout\u2014no jargon, no filler. Every sentence earns its place; the practical tip box about time limits is a perfect example of economy. The flow is logical: goal \u2192 rules \u2192 research, each building naturally on the last. Specificity is strong: concrete example sentences for goals, a precise checklist for meeting rules, and named document types for research. The opening lines ('Speaking at a school board meeting can feel intimidating, but good preparation makes it much easier') set a warm, human tone that speaks directly to the reader without being patronizing. The piece is truncated, so we're judging what's present\u2014and what's present is near-flawless practical nonfiction writing.\"}",
+    "usage": {
+      "completion_tokens": 236,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 0
+      },
+      "cost": 0.009975,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.0059,
+        "upstream_inference_cost": 0.009975,
+        "upstream_inference_prompt_cost": 0.004075
+      },
+      "is_byok": false,
+      "prompt_tokens": 815,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 1051
+    }
+  },
+  "prompt_category": "service_howto",
+  "prompt_id": "howto_school_board_comment",
+  "rationale": "Exceptionally clear and scannable with numbered sections, bullet lists, and bold headers. Language is plain and direct throughout\u2014no jargon, no filler. Every sentence earns its place; the practical tip box about time limits is a perfect example of economy. The flow is logical: goal \u2192 rules \u2192 research, each building naturally on the last. Specificity is strong: concrete example sentences for goals, a precise checklist for meeting rules, and named document types for research. The opening lines ('Speaking at a school board meeting can feel intimidating, but good preparation makes it much easier') set a warm, human tone that speaks directly to the reader without being patronizing. The piece is truncated, so we're judging what's present\u2014and what's present is near-flawless practical nonfiction writing.",
+  "run_name": "2026-03-07-openrouter-v0-1-salvage-1",
+  "scores": {
+    "brevity_economy": 5,
+    "clarity": 5,
+    "humanity_voice": 5,
+    "overall": 5,
+    "simplicity": 5,
+    "specificity_precision": 5,
+    "structure_flow": 5
+  }
+}

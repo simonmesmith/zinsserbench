@@ -1,0 +1,47 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.1",
+  "candidate_model_id": "minimax/minimax-m2.5",
+  "created_at": "2026-03-07T21:37:51Z",
+  "judge_model_id": "anthropic/claude-opus-4.6",
+  "metadata": {
+    "id": "gen-1772919464-g7GWw1hlJFWh5bMmDyhq",
+    "raw_text": "{\"scores\": {\"clarity\": 5, \"simplicity\": 5, \"brevity_economy\": 5, \"structure_flow\": 4, \"specificity_precision\": 5, \"humanity_voice\": 5, \"overall\": 4}, \"rationale\": \"Exceptionally clear, direct prose with vivid sensory specifics\u2014the stuck door whacked with a flat hand, the bench that collected water, the thermostat described as 'aggressive.' The simile comparing bus rhythms to a shared bed is striking without being overwrought. Language is plain yet precise, with no filler or throat-clearing. The sneeze-as-catalyst moment is a perfect concrete detail that earns the emotional turn. Voice is warm, human, and distinctive throughout. Structure flows naturally from setting to character introduction. The main limitation is that the piece is clearly incomplete\u2014it cuts off mid-sentence, so we never get a full arc or resolution, which prevents the structure and overall scores from reaching 5. What exists on the page, however, is excellent personal nonfiction writing.\"}",
+    "usage": {
+      "completion_tokens": 235,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 0
+      },
+      "cost": 0.0092,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.005875,
+        "upstream_inference_cost": 0.0092,
+        "upstream_inference_prompt_cost": 0.003325
+      },
+      "is_byok": false,
+      "prompt_tokens": 665,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 900
+    }
+  },
+  "prompt_category": "personal_nonfiction",
+  "prompt_id": "personal_night_shift_bus",
+  "rationale": "Exceptionally clear, direct prose with vivid sensory specifics\u2014the stuck door whacked with a flat hand, the bench that collected water, the thermostat described as 'aggressive.' The simile comparing bus rhythms to a shared bed is striking without being overwrought. Language is plain yet precise, with no filler or throat-clearing. The sneeze-as-catalyst moment is a perfect concrete detail that earns the emotional turn. Voice is warm, human, and distinctive throughout. Structure flows naturally from setting to character introduction. The main limitation is that the piece is clearly incomplete\u2014it cuts off mid-sentence, so we never get a full arc or resolution, which prevents the structure and overall scores from reaching 5. What exists on the page, however, is excellent personal nonfiction writing.",
+  "run_name": "2026-03-07-openrouter-v0-1-salvage-1",
+  "scores": {
+    "brevity_economy": 5,
+    "clarity": 5,
+    "humanity_voice": 5,
+    "overall": 4,
+    "simplicity": 5,
+    "specificity_precision": 5,
+    "structure_flow": 4
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.1",
+  "candidate_label": "GLM-5",
+  "candidate_model_id": "z-ai/glm-5",
+  "created_at": "2026-03-07T15:03:40Z",
+  "metadata": {
+    "id": "gen-1772895795-D8uQU1nCuyG6yVFx9vhI",
+    "usage": {
+      "completion_tokens": 1370,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 830
+      },
+      "cost": 0.0035581,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.0034935,
+        "upstream_inference_cost": 0.0035581,
+        "upstream_inference_prompt_cost": 6.46e-05
+      },
+      "is_byok": false,
+      "prompt_tokens": 68,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 1438
+    }
+  },
+  "prompt_category": "memo",
+  "prompt_id": "memo_budget_freeze",
+  "response_text": "**MEMORANDUM**\n\n**TO:** All Department Heads\n**FROM:** Office of the Chief Financial Officer\n**DATE:** October 26, 2023\n**SUBJECT:** Implementation of Temporary Budget Freeze\n\n**Purpose**\n\nTo ensure we meet our fiscal year-end targets and maintain financial stability amidst current volume fluctuations, the hospital administration is implementing a temporary freeze on discretionary spending effective immediately. This measure is a proactive step to align our expenses with current revenue projections. We anticipate this freeze remaining in effect through the end of Q4, with a review scheduled for early January.\n\n**What Is Affected**\n\nThe following expenditures are suspended until further notice, unless prior written approval is obtained from the CFO:\n\n*   **Non-Essential Travel & Training:** All off-site conferences, seminars, and non-mandatory training sessions are paused. Virtual training options should be utilized where available and critical.\n*   **Discretionary Purchases:** Requests for new office furniture, non-clinical equipment upgrades, and departmental supplies that are not immediately required for daily operations are halted.\n*   **New Hires (Non-Clinical):** All open requisitions for administrative and non-clinical support roles are frozen. Offers extended but not yet accepted are on hold.\n*   **Service Contracts:** No new vendor contracts or renewals for consulting or maintenance services should be signed without executive review.\n*   **Capital Projects:** Non-urgent capital improvement projects (e.g., cosmetic renovations) are paused.\n\n**What Is Not Affected**\n\nWe are committed to ensuring that patient care and safety remain uncompromised. The following areas are exempt from this freeze:\n\n*   **Clinical Supplies & Pharmaceuticals:** All purchases necessary for direct patient diagnosis, treatment, and care continue as normal.\n*   **Critical Maintenance:** Repairs required for safety, regulatory compliance, or to prevent the failure of critical infrastructure are authorized.\n*   **Current Staffing Levels:** Overtime for clinical staff required to maintain safe nurse-to-patient ratios and on-call schedules is approved.\n*   **Previously Approved Capital:** Projects where contracts have already been signed or where work has substantially begun will proceed.\n\n**Next Steps & Questions**\n\nDepartment heads are asked to review their current purchase orders and pending requisitions. If you believe an item falls into a \"grey area\" or presents a significant operational risk if delayed, please prepare a brief justification for review.\n\nPlease direct all inquiries regarding specific expenditures or exception requests to the Budget Office at **budget@hospital.org** or extension 4500. We appreciate your cooperation and diligence in helping us maintain our financial health during this period.\n\nThank you for your leadership and commitment to our community.",
+  "run_name": "2026-03-07-openrouter-v0-1"
+}

@@ -1,0 +1,47 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.1",
+  "candidate_model_id": "x-ai/grok-4.1-fast",
+  "created_at": "2026-03-07T21:18:10Z",
+  "judge_model_id": "anthropic/claude-opus-4.6",
+  "metadata": {
+    "id": "gen-1772918283-RmgzyIP37DFnBA0Bcsfx",
+    "raw_text": "{\"scores\": {\"clarity\": 5, \"simplicity\": 4, \"brevity_economy\": 4, \"structure_flow\": 4, \"specificity_precision\": 5, \"humanity_voice\": 5, \"overall\": 4}, \"rationale\": \"This is a vivid, well-crafted profile with excellent specificity\u2014concrete details like the 12 nautical miles, 5-knot currents, the chipped mug, the 6 a.m. departure schedule, and the failed lobster venture all ground the piece. The voice is strong and human, with natural-sounding dialogue and evocative scene-setting. The prose occasionally tips into literary overwriting ('second skin,' 'salt-and-pepper beard framing a face etched by wind and worry lines') that slightly undermines simplicity. Structure is logical\u2014opening scene, context, backstory, route description\u2014though the piece cuts off mid-sentence, which prevents full evaluation of flow and completeness. The incompleteness is the main drawback; what exists is polished and engaging.\"}",
+    "usage": {
+      "completion_tokens": 240,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 0
+      },
+      "cost": 0.01089,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.006,
+        "upstream_inference_cost": 0.01089,
+        "upstream_inference_prompt_cost": 0.00489
+      },
+      "is_byok": false,
+      "prompt_tokens": 978,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 1218
+    }
+  },
+  "prompt_category": "profile",
+  "prompt_id": "profile_ferry_captain",
+  "rationale": "This is a vivid, well-crafted profile with excellent specificity\u2014concrete details like the 12 nautical miles, 5-knot currents, the chipped mug, the 6 a.m. departure schedule, and the failed lobster venture all ground the piece. The voice is strong and human, with natural-sounding dialogue and evocative scene-setting. The prose occasionally tips into literary overwriting ('second skin,' 'salt-and-pepper beard framing a face etched by wind and worry lines') that slightly undermines simplicity. Structure is logical\u2014opening scene, context, backstory, route description\u2014though the piece cuts off mid-sentence, which prevents full evaluation of flow and completeness. The incompleteness is the main drawback; what exists is polished and engaging.",
+  "run_name": "2026-03-07-openrouter-v0-1-salvage-1",
+  "scores": {
+    "brevity_economy": 4,
+    "clarity": 5,
+    "humanity_voice": 5,
+    "overall": 4,
+    "simplicity": 4,
+    "specificity_precision": 5,
+    "structure_flow": 4
+  }
+}

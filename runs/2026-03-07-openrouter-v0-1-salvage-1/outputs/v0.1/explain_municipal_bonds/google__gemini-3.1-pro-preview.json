@@ -1,0 +1,43 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.1",
+  "candidate_label": "Gemini 3.1 Pro Preview",
+  "candidate_model_id": "google/gemini-3.1-pro-preview",
+  "created_at": "2026-03-07T21:03:43Z",
+  "metadata": {
+    "id": "gen-1772917397-8ErhR9XhP6023yRCdDEM",
+    "quality_guard": {
+      "minimum_words": 120,
+      "reason": "",
+      "status": "ok",
+      "word_count": 693
+    },
+    "usage": {
+      "completion_tokens": 1714,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 835
+      },
+      "cost": 0.02067,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.020568,
+        "upstream_inference_cost": 0.02067,
+        "upstream_inference_prompt_cost": 0.000102
+      },
+      "is_byok": false,
+      "prompt_tokens": 51,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 1765
+    }
+  },
+  "prompt_category": "explain",
+  "prompt_id": "explain_municipal_bonds",
+  "response_text": "Imagine your city needs to build a new high school, upgrade its aging water pipes, or construct a new bridge. These are massive projects that can cost tens or even hundreds of millions of dollars. \n\nThe city collects taxes, of course, but that money is mostly spoken for. It goes toward day-to-day expenses like paying teachers, fueling fire trucks, and keeping the streetlights on. The city doesn\u2019t have a giant pile of extra cash sitting around to pay for a new bridge upfront. \n\nSo, how do they afford it? They issue **municipal bonds**.\n\n### What is a Municipal Bond?\n\nAt its core, a municipal bond (often just called a \"muni\") is an IOU. \n\nWhen a city, county, or state issues a bond, they are asking the public for a loan. If you buy a municipal bond, you are lending your money to the local government. In exchange, the government promises to do two things:\n1. Pay you a set amount of interest every year.\n2. Return your original money in full on a specific future date (known as the \"maturity date\").\n\nFor example, if you buy a $1,000 bond that pays 4% interest and matures in ten years, the city will pay you $40 every year for a decade. At the end of those ten years, they will hand you your original $1,000 back.\n\n### Why Do Cities Issue Them?\n\nCities issue bonds for the exact same reason a normal person takes out a mortgage to buy a house: it allows them to pay for a massive expense over a long period of time. \n\nBy issuing bonds, a city gets the lump sum of cash it needs *today* to hire construction crews and buy materials. Then, they pay off that debt slowly over 10, 20, or 30 years. \n\nThis isn't just about convenience; it\u2019s also about fairness. If a city builds a new library that will last for 50 years, it doesn't make sense to force today's taxpayers to foot the entire bill all at once. By spreading the cost out over decades, the future residents who will actually use the library help pay for it through their future taxes.\n\nDepending on the project, the city will pay back the bondholders in different ways. If the bond funded a new public school, the city will use regular property taxes to make the payments. If the bond funded a new toll road or a water treatment plant, the city will use the money collected from the tolls or water bills to pay the investors back.\n\n### Why Do People Buy Them?\n\nYou might wonder why an investor would lend money to a city when they could invest in the stock market or lend money to a massive corporation like Apple or Amazon. \n\nThere are two main reasons people love municipal bonds:\n\n**1. The Tax Loophole**\nThis is the secret sauce of municipal bonds. The interest you earn from a municipal bond is almost always exempt from federal income taxes. Furthermore, if you buy a bond issued by the state or city where you live, the interest is usually exempt from state and local taxes, too. \n\nIf a corporation pays you $100 in interest, the IRS is going to take a cut of that. If your city pays you $100 in interest, you get to keep every single penny. Because of this tax break, municipal bonds are incredibly popular with investors, especially those in higher tax brackets.\n\n**2. Safety**\nWhile all investments carry some risk, municipal bonds are considered one of the safest places to put your money. It is incredibly rare for a city or state to go bankrupt and default on its loans. Because local governments have the power to raise taxes or fees to ensure their debts are paid, investors can sleep soundly knowing their money is secure.\n\n### The Bottom Line\n\nMunicipal bonds are a financial win-win. They allow local governments to build the vital infrastructure that keeps society running\u2014schools, hospitals, roads, and parks\u2014without bankrupting their citizens with sudden tax spikes. In return, everyday people who invest in these bonds get a safe, reliable, and tax-free way to grow their savings.",
+  "run_name": "2026-03-07-openrouter-v0-1-salvage-1"
+}

@@ -1,0 +1,47 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.1",
+  "candidate_model_id": "openai/gpt-5.4",
+  "created_at": "2026-03-07T21:36:10Z",
+  "judge_model_id": "anthropic/claude-opus-4.6",
+  "metadata": {
+    "id": "gen-1772919364-UFu8B2O2soGE8gJz9Vuo",
+    "raw_text": "{\"scores\": {\"clarity\": 5, \"simplicity\": 4, \"brevity_economy\": 4, \"structure_flow\": 3, \"specificity_precision\": 5, \"humanity_voice\": 5, \"overall\": 4}, \"rationale\": \"The writing is exceptionally clear and vivid, with precise sensory details (dish soap, fryer oil, wet wool, old rubber) that ground the reader in the experience. The voice is genuinely human and reflective without being sentimental. The language is mostly plain and direct, though it occasionally leans into literary flourish ('as if the dark glass might answer them back') that borders on overwriting. The parallel constructions in paragraph three ('You notice...') are effective but slightly repetitive. The major flaw is that the piece is clearly truncated mid-sentence ('The route number gl'), which badly damages structure and flow\u2014there's no arc, no conclusion, no resolution. What exists is beautifully crafted, but it's incomplete, which prevents a top overall score.\"}",
+    "usage": {
+      "completion_tokens": 230,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 0
+      },
+      "cost": 0.00943,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.00575,
+        "upstream_inference_cost": 0.00943,
+        "upstream_inference_prompt_cost": 0.00368
+      },
+      "is_byok": false,
+      "prompt_tokens": 736,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 966
+    }
+  },
+  "prompt_category": "personal_nonfiction",
+  "prompt_id": "personal_night_shift_bus",
+  "rationale": "The writing is exceptionally clear and vivid, with precise sensory details (dish soap, fryer oil, wet wool, old rubber) that ground the reader in the experience. The voice is genuinely human and reflective without being sentimental. The language is mostly plain and direct, though it occasionally leans into literary flourish ('as if the dark glass might answer them back') that borders on overwriting. The parallel constructions in paragraph three ('You notice...') are effective but slightly repetitive. The major flaw is that the piece is clearly truncated mid-sentence ('The route number gl'), which badly damages structure and flow\u2014there's no arc, no conclusion, no resolution. What exists is beautifully crafted, but it's incomplete, which prevents a top overall score.",
+  "run_name": "2026-03-07-openrouter-v0-1-salvage-1",
+  "scores": {
+    "brevity_economy": 4,
+    "clarity": 5,
+    "humanity_voice": 5,
+    "overall": 4,
+    "simplicity": 4,
+    "specificity_precision": 5,
+    "structure_flow": 3
+  }
+}

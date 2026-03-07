@@ -1,0 +1,47 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.1",
+  "candidate_model_id": "qwen/qwen3.5-35b-a3b",
+  "created_at": "2026-03-07T21:11:54Z",
+  "judge_model_id": "anthropic/claude-opus-4.6",
+  "metadata": {
+    "id": "gen-1772917906-KqJtFPyhAkbrgSyu6Tg7",
+    "raw_text": "{\"scores\": {\"clarity\": 3, \"simplicity\": 3, \"brevity_economy\": 2, \"structure_flow\": 3, \"specificity_precision\": 3, \"humanity_voice\": 1, \"overall\": 2}, \"rationale\": \"What was delivered is not a memo but an outline/planning document showing the thinking process and bullet-point skeleton. There is no actual prose, no salutation, no closing, no human voice\u2014just a structured brainstorm. While the outline demonstrates understanding of what should go into the memo (affected vs. exempt items, questions for managers), it never executes the task. Clarity and structure get partial credit because the bullet points are logically organized and easy to scan, but brevity suffers from the unnecessary 'Thinking Process' scaffolding. Specificity is moderate\u2014items like 'non-essential travel' and 'PPE' are concrete, but placeholder brackets and lack of developed sentences limit precision. Humanity/voice scores lowest: there is zero reader-facing tone, no reassurance, no actual communication\u2014just notes. Overall, this is a draft outline, not a finished memo.\"}",
+    "usage": {
+      "completion_tokens": 254,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 0
+      },
+      "cost": 0.01099,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.00635,
+        "upstream_inference_cost": 0.01099,
+        "upstream_inference_prompt_cost": 0.00464
+      },
+      "is_byok": false,
+      "prompt_tokens": 928,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 1182
+    }
+  },
+  "prompt_category": "memo",
+  "prompt_id": "memo_budget_freeze",
+  "rationale": "What was delivered is not a memo but an outline/planning document showing the thinking process and bullet-point skeleton. There is no actual prose, no salutation, no closing, no human voice\u2014just a structured brainstorm. While the outline demonstrates understanding of what should go into the memo (affected vs. exempt items, questions for managers), it never executes the task. Clarity and structure get partial credit because the bullet points are logically organized and easy to scan, but brevity suffers from the unnecessary 'Thinking Process' scaffolding. Specificity is moderate\u2014items like 'non-essential travel' and 'PPE' are concrete, but placeholder brackets and lack of developed sentences limit precision. Humanity/voice scores lowest: there is zero reader-facing tone, no reassurance, no actual communication\u2014just notes. Overall, this is a draft outline, not a finished memo.",
+  "run_name": "2026-03-07-openrouter-v0-1-salvage-1",
+  "scores": {
+    "brevity_economy": 2,
+    "clarity": 3,
+    "humanity_voice": 1,
+    "overall": 2,
+    "simplicity": 3,
+    "specificity_precision": 3,
+    "structure_flow": 3
+  }
+}

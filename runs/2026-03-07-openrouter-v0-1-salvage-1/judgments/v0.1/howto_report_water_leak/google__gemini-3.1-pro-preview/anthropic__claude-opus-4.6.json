@@ -1,0 +1,47 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.1",
+  "candidate_model_id": "google/gemini-3.1-pro-preview",
+  "created_at": "2026-03-07T21:20:42Z",
+  "judge_model_id": "anthropic/claude-opus-4.6",
+  "metadata": {
+    "id": "gen-1772918435-eIUtNRlMplRJfDLPc5Jp",
+    "raw_text": "{\"scores\": {\"clarity\": 5, \"simplicity\": 5, \"brevity_economy\": 4, \"structure_flow\": 5, \"specificity_precision\": 5, \"humanity_voice\": 4, \"overall\": 5}, \"rationale\": \"Exceptionally clear and well-organized guide. Each step is logically sequenced (secure area \u2192 electrical safety \u2192 relieve pressure \u2192 contact neighbor \u2192 notify landlord \u2192 document \u2192 insurance \u2192 monitor), mirroring the actual order a tenant would follow. Specificity is outstanding: the towel-in-the-bucket trick, the 48-hour mold window, poking a bulging ceiling with a screwdriver, flipping the breaker rather than touching fixtures. Language is plain and direct throughout. Minor dings: the opening paragraph and closing paragraph are slightly formulaic and could be trimmed, and the title is a touch cutesy. The voice is warm and reader-aware without being overly casual. The distinction between landlord insurance and renters insurance is a genuinely useful and precise detail. Overall, this is a highly effective practical guide.\"}",
+    "usage": {
+      "completion_tokens": 244,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 0
+      },
+      "cost": 0.013525,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.0061,
+        "upstream_inference_cost": 0.013525,
+        "upstream_inference_prompt_cost": 0.007425
+      },
+      "is_byok": false,
+      "prompt_tokens": 1485,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 1729
+    }
+  },
+  "prompt_category": "service_howto",
+  "prompt_id": "howto_report_water_leak",
+  "rationale": "Exceptionally clear and well-organized guide. Each step is logically sequenced (secure area \u2192 electrical safety \u2192 relieve pressure \u2192 contact neighbor \u2192 notify landlord \u2192 document \u2192 insurance \u2192 monitor), mirroring the actual order a tenant would follow. Specificity is outstanding: the towel-in-the-bucket trick, the 48-hour mold window, poking a bulging ceiling with a screwdriver, flipping the breaker rather than touching fixtures. Language is plain and direct throughout. Minor dings: the opening paragraph and closing paragraph are slightly formulaic and could be trimmed, and the title is a touch cutesy. The voice is warm and reader-aware without being overly casual. The distinction between landlord insurance and renters insurance is a genuinely useful and precise detail. Overall, this is a highly effective practical guide.",
+  "run_name": "2026-03-07-openrouter-v0-1-salvage-1",
+  "scores": {
+    "brevity_economy": 4,
+    "clarity": 5,
+    "humanity_voice": 4,
+    "overall": 5,
+    "simplicity": 5,
+    "specificity_precision": 5,
+    "structure_flow": 5
+  }
+}

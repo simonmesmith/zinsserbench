@@ -1,0 +1,43 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.1",
+  "candidate_label": "Gemini 3.1 Flash Lite Preview",
+  "candidate_model_id": "google/gemini-3.1-flash-lite-preview",
+  "created_at": "2026-03-07T21:04:32Z",
+  "metadata": {
+    "id": "gen-1772917465-YPTQbgrOvjkbyxlBkoEJ",
+    "quality_guard": {
+      "minimum_words": 200,
+      "reason": "",
+      "status": "ok",
+      "word_count": 616
+    },
+    "usage": {
+      "completion_tokens": 1343,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 576
+      },
+      "cost": 0.00202775,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.0020145,
+        "upstream_inference_cost": 0.00202775,
+        "upstream_inference_prompt_cost": 1.325e-05
+      },
+      "is_byok": false,
+      "prompt_tokens": 53,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 1396
+    }
+  },
+  "prompt_category": "personal_nonfiction",
+  "prompt_id": "personal_first_day_union_job",
+  "response_text": "For years, my understanding of work was defined by the word \"disposable.\" I had spent my twenties drifting through retail and food service, jobs where the power dynamic was as clear as it was suffocating. In those environments, the employee handbook was a list of ways to get fired, and the manager\u2019s office was a place you only entered to be reprimanded or to beg for a shift change. I viewed labor as a transaction where I traded my time and dignity for a paycheck, always keeping one eye on the door, waiting for the inevitable moment when I would be replaced by someone cheaper or more compliant.\n\nThen, at twenty-seven, I landed a job with the municipal water department. It was a blue-collar role, the kind that required steel-toed boots and a thick skin. I walked into the orientation room on my first day expecting the usual lecture on \"company culture\" and \"customer obsession.\" Instead, I found a room full of people who looked like they had been working there for decades, and a man named Frank, the shop steward, who looked like he had been working there for centuries.\n\nFrank didn\u2019t talk about the company\u2019s mission statement. He didn\u2019t talk about \"synergy\" or \"going the extra mile.\" He walked over to my desk, dropped a heavy, spiral-bound document in front of me, and said, \"This is the contract. Read it. It\u2019s the only thing that matters.\"\n\nI opened the binder. It wasn't a list of rules for me to follow; it was a list of promises the employer had made to us. It detailed our wages, our breaks, our safety protocols, and, most importantly, the grievance procedure. For the first time in my life, I saw that my relationship with my employer wasn't a personal negotiation between a supplicant and a king. It was a regulated, collective agreement.\n\nAs the day progressed, I watched the way the veteran workers interacted with the supervisors. There was no cowering. When a foreman tried to rush a safety procedure to save time, a senior technician simply pointed to a page in the contract and said, \"We don't do it that way.\" The foreman grumbled, but he backed down. \n\nIt was a revelation. I realized that in my previous jobs, I had been fighting a war alone, armed only with my own exhaustion. Here, the workers were a phalanx. They weren't just employees; they were members of a body that had been built to protect them. \n\nThat afternoon, during a break in the yard, I asked one of the older guys if he ever worried about being fired for speaking up. He laughed, a dry, gravelly sound. \"Kid,\" he said, \"the contract is the floor, not the ceiling. You stand on it, and you don't let them push you off.\"\n\nThat first day changed my fundamental perception of what work could be. I stopped seeing myself as a cog in a machine that could be swapped out at the first sign of wear. I began to see my labor as something of value, something that deserved protection and respect. I learned that work didn't have to be a state of constant, low-level anxiety. It could be a professional arrangement where rights were codified and voices were amplified.\n\nI walked out of the yard that evening with my boots covered in mud and my shoulders feeling lighter than they had in years. I wasn't just going home after a shift; I was going home as part of something larger than myself. I had finally learned that work wasn't just about what you did for a company\u2014it was about what you and your peers were entitled to demand in return.",
+  "run_name": "2026-03-07-openrouter-v0-1-salvage-1"
+}

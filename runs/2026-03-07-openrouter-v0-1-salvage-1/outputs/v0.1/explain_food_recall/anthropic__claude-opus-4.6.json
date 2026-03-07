@@ -1,0 +1,37 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.1",
+  "candidate_label": "Claude Opus 4.6",
+  "candidate_model_id": "anthropic/claude-opus-4.6",
+  "created_at": "2026-03-07T15:12:41Z",
+  "metadata": {
+    "id": "gen-1772896349-ybyhlkZuNBwGl9vvS7O2",
+    "usage": {
+      "completion_tokens": 500,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 44
+      },
+      "cost": 0.0129,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.0125,
+        "upstream_inference_cost": 0.0129,
+        "upstream_inference_prompt_cost": 0.0004
+      },
+      "is_byok": false,
+      "prompt_tokens": 80,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 580
+    }
+  },
+  "prompt_category": "explain",
+  "prompt_id": "explain_food_recall",
+  "response_text": "# What to Do When a Food Product Is Recalled\n\n## Understanding Food Recalls\n\nA food recall is a voluntary or mandated action in which a product is pulled from store shelves and consumers are urged to stop using it. Recalls happen when a food product is found to be potentially unsafe \u2014 whether because of contamination, mislabeling, the presence of undeclared allergens, or the discovery of foreign objects like metal or plastic fragments.\n\nIn the United States, two federal agencies oversee most food recalls. The Food and Drug Administration handles the majority of packaged foods, produce, seafood, and beverages. The U.S. Department of Agriculture's Food Safety and Inspection Service covers meat, poultry, and certain egg products. Both agencies classify recalls by severity:\n\n**Class I** recalls are the most serious. They involve situations where eating the product carries a reasonable probability of causing severe health consequences or death. An example would be a ready-to-eat salad contaminated with listeria or ground beef tainted with E. coli O157:H7.\n\n**Class II** recalls involve products that may cause temporary or medically reversible health problems, or where the probability of serious harm is remote. A product containing an undeclared allergen that affects a limited population might fall into this category.\n\n**Class III** recalls cover products that are unlikely to cause any health problems but still violate FDA or USDA regulations \u2014 for instance, a labeling error that doesn't involve an allergen or safety risk.\n\n## Why Recalls Happen\n\nRecalls can be triggered in several ways. Routine government inspections and testing may uncover contamination. A company's own internal quality checks might detect a problem. Reports from consumers who get sick can spark investigations. And sometimes a supplier discovers that an ingredient it shipped to multiple manufacturers was compromised, setting off a chain of recalls across many brands.\n\nThe most common reasons for food recalls include:\n\n- **Bacterial contamination**, such as salmonella, listeria, or E. coli\n- **Undeclared allergens**, meaning an ingredient",
+  "run_name": "2026-03-07-openrouter-v0-1"
+}

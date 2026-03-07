@@ -1,0 +1,37 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.1",
+  "candidate_label": "Kimi K2.5",
+  "candidate_model_id": "moonshotai/kimi-k2.5",
+  "created_at": "2026-03-07T15:07:38Z",
+  "metadata": {
+    "id": "gen-1772896053-woInbWUOxI1i7FncnY2x",
+    "usage": {
+      "completion_tokens": 500,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 317
+      },
+      "cost": 0.0014592,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.0015,
+        "upstream_inference_cost": 0.001536,
+        "upstream_inference_prompt_cost": 3.6e-05
+      },
+      "is_byok": false,
+      "prompt_tokens": 60,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 560
+    }
+  },
+  "prompt_category": "service_howto",
+  "prompt_id": "howto_neighborhood_meeting",
+  "response_text": "**How to Organize a Neighborhood Traffic Safety Meeting: A Resident\u2019s Playbook**\n\n**Phase 1: Lay the Groundwork (2\u20133 weeks out)**\n\n**Document the problem.** Before inviting anyone, spend three to five days gathering evidence. Stand at your window or sidewalk with a notebook (or use a simple counter app) and log: near-misses, speeding vehicles, times of day when traffic peaks, and specific incidents involving pedestrians, cyclists, or children. Take photos of blind corners, faded crosswalks, or cars parked dangerously. This data transforms complaints into actionable intelligence.\n\n**Check existing efforts.** Contact your local community board, neighborhood association, or homeowners association to ensure you\u2019re not duplicating work. Ask if a traffic study has been conducted in the last two years. If one exists, request a copy through your city\u2019s open records portal or council member\u2019s office.\n\n**Identify your allies.** Walk the street and knock on doors. Start with the houses closest to the danger zone\u2014parents with strollers, elderly residents, cyclists, and dog walkers usually have immediate stories to share. Ask: \u201cWould you be willing to help hand out flyers, or just show up?\u201d Aim for a core team of three to five people to split tasks.\n\n**Phase 2: Secure Logistics**\n\n**Choose an",
+  "run_name": "2026-03-07-openrouter-v0-1"
+}

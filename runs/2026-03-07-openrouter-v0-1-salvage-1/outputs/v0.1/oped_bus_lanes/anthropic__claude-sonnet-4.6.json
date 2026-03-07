@@ -1,0 +1,37 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.1",
+  "candidate_label": "Claude Sonnet 4.6",
+  "candidate_model_id": "anthropic/claude-sonnet-4.6",
+  "created_at": "2026-03-07T15:10:05Z",
+  "metadata": {
+    "id": "gen-1772896192-EWj00P6PmgFzMbpIYruR",
+    "usage": {
+      "completion_tokens": 500,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 53
+      },
+      "cost": 0.007713,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.0075,
+        "upstream_inference_cost": 0.007713,
+        "upstream_inference_prompt_cost": 0.000213
+      },
+      "is_byok": false,
+      "prompt_tokens": 71,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 571
+    }
+  },
+  "prompt_category": "persuasion_oped",
+  "prompt_id": "oped_bus_lanes",
+  "response_text": "# Make Room: Why This City Needs Dedicated Bus Lanes Now\n\nEvery morning, thousands of commuters sit trapped in the same ritual of frustration. A bus that should take twelve minutes idles for forty. A driver pulls a nearly empty car into the same lane as a vehicle carrying sixty people. We have collectively decided, without quite saying so out loud, that the convenience of one person is worth the delay of many. It is time to make a different decision.\n\nDedicated bus lanes on our most congested corridors are not a radical idea. They are an overdue one.\n\n---\n\n**The Math Is Not Complicated**\n\nA standard traffic lane can move roughly 1,500 to 2,000 cars per hour. A dedicated bus lane, running articulated buses at reasonable frequency, can move upward of 10,000 to 25,000 people in that same space. We are not talking about a marginal improvement. We are talking about a fundamentally more efficient use of pavement that already exists.\n\nWhen buses get stuck in the same congestion they are supposed to relieve, the system eats itself. Riders wait longer, lose confidence in the schedule, and return to their cars \u2014 which makes congestion worse \u2014 which makes the bus slower \u2014 which drives away more riders. This is not a hypothetical spiral. It is the documented trajectory of every under-invested bus network in North America. Dedicated lanes break the cycle at its source.\n\n---\n\n**This Is an Equity Issue, Not Just a Traffic Issue**\n\nMuch of the debate around urban transportation gets framed as a conflict between drivers and everyone else. That framing obscures something important: the people most dependent on public transit are overwhelmingly those who cannot afford the alternative.\n\nLow-income workers, elderly residents, people with disabilities, teenagers without licenses, immigrants navigating a new city \u2014 these are the people sitting on the bus while traffic engineers optimize for the person behind the steering wheel. When a bus route runs chronically late, it is not a minor inconvenience in the abstract. It means a missed shift, a docked",
+  "run_name": "2026-03-07-openrouter-v0-1"
+}

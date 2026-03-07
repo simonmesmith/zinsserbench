@@ -1,0 +1,47 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.1",
+  "candidate_model_id": "anthropic/claude-sonnet-4.6",
+  "created_at": "2026-03-07T21:24:02Z",
+  "judge_model_id": "anthropic/claude-opus-4.6",
+  "metadata": {
+    "id": "gen-1772918634-X1Esd6Wx0R747dTomRji",
+    "raw_text": "{\"scores\": {\"clarity\": 5, \"simplicity\": 5, \"brevity_economy\": 5, \"structure_flow\": 4, \"specificity_precision\": 4, \"humanity_voice\": 5, \"overall\": 5}, \"rationale\": \"Exceptionally clear and direct prose that never requires a second read. The language is plain but muscular \u2014 sentences like 'the system eats itself' and 'We have collectively decided, without quite saying so out loud' are vivid without being ornate. No throat-clearing; the piece opens with a concrete scene and moves immediately into argument. Structure is logical (efficiency case \u2192 equity case), though the piece is cut off mid-sentence, which prevents a full assessment of arc and conclusion \u2014 hence the 4 on structure. Specificity is strong: passenger-per-lane-hour figures (1,500\u20132,000 vs. 10,000\u201325,000), the twelve-minute-vs-forty-minute contrast, and the named demographic groups all ground the argument concretely, though a named city or corridor would have pushed it higher. Voice is outstanding \u2014 engaged, rhythmic, occasionally wry, never bureaucratic. The truncation is the main weakness; what exists is excellent opinion writing.\"}",
+    "usage": {
+      "completion_tokens": 279,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 0
+      },
+      "cost": 0.011105,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.006975,
+        "upstream_inference_cost": 0.011105,
+        "upstream_inference_prompt_cost": 0.00413
+      },
+      "is_byok": false,
+      "prompt_tokens": 826,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 1105
+    }
+  },
+  "prompt_category": "persuasion_oped",
+  "prompt_id": "oped_bus_lanes",
+  "rationale": "Exceptionally clear and direct prose that never requires a second read. The language is plain but muscular \u2014 sentences like 'the system eats itself' and 'We have collectively decided, without quite saying so out loud' are vivid without being ornate. No throat-clearing; the piece opens with a concrete scene and moves immediately into argument. Structure is logical (efficiency case \u2192 equity case), though the piece is cut off mid-sentence, which prevents a full assessment of arc and conclusion \u2014 hence the 4 on structure. Specificity is strong: passenger-per-lane-hour figures (1,500\u20132,000 vs. 10,000\u201325,000), the twelve-minute-vs-forty-minute contrast, and the named demographic groups all ground the argument concretely, though a named city or corridor would have pushed it higher. Voice is outstanding \u2014 engaged, rhythmic, occasionally wry, never bureaucratic. The truncation is the main weakness; what exists is excellent opinion writing.",
+  "run_name": "2026-03-07-openrouter-v0-1-salvage-1",
+  "scores": {
+    "brevity_economy": 5,
+    "clarity": 5,
+    "humanity_voice": 5,
+    "overall": 5,
+    "simplicity": 5,
+    "specificity_precision": 4,
+    "structure_flow": 4
+  }
+}

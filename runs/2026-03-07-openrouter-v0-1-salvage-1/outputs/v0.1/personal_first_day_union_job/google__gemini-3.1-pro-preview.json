@@ -1,0 +1,43 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.1",
+  "candidate_label": "Gemini 3.1 Pro Preview",
+  "candidate_model_id": "google/gemini-3.1-pro-preview",
+  "created_at": "2026-03-07T21:04:58Z",
+  "metadata": {
+    "id": "gen-1772917470-pm6pppreoI0SpqpZDl3g",
+    "quality_guard": {
+      "minimum_words": 200,
+      "reason": "",
+      "status": "ok",
+      "word_count": 781
+    },
+    "usage": {
+      "completion_tokens": 1879,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 865
+      },
+      "cost": 0.022658,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.022548,
+        "upstream_inference_cost": 0.022658,
+        "upstream_inference_prompt_cost": 0.00011
+      },
+      "is_byok": false,
+      "prompt_tokens": 55,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 1934
+    }
+  },
+  "prompt_category": "personal_nonfiction",
+  "prompt_id": "personal_first_day_union_job",
+  "response_text": "I spent my twenties in a state of perpetual hustle, which is just a polite, modern word for desperation. I had worked in non-union restaurant kitchens where a sliced finger meant wrapping it in duct tape so you wouldn\u2019t fall behind on the line. I had worked retail jobs where managers routinely shaved hours off my timesheet, knowing I couldn\u2019t afford a lawyer to fight for my stolen wages. By the time I was twenty-eight, my definition of work was simple: it was a place where you were entirely disposable, and your primary objective was to survive the shift without giving the boss a reason to discard you.\n\nThen I got hired as a maintenance assistant at the municipal transit depot. It was a union shop. \n\nMy first day began at 5:30 AM. I walked through the heavy steel doors of the depot, the air already thick with the smell of diesel exhaust, ozone, and industrial floor cleaner. My stomach was tied in its familiar knot. I was mentally preparing myself for the usual hazing\u2014the impossible tasks, the barked orders, the unspoken test to see how much abuse the new kid could take before breaking.\n\nInstead, my first interaction wasn\u2019t with a foreman, but with a guy named Marcus. He was a mechanic with grease permanently tattooed into the creases of his knuckles, and he was the shop steward. \n\n\"Here\u2019s your contract,\" he said, handing me a thick, spiral-bound booklet. \"Read it. Know it. The boss isn't your friend, but he\u2019s not your king, either. We have rules here.\"\n\nI took the booklet, bewildered. In my previous jobs, the only rule was whatever the manager decided it was on any given Tuesday. \n\nAt 7:00 AM, I was assigned to a veteran cleaner named Elena. Our job was to power-wash the undercarriages of the city buses. It was wet, loud, and physically demanding work. I threw myself into it with the frantic, terrified energy I had honed in the restaurant industry. I scrubbed and sprayed as if my life depended on it, terrified that if I paused for even a second, someone with a clipboard would appear from the shadows and fire me on the spot.\n\nAt exactly 9:00 AM, a loud buzzer echoed through the cavernous garage. \n\nElena immediately shut off her power washer. She wiped her brow, unclipped her safety goggles, and started walking toward the breakroom. \n\nI stood there, the heavy wand still vibrating in my hands. \"What are you doing?\" I yelled over the ambient roar of the garage. \"We aren't done with this row!\"\n\nElena stopped and looked back at me, her expression a mix of amusement and pity. \"It\u2019s break time, kid.\"\n\n\"But the buses\u2014\"\n\n\"The buses will be here in fifteen minutes,\" she said, walking back to gently push the nozzle of my washer toward the floor. \"Turn it off.\"\n\n\"I don't want to get in trouble on my first day,\" I stammered. In my last job, taking a break when there was a rush on was a fireable offense, regardless of what the labor laws said. \n\nElena\u2019s face softened, but her voice was firm. \"Listen to me. You don't work through your break. If you work through your break, you tell management that our time isn't valuable. People bled on picket lines decades ago so you could sit down for fifteen minutes and drink a cup of coffee. Put the wand down.\"\n\nI turned off the machine. The sudden silence in my immediate vicinity was deafening. I followed Elena to the breakroom, my heart pounding, fully expecting a supervisor to intercept us. None did. When we walked into the room, two dozen workers were sitting at tables, drinking coffee, reading the paper, laughing. There was no fear in the room. There was no frantic, nervous energy. \n\nI sat down at a plastic table, my hands still shaking slightly from the adrenaline of the morning, and I watched them. \n\nFor the first time in my life, I realized that work did not have to be a hostage situation. The people in this room didn't cower when a supervisor walked by. They didn't beg for their time off, and they didn't accept unsafe conditions as just \"part of the job.\" They had a contract. They had each other. They had power.\n\nSitting in that breakroom, drinking a terrible cup of vending-machine coffee, I felt a knot in my chest begin to loosen\u2014a knot I hadn\u2019t even realized I\u2019d been carrying for a decade. The depot was loud, dirty, and exhausting, but as the buzzer rang fifteen minutes later to signal the end of the break, I stood up with a strange, unfamiliar feeling. It was dignity.",
+  "run_name": "2026-03-07-openrouter-v0-1-salvage-1"
+}

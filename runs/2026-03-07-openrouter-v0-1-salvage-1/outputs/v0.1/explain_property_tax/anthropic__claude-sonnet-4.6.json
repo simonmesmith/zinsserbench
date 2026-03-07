@@ -1,0 +1,37 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.1",
+  "candidate_label": "Claude Sonnet 4.6",
+  "candidate_model_id": "anthropic/claude-sonnet-4.6",
+  "created_at": "2026-03-07T15:15:39Z",
+  "metadata": {
+    "id": "gen-1772896528-GZXshBi6r1FgwTruJVsv",
+    "usage": {
+      "completion_tokens": 500,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 48
+      },
+      "cost": 0.007743,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.0075,
+        "upstream_inference_cost": 0.007743,
+        "upstream_inference_prompt_cost": 0.000243
+      },
+      "is_byok": false,
+      "prompt_tokens": 81,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 581
+    }
+  },
+  "prompt_category": "explain",
+  "prompt_id": "explain_property_tax",
+  "response_text": "# How Your Property Tax Bill Is Calculated \u2014 And Why It Changes\n\nIf your property tax bill went up this year and you're not sure why, you're not alone. The process behind that number can feel like a black box. Here's how it actually works.\n\n---\n\n## The Basic Idea\n\nYour property tax is essentially your share of the cost of running your local government \u2014 schools, roads, fire departments, libraries, and everything else your community pays for collectively. The tax is based on what your property is worth, because that's the method governments settled on for deciding who pays how much.\n\nThe core formula is simple:\n\n**Your property's assessed value \u00d7 the tax rate = your tax bill**\n\nEverything else is just an explanation of how those two numbers are determined.\n\n---\n\n## What \"Assessed Value\" Means\n\nYour local government \u2014 usually a county or township assessor's office \u2014 puts an official dollar value on your property. This is called the **assessed value**, and it's supposed to reflect what your home would sell for on the open market, or some percentage of that figure.\n\nIn some states, assessed value equals roughly 100% of market value. In others, it might be set at 80% or even 50% of market value by law. The percentage varies by state and sometimes by locality, which is why comparing assessed values across state lines can be misleading.\n\nThe assessor typically doesn't walk through every home every year. Instead, they use data \u2014 recent sale prices of similar homes in your area, building permit records, neighborhood trends \u2014 to estimate values, often using software models. A physical inspection usually only happens when a home sells, when significant improvements are added, or on a periodic cycle.\n\n---\n\n## What the Tax Rate Means\n\nThe tax rate is often expressed as a **mill rate** or **millage rate**. One mill equals $1 of tax for every $1,000 of assessed value. So if your home is assessed at $300,000 and the mill rate is 20, your bill would be $6,000.\n\nWhere does the",
+  "run_name": "2026-03-07-openrouter-v0-1"
+}

@@ -1,0 +1,37 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.1",
+  "candidate_label": "GPT-5.4",
+  "candidate_model_id": "openai/gpt-5.4",
+  "created_at": "2026-03-07T15:06:36Z",
+  "metadata": {
+    "id": "gen-1772895983-0hU0NczTt3Q1NneBTuzX",
+    "usage": {
+      "completion_tokens": 500,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 130
+      },
+      "cost": 0.0076475,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.0075,
+        "upstream_inference_cost": 0.0076475,
+        "upstream_inference_prompt_cost": 0.0001475
+      },
+      "is_byok": false,
+      "prompt_tokens": 59,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 559
+    }
+  },
+  "prompt_category": "profile",
+  "prompt_id": "profile_ferry_captain",
+  "response_text": "Every morning before dawn, when the harbor is still a dark bowl of water and the gulls have not yet started their quarrels, Captain Elias Mercer walks down the same pier he has walked for thirty years. The boards know his step. The deckhands, even the young ones who are only half his age, recognize the rhythm of it: unhurried, even, with none of the theatrical authority some men put on with a uniform. By 5:15 he is in the wheelhouse of the *Maribel*, checking weather, tide tables, engine reports, and the handwritten notebook he still keeps despite the digital screens glowing around him. At 5:45, he eases the ferry out of Port Agnes and points her across the three-mile channel to Bell Cove, as he has done thousands upon thousands of times.\n\nIn towns this small, repetition is not monotony. It is identity.\n\nThe route between Port Agnes and Bell Cove is short enough that visitors sometimes treat it like an attraction. They stand at the rail with phones raised, delighted by the low bluff on the Agnes side, the fishing shacks on the Cove side, the seals that surface and vanish like thoughts. For the people who live here, the ferry is less picturesque than necessary. It carries schoolchildren, nurses, electricians, groceries, propane tanks, birthday cakes, crates of bait, funeral flowers, and the local gossip. It is the road between two places the map makes look separate but life has fused together. And for three decades, Mercer has been the keeper of that road.\n\nHe is sixty-one now, broad-shouldered, weathered, with a face that seems assembled from wind and patience. His beard has gone mostly white. The skin around his eyes has narrowed into permanent lines from glare off the water. He is",
+  "run_name": "2026-03-07-openrouter-v0-1"
+}

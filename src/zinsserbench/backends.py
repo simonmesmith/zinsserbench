@@ -36,11 +36,12 @@ class MockBackend(ModelBackend):
     name = "mock"
 
     def generate(self, model: ModelSpec, prompt: Prompt, settings: Dict[str, object]) -> Dict[str, object]:
-        text = (
-            f"{model.label} response to {prompt.title}.\n\n"
-            f"This {prompt.category.replace('_', ' ')} piece addresses the task directly, keeps the scope contained, "
-            f"and includes a few concrete details about {', '.join(prompt.topic_tags[:2]) or 'the topic'}."
+        topic = ", ".join(prompt.topic_tags[:2]) or "the topic"
+        sentence = (
+            f"This {prompt.category.replace('_', ' ')} draft answers the task directly, stays specific, "
+            f"and adds concrete detail about {topic} while keeping the prose readable. "
         )
+        text = f"{model.label} response to {prompt.title}.\n\n" + (sentence * 24)
         return {"response_text": text, "metadata": {"mode": "mock"}}
 
     def judge(
@@ -119,7 +120,6 @@ class OpenRouterBackend(ModelBackend):
                 "role": "user",
                 "content": (
                     f"Prompt:\n{prompt.task}\n\n"
-                    f"Candidate model: {candidate_model.label}\n\n"
                     f"Candidate response:\n{candidate_text}\n\n"
                     f"Rubric axes:\n{axes_blob}\n\n"
                     f"Judging instructions:\n{rubric.judging_instructions}\n\n"
@@ -184,6 +184,7 @@ class OpenRouterBackend(ModelBackend):
             "max_tokens": settings.get("max_output_tokens", 500),
             "response_format": {"type": "json_object"} if settings.get("json_mode") else None,
             "reasoning": reasoning,
+            "provider": {"require_parameters": bool(settings.get("require_parameters", True))},
         }
         payload = {key: value for key, value in payload.items() if value is not None}
         request = urllib.request.Request(
@@ -204,6 +205,14 @@ class OpenRouterBackend(ModelBackend):
                     return json.loads(response.read().decode("utf-8"))
             except urllib.error.HTTPError as exc:
                 body = exc.read().decode("utf-8", errors="replace")
+                if (
+                    exc.code == 404
+                    and settings.get("require_parameters", True)
+                    and _is_missing_parameter_compatible_endpoint(body)
+                ):
+                    retry_settings = dict(settings)
+                    retry_settings["require_parameters"] = False
+                    return self._chat_completion(model_id, messages, retry_settings)
                 if exc.code == 429 and attempt + 1 < max_attempts:
                     time.sleep(_extract_retry_after_seconds(body) or (attempt + 1) * 5)
                     continue
@@ -291,6 +300,10 @@ def _extract_retry_after_seconds(body: str) -> int | None:
     if isinstance(value, int):
         return value
     return None
+
+
+def _is_missing_parameter_compatible_endpoint(body: str) -> bool:
+    return "No endpoints found that can handle the requested parameters" in body
 
 
 def _extract_json_object(text: str) -> Dict[str, object]:

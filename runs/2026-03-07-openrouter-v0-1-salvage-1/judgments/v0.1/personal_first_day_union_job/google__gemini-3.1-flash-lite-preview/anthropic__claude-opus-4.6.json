@@ -1,0 +1,47 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.1",
+  "candidate_model_id": "google/gemini-3.1-flash-lite-preview",
+  "created_at": "2026-03-07T21:25:07Z",
+  "judge_model_id": "anthropic/claude-opus-4.6",
+  "metadata": {
+    "id": "gen-1772918698-JHfxNqSSWvnqXm7HPV0s",
+    "raw_text": "{\"scores\": {\"clarity\": 5, \"simplicity\": 4, \"brevity_economy\": 4, \"structure_flow\": 5, \"specificity_precision\": 4, \"humanity_voice\": 4, \"overall\": 4}, \"rationale\": \"The essay is immediately clear and well-structured, moving chronologically through the day with a clean before/after arc. The writing is mostly plain and direct, though it occasionally reaches for literary flourishes that feel slightly overwrought ('a phalanx,' 'a supplicant and a king,' 'armed only with my own exhaustion'). These moments border on the polished-to-a-sheen quality that can undermine authenticity. The dialogue from Frank and the older worker is effective and grounding, though the 'floor not the ceiling' line feels almost too perfectly quotable. Specificity is good in places (municipal water department, steel-toed boots, spiral-bound contract, the foreman/safety procedure scene) but the essay could use more granular sensory detail\u2014what did the orientation room look like, what was the yard like, what specific work was being done? The final two paragraphs become somewhat abstract and thesis-like, restating the transformation rather than showing it. The voice is warm and engaging but reads more like a well-crafted magazine piece than raw personal essay\u2014competent and moving but slightly over-composed.\"}",
+    "usage": {
+      "completion_tokens": 311,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 0
+      },
+      "cost": 0.013645,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.007775,
+        "upstream_inference_cost": 0.013645,
+        "upstream_inference_prompt_cost": 0.00587
+      },
+      "is_byok": false,
+      "prompt_tokens": 1174,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 1485
+    }
+  },
+  "prompt_category": "personal_nonfiction",
+  "prompt_id": "personal_first_day_union_job",
+  "rationale": "The essay is immediately clear and well-structured, moving chronologically through the day with a clean before/after arc. The writing is mostly plain and direct, though it occasionally reaches for literary flourishes that feel slightly overwrought ('a phalanx,' 'a supplicant and a king,' 'armed only with my own exhaustion'). These moments border on the polished-to-a-sheen quality that can undermine authenticity. The dialogue from Frank and the older worker is effective and grounding, though the 'floor not the ceiling' line feels almost too perfectly quotable. Specificity is good in places (municipal water department, steel-toed boots, spiral-bound contract, the foreman/safety procedure scene) but the essay could use more granular sensory detail\u2014what did the orientation room look like, what was the yard like, what specific work was being done? The final two paragraphs become somewhat abstract and thesis-like, restating the transformation rather than showing it. The voice is warm and engaging but reads more like a well-crafted magazine piece than raw personal essay\u2014competent and moving but slightly over-composed.",
+  "run_name": "2026-03-07-openrouter-v0-1-salvage-1",
+  "scores": {
+    "brevity_economy": 4,
+    "clarity": 5,
+    "humanity_voice": 4,
+    "overall": 4,
+    "simplicity": 4,
+    "specificity_precision": 4,
+    "structure_flow": 5
+  }
+}

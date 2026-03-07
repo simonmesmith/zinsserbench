@@ -1,0 +1,37 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.1",
+  "candidate_label": "Qwen 3.5 35B A3B",
+  "candidate_model_id": "qwen/qwen3.5-35b-a3b",
+  "created_at": "2026-03-07T15:05:23Z",
+  "metadata": {
+    "id": "gen-1772895910-AYyrenM9BplO0LMPwK3I",
+    "usage": {
+      "completion_tokens": 1685,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 1180
+      },
+      "cost": 0.0022010625,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.00337,
+        "upstream_inference_cost": 0.00338625,
+        "upstream_inference_prompt_cost": 1.625e-05
+      },
+      "is_byok": false,
+      "prompt_tokens": 65,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 1750
+    }
+  },
+  "prompt_category": "explain",
+  "prompt_id": "explain_municipal_bonds",
+  "response_text": "# What Are Municipal Bonds?\n\nImagine your city wants to build a new school, fix a crumbling bridge, or upgrade the water treatment plant. These projects cost millions of dollars. The city doesn\u2019t have that much cash sitting in its bank account, and it can\u2019t just print money to pay for it.\n\nSo, the city borrows the money.\n\nA **municipal bond** (often called a \"muni\") is simply a loan you make to a local government. When you buy a municipal bond, you are lending your money to a city, county, state, or school district. In return, they promise to pay you back later, plus interest.\n\n### How It Works\n\nThink of a municipal bond like an IOU.\n\n1.  **You lend the money:** You buy a bond for a set amount, say $1,000.\n2.  **The city uses the money:** The city takes that cash to fund a public project.\n3.  **You get paid interest:** Every six months, the city sends you a payment based on a set interest rate.\n4.  **You get your money back:** After a set period (usually 10, 20, or 30 years), the city returns your original $1,000.\n\n### Why Do Cities Issue Them?\n\nCities issue bonds for two main reasons:\n\n**1. To fund big projects without raising taxes immediately.**\nIf a city needed to build a new hospital, it could raise property taxes on everyone right now to pay for it. That is often unpopular. Instead, they issue bonds. This spreads the cost over time. The people who live in the city for the next 20 years will pay for the hospital through the interest payments on the bonds, rather than everyone paying a huge lump sum today.\n\n**2. To access cheaper money.**\nSometimes, borrowing from a bank is too expensive. By selling bonds to investors, cities can often secure lower interest rates than they would get from a commercial loan. This saves taxpayers money in the long run.\n\n### Why Do Investors Buy Them?\n\nIf you are a regular person looking to invest, municipal bonds are attractive for two reasons:\n\n**1. Tax Advantages**\nThis is the biggest draw. In the United States, the interest you earn on municipal bonds is often free from federal income tax. If you live in the",
+  "run_name": "2026-03-07-openrouter-v0-1"
+}

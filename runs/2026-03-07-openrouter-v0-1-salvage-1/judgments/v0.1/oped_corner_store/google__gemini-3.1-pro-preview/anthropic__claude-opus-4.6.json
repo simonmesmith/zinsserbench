@@ -1,0 +1,47 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.1",
+  "candidate_model_id": "google/gemini-3.1-pro-preview",
+  "created_at": "2026-03-07T21:34:53Z",
+  "judge_model_id": "anthropic/claude-opus-4.6",
+  "metadata": {
+    "id": "gen-1772919287-vCdtkzNYnAwd9Ey192GT",
+    "raw_text": "{\"scores\": {\"clarity\": 5, \"simplicity\": 4, \"brevity_economy\": 4, \"structure_flow\": 5, \"specificity_precision\": 4, \"humanity_voice\": 4, \"overall\": 4}, \"rationale\": \"Well-structured opinion piece with a clear opening scenario, logical progression through convenience, community, and safety arguments, and effective handling of counterarguments. The writing is clear and readable throughout. Minor dings: some phrases lean slightly ornate ('fire up a two-ton vehicle,' 'breathe new life into our streets') and the piece occasionally trades in familiar urbanist talking points (Jane Jacobs, 'third place') rather than offering fresh specificity\u2014no real data, no named neighborhood examples, no cost figures. The voice is polished and engaging but reads a bit like a well-executed template rather than a distinctive personal perspective. Overall, it's competent and persuasive but not exceptional.\"}",
+    "usage": {
+      "completion_tokens": 212,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 0
+      },
+      "cost": 0.01081,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.0053,
+        "upstream_inference_cost": 0.01081,
+        "upstream_inference_prompt_cost": 0.00551
+      },
+      "is_byok": false,
+      "prompt_tokens": 1102,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 1314
+    }
+  },
+  "prompt_category": "persuasion_oped",
+  "prompt_id": "oped_corner_store",
+  "rationale": "Well-structured opinion piece with a clear opening scenario, logical progression through convenience, community, and safety arguments, and effective handling of counterarguments. The writing is clear and readable throughout. Minor dings: some phrases lean slightly ornate ('fire up a two-ton vehicle,' 'breathe new life into our streets') and the piece occasionally trades in familiar urbanist talking points (Jane Jacobs, 'third place') rather than offering fresh specificity\u2014no real data, no named neighborhood examples, no cost figures. The voice is polished and engaging but reads a bit like a well-executed template rather than a distinctive personal perspective. Overall, it's competent and persuasive but not exceptional.",
+  "run_name": "2026-03-07-openrouter-v0-1-salvage-1",
+  "scores": {
+    "brevity_economy": 4,
+    "clarity": 5,
+    "humanity_voice": 4,
+    "overall": 4,
+    "simplicity": 4,
+    "specificity_precision": 4,
+    "structure_flow": 5
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.1",
+  "candidate_model_id": "minimax/minimax-m2.5",
+  "created_at": "2026-03-07T21:29:56Z",
+  "judge_model_id": "anthropic/claude-opus-4.6",
+  "metadata": {
+    "id": "gen-1772918990-VSEi7fCScwgSsmLjc08s",
+    "raw_text": "{\"scores\": {\"clarity\": 4, \"simplicity\": 4, \"brevity_economy\": 4, \"structure_flow\": 5, \"specificity_precision\": 2, \"humanity_voice\": 3, \"overall\": 3}, \"rationale\": \"The memo has excellent structure with clear headers and logical flow from what happened \u2192 what's fixed \u2192 what's next. Language is plain and direct. However, the piece is essentially a template rather than a completed memo\u2014nearly every substantive detail is a bracketed placeholder ([date], [time], [specific fix implemented], etc.), which means it contains almost no concrete information. This fundamentally undermines specificity and precision. The voice is competent but reads as corporate boilerplate ('worked around the clock,' 'sincerely apologize for the inconvenience,' 'reinforced our commitment'). The response also appears cut off mid-sentence at the end ('Thank you for'), suggesting incompleteness. As a template it's well-organized; as actual writing fulfilling the prompt, it falls short because the prompt asked the writer to explain what happened, not to create a fill-in-the-blank form.\"}",
+    "usage": {
+      "completion_tokens": 255,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 0
+      },
+      "cost": 0.01046,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.006375,
+        "upstream_inference_cost": 0.01046,
+        "upstream_inference_prompt_cost": 0.004085
+      },
+      "is_byok": false,
+      "prompt_tokens": 817,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 1072
+    }
+  },
+  "prompt_category": "memo",
+  "prompt_id": "memo_incident_response",
+  "rationale": "The memo has excellent structure with clear headers and logical flow from what happened \u2192 what's fixed \u2192 what's next. Language is plain and direct. However, the piece is essentially a template rather than a completed memo\u2014nearly every substantive detail is a bracketed placeholder ([date], [time], [specific fix implemented], etc.), which means it contains almost no concrete information. This fundamentally undermines specificity and precision. The voice is competent but reads as corporate boilerplate ('worked around the clock,' 'sincerely apologize for the inconvenience,' 'reinforced our commitment'). The response also appears cut off mid-sentence at the end ('Thank you for'), suggesting incompleteness. As a template it's well-organized; as actual writing fulfilling the prompt, it falls short because the prompt asked the writer to explain what happened, not to create a fill-in-the-blank form.",
+  "run_name": "2026-03-07-openrouter-v0-1-salvage-1",
+  "scores": {
+    "brevity_economy": 4,
+    "clarity": 4,
+    "humanity_voice": 3,
+    "overall": 3,
+    "simplicity": 4,
+    "specificity_precision": 2,
+    "structure_flow": 5
+  }
+}

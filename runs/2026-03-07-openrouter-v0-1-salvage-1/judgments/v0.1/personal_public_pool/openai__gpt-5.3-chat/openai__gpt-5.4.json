@@ -1,0 +1,47 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.1",
+  "candidate_model_id": "openai/gpt-5.3-chat",
+  "created_at": "2026-03-07T21:26:20Z",
+  "judge_model_id": "openai/gpt-5.4",
+  "metadata": {
+    "id": "gen-1772918775-IAk57silqhk6WXWUM58g",
+    "raw_text": "{\"scores\":{\"clarity\":5,\"simplicity\":5,\"brevity_economy\":4,\"structure_flow\":4,\"specificity_precision\":5,\"humanity_voice\":5,\"overall\":4},\"rationale\":\"Clear, vivid, and easy to follow, with strong sensory details and a natural voice. The time-of-day structure works well and the wording stays direct. It loses points because it reads like an excerpt: the ending is abrupt, and the essay only begins to show what the pool revealed about the town rather than fully developing that insight.\"}",
+    "usage": {
+      "completion_tokens": 254,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 132
+      },
+      "cost": 0.0057225,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.00381,
+        "upstream_inference_cost": 0.0057225,
+        "upstream_inference_prompt_cost": 0.0019125
+      },
+      "is_byok": false,
+      "prompt_tokens": 765,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 1019
+    }
+  },
+  "prompt_category": "personal_nonfiction",
+  "prompt_id": "personal_public_pool",
+  "rationale": "Clear, vivid, and easy to follow, with strong sensory details and a natural voice. The time-of-day structure works well and the wording stays direct. It loses points because it reads like an excerpt: the ending is abrupt, and the essay only begins to show what the pool revealed about the town rather than fully developing that insight.",
+  "run_name": "2026-03-07-openrouter-v0-1-salvage-1",
+  "scores": {
+    "brevity_economy": 4,
+    "clarity": 5,
+    "humanity_voice": 5,
+    "overall": 4,
+    "simplicity": 5,
+    "specificity_precision": 5,
+    "structure_flow": 4
+  }
+}

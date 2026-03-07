@@ -1,0 +1,47 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.1",
+  "candidate_model_id": "moonshotai/kimi-k2.5",
+  "created_at": "2026-03-07T21:26:15Z",
+  "judge_model_id": "anthropic/claude-opus-4.6",
+  "metadata": {
+    "id": "gen-1772918766-AfbVHncAEcuv0rK8eAoI",
+    "raw_text": "{\"scores\": {\"clarity\": 5, \"simplicity\": 5, \"brevity_economy\": 4, \"structure_flow\": 5, \"specificity_precision\": 5, \"humanity_voice\": 5, \"overall\": 5}, \"rationale\": \"Exceptional personal essay with vivid, concrete details (the wobbling guardrail, the red tag, Ray's foil-wrapped sandwich, 6:47 a.m.) that ground every abstraction. The before/after structure is clean and propulsive\u2014retail and diner jobs as contrast, then the union day unfolding chronologically with each scene deepening the thesis. The voice is genuinely human and distinctive: 'the kind of mustache that suggested he'd been born with it,' 'something unclench in my chest that I hadn't known was clenched.' Language is plain and direct throughout, with metaphors that earn their place ('rules felt like architecture'). Minor ding on brevity: a few phrases tip toward the writerly-polished side ('a transaction of dignity for dollars,' the final paragraph's reflection) where the essay could trust its scenes more and editorialize less. But overall this is remarkably well-crafted nonfiction that fulfills the prompt with emotional precision and structural confidence.\"}",
+    "usage": {
+      "completion_tokens": 284,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 0
+      },
+      "cost": 0.01603,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.0071,
+        "upstream_inference_cost": 0.01603,
+        "upstream_inference_prompt_cost": 0.00893
+      },
+      "is_byok": false,
+      "prompt_tokens": 1786,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 2070
+    }
+  },
+  "prompt_category": "personal_nonfiction",
+  "prompt_id": "personal_first_day_union_job",
+  "rationale": "Exceptional personal essay with vivid, concrete details (the wobbling guardrail, the red tag, Ray's foil-wrapped sandwich, 6:47 a.m.) that ground every abstraction. The before/after structure is clean and propulsive\u2014retail and diner jobs as contrast, then the union day unfolding chronologically with each scene deepening the thesis. The voice is genuinely human and distinctive: 'the kind of mustache that suggested he'd been born with it,' 'something unclench in my chest that I hadn't known was clenched.' Language is plain and direct throughout, with metaphors that earn their place ('rules felt like architecture'). Minor ding on brevity: a few phrases tip toward the writerly-polished side ('a transaction of dignity for dollars,' the final paragraph's reflection) where the essay could trust its scenes more and editorialize less. But overall this is remarkably well-crafted nonfiction that fulfills the prompt with emotional precision and structural confidence.",
+  "run_name": "2026-03-07-openrouter-v0-1-salvage-1",
+  "scores": {
+    "brevity_economy": 4,
+    "clarity": 5,
+    "humanity_voice": 5,
+    "overall": 5,
+    "simplicity": 5,
+    "specificity_precision": 5,
+    "structure_flow": 5
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.1",
+  "candidate_model_id": "minimax/minimax-m2.5",
+  "created_at": "2026-03-07T21:22:52Z",
+  "judge_model_id": "google/gemini-3.1-pro-preview",
+  "metadata": {
+    "id": "gen-1772918566-7ToKD604t4CUv3CJ56jq",
+    "raw_text": "{\n  \"scores\": {\n    \"clarity\": 5,\n    \"simplicity\": 5,\n    \"brevity_economy\": 4,\n    \"structure_flow\": 5,\n    \"specificity_precision\": 5,\n    \"humanity_voice\": 5,\n    \"overall\": 5\n  },\n  \"rationale\": \"The piece is highly effective, clear, and persuasive. It uses concrete examples (like specific professions and the digital divide), addresses counterarguments logically, and maintains a strong, passionate human voice throughout. The structure flows smoothly from the problem to the impacted groups, and finally to a compelling conclusion.\"\n}",
+    "usage": {
+      "completion_tokens": 430,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 286
+      },
+      "cost": 0.007332,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.00516,
+        "upstream_inference_cost": 0.007332,
+        "upstream_inference_prompt_cost": 0.002172
+      },
+      "is_byok": false,
+      "prompt_tokens": 1086,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 1516
+    }
+  },
+  "prompt_category": "persuasion_oped",
+  "prompt_id": "oped_library_hours",
+  "rationale": "The piece is highly effective, clear, and persuasive. It uses concrete examples (like specific professions and the digital divide), addresses counterarguments logically, and maintains a strong, passionate human voice throughout. The structure flows smoothly from the problem to the impacted groups, and finally to a compelling conclusion.",
+  "run_name": "2026-03-07-openrouter-v0-1-salvage-1",
+  "scores": {
+    "brevity_economy": 4,
+    "clarity": 5,
+    "humanity_voice": 5,
+    "overall": 5,
+    "simplicity": 5,
+    "specificity_precision": 5,
+    "structure_flow": 5
+  }
+}

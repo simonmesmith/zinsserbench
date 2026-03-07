@@ -1,0 +1,37 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.1",
+  "candidate_label": "GPT-5.3 Chat",
+  "candidate_model_id": "openai/gpt-5.3-chat",
+  "created_at": "2026-03-07T15:15:28Z",
+  "metadata": {
+    "id": "gen-1772896522-tbkvUzaGhbRL35e5IvDL",
+    "usage": {
+      "completion_tokens": 500,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 0
+      },
+      "cost": 0.00710675,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.007,
+        "upstream_inference_cost": 0.00710675,
+        "upstream_inference_prompt_cost": 0.00010675
+      },
+      "is_byok": false,
+      "prompt_tokens": 61,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 561
+    }
+  },
+  "prompt_category": "explain",
+  "prompt_id": "explain_property_tax",
+  "response_text": "Property taxes are the main way local governments pay for things like public schools, police and fire departments, roads, parks, and libraries. If you own a home, your property tax bill usually depends on two main pieces: the value of your property and the tax rates set by local governments.\n\nFirst, the value of your property is estimated by a local assessor. This process is called an assessment. The assessor looks at things like recent sales of similar homes nearby, the size and condition of your house, improvements you\u2019ve made, and the value of the land. The goal is to estimate what your property would likely sell for on the open market. That value (or a percentage of it, depending on local rules) becomes your \u201cassessed value.\u201d\n\nSecond, local governments set tax rates to raise the money they need for their budgets. Different local entities may set their own rates\u2014your city or town, county, school district, and sometimes special districts for things like water, transit, or fire protection. These rates are often expressed as a percentage of the assessed value or as a certain number of dollars per $1,000 of value.\n\nYour property tax bill is roughly:\n\nassessed property value \u00d7 total local tax rate\n\nProperty taxes can change from year to year for several reasons:\n\n1. Changes in your property\u2019s assessed value  \nIf home prices in your area go up, your assessed value may increase. If the market drops, it might decrease. Renovations, additions, or major improvements can also raise your assessed value.\n\n2. Changes in tax rates  \nLocal governments adjust tax rates depending on their budgets. If they need more revenue for schools, infrastructure, or services, rates may increase. If spending falls or the tax base grows, rates may stay the same or decrease.\n\n3. Changes in the overall tax base  \nIf many new homes or businesses are built in an area, the tax burden is spread across more properties. That can reduce pressure on rates. If values fall or development slows, rates may rise to maintain funding.\n\n4. Voter-approved measures  \nIn some places, voters approve bonds or levies for projects like new schools or public safety facilities. These measures can temporarily increase property taxes.\n\n5. Exemptions and caps  \nSome homeowners qualify for tax breaks, such as homestead exemptions, senior exemptions, or limits on how much assessed value can rise each year. If your eligibility changes, your bill may change too.\n\nIf you think your assessment is too",
+  "run_name": "2026-03-07-openrouter-v0-1"
+}

@@ -1,0 +1,47 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.1",
+  "candidate_model_id": "moonshotai/kimi-k2.5",
+  "created_at": "2026-03-07T21:13:18Z",
+  "judge_model_id": "anthropic/claude-opus-4.6",
+  "metadata": {
+    "id": "gen-1772917983-fiCxGqq78QpMSzb8sV72",
+    "raw_text": "{\"scores\": {\"clarity\": 5, \"simplicity\": 5, \"brevity_economy\": 5, \"structure_flow\": 5, \"specificity_precision\": 5, \"humanity_voice\": 4, \"overall\": 5}, \"rationale\": \"The refrigerator-in-reverse analogy lands immediately and the move-vs-create distinction anchors the rest of the piece. Concrete numbers (95% AFUE, 3\u20134 COP, below 0\u00b0F) give the reader real information without overwhelming. Structure is textbook: how it works \u2192 contrast with furnace \u2192 benefits (bulleted) \u2192 honest caveat \u2192 closing recommendation. No throat-clearing, no filler sentences. Language is plain throughout; technical terms like 'combustion' and 'flue' are used only where needed and in context. The only minor shortcoming is voice: it reads as polished editorial rather than distinctly personal, keeping it at a 4 on humanity. Otherwise this is near-ideal homeowner-facing explainer writing.\"}",
+    "usage": {
+      "completion_tokens": 673,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 360
+      },
+      "cost": 0.021035,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.016825,
+        "upstream_inference_cost": 0.021035,
+        "upstream_inference_prompt_cost": 0.00421
+      },
+      "is_byok": false,
+      "prompt_tokens": 842,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 1515
+    }
+  },
+  "prompt_category": "explain",
+  "prompt_id": "explain_heat_pumps",
+  "rationale": "The refrigerator-in-reverse analogy lands immediately and the move-vs-create distinction anchors the rest of the piece. Concrete numbers (95% AFUE, 3\u20134 COP, below 0\u00b0F) give the reader real information without overwhelming. Structure is textbook: how it works \u2192 contrast with furnace \u2192 benefits (bulleted) \u2192 honest caveat \u2192 closing recommendation. No throat-clearing, no filler sentences. Language is plain throughout; technical terms like 'combustion' and 'flue' are used only where needed and in context. The only minor shortcoming is voice: it reads as polished editorial rather than distinctly personal, keeping it at a 4 on humanity. Otherwise this is near-ideal homeowner-facing explainer writing.",
+  "run_name": "2026-03-07-openrouter-v0-1-salvage-1",
+  "scores": {
+    "brevity_economy": 5,
+    "clarity": 5,
+    "humanity_voice": 4,
+    "overall": 5,
+    "simplicity": 5,
+    "specificity_precision": 5,
+    "structure_flow": 5
+  }
+}

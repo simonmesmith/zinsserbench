@@ -1,0 +1,47 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.1",
+  "candidate_model_id": "deepseek/deepseek-v3.2",
+  "created_at": "2026-03-07T21:22:44Z",
+  "judge_model_id": "anthropic/claude-opus-4.6",
+  "metadata": {
+    "id": "gen-1772918556-liYZjAZqRi96MBcqQ0CL",
+    "raw_text": "{\"scores\": {\"clarity\": 5, \"simplicity\": 4, \"brevity_economy\": 4, \"structure_flow\": 4, \"specificity_precision\": 3, \"humanity_voice\": 4, \"overall\": 4}, \"rationale\": \"Clear, well-organized opinion piece with a strong opening hook and logical progression from access to digital equity to cost to community. The writing is mostly plain and direct, though it occasionally leans on rhetorical inflation ('as crucial as electricity or water,' 'cornerstone of education, equity, and community'). Specificity is the weakest axis: the piece relies on hypothetical scenarios rather than real data, named cities, or actual budget figures\u2014phrases like 'profound return' and 'reduced inequality' remain vague. The voice is warm and engaged, with effective use of the opening vignettes. The piece is cut off mid-sentence at the end, which hurts structure and completeness, but what exists flows well. Brevity is good\u2014no major padding\u2014though the final incomplete paragraph suggests the writer was still expanding rather than wrapping up tightly.\"}",
+    "usage": {
+      "completion_tokens": 247,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 0
+      },
+      "cost": 0.010755,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.006175,
+        "upstream_inference_cost": 0.010755,
+        "upstream_inference_prompt_cost": 0.00458
+      },
+      "is_byok": false,
+      "prompt_tokens": 916,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 1163
+    }
+  },
+  "prompt_category": "persuasion_oped",
+  "prompt_id": "oped_library_hours",
+  "rationale": "Clear, well-organized opinion piece with a strong opening hook and logical progression from access to digital equity to cost to community. The writing is mostly plain and direct, though it occasionally leans on rhetorical inflation ('as crucial as electricity or water,' 'cornerstone of education, equity, and community'). Specificity is the weakest axis: the piece relies on hypothetical scenarios rather than real data, named cities, or actual budget figures\u2014phrases like 'profound return' and 'reduced inequality' remain vague. The voice is warm and engaged, with effective use of the opening vignettes. The piece is cut off mid-sentence at the end, which hurts structure and completeness, but what exists flows well. Brevity is good\u2014no major padding\u2014though the final incomplete paragraph suggests the writer was still expanding rather than wrapping up tightly.",
+  "run_name": "2026-03-07-openrouter-v0-1-salvage-1",
+  "scores": {
+    "brevity_economy": 4,
+    "clarity": 5,
+    "humanity_voice": 4,
+    "overall": 4,
+    "simplicity": 4,
+    "specificity_precision": 3,
+    "structure_flow": 4
+  }
+}

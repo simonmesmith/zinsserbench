@@ -1,0 +1,37 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.1",
+  "candidate_label": "Qwen 3.5 35B A3B",
+  "candidate_model_id": "qwen/qwen3.5-35b-a3b",
+  "created_at": "2026-03-07T16:11:11Z",
+  "metadata": {
+    "id": "gen-1772899854-2ke7NwpTmKZ38tzSNNuN",
+    "usage": {
+      "completion_tokens": 2211,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 1707
+      },
+      "cost": 0.0028848625,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.004422,
+        "upstream_inference_cost": 0.00443825,
+        "upstream_inference_prompt_cost": 1.625e-05
+      },
+      "is_byok": false,
+      "prompt_tokens": 65,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 2276
+    }
+  },
+  "prompt_category": "profile",
+  "prompt_id": "profile_ferry_captain",
+  "response_text": "**The Steady Hand of the Channel**\n\n**Byline:** *Feature Profile*\n\nAt 5:45 AM, the diesel engine of the *MV Kestrel* coughs to life, a sound that has been the morning alarm for the residents of Port Haven and Blackwood Bay for thirty years. The vibration travels through the deck plates, up through the soles of Captain Elias Vance\u2019s boots, and into his bones. He is sixty-two years old, his skin the color of cured leather, and he has spent the last three decades piloting this twenty-ton vessel across the three-mile stretch of water that separates two small coastal towns.\n\nVance does not look at the GPS. He knows the depth of the channel by the way the water shifts color against the hull. He knows the tide by the smell of the salt and the angle of the sun. When he steps onto the bridge, the routine is automatic: check the fuel, test the radio, secure the ramp. It is a ritual performed with the precision of a surgeon, yet the atmosphere is one of quiet familiarity.\n\n\"The water doesn't change much,\" Vance says, leaning against the console. \"But the people do.\"\n\nThe route is short, a twenty-minute crossing that serves as a vital artery for the region. For the locals, the ferry is not a mode of transport; it is a social institution. It is where the fisherman from Port Haven meets the teacher from Blackwood Bay. It is where the commuter checks their phone for the last time before the signal dies, and where the tourist buys a ticket to see the coastline.\n\nVance started in 1994, fresh out of the Coast Guard, eager to prove himself on the open ocean. He quickly learned that the open ocean was a myth for this route. The channel is narrow, treacherous in the winter, and crowded with fishing trawlers. The real challenge wasn't the sea; it was the schedule.\n\n\"I remember the first winter,\" Vance recalls, his voice low. \"A nor'easter hit us hard. The ramp wouldn't lock. I had to stand in the water, holding the chain, while the boat bobbed. If I let go, the *Kestrel* would drift into the pilings. I was twenty-two. I was scared. Now, I just check the chain.\"\n\nOver three decades, the passengers have changed, though the boat",
+  "run_name": "2026-03-07-openrouter-v0-1"
+}

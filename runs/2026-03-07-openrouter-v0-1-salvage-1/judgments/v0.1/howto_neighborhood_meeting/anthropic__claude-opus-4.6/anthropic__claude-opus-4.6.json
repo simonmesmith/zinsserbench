@@ -1,0 +1,47 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.1",
+  "candidate_model_id": "anthropic/claude-opus-4.6",
+  "created_at": "2026-03-07T21:19:29Z",
+  "judge_model_id": "anthropic/claude-opus-4.6",
+  "metadata": {
+    "id": "gen-1772918361-ojjXcx4vP2FrJGGcQo01",
+    "raw_text": "{\"scores\": {\"clarity\": 5, \"simplicity\": 5, \"brevity_economy\": 4, \"structure_flow\": 4, \"specificity_precision\": 5, \"humanity_voice\": 5, \"overall\": 4}, \"rationale\": \"The writing is exceptionally clear, concrete, and human. The opening vignettes immediately ground the reader in lived experience, and the guide moves logically from defining the problem to gathering allies with specific, actionable substeps (count cars, note times, take photos). Language is plain and direct throughout \u2014 no jargon or inflation. Voice is warm and encouraging without being patronizing. Specificity is a standout strength: bullet lists with real examples (morning rush hour, elderly neighbor, school bus) rather than generalities. Brevity is strong but not perfect \u2014 the framing paragraphs in Step 1 could be slightly tighter. The major weakness is that the piece is incomplete, cutting off mid-sentence in Step 2, which prevents it from fulfilling the prompt's request for a full practical guide. Structure and flow earn a 4 rather than 5 for the same reason: what exists is well-organized, but the reader is left without the bulk of the guide. Overall docked to 4 because incompleteness significantly undermines practical usefulness.\"}",
+    "usage": {
+      "completion_tokens": 336,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 30
+      },
+      "cost": 0.012695,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.0084,
+        "upstream_inference_cost": 0.012695,
+        "upstream_inference_prompt_cost": 0.004295
+      },
+      "is_byok": false,
+      "prompt_tokens": 859,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 1195
+    }
+  },
+  "prompt_category": "service_howto",
+  "prompt_id": "howto_neighborhood_meeting",
+  "rationale": "The writing is exceptionally clear, concrete, and human. The opening vignettes immediately ground the reader in lived experience, and the guide moves logically from defining the problem to gathering allies with specific, actionable substeps (count cars, note times, take photos). Language is plain and direct throughout \u2014 no jargon or inflation. Voice is warm and encouraging without being patronizing. Specificity is a standout strength: bullet lists with real examples (morning rush hour, elderly neighbor, school bus) rather than generalities. Brevity is strong but not perfect \u2014 the framing paragraphs in Step 1 could be slightly tighter. The major weakness is that the piece is incomplete, cutting off mid-sentence in Step 2, which prevents it from fulfilling the prompt's request for a full practical guide. Structure and flow earn a 4 rather than 5 for the same reason: what exists is well-organized, but the reader is left without the bulk of the guide. Overall docked to 4 because incompleteness significantly undermines practical usefulness.",
+  "run_name": "2026-03-07-openrouter-v0-1-salvage-1",
+  "scores": {
+    "brevity_economy": 4,
+    "clarity": 5,
+    "humanity_voice": 5,
+    "overall": 4,
+    "simplicity": 5,
+    "specificity_precision": 5,
+    "structure_flow": 4
+  }
+}

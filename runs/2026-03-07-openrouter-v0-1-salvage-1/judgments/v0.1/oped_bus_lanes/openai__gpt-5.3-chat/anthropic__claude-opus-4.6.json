@@ -1,0 +1,47 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.1",
+  "candidate_model_id": "openai/gpt-5.3-chat",
+  "created_at": "2026-03-07T21:23:25Z",
+  "judge_model_id": "anthropic/claude-opus-4.6",
+  "metadata": {
+    "id": "gen-1772918598-3jZ0XvaJiIeOtMWbqLRL",
+    "raw_text": "{\"scores\": {\"clarity\": 5, \"simplicity\": 5, \"brevity_economy\": 4, \"structure_flow\": 4, \"specificity_precision\": 3, \"humanity_voice\": 4, \"overall\": 4}, \"rationale\": \"Clear, direct prose that reads easily on first pass. Language is plain and unpretentious throughout. Structure follows a logical progression\u2014problem, solution, counterargument, benefits, equity\u2014though the equity paragraph retreads ground slightly. The piece is cut off mid-sentence at the end, which hurts structure and completeness. Specificity is the weakest axis: the 40-to-60 passenger figure is good, but the piece relies mostly on general claims ('cities that have implemented bus lanes' with only two named, no travel-time data, no ridership numbers). Voice is engaged and reader-aware without being preachy, though it stays in a fairly standard op-ed register without a distinctive personal stamp. Overall a competent, well-organized opinion piece weakened by truncation and a lack of concrete evidence.\"}",
+    "usage": {
+      "completion_tokens": 239,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 0
+      },
+      "cost": 0.01058,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.005975,
+        "upstream_inference_cost": 0.01058,
+        "upstream_inference_prompt_cost": 0.004605
+      },
+      "is_byok": false,
+      "prompt_tokens": 921,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 1160
+    }
+  },
+  "prompt_category": "persuasion_oped",
+  "prompt_id": "oped_bus_lanes",
+  "rationale": "Clear, direct prose that reads easily on first pass. Language is plain and unpretentious throughout. Structure follows a logical progression\u2014problem, solution, counterargument, benefits, equity\u2014though the equity paragraph retreads ground slightly. The piece is cut off mid-sentence at the end, which hurts structure and completeness. Specificity is the weakest axis: the 40-to-60 passenger figure is good, but the piece relies mostly on general claims ('cities that have implemented bus lanes' with only two named, no travel-time data, no ridership numbers). Voice is engaged and reader-aware without being preachy, though it stays in a fairly standard op-ed register without a distinctive personal stamp. Overall a competent, well-organized opinion piece weakened by truncation and a lack of concrete evidence.",
+  "run_name": "2026-03-07-openrouter-v0-1-salvage-1",
+  "scores": {
+    "brevity_economy": 4,
+    "clarity": 5,
+    "humanity_voice": 4,
+    "overall": 4,
+    "simplicity": 5,
+    "specificity_precision": 3,
+    "structure_flow": 4
+  }
+}

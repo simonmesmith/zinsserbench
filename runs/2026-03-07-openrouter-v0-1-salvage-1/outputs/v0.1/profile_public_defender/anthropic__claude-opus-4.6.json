@@ -1,0 +1,37 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.1",
+  "candidate_label": "Claude Opus 4.6",
+  "candidate_model_id": "anthropic/claude-opus-4.6",
+  "created_at": "2026-03-07T15:13:13Z",
+  "metadata": {
+    "id": "gen-1772896379-VTflf82JZww0TFVHebFW",
+    "usage": {
+      "completion_tokens": 500,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 102
+      },
+      "cost": 0.01287,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.0125,
+        "upstream_inference_cost": 0.01287,
+        "upstream_inference_prompt_cost": 0.00037
+      },
+      "is_byok": false,
+      "prompt_tokens": 74,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 574
+    }
+  },
+  "prompt_category": "profile",
+  "prompt_id": "profile_public_defender",
+  "response_text": "# The Weight of the File\n\n## A Profile of Public Defender Maria Rojas\n\n---\n\nBy 7:45 on a Monday morning, Maria Rojas has already been working for an hour. She sits in a windowless office on the third floor of the Mecklenburg County courthouse annex in Charlotte, North Carolina, a cup of gas-station coffee going cold at her elbow, toggling between two monitors. On the left screen, a jail roster. On the right, a PDF of a police report she has read once, quickly, and is now reading again, slowly, with a yellow legal pad open beside her keyboard. In thirty-five minutes, she will stand in a courtroom and argue for the pretrial release of a man she has never met. She underlines a sentence in the report and writes a note to herself: *Ask about the landlord.*\n\nHer desk is a topography of crisis. Manila folders are arranged in unsteady columns, each one a person facing the loss of their freedom. A sticky note on her computer monitor reads, in her own handwriting, **\"241.\"** That is the number of open cases currently assigned to her. National standards published by the American Bar Association suggest that a public defender handling a mixed caseload should carry no more than about 150 cases per year, a ceiling based on the assumption that each client deserves adequate time and attention. Rojas passed 150 in late April. It is now October.\n\n\"I don't dwell on the number,\" she says, not quite convincingly. \"If I think about it as a number, I'll drown. I think about whoever's in front of me. Then the next person. Then the next.\"\n\n---\n\n**Maria Elena Rojas** is thirty-six years old. She has been a public defender for nine years, the last five in Charlotte,",
+  "run_name": "2026-03-07-openrouter-v0-1"
+}

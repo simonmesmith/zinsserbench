@@ -1,0 +1,47 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.1",
+  "candidate_model_id": "moonshotai/kimi-k2.5",
+  "created_at": "2026-03-07T21:35:47Z",
+  "judge_model_id": "anthropic/claude-opus-4.6",
+  "metadata": {
+    "id": "gen-1772919341-UPwWVwMeZDIhk1sLpnWG",
+    "raw_text": "{\"scores\": {\"clarity\": 5, \"simplicity\": 5, \"brevity_economy\": 5, \"structure_flow\": 5, \"specificity_precision\": 4, \"humanity_voice\": 5, \"overall\": 5}, \"rationale\": \"Exceptionally well-crafted opinion piece. The opening anecdote immediately grounds the argument in lived experience. Each paragraph advances a distinct claim\u2014walkability, economics, community, counterarguments, modern implementation, vision\u2014with smooth transitions. The language is vivid and direct without being overwrought ('engineered convenience out of existence' is sharp). Voice is warm, confident, and persuasive throughout. The only slight weakness is specificity: claims about property values and evidence from 'cities that have loosened restrictions' lack named examples, studies, or numbers, which would strengthen the argument. The closing paragraph lands with rhetorical force. Overall, this reads like polished, publishable op-ed writing.\"}",
+    "usage": {
+      "completion_tokens": 214,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 0
+      },
+      "cost": 0.010835,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.00535,
+        "upstream_inference_cost": 0.010835,
+        "upstream_inference_prompt_cost": 0.005485
+      },
+      "is_byok": false,
+      "prompt_tokens": 1097,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 1311
+    }
+  },
+  "prompt_category": "persuasion_oped",
+  "prompt_id": "oped_corner_store",
+  "rationale": "Exceptionally well-crafted opinion piece. The opening anecdote immediately grounds the argument in lived experience. Each paragraph advances a distinct claim\u2014walkability, economics, community, counterarguments, modern implementation, vision\u2014with smooth transitions. The language is vivid and direct without being overwrought ('engineered convenience out of existence' is sharp). Voice is warm, confident, and persuasive throughout. The only slight weakness is specificity: claims about property values and evidence from 'cities that have loosened restrictions' lack named examples, studies, or numbers, which would strengthen the argument. The closing paragraph lands with rhetorical force. Overall, this reads like polished, publishable op-ed writing.",
+  "run_name": "2026-03-07-openrouter-v0-1-salvage-1",
+  "scores": {
+    "brevity_economy": 5,
+    "clarity": 5,
+    "humanity_voice": 5,
+    "overall": 5,
+    "simplicity": 5,
+    "specificity_precision": 4,
+    "structure_flow": 5
+  }
+}

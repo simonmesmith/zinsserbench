@@ -1,0 +1,37 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.1",
+  "candidate_label": "GPT-5.3 Chat",
+  "candidate_model_id": "openai/gpt-5.3-chat",
+  "created_at": "2026-03-07T15:12:59Z",
+  "metadata": {
+    "id": "gen-1772896372-uX45xG9Ofz4zJpGZowWx",
+    "usage": {
+      "completion_tokens": 500,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 0
+      },
+      "cost": 0.00709625,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.007,
+        "upstream_inference_cost": 0.00709625,
+        "upstream_inference_prompt_cost": 9.625e-05
+      },
+      "is_byok": false,
+      "prompt_tokens": 55,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 555
+    }
+  },
+  "prompt_category": "profile",
+  "prompt_id": "profile_public_defender",
+  "response_text": ":::writing\nBy 8:15 on a gray Tuesday morning, Elena Ramirez has already checked the jail roster twice. The list refreshes overnight\u2014new arrests, new charges, new names she has to learn quickly. There are 147 open cases on her docket this month. If the number sounds abstract, Ramirez translates it another way: 147 lives paused in the machinery of the criminal courts.\n\nRamirez is a public defender in a midsize Midwestern city where the courthouse rises in pale concrete above a bus depot and a row of bail bond offices. She is thirty-six, quick-moving, and known among courthouse regulars for carrying a canvas tote that looks permanently overstuffed with case files. On most mornings she walks through the metal detector balancing coffee, her laptop, and a stack of folders clipped together with neon tabs.\n\n\u201cPeople picture dramatic courtroom speeches,\u201d she says. \u201cMostly it\u2019s triage.\u201d\n\nThe cases come fast and rarely alone. A typical arraignment docket might run fifty defendants deep. Ramirez stands beside each client for a few minutes\u2014sometimes seconds\u2014while the judge reads the charges. Afterward she moves to a hallway bench or a corner of the courtroom to explain what just happened. A missed court date. A suspended license. A bar fight that got out of hand. Occasionally something heavier: burglary, assault, a gun charge.\n\nShe keeps a yellow legal pad where she writes fragments to remember later\u2014\u201ccall mom,\u201d \u201cvideo request,\u201d \u201cmental health eval?\u201d\u2014because the details blur if she doesn\u2019t pin them down immediately.\n\nPublic defense, Ramirez says, is about building trust under rushed conditions. Many of her clients meet her for the first time while wearing jail-issued clothing. Some assume she works for the prosecutor or the police. Others are simply exhausted.\n\n\u201cThe first job is convincing someone you\u2019re actually on their side,\u201d she says. \u201cAnd that you\u2019ll tell them the truth.\u201d\n\nThat truth is often about limits. Ramirez cannot promise a case will disappear or that a jury will see things her way. What she can promise is that someone will push back against the state\u2019s version of events.\n\nIn her office\u2014a narrow room with a window overlooking a parking garage\u2014case files climb the walls in uneven stacks. A whiteboard lists upcoming trial dates and the initials of investigators she needs to call. The city funds the office, but like most public defender offices, it runs lean. Ramirez shares an investigator with four other attorneys. Expert witnesses require",
+  "run_name": "2026-03-07-openrouter-v0-1"
+}

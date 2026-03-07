@@ -1,0 +1,43 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.1",
+  "candidate_label": "Gemini 3.1 Pro Preview",
+  "candidate_model_id": "google/gemini-3.1-pro-preview",
+  "created_at": "2026-03-07T21:05:01Z",
+  "metadata": {
+    "id": "gen-1772917475-zRfQkt2wjzU7b5oY3Jmv",
+    "quality_guard": {
+      "minimum_words": 200,
+      "reason": "",
+      "status": "ok",
+      "word_count": 698
+    },
+    "usage": {
+      "completion_tokens": 1643,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 777
+      },
+      "cost": 0.01981,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.019716,
+        "upstream_inference_cost": 0.01981,
+        "upstream_inference_prompt_cost": 9.4e-05
+      },
+      "is_byok": false,
+      "prompt_tokens": 47,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 1690
+    }
+  },
+  "prompt_category": "personal_nonfiction",
+  "prompt_id": "personal_public_pool",
+  "response_text": "You could smell the municipal pool before you saw it\u2014a sharp, chemical breeze of chlorine and damp concrete that cut through the humid August air. It sat at the bottom of a sloping hill in the center of our town, surrounded by a rusted chain-link fence woven with strips of faded green plastic. For three months of the year, that rectangular basin of aggressively blue water was the undisputed center of our universe. \n\nGrowing up, I believed the pool was the great equalizer. Stripped of our back-to-school clothes, our parents\u2019 cars, and the square footage of our houses, we were all reduced to shivering, wet creatures in Lycra and nylon. When the lifeguard blew the whistle for adult swim, we all sat on the same scorching concrete edge, dangling our pruned feet in the water, united in our impatient misery. \n\nBut as I got older, the glare of the summer sun began to illuminate the invisible lines drawn across the water. The pool wasn't an equalizer at all; it was a topographical map of our town\u2019s quiet fractures.\n\nYou could read the socioeconomic strata of our community by looking at the daily schedule. At 7:00 AM, the water belonged to the swim team. These were the children of the town\u2019s doctors, lawyers, and business owners. They arrived in SUVs, wearing matching parkas, their strokes refined by private winter clinics. By 10:00 AM, they were gone, leaving behind a faint scent of expensive sunscreen.\n\nAt noon, the gates opened for public swim, and the demographic shifted. The water filled with latchkey kids whose parents were working double shifts at the nearby distribution centers. For a few crumpled dollar bills, the pool served as a municipal babysitter. We stayed until our eyes burned red and our shoulders peeled. \n\nThe snack bar was its own micro-economy. The currency of status wasn't just who had money, but how it was spent. The kids who bought frozen Milky Ways and personal baskets of crinkle-cut fries every afternoon sat at the shaded picnic tables. The rest of us, clutching damp, rolled-up dollar bills in our fists, calculated exactly how many sour straws we could buy, washing them down with metallic-tasting water from the drinking fountain near the restrooms. \n\nEven the geography of the pool deck told a story. The shallow end was a chaotic soup of exhausted mothers and screaming toddlers, a testament to the town\u2019s lack of affordable childcare. The deep end was the domain of the teenagers, where social currency was minted on the high dive. But the most telling area was the grassy hill just outside the chain-link fence. \n\nOn the hottest days, you would see families sitting on blankets on that hill, catching the mist that drifted over the fence. They were the newer arrivals to our town\u2014immigrant families who either couldn't afford the seasonal passes or who had sensed the unspoken, icy stares that sometimes greeted them at the admission gate. The town prided itself on being a \"melting pot,\" a phrase the mayor loved to use during the Fourth of July parade. But the pool revealed the truth: we were sharing the same summer, but we were not sharing the same water. \n\nI spent my adolescence floating in the middle of it all, treading water in the four-foot section. I was observant enough to see the divides, but young enough to be complicit in them, too worried about my own teenage insecurities to challenge the natural order of the deck. \n\nEvery year, on Labor Day, the pool closed. The teenage lifeguards locked the turnstiles, the snack bar shutters were pulled down, and the pumps were turned off. A few days later, the city maintenance crew would drain the water. \n\nWalking by the park in late September, I would look through the green plastic strips in the fence at the empty basin. Without the shimmering, reflective surface of the water, the pool was just a massive, sloping pit of gray concrete, stained with algae and cracked at the seams. It looked exactly like what our town was beneath its polite, suburban veneer: hard, fractured, and deeply divided, just waiting for the next summer to cover it all up again.",
+  "run_name": "2026-03-07-openrouter-v0-1-salvage-1"
+}

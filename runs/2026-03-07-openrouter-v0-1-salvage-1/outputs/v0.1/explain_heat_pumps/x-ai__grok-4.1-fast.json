@@ -1,0 +1,37 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.1",
+  "candidate_label": "Grok 4.1 Fast",
+  "candidate_model_id": "x-ai/grok-4.1-fast",
+  "created_at": "2026-03-07T15:04:02Z",
+  "metadata": {
+    "id": "gen-1772895831-0L4XSLZKuO9bDX6vZQcE",
+    "usage": {
+      "completion_tokens": 789,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 297
+      },
+      "cost": 0.00041335,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.0003945,
+        "upstream_inference_cost": 0.00041335,
+        "upstream_inference_prompt_cost": 1.885e-05
+      },
+      "is_byok": false,
+      "prompt_tokens": 206,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 149,
+        "video_tokens": 0
+      },
+      "total_tokens": 995
+    }
+  },
+  "prompt_category": "explain",
+  "prompt_id": "explain_heat_pumps",
+  "response_text": "# Heat Pumps 101: A Homeowner's Guide\n\nIf you're tired of high heating bills or want a greener way to stay comfortable year-round, heat pumps might be your upgrade. Unlike traditional gas furnaces that burn fuel to create heat, heat pumps are super-efficient systems that **move heat** from one place to another\u2014using electricity like a reversible air conditioner.\n\n## How Do Heat Pumps Work?\nHeat pumps rely on a clever refrigeration cycle with four main parts: a compressor, condenser, expansion valve, and evaporator coil. Here's the simple breakdown:\n\n- **Heating mode**: Even on chilly days, outdoor air contains usable heat energy. The heat pump's outdoor unit pulls in this heat, compresses the refrigerant gas to concentrate it, and pumps the hot gas indoors. There, it releases the heat through indoor coils, warming your home. Leftover cool gas cycles back outside.\n  \n- **Cooling mode**: It flips the process\u2014extracting indoor heat and dumping it outside, just like central AC.\n\nModern \"cold-climate\" heat pumps work efficiently down to -15\u00b0F or lower, often outperforming gas furnaces in mild winters.\n\n## Why Choose a Heat Pump Over a Gas Furnace?\nGas furnaces are reliable but have drawbacks. Heat pumps shine in these ways:\n\n- **Big Energy Savings**: They deliver 2\u20134 units of heat per unit of electricity (vs. gas furnaces at ~0.8\u20130.98 efficiency). Expect 30\u201350% lower bills, especially if electricity is cheaper than gas in your area.\n  \n- **Eco-Friendly**: No combustion means zero direct emissions at home. Pair with solar or renewables for near-zero carbon heating/cooling.\n  \n- **All-in-One System**: Handles heating, cooling, *and* dehumidifying\u2014no separate AC needed.\n  \n- **Safety & Low Maintenance**: No gas lines, flames, or carbon monoxide risks. Filters are easy to swap, and they last 15\u201320 years.\n  \n- **Incentives Galore**: U.S. homeowners can snag up to $2,000 federal tax credits (via Inflation Reduction Act), plus rebates up to $8,000 in some states\u2014often paying for half the install.\n\n**Bottom line**: If you live in a moderate climate or qualify for rebates, a heat pump could cut costs, shrink your carbon footprint, and simplify your HVAC. Get quotes from local pros to see if it's right for your home!",
+  "run_name": "2026-03-07-openrouter-v0-1"
+}

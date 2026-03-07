@@ -1,0 +1,47 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.1",
+  "candidate_model_id": "minimax/minimax-m2.5",
+  "created_at": "2026-03-07T21:20:09Z",
+  "judge_model_id": "anthropic/claude-opus-4.6",
+  "metadata": {
+    "id": "gen-1772918400-fcGJIJysUljGgheAWpjD",
+    "raw_text": "{\"scores\": {\"clarity\": 5, \"simplicity\": 5, \"brevity_economy\": 4, \"structure_flow\": 5, \"specificity_precision\": 5, \"humanity_voice\": 4, \"overall\": 5}, \"rationale\": \"The guide is exceptionally clear and well-organized, using numbered steps, bold sub-points, and clean formatting that make it immediately scannable. Language is plain and direct throughout\u2014no jargon or inflated phrasing. Specificity is a standout strength: concrete suggestions like borrowing a radar gun, noting dates/times of incidents, scheduling for 6:30\u20138:00 PM weekday evenings, and writing a one-paragraph purpose statement give genuine practical value. The line 'This preparation transforms the meeting from venting into productive problem-solving' adds a human, motivating touch. Structure flows logically from defining purpose \u2192 building a team \u2192 gathering info \u2192 logistics. The piece is cut off mid-section, which prevents a full assessment, but what exists is high-quality practical nonfiction. Brevity docked slightly only because a few bullet explanations could be tighter, but overall economy is strong.\"}",
+    "usage": {
+      "completion_tokens": 295,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 16
+      },
+      "cost": 0.01166,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.007375,
+        "upstream_inference_cost": 0.01166,
+        "upstream_inference_prompt_cost": 0.004285
+      },
+      "is_byok": false,
+      "prompt_tokens": 857,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 1152
+    }
+  },
+  "prompt_category": "service_howto",
+  "prompt_id": "howto_neighborhood_meeting",
+  "rationale": "The guide is exceptionally clear and well-organized, using numbered steps, bold sub-points, and clean formatting that make it immediately scannable. Language is plain and direct throughout\u2014no jargon or inflated phrasing. Specificity is a standout strength: concrete suggestions like borrowing a radar gun, noting dates/times of incidents, scheduling for 6:30\u20138:00 PM weekday evenings, and writing a one-paragraph purpose statement give genuine practical value. The line 'This preparation transforms the meeting from venting into productive problem-solving' adds a human, motivating touch. Structure flows logically from defining purpose \u2192 building a team \u2192 gathering info \u2192 logistics. The piece is cut off mid-section, which prevents a full assessment, but what exists is high-quality practical nonfiction. Brevity docked slightly only because a few bullet explanations could be tighter, but overall economy is strong.",
+  "run_name": "2026-03-07-openrouter-v0-1-salvage-1",
+  "scores": {
+    "brevity_economy": 4,
+    "clarity": 5,
+    "humanity_voice": 4,
+    "overall": 5,
+    "simplicity": 5,
+    "specificity_precision": 5,
+    "structure_flow": 5
+  }
+}

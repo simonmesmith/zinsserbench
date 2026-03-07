@@ -1,0 +1,47 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.1",
+  "candidate_model_id": "anthropic/claude-sonnet-4.6",
+  "created_at": "2026-03-07T21:34:46Z",
+  "judge_model_id": "anthropic/claude-opus-4.6",
+  "metadata": {
+    "id": "gen-1772919278-ArdlmF2JDLZnzPwaM3mN",
+    "raw_text": "{\"scores\": {\"clarity\": 5, \"simplicity\": 5, \"brevity_economy\": 4, \"structure_flow\": 4, \"specificity_precision\": 4, \"humanity_voice\": 5, \"overall\": 4}, \"rationale\": \"The writing is exceptionally clear and direct, with vivid, human-sounding prose (the opening image of glowing windows and a shopkeeper who knows your name). Language is plain but muscular \u2014 no jargon or filler. Structure is logical: nostalgic hook \u2192 historical context \u2192 practical case \u2192 economic case, with bold headers guiding the reader. Specificity is good though not outstanding: 'food deserts' and concrete examples (elderly, carless residents) ground the argument, but some claims ('millions of Americans,' 'money circulates locally') remain general assertions without cited data. The piece is cut off mid-sentence, which hurts structure and completeness significantly \u2014 the economic argument is left dangling. Brevity is strong; there's minimal throat-clearing, though the opening paragraph slightly indulges in scene-setting. Overall a polished, persuasive piece undercut by its incompleteness.\"}",
+    "usage": {
+      "completion_tokens": 299,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 24
+      },
+      "cost": 0.01172,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.007475,
+        "upstream_inference_cost": 0.01172,
+        "upstream_inference_prompt_cost": 0.004245
+      },
+      "is_byok": false,
+      "prompt_tokens": 849,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 1148
+    }
+  },
+  "prompt_category": "persuasion_oped",
+  "prompt_id": "oped_corner_store",
+  "rationale": "The writing is exceptionally clear and direct, with vivid, human-sounding prose (the opening image of glowing windows and a shopkeeper who knows your name). Language is plain but muscular \u2014 no jargon or filler. Structure is logical: nostalgic hook \u2192 historical context \u2192 practical case \u2192 economic case, with bold headers guiding the reader. Specificity is good though not outstanding: 'food deserts' and concrete examples (elderly, carless residents) ground the argument, but some claims ('millions of Americans,' 'money circulates locally') remain general assertions without cited data. The piece is cut off mid-sentence, which hurts structure and completeness significantly \u2014 the economic argument is left dangling. Brevity is strong; there's minimal throat-clearing, though the opening paragraph slightly indulges in scene-setting. Overall a polished, persuasive piece undercut by its incompleteness.",
+  "run_name": "2026-03-07-openrouter-v0-1-salvage-1",
+  "scores": {
+    "brevity_economy": 4,
+    "clarity": 5,
+    "humanity_voice": 5,
+    "overall": 4,
+    "simplicity": 5,
+    "specificity_precision": 4,
+    "structure_flow": 4
+  }
+}

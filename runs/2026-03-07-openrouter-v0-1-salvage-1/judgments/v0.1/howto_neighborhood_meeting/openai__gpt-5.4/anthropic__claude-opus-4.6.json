@@ -1,0 +1,47 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.1",
+  "candidate_model_id": "openai/gpt-5.4",
+  "created_at": "2026-03-07T21:19:14Z",
+  "judge_model_id": "anthropic/claude-opus-4.6",
+  "metadata": {
+    "id": "gen-1772918348-pXat024UdaxrDVn62bxJ",
+    "raw_text": "{\"scores\": {\"clarity\": 5, \"simplicity\": 5, \"brevity_economy\": 4, \"structure_flow\": 5, \"specificity_precision\": 4, \"humanity_voice\": 4, \"overall\": 5}, \"rationale\": \"Exceptionally clear and well-organized guide. The writing is plain and direct throughout\u2014no jargon, no inflated language. The hierarchical structure with numbered steps, subheadings, and bullet lists makes it easy to scan and follow. Specific examples (Oak Street, school crossing, morning commute times) ground the advice concretely rather than leaving it abstract. The opening lines ('If cars speed through your street...') immediately establish relevance and a human, conversational tone. Minor deductions: the piece is slightly generous with bullet lists where a sentence or two might suffice (brevity), and the response appears truncated mid-sentence, which prevents full evaluation. The voice is warm and practical but occasionally reads like a well-made template rather than a deeply personal piece. Overall, this is high-quality practical nonfiction writing well suited to its audience.\"}",
+    "usage": {
+      "completion_tokens": 247,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 0
+      },
+      "cost": 0.010335,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.006175,
+        "upstream_inference_cost": 0.010335,
+        "upstream_inference_prompt_cost": 0.00416
+      },
+      "is_byok": false,
+      "prompt_tokens": 832,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 1079
+    }
+  },
+  "prompt_category": "service_howto",
+  "prompt_id": "howto_neighborhood_meeting",
+  "rationale": "Exceptionally clear and well-organized guide. The writing is plain and direct throughout\u2014no jargon, no inflated language. The hierarchical structure with numbered steps, subheadings, and bullet lists makes it easy to scan and follow. Specific examples (Oak Street, school crossing, morning commute times) ground the advice concretely rather than leaving it abstract. The opening lines ('If cars speed through your street...') immediately establish relevance and a human, conversational tone. Minor deductions: the piece is slightly generous with bullet lists where a sentence or two might suffice (brevity), and the response appears truncated mid-sentence, which prevents full evaluation. The voice is warm and practical but occasionally reads like a well-made template rather than a deeply personal piece. Overall, this is high-quality practical nonfiction writing well suited to its audience.",
+  "run_name": "2026-03-07-openrouter-v0-1-salvage-1",
+  "scores": {
+    "brevity_economy": 4,
+    "clarity": 5,
+    "humanity_voice": 4,
+    "overall": 5,
+    "simplicity": 5,
+    "specificity_precision": 4,
+    "structure_flow": 5
+  }
+}

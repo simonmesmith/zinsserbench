@@ -1,0 +1,47 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.1",
+  "candidate_model_id": "moonshotai/kimi-k2.5",
+  "created_at": "2026-03-07T21:37:18Z",
+  "judge_model_id": "openai/gpt-5.4",
+  "metadata": {
+    "id": "gen-1772919434-NU8LAO6IRwUlKWmWCHL0",
+    "raw_text": "{\"scores\":{\"clarity\":5,\"simplicity\":3,\"brevity_economy\":4,\"structure_flow\":5,\"specificity_precision\":5,\"humanity_voice\":5,\"overall\":5},\"rationale\":\"Clear, vivid, and well-shaped personal essay with strong scene details and a consistent reflective arc from routine to farewell. Specific images\u2014the duct-taped seat, Marcus\u2019s daughter\u2019s drawings, the taxonomy of riders\u2014make the piece memorable and precise. The voice feels human and observant. Simplicity scores lower because the prose is deliberately lyrical and occasionally ornate rather than plain; brevity is strong but a few descriptive passages linger for effect.\"}",
+    "usage": {
+      "completion_tokens": 209,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 66
+      },
+      "cost": 0.003977,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.003135,
+        "upstream_inference_cost": 0.003977,
+        "upstream_inference_prompt_cost": 0.000842
+      },
+      "is_byok": false,
+      "prompt_tokens": 1604,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 1408,
+        "video_tokens": 0
+      },
+      "total_tokens": 1813
+    }
+  },
+  "prompt_category": "personal_nonfiction",
+  "prompt_id": "personal_night_shift_bus",
+  "rationale": "Clear, vivid, and well-shaped personal essay with strong scene details and a consistent reflective arc from routine to farewell. Specific images\u2014the duct-taped seat, Marcus\u2019s daughter\u2019s drawings, the taxonomy of riders\u2014make the piece memorable and precise. The voice feels human and observant. Simplicity scores lower because the prose is deliberately lyrical and occasionally ornate rather than plain; brevity is strong but a few descriptive passages linger for effect.",
+  "run_name": "2026-03-07-openrouter-v0-1-salvage-1",
+  "scores": {
+    "brevity_economy": 4,
+    "clarity": 5,
+    "humanity_voice": 5,
+    "overall": 5,
+    "simplicity": 3,
+    "specificity_precision": 5,
+    "structure_flow": 5
+  }
+}

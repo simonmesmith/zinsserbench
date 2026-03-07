@@ -1,0 +1,47 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.1",
+  "candidate_model_id": "deepseek/deepseek-v3.2",
+  "created_at": "2026-03-07T21:16:44Z",
+  "judge_model_id": "anthropic/claude-opus-4.6",
+  "metadata": {
+    "id": "gen-1772918196-O1TVz2lNgmaylRq44Frf",
+    "raw_text": "{\"scores\": {\"clarity\": 5, \"simplicity\": 5, \"brevity_economy\": 4, \"structure_flow\": 5, \"specificity_precision\": 5, \"humanity_voice\": 5, \"overall\": 5}, \"rationale\": \"Exceptionally well-crafted profile. The writing is crystal clear, uses plain but evocative language, and flows beautifully from pre-dawn opening to post-bell closing, giving the piece a satisfying circular structure. Specificity is outstanding\u2014Room 214's creaky floorboard, the drinking fountain jiggle, the untied left shoe, the doctor's thank-you note\u2014all grounding the portrait in concrete detail rather than sentimentality. The dialogue feels natural and reveals character efficiently. The voice is warm and human without tipping into saccharine territory. Minor ding on brevity: a few phrases lean slightly ornamental ('a blank canvas waiting for the day's chaos,' 'the detritus of the day') and the piece could trim a sentence or two without loss, but nothing feels truly padded. One of the strongest responses to this kind of prompt\u2014it reads like polished magazine writing.\"}",
+    "usage": {
+      "completion_tokens": 261,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 0
+      },
+      "cost": 0.01225,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.006525,
+        "upstream_inference_cost": 0.01225,
+        "upstream_inference_prompt_cost": 0.005725
+      },
+      "is_byok": false,
+      "prompt_tokens": 1145,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 1406
+    }
+  },
+  "prompt_category": "profile",
+  "prompt_id": "profile_school_custodian",
+  "rationale": "Exceptionally well-crafted profile. The writing is crystal clear, uses plain but evocative language, and flows beautifully from pre-dawn opening to post-bell closing, giving the piece a satisfying circular structure. Specificity is outstanding\u2014Room 214's creaky floorboard, the drinking fountain jiggle, the untied left shoe, the doctor's thank-you note\u2014all grounding the portrait in concrete detail rather than sentimentality. The dialogue feels natural and reveals character efficiently. The voice is warm and human without tipping into saccharine territory. Minor ding on brevity: a few phrases lean slightly ornamental ('a blank canvas waiting for the day's chaos,' 'the detritus of the day') and the piece could trim a sentence or two without loss, but nothing feels truly padded. One of the strongest responses to this kind of prompt\u2014it reads like polished magazine writing.",
+  "run_name": "2026-03-07-openrouter-v0-1-salvage-1",
+  "scores": {
+    "brevity_economy": 4,
+    "clarity": 5,
+    "humanity_voice": 5,
+    "overall": 5,
+    "simplicity": 5,
+    "specificity_precision": 5,
+    "structure_flow": 5
+  }
+}

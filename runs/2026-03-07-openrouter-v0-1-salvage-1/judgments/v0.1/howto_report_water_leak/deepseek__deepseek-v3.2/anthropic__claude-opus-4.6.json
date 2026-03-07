@@ -1,0 +1,47 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.1",
+  "candidate_model_id": "deepseek/deepseek-v3.2",
+  "created_at": "2026-03-07T21:21:21Z",
+  "judge_model_id": "anthropic/claude-opus-4.6",
+  "metadata": {
+    "id": "gen-1772918473-vkbt2FKJGD2BdmWyLDDJ",
+    "raw_text": "{\"scores\": {\"clarity\": 5, \"simplicity\": 5, \"brevity_economy\": 4, \"structure_flow\": 5, \"specificity_precision\": 5, \"humanity_voice\": 4, \"overall\": 4}, \"rationale\": \"Exceptionally clear and well-organized with a logical step-by-step structure that mirrors the real-time urgency (time stamps like 'First 5 Minutes' and 'Within 30 Minutes' are a smart touch). Language is plain and direct throughout. Specificity is strong\u2014exact scripted language for the landlord call, concrete examples of containment tools, and practical details like turning off the breaker. Slightly docked on brevity for minor redundancies (e.g., listing both 'buckets, trash cans, or large pots' when 'containers' might suffice, though this aids accessibility). Voice is practical and reader-aware but leans slightly toward template/listicle tone rather than truly engaging prose. The biggest issue is that the response is clearly cut off mid-sentence in Step 4, leaving the guide incomplete\u2014missing steps on follow-up, renter's insurance, and tenant rights. This incompleteness meaningfully reduces overall effectiveness.\"}",
+    "usage": {
+      "completion_tokens": 276,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 0
+      },
+      "cost": 0.01158,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.0069,
+        "upstream_inference_cost": 0.01158,
+        "upstream_inference_prompt_cost": 0.00468
+      },
+      "is_byok": false,
+      "prompt_tokens": 936,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 1212
+    }
+  },
+  "prompt_category": "service_howto",
+  "prompt_id": "howto_report_water_leak",
+  "rationale": "Exceptionally clear and well-organized with a logical step-by-step structure that mirrors the real-time urgency (time stamps like 'First 5 Minutes' and 'Within 30 Minutes' are a smart touch). Language is plain and direct throughout. Specificity is strong\u2014exact scripted language for the landlord call, concrete examples of containment tools, and practical details like turning off the breaker. Slightly docked on brevity for minor redundancies (e.g., listing both 'buckets, trash cans, or large pots' when 'containers' might suffice, though this aids accessibility). Voice is practical and reader-aware but leans slightly toward template/listicle tone rather than truly engaging prose. The biggest issue is that the response is clearly cut off mid-sentence in Step 4, leaving the guide incomplete\u2014missing steps on follow-up, renter's insurance, and tenant rights. This incompleteness meaningfully reduces overall effectiveness.",
+  "run_name": "2026-03-07-openrouter-v0-1-salvage-1",
+  "scores": {
+    "brevity_economy": 4,
+    "clarity": 5,
+    "humanity_voice": 4,
+    "overall": 4,
+    "simplicity": 5,
+    "specificity_precision": 5,
+    "structure_flow": 5
+  }
+}

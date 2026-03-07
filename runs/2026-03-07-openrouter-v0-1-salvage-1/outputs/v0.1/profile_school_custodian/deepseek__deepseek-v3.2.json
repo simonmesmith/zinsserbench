@@ -1,0 +1,37 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.1",
+  "candidate_label": "DeepSeek V3.2",
+  "candidate_model_id": "deepseek/deepseek-v3.2",
+  "created_at": "2026-03-07T15:06:55Z",
+  "metadata": {
+    "id": "gen-1772895971-stb1mjRMGosz0FN5GzyY",
+    "usage": {
+      "completion_tokens": 880,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 166
+      },
+      "cost": 0.00038526,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.0003696,
+        "upstream_inference_cost": 0.00038526,
+        "upstream_inference_prompt_cost": 1.566e-05
+      },
+      "is_byok": false,
+      "prompt_tokens": 58,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 938
+    }
+  },
+  "prompt_category": "profile",
+  "prompt_id": "profile_school_custodian",
+  "response_text": "The rhythm of his day is set by bells. At 6:15 AM, long before the first one rings, Frank Ruiz pushes his wide dust mop down the empty main hallway of Eastwood High, the soft *swish-swish* the only sound. The floors gleam under the fluorescent lights, a blank canvas waiting for the day\u2019s chaos. For 28 years, Frank has been the first to arrive and often the last to leave, a quiet, constant force in a building defined by constant change.\n\nHe knows the school\u2019s secrets: which floorboard in Room 214 creaks the loudest, the exact spot by the gym doors where the rain leaks in during a nor\u2019easter, and how to jiggle the handle on the oldest drinking fountain to get a steady stream. But his real expertise is not in the building\u2019s mechanics, but in its heart\u2014its students.\n\n\u201cGood morning, Maya! Big calculus test today, you got this,\u201d he says, not looking up from refilling the paper towel dispenser. Maya, a senior buried in flashcards, stops and smiles. \u201cThanks, Mr. Ruiz.\u201d He nods to a lanky boy shuffling past. \u201cKyle, left shoe\u2019s untied. Don\u2019t want you taking a spill.\u201d Kyle, startled, looks down and quickly bends to tie it.\n\nFrank doesn\u2019t wear a teacher\u2019s badge, but he conducts a master class in being seen. He learns names not from rosters, but from observation and care. He remembers who was a nervous freshman just months ago, who plays JV soccer, who paints stunning murals for the spring musical. He\u2019s witnessed first kisses by the lockers, tearful breakdowns over college letters, and the triumphant sprint of a student who just aced a driver\u2019s test.\n\nHis custodial closet is a sanctuary of sorts. Inside, among the buckets and bottles, is a fading collage of senior pictures and thank-you notes spanning decades. A former student, now a doctor, sent a note: \u201cYou were the only adult who said my name every single day my sophomore year. It mattered.\u201d For Frank, the names are the point. \u201cThey walk in here feeling like a number sometimes,\u201d he says, polishing a trophy case. \u201cMy job is to remind them they\u2019re a person. This is their house. I\u2019m just taking care of it for them.\u201d\n\nHe marks time not in semesters, but in generations. He cleaned the halls for students who are now doctors, mechanics, and parents who now send their own children to Eastwood. When he sees a familiar set of eyes or a smile that echoes a parent from decades past, he\u2019ll say, \u201cYou\u2019re a Henderson. Your mom had that same determined look. Tell her Frank says hello.\u201d\n\nAt the final bell, the cycle resets. As students flood out, shouting about plans, Frank begins his rounds again, collecting the detritus of the day: crumpled worksheets, empty water bottles, a single forgotten varsity jacket. He hangs the jacket neatly outside the principal\u2019s office, knowing its owner will be back.\n\nThe halls fall quiet once more. Frank moves through the stillness, restoring order. He is the keeper of the space, the witness to a thousand tiny journeys, and the man who, for 28 years, has made a sprawling public high school feel a little more like home, simply by knowing who lives there.",
+  "run_name": "2026-03-07-openrouter-v0-1"
+}

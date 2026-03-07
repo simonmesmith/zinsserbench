@@ -1,0 +1,47 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.1",
+  "candidate_model_id": "x-ai/grok-4.1-fast",
+  "created_at": "2026-03-07T21:35:18Z",
+  "judge_model_id": "anthropic/claude-opus-4.6",
+  "metadata": {
+    "id": "gen-1772919310-1ulV11jT3Xc9Lroa8NyN",
+    "raw_text": "{\"scores\": {\"clarity\": 5, \"simplicity\": 4, \"brevity_economy\": 4, \"structure_flow\": 4, \"specificity_precision\": 4, \"humanity_voice\": 4, \"overall\": 4}, \"rationale\": \"Clear, well-organized opinion piece with a logical progression from convenience to social benefits to economics, then anticipating counterarguments. The 'picture this' scenario is effective and concrete. Specific data points (30% car dependency reduction, $68 vs $43 local economic activity) strengthen the argument, though some statistics feel slightly cherry-picked or unverifiable (the ULI claim). Language is mostly plain and direct, though occasionally tips into slightly inflated phrasing ('reviving the soul,' 'social glue,' 'ghost towns after dark'). The piece is cut off mid-argument, which significantly hurts completeness\u2014the counterargument paragraph is left dangling. Structure is strong up to that point. Voice is warm and engaging, with good reader-awareness (the rainy Tuesday scenario). Docked slightly for the incomplete ending and occasional rhetorical flourishes that feel formulaic.\"}",
+    "usage": {
+      "completion_tokens": 257,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 0
+      },
+      "cost": 0.011165,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.006425,
+        "upstream_inference_cost": 0.011165,
+        "upstream_inference_prompt_cost": 0.00474
+      },
+      "is_byok": false,
+      "prompt_tokens": 948,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 1205
+    }
+  },
+  "prompt_category": "persuasion_oped",
+  "prompt_id": "oped_corner_store",
+  "rationale": "Clear, well-organized opinion piece with a logical progression from convenience to social benefits to economics, then anticipating counterarguments. The 'picture this' scenario is effective and concrete. Specific data points (30% car dependency reduction, $68 vs $43 local economic activity) strengthen the argument, though some statistics feel slightly cherry-picked or unverifiable (the ULI claim). Language is mostly plain and direct, though occasionally tips into slightly inflated phrasing ('reviving the soul,' 'social glue,' 'ghost towns after dark'). The piece is cut off mid-argument, which significantly hurts completeness\u2014the counterargument paragraph is left dangling. Structure is strong up to that point. Voice is warm and engaging, with good reader-awareness (the rainy Tuesday scenario). Docked slightly for the incomplete ending and occasional rhetorical flourishes that feel formulaic.",
+  "run_name": "2026-03-07-openrouter-v0-1-salvage-1",
+  "scores": {
+    "brevity_economy": 4,
+    "clarity": 5,
+    "humanity_voice": 4,
+    "overall": 4,
+    "simplicity": 4,
+    "specificity_precision": 4,
+    "structure_flow": 4
+  }
+}

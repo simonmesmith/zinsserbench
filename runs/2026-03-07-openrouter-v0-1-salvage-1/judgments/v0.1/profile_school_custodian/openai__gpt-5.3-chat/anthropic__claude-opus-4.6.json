@@ -1,0 +1,47 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.1",
+  "candidate_model_id": "openai/gpt-5.3-chat",
+  "created_at": "2026-03-07T21:15:31Z",
+  "judge_model_id": "anthropic/claude-opus-4.6",
+  "metadata": {
+    "id": "gen-1772918123-fLrOZib1X3IVdH7XRF0m",
+    "raw_text": "{\"scores\": {\"clarity\": 5, \"simplicity\": 5, \"brevity_economy\": 5, \"structure_flow\": 5, \"specificity_precision\": 4, \"humanity_voice\": 5, \"overall\": 5}, \"rationale\": \"Exceptionally clean, warm, and well-paced profile writing. The opening scene drops us right into the day; dialogue snippets ('Don't forget your trumpet, Miles') give concrete texture. The language is plain and direct throughout\u2014no inflated phrasing, no throat-clearing. Structure moves naturally from morning routine to how he learns names to backstory to his legacy with alumni, each paragraph earning its place. Specificity is strong (1,400 students, started 1997, six principals, gray mop bucket) though since this is a fictional composite rather than real reporting, some details feel slightly generic\u2014hence a 4 rather than 5 on precision. The voice is genuinely human and engaging; the quoted line 'Kids want to be seen. Names are how you do that' lands perfectly. The piece is cut off mid-sentence, which is a flaw, but everything on the page is excellent.\"}",
+    "usage": {
+      "completion_tokens": 261,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 0
+      },
+      "cost": 0.011,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.006525,
+        "upstream_inference_cost": 0.011,
+        "upstream_inference_prompt_cost": 0.004475
+      },
+      "is_byok": false,
+      "prompt_tokens": 895,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 1156
+    }
+  },
+  "prompt_category": "profile",
+  "prompt_id": "profile_school_custodian",
+  "rationale": "Exceptionally clean, warm, and well-paced profile writing. The opening scene drops us right into the day; dialogue snippets ('Don't forget your trumpet, Miles') give concrete texture. The language is plain and direct throughout\u2014no inflated phrasing, no throat-clearing. Structure moves naturally from morning routine to how he learns names to backstory to his legacy with alumni, each paragraph earning its place. Specificity is strong (1,400 students, started 1997, six principals, gray mop bucket) though since this is a fictional composite rather than real reporting, some details feel slightly generic\u2014hence a 4 rather than 5 on precision. The voice is genuinely human and engaging; the quoted line 'Kids want to be seen. Names are how you do that' lands perfectly. The piece is cut off mid-sentence, which is a flaw, but everything on the page is excellent.",
+  "run_name": "2026-03-07-openrouter-v0-1-salvage-1",
+  "scores": {
+    "brevity_economy": 5,
+    "clarity": 5,
+    "humanity_voice": 5,
+    "overall": 5,
+    "simplicity": 5,
+    "specificity_precision": 4,
+    "structure_flow": 5
+  }
+}

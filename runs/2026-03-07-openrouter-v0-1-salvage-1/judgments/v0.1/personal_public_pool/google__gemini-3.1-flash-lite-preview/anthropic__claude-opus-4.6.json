@@ -1,0 +1,47 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.1",
+  "candidate_model_id": "google/gemini-3.1-flash-lite-preview",
+  "created_at": "2026-03-07T21:26:51Z",
+  "judge_model_id": "anthropic/claude-opus-4.6",
+  "metadata": {
+    "id": "gen-1772918802-VHhXCtGrlkfnafFtU1fV",
+    "raw_text": "{\"scores\": {\"clarity\": 5, \"simplicity\": 4, \"brevity_economy\": 4, \"structure_flow\": 5, \"specificity_precision\": 3, \"humanity_voice\": 4, \"overall\": 4}, \"rationale\": \"The essay is immediately clear and well-organized, moving chronologically through a pool day and then outward to the town's larger anxieties\u2014a smart structural choice. The writing is mostly direct, though it leans on some literary flourishes ('shimmering, rectangular scar,' 'blue-tiled anchor') that occasionally feel overwrought rather than earned. The biggest weakness is specificity: the essay reads as a composite or archetype rather than a particular place. There's no town name, no specific budget fight year, no named character, no singular anecdote. Details like 'good sunscreen vs. generic chalky stuff' gesture toward concreteness but remain generic observations. The closing paragraphs repeat the same thematic point\u2014the pool as communal glue\u2014two or three times, which slightly undermines economy. Voice is warm and engaged, though it sometimes tips into the polished-essay tone of a writing workshop piece rather than feeling truly personal and vulnerable. Overall it's a competent, well-crafted essay that succeeds at structure and readability but would be elevated by more granular, lived-in detail.\"}",
+    "usage": {
+      "completion_tokens": 305,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 0
+      },
+      "cost": 0.01364,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.007625,
+        "upstream_inference_cost": 0.01364,
+        "upstream_inference_prompt_cost": 0.006015
+      },
+      "is_byok": false,
+      "prompt_tokens": 1203,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 1508
+    }
+  },
+  "prompt_category": "personal_nonfiction",
+  "prompt_id": "personal_public_pool",
+  "rationale": "The essay is immediately clear and well-organized, moving chronologically through a pool day and then outward to the town's larger anxieties\u2014a smart structural choice. The writing is mostly direct, though it leans on some literary flourishes ('shimmering, rectangular scar,' 'blue-tiled anchor') that occasionally feel overwrought rather than earned. The biggest weakness is specificity: the essay reads as a composite or archetype rather than a particular place. There's no town name, no specific budget fight year, no named character, no singular anecdote. Details like 'good sunscreen vs. generic chalky stuff' gesture toward concreteness but remain generic observations. The closing paragraphs repeat the same thematic point\u2014the pool as communal glue\u2014two or three times, which slightly undermines economy. Voice is warm and engaged, though it sometimes tips into the polished-essay tone of a writing workshop piece rather than feeling truly personal and vulnerable. Overall it's a competent, well-crafted essay that succeeds at structure and readability but would be elevated by more granular, lived-in detail.",
+  "run_name": "2026-03-07-openrouter-v0-1-salvage-1",
+  "scores": {
+    "brevity_economy": 4,
+    "clarity": 5,
+    "humanity_voice": 4,
+    "overall": 4,
+    "simplicity": 4,
+    "specificity_precision": 3,
+    "structure_flow": 5
+  }
+}

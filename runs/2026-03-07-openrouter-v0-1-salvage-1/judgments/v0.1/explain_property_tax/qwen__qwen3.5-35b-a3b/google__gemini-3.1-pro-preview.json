@@ -1,0 +1,47 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.1",
+  "candidate_model_id": "qwen/qwen3.5-35b-a3b",
+  "created_at": "2026-03-07T21:39:00Z",
+  "judge_model_id": "google/gemini-3.1-pro-preview",
+  "metadata": {
+    "id": "gen-1772919532-tmF0I3vrnCWrlI1mibBP",
+    "raw_text": "{\n  \"scores\": {\n    \"clarity\": 1,\n    \"simplicity\": 1,\n    \"brevity_economy\": 1,\n    \"structure_flow\": 1,\n    \"specificity_precision\": 1,\n    \"humanity_voice\": 1,\n    \"overall\": 1\n  },\n  \"rationale\": \"The candidate response is incomplete. It only contains a cut-off 'Thinking Process' and fails to provide the actual requested explainer.\"\n}",
+    "usage": {
+      "completion_tokens": 346,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 233
+      },
+      "cost": 0.005862,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.004152,
+        "upstream_inference_cost": 0.005862,
+        "upstream_inference_prompt_cost": 0.00171
+      },
+      "is_byok": false,
+      "prompt_tokens": 855,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 1201
+    }
+  },
+  "prompt_category": "explain",
+  "prompt_id": "explain_property_tax",
+  "rationale": "The candidate response is incomplete. It only contains a cut-off 'Thinking Process' and fails to provide the actual requested explainer.",
+  "run_name": "2026-03-07-openrouter-v0-1-salvage-1",
+  "scores": {
+    "brevity_economy": 1,
+    "clarity": 1,
+    "humanity_voice": 1,
+    "overall": 1,
+    "simplicity": 1,
+    "specificity_precision": 1,
+    "structure_flow": 1
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.1",
+  "candidate_label": "Gemini 3.1 Pro Preview",
+  "candidate_model_id": "google/gemini-3.1-pro-preview",
+  "created_at": "2026-03-07T21:04:04Z",
+  "metadata": {
+    "id": "gen-1772917412-8TiC8M70tpvhtSeLXi48",
+    "quality_guard": {
+      "minimum_words": 200,
+      "reason": "",
+      "status": "ok",
+      "word_count": 719
+    },
+    "usage": {
+      "completion_tokens": 1978,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 1027
+      },
+      "cost": 0.023838,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.023736,
+        "upstream_inference_cost": 0.023838,
+        "upstream_inference_prompt_cost": 0.000102
+      },
+      "is_byok": false,
+      "prompt_tokens": 51,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 2029
+    }
+  },
+  "prompt_category": "profile",
+  "prompt_id": "profile_ferry_captain",
+  "response_text": "The wheelhouse of the *M.V. Reliance* smells of old brass, diesel fumes, and three decades of black coffee. At 5:45 a.m., Captain Silas Vance rests his calloused hands on the helm, his eyes fixed on the slate-gray expanse of water known as the Narrows. \n\nWith a deep, vibrating rumble that resonates through the soles of his boots, the ferry pulls away from the wooden pilings of Port Cleary. Its destination is Oakhaven, a sister town sitting just three miles across the bay. It is a forty-minute crossing. Silas has made this exact trip, back and forth, for thirty years. By his own rough arithmetic, he has crossed the Narrows more than forty thousand times.\n\n\"People ask if I ever get bored,\" Silas says, his voice a low gravel that competes with the hum of the engine. He adjusts the throttle, easing the heavy vessel into the tidal current. \"But they don't understand that the water is never the same twice. The route is fixed. The ocean isn't.\"\n\nAt fifty-eight, Silas looks exactly like a man who has spent his entire adult life squinting at the horizon. Deep lines fan out from the corners of his eyes, and his beard is the color of sea foam. He took command of the *Reliance* in the spring of 1994. Back then, Port Cleary was a working-class fishing village, and Oakhaven was a quiet enclave of summer cabins. Today, the fishing trawlers have largely been replaced by sleek fiberglass yachts, and Oakhaven\u2019s shoreline is dotted with multi-million-dollar estates. \n\nYet, from the elevated vantage point of the wheelhouse, the changes on land feel secondary to the constants of the sea. Silas navigates by a modern GPS screen glowing to his left, but he rarely needs to look at it. He knows the hidden sandbars off Miller\u2019s Point. He knows how the crosswinds whip through the channel during a November nor'easter, and he knows the exact second the tide turns, shifting the water from a gentle chop to a rolling swell.\n\nMore than a navigator, Silas is the quiet timekeeper of these two towns. The ferry is the only physical link between Port Cleary and Oakhaven; without it, the drive around the deeply indented coastline takes over two hours. Because of this, Silas has been a silent witness to the arcs of hundreds of local lives. \n\n\"I\u2019ve watched kids take this boat to their first day of kindergarten, and years later, I\u2019ve watched them take it in their wedding dresses,\" he says, taking a slow sip from a battered steel thermos. \"I\u2019ve carried ambulances rushing to the mainland hospital, and I\u2019ve carried hearses coming back. You see the whole cycle of a town from up here.\"\n\nHe is a man of few words, but his actions speak to a profound sense of duty. The locals still talk about the Valentine\u2019s Day blizzard of 2008, when a sudden whiteout dropped visibility to zero and the ferry's radar array froze over. With twenty commuters huddled in the passenger cabin, Silas navigated the Narrows entirely by dead reckoning\u2014listening for the distant, muffled clanging of the channel buoys and timing the echoes of the ship\u2019s horn bouncing off the coastal bluffs. He docked the *Reliance* in Oakhaven without a scratch. When asked about it today, he merely shrugs. \"We had a schedule to keep.\"\n\nAs the ferry approaches Oakhaven, the morning fog begins to burn off, revealing the dark green silhouettes of pine trees and the weathered shingles of the harbor master\u2019s shack. Silas pulls back on the throttle. The massive diesel engines shift pitch, a deep, throaty deceleration. With practiced, microscopic adjustments of the wheel, he glides the three-hundred-ton vessel into the wooden slip. It kisses the pilings with nothing more than a gentle creak.\n\nDown below, the heavy steel ramp lowers with a metallic clank. The deckhands wave the first cars ashore. Silas watches the procession from his window, his face impassive but his eyes sharp, noting who is leaving and who is arriving. \n\nHe checks his silver wristwatch. He has twenty minutes to drink another cup of coffee, check the weather band radio, and watch the gulls circle the wake. Then, the ramp will rise, the horn will sound, and Captain Silas Vance will turn the wheel, heading back across the Narrows for the forty-thousand-and-first time.",
+  "run_name": "2026-03-07-openrouter-v0-1-salvage-1"
+}

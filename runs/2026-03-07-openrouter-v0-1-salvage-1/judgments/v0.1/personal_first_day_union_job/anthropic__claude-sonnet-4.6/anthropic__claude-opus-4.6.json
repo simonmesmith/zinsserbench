@@ -1,0 +1,47 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.1",
+  "candidate_model_id": "anthropic/claude-sonnet-4.6",
+  "created_at": "2026-03-07T21:25:16Z",
+  "judge_model_id": "anthropic/claude-opus-4.6",
+  "metadata": {
+    "id": "gen-1772918710-pZT1aMs0vBw86QYmDVNn",
+    "raw_text": "{\"scores\": {\"clarity\": 5, \"simplicity\": 5, \"brevity_economy\": 5, \"structure_flow\": 4, \"specificity_precision\": 5, \"humanity_voice\": 5, \"overall\": 5}, \"rationale\": \"Exceptionally clear, direct prose with zero wasted words. The specificity is outstanding\u2014forty-two boxes, twelve minutes, thirty pounds each, the gray t-shirt, the clipboard, the sandwich in four bites. Every detail earns its place and builds the contrast between exploitative non-union work and the union job. The voice is distinctive, warm, and wry without being performative. The section break works well as a structural pivot from the warehouse scene to backstory. The only slight ding on structure/flow is that the piece is clearly incomplete\u2014it cuts off mid-sentence\u2014so we can't fully evaluate the arc or resolution. But what's on the page is remarkably accomplished personal nonfiction.\"}",
+    "usage": {
+      "completion_tokens": 216,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 0
+      },
+      "cost": 0.00942,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.0054,
+        "upstream_inference_cost": 0.00942,
+        "upstream_inference_prompt_cost": 0.00402
+      },
+      "is_byok": false,
+      "prompt_tokens": 804,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 1020
+    }
+  },
+  "prompt_category": "personal_nonfiction",
+  "prompt_id": "personal_first_day_union_job",
+  "rationale": "Exceptionally clear, direct prose with zero wasted words. The specificity is outstanding\u2014forty-two boxes, twelve minutes, thirty pounds each, the gray t-shirt, the clipboard, the sandwich in four bites. Every detail earns its place and builds the contrast between exploitative non-union work and the union job. The voice is distinctive, warm, and wry without being performative. The section break works well as a structural pivot from the warehouse scene to backstory. The only slight ding on structure/flow is that the piece is clearly incomplete\u2014it cuts off mid-sentence\u2014so we can't fully evaluate the arc or resolution. But what's on the page is remarkably accomplished personal nonfiction.",
+  "run_name": "2026-03-07-openrouter-v0-1-salvage-1",
+  "scores": {
+    "brevity_economy": 5,
+    "clarity": 5,
+    "humanity_voice": 5,
+    "overall": 5,
+    "simplicity": 5,
+    "specificity_precision": 5,
+    "structure_flow": 4
+  }
+}

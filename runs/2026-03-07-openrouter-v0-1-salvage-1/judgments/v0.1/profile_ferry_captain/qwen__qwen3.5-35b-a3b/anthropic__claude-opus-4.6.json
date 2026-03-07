@@ -1,0 +1,47 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.1",
+  "candidate_model_id": "qwen/qwen3.5-35b-a3b",
+  "created_at": "2026-03-07T21:18:50Z",
+  "judge_model_id": "anthropic/claude-opus-4.6",
+  "metadata": {
+    "id": "gen-1772918321-8rkS3mvBdwmN1Z1UYtQ0",
+    "raw_text": "{\"scores\": {\"clarity\": 5, \"simplicity\": 5, \"brevity_economy\": 4, \"structure_flow\": 4, \"specificity_precision\": 5, \"humanity_voice\": 5, \"overall\": 4}, \"rationale\": \"Exceptionally clear and vivid writing with strong concrete details (the 5:45 AM start, twenty-ton vessel, three-mile stretch, the nor'easter anecdote with the chain). The language is plain and muscular without being flat\u2014sentences like 'He knows the depth of the channel by the way the water shifts color against the hull' are precise and evocative. The voice feels genuinely human and literary, with well-placed direct quotes that reveal character. The piece is cut off mid-sentence, which prevents it from being a complete profile and hurts structure/flow\u2014we never get the fuller arc of Vance's life, the towns' evolution, or a closing. Some mild repetition in the 'It is where...' parallel construction, though it works rhetorically. The specificity is excellent: 1994, Coast Guard background, the locked ramp detail. Overall a very strong fragment that reads like quality magazine writing, docked mainly for incompleteness.\"}",
+    "usage": {
+      "completion_tokens": 276,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 0
+      },
+      "cost": 0.01149,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.0069,
+        "upstream_inference_cost": 0.01149,
+        "upstream_inference_prompt_cost": 0.00459
+      },
+      "is_byok": false,
+      "prompt_tokens": 918,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 1194
+    }
+  },
+  "prompt_category": "profile",
+  "prompt_id": "profile_ferry_captain",
+  "rationale": "Exceptionally clear and vivid writing with strong concrete details (the 5:45 AM start, twenty-ton vessel, three-mile stretch, the nor'easter anecdote with the chain). The language is plain and muscular without being flat\u2014sentences like 'He knows the depth of the channel by the way the water shifts color against the hull' are precise and evocative. The voice feels genuinely human and literary, with well-placed direct quotes that reveal character. The piece is cut off mid-sentence, which prevents it from being a complete profile and hurts structure/flow\u2014we never get the fuller arc of Vance's life, the towns' evolution, or a closing. Some mild repetition in the 'It is where...' parallel construction, though it works rhetorically. The specificity is excellent: 1994, Coast Guard background, the locked ramp detail. Overall a very strong fragment that reads like quality magazine writing, docked mainly for incompleteness.",
+  "run_name": "2026-03-07-openrouter-v0-1-salvage-1",
+  "scores": {
+    "brevity_economy": 4,
+    "clarity": 5,
+    "humanity_voice": 5,
+    "overall": 4,
+    "simplicity": 5,
+    "specificity_precision": 5,
+    "structure_flow": 4
+  }
+}

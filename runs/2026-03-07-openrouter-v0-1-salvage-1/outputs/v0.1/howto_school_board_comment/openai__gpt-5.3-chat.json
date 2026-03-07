@@ -1,0 +1,37 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.1",
+  "candidate_label": "GPT-5.3 Chat",
+  "candidate_model_id": "openai/gpt-5.3-chat",
+  "created_at": "2026-03-07T15:13:25Z",
+  "metadata": {
+    "id": "gen-1772896399-jQvH7a9ioG4nz93tcDlM",
+    "usage": {
+      "completion_tokens": 500,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 0
+      },
+      "cost": 0.00709625,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.007,
+        "upstream_inference_cost": 0.00709625,
+        "upstream_inference_prompt_cost": 9.625e-05
+      },
+      "is_byok": false,
+      "prompt_tokens": 55,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 555
+    }
+  },
+  "prompt_category": "service_howto",
+  "prompt_id": "howto_school_board_comment",
+  "response_text": ":::writing\nSpeaking at a school board meeting can feel intimidating, but a little preparation goes a long way. Whether you\u2019re raising a concern, suggesting an improvement, or supporting a policy, the goal is to communicate clearly and respectfully so the board and community understand your point.\n\n1. Understand the meeting rules  \nMost school boards have specific procedures for public comments. Check the district website or meeting agenda to learn:\n- How to sign up to speak (some require advance registration).\n- The time limit, often 2\u20133 minutes.\n- Whether written comments are accepted.\n- Any rules about topics or conduct.\n\nKnowing the format helps you avoid surprises and focus on your message.\n\n2. Clarify your goal  \nBefore writing anything, decide what you want the board to do. Examples include:\n- Reconsider a specific policy.\n- Allocate resources to a program.\n- Investigate a concern.\n- Include parents in a decision process.\n\nA clear goal keeps your remarks focused and persuasive.\n\n3. Research the issue  \nCollect accurate information before speaking. Look at:\n- District policies or recent board decisions.\n- Budget or program details.\n- Data, reports, or credible studies.\n- Experiences from teachers, students, or other parents.\n\nUse facts to support your point, but avoid overwhelming the board with too much detail.\n\n4. Write a short, focused statement  \nBecause time is limited, structure your remarks simply:\n- Introduce yourself and your connection to the school.\n- State the issue and why it matters.\n- Provide one or two key facts or examples.\n- Clearly state what action you want the board to take.\n\nAim for about 250\u2013350 words for a three\u2011minute slot. Practice reading it aloud to make sure it fits the time limit.\n\n5. Use respectful, constructive language  \nSchool boards respond better to speakers who remain calm and solution\u2011oriented. Even if the issue is emotional:\n- Focus on policies and outcomes, not personal attacks.\n- Acknowledge complexity when appropriate.\n- Suggest constructive steps forward.\n\nA respectful tone increases the chance that your comments will be taken seriously.\n\n6. Practice your delivery  \nRead your statement out loud several times. Practice:\n- Speaking clearly and at a steady pace.\n- Pausing at key points.\n- Staying within the time limit.\n\nIf possible, ask a friend or family member to listen and give feedback.\n\n7. Prepare supporting materials  \nIf you have data, research, or detailed concerns, bring printed copies to share with",
+  "run_name": "2026-03-07-openrouter-v0-1"
+}

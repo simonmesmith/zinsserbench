@@ -1,0 +1,4 @@
+prompt_id,candidate_model_id,reason,word_count,minimum_words
+oped_bus_lanes,minimax/minimax-m2.5,too_short,150,200
+oped_bus_lanes,moonshotai/kimi-k2.5,too_short,112,200
+oped_library_hours,z-ai/glm-5,too_short,87,200

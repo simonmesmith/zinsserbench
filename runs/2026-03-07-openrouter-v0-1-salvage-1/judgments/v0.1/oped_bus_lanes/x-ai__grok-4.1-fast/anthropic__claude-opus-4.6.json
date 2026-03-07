@@ -1,0 +1,47 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.1",
+  "candidate_model_id": "x-ai/grok-4.1-fast",
+  "created_at": "2026-03-07T21:24:17Z",
+  "judge_model_id": "anthropic/claude-opus-4.6",
+  "metadata": {
+    "id": "gen-1772918650-kadxNlbr3IAOOpFQ5cAA",
+    "raw_text": "{\"scores\": {\"clarity\": 5, \"simplicity\": 4, \"brevity_economy\": 4, \"structure_flow\": 4, \"specificity_precision\": 5, \"humanity_voice\": 4, \"overall\": 4}, \"rationale\": \"Strong opinion piece with clear argumentation and excellent use of specific data (Wilshire Boulevard speeds, TransMilenio ridership, person-throughput figures, ITDP studies). The writing is vivid and accessible, with effective rhetorical moves like the 'parking lot on wheels' opener and the direct address of counterarguments. Language is mostly plain and direct, though occasionally tips into slightly overwrought phrasing ('soul-crushing ritual,' 'prioritize people over tailpipes'). Structure is logical\u2014problem, math of congestion, counterargument rebuttal, reliability\u2014but the piece is cut off mid-sentence, which hurts completeness. The truncation prevents full assessment of the conclusion and overall arc. Some metaphors feel a touch forced ('the pipes,' 'secret sauce'). Despite the incomplete ending, what's present is well-crafted, persuasive, and specific.\"}",
+    "usage": {
+      "completion_tokens": 260,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 0
+      },
+      "cost": 0.011245,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.0065,
+        "upstream_inference_cost": 0.011245,
+        "upstream_inference_prompt_cost": 0.004745
+      },
+      "is_byok": false,
+      "prompt_tokens": 949,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 1209
+    }
+  },
+  "prompt_category": "persuasion_oped",
+  "prompt_id": "oped_bus_lanes",
+  "rationale": "Strong opinion piece with clear argumentation and excellent use of specific data (Wilshire Boulevard speeds, TransMilenio ridership, person-throughput figures, ITDP studies). The writing is vivid and accessible, with effective rhetorical moves like the 'parking lot on wheels' opener and the direct address of counterarguments. Language is mostly plain and direct, though occasionally tips into slightly overwrought phrasing ('soul-crushing ritual,' 'prioritize people over tailpipes'). Structure is logical\u2014problem, math of congestion, counterargument rebuttal, reliability\u2014but the piece is cut off mid-sentence, which hurts completeness. The truncation prevents full assessment of the conclusion and overall arc. Some metaphors feel a touch forced ('the pipes,' 'secret sauce'). Despite the incomplete ending, what's present is well-crafted, persuasive, and specific.",
+  "run_name": "2026-03-07-openrouter-v0-1-salvage-1",
+  "scores": {
+    "brevity_economy": 4,
+    "clarity": 5,
+    "humanity_voice": 4,
+    "overall": 4,
+    "simplicity": 4,
+    "specificity_precision": 5,
+    "structure_flow": 4
+  }
+}

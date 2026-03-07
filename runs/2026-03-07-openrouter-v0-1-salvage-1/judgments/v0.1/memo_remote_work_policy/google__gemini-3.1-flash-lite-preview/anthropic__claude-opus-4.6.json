@@ -1,0 +1,47 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.1",
+  "candidate_model_id": "google/gemini-3.1-flash-lite-preview",
+  "created_at": "2026-03-07T21:09:10Z",
+  "judge_model_id": "anthropic/claude-opus-4.6",
+  "metadata": {
+    "id": "gen-1772917733-HBptyLrwK4l4IoGhzTrO",
+    "raw_text": "{\"scores\": {\"clarity\": 5, \"simplicity\": 4, \"brevity_economy\": 4, \"structure_flow\": 5, \"specificity_precision\": 5, \"humanity_voice\": 4, \"overall\": 5}, \"rationale\": \"Exceptionally well-structured memo with clear headers (Policy / Why / What Next) that let a busy reader scan quickly. Specificity is a standout strength: exact anchor days (Tue\u2013Thu), core hours (10 AM\u20133 PM), three concrete action items with deadlines. Slightly dinged on simplicity for corporate-speak ('culture of innovation,' 'high-impact and collaborative,' 'sustainable balance') and on brevity for a mildly throat-clearing opening paragraph. Voice is warm and acknowledges employee input, though it occasionally tips into HR boilerplate ('continued dedication'). Overall, it's a highly effective internal memo that clearly communicates what changed, why, and what to do.\"}",
+    "usage": {
+      "completion_tokens": 647,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 452
+      },
+      "cost": 0.021305,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.016175,
+        "upstream_inference_cost": 0.021305,
+        "upstream_inference_prompt_cost": 0.00513
+      },
+      "is_byok": false,
+      "prompt_tokens": 1026,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 1673
+    }
+  },
+  "prompt_category": "memo",
+  "prompt_id": "memo_remote_work_policy",
+  "rationale": "Exceptionally well-structured memo with clear headers (Policy / Why / What Next) that let a busy reader scan quickly. Specificity is a standout strength: exact anchor days (Tue\u2013Thu), core hours (10 AM\u20133 PM), three concrete action items with deadlines. Slightly dinged on simplicity for corporate-speak ('culture of innovation,' 'high-impact and collaborative,' 'sustainable balance') and on brevity for a mildly throat-clearing opening paragraph. Voice is warm and acknowledges employee input, though it occasionally tips into HR boilerplate ('continued dedication'). Overall, it's a highly effective internal memo that clearly communicates what changed, why, and what to do.",
+  "run_name": "2026-03-07-openrouter-v0-1-salvage-1",
+  "scores": {
+    "brevity_economy": 4,
+    "clarity": 5,
+    "humanity_voice": 4,
+    "overall": 5,
+    "simplicity": 4,
+    "specificity_precision": 5,
+    "structure_flow": 5
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.1",
+  "candidate_label": "Gemini 3.1 Pro Preview",
+  "candidate_model_id": "google/gemini-3.1-pro-preview",
+  "created_at": "2026-03-07T21:03:53Z",
+  "metadata": {
+    "id": "gen-1772917403-jDHzlhjwnQtW3rB0kDVV",
+    "quality_guard": {
+      "minimum_words": 200,
+      "reason": "",
+      "status": "ok",
+      "word_count": 746
+    },
+    "usage": {
+      "completion_tokens": 1771,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 792
+      },
+      "cost": 0.021364,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.021252,
+        "upstream_inference_cost": 0.021364,
+        "upstream_inference_prompt_cost": 0.000112
+      },
+      "is_byok": false,
+      "prompt_tokens": 56,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 1827
+    }
+  },
+  "prompt_category": "profile",
+  "prompt_id": "profile_school_custodian",
+  "response_text": "The fluorescent lights of Westbridge High School flicker to life at exactly 5:15 a.m., humming a low, familiar tune that Marcus Vance has worked to for twenty-eight years. Long before the yellow buses idle at the curb and the hallways flood with the chaotic energy of adolescence, Marcus is already there. He moves with the practiced efficiency of a man who knows the exact topography of the building\u2019s 140,000 square feet\u2014every warped floorboard in the gymnasium, every temperamental locker hinge on the second floor, and every quiet corner where a teenager might hide when the world gets to be too much.\n\nBut Marcus\u2019s true mastery of Westbridge High isn\u2019t found in his sprawling ring of brass keys or his perfectly buffed linoleum floors. It is found in his memory. \n\nAt 7:30 a.m., the front doors swing open, and the daily tide of 1,200 teenagers rushes in. Marcus stands near the main stairwell, leaning casually against his gray utility cart. \n\n\"Morning, Leo. Don't forget your trumpet today,\" he says to a hurried freshman. \n\"Slow down, Maya, you've got six minutes,\" he calls out to a sophomore sprinting toward the science wing. \n\"Good luck on the AP Calc exam, David,\" he nods to a tense-looking senior.\n\nMarcus knows every single student by name. It is a feat that baffles the teaching staff and disarms the student body. He doesn't use a mnemonic system or a flashcard app. Instead, he pays attention. At the beginning of every school year, Marcus spends his lunch breaks looking over the homeroom rosters posted on the classroom doors. He reads the names taped to the athletic lockers. He listens to the chatter in the cafeteria. When a new student transfers in mid-semester, Marcus is often the first adult to introduce himself, usually while helping them pry open a jammed locker.\n\n\"People think teenagers are invisible to adults, or that adults are invisible to teenagers,\" Marcus says, pausing to wipe a smudge of blue ink off a hallway display case. \"But when you look a fourteen-year-old in the eye and call them by their first name, their whole posture changes. It tells them they aren't just a face in a crowd. They belong here. This is their house. I just keep it clean for them.\"\n\nOver the past twenty-eight years, Marcus has become the quiet, steady heartbeat of Westbridge High. He was hired in the fall of 1996, back when the school still had chalkboards instead of smartboards, and the cafeteria smelled of Salisbury steak rather than the current rotation of spicy chicken wraps. He has outlasted five principals, three superintendents, and dozens of teachers. Today, he is greeting the children of the students he once watched walk across the graduation stage in the late nineties. \n\nHis job description dictates that he empty the trash, sanitize the restrooms, and sweep the sawdust out of the woodshop. But in practice, Marcus is a counselor, a peacekeeper, and a silent guardian. He is the one who finds the lost retainers wrapped in cafeteria napkins. He is the one who hands a damp paper towel to a girl crying in the hallway after a bad breakup, knowing exactly when to offer a comforting word and when to just walk away and give her space. \n\n\"Last year, I was having a panic attack before my theater audition,\" recalls Sarah Jenkins, a recent graduate. \"I was hiding behind the bleachers. Marcus found me. He didn't drag me to the nurse or make a big deal out of it. He just sat down on the bottom bleacher, called me by my name, and talked to me about how he used to get nervous before his bowling league tournaments. He grounded me. I don't think I would have graduated without him.\"\n\nFor Marcus, the building is a living, breathing entity, and the students are its lifeblood. He watches them arrive as nervous, oversized-backpack-wearing freshmen, and he watches them leave as young adults. \n\nBy 4:00 p.m., the final bell has long since rung, and the building begins to exhale. The frantic echoes of slamming lockers are replaced by the rhythmic, sweeping *shhh-shhh* of Marcus\u2019s wide dustmop gliding down the center of the main corridor. He works his way past the trophy cases and the bulletin boards, preparing the school for another day. \n\nTomorrow, the doors will open again. The tide will rush back in. And Marcus will be waiting by the stairwell, ready to greet them all, one name at a time.",
+  "run_name": "2026-03-07-openrouter-v0-1-salvage-1"
+}

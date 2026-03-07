@@ -1,0 +1,47 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.1",
+  "candidate_model_id": "x-ai/grok-4.1-fast",
+  "created_at": "2026-03-07T21:25:41Z",
+  "judge_model_id": "anthropic/claude-opus-4.6",
+  "metadata": {
+    "id": "gen-1772918733-yZus9zMuXOZ0m6hlaPQP",
+    "raw_text": "{\"scores\": {\"clarity\": 5, \"simplicity\": 4, \"brevity_economy\": 4, \"structure_flow\": 4, \"specificity_precision\": 5, \"humanity_voice\": 5, \"overall\": 4}, \"rationale\": \"The essay is vividly written with excellent concrete details\u2014$12 vs $22 an hour, Teamsters Local 705, Rosa's backstory, bumper sticker text, the bruised-purple sky. The voice is genuinely human, engaging, and emotionally grounded. Clarity is strong throughout; the reader never gets lost. Language is mostly plain and direct, though it occasionally leans into stylized flourishes ('atomized and anonymous,' 'wind bites like it's got a grudge') that border on overwriting but generally serve the voice well. Structure flows logically from backstory to arrival to orientation. The main weakness is that the piece is cut off mid-sentence, so we never get the payoff\u2014the moment the first day actually changes the writer's idea of work. This incompleteness hurts overall effectiveness and structure. Brevity is solid for what's there, with no real padding, though the pre-job backstory could be slightly tighter.\"}",
+    "usage": {
+      "completion_tokens": 274,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 0
+      },
+      "cost": 0.0117,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.00685,
+        "upstream_inference_cost": 0.0117,
+        "upstream_inference_prompt_cost": 0.00485
+      },
+      "is_byok": false,
+      "prompt_tokens": 970,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 1244
+    }
+  },
+  "prompt_category": "personal_nonfiction",
+  "prompt_id": "personal_first_day_union_job",
+  "rationale": "The essay is vividly written with excellent concrete details\u2014$12 vs $22 an hour, Teamsters Local 705, Rosa's backstory, bumper sticker text, the bruised-purple sky. The voice is genuinely human, engaging, and emotionally grounded. Clarity is strong throughout; the reader never gets lost. Language is mostly plain and direct, though it occasionally leans into stylized flourishes ('atomized and anonymous,' 'wind bites like it's got a grudge') that border on overwriting but generally serve the voice well. Structure flows logically from backstory to arrival to orientation. The main weakness is that the piece is cut off mid-sentence, so we never get the payoff\u2014the moment the first day actually changes the writer's idea of work. This incompleteness hurts overall effectiveness and structure. Brevity is solid for what's there, with no real padding, though the pre-job backstory could be slightly tighter.",
+  "run_name": "2026-03-07-openrouter-v0-1-salvage-1",
+  "scores": {
+    "brevity_economy": 4,
+    "clarity": 5,
+    "humanity_voice": 5,
+    "overall": 4,
+    "simplicity": 4,
+    "specificity_precision": 5,
+    "structure_flow": 4
+  }
+}

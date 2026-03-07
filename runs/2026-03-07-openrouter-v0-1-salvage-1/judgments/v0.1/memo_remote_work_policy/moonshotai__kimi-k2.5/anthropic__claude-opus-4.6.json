@@ -1,0 +1,47 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.1",
+  "candidate_model_id": "moonshotai/kimi-k2.5",
+  "created_at": "2026-03-07T21:10:17Z",
+  "judge_model_id": "anthropic/claude-opus-4.6",
+  "metadata": {
+    "id": "gen-1772917809-fH4qJR3fblzhRTo0uUlx",
+    "raw_text": "{\"scores\": {\"clarity\": 5, \"simplicity\": 5, \"brevity_economy\": 5, \"structure_flow\": 5, \"specificity_precision\": 5, \"humanity_voice\": 5, \"overall\": 5}, \"rationale\": \"This is an exemplary internal memo. Clarity: every element of the policy is immediately understandable with no ambiguity. Simplicity: language is plain and direct throughout\u2014no jargon inflation or corporate bloat. Brevity: nothing is wasted; every paragraph earns its place, and there's no throat-clearing intro. Structure: the bold headers and logical progression (what \u2192 why \u2192 what next) make it scannable and easy to act on. Specificity: concrete numbers (22%, 89%, 30% of office space, six Zoom rooms, November 1/5/8/15 deadlines), named tools (LearningHub, Slack channel), and specific actions (15-minute training, 1:1 with manager) replace vague generalities. Humanity: the closing line about the kitchen table and Desk 42, the phrase 'evolution not revolution,' and the trust-forward tone ('We trust you') all give it genuine warmth without being saccharine. This reads like a real, well-crafted memo from a thoughtful leader.\"}",
+    "usage": {
+      "completion_tokens": 300,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 0
+      },
+      "cost": 0.01335,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.0075,
+        "upstream_inference_cost": 0.01335,
+        "upstream_inference_prompt_cost": 0.00585
+      },
+      "is_byok": false,
+      "prompt_tokens": 1170,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 1470
+    }
+  },
+  "prompt_category": "memo",
+  "prompt_id": "memo_remote_work_policy",
+  "rationale": "This is an exemplary internal memo. Clarity: every element of the policy is immediately understandable with no ambiguity. Simplicity: language is plain and direct throughout\u2014no jargon inflation or corporate bloat. Brevity: nothing is wasted; every paragraph earns its place, and there's no throat-clearing intro. Structure: the bold headers and logical progression (what \u2192 why \u2192 what next) make it scannable and easy to act on. Specificity: concrete numbers (22%, 89%, 30% of office space, six Zoom rooms, November 1/5/8/15 deadlines), named tools (LearningHub, Slack channel), and specific actions (15-minute training, 1:1 with manager) replace vague generalities. Humanity: the closing line about the kitchen table and Desk 42, the phrase 'evolution not revolution,' and the trust-forward tone ('We trust you') all give it genuine warmth without being saccharine. This reads like a real, well-crafted memo from a thoughtful leader.",
+  "run_name": "2026-03-07-openrouter-v0-1-salvage-1",
+  "scores": {
+    "brevity_economy": 5,
+    "clarity": 5,
+    "humanity_voice": 5,
+    "overall": 5,
+    "simplicity": 5,
+    "specificity_precision": 5,
+    "structure_flow": 5
+  }
+}

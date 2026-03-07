@@ -1,0 +1,43 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.1",
+  "candidate_label": "Gemini 3.1 Pro Preview",
+  "candidate_model_id": "google/gemini-3.1-pro-preview",
+  "created_at": "2026-03-07T21:06:10Z",
+  "metadata": {
+    "id": "gen-1772917551-sxEeA0eHZqUf17inCBk0",
+    "quality_guard": {
+      "minimum_words": 120,
+      "reason": "",
+      "status": "ok",
+      "word_count": 835
+    },
+    "usage": {
+      "completion_tokens": 1705,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 641
+      },
+      "cost": 0.020564,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.02046,
+        "upstream_inference_cost": 0.020564,
+        "upstream_inference_prompt_cost": 0.000104
+      },
+      "is_byok": false,
+      "prompt_tokens": 52,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 1757
+    }
+  },
+  "prompt_category": "explain",
+  "prompt_id": "explain_property_tax",
+  "response_text": "If you are a homeowner, you are probably familiar with the annual ritual of opening your property tax bill. Sometimes the number stays roughly the same; other times, it jumps unexpectedly. \n\nProperty taxes are the primary way local governments pay for essential community services like public schools, police and fire departments, road maintenance, and parks. But how exactly is that final number on your bill calculated, and why does it seem to be a moving target? \n\nHere is a plain-English breakdown of how property taxes work.\n\n### How Your Property Tax is Set\n\nYour property tax bill is the result of a simple math equation with two main variables: **Assessed Value** and the **Tax Rate**. \n\n**1. The Assessed Value**\nEvery town, city, or county has a local official called a tax assessor. The assessor\u2019s job is to estimate how much your property is worth. This is known as the \"assessed value.\" \n\nTo figure this out, the assessor looks at what similar homes in your neighborhood are selling for, how much land you have, and the size and condition of your house. It is important to note that the *assessed* value is not always the exact same as the *market* value (what a buyer would actually pay for your house today). In many areas, the assessed value is calculated as a specific percentage of the market value. \n\n**2. The Tax Rate (or Mill Rate)**\nWhile the assessor determines what your home is worth, your local government (city council, county commission, and school board) determines the tax rate. \n\nEvery year, these local agencies draft a budget. They add up how much money they need to run the schools, pave the streets, and pay the police. Then, they subtract the money they get from other sources, like state funding or sales taxes. The remaining amount is what they need to collect from property owners. \n\nThey divide this total needed amount by the total assessed value of all the properties in the town. The result is the tax rate, sometimes called a \"mill rate.\" \n\n**The Formula**\nOnce the local government has those two numbers, they multiply them together. \n*Your Home\u2019s Assessed Value \u00d7 The Local Tax Rate = Your Property Tax Bill.*\n\n### Why Your Tax Bill Changes from Year to Year\n\nBecause your tax bill relies on both your home's value and the local government's budget, a change in either of those factors will change your bill. Here are the most common reasons your property taxes fluctuate:\n\n**1. Your home\u2019s value changed**\nReal estate markets are constantly shifting. If a lot of people are moving to your town and home prices are skyrocketing, the assessor will eventually update your home's assessed value to reflect that hotter market. Even if the local tax rate stays exactly the same, a higher home value means a higher tax bill. \n\n**2. You made improvements to your home**\nIf you add a new bedroom, finish your basement, or build a large deck, you are increasing the value of your property. When the assessor updates their records to include your new additions, your assessed value\u2014and your tax bill\u2014will go up.\n\n**3. The local government needs more money**\nJust like the cost of groceries and utilities goes up for you, the cost of running a town goes up for the local government. If the cost of asphalt for roads increases, or if teachers negotiate a pay raise, the town\u2019s budget grows. To cover that larger budget, the local government will raise the tax rate. When the tax rate goes up, your bill goes up, even if your home's value hasn't changed a single cent.\n\n**4. Voters approved new bonds or levies**\nDuring local elections, you will often see ballot measures asking voters to approve funding for specific projects, like building a new high school, upgrading a 911 dispatch center, or expanding the local library. If the majority of voters approve these measures, a special tax (a levy or bond) is added to the local tax rate, which will increase your bill.\n\n**5. Changes in your exemptions**\nMany states offer property tax relief programs, such as a \"homestead exemption\" for your primary residence, or discounts for senior citizens, veterans, or disabled individuals. If you recently bought the house and haven't applied for your homestead exemption yet, or if you no longer qualify for a specific discount, your bill will be higher than it was previously.\n\n### What You Can Do\nIf you receive your tax bill and the assessed value of your home seems completely wrong\u2014for example, the assessor thinks your home is worth $500,000 but identical homes on your street are selling for $350,000\u2014you have the right to appeal. \n\nEvery local tax authority has an appeal process, usually with a strict deadline shortly after assessment notices are mailed out. By providing evidence of your home's true value, such as a recent appraisal or photos of needed repairs, you may be able to get your assessed value lowered, which will in turn lower your tax bill.",
+  "run_name": "2026-03-07-openrouter-v0-1-salvage-1"
+}

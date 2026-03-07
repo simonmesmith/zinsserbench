@@ -1,0 +1,47 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.1",
+  "candidate_model_id": "google/gemini-3.1-flash-lite-preview",
+  "created_at": "2026-03-07T21:10:27Z",
+  "judge_model_id": "google/gemini-3.1-pro-preview",
+  "metadata": {
+    "id": "gen-1772917821-jFKYdPijNirlrEECXWG9",
+    "raw_text": "{\n  \"scores\": {\n    \"clarity\": 5,\n    \"simplicity\": 5,\n    \"brevity_economy\": 5,\n    \"structure_flow\": 5,\n    \"specificity_precision\": 5,\n    \"humanity_voice\": 4,\n    \"overall\": 5\n  },\n  \"rationale\": \"The memo is exceptionally clear, well-structured, and directly addresses all prompt requirements. The use of bullet points and headings makes it easy to scan. The language is professional, precise, and economical, striking the right tone for a CFO addressing department heads.\"\n}",
+    "usage": {
+      "completion_tokens": 379,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 242
+      },
+      "cost": 0.006374,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.004548,
+        "upstream_inference_cost": 0.006374,
+        "upstream_inference_prompt_cost": 0.001826
+      },
+      "is_byok": false,
+      "prompt_tokens": 913,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 1292
+    }
+  },
+  "prompt_category": "memo",
+  "prompt_id": "memo_budget_freeze",
+  "rationale": "The memo is exceptionally clear, well-structured, and directly addresses all prompt requirements. The use of bullet points and headings makes it easy to scan. The language is professional, precise, and economical, striking the right tone for a CFO addressing department heads.",
+  "run_name": "2026-03-07-openrouter-v0-1-salvage-1",
+  "scores": {
+    "brevity_economy": 5,
+    "clarity": 5,
+    "humanity_voice": 4,
+    "overall": 5,
+    "simplicity": 5,
+    "specificity_precision": 5,
+    "structure_flow": 5
+  }
+}

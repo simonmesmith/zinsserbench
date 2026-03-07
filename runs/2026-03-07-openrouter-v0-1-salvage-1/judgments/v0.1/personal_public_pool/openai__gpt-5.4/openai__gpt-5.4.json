@@ -1,0 +1,47 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.1",
+  "candidate_model_id": "openai/gpt-5.4",
+  "created_at": "2026-03-07T21:26:09Z",
+  "judge_model_id": "openai/gpt-5.4",
+  "metadata": {
+    "id": "gen-1772918764-Jpun2G35pd5ZwXysDctj",
+    "raw_text": "{\"scores\":{\"clarity\":4,\"simplicity\":4,\"brevity_economy\":4,\"structure_flow\":3,\"specificity_precision\":5,\"humanity_voice\":5,\"overall\":4},\"rationale\":\"Vivid, precise sensory details and a strong personal voice make the piece easy to picture and engaging to read. The central idea\u2014that the pool mirrors the town\u2014is clear and promising, but the response ends mid-sentence and feels unfinished, so the structure and overall effectiveness are limited by lack of full development.\"}",
+    "usage": {
+      "completion_tokens": 286,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 170
+      },
+      "cost": 0.0060125,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.00429,
+        "upstream_inference_cost": 0.0060125,
+        "upstream_inference_prompt_cost": 0.0017225
+      },
+      "is_byok": false,
+      "prompt_tokens": 689,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 975
+    }
+  },
+  "prompt_category": "personal_nonfiction",
+  "prompt_id": "personal_public_pool",
+  "rationale": "Vivid, precise sensory details and a strong personal voice make the piece easy to picture and engaging to read. The central idea\u2014that the pool mirrors the town\u2014is clear and promising, but the response ends mid-sentence and feels unfinished, so the structure and overall effectiveness are limited by lack of full development.",
+  "run_name": "2026-03-07-openrouter-v0-1-salvage-1",
+  "scores": {
+    "brevity_economy": 4,
+    "clarity": 4,
+    "humanity_voice": 5,
+    "overall": 4,
+    "simplicity": 4,
+    "specificity_precision": 5,
+    "structure_flow": 3
+  }
+}

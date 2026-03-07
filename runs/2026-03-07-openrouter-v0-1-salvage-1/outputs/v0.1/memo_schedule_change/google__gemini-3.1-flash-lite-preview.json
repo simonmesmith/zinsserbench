@@ -1,0 +1,43 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.1",
+  "candidate_label": "Gemini 3.1 Flash Lite Preview",
+  "candidate_model_id": "google/gemini-3.1-flash-lite-preview",
+  "created_at": "2026-03-07T21:06:00Z",
+  "metadata": {
+    "id": "gen-1772917556-NZa3sjAgPDZoXjX4KNSp",
+    "quality_guard": {
+      "minimum_words": 100,
+      "reason": "",
+      "status": "ok",
+      "word_count": 339
+    },
+    "usage": {
+      "completion_tokens": 871,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 391
+      },
+      "cost": 0.00131775,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.0013065,
+        "upstream_inference_cost": 0.00131775,
+        "upstream_inference_prompt_cost": 1.125e-05
+      },
+      "is_byok": false,
+      "prompt_tokens": 45,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 916
+    }
+  },
+  "prompt_category": "memo",
+  "prompt_id": "memo_schedule_change",
+  "response_text": "**MEMORANDUM**\n\n**TO:** All Warehouse Staff\n**FROM:** Operations Management\n**DATE:** October 24, 2023\n**SUBJECT:** Upcoming Shift Schedule Adjustments for Holiday Peak Season\n\nAs we approach the holiday season, our order volume is projected to increase significantly. To ensure we continue to meet our delivery commitments to our customers while maintaining a safe and efficient work environment, we will be implementing temporary adjustments to our shift schedules.\n\n**Effective Dates**\nThese changes will go into effect on **[Start Date]** and will remain in place through **[End Date]**.\n\n**Shift Schedule Changes**\nTo manage the increased workload, the following adjustments will be made:\n\n*   **Extended Hours:** All shifts will move from [8-hour] to [10-hour] rotations. \n*   **Weekend Coverage:** [Specific teams/departments] will be scheduled for mandatory Saturday shifts. Please refer to the attached schedule for your specific team\u2019s rotation.\n*   **Break Times:** To accommodate the extended hours, we are adding an additional [15-minute] paid break to each shift.\n\n**Compensation and Support**\nWe recognize that these changes require a significant commitment of your time. All hours worked beyond your standard 40-hour work week will be compensated at the overtime rate of 1.5x your base pay. \n\nWe are also committed to supporting you during this busy period. We will be providing [mention any perks, e.g., catered meals, hydration stations, or additional break room resources] throughout the peak season to ensure you have what you need to stay energized.\n\n**Next Steps**\nYour updated individual schedules are now posted on the bulletin board in the break room and have been uploaded to the employee portal. Please review your assigned hours by [Date]. If you have a pre-existing conflict that requires immediate attention, please speak with your direct supervisor by [Date].\n\nWe understand that the holiday season is a demanding time, and we want to express our sincere appreciation for your hard work and dedication. You are the backbone of our operations, and your efforts are what make our success possible. \n\nThank you for your continued commitment to our team and our customers.\n\nBest regards,\n\n[Name]\nOperations Manager\n[Company Name]",
+  "run_name": "2026-03-07-openrouter-v0-1-salvage-1"
+}

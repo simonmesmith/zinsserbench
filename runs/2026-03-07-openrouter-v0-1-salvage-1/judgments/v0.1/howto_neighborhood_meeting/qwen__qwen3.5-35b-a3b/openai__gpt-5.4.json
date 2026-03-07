@@ -1,0 +1,47 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.1",
+  "candidate_model_id": "qwen/qwen3.5-35b-a3b",
+  "created_at": "2026-03-07T21:19:58Z",
+  "judge_model_id": "openai/gpt-5.4",
+  "metadata": {
+    "id": "gen-1772918394-dAa4545I7mSyXbxkL3tG",
+    "raw_text": "{\"scores\":{\"clarity\":2,\"simplicity\":3,\"brevity_economy\":2,\"structure_flow\":2,\"specificity_precision\":3,\"humanity_voice\":1,\"overall\":2},\"rationale\":\"Mostly an outline and meta planning notes, not a finished practical guide. The steps are understandable and include some concrete points like gathering photos, accident reports, and booking a venue, but the piece is incomplete, broken off mid-sentence, and spends too much space on process instead of directly serving the reader. The voice is mechanical rather than human-facing.\"}",
+    "usage": {
+      "completion_tokens": 232,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 107
+      },
+      "cost": 0.005515,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.00348,
+        "upstream_inference_cost": 0.005515,
+        "upstream_inference_prompt_cost": 0.002035
+      },
+      "is_byok": false,
+      "prompt_tokens": 814,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 1046
+    }
+  },
+  "prompt_category": "service_howto",
+  "prompt_id": "howto_neighborhood_meeting",
+  "rationale": "Mostly an outline and meta planning notes, not a finished practical guide. The steps are understandable and include some concrete points like gathering photos, accident reports, and booking a venue, but the piece is incomplete, broken off mid-sentence, and spends too much space on process instead of directly serving the reader. The voice is mechanical rather than human-facing.",
+  "run_name": "2026-03-07-openrouter-v0-1-salvage-1",
+  "scores": {
+    "brevity_economy": 2,
+    "clarity": 2,
+    "humanity_voice": 1,
+    "overall": 2,
+    "simplicity": 3,
+    "specificity_precision": 3,
+    "structure_flow": 2
+  }
+}

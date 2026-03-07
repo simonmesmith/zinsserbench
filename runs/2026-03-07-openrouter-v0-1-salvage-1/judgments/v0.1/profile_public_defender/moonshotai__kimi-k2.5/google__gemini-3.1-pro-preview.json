@@ -1,0 +1,47 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.1",
+  "candidate_model_id": "moonshotai/kimi-k2.5",
+  "created_at": "2026-03-07T21:32:34Z",
+  "judge_model_id": "google/gemini-3.1-pro-preview",
+  "metadata": {
+    "id": "gen-1772919146-lJdJr4DaxGfCyX91hTd8",
+    "raw_text": "{\n  \"scores\": {\n    \"clarity\": 5,\n    \"simplicity\": 5,\n    \"brevity_economy\": 5,\n    \"structure_flow\": 5,\n    \"specificity_precision\": 5,\n    \"humanity_voice\": 5,\n    \"overall\": 5\n  },\n  \"rationale\": \"The piece is exceptionally well-written, using a chronological 'day in the life' structure to vividly portray the subject. It excels in specificity (e.g., 127 cases, 2012 Honda Civic, lithium vs. methadone) and maintains a strong, empathetic voice throughout. The prose is clear, economical, and flows logically from morning to night.\"\n}",
+    "usage": {
+      "completion_tokens": 577,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 414
+      },
+      "cost": 0.010324,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.006924,
+        "upstream_inference_cost": 0.010324,
+        "upstream_inference_prompt_cost": 0.0034
+      },
+      "is_byok": false,
+      "prompt_tokens": 1700,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 2277
+    }
+  },
+  "prompt_category": "profile",
+  "prompt_id": "profile_public_defender",
+  "rationale": "The piece is exceptionally well-written, using a chronological 'day in the life' structure to vividly portray the subject. It excels in specificity (e.g., 127 cases, 2012 Honda Civic, lithium vs. methadone) and maintains a strong, empathetic voice throughout. The prose is clear, economical, and flows logically from morning to night.",
+  "run_name": "2026-03-07-openrouter-v0-1-salvage-1",
+  "scores": {
+    "brevity_economy": 5,
+    "clarity": 5,
+    "humanity_voice": 5,
+    "overall": 5,
+    "simplicity": 5,
+    "specificity_precision": 5,
+    "structure_flow": 5
+  }
+}

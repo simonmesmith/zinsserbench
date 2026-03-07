@@ -1,0 +1,37 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.1",
+  "candidate_label": "Claude Opus 4.6",
+  "candidate_model_id": "anthropic/claude-opus-4.6",
+  "created_at": "2026-03-07T15:02:57Z",
+  "metadata": {
+    "id": "gen-1772895765-GM8ngIQOsfLzXI2vKXV1",
+    "usage": {
+      "completion_tokens": 500,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 29
+      },
+      "cost": 0.01296,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.0125,
+        "upstream_inference_cost": 0.01296,
+        "upstream_inference_prompt_cost": 0.00046
+      },
+      "is_byok": false,
+      "prompt_tokens": 92,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 592
+    }
+  },
+  "prompt_category": "memo",
+  "prompt_id": "memo_remote_work_policy",
+  "response_text": "**INTERNAL MEMO**\n\n**To:** All Employees\n**From:** Jessica Huang, VP of People Operations\n**Date:** June 12, 2025\n**Re:** New Flexible Remote Work Policy \u2014 Effective August 1, 2025\n\n---\n\n**Purpose of This Memo**\n\nI'm writing to share a significant update to how and where we work. Starting August 1, we are adopting a structured flexible remote work policy that gives every employee the option to work remotely up to three days per week, with two designated in-office collaboration days.\n\nPlease read this memo in full. It outlines the policy, why we're making this change, and the steps each of you needs to take in the coming weeks.\n\n---\n\n**The Policy**\n\nBeginning August 1, the following guidelines will apply company-wide:\n\n- **Tuesday and Thursday are in-office days.** All employees within commuting distance of our headquarters are expected to be on-site these two days each week. These will serve as our anchor days for team meetings, cross-functional collaboration, and company-wide gatherings.\n\n- **Monday, Wednesday, and Friday are flexible remote days.** You may work from home or another suitable location of your choosing. Managers will not require additional in-office attendance on these days except in rare, pre-approved circumstances such as client visits or critical project milestones.\n\n- **Fully remote arrangements** may be granted on a case-by-case basis for employees who live more than 75 miles from the office or who have other qualifying circumstances. These require written approval from your direct manager and from People Operations.\n\n- **Core working hours remain 10:00 AM\u20133:00 PM ET** on all days, regardless of location. You are expected to be available and responsive during this window. How you structure the rest of your workday is between you and your manager.\n\n- **All existing expectations around performance, responsiveness, and meeting attendance remain unchanged.** Remote days are not reduced-effort days. The same standards apply wherever you work.\n\n---\n\n**Why We're Making This Change**\n\nThis decision did not come",
+  "run_name": "2026-03-07-openrouter-v0-1"
+}

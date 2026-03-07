@@ -1,0 +1,37 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.1",
+  "candidate_label": "Claude Opus 4.6",
+  "candidate_model_id": "anthropic/claude-opus-4.6",
+  "created_at": "2026-03-07T15:06:13Z",
+  "metadata": {
+    "id": "gen-1772895957-B96TZ70H3UVFXocKz7Tw",
+    "usage": {
+      "completion_tokens": 500,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 50
+      },
+      "cost": 0.01292,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.0125,
+        "upstream_inference_cost": 0.01292,
+        "upstream_inference_prompt_cost": 0.00042
+      },
+      "is_byok": false,
+      "prompt_tokens": 84,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 584
+    }
+  },
+  "prompt_category": "profile",
+  "prompt_id": "profile_school_custodian",
+  "response_text": "# The Keeper of the Halls\n\n## A Profile of Ray Muchnick, Head Custodian at Westfield North High School\n\n---\n\nThe first bell at Westfield North High School rings at 7:25 a.m. By then, Ray Muchnick has already been inside the building for three hours.\n\nHe arrives in the dark, always through the loading dock entrance near the gymnasium, always with a thermos of black coffee and a transistor radio he clips to his belt \u2014 a habit he refuses to update, even though his daughter bought him wireless earbuds two Christmases ago. He starts with the boilers. Then the hallways. Then the front entrance, where he scatters ice melt in winter or props the doors wide in September, when the building still holds summer's heat like a kiln.\n\nBy the time students begin streaming through those doors, everything is ready. The floors shine. The bathrooms are stocked. The gymnasium smells like pine instead of yesterday's volleyball practice. And Ray is stationed in the main corridor near the front office, pushing a dust mop he doesn't technically need to push, because the real work of his morning is already finished.\n\nHe's there for a different reason now.\n\n\"Morning, Destiny. You get that calc test back yet?\"\n\n\"Hey, Marcus \u2014 how'd the interview go?\"\n\n\"Sofia! Tell your mom I said thank you for the tamales.\"\n\nOne by one, sometimes in clusters, 1,400 students pass through the hallway, and Ray Muchnick greets a staggering number of them by name. Not just the athletes or the student council kids. The freshmen who haven't spoken a word to anyone yet. The boy who eats lunch alone near the vending machines. The girl with the purple hearing aids who transfers between buildings for her ASL class. He knows them. He asks them questions. He remembers what they told him last time.\n\n\"I don't have some trick,\" Ray says, waving off the suggestion that his memory is",
+  "run_name": "2026-03-07-openrouter-v0-1"
+}

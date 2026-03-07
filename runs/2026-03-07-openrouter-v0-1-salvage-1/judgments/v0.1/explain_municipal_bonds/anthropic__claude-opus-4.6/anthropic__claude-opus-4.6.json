@@ -1,0 +1,47 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.1",
+  "candidate_model_id": "anthropic/claude-opus-4.6",
+  "created_at": "2026-03-07T21:14:11Z",
+  "judge_model_id": "anthropic/claude-opus-4.6",
+  "metadata": {
+    "id": "gen-1772918043-lsMxjRt0zpIqSLZtldkB",
+    "raw_text": "{\"scores\": {\"clarity\": 5, \"simplicity\": 5, \"brevity_economy\": 4, \"structure_flow\": 4, \"specificity_precision\": 4, \"humanity_voice\": 5, \"overall\": 4}, \"rationale\": \"The writing is exceptionally clear and accessible\u2014analogies like the home mortgage and the bridge example ground abstract finance in everyday experience. Language is plain and direct throughout without ever feeling dumbed-down. The voice is warm, conversational, and genuinely reader-aware. Concrete details ($50 million bridge, 10/20/30-year terms, specific entities like school districts and toll road agencies) add precision. Structure flows logically from concept \u2192 why bonds exist \u2192 who issues them \u2192 why investors buy them. However, the piece is cut off mid-sentence in the investor section, leaving a major part of the explainer (the tax-exemption advantage, risks, how to buy them) unfinished. This incompleteness materially hurts structure/flow and overall effectiveness. Economy is good where present, with minimal throat-clearing, though the mortgage analogy somewhat repeats the earlier spread-the-cost point.\"}",
+    "usage": {
+      "completion_tokens": 295,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 25
+      },
+      "cost": 0.01188,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.007375,
+        "upstream_inference_cost": 0.01188,
+        "upstream_inference_prompt_cost": 0.004505
+      },
+      "is_byok": false,
+      "prompt_tokens": 901,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 1196
+    }
+  },
+  "prompt_category": "explain",
+  "prompt_id": "explain_municipal_bonds",
+  "rationale": "The writing is exceptionally clear and accessible\u2014analogies like the home mortgage and the bridge example ground abstract finance in everyday experience. Language is plain and direct throughout without ever feeling dumbed-down. The voice is warm, conversational, and genuinely reader-aware. Concrete details ($50 million bridge, 10/20/30-year terms, specific entities like school districts and toll road agencies) add precision. Structure flows logically from concept \u2192 why bonds exist \u2192 who issues them \u2192 why investors buy them. However, the piece is cut off mid-sentence in the investor section, leaving a major part of the explainer (the tax-exemption advantage, risks, how to buy them) unfinished. This incompleteness materially hurts structure/flow and overall effectiveness. Economy is good where present, with minimal throat-clearing, though the mortgage analogy somewhat repeats the earlier spread-the-cost point.",
+  "run_name": "2026-03-07-openrouter-v0-1-salvage-1",
+  "scores": {
+    "brevity_economy": 4,
+    "clarity": 5,
+    "humanity_voice": 5,
+    "overall": 4,
+    "simplicity": 5,
+    "specificity_precision": 4,
+    "structure_flow": 4
+  }
+}

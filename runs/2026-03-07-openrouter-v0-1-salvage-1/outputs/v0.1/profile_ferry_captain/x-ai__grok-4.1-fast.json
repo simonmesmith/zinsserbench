@@ -1,0 +1,37 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.1",
+  "candidate_label": "Grok 4.1 Fast",
+  "candidate_model_id": "x-ai/grok-4.1-fast",
+  "created_at": "2026-03-07T15:06:56Z",
+  "metadata": {
+    "id": "gen-1772896004-bnBLjsa0sqqYaSZZAaHA",
+    "usage": {
+      "completion_tokens": 880,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 380
+      },
+      "cost": 0.00045865,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.00044,
+        "upstream_inference_cost": 0.00045865,
+        "upstream_inference_prompt_cost": 1.865e-05
+      },
+      "is_byok": false,
+      "prompt_tokens": 205,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 149,
+        "video_tokens": 0
+      },
+      "total_tokens": 1085
+    }
+  },
+  "prompt_category": "profile",
+  "prompt_id": "profile_ferry_captain",
+  "response_text": "# Steady at the Helm: Captain Elias Thorne's 30 Years on the Eldridge Bay Ferry\n\n**By [Your Name], Coastal Chronicle**\n\nAt 4:45 a.m., as the first blush of dawn streaks the horizon over Eldridge Bay, Captain Elias Thorne steps aboard the *Sea Weaver*, his 65-foot ferry that's been his second skin for three decades. The air is crisp with salt and diesel, and the wooden pilothouse creaks like an old friend under his callused hands. Thorne, 68, with a salt-and-pepper beard framing a face etched by wind and worry lines, checks the tide charts one last time. \"Same as yesterday, different as every day,\" he mutters, a ritual phrase that's as much weather report as philosophy.\n\nFor 30 years, Thorne has captained the route between Eldridge Bay and Harbor's End, two sleepy coastal towns in northern Maine separated by 12 nautical miles of often unforgiving Atlantic. What began as a summer job in 1994 has become a lifeline\u2014literally\u2014for the 500 residents who rely on the *Sea Weaver* for groceries, medical trips, and the simple commute to jobs on the \"mainland.\" In an era of apps and autopilots, Thorne's world is analog: radar scopes, VHF radios, and an unerring instinct for the sea's moods.\n\nThorne wasn't born to the wheel. Raised in inland Bangor, he stumbled into ferrying after a stint in the merchant marines and a failed lobster venture in the '80s. \"Lost my boat to a nor'easter, lost my shirt to bad prices,\" he recalls, sipping black coffee from a chipped mug emblazoned with the ferry's logo. In 1994, the previous captain retired abruptly, and Thorne, then 38 and newly divorced, took the helm. \"Figured it was steady pay and steady water. Didn't know it'd be my life.\"\n\nThe route is deceptively simple: depart Eldridge at 6 a.m., arrive Harbor's End by 6:45; return by 7:30; repeat six times daily until the 8 p.m. finale. But the passage is a gauntlet. Eldridge Bay's harbor is shallow and silty, demanding precise maneuvering to avoid the oyster beds. Midway, the channel narrows through \"The Gut,\" where currents rip at 5 knots and fog can swallow the horizon whole. Harbor's End sits at the",
+  "run_name": "2026-03-07-openrouter-v0-1"
+}

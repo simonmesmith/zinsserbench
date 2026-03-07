@@ -1,0 +1,43 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.1",
+  "candidate_label": "Gemini 3.1 Flash Lite Preview",
+  "candidate_model_id": "google/gemini-3.1-flash-lite-preview",
+  "created_at": "2026-03-07T21:05:51Z",
+  "metadata": {
+    "id": "gen-1772917543-NWur4h9E8xKpW9XaCIEI",
+    "quality_guard": {
+      "minimum_words": 200,
+      "reason": "",
+      "status": "ok",
+      "word_count": 669
+    },
+    "usage": {
+      "completion_tokens": 1385,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 560
+      },
+      "cost": 0.00208875,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.0020775,
+        "upstream_inference_cost": 0.00208875,
+        "upstream_inference_prompt_cost": 1.125e-05
+      },
+      "is_byok": false,
+      "prompt_tokens": 45,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 1430
+    }
+  },
+  "prompt_category": "personal_nonfiction",
+  "prompt_id": "personal_night_shift_bus",
+  "response_text": "The 11:45 PM bus is not a mode of transportation; it is a decompression chamber. For the past year, it has been the final, necessary act of my day, a twenty-minute transition between the frantic demands of the city and the silence of my apartment.\n\nI have come to know the rhythm of the route by heart. It begins with the hiss of the air brakes, a sound that cuts through the damp, midnight air like a sigh of relief. When the doors fold open, the bus is always bathed in that specific, sterile fluorescent light that makes everyone look like they are underwater. \n\nThere is a silent, unspoken contract among the regulars. We are the people who work the closing shifts, the ones who study until the library lights dim, the ones who have nowhere else to be but home. We don\u2019t make eye contact. To look at someone too long is to acknowledge the exhaustion etched into their face, and we are all too tired to carry anyone else\u2019s burden. Instead, we occupy our designated territories: the nurse in the front row, her scrubs wrinkled and her eyes fixed on a point somewhere past the windshield; the student in the middle, surrounded by a fortress of textbooks; the man in the grey coat who always sits in the back, staring out the window at the blurred reflections of streetlights.\n\nOver the course of a year, the bus became a sanctuary of anonymity. In the daylight, I am defined by my job, my responsibilities, and the expectations of others. But on the 11:45, I am a ghost. I am simply a body in a seat, watching the city transform. \n\nI watched the seasons change through the glass. In the winter, the windows were often fogged with our collective breath, turning the world outside into a smear of orange and white light. In the summer, the bus felt like a cool, moving cave, a reprieve from the humid, heavy air of the streets. I learned to read the city\u2019s mood by the way the bus moved. On Friday nights, there was a jagged, restless energy; on Tuesdays, the silence was heavy, almost thick enough to touch.\n\nThere is a strange intimacy in sharing a space with strangers for three hundred and sixty-five days without ever learning their names. I know the nurse\u2019s heavy sigh when she finally leans her head against the window. I know the student\u2019s habit of tapping his pen against his knee when he\u2019s stressed. I know the man in the grey coat always gets off at 4th Street, two stops before I do. We are a community of the transient, bound together by the simple fact that we are all heading toward the same quiet end.\n\nSometimes, I wonder if they notice me, too. Do they see the way my shoulders drop when I finally sit down? Do they recognize the specific slump of my posture as the sign of a day well-spent or a day merely survived? \n\nLast week, the bus was delayed. We stood on the curb in the biting cold, a small, shivering cluster of people. For a moment, the barrier broke. The nurse looked at the student and asked, \"Running late again?\" The student nodded, and for the first time in a year, there was a murmur of conversation\u2014a shared complaint about the transit authority, a brief, human connection forged in the frost. \n\nWhen the bus finally arrived, we boarded with a renewed sense of camaraderie. We took our usual seats, but the air felt different. The silence wasn't a wall anymore; it was a shared understanding. \n\nI know that eventually, I will stop taking this route. I will move, or my schedule will change, or the city will shift beneath my feet. But I will always remember the 11:45. It taught me that there is a quiet dignity in the late-night commute, a grace in the way we all move through the dark, heading home, one stop at a time.",
+  "run_name": "2026-03-07-openrouter-v0-1-salvage-1"
+}

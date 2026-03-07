@@ -1,0 +1,47 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.1",
+  "candidate_model_id": "anthropic/claude-sonnet-4.6",
+  "created_at": "2026-03-07T21:20:40Z",
+  "judge_model_id": "anthropic/claude-opus-4.6",
+  "metadata": {
+    "id": "gen-1772918433-QLX9fePd6Xt3BdtOSuBF",
+    "raw_text": "{\"scores\": {\"clarity\": 5, \"simplicity\": 5, \"brevity_economy\": 5, \"structure_flow\": 4, \"specificity_precision\": 5, \"humanity_voice\": 5, \"overall\": 4}, \"rationale\": \"What's present is excellent: crystal-clear instructions, plain language, no filler, and genuinely useful concrete details (e.g., puncturing a bulging ceiling with a screwdriver, cutting the breaker). The voice is calm and reassuring without being condescending. However, the piece is clearly truncated mid-sentence in Step 2 and never reaches critical tenant-specific steps like contacting the landlord, documenting damage for insurance/deposit disputes, or follow-up on mold. This incompleteness significantly hurts structure/flow and overall effectiveness, since the prompt asked for a practical guide and the reader is left without roughly half the necessary guidance.\"}",
+    "usage": {
+      "completion_tokens": 244,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 26
+      },
+      "cost": 0.010345,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.0061,
+        "upstream_inference_cost": 0.010345,
+        "upstream_inference_prompt_cost": 0.004245
+      },
+      "is_byok": false,
+      "prompt_tokens": 849,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 1093
+    }
+  },
+  "prompt_category": "service_howto",
+  "prompt_id": "howto_report_water_leak",
+  "rationale": "What's present is excellent: crystal-clear instructions, plain language, no filler, and genuinely useful concrete details (e.g., puncturing a bulging ceiling with a screwdriver, cutting the breaker). The voice is calm and reassuring without being condescending. However, the piece is clearly truncated mid-sentence in Step 2 and never reaches critical tenant-specific steps like contacting the landlord, documenting damage for insurance/deposit disputes, or follow-up on mold. This incompleteness significantly hurts structure/flow and overall effectiveness, since the prompt asked for a practical guide and the reader is left without roughly half the necessary guidance.",
+  "run_name": "2026-03-07-openrouter-v0-1-salvage-1",
+  "scores": {
+    "brevity_economy": 5,
+    "clarity": 5,
+    "humanity_voice": 5,
+    "overall": 4,
+    "simplicity": 5,
+    "specificity_precision": 5,
+    "structure_flow": 4
+  }
+}

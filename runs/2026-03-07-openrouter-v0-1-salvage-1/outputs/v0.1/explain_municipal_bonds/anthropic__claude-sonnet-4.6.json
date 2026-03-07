@@ -1,0 +1,37 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.1",
+  "candidate_label": "Claude Sonnet 4.6",
+  "candidate_model_id": "anthropic/claude-sonnet-4.6",
+  "created_at": "2026-03-07T15:04:50Z",
+  "metadata": {
+    "id": "gen-1772895876-lip4Fsi6wa28ph7B2VkP",
+    "usage": {
+      "completion_tokens": 500,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 42
+      },
+      "cost": 0.007731,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.0075,
+        "upstream_inference_cost": 0.007731,
+        "upstream_inference_prompt_cost": 0.000231
+      },
+      "is_byok": false,
+      "prompt_tokens": 77,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 577
+    }
+  },
+  "prompt_category": "explain",
+  "prompt_id": "explain_municipal_bonds",
+  "response_text": "# Municipal Bonds: How Cities Borrow Money to Build Things\n\n## The Basic Idea\n\nImagine your city needs a new bridge. It costs $50 million. The city doesn't have $50 million sitting in a drawer, and it can't exactly wait twenty years until it saves up enough. So it does what most people do when they need money for something big: it borrows.\n\nA municipal bond \u2014 often called a \"muni\" \u2014 is how cities, counties, school districts, and other local governments borrow that money. Instead of going to a single bank, they borrow from thousands of ordinary investors at once. Each investor buys a bond, essentially lending the city a chunk of money. In return, the city promises to pay that money back by a specific date, plus regular interest payments along the way.\n\nThat's really all a bond is: a formal IOU with a repayment schedule attached.\n\n---\n\n## How It Works in Practice\n\nSay the city of Springfield issues $10 million in bonds to build a new water treatment plant. An investor buys a $5,000 bond. For the next 20 years, the city pays that investor a fixed amount of interest twice a year \u2014 say, 3 percent annually, or $150 every six months. When the 20 years are up, the city pays back the original $5,000. The investor gets their money back with interest, and Springfield has a water treatment plant.\n\nThe interest rate the city offers depends on a few things: how long they're borrowing for, what interest rates are doing in the broader economy, and how financially healthy the city appears to be. Cities with strong credit ratings can borrow at lower rates. Cities in shakier financial shape have to offer higher rates to attract investors.\n\n---\n\n## Why Cities Issue Bonds Instead of Just Raising Taxes\n\nThere's a simple fairness argument here. A bridge built today will serve residents for the next 40 or 50 years. Why should only the people living in the city *right now* pay for the entire thing through their taxes? Bonds spread",
+  "run_name": "2026-03-07-openrouter-v0-1"
+}

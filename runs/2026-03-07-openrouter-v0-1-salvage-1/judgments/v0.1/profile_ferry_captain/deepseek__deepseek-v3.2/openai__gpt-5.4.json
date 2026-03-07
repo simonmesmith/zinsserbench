@@ -1,0 +1,47 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.1",
+  "candidate_model_id": "deepseek/deepseek-v3.2",
+  "created_at": "2026-03-07T21:18:10Z",
+  "judge_model_id": "openai/gpt-5.4",
+  "metadata": {
+    "id": "gen-1772918284-h2KSKT7HLmBvAb7hIm8z",
+    "raw_text": "{\"scores\":{\"clarity\":4,\"simplicity\":3,\"brevity_economy\":3,\"structure_flow\":4,\"specificity_precision\":5,\"humanity_voice\":5,\"overall\":4},\"rationale\":\"Vivid, specific, and warmly human, with strong concrete details about the captain, passengers, and route. It reads smoothly and feels like a real profile, but the language is sometimes a bit ornate rather than plain, and the piece cuts off mid-sentence, which hurts economy and flow.\"}",
+    "usage": {
+      "completion_tokens": 363,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 249
+      },
+      "cost": 0.0075525,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.005445,
+        "upstream_inference_cost": 0.0075525,
+        "upstream_inference_prompt_cost": 0.0021075
+      },
+      "is_byok": false,
+      "prompt_tokens": 843,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 1206
+    }
+  },
+  "prompt_category": "profile",
+  "prompt_id": "profile_ferry_captain",
+  "rationale": "Vivid, specific, and warmly human, with strong concrete details about the captain, passengers, and route. It reads smoothly and feels like a real profile, but the language is sometimes a bit ornate rather than plain, and the piece cuts off mid-sentence, which hurts economy and flow.",
+  "run_name": "2026-03-07-openrouter-v0-1-salvage-1",
+  "scores": {
+    "brevity_economy": 3,
+    "clarity": 4,
+    "humanity_voice": 5,
+    "overall": 4,
+    "simplicity": 3,
+    "specificity_precision": 5,
+    "structure_flow": 4
+  }
+}

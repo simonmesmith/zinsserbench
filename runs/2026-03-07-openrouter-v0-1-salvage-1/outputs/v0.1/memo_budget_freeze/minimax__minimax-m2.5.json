@@ -1,0 +1,37 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.1",
+  "candidate_label": "MiniMax M2.5",
+  "candidate_model_id": "minimax/minimax-m2.5",
+  "created_at": "2026-03-07T15:03:36Z",
+  "metadata": {
+    "id": "gen-1772895804-o7C1G3klzOYqdtsmk2Ld",
+    "usage": {
+      "completion_tokens": 500,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 83
+      },
+      "cost": 0.0006225,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.0006,
+        "upstream_inference_cost": 0.0006225,
+        "upstream_inference_prompt_cost": 2.25e-05
+      },
+      "is_byok": false,
+      "prompt_tokens": 75,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 575
+    }
+  },
+  "prompt_category": "memo",
+  "prompt_id": "memo_budget_freeze",
+  "response_text": "---\n\n**MEMORANDUM**\n\n**TO:** Department Heads, All Clinical and Administrative Divisions\n**FROM:** [Chief Financial Officer]\n**DATE:** [Current Date]\n**RE:** Temporary Budget Freeze \u2013 Effective Immediately Through Q2 FY2025\n\n---\n\n**Purpose**\n\nThis memo notifies all department heads of a temporary, system-wide budget freeze implemented by executive leadership in response to current financial pressures facing the organization. The freeze is designed to preserve cash flow and ensure operational stability through the second quarter of fiscal year 2025. This memo outlines what is affected, what remains unchanged, and the process for addressing urgent needs.\n\n---\n\n**What Is Affected by the Freeze**\n\nThe following expenditures and commitments are **suspended** until further notice:\n\n- **New hiring** \u2014 All vacant positions are frozen. Recruitment for approved roles may resume after the freeze period, pending financial review.\n\n- **Capital equipment purchases** \u2014 New equipment acquisitions, including replacements and upgrades, are paused. Critical maintenance and repair of existing equipment will continue.\n\n- **Non-essential travel** \u2014 Conference attendance, off-site training, and professional development travel are suspended. Essential clinical training required for licensure or certification will be reviewed on a case-by-case basis.\n\n- **Consultant and contractor engagements** \u2014 New external consulting agreements and contractor contracts are frozen. Existing contracts will be honored through their current terms.\n\n- **Facility improvement projects** \u2014 Non-urgent construction, renovation, and space modification projects are deferred.\n\n- **Discretionary spending** \u2014 Purchases deemed non-essential to direct patient care or regulatory compliance require pre-approval from the Chief Financial Officer.\n\n---\n\n**What Is NOT Affected by the Freeze**\n\nThe following operational needs **will continue without interruption**:\n\n- **Patient care operations** \u2014 All clinical services, including staffing for direct patient care, medical supplies, pharmaceuticals, and necessary clinical equipment maintenance.\n\n- **Staffing for essential roles** \u2014 Current staff salaries and benefits are unaffected. Per diem and temporary staff required to maintain safe patient ratios may be utilized with department director approval.\n\n- **Regulatory and compliance requirements**",
+  "run_name": "2026-03-07-openrouter-v0-1"
+}

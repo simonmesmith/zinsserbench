@@ -1,0 +1,37 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.1",
+  "candidate_label": "Claude Opus 4.6",
+  "candidate_model_id": "anthropic/claude-opus-4.6",
+  "created_at": "2026-03-07T15:16:41Z",
+  "metadata": {
+    "id": "gen-1772896589-Fe9WwOxu02gLpQGjFmyw",
+    "usage": {
+      "completion_tokens": 499,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 30
+      },
+      "cost": 0.01284,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.012475,
+        "upstream_inference_cost": 0.01284,
+        "upstream_inference_prompt_cost": 0.000365
+      },
+      "is_byok": false,
+      "prompt_tokens": 73,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 572
+    }
+  },
+  "prompt_category": "memo",
+  "prompt_id": "memo_schedule_change",
+  "response_text": "**INTERNAL MEMO**\n\n**TO:** All Warehouse Staff\n**FROM:** Warehouse Operations Management\n**DATE:** October 14, 2024\n**RE:** Holiday Season Shift Schedule Changes \u2014 Effective November 1, 2024\n\n---\n\nDear Team,\n\nAs we approach our busiest time of year, we are implementing temporary shift schedule changes to meet increased order volume and ensure timely fulfillment for our customers. These adjustments will take effect **November 1, 2024** and remain in place through **January 5, 2025**.\n\n**Updated Shift Schedule:**\n\n- **Day Shift (A):** 6:00 AM \u2013 2:30 PM (Monday \u2013 Friday)\n- **Swing Shift (B):** 2:00 PM \u2013 10:30 PM (Monday \u2013 Friday)\n- **Night Shift (C):** 10:00 PM \u2013 6:30 AM (Sunday \u2013 Thursday)\n- **Weekend Shift (D):** 6:00 AM \u2013 6:30 PM (Saturday & Sunday) *\u2014 NEW*\n\n**Key Details:**\n\n- Mandatory overtime of up to **10 additional hours per week** may be required during peak weeks (November 25 \u2013 December 22). You will receive at least 72 hours' notice before any mandatory overtime.\n- Weekend shift workers will receive a **shift differential of $2.50/hour** in addition to their base rate.\n- All overtime will be compensated at **1.5x your regular hourly rate**, in accordance with company policy.\n- Your supervisor will confirm your specific shift assignment by **October 21**. Every effort has been made to honor existing shift preferences where possible.\n\n**What We Ask of You:**\n\n- Review your assignment as soon as it is posted and confirm receipt with your shift supervisor.\n- Submit any schedule conflict requests to your supervisor no later than **October 25** so we can make accommodations where feasible.\n- Keep your contact information up to date in the employee portal so we can reach you quickly if schedules need adjustment.",
+  "run_name": "2026-03-07-openrouter-v0-1"
+}

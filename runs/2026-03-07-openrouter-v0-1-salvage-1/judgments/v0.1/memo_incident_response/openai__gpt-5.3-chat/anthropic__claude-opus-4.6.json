@@ -1,0 +1,47 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.1",
+  "candidate_model_id": "openai/gpt-5.3-chat",
+  "created_at": "2026-03-07T21:28:33Z",
+  "judge_model_id": "anthropic/claude-opus-4.6",
+  "metadata": {
+    "id": "gen-1772918906-tQ1t0dWIl2LT2Pj19Z7z",
+    "raw_text": "{\"scores\": {\"clarity\": 5, \"simplicity\": 4, \"brevity_economy\": 4, \"structure_flow\": 5, \"specificity_precision\": 4, \"humanity_voice\": 3, \"overall\": 4}, \"rationale\": \"Very clear and well-structured memo with logical three-part organization (what happened, what's fixed, what's next) that's easy to scan. Language is mostly plain, though phrases like 'authentication and data layers' and 'propagated incorrectly across multiple regions' lean slightly technical without being inaccessible. Specificity is good\u2014concrete timestamps, specific safeguards listed\u2014but the scenario feels somewhat generic/templated (e.g., the root cause description is plausible but reads like a textbook example). The main weakness is voice: it's competent corporate communication but reads as polished and bureaucratic rather than genuinely human. Phrases like 'We appreciate everyone's patience' are boilerplate. Brevity is solid though there's mild redundancy between the safeguards listed under 'fixed' and the promise of 'additional safeguards' under 'what's next.' Overall a strong, professional memo that hits all the right notes without much distinctive personality.\"}",
+    "usage": {
+      "completion_tokens": 277,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 0
+      },
+      "cost": 0.011105,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.006925,
+        "upstream_inference_cost": 0.011105,
+        "upstream_inference_prompt_cost": 0.00418
+      },
+      "is_byok": false,
+      "prompt_tokens": 836,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 1113
+    }
+  },
+  "prompt_category": "memo",
+  "prompt_id": "memo_incident_response",
+  "rationale": "Very clear and well-structured memo with logical three-part organization (what happened, what's fixed, what's next) that's easy to scan. Language is mostly plain, though phrases like 'authentication and data layers' and 'propagated incorrectly across multiple regions' lean slightly technical without being inaccessible. Specificity is good\u2014concrete timestamps, specific safeguards listed\u2014but the scenario feels somewhat generic/templated (e.g., the root cause description is plausible but reads like a textbook example). The main weakness is voice: it's competent corporate communication but reads as polished and bureaucratic rather than genuinely human. Phrases like 'We appreciate everyone's patience' are boilerplate. Brevity is solid though there's mild redundancy between the safeguards listed under 'fixed' and the promise of 'additional safeguards' under 'what's next.' Overall a strong, professional memo that hits all the right notes without much distinctive personality.",
+  "run_name": "2026-03-07-openrouter-v0-1-salvage-1",
+  "scores": {
+    "brevity_economy": 4,
+    "clarity": 5,
+    "humanity_voice": 3,
+    "overall": 4,
+    "simplicity": 4,
+    "specificity_precision": 4,
+    "structure_flow": 5
+  }
+}

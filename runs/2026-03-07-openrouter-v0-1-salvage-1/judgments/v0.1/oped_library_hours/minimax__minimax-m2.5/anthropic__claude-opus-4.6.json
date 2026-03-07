@@ -1,0 +1,47 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.1",
+  "candidate_model_id": "minimax/minimax-m2.5",
+  "created_at": "2026-03-07T21:23:13Z",
+  "judge_model_id": "anthropic/claude-opus-4.6",
+  "metadata": {
+    "id": "gen-1772918585-QKtjhEDFsriJcKvFYlkI",
+    "raw_text": "{\"scores\": {\"clarity\": 5, \"simplicity\": 4, \"brevity_economy\": 3, \"structure_flow\": 5, \"specificity_precision\": 3, \"humanity_voice\": 4, \"overall\": 4}, \"rationale\": \"Clear and well-organized opinion piece with a logical progression from problem to equity to students to community to counterarguments. The writing is accessible and has genuine voice, especially in the closing paragraphs with concrete examples (the nurse, the father, the student). However, it suffers from notable repetition\u2014the 'great equalizer' idea appears twice, the digital divide and working-parent arguments overlap, and several points are restated rather than deepened. The piece also lacks real specificity: no city is named, no actual data on library ROI is cited, no specific dollar figures or hours proposed, and claims like 'millions of working Americans' and 'multiple dollars in economic value' are vague. The language is mostly plain but occasionally tips into rhetorical inflation ('truly transformative,' 'democratic promise'). It's competent op-ed writing but could be tighter and more grounded in evidence.\"}",
+    "usage": {
+      "completion_tokens": 258,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 0
+      },
+      "cost": 0.01221,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.00645,
+        "upstream_inference_cost": 0.01221,
+        "upstream_inference_prompt_cost": 0.00576
+      },
+      "is_byok": false,
+      "prompt_tokens": 1152,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 1410
+    }
+  },
+  "prompt_category": "persuasion_oped",
+  "prompt_id": "oped_library_hours",
+  "rationale": "Clear and well-organized opinion piece with a logical progression from problem to equity to students to community to counterarguments. The writing is accessible and has genuine voice, especially in the closing paragraphs with concrete examples (the nurse, the father, the student). However, it suffers from notable repetition\u2014the 'great equalizer' idea appears twice, the digital divide and working-parent arguments overlap, and several points are restated rather than deepened. The piece also lacks real specificity: no city is named, no actual data on library ROI is cited, no specific dollar figures or hours proposed, and claims like 'millions of working Americans' and 'multiple dollars in economic value' are vague. The language is mostly plain but occasionally tips into rhetorical inflation ('truly transformative,' 'democratic promise'). It's competent op-ed writing but could be tighter and more grounded in evidence.",
+  "run_name": "2026-03-07-openrouter-v0-1-salvage-1",
+  "scores": {
+    "brevity_economy": 3,
+    "clarity": 5,
+    "humanity_voice": 4,
+    "overall": 4,
+    "simplicity": 4,
+    "specificity_precision": 3,
+    "structure_flow": 5
+  }
+}

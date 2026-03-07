@@ -1,0 +1,47 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.1",
+  "candidate_model_id": "openai/gpt-5.3-chat",
+  "created_at": "2026-03-07T21:19:04Z",
+  "judge_model_id": "anthropic/claude-opus-4.6",
+  "metadata": {
+    "id": "gen-1772918328-sg9E3UD8M3S9FWyBqx4W",
+    "raw_text": "{\"scores\": {\"clarity\": 5, \"simplicity\": 5, \"brevity_economy\": 4, \"structure_flow\": 5, \"specificity_precision\": 4, \"humanity_voice\": 4, \"overall\": 4}, \"rationale\": \"Clear, plain-language guide with a logical step-by-step structure that mirrors the real chronology of organizing a meeting. Headings like 'Talk to a few neighbors first' are refreshingly direct. Concrete details\u2014time estimates for agenda blocks (5/15/15/15 min), specific venue options, outreach methods\u2014keep the advice actionable rather than vague. The opening sentence is warm and purposeful. Minor deductions: the piece is truncated mid-sentence at step 8, losing the payoff of next steps and any mention of how to engage city officials (promised in the intro). A touch more specificity on who to contact in local government would strengthen it. Brevity is good overall but the bullet-heavy format occasionally restates what the surrounding prose already conveys.\"}",
+    "usage": {
+      "completion_tokens": 646,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 320
+      },
+      "cost": 0.020985,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.01615,
+        "upstream_inference_cost": 0.020985,
+        "upstream_inference_prompt_cost": 0.004835
+      },
+      "is_byok": false,
+      "prompt_tokens": 967,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 1613
+    }
+  },
+  "prompt_category": "service_howto",
+  "prompt_id": "howto_neighborhood_meeting",
+  "rationale": "Clear, plain-language guide with a logical step-by-step structure that mirrors the real chronology of organizing a meeting. Headings like 'Talk to a few neighbors first' are refreshingly direct. Concrete details\u2014time estimates for agenda blocks (5/15/15/15 min), specific venue options, outreach methods\u2014keep the advice actionable rather than vague. The opening sentence is warm and purposeful. Minor deductions: the piece is truncated mid-sentence at step 8, losing the payoff of next steps and any mention of how to engage city officials (promised in the intro). A touch more specificity on who to contact in local government would strengthen it. Brevity is good overall but the bullet-heavy format occasionally restates what the surrounding prose already conveys.",
+  "run_name": "2026-03-07-openrouter-v0-1-salvage-1",
+  "scores": {
+    "brevity_economy": 4,
+    "clarity": 5,
+    "humanity_voice": 4,
+    "overall": 4,
+    "simplicity": 5,
+    "specificity_precision": 4,
+    "structure_flow": 5
+  }
+}

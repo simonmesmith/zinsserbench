@@ -1,0 +1,47 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.1",
+  "candidate_model_id": "openai/gpt-5.3-chat",
+  "created_at": "2026-03-07T21:24:44Z",
+  "judge_model_id": "anthropic/claude-opus-4.6",
+  "metadata": {
+    "id": "gen-1772918671-aoRvFFVRavvkORQXBMUL",
+    "raw_text": "{\"scores\": {\"clarity\": 5, \"simplicity\": 5, \"brevity_economy\": 5, \"structure_flow\": 3, \"specificity_precision\": 5, \"humanity_voice\": 5, \"overall\": 3}, \"rationale\": \"The writing on the page is excellent: plain, vivid, and emotionally honest. Concrete details (Raul's beard tucked into his collar, squeaky new boots, the loose machine guard) do real work. The voice is distinctive and unpretentious, and the contrast with past jobs is drawn economically. However, the piece is incomplete\u2014it cuts off mid-sentence and never delivers the core payoff the prompt asks for: articulating how the union job changed the writer's idea of what work could be. The transformation is hinted at but never landed. Structure suffers most because the essay simply stops rather than arriving anywhere.\"}",
+    "usage": {
+      "completion_tokens": 627,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 384
+      },
+      "cost": 0.01998,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.015675,
+        "upstream_inference_cost": 0.01998,
+        "upstream_inference_prompt_cost": 0.004305
+      },
+      "is_byok": false,
+      "prompt_tokens": 861,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 1488
+    }
+  },
+  "prompt_category": "personal_nonfiction",
+  "prompt_id": "personal_first_day_union_job",
+  "rationale": "The writing on the page is excellent: plain, vivid, and emotionally honest. Concrete details (Raul's beard tucked into his collar, squeaky new boots, the loose machine guard) do real work. The voice is distinctive and unpretentious, and the contrast with past jobs is drawn economically. However, the piece is incomplete\u2014it cuts off mid-sentence and never delivers the core payoff the prompt asks for: articulating how the union job changed the writer's idea of what work could be. The transformation is hinted at but never landed. Structure suffers most because the essay simply stops rather than arriving anywhere.",
+  "run_name": "2026-03-07-openrouter-v0-1-salvage-1",
+  "scores": {
+    "brevity_economy": 5,
+    "clarity": 5,
+    "humanity_voice": 5,
+    "overall": 3,
+    "simplicity": 5,
+    "specificity_precision": 5,
+    "structure_flow": 3
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.1",
+  "candidate_label": "Gemini 3.1 Flash Lite Preview",
+  "candidate_model_id": "google/gemini-3.1-flash-lite-preview",
+  "created_at": "2026-03-07T21:03:31Z",
+  "metadata": {
+    "id": "gen-1772917405-DmDjaRJ1wI2fXxEZ4zSQ",
+    "quality_guard": {
+      "minimum_words": 200,
+      "reason": "",
+      "status": "ok",
+      "word_count": 731
+    },
+    "usage": {
+      "completion_tokens": 1550,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 586
+      },
+      "cost": 0.00233725,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.002325,
+        "upstream_inference_cost": 0.00233725,
+        "upstream_inference_prompt_cost": 1.225e-05
+      },
+      "is_byok": false,
+      "prompt_tokens": 49,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 1599
+    }
+  },
+  "prompt_category": "profile",
+  "prompt_id": "profile_ferry_captain",
+  "response_text": "The fog off the Silver Strait doesn\u2019t just roll in; it settles like a heavy, damp wool blanket, erasing the horizon and turning the world into a gray void. For most, this is a reason to stay docked. For Captain Elias Thorne, it is simply the start of a Tuesday.\n\nAt 5:45 a.m., the *MV Osprey*\u2014a sturdy, rust-streaked workhorse of a ferry\u2014idles at the pier in Oakhaven. Thorne, sixty-two, stands in the wheelhouse, his hands resting on the brass-capped controls with the casual familiarity of a man touching his own kitchen counter. He has made this four-mile crossing between Oakhaven and the fishing village of Port Kestrel roughly 40,000 times over the last thirty years.\n\n\"The tide is running a bit heavy today,\" Thorne says, his voice a low gravel that seems to have been polished by decades of salt air. He doesn't look at the radar. He looks at the way the water curls around the pilings. \"She\u2019ll pull to the port side about halfway across. You have to give her a little nudge to keep her honest.\"\n\nThorne is a man of precise, economical movements. He wears a faded navy sweater and a cap that has lost its structure, the brim worn soft by his thumb. In the three decades he has captained this route, he has become a fixture of the local geography, as permanent as the lighthouse on the northern point. \n\nTo the commuters who lean against the railings with their lukewarm coffees, Thorne is a background character\u2014a reliable constant in a world of shifting schedules. But to the towns, he is a silent archivist. He has ferried three generations of the same families. He remembers the toddlers who used to press their faces against the glass, now grown into the mechanics and teachers who board the 7:00 a.m. run. He has carried the town\u2019s mail, its groceries, its wedding parties, and, on more than one occasion, the somber processions of those returning from funerals in the city.\n\n\"You see the rhythm of a place when you\u2019re the one moving the people,\" Thorne says, watching the Oakhaven pier shrink into the mist. \"People think a ferry is just a bridge that moves. But it\u2019s a pause. It\u2019s the only time in their day when they aren't rushing. They\u2019re trapped on the water, so they have to stop and look at it.\"\n\nHe doesn't romanticize the job. He speaks of the grueling winters when the ice cakes the deck, the mechanical failures that have left him drifting in the dark, and the endless, repetitive paperwork of the maritime authority. Yet, he has never applied for a position on the larger, more lucrative cargo ships that ply the open ocean. \n\n\"I like knowing the bottom of the bay,\" he explains. \"I know where the rocks hide. I know how the wind behaves when it hits the cliffs at Port Kestrel. Out there, on the big water, you\u2019re just a speck. Here, I\u2019m a part of the machine that keeps these two towns breathing.\"\n\nAs the *Osprey* nears the Port Kestrel slip, the fog begins to thin, revealing the jagged, pine-covered coastline. Thorne eases the throttle back, the engine\u2019s thrum dropping to a low, rhythmic heartbeat. He maneuvers the vessel with a grace that belies its size, sliding it into the slip with a gentle *thud* against the rubber bumpers.\n\nThe ramp lowers, and the morning crowd disperses, disappearing into the village. Thorne stays in the wheelhouse for a moment, watching them go. He checks his watch, logs the arrival in a weathered leather notebook, and prepares for the return trip. \n\nHe has spent thirty years crossing the same four miles of water, back and forth, a pendulum in the life of the coast. When asked if he ever tires of the view, he looks out at the strait, where the sun is finally breaking through the clouds, turning the water into a sheet of hammered silver.\n\n\"The water is never the same twice,\" he says, turning the wheel for the journey back. \"And neither are the people. My job isn't to get them across. My job is to make sure they get there safely, so they can keep doing whatever it is they\u2019re doing.\"\n\nHe hits the horn\u2014a deep, mournful blast that echoes off the cliffs\u2014and the *Osprey* pulls away from the dock, beginning the journey all over again.",
+  "run_name": "2026-03-07-openrouter-v0-1-salvage-1"
+}

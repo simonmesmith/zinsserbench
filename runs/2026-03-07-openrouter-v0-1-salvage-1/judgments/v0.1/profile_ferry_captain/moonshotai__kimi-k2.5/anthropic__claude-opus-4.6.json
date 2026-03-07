@@ -1,0 +1,47 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.1",
+  "candidate_model_id": "moonshotai/kimi-k2.5",
+  "created_at": "2026-03-07T21:18:39Z",
+  "judge_model_id": "anthropic/claude-opus-4.6",
+  "metadata": {
+    "id": "gen-1772918310-kTyOmfneuj6hAWYzJsfG",
+    "raw_text": "{\"scores\": {\"clarity\": 5, \"simplicity\": 4, \"brevity_economy\": 5, \"structure_flow\": 5, \"specificity_precision\": 5, \"humanity_voice\": 5, \"overall\": 5}, \"rationale\": \"Exceptional profile writing. Every paragraph earns its place, moving chronologically and thematically from pre-dawn routine through decades of accumulated expertise to a closing meditation on repetition. The specificity is outstanding\u2014'4:47 a.m.,' the chimney-oak alignment trick, 16,000 crossings, the pregnant cow, Mrs. Gable starboard with tea. The voice is warm and literary without becoming overwrought; metaphors like 'accumulating the history of two towns the way the Susan B. accumulates barnacles' feel earned rather than decorative. The closing river metaphor is perhaps the one moment that tips slightly toward the literary-precious, but it lands well enough. Simplicity gets a 4 rather than 5 because the prose occasionally leans into poetic flourishes ('wet slate,' 'forty-three-minute kingdom,' 'hands mapped with rope burns') that, while effective, push past plain directness. The Thorne quote\u2014'That's not small. That's just concentrated'\u2014is perfectly crafted character voice. Structure is seamless: dawn opening, biographical middle, philosophical close, all within a single morning's crossing.\"}",
+    "usage": {
+      "completion_tokens": 318,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 0
+      },
+      "cost": 0.01568,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.00795,
+        "upstream_inference_cost": 0.01568,
+        "upstream_inference_prompt_cost": 0.00773
+      },
+      "is_byok": false,
+      "prompt_tokens": 1546,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 1864
+    }
+  },
+  "prompt_category": "profile",
+  "prompt_id": "profile_ferry_captain",
+  "rationale": "Exceptional profile writing. Every paragraph earns its place, moving chronologically and thematically from pre-dawn routine through decades of accumulated expertise to a closing meditation on repetition. The specificity is outstanding\u2014'4:47 a.m.,' the chimney-oak alignment trick, 16,000 crossings, the pregnant cow, Mrs. Gable starboard with tea. The voice is warm and literary without becoming overwrought; metaphors like 'accumulating the history of two towns the way the Susan B. accumulates barnacles' feel earned rather than decorative. The closing river metaphor is perhaps the one moment that tips slightly toward the literary-precious, but it lands well enough. Simplicity gets a 4 rather than 5 because the prose occasionally leans into poetic flourishes ('wet slate,' 'forty-three-minute kingdom,' 'hands mapped with rope burns') that, while effective, push past plain directness. The Thorne quote\u2014'That's not small. That's just concentrated'\u2014is perfectly crafted character voice. Structure is seamless: dawn opening, biographical middle, philosophical close, all within a single morning's crossing.",
+  "run_name": "2026-03-07-openrouter-v0-1-salvage-1",
+  "scores": {
+    "brevity_economy": 5,
+    "clarity": 5,
+    "humanity_voice": 5,
+    "overall": 5,
+    "simplicity": 4,
+    "specificity_precision": 5,
+    "structure_flow": 5
+  }
+}

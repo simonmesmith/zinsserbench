@@ -1,0 +1,37 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.1",
+  "candidate_label": "DeepSeek V3.2",
+  "candidate_model_id": "deepseek/deepseek-v3.2",
+  "created_at": "2026-03-07T15:08:49Z",
+  "metadata": {
+    "id": "gen-1772896108-E8WuMSzo0HOtucLETxrb",
+    "usage": {
+      "completion_tokens": 635,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 135
+      },
+      "cost": 0.00025482,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.0002413,
+        "upstream_inference_cost": 0.00025482,
+        "upstream_inference_prompt_cost": 1.352e-05
+      },
+      "is_byok": false,
+      "prompt_tokens": 52,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 687
+    }
+  },
+  "prompt_category": "service_howto",
+  "prompt_id": "howto_report_water_leak",
+  "response_text": "## **Apartment Tenant's Guide: What to Do When You Discover a Water Leak in the Ceiling**\n\nA water leak from above is a common but urgent apartment issue. Acting quickly and methodically can prevent major damage, protect your belongings, and ensure a proper repair. Follow these steps.\n\n### **Step 1: Immediate Action (First 5 Minutes)**\n\n*   **Stay Safe:** Water and electricity are a deadly mix. If water is dripping near a light fixture, ceiling fan, or electrical outlet, **do not touch the area**. Turn off the electricity to that room at your circuit breaker panel if it is safe to access.\n*   **Contain the Water:**\n    *   Place buckets, trash cans, or large pots directly under the leak.\n    *   Lay down thick towels, blankets, or tarps to protect floors and soak up splashes.\n    *   If the leak is severe and spreading, move furniture, rugs, and electronics out of the area.\n\n### **Step 2: Notify Your Landlord or Property Manager (Within 30 Minutes)**\n\n*   **Call Immediately.** This is your most important step. Do not rely on email or a text for the first alert. Call the emergency maintenance number if you have one.\n*   **Be Clear and Specific:** Tell them: \"I have an active water leak coming from my ceiling in [exact location, e.g., the bathroom]. It is [dripping steadily/flowing]. I have contained it as best I can.\"\n*   **Get a Timeline.** Ask when someone will arrive to assess the situation. Document the time of your call and the name of the person you spoke with.\n\n### **Step 3: Document Everything (While You Wait)**\n\n*   **Take Photos & Videos:** Thoroughly document the leak, the water collection, any damage to your ceiling, walls, or belongings, and your containment efforts. This is crucial for insurance and liability purposes.\n*   **Protect Your Belongings:** Create a list of any damaged items (e.g., \"wood bookcase with water-swollen base,\" \"rug with large stain\"). Save receipts for high-value items if you have them.\n\n### **Step 4: During the Repair Process**\n\n*   **Provide Access:** Cooperate with maintenance staff. They will need to access your unit and likely the unit above you to find the source (a leaking toilet, overflowing tub, faulty pipe,",
+  "run_name": "2026-03-07-openrouter-v0-1"
+}

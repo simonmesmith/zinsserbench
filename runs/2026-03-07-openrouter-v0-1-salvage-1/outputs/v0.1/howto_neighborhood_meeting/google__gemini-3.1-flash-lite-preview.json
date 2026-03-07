@@ -1,0 +1,43 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.1",
+  "candidate_label": "Gemini 3.1 Flash Lite Preview",
+  "candidate_model_id": "google/gemini-3.1-flash-lite-preview",
+  "created_at": "2026-03-07T21:04:01Z",
+  "metadata": {
+    "id": "gen-1772917434-PLn5pttmBkfcusVJ0Oda",
+    "quality_guard": {
+      "minimum_words": 140,
+      "reason": "",
+      "status": "ok",
+      "word_count": 681
+    },
+    "usage": {
+      "completion_tokens": 1723,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 755
+      },
+      "cost": 0.0025965,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.0025845,
+        "upstream_inference_cost": 0.0025965,
+        "upstream_inference_prompt_cost": 1.2e-05
+      },
+      "is_byok": false,
+      "prompt_tokens": 48,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 1771
+    }
+  },
+  "prompt_category": "service_howto",
+  "prompt_id": "howto_neighborhood_meeting",
+  "response_text": "Organizing a neighborhood meeting to address traffic safety is one of the most effective ways to move from individual frustration to collective action. City officials and traffic engineers are far more likely to respond to a unified group of residents than to a single complaint.\n\nHere is a practical, step-by-step guide to organizing a successful meeting.\n\n### Phase 1: Preparation and Data Gathering\nBefore you call a meeting, you need to establish credibility. A meeting based solely on \"I feel like cars drive too fast\" is less effective than one based on documented concerns.\n\n*   **Form a Core Group:** Do not try to do this alone. Find two or three neighbors who share your concern. This prevents burnout and shows the city that the issue has broad support.\n*   **Conduct a \"Safety Audit\":** Spend a few days documenting the issues. Note specific times of day when traffic is worst, near-misses with pedestrians, lack of crosswalks, or broken signage. Take photos and videos.\n*   **Identify the Decision-Makers:** Find out who represents your neighborhood (City Council member, neighborhood association board, or local traffic department). Invite them to the meeting early; their presence often encourages neighbors to attend.\n\n### Phase 2: Outreach\nYour goal is to get a representative cross-section of the street, not just the people who already agree with you.\n\n*   **Use Multiple Channels:**\n    *   **Flyers:** A simple, high-contrast flyer placed on front doors is the most effective way to reach immediate neighbors.\n    *   **Digital Platforms:** Use Nextdoor, local Facebook groups, or a WhatsApp/Signal group for the street.\n    *   **Word of Mouth:** Talk to the people you see walking dogs or gardening.\n*   **Keep the Message Clear:** Your invitation should be neutral and solution-oriented. Use language like, \"Let\u2019s discuss how we can make [Street Name] safer for our children and pedestrians,\" rather than \"Let\u2019s stop the speeding cars.\"\n\n### Phase 3: The Meeting\nA poorly structured meeting can quickly devolve into a venting session. Keep it focused and productive.\n\n*   **Choose a Neutral Location:** A local park, library, or community center is better than a private home, which can feel exclusionary.\n*   **Set a Strict Agenda:**\n    1.  **Welcome & Introductions (10 mins):** State the purpose clearly.\n    2.  **The Problem (15 mins):** Present the data you gathered. Allow neighbors to share brief, specific experiences.\n    3.  **Brainstorming (20 mins):** Discuss potential solutions (e.g., speed bumps, stop signs, increased police presence, crosswalk painting).\n    4.  **Action Plan (15 mins):** Decide on the next steps.\n*   **Facilitate, Don\u2019t Dominate:** If you are the organizer, act as the facilitator. Use a whiteboard or flip chart to record ideas. If the conversation goes off-track, gently steer it back: \"That\u2019s an important point, but let\u2019s focus on the traffic issue for now.\"\n\n### Phase 4: Follow-Up and Action\nThe most common failure point is the \"post-meeting slump.\" Keep the momentum going immediately.\n\n*   **Assign Roles:** Don\u2019t leave the meeting without clear assignments. Who will draft the letter to the City Council? Who will start the petition? Who will act as the point of contact for the media or city officials?\n*   **Document Everything:** Create a summary of the meeting, including the list of attendees and the agreed-upon goals. Send this to everyone who attended and those who couldn't make it.\n*   **Create a Communication Loop:** Set up an email list or a group chat to keep everyone updated on progress. If you are waiting for a response from the city, update the group even if there is no news\u2014it shows that the effort is still active.\n\n### Pro-Tips for Success\n*   **Invite the Police:** A local traffic officer can provide expert insight into what is legally possible and what is not.\n*   **Be Patient:** Traffic calming measures (like speed humps or traffic circles) often require city studies, budget approvals, and public hearings. Frame this as a long-term project to manage expectations.\n*   **Focus on Solutions, Not Just Problems:** When you eventually approach the city, present a \"menu\" of solutions. It is much harder for officials to say \"no\" to a well-researched proposal than it is to ignore a general complaint.",
+  "run_name": "2026-03-07-openrouter-v0-1-salvage-1"
+}

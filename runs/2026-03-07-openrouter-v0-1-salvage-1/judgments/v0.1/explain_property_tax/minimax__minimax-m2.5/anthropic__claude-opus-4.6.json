@@ -1,0 +1,47 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.1",
+  "candidate_model_id": "minimax/minimax-m2.5",
+  "created_at": "2026-03-07T21:39:02Z",
+  "judge_model_id": "anthropic/claude-opus-4.6",
+  "metadata": {
+    "id": "gen-1772919534-PaIvNe2RHRCBJz6Vb00C",
+    "raw_text": "{\"scores\": {\"clarity\": 5, \"simplicity\": 5, \"brevity_economy\": 4, \"structure_flow\": 4, \"specificity_precision\": 4, \"humanity_voice\": 4, \"overall\": 3}, \"rationale\": \"What exists is excellent: the formula is stated plainly upfront, headers guide the reader logically, concrete examples (pool, finished basement, 20-mill rate) anchor abstract concepts, and the tone is conversational without being patronizing. Language is genuinely plain English. However, the response is cut off mid-sentence during the tax-rate section, so the piece never covers why rates change (budget needs, voter-approved levies, shifting tax bases), exemptions/caps, or how to appeal\u2014all essential to answering the prompt fully. The incompleteness significantly hurts overall effectiveness and slightly dings structure/flow since the promised explanation is unfinished.\"}",
+    "usage": {
+      "completion_tokens": 242,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 25
+      },
+      "cost": 0.009995,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.00605,
+        "upstream_inference_cost": 0.009995,
+        "upstream_inference_prompt_cost": 0.003945
+      },
+      "is_byok": false,
+      "prompt_tokens": 789,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 1031
+    }
+  },
+  "prompt_category": "explain",
+  "prompt_id": "explain_property_tax",
+  "rationale": "What exists is excellent: the formula is stated plainly upfront, headers guide the reader logically, concrete examples (pool, finished basement, 20-mill rate) anchor abstract concepts, and the tone is conversational without being patronizing. Language is genuinely plain English. However, the response is cut off mid-sentence during the tax-rate section, so the piece never covers why rates change (budget needs, voter-approved levies, shifting tax bases), exemptions/caps, or how to appeal\u2014all essential to answering the prompt fully. The incompleteness significantly hurts overall effectiveness and slightly dings structure/flow since the promised explanation is unfinished.",
+  "run_name": "2026-03-07-openrouter-v0-1-salvage-1",
+  "scores": {
+    "brevity_economy": 4,
+    "clarity": 5,
+    "humanity_voice": 4,
+    "overall": 3,
+    "simplicity": 5,
+    "specificity_precision": 4,
+    "structure_flow": 4
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.1",
+  "candidate_model_id": "moonshotai/kimi-k2.5",
+  "created_at": "2026-03-07T21:37:38Z",
+  "judge_model_id": "anthropic/claude-opus-4.6",
+  "metadata": {
+    "id": "gen-1772919451-MmhzymzPc3QGIBXfyN0n",
+    "raw_text": "{\"scores\": {\"clarity\": 5, \"simplicity\": 4, \"brevity_economy\": 4, \"structure_flow\": 5, \"specificity_precision\": 5, \"humanity_voice\": 5, \"overall\": 5}, \"rationale\": \"Exceptionally crafted essay with vivid, precise sensory details (duct-taped seat exhaling yellow foam, sunflower seed shells in a paper cup, crayon drawings curling at the edges). The structure moves naturally through the year\u2014seasons as organizing principle\u2014building toward a quiet, earned ending. The voice is deeply human and specific without being sentimental. A few metaphors edge toward literary polish that slightly undercuts the plainness ('a confessional without the dialogue,' 'ghost haunting its own commute'), and 'fryer oil and desperation' is a touch overwrought, which keeps simplicity at 4. The piece is economical but could trim a sentence or two in the winter paragraph. Marcus's single line of dialogue at the end is perfectly placed and devastating in its restraint.\"}",
+    "usage": {
+      "completion_tokens": 239,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 0
+      },
+      "cost": 0.014825,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.005975,
+        "upstream_inference_cost": 0.014825,
+        "upstream_inference_prompt_cost": 0.00885
+      },
+      "is_byok": false,
+      "prompt_tokens": 1770,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 2009
+    }
+  },
+  "prompt_category": "personal_nonfiction",
+  "prompt_id": "personal_night_shift_bus",
+  "rationale": "Exceptionally crafted essay with vivid, precise sensory details (duct-taped seat exhaling yellow foam, sunflower seed shells in a paper cup, crayon drawings curling at the edges). The structure moves naturally through the year\u2014seasons as organizing principle\u2014building toward a quiet, earned ending. The voice is deeply human and specific without being sentimental. A few metaphors edge toward literary polish that slightly undercuts the plainness ('a confessional without the dialogue,' 'ghost haunting its own commute'), and 'fryer oil and desperation' is a touch overwrought, which keeps simplicity at 4. The piece is economical but could trim a sentence or two in the winter paragraph. Marcus's single line of dialogue at the end is perfectly placed and devastating in its restraint.",
+  "run_name": "2026-03-07-openrouter-v0-1-salvage-1",
+  "scores": {
+    "brevity_economy": 4,
+    "clarity": 5,
+    "humanity_voice": 5,
+    "overall": 5,
+    "simplicity": 4,
+    "specificity_precision": 5,
+    "structure_flow": 5
+  }
+}

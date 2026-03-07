@@ -1,0 +1,37 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.1",
+  "candidate_label": "MiniMax M2.5",
+  "candidate_model_id": "minimax/minimax-m2.5",
+  "created_at": "2026-03-07T15:09:06Z",
+  "metadata": {
+    "id": "gen-1772896136-Lgd6eccAv4f5zFaf70dM",
+    "usage": {
+      "completion_tokens": 500,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 165
+      },
+      "cost": 0.0006192,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.0006,
+        "upstream_inference_cost": 0.0006192,
+        "upstream_inference_prompt_cost": 1.92e-05
+      },
+      "is_byok": false,
+      "prompt_tokens": 64,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 564
+    }
+  },
+  "prompt_category": "service_howto",
+  "prompt_id": "howto_report_water_leak",
+  "response_text": "# What to Do When You Discover a Water Leak in Your Ceiling\n\nDiscovering a water stain or active leak on your ceiling can be stressful, but acting quickly and systematically will minimize damage to your apartment and belongings. Follow these steps:\n\n---\n\n## 1. Contain the Water Immediately\n\n- **Place buckets, pots, or containers** under active drips to catch water and protect your floors.\n- **Move furniture and valuables** away from the affected area. Water spreads quickly and can damage wood, electronics, and fabrics.\n- **If water is pooling**, consider placing a tarp or plastic sheet on the floor to prevent slipping and further damage.\n\n---\n\n## 2. Document Everything\n\nTake photos and videos of:\n\n- The visible damage to your ceiling (stains, bulging, dripping)\n- Any damage to furniture, flooring, or belongings\n- The source if visible (e.g., water dripping from a specific point)\n\n**Tip:** Date your documentation. This creates a record for insurance or repair purposes.\n\n---\n\n## 3. Report It Immediately\n\nContact your landlord or property management company **as soon as possible**. Provide:\n\n- A clear description of the problem\n- The exact location in your apartment\n- Photos or video if possible\n- Your contact information and availability\n\n**Best practice:** Send a written report (email or text) in addition to any phone call. This creates a paper trail showing you reported the issue promptly.\n\n---\n\n## 4. Protect Yourself and Your Health\n\n- **Do not touch the ceiling** if it's bulging\u2014it may collapse under the weight of absorbed water.\n- **Avoid the area** if electrical fixtures are nearby or if you suspect the leak may involve wiring.\n- **Improve ventilation** by opening windows if weather permits, to help dry the area and prevent mold.\n\n---\n\n## 5. Understand What Might Be Happening",
+  "run_name": "2026-03-07-openrouter-v0-1"
+}

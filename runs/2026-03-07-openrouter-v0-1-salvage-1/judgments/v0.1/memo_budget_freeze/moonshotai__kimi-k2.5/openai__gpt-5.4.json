@@ -1,0 +1,47 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.1",
+  "candidate_model_id": "moonshotai/kimi-k2.5",
+  "created_at": "2026-03-07T21:11:19Z",
+  "judge_model_id": "openai/gpt-5.4",
+  "metadata": {
+    "id": "gen-1772917875-Rdkc4saasasIsvQoOTME",
+    "raw_text": "{\"scores\":{\"clarity\":5,\"simplicity\":4,\"brevity_economy\":4,\"structure_flow\":5,\"specificity_precision\":5,\"humanity_voice\":3,\"overall\":5},\"rationale\":\"Clear, well-organized memo that directly covers what is frozen, what is exempt, and what managers should escalate. Specific examples and exception criteria make it actionable. It is slightly wordy and uses some corporate/finance jargon, so it feels more formal and bureaucratic than warm or especially plainspoken.\"}",
+    "usage": {
+      "completion_tokens": 239,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 124
+      },
+      "cost": 0.0061925,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.003585,
+        "upstream_inference_cost": 0.0061925,
+        "upstream_inference_prompt_cost": 0.0026075
+      },
+      "is_byok": false,
+      "prompt_tokens": 1043,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 1282
+    }
+  },
+  "prompt_category": "memo",
+  "prompt_id": "memo_budget_freeze",
+  "rationale": "Clear, well-organized memo that directly covers what is frozen, what is exempt, and what managers should escalate. Specific examples and exception criteria make it actionable. It is slightly wordy and uses some corporate/finance jargon, so it feels more formal and bureaucratic than warm or especially plainspoken.",
+  "run_name": "2026-03-07-openrouter-v0-1-salvage-1",
+  "scores": {
+    "brevity_economy": 4,
+    "clarity": 5,
+    "humanity_voice": 3,
+    "overall": 5,
+    "simplicity": 4,
+    "specificity_precision": 5,
+    "structure_flow": 5
+  }
+}

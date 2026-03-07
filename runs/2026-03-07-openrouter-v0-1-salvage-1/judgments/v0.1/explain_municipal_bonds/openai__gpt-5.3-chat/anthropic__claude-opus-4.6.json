@@ -1,0 +1,47 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.1",
+  "candidate_model_id": "openai/gpt-5.3-chat",
+  "created_at": "2026-03-07T21:13:51Z",
+  "judge_model_id": "anthropic/claude-opus-4.6",
+  "metadata": {
+    "id": "gen-1772918025-2BtavSJ6GbgTxIqG2OT8",
+    "raw_text": "{\"scores\": {\"clarity\": 5, \"simplicity\": 5, \"brevity_economy\": 4, \"structure_flow\": 5, \"specificity_precision\": 4, \"humanity_voice\": 4, \"overall\": 5}, \"rationale\": \"Exceptionally clear and well-organized explainer. The $200 million bridge example grounds the concept concretely. The distinction between general obligation and revenue bonds adds useful specificity without overcomplicating. Minor dings: the closing paragraph slightly restates what was already established, and the tone, while warm and reader-friendly, stays fairly textbook-polished rather than distinctively voiced. Language is genuinely plain throughout with no jargon left unexplained.\"}",
+    "usage": {
+      "completion_tokens": 163,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 0
+      },
+      "cost": 0.008225,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.004075,
+        "upstream_inference_cost": 0.008225,
+        "upstream_inference_prompt_cost": 0.00415
+      },
+      "is_byok": false,
+      "prompt_tokens": 830,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 993
+    }
+  },
+  "prompt_category": "explain",
+  "prompt_id": "explain_municipal_bonds",
+  "rationale": "Exceptionally clear and well-organized explainer. The $200 million bridge example grounds the concept concretely. The distinction between general obligation and revenue bonds adds useful specificity without overcomplicating. Minor dings: the closing paragraph slightly restates what was already established, and the tone, while warm and reader-friendly, stays fairly textbook-polished rather than distinctively voiced. Language is genuinely plain throughout with no jargon left unexplained.",
+  "run_name": "2026-03-07-openrouter-v0-1-salvage-1",
+  "scores": {
+    "brevity_economy": 4,
+    "clarity": 5,
+    "humanity_voice": 4,
+    "overall": 5,
+    "simplicity": 5,
+    "specificity_precision": 4,
+    "structure_flow": 5
+  }
+}

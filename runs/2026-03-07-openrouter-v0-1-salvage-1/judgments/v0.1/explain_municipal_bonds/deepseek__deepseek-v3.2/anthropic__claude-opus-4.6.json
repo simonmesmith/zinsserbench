@@ -1,0 +1,47 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.1",
+  "candidate_model_id": "deepseek/deepseek-v3.2",
+  "created_at": "2026-03-07T21:14:44Z",
+  "judge_model_id": "anthropic/claude-opus-4.6",
+  "metadata": {
+    "id": "gen-1772918077-wosgo80tBkx3pW03RTDS",
+    "raw_text": "{\"scores\": {\"clarity\": 5, \"simplicity\": 5, \"brevity_economy\": 4, \"structure_flow\": 5, \"specificity_precision\": 4, \"humanity_voice\": 5, \"overall\": 5}, \"rationale\": \"Exceptionally clear and well-organized explainer. The analogies (credit card, mortgage) are apt and immediately grounding. Language is genuinely plain without being dumbed down. Structure flows naturally from what \u2192 why \u2192 why it matters to the reader. Minor dings: the credit card analogy in the opener is slightly misleading (credit cards imply revolving debt, not fixed-term lending), and the piece could be trimmed slightly\u2014the 'large, one-time expenses' section overlaps with 'build and fix things.' Specificity is good with concrete examples (schools, bridges, airports) though it could mention a real dollar figure or a real bond issuance to add more texture. Voice is warm, conversational, and reader-aware throughout.\"}",
+    "usage": {
+      "completion_tokens": 227,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 0
+      },
+      "cost": 0.010095,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.005675,
+        "upstream_inference_cost": 0.010095,
+        "upstream_inference_prompt_cost": 0.00442
+      },
+      "is_byok": false,
+      "prompt_tokens": 884,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 1111
+    }
+  },
+  "prompt_category": "explain",
+  "prompt_id": "explain_municipal_bonds",
+  "rationale": "Exceptionally clear and well-organized explainer. The analogies (credit card, mortgage) are apt and immediately grounding. Language is genuinely plain without being dumbed down. Structure flows naturally from what \u2192 why \u2192 why it matters to the reader. Minor dings: the credit card analogy in the opener is slightly misleading (credit cards imply revolving debt, not fixed-term lending), and the piece could be trimmed slightly\u2014the 'large, one-time expenses' section overlaps with 'build and fix things.' Specificity is good with concrete examples (schools, bridges, airports) though it could mention a real dollar figure or a real bond issuance to add more texture. Voice is warm, conversational, and reader-aware throughout.",
+  "run_name": "2026-03-07-openrouter-v0-1-salvage-1",
+  "scores": {
+    "brevity_economy": 4,
+    "clarity": 5,
+    "humanity_voice": 5,
+    "overall": 5,
+    "simplicity": 5,
+    "specificity_precision": 4,
+    "structure_flow": 5
+  }
+}

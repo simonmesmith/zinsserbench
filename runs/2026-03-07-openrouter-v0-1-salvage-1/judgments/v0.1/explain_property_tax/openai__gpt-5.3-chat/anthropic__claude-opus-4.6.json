@@ -1,0 +1,47 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.1",
+  "candidate_model_id": "openai/gpt-5.3-chat",
+  "created_at": "2026-03-07T21:37:59Z",
+  "judge_model_id": "anthropic/claude-opus-4.6",
+  "metadata": {
+    "id": "gen-1772919466-rZAtTyV8WHk45fCueY7J",
+    "raw_text": "{\"scores\": {\"clarity\": 5, \"simplicity\": 5, \"brevity_economy\": 4, \"structure_flow\": 3, \"specificity_precision\": 4, \"humanity_voice\": 4, \"overall\": 4}, \"rationale\": \"Clear, plain-language explainer that walks homeowners through assessments, tax rates, and the formula connecting them. The numbered list of reasons taxes change is well-organized and concrete (voter-approved bonds, homestead exemptions, new development spreading the tax base). Language is consistently accessible without being condescending. However, the piece is visibly truncated mid-sentence ('If you think your assessment is too'), which damages structure and completeness\u2014likely a closing section on appeals was intended. Specificity is good (dollars per $1,000, examples of special districts) though a brief numerical example would have strengthened it further. Voice is direct and reader-addressed ('If you own a home\u2026') without feeling robotic.\"}",
+    "usage": {
+      "completion_tokens": 541,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 332
+      },
+      "cost": 0.018165,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.013525,
+        "upstream_inference_cost": 0.018165,
+        "upstream_inference_prompt_cost": 0.00464
+      },
+      "is_byok": false,
+      "prompt_tokens": 928,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 1469
+    }
+  },
+  "prompt_category": "explain",
+  "prompt_id": "explain_property_tax",
+  "rationale": "Clear, plain-language explainer that walks homeowners through assessments, tax rates, and the formula connecting them. The numbered list of reasons taxes change is well-organized and concrete (voter-approved bonds, homestead exemptions, new development spreading the tax base). Language is consistently accessible without being condescending. However, the piece is visibly truncated mid-sentence ('If you think your assessment is too'), which damages structure and completeness\u2014likely a closing section on appeals was intended. Specificity is good (dollars per $1,000, examples of special districts) though a brief numerical example would have strengthened it further. Voice is direct and reader-addressed ('If you own a home\u2026') without feeling robotic.",
+  "run_name": "2026-03-07-openrouter-v0-1-salvage-1",
+  "scores": {
+    "brevity_economy": 4,
+    "clarity": 5,
+    "humanity_voice": 4,
+    "overall": 4,
+    "simplicity": 5,
+    "specificity_precision": 4,
+    "structure_flow": 3
+  }
+}

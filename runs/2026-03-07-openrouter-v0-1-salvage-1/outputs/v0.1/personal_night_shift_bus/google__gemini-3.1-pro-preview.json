@@ -1,0 +1,43 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.1",
+  "candidate_label": "Gemini 3.1 Pro Preview",
+  "candidate_model_id": "google/gemini-3.1-pro-preview",
+  "created_at": "2026-03-07T21:06:22Z",
+  "metadata": {
+    "id": "gen-1772917549-kQMpvoq0bnCvKxN9rxPe",
+    "quality_guard": {
+      "minimum_words": 200,
+      "reason": "",
+      "status": "ok",
+      "word_count": 707
+    },
+    "usage": {
+      "completion_tokens": 1617,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 711
+      },
+      "cost": 0.019498,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.019404,
+        "upstream_inference_cost": 0.019498,
+        "upstream_inference_prompt_cost": 9.4e-05
+      },
+      "is_byok": false,
+      "prompt_tokens": 47,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 1664
+    }
+  },
+  "prompt_category": "personal_nonfiction",
+  "prompt_id": "personal_night_shift_bus",
+  "response_text": "For exactly three hundred and twelve nights, my world shrank to the dimensions of the 1:15 AM 14-line bus. \n\nI was twenty-three, working the closing shift at a downtown bistro where the air was perpetually thick with the smell of garlic, spilled beer, and frantic energy. By the time we locked the doors, scrubbed the mats, and counted the till, the city had emptied out. Stepping out into the damp midnight air, my feet aching in grease-stained shoes, the only thing standing between me and my bed was a forty-minute ride up the avenue.\n\nThe 14-line was a lumbering beast of a machine, its shocks long gone, its fluorescent lights flickering with a harsh, interrogatory glare. But when the pneumatic doors hissed open and I stepped into the heated cabin, it felt like a sanctuary. \n\nOver the course of that year, the bus became a liminal space, a moving purgatory between the exhaustion of today and the demands of tomorrow. It was also a masterclass in the unspoken sociology of the night shift. \n\nDuring the day, public transit is a chaotic scramble of elbows, briefcases, and loud phone conversations. At 1:15 AM, it is a monastery. There were usually about eight of us. We never spoke, but we knew each other intimately through the strict geography of our chosen seats. \n\nThere was the older woman in the faded purple scrubs who always sat in the first row, her eyes closed before the bus even pulled away from the curb. There was the teenage line cook from a rival restaurant who sat in the very back, perpetually listening to music so loud the tinny hi-hats bled through his headphones. And there was the driver, a stoic, broad-shouldered man named Marcus, who drove with the smooth, unhurried precision of someone who knew the city\u2019s potholes by heart. \n\nI claimed a window seat on the right side, halfway back. From there, I watched the seasons change through glass smeared with condensation. In November, the windows frosted over, and the bus smelled of damp wool and melting snow. By July, the heater was replaced by a rattling air conditioner that dripped water onto the rubber floor, and the passengers multiplied slightly, swelled by the occasional group of drunk, glittering revelers whose loud laughter felt like a violent intrusion into our quiet, exhausted ecosystem. We, the regulars, would exchange brief, heavy-lidded glances until the partiers stumbled off a few stops later, returning the bus to its rightful, humming silence.\n\nRiding that same route night after night, I began to find a strange comfort in the monotony. The outside world was a blur of neon liquor store signs, amber streetlights, and empty intersections, but inside the bus, time was suspended. I didn't have to smile at customers, I didn't have to rush, and I didn't have to think. I just had to sit and let the diesel engine vibrate through my bones. \n\nI learned to measure the journey not in minutes, but in landmarks. The sharp left turn at the 24-hour laundromat meant I was halfway. The sudden acceleration over the bridge meant I had ten minutes to gather my things. The hiss of the brakes at the corner of 4th and Elm meant I was home.\n\nWhen I finally quit the bistro to take a daytime office job, my last ride on the 14-line felt surprisingly heavy. It was a Tuesday night in early spring. The woman in the purple scrubs was in her usual spot; the line cook was in the back. As I stood up to pull the yellow stop cord for the final time, I felt a sudden, absurd urge to say goodbye to them. I wanted to acknowledge the strange, silent fellowship we had shared in the dead of night. \n\nInstead, I just walked to the front. As the doors hissed open, letting in the cool spring air, I looked at the driver. \n\n\"Have a good night, Marcus,\" I said. \n\nHe looked surprised for a fraction of a second, then gave a slow, knowing nod. \"Take care of yourself,\" he rumbled. \n\nI stepped off the curb and watched the taillights of the 14-line disappear down the dark avenue, carrying the ghosts of the city safely into the morning.",
+  "run_name": "2026-03-07-openrouter-v0-1-salvage-1"
+}

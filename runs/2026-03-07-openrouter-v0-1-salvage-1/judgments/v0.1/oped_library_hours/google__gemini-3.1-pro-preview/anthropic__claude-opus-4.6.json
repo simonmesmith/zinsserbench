@@ -1,0 +1,47 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.1",
+  "candidate_model_id": "google/gemini-3.1-pro-preview",
+  "created_at": "2026-03-07T21:22:14Z",
+  "judge_model_id": "anthropic/claude-opus-4.6",
+  "metadata": {
+    "id": "gen-1772918527-IKjRrjqSyVo0lxkxqQYg",
+    "raw_text": "{\"scores\": {\"clarity\": 5, \"simplicity\": 4, \"brevity_economy\": 4, \"structure_flow\": 5, \"specificity_precision\": 3, \"humanity_voice\": 4, \"overall\": 4}, \"rationale\": \"The piece is clearly written and well-organized, moving logically from the problem statement through affected groups, counterarguments, and solutions. Structure is excellent\u2014each paragraph has a distinct purpose and transitions are smooth. However, the language occasionally tips into inflated op-ed rhetoric ('great equalizers,' 'profound failure of accessibility,' 'immeasurable') that undermines simplicity and precision. The specificity is the weakest dimension: the 6 p.m. closing time is stated but unsourced, no actual budget figures or comparable city data are offered, and claims about ROI are entirely abstract. The voice is competent and engaged but reads more like a polished editorial template than a distinctive human perspective\u2014phrases like 'sanctuaries of learning' and 'bridging the digital divide' feel stock. Some mild repetition (the 'doors closing' metaphor appears three times). Overall a solid, persuasive opinion piece that would benefit from harder evidence and less ornamental language.\"}",
+    "usage": {
+      "completion_tokens": 275,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 0
+      },
+      "cost": 0.012435,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.006875,
+        "upstream_inference_cost": 0.012435,
+        "upstream_inference_prompt_cost": 0.00556
+      },
+      "is_byok": false,
+      "prompt_tokens": 1112,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 1387
+    }
+  },
+  "prompt_category": "persuasion_oped",
+  "prompt_id": "oped_library_hours",
+  "rationale": "The piece is clearly written and well-organized, moving logically from the problem statement through affected groups, counterarguments, and solutions. Structure is excellent\u2014each paragraph has a distinct purpose and transitions are smooth. However, the language occasionally tips into inflated op-ed rhetoric ('great equalizers,' 'profound failure of accessibility,' 'immeasurable') that undermines simplicity and precision. The specificity is the weakest dimension: the 6 p.m. closing time is stated but unsourced, no actual budget figures or comparable city data are offered, and claims about ROI are entirely abstract. The voice is competent and engaged but reads more like a polished editorial template than a distinctive human perspective\u2014phrases like 'sanctuaries of learning' and 'bridging the digital divide' feel stock. Some mild repetition (the 'doors closing' metaphor appears three times). Overall a solid, persuasive opinion piece that would benefit from harder evidence and less ornamental language.",
+  "run_name": "2026-03-07-openrouter-v0-1-salvage-1",
+  "scores": {
+    "brevity_economy": 4,
+    "clarity": 5,
+    "humanity_voice": 4,
+    "overall": 4,
+    "simplicity": 4,
+    "specificity_precision": 3,
+    "structure_flow": 5
+  }
+}

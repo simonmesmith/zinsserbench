@@ -1,0 +1,47 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.1",
+  "candidate_model_id": "anthropic/claude-sonnet-4.6",
+  "created_at": "2026-03-07T21:14:04Z",
+  "judge_model_id": "anthropic/claude-opus-4.6",
+  "metadata": {
+    "id": "gen-1772918035-pZL73Cy6gUB06Eear2vy",
+    "raw_text": "{\"scores\": {\"clarity\": 5, \"simplicity\": 5, \"brevity_economy\": 4, \"structure_flow\": 4, \"specificity_precision\": 5, \"humanity_voice\": 5, \"overall\": 4}, \"rationale\": \"Exceptionally clear and reader-friendly: the bridge analogy opens naturally, the Springfield example gives concrete numbers ($5,000 bond, 3%, $150 semi-annual), and the tone is conversational without being condescending. Language is plain throughout with no jargon left unexplained. The piece is cut off mid-sentence in the third section, which damages structure and completeness\u2014readers never get the full fairness argument or any discussion of tax-exempt status, general obligation vs. revenue bonds, or risks. What exists flows well with clean headers and logical progression (concept \u2192 mechanics \u2192 rationale), but the truncation means the prompt's 'why cities issue them' is only partially answered. Specificity is a strength: real numbers, named mechanisms, credit-rating context. Voice is warm and engaged ('doesn't have $50 million sitting in a drawer'). Brevity is good within sections but hard to fully assess given incompleteness. Overall strong writing undermined by being unfinished.\"}",
+    "usage": {
+      "completion_tokens": 326,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 34
+      },
+      "cost": 0.01241,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.00815,
+        "upstream_inference_cost": 0.01241,
+        "upstream_inference_prompt_cost": 0.00426
+      },
+      "is_byok": false,
+      "prompt_tokens": 852,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 1178
+    }
+  },
+  "prompt_category": "explain",
+  "prompt_id": "explain_municipal_bonds",
+  "rationale": "Exceptionally clear and reader-friendly: the bridge analogy opens naturally, the Springfield example gives concrete numbers ($5,000 bond, 3%, $150 semi-annual), and the tone is conversational without being condescending. Language is plain throughout with no jargon left unexplained. The piece is cut off mid-sentence in the third section, which damages structure and completeness\u2014readers never get the full fairness argument or any discussion of tax-exempt status, general obligation vs. revenue bonds, or risks. What exists flows well with clean headers and logical progression (concept \u2192 mechanics \u2192 rationale), but the truncation means the prompt's 'why cities issue them' is only partially answered. Specificity is a strength: real numbers, named mechanisms, credit-rating context. Voice is warm and engaged ('doesn't have $50 million sitting in a drawer'). Brevity is good within sections but hard to fully assess given incompleteness. Overall strong writing undermined by being unfinished.",
+  "run_name": "2026-03-07-openrouter-v0-1-salvage-1",
+  "scores": {
+    "brevity_economy": 4,
+    "clarity": 5,
+    "humanity_voice": 5,
+    "overall": 4,
+    "simplicity": 5,
+    "specificity_precision": 5,
+    "structure_flow": 4
+  }
+}

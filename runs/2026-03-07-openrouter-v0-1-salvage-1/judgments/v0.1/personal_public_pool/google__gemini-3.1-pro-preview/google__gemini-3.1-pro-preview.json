@@ -1,0 +1,47 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.1",
+  "candidate_model_id": "google/gemini-3.1-pro-preview",
+  "created_at": "2026-03-07T21:26:44Z",
+  "judge_model_id": "google/gemini-3.1-pro-preview",
+  "metadata": {
+    "id": "gen-1772918797-FZuA8WEznFK3uQWDwgM4",
+    "raw_text": "{\n  \"scores\": {\n    \"clarity\": 5,\n    \"simplicity\": 4,\n    \"brevity_economy\": 5,\n    \"structure_flow\": 5,\n    \"specificity_precision\": 5,\n    \"humanity_voice\": 5,\n    \"overall\": 5\n  },\n  \"rationale\": \"The essay is beautifully written, utilizing highly specific details (crinkle-cut fries, matching parkas) to illustrate the socioeconomic divides of the town. The structure flows logically from the illusion of equality to the reality of segregation, ending with a powerful metaphor. The voice is reflective and engaging.\"\n}",
+    "usage": {
+      "completion_tokens": 404,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 260
+      },
+      "cost": 0.007274,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.004848,
+        "upstream_inference_cost": 0.007274,
+        "upstream_inference_prompt_cost": 0.002426
+      },
+      "is_byok": false,
+      "prompt_tokens": 1213,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 1617
+    }
+  },
+  "prompt_category": "personal_nonfiction",
+  "prompt_id": "personal_public_pool",
+  "rationale": "The essay is beautifully written, utilizing highly specific details (crinkle-cut fries, matching parkas) to illustrate the socioeconomic divides of the town. The structure flows logically from the illusion of equality to the reality of segregation, ending with a powerful metaphor. The voice is reflective and engaging.",
+  "run_name": "2026-03-07-openrouter-v0-1-salvage-1",
+  "scores": {
+    "brevity_economy": 5,
+    "clarity": 5,
+    "humanity_voice": 5,
+    "overall": 5,
+    "simplicity": 4,
+    "specificity_precision": 5,
+    "structure_flow": 5
+  }
+}

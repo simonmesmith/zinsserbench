@@ -1,0 +1,43 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.1",
+  "candidate_label": "Kimi K2.5",
+  "candidate_model_id": "moonshotai/kimi-k2.5",
+  "created_at": "2026-03-07T21:04:51Z",
+  "metadata": {
+    "id": "gen-1772917479-Ec0klNp6CQaqmzXTL2TT",
+    "quality_guard": {
+      "minimum_words": 200,
+      "reason": "",
+      "status": "ok",
+      "word_count": 679
+    },
+    "usage": {
+      "completion_tokens": 1085,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 396
+      },
+      "cost": 0.0032892,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.003255,
+        "upstream_inference_cost": 0.0032892,
+        "upstream_inference_prompt_cost": 3.42e-05
+      },
+      "is_byok": false,
+      "prompt_tokens": 57,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 1142
+    }
+  },
+  "prompt_category": "personal_nonfiction",
+  "prompt_id": "personal_public_pool",
+  "response_text": "The summer I turned twelve, the Greenwood Municipal Pool stopped pretending to be anything other than what it was: a concrete basin filled with contradictions. The paint on the bottom had worn away in patches, revealing the ghostly gray beneath the turquoise, so that from the lifeguard stand the water looked like a map of some deteriorating coastline.\n\nI went every day that July because our air conditioner had died and because my mother worked the early shift at the hospital and couldn\u2019t afford the YMCA. The pool cost three dollars, or two if you brought a can of food for the pantry drive. This pricing structure alone told you everything about Greenwood: it was a town that needed to look charitable while still keeping the lights on.\n\nThe pool sat at the intersection of the old mill houses and the new subdivisions, and the geography of the deck followed the geography of the town. The deep end, where the concrete diving platform cast its shadow, belonged to the teenagers from Riverside Heights\u2014kids with orthodontist-perfect teeth and temporary tattoos they\u2019d bought at the mall. They claimed the picnic tables under the single oak tree, spreading out their towels with the territorial precision of nations dividing a continent.\n\nThe shallow end was different. There, the mothers sat on the concrete steps, their feet in the water, speaking Spanish or the mountain dialect that predated the mills. Their children wore water wings bought at the dollar store, the plastic already clouding with chlorine by mid-June. These women worked the second shift at the poultry plant or cleaned the houses in the Heights, and they watched their children with the exhausted vigilance of people who knew exactly how quickly safety could dissolve.\n\nI floated between these worlds, literally. I would swim laps in the morning, when the water was still cool and empty, then drift to the edges to watch. What the pool revealed was that Greenwood was not one town but two, held together by the surface tension of the water itself. The pool was the one place where the hierarchies were visible but suspended\u2014where the plant manager\u2019s daughter might borrow sunscreen from the housekeeper\u2019s son, where the boundary between the deep and shallow ends was marked by a painted line rather than by zoning laws or school districts.\n\nThen came the August when the town council announced they were closing the pool. The chemicals were too expensive, they said. The repairs too extensive. They proposed a splash pad instead\u2014something modern, efficient, with timed jets and no lifeguards required. The splash pad would be free, they emphasized, as if this were a gift.\n\nThe last day the pool was open, I went in the evening, when the light turned the water gold and the shadows stretched long across the concrete. Almost everyone was there. The teenagers from the Heights had moved their towels to the shallow end, sharing space with the families they had ignored all summer. The mothers who usually sat apart were talking\u2014haltingly, through children who translated\u2014about the petition to save the pool, about where their kids would go next year.\n\nAs the lifeguard blew the final whistle, I watched a boy from the apartments and a girl from the cul-de-sacs climb the diving platform together. They stood at the edge for a moment, looking down at the water that had held them all summer, then jumped at the same time, hitting the surface with a single splash that sent ripples to every corner of the pool.\n\nThe splash pad opened the next spring. It is clean and safe and free, and the water shoots up in perfect arcs before falling back into hidden drains. There are no deep ends, no shallow ends, no painted lines to cross. Everyone stands on the same rubber surface, getting equally wet, equally dry.\n\nBut sometimes, when I drive past the chain-link fence where the old pool used to be, I can still see the ghost of that turquoise paint, the map of what we were before we learned to make everything level.",
+  "run_name": "2026-03-07-openrouter-v0-1-salvage-1"
+}

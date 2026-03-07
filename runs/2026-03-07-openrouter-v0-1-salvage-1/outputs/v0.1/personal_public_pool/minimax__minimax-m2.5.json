@@ -1,0 +1,37 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.1",
+  "candidate_label": "MiniMax M2.5",
+  "candidate_model_id": "minimax/minimax-m2.5",
+  "created_at": "2026-03-07T15:11:42Z",
+  "metadata": {
+    "id": "gen-1772896298-OBROc3K33aXKGeCa5aTH",
+    "usage": {
+      "completion_tokens": 500,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 231
+      },
+      "cost": 0.0006183,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.0006,
+        "upstream_inference_cost": 0.0006183,
+        "upstream_inference_prompt_cost": 1.83e-05
+      },
+      "is_byok": false,
+      "prompt_tokens": 61,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 561
+    }
+  },
+  "prompt_category": "personal_nonfiction",
+  "prompt_id": "personal_public_pool",
+  "response_text": "# The Blue Heart of Ridgewood\n\nThe Ridgewood Municipal Pool opened the summer I turned nine, and I remember my mother walking me there on the first hot day of June, the concrete still curing, the chlorine smell so sharp it made my eyes water. She handed me a dollar for the concession stand and told me to be careful on the diving board. That was the extent of her instruction. The pool was unsupervised in the way pools used to be\u2014two lifeguards on chairs at opposite ends, teenagers mostly, more interested in flirting than watching children. We were left to ourselves, to the rough democracy of the shallow end.\n\nWhat I didn't know then was that I was being introduced to the true geography of my town. Ridgewood was a small place, thirty minutes east of the city, the kind of town people drove through on their way to somewhere else. We had a single main street with a diner, a hardware store, and a bar called The Rusty Nail that no one admitted to visiting. The houses varied\u2014some colonials with slate roofs, some trailers with rusted skirting parked in lots that had been fields until recently. The pool sat at the intersection of these two Ridgewoods, literally: on the border between the old money side of town and the new developments where the factory workers lived.\n\nI spent nearly every day that summer at that pool. And the summer after that, and the one after that. By the time I was sixteen, I was one of the lifeguards myself, sitting in that chair, watching the next generation of children cannonball into",
+  "run_name": "2026-03-07-openrouter-v0-1"
+}

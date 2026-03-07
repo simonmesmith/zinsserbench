@@ -1,0 +1,37 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.1",
+  "candidate_label": "DeepSeek V3.2",
+  "candidate_model_id": "deepseek/deepseek-v3.2",
+  "created_at": "2026-03-07T15:11:28Z",
+  "metadata": {
+    "id": "gen-1772896247-huzTe2mSkdiUnJaMz1xJ",
+    "usage": {
+      "completion_tokens": 500,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 233
+      },
+      "cost": 0.00020248,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.00019,
+        "upstream_inference_cost": 0.00020248,
+        "upstream_inference_prompt_cost": 1.248e-05
+      },
+      "is_byok": false,
+      "prompt_tokens": 56,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 16,
+        "video_tokens": 0
+      },
+      "total_tokens": 556
+    }
+  },
+  "prompt_category": "personal_nonfiction",
+  "prompt_id": "personal_first_day_union_job",
+  "response_text": "The alarm screamed at 4:30 AM, a sound that felt like an indictment. For the past three years, my idea of work had been the fluorescent buzz of a call center, the desperate politeness in a customer\u2019s voice, and the silent, solitary tally of minutes until my next break. Work was a transaction: my time for their money, a daily erosion. Today was different. Today, I was reporting to the gates of the Consolidated Shipping warehouse, a new hire for the local union. I had no expectations, only a vague hope that the pay would be better.\n\nThe difference was immediate, visceral. It wasn\u2019t the cavernous space of the warehouse, or the scent of diesel and cardboard, but the sound. Instead of the hushed, anxious murmur of cubicles, there was a loud, echoing camaraderie. Men and women in steel-toed boots and worn jeans called to each other across the concrete floor, their voices bouncing off the high ceilings. They weren\u2019t just colleagues; they were a crew. My new supervisor, a broad-shouldered woman named Rita with a grip that could crack walnuts, handed me my assignment and a bright orange vest. \u201cStick with Pete,\u201d she said, jerking her thumb toward a man about my dad\u2019s age. \u201cHe\u2019ll show you the ropes. And remember, kid, you\u2019re union now. You work safe, you work smart, and you take your breaks. All of \u2018em.\u201d\n\nPete was a veteran of the floor, his face a roadmap of smile lines and squints. He didn\u2019t just teach me how to operate the",
+  "run_name": "2026-03-07-openrouter-v0-1"
+}

@@ -1,0 +1,37 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.1",
+  "candidate_label": "GPT-5.3 Chat",
+  "candidate_model_id": "openai/gpt-5.3-chat",
+  "created_at": "2026-03-07T15:07:13Z",
+  "metadata": {
+    "id": "gen-1772896027-r1Zmb31zzvjHA0F7zlvm",
+    "usage": {
+      "completion_tokens": 500,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 0
+      },
+      "cost": 0.0071015,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.007,
+        "upstream_inference_cost": 0.0071015,
+        "upstream_inference_prompt_cost": 0.0001015
+      },
+      "is_byok": false,
+      "prompt_tokens": 58,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 558
+    }
+  },
+  "prompt_category": "service_howto",
+  "prompt_id": "howto_neighborhood_meeting",
+  "response_text": "Organizing a neighborhood meeting about traffic safety can turn shared frustration into practical action. The goal is to bring residents together, document concerns, and create a clear path for engaging local officials.\n\n1. Clarify the purpose  \nStart by defining the main concern. Examples might include speeding, dangerous crossings, lack of sidewalks, or frequent near\u2011misses with pedestrians or cyclists. A simple goal helps people understand why the meeting matters, such as: \u201cDiscuss safety issues on Maple Street and identify solutions to present to the city.\u201d\n\n2. Talk to a few neighbors first  \nBefore announcing a meeting, speak with a handful of nearby residents. Ask if they\u2019ve noticed problems and whether they\u2019d attend a discussion. This early feedback helps confirm interest and may reveal key issues you should include on the agenda.\n\n3. Choose a simple time and location  \nPick a place that\u2019s easy to reach for most residents. Common options include:\n- A neighbor\u2019s driveway or yard\n- A local park or community center\n- A school meeting room\n- An online meeting if schedules are difficult\n\nEvenings on weekdays or late mornings on weekends often work best.\n\n4. Invite people clearly and early  \nNotify neighbors about one to two weeks in advance. Use multiple methods if possible:\n- Printed flyers in mailboxes or on doors  \n- A neighborhood email list or messaging group  \n- Social media groups for the area  \n- Word of mouth\n\nInclude the date, time, location, and a short explanation of the purpose.\n\n5. Prepare a simple agenda  \nKeep the meeting focused and short (about 45\u201360 minutes). A sample structure:\n- Welcome and purpose (5 minutes)  \n- Residents share observations and concerns (15 minutes)  \n- Review possible solutions (speed bumps, signage, crosswalks, enforcement, etc.) (15 minutes)  \n- Decide next steps and volunteers (15 minutes)\n\nWrite the agenda on a sheet of paper or bring a printed copy.\n\n6. Gather basic information  \nIf possible, bring helpful information such as:\n- Photos of problem areas  \n- Examples of speeding or dangerous intersections  \n- Accident reports or local news references  \n- A simple map of the street\n\nThese help focus the conversation on specific locations.\n\n7. Take notes during the meeting  \nWrite down the key issues raised and any agreed priorities. Also collect names and contact information from attendees. This list will help with follow\u2011up.\n\n8. Agree on next steps  \nTry to end with concrete actions, such",
+  "run_name": "2026-03-07-openrouter-v0-1"
+}

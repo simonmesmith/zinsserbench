@@ -1,0 +1,47 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.1",
+  "candidate_model_id": "x-ai/grok-4.1-fast",
+  "created_at": "2026-03-07T21:12:58Z",
+  "judge_model_id": "anthropic/claude-opus-4.6",
+  "metadata": {
+    "id": "gen-1772917972-jmZhujkq0eqOm5vveDyT",
+    "raw_text": "{\"scores\": {\"clarity\": 5, \"simplicity\": 4, \"brevity_economy\": 4, \"structure_flow\": 5, \"specificity_precision\": 5, \"humanity_voice\": 4, \"overall\": 5}, \"rationale\": \"Exceptionally clear and well-organized explainer. The heating/cooling mode breakdown is intuitive, and the piece provides concrete numbers throughout (efficiency ratios, temperature thresholds, tax credit amounts, lifespan). Structure flows naturally from 'what is it' to 'how it works' to 'why choose it.' Minor dings: the opening line ('If you're tired of high heating bills') is slightly formulaic, and a few phrases like 'Incentives Galore' lean toward marketing copy rather than plain explanation. Some terms like 'refrigerant gas' and 'expansion valve' could use a touch more simplification for true novices, but overall the language is accessible. The piece is appropriately concise without feeling rushed\u2014every section earns its space.\"}",
+    "usage": {
+      "completion_tokens": 233,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 0
+      },
+      "cost": 0.010725,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.005825,
+        "upstream_inference_cost": 0.010725,
+        "upstream_inference_prompt_cost": 0.0049
+      },
+      "is_byok": false,
+      "prompt_tokens": 980,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 1213
+    }
+  },
+  "prompt_category": "explain",
+  "prompt_id": "explain_heat_pumps",
+  "rationale": "Exceptionally clear and well-organized explainer. The heating/cooling mode breakdown is intuitive, and the piece provides concrete numbers throughout (efficiency ratios, temperature thresholds, tax credit amounts, lifespan). Structure flows naturally from 'what is it' to 'how it works' to 'why choose it.' Minor dings: the opening line ('If you're tired of high heating bills') is slightly formulaic, and a few phrases like 'Incentives Galore' lean toward marketing copy rather than plain explanation. Some terms like 'refrigerant gas' and 'expansion valve' could use a touch more simplification for true novices, but overall the language is accessible. The piece is appropriately concise without feeling rushed\u2014every section earns its space.",
+  "run_name": "2026-03-07-openrouter-v0-1-salvage-1",
+  "scores": {
+    "brevity_economy": 4,
+    "clarity": 5,
+    "humanity_voice": 4,
+    "overall": 5,
+    "simplicity": 4,
+    "specificity_precision": 5,
+    "structure_flow": 5
+  }
+}

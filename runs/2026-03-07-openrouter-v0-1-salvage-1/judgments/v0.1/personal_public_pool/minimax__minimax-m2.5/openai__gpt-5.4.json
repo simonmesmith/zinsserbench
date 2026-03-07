@@ -1,0 +1,47 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.1",
+  "candidate_model_id": "minimax/minimax-m2.5",
+  "created_at": "2026-03-07T21:27:53Z",
+  "judge_model_id": "openai/gpt-5.4",
+  "metadata": {
+    "id": "gen-1772918869-eZPa3zsfm4l9RO736dGd",
+    "raw_text": "{\"scores\":{\"clarity\":4,\"simplicity\":4,\"brevity_economy\":4,\"structure_flow\":3,\"specificity_precision\":5,\"humanity_voice\":5,\"overall\":4},\"rationale\":\"Vivid, concrete, and strongly voiced, with clear images like the curing concrete, chlorine, and the town split around the pool. The prose is direct and readable without much excess. The main weakness is structure/completeness: the essay stops mid-sentence before fully developing what the pool revealed about the town, so the arc feels unfinished.\"}",
+    "usage": {
+      "completion_tokens": 211,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 87
+      },
+      "cost": 0.004825,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.003165,
+        "upstream_inference_cost": 0.004825,
+        "upstream_inference_prompt_cost": 0.00166
+      },
+      "is_byok": false,
+      "prompt_tokens": 664,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 875
+    }
+  },
+  "prompt_category": "personal_nonfiction",
+  "prompt_id": "personal_public_pool",
+  "rationale": "Vivid, concrete, and strongly voiced, with clear images like the curing concrete, chlorine, and the town split around the pool. The prose is direct and readable without much excess. The main weakness is structure/completeness: the essay stops mid-sentence before fully developing what the pool revealed about the town, so the arc feels unfinished.",
+  "run_name": "2026-03-07-openrouter-v0-1-salvage-1",
+  "scores": {
+    "brevity_economy": 4,
+    "clarity": 4,
+    "humanity_voice": 5,
+    "overall": 4,
+    "simplicity": 4,
+    "specificity_precision": 5,
+    "structure_flow": 3
+  }
+}

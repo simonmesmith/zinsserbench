@@ -5,6 +5,7 @@ from pathlib import Path
 from typing import Callable, Dict, Iterable, List, Optional, Sequence, Tuple
 
 from .backends import ModelBackend
+from .quality import evaluate_output
 from .specs import load_benchmark_version
 from .storage import RunStorage
 from .types import GenerationRecord, JudgmentRecord, RunManifest, validate_axis_scores, utc_now_iso
@@ -34,6 +35,7 @@ def initialize_run(
             settings=settings,
         )
     else:
+        manifest.run_name = run_name
         manifest.updated_at = now
         manifest.model_ids = sorted(set(manifest.model_ids) | set(model_ids))
         manifest.judge_model_ids = judge_model_ids
@@ -98,6 +100,8 @@ def judge_missing(
             output = outputs.get((prompt.prompt_id, candidate.model_id))
             if output is None:
                 continue
+            if not evaluate_output(prompt, output.response_text).is_valid:
+                continue
             for judge in benchmark.judges:
                 if not storage.has_judgment(benchmark_version, prompt.prompt_id, candidate.model_id, judge.model_id):
                     tasks.append((prompt, candidate, judge, output.response_text))
@@ -118,6 +122,14 @@ def _generate_one(
     model,
 ) -> None:
     payload = backend.generate(model, prompt, settings)
+    guard = evaluate_output(prompt, payload["response_text"])
+    metadata = dict(payload.get("metadata", {}))
+    metadata["quality_guard"] = {
+        "status": "ok" if guard.is_valid else "quarantined",
+        "reason": guard.reason,
+        "word_count": guard.word_count,
+        "minimum_words": guard.minimum_words,
+    }
     record = GenerationRecord(
         benchmark_version=benchmark_version,
         run_name=storage.run_name,
@@ -128,7 +140,7 @@ def _generate_one(
         response_text=payload["response_text"],
         created_at=utc_now_iso(),
         backend=backend.name,
-        metadata=dict(payload.get("metadata", {})),
+        metadata=metadata,
     )
     storage.write_output(record)
 
@@ -143,7 +155,9 @@ def _judge_one(
     judge,
     candidate_text: str,
 ) -> None:
-    payload = backend.judge(judge, candidate, prompt, candidate_text, benchmark.rubric, settings)
+    judge_settings = dict(settings)
+    judge_settings["max_output_tokens"] = int(settings.get("judge_max_output_tokens", settings.get("max_output_tokens", 700)))
+    payload = backend.judge(judge, candidate, prompt, candidate_text, benchmark.rubric, judge_settings)
     validate_axis_scores(payload["scores"], benchmark.rubric.score_min, benchmark.rubric.score_max)
     record = JudgmentRecord(
         benchmark_version=benchmark.version,

@@ -1,0 +1,47 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.1",
+  "candidate_model_id": "google/gemini-3.1-flash-lite-preview",
+  "created_at": "2026-03-07T21:31:44Z",
+  "judge_model_id": "anthropic/claude-opus-4.6",
+  "metadata": {
+    "id": "gen-1772919096-qqWy5gTNVP8EyxTS1R70",
+    "raw_text": "{\"scores\": {\"clarity\": 5, \"simplicity\": 4, \"brevity_economy\": 4, \"structure_flow\": 5, \"specificity_precision\": 4, \"humanity_voice\": 5, \"overall\": 5}, \"rationale\": \"Exceptionally well-crafted profile that follows Elena through a single day, giving the piece a natural chronological spine. The writing is vivid and concrete\u2014the shoplifting-diapers detail, the 82 active cases, the three-minute plea conversation with Marcus\u2014all grounding the piece in specificity. Voice is strong and human throughout; the 'traffic controller' quote and the closing image of clicking a pen land well. Minor dings: a few moments tip toward literary embellishment ('topographical map of human crisis,' 'soul-eroding compromise') that slightly inflate the prose beyond strict plainness, and the piece occasionally tells us what to feel rather than trusting the details (e.g., 'It is a victory of sorts... but it feels like a defeat'). The fictional setting (Riverton, Elena) is a reasonable choice for the prompt but means specificity is invented rather than reported, which slightly limits its nonfiction authority. Still, the structure, pacing, and emotional resonance are excellent.\"}",
+    "usage": {
+      "completion_tokens": 285,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 0
+      },
+      "cost": 0.013755,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.007125,
+        "upstream_inference_cost": 0.013755,
+        "upstream_inference_prompt_cost": 0.00663
+      },
+      "is_byok": false,
+      "prompt_tokens": 1326,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 1611
+    }
+  },
+  "prompt_category": "profile",
+  "prompt_id": "profile_public_defender",
+  "rationale": "Exceptionally well-crafted profile that follows Elena through a single day, giving the piece a natural chronological spine. The writing is vivid and concrete\u2014the shoplifting-diapers detail, the 82 active cases, the three-minute plea conversation with Marcus\u2014all grounding the piece in specificity. Voice is strong and human throughout; the 'traffic controller' quote and the closing image of clicking a pen land well. Minor dings: a few moments tip toward literary embellishment ('topographical map of human crisis,' 'soul-eroding compromise') that slightly inflate the prose beyond strict plainness, and the piece occasionally tells us what to feel rather than trusting the details (e.g., 'It is a victory of sorts... but it feels like a defeat'). The fictional setting (Riverton, Elena) is a reasonable choice for the prompt but means specificity is invented rather than reported, which slightly limits its nonfiction authority. Still, the structure, pacing, and emotional resonance are excellent.",
+  "run_name": "2026-03-07-openrouter-v0-1-salvage-1",
+  "scores": {
+    "brevity_economy": 4,
+    "clarity": 5,
+    "humanity_voice": 5,
+    "overall": 5,
+    "simplicity": 4,
+    "specificity_precision": 4,
+    "structure_flow": 5
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.1",
+  "candidate_model_id": "google/gemini-3.1-pro-preview",
+  "created_at": "2026-03-07T21:28:30Z",
+  "judge_model_id": "google/gemini-3.1-pro-preview",
+  "metadata": {
+    "id": "gen-1772918905-cVYHNw4kWuIV5HHzOils",
+    "raw_text": "{\n  \"scores\": {\n    \"clarity\": 5,\n    \"simplicity\": 5,\n    \"brevity_economy\": 5,\n    \"structure_flow\": 5,\n    \"specificity_precision\": 5,\n    \"humanity_voice\": 5,\n    \"overall\": 5\n  },\n  \"rationale\": \"The memo is exceptionally well-written and perfectly fulfills the prompt's requirements. It uses a clear, logical structure with effective headings and bullet points. The language is precise, offering specific times and technical details without becoming overly jargon-heavy. The tone is professional, transparent, and empathetic to the employees' experience.\"\n}",
+    "usage": {
+      "completion_tokens": 436,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 287
+      },
+      "cost": 0.0071,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.005232,
+        "upstream_inference_cost": 0.0071,
+        "upstream_inference_prompt_cost": 0.001868
+      },
+      "is_byok": false,
+      "prompt_tokens": 934,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 1370
+    }
+  },
+  "prompt_category": "memo",
+  "prompt_id": "memo_incident_response",
+  "rationale": "The memo is exceptionally well-written and perfectly fulfills the prompt's requirements. It uses a clear, logical structure with effective headings and bullet points. The language is precise, offering specific times and technical details without becoming overly jargon-heavy. The tone is professional, transparent, and empathetic to the employees' experience.",
+  "run_name": "2026-03-07-openrouter-v0-1-salvage-1",
+  "scores": {
+    "brevity_economy": 5,
+    "clarity": 5,
+    "humanity_voice": 5,
+    "overall": 5,
+    "simplicity": 5,
+    "specificity_precision": 5,
+    "structure_flow": 5
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.1",
+  "candidate_label": "Gemini 3.1 Flash Lite Preview",
+  "candidate_model_id": "google/gemini-3.1-flash-lite-preview",
+  "created_at": "2026-03-07T21:04:39Z",
+  "metadata": {
+    "id": "gen-1772917472-fUuR3iqZ7LaCIHCfz0Hr",
+    "quality_guard": {
+      "minimum_words": 200,
+      "reason": "",
+      "status": "ok",
+      "word_count": 632
+    },
+    "usage": {
+      "completion_tokens": 1349,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 574
+      },
+      "cost": 0.00203525,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.0020235,
+        "upstream_inference_cost": 0.00203525,
+        "upstream_inference_prompt_cost": 1.175e-05
+      },
+      "is_byok": false,
+      "prompt_tokens": 47,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 1396
+    }
+  },
+  "prompt_category": "personal_nonfiction",
+  "prompt_id": "personal_public_pool",
+  "response_text": "The municipal pool in my hometown was not a place of luxury. It was a shimmering, rectangular scar in the middle of a public park, surrounded by a chain-link fence that hummed with the heat of July. To the uninitiated, it was just a concrete basin filled with chemically treated water, but to those of us who grew up in the shadow of its diving board, it was the town\u2019s true town square.\n\nIf you wanted to understand the social architecture of our town, you didn\u2019t go to the City Council meetings or the local diner. You went to the pool.\n\nThe pool was the great equalizer, though it was a messy, imperfect equality. In the morning, the water belonged to the \"lap swimmers\"\u2014the retirees and the dedicated fitness enthusiasts who moved with a rhythmic, silent intensity. They were the keepers of the town\u2019s history, the ones who remembered when the high school was a cornfield and the main street was paved with brick. They treated the pool like a sanctuary, their presence a quiet testament to the town\u2019s endurance.\n\nBy noon, the atmosphere shifted. The teenagers arrived, a chaotic swarm of hormones and bravado. This was where the town\u2019s class lines, usually obscured by the suburban sprawl of our neighborhood, became visible. You could tell who had the \"good\" sunscreen and who relied on the generic, chalky stuff. You could see the divide between the kids who spent their summers at private country clubs and those for whom the municipal pool was the only escape from the sweltering humidity of a house without central air. \n\nYet, in the water, the hierarchy blurred. When you are treading water in the deep end, waiting for your turn on the diving board, your zip code doesn\u2019t matter as much as your ability to hold your breath. The pool forced a proximity that the rest of the town avoided. We were all shivering in the same cold water, all smelling of the same sharp, stinging chlorine, all squinting against the same relentless sun.\n\nWhat the pool revealed most clearly was the town\u2019s fragile sense of community. Every summer, there was a perennial panic about the budget. Would the pool open on time? Would the hours be cut? The town would erupt in debates\u2014not about taxes or infrastructure, but about the pool. It was the one thing that everyone felt they owned, and therefore, the one thing everyone felt entitled to criticize. \n\nWatching the town rally to save the pool\u2014organizing bake sales, petitioning the council, volunteering to paint the locker rooms\u2014revealed a deep-seated anxiety. We knew, on some level, that the town was changing. The old industries were fading, the storefronts were turning over, and the neighbors we\u2019d known for years were moving away. The pool was the last vestige of a time when we all did the same things in the same places. It was a physical manifestation of our collective childhood, a blue-tiled anchor in a town that felt like it was slowly drifting away from itself.\n\nOn the final day of the season, the water would turn slightly murky, the paint would look a little more chipped, and the air would carry the first crisp hint of autumn. As the gates locked for the winter, the town would feel suddenly, unnervingly quiet. Without the pool, we were just a collection of houses and roads, separated by fences and schedules. \n\nThe pool revealed that we were a town desperate for a reason to be together. It showed us that we were willing to tolerate the noise, the crowds, and the peeling paint just to have a place where we could look at one another, share the same space, and acknowledge that, for a few months a year, we were all in the same water.",
+  "run_name": "2026-03-07-openrouter-v0-1-salvage-1"
+}

@@ -1,0 +1,47 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.1",
+  "candidate_model_id": "google/gemini-3.1-pro-preview",
+  "created_at": "2026-03-07T21:30:03Z",
+  "judge_model_id": "openai/gpt-5.4",
+  "metadata": {
+    "id": "gen-1772918998-8p7xlI6fUHFrSakK96VD",
+    "raw_text": "{\"scores\":{\"clarity\":5,\"simplicity\":4,\"brevity_economy\":4,\"structure_flow\":5,\"specificity_precision\":4,\"humanity_voice\":5,\"overall\":5},\"rationale\":\"Clear, well-organized consumer explainer with concrete, actionable steps and an engaging, reassuring voice. The numbered structure and examples make it easy to follow. It loses a bit on simplicity/economy because the opening is somewhat dramatic and a few lines are wordier than necessary. Precision is strong overall, though a couple of claims are a little too absolute or broad.\"}",
+    "usage": {
+      "completion_tokens": 303,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 174
+      },
+      "cost": 0.0078225,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.004545,
+        "upstream_inference_cost": 0.0078225,
+        "upstream_inference_prompt_cost": 0.0032775
+      },
+      "is_byok": false,
+      "prompt_tokens": 1311,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 1614
+    }
+  },
+  "prompt_category": "explain",
+  "prompt_id": "explain_food_recall",
+  "rationale": "Clear, well-organized consumer explainer with concrete, actionable steps and an engaging, reassuring voice. The numbered structure and examples make it easy to follow. It loses a bit on simplicity/economy because the opening is somewhat dramatic and a few lines are wordier than necessary. Precision is strong overall, though a couple of claims are a little too absolute or broad.",
+  "run_name": "2026-03-07-openrouter-v0-1-salvage-1",
+  "scores": {
+    "brevity_economy": 4,
+    "clarity": 5,
+    "humanity_voice": 5,
+    "overall": 5,
+    "simplicity": 4,
+    "specificity_precision": 4,
+    "structure_flow": 5
+  }
+}

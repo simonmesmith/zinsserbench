@@ -1,0 +1,37 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.1",
+  "candidate_label": "MiniMax M2.5",
+  "candidate_model_id": "minimax/minimax-m2.5",
+  "created_at": "2026-03-07T15:14:57Z",
+  "metadata": {
+    "id": "gen-1772896477-cOLgTkjRs27OUV9X6UoQ",
+    "usage": {
+      "completion_tokens": 500,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 218
+      },
+      "cost": 0.0006177,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.0006,
+        "upstream_inference_cost": 0.0006177,
+        "upstream_inference_prompt_cost": 1.77e-05
+      },
+      "is_byok": false,
+      "prompt_tokens": 60,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 560
+    }
+  },
+  "prompt_category": "persuasion_oped",
+  "prompt_id": "oped_corner_store",
+  "response_text": "# The Case for Corner Stores: Why Our Neighborhoods Need Them\n\n**Remember when you could walk to buy a gallon of milk?** For many of us growing up, the corner store was a fixture of daily life\u2014a place where neighbors became familiar faces, where children learned to make small purchases responsibly, and where a forgotten ingredient never meant a special car trip. Somewhere along the way, we decided that residential neighborhoods should be exclusively for living, pushing our daily necessities further away. It's time to bring them back.\n\nAllowing small corner stores in residential areas isn't just about convenience\u2014it's about building stronger, more connected, and more livable communities.\n\n## Convenience That Matters\n\nNot everyone drives. Not everyone has a carpool available. Elderly residents who can no longer safely drive deserve the dignity of independent living, which means being able to purchase essentials without depending on others. Parents with young children know the exhaustion of loading multiple kids into a car just for a loaf of bread. For these residents, a corner store isn't a luxury\u2014it's a lifeline that allows them to remain active, contributing members of their community.\n\n## Walking Is the Answer to Traffic and Climate\n\nEvery corner store trip made on foot is one less car on the road. When residents must drive miles to reach the nearest grocery store, we contribute to congestion, pollution, and climate change. Corner stores encourage walking, reduce vehicle miles traveled, and",
+  "run_name": "2026-03-07-openrouter-v0-1"
+}

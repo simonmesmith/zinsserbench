@@ -1,0 +1,47 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.1",
+  "candidate_model_id": "qwen/qwen3.5-35b-a3b",
+  "created_at": "2026-03-07T21:11:36Z",
+  "judge_model_id": "openai/gpt-5.4",
+  "metadata": {
+    "id": "gen-1772917890-UVqS05NfsYGghtxveBhx",
+    "raw_text": "{\"scores\":{\"clarity\":3,\"simplicity\":3,\"brevity_economy\":2,\"structure_flow\":3,\"specificity_precision\":2,\"humanity_voice\":1,\"overall\":2},\"rationale\":\"The response is understandable and organized, but it does not actually deliver the requested memo; it gives planning notes and an outline instead. It names relevant budget-freeze items, yet stays generic, uses placeholders, and sounds mechanical rather than like a real internal communication to department heads.\"}",
+    "usage": {
+      "completion_tokens": 367,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 257
+      },
+      "cost": 0.00755,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.005505,
+        "upstream_inference_cost": 0.00755,
+        "upstream_inference_prompt_cost": 0.002045
+      },
+      "is_byok": false,
+      "prompt_tokens": 818,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 1185
+    }
+  },
+  "prompt_category": "memo",
+  "prompt_id": "memo_budget_freeze",
+  "rationale": "The response is understandable and organized, but it does not actually deliver the requested memo; it gives planning notes and an outline instead. It names relevant budget-freeze items, yet stays generic, uses placeholders, and sounds mechanical rather than like a real internal communication to department heads.",
+  "run_name": "2026-03-07-openrouter-v0-1-salvage-1",
+  "scores": {
+    "brevity_economy": 2,
+    "clarity": 3,
+    "humanity_voice": 1,
+    "overall": 2,
+    "simplicity": 3,
+    "specificity_precision": 2,
+    "structure_flow": 3
+  }
+}

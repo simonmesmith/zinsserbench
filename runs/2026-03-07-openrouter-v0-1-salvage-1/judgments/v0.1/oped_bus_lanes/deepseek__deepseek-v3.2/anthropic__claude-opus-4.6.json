@@ -1,0 +1,47 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.1",
+  "candidate_model_id": "deepseek/deepseek-v3.2",
+  "created_at": "2026-03-07T21:24:31Z",
+  "judge_model_id": "anthropic/claude-opus-4.6",
+  "metadata": {
+    "id": "gen-1772918664-23kJaxe5AVwT6VNEFX0o",
+    "raw_text": "{\"scores\": {\"clarity\": 5, \"simplicity\": 4, \"brevity_economy\": 4, \"structure_flow\": 5, \"specificity_precision\": 4, \"humanity_voice\": 4, \"overall\": 4}, \"rationale\": \"Clear, well-organized opinion piece that moves logically from problem to solution to counterargument to broader benefits. The throughput statistics (600-1,600 vs. 4,000 per hour) add concrete grounding. Language is mostly plain and direct, though it occasionally leans on rhetorical flourishes ('late for our own lives,' 'down payment on environmental justice') that border on inflated. The piece is cut off at the end, which hurts completeness. Specificity is good but could be stronger\u2014Bogot\u00e1 and London are mentioned but without concrete data on outcomes. Voice is engaged and reader-aware ('thousands of us') without being preachy. Structure is the strongest element: each paragraph has a clear job and transitions are smooth.\"}",
+    "usage": {
+      "completion_tokens": 228,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 0
+      },
+      "cost": 0.010245,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.0057,
+        "upstream_inference_cost": 0.010245,
+        "upstream_inference_prompt_cost": 0.004545
+      },
+      "is_byok": false,
+      "prompt_tokens": 909,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 1137
+    }
+  },
+  "prompt_category": "persuasion_oped",
+  "prompt_id": "oped_bus_lanes",
+  "rationale": "Clear, well-organized opinion piece that moves logically from problem to solution to counterargument to broader benefits. The throughput statistics (600-1,600 vs. 4,000 per hour) add concrete grounding. Language is mostly plain and direct, though it occasionally leans on rhetorical flourishes ('late for our own lives,' 'down payment on environmental justice') that border on inflated. The piece is cut off at the end, which hurts completeness. Specificity is good but could be stronger\u2014Bogot\u00e1 and London are mentioned but without concrete data on outcomes. Voice is engaged and reader-aware ('thousands of us') without being preachy. Structure is the strongest element: each paragraph has a clear job and transitions are smooth.",
+  "run_name": "2026-03-07-openrouter-v0-1-salvage-1",
+  "scores": {
+    "brevity_economy": 4,
+    "clarity": 5,
+    "humanity_voice": 4,
+    "overall": 4,
+    "simplicity": 4,
+    "specificity_precision": 4,
+    "structure_flow": 5
+  }
+}

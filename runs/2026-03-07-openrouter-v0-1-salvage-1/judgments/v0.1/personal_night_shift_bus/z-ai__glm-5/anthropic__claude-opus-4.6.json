@@ -1,0 +1,47 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.1",
+  "candidate_model_id": "z-ai/glm-5",
+  "created_at": "2026-03-07T21:37:18Z",
+  "judge_model_id": "anthropic/claude-opus-4.6",
+  "metadata": {
+    "id": "gen-1772919430-P4JD0etSvD2LbDhuqXka",
+    "raw_text": "{\"scores\": {\"clarity\": 5, \"simplicity\": 5, \"brevity_economy\": 4, \"structure_flow\": 5, \"specificity_precision\": 5, \"humanity_voice\": 5, \"overall\": 5}, \"rationale\": \"This is exceptionally well-crafted personal nonfiction. The clarity is flawless\u2014every sentence lands on first read. The language is plain and direct without ever feeling flat; details like 'fifth row, aisle seat' and Carl calling people 'boss' or 'sweetheart' are precise and earned. The chronological structure (September through August) provides natural momentum, and the seasonal shifts do real work\u2014the crochet woman's switch from wool to cotton, the couple's hands separating. The voice is genuinely human, self-aware without being precious ('that would have been sentimental, and anyway the light was wrong'). The only minor ding is on brevity: a few passages slightly over-explain their own themes ('the strange intimacy of public transit' paragraph tells us what the essay has already shown), and the notebook passage edges toward meta-commentary that isn't strictly necessary. But these are small costs in a piece that sustains emotional precision across its full length. The ending is restrained and perfect.\"}",
+    "usage": {
+      "completion_tokens": 284,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 0
+      },
+      "cost": 0.017145,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.0071,
+        "upstream_inference_cost": 0.017145,
+        "upstream_inference_prompt_cost": 0.010045
+      },
+      "is_byok": false,
+      "prompt_tokens": 2009,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 2293
+    }
+  },
+  "prompt_category": "personal_nonfiction",
+  "prompt_id": "personal_night_shift_bus",
+  "rationale": "This is exceptionally well-crafted personal nonfiction. The clarity is flawless\u2014every sentence lands on first read. The language is plain and direct without ever feeling flat; details like 'fifth row, aisle seat' and Carl calling people 'boss' or 'sweetheart' are precise and earned. The chronological structure (September through August) provides natural momentum, and the seasonal shifts do real work\u2014the crochet woman's switch from wool to cotton, the couple's hands separating. The voice is genuinely human, self-aware without being precious ('that would have been sentimental, and anyway the light was wrong'). The only minor ding is on brevity: a few passages slightly over-explain their own themes ('the strange intimacy of public transit' paragraph tells us what the essay has already shown), and the notebook passage edges toward meta-commentary that isn't strictly necessary. But these are small costs in a piece that sustains emotional precision across its full length. The ending is restrained and perfect.",
+  "run_name": "2026-03-07-openrouter-v0-1-salvage-1",
+  "scores": {
+    "brevity_economy": 4,
+    "clarity": 5,
+    "humanity_voice": 5,
+    "overall": 5,
+    "simplicity": 5,
+    "specificity_precision": 5,
+    "structure_flow": 5
+  }
+}

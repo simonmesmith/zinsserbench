@@ -1,0 +1,37 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.1",
+  "candidate_label": "Grok 4.1 Fast",
+  "candidate_model_id": "x-ai/grok-4.1-fast",
+  "created_at": "2026-03-07T15:02:57Z",
+  "metadata": {
+    "id": "gen-1772895765-gkLdrep2A24413rhI9rg",
+    "usage": {
+      "completion_tokens": 922,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 422
+      },
+      "cost": 0.00048225,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.000461,
+        "upstream_inference_cost": 0.00048225,
+        "upstream_inference_prompt_cost": 2.125e-05
+      },
+      "is_byok": false,
+      "prompt_tokens": 218,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 149,
+        "video_tokens": 0
+      },
+      "total_tokens": 1140
+    }
+  },
+  "prompt_category": "memo",
+  "prompt_id": "memo_remote_work_policy",
+  "response_text": "**MEMORANDUM**\n\n**To:** All Employees  \n**From:** Alex Rivera, CEO  \n**Date:** October 15, 2023  \n**Subject:** Introducing Our New Flexible Remote Work Policy  \n\nDear Team,  \n\nI'm excited to announce a new flexible remote work policy at TechSoft Innovations, effective November 1, 2023. This policy reflects our commitment to empowering our 120-person team with greater autonomy while maintaining the high collaboration and productivity that define our success.  \n\n### Policy Details  \n- **Flexible Options**: Employees may now choose to work **fully remote**, **hybrid** (a minimum of 8 days per month in the office), or **fully in-office**, subject to manager approval based on role requirements.  \n- **Core Collaboration Hours**: To ensure seamless teamwork across time zones, all employees must be available during **10:00 AM - 3:00 PM PST** on weekdays for meetings, stand-ups, and real-time collaboration.  \n- **Equipment and Support**: The company will provide stipends for home office setups (up to $1,000 one-time, plus $50/month ongoing) and continue supplying all necessary tools (laptops, software licenses, etc.).  \n- **Quarterly In-Person Events**: We will host optional quarterly team offsites in our San Francisco headquarters to foster connections\u2014travel and accommodations covered for remote participants.  \n\n### Why This Change?  \nOver the past year, our internal surveys and productivity data have shown that flexible work arrangements boost employee satisfaction by 25%, reduce turnover intentions by 18%, and maintain or exceed output levels. In a competitive software talent market, this policy positions us to attract top engineers and designers while cutting office overhead costs by an estimated 30%. Post-pandemic lessons have proven remote work works for us\u2014we're making it official to support your best work, wherever you thrive.  \n\n### Next Steps for Employees  \n1. **Discuss with Your Manager**: By October 25, schedule a 15-minute check-in to confirm your preferred arrangement and any role-specific adjustments.  \n2. **Update HR Portal**: Log into the BambooHR portal by October 31 to select your work model and submit home office details for stipend processing.  \n3. **Complete Training**: Finish the mandatory 30-minute \"Remote Success Toolkit\" module in Workday by November 7 (covers cybersecurity best practices and tools like Slack, Zoom, and Notion).  \n\nIf you have questions, reach out to HR@tech",
+  "run_name": "2026-03-07-openrouter-v0-1"
+}

@@ -1,0 +1,43 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.1",
+  "candidate_label": "Gemini 3.1 Pro Preview",
+  "candidate_model_id": "google/gemini-3.1-pro-preview",
+  "created_at": "2026-03-07T21:05:30Z",
+  "metadata": {
+    "id": "gen-1772917501-yHmzrBGupjHPFpBliviN",
+    "quality_guard": {
+      "minimum_words": 200,
+      "reason": "",
+      "status": "ok",
+      "word_count": 808
+    },
+    "usage": {
+      "completion_tokens": 1893,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 812
+      },
+      "cost": 0.022808,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.022716,
+        "upstream_inference_cost": 0.022808,
+        "upstream_inference_prompt_cost": 9.2e-05
+      },
+      "is_byok": false,
+      "prompt_tokens": 46,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 1939
+    }
+  },
+  "prompt_category": "profile",
+  "prompt_id": "profile_public_defender",
+  "response_text": "The wheels of Elias Vance\u2019s battered leather briefcase squeak a rhythmic, high-pitched protest against the scuffed linoleum of the Marion County Courthouse. It is 8:15 a.m. on a Tuesday in a city of 200,000 people\u2014a Midwestern municipality large enough to harbor big-city problems like an entrenched opioid crisis and systemic poverty, but small enough that the county budget is perpetually running on fumes. \n\nElias, a 34-year-old public defender with permanent dark circles beneath his eyes, has fourteen court appearances scheduled before lunch. \n\n\"You learn to live in a state of perpetual triage,\" Elias says, pressing the elevator button with the corner of a manila folder. Inside that folder is the life of a nineteen-year-old facing three to five years for aggravated assault. Elias met him for the first time yesterday. \"The American Bar Association says a public defender shouldn't handle more than 150 felonies in a single year. I have 172 active felony cases right now. Today. The math doesn't just not work; it actively mocks you.\"\n\nTo shadow Elias for a day is to watch a man trying to empty the ocean with a slotted spoon. His office is technically on the third floor of a brutalist concrete building across the street, but his real office is the courthouse hallway. Here, beneath flickering fluorescent lights, he negotiates with prosecutors, comforts weeping mothers, and tries to explain the labyrinthine complexities of the penal code to clients who are often terrified, detoxing, or severely mentally ill.\n\nThe reality of a heavy caseload means that the luxury of time is nonexistent. In a perfect world, Elias would spend hours investigating every claim, interviewing every witness, and filing every possible motion. In the real world, he has roughly twelve minutes per client to review discovery, explain the state\u2019s plea offer, and help them make a decision that will permanently alter the trajectory of their lives. \n\nAt 9:30 a.m., Elias is in the basement holding cells. The air smells of bleach and stale sweat. He sits across the plexiglass from a man named Arthur, a chronic shoplifter whose addiction has finally landed him a felony charge. The prosecutor is offering eighteen months. Elias has found a technicality in the police report\u2014an illegal search of Arthur's backpack\u2014and wants to fight it. \n\n\"If we lose, it's three years, Arthur,\" Elias explains, his voice low, steady, and devoid of judgment. \"If we win, you walk. But I need you to know the risk.\" \n\nArthur stares at his hands, trembling slightly, and takes the plea. He is too tired to fight. Elias closes his eyes for a fraction of a second, nods, and slides the paperwork through the slot. It is a quiet, devastating defeat, one of half a dozen Elias will absorb before the day is out. \n\n\"That\u2019s the hardest part,\" Elias admits later, eating a lukewarm slice of pizza at his desk while drafting a motion to suppress for a different case. \"You become the face of a broken system. To the state, you're a nuisance slowing down the assembly line. To the clients, you're just another court-appointed suit who doesn't care about them. You have to absorb their anger, because you are the only person in the entire machinery of the state who is actually on their side.\"\n\nSo why do it? Elias graduated in the top quarter of his law school class. He could be working at a downtown civil litigation firm, making three times his current $62,000 salary, arguing over corporate contract disputes and going home at 5:00 p.m. \n\nThe answer arrives at 2:15 p.m. in Courtroom 4B. Elias is representing a single mother charged with drug possession. She has been clean for six months, holding down a job, and fighting to keep custody of her children. The prosecutor wants jail time based on her prior record. Elias stands before the judge, his exhaustion vanishing, replaced by a sharp, focused intensity. He doesn't just argue the law; he argues her humanity. He presents her clean drug tests, a letter from her employer, and paints a vivid picture of a woman clawing her way out of the abyss. \n\nThe judge listens, sighs, and sentences her to probation. The woman collapses into Elias\u2019s shoulder, sobbing her thanks. For a brief moment, the assembly line stops. A life is salvaged.\n\n\"That,\" Elias says, walking out of the courtroom, his tie loosened, the squeaking briefcase trailing behind him. \"That is why. The Constitution isn't a self-executing document. It only works if someone is willing to stand in the room and make it work.\"\n\nBy 6:00 p.m., the courthouse is dark, but Elias\u2019s office light is still on. He has three briefs to write, two dozen voicemails to return, and a new stack of files waiting in his inbox. He rubs his eyes, opens the first folder, and begins to read. Tomorrow, he has fifteen appearances.",
+  "run_name": "2026-03-07-openrouter-v0-1-salvage-1"
+}

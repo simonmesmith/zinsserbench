@@ -1,0 +1,47 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.1",
+  "candidate_model_id": "qwen/qwen3.5-35b-a3b",
+  "created_at": "2026-03-07T21:13:22Z",
+  "judge_model_id": "anthropic/claude-opus-4.6",
+  "metadata": {
+    "id": "gen-1772917988-DsVg0E58Pc8nPSzySZpX",
+    "raw_text": "{\"scores\": {\"clarity\": 4, \"simplicity\": 4, \"brevity_economy\": 3, \"structure_flow\": 3, \"specificity_precision\": 4, \"humanity_voice\": 4, \"overall\": 3}, \"rationale\": \"Well-written and accessible explainer with a helpful 'sponge for warmth' analogy and concrete numbers (90\u201398% furnace efficiency, 3\u20134x heat pump COP). Language is plain and reader-aware. However, the piece is truncated mid-section (Environmental Impact cuts off entirely), which is a significant structural flaw\u2014it leaves the reader hanging and undermines the comparison's completeness. The opening paragraph has mild throat-clearing ('thrown around as the future of home comfort'). Within the completed sections, the parallel Gas/Heat Pump format works well and the tone is warm without being condescending.\"}",
+    "usage": {
+      "completion_tokens": 581,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 259
+      },
+      "cost": 0.01926,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.014525,
+        "upstream_inference_cost": 0.01926,
+        "upstream_inference_prompt_cost": 0.004735
+      },
+      "is_byok": false,
+      "prompt_tokens": 947,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 1528
+    }
+  },
+  "prompt_category": "explain",
+  "prompt_id": "explain_heat_pumps",
+  "rationale": "Well-written and accessible explainer with a helpful 'sponge for warmth' analogy and concrete numbers (90\u201398% furnace efficiency, 3\u20134x heat pump COP). Language is plain and reader-aware. However, the piece is truncated mid-section (Environmental Impact cuts off entirely), which is a significant structural flaw\u2014it leaves the reader hanging and undermines the comparison's completeness. The opening paragraph has mild throat-clearing ('thrown around as the future of home comfort'). Within the completed sections, the parallel Gas/Heat Pump format works well and the tone is warm without being condescending.",
+  "run_name": "2026-03-07-openrouter-v0-1-salvage-1",
+  "scores": {
+    "brevity_economy": 3,
+    "clarity": 4,
+    "humanity_voice": 4,
+    "overall": 3,
+    "simplicity": 4,
+    "specificity_precision": 4,
+    "structure_flow": 3
+  }
+}

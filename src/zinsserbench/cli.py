@@ -66,7 +66,13 @@ def _common_run_parser(parser: argparse.ArgumentParser) -> argparse.ArgumentPars
     parser.add_argument("--generation-concurrency", type=int, default=4)
     parser.add_argument("--judge-concurrency", type=int, default=4)
     parser.add_argument("--temperature", type=float, default=0.2)
-    parser.add_argument("--max-output-tokens", type=int, default=500)
+    parser.add_argument("--max-output-tokens", type=int, default=2500)
+    parser.add_argument(
+        "--judge-max-output-tokens",
+        type=int,
+        default=700,
+        help="Separate output cap for judge JSON responses.",
+    )
     parser.add_argument("--timeout-seconds", type=int, default=120)
     parser.add_argument(
         "--reasoning-effort",
@@ -87,6 +93,7 @@ def _settings_from_args(args: argparse.Namespace) -> Dict[str, object]:
         "judge_concurrency": args.judge_concurrency,
         "temperature": args.temperature,
         "max_output_tokens": args.max_output_tokens,
+        "judge_max_output_tokens": args.judge_max_output_tokens,
         "timeout_seconds": args.timeout_seconds,
         "reasoning_effort": args.reasoning_effort,
         "exclude_reasoning": not args.include_reasoning,

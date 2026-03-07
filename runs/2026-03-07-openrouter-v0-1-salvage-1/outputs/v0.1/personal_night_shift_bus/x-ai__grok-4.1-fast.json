@@ -1,0 +1,37 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.1",
+  "candidate_label": "Grok 4.1 Fast",
+  "candidate_model_id": "x-ai/grok-4.1-fast",
+  "created_at": "2026-03-07T15:15:08Z",
+  "metadata": {
+    "id": "gen-1772896497-yEnVLvvAmEh1hd7WWdMg",
+    "usage": {
+      "completion_tokens": 836,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 336
+      },
+      "cost": 0.00043565,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.000418,
+        "upstream_inference_cost": 0.00043565,
+        "upstream_inference_prompt_cost": 1.765e-05
+      },
+      "is_byok": false,
+      "prompt_tokens": 200,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 149,
+        "video_tokens": 0
+      },
+      "total_tokens": 1036
+    }
+  },
+  "prompt_category": "personal_nonfiction",
+  "prompt_id": "personal_night_shift_bus",
+  "response_text": "# The 11:47 Nocturne\n\nFor an entire year, the 11:47 bus was my chariot through the city's underbelly. I worked as a bartender at a dive in the theater district, slinging overpriced IPAs and cheap whiskey to actors, tourists, and the occasional lost soul until closing. The shift ended around 11:30, just enough time to wipe down the bar, count tips, and sprint two blocks to the stop. That bus\u2014the 142 express from downtown to my suburb on the edge of the sprawl\u2014was my ritual, my confessional, my fragile tether to normalcy. Rain or shine, blizzard or heatwave, I boarded it 365 times, give or take a few sick days or the rare early close.\n\nThe first ride, in late September, was a revelation. I stumbled on, reeking of spilled beer and fryer grease, clutching a lukewarm coffee from the diner's pot. The bus was half-empty, a metal beast humming under fluorescent lights that buzzed like angry hornets. Seats were vinyl, sticky from god-knows-what, and the air carried a medley of stale cigarettes, wet dog, and unwashed ambition. I claimed my throne: the sideways-facing seat near the back door, perfect for people-watching without commitment. Across from me sat Eddie, a wiry man in his fifties with a perpetual five-o'clock shadow and a duffel bag stuffed with newspapers. \"Rough night?\" he grunted, not looking up. I nodded, too tired for words. That was our introduction. Eddie rode every night, commuting from a warehouse job in the industrial park. He became my bus North Star, a constant in the chaos.\n\nWinter descended like a blackout curtain. By November, the 11:47 was a rolling igloo. Frost etched the windows, turning the neon cityscape into abstract art. I'd huddle in my parka, breath fogging the glass, watching the world blur: hookers on corners stamping feet against cold, homeless folks bundled in doorways, taxis slicing through slush. Inside, the bus filled with familiars. There was Maria, the nurse from the ER, her scrubs bloodstained some nights, her eyes hollow from twelve-hour shifts. She'd sit quietly, scrolling her phone, occasionally muttering prayers in Spanish. Then Lena, the stripper with electric-blue hair and a laugh like shattered glass. She'd recount her conquests\u2014big tippers, jealous boyfriends\u2014in",
+  "run_name": "2026-03-07-openrouter-v0-1"
+}

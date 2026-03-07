@@ -1,0 +1,43 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.1",
+  "candidate_label": "Gemini 3.1 Flash Lite Preview",
+  "candidate_model_id": "google/gemini-3.1-flash-lite-preview",
+  "created_at": "2026-03-07T21:04:57Z",
+  "metadata": {
+    "id": "gen-1772917491-OqqQrOgLD4pSmR0gCRCs",
+    "quality_guard": {
+      "minimum_words": 120,
+      "reason": "",
+      "status": "ok",
+      "word_count": 651
+    },
+    "usage": {
+      "completion_tokens": 1743,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 861
+      },
+      "cost": 0.002628,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.0026145,
+        "upstream_inference_cost": 0.002628,
+        "upstream_inference_prompt_cost": 1.35e-05
+      },
+      "is_byok": false,
+      "prompt_tokens": 54,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 1797
+    }
+  },
+  "prompt_category": "explain",
+  "prompt_id": "explain_food_recall",
+  "response_text": "### What Is a Food Recall?\n\nA food recall is a voluntary or mandatory action taken by a manufacturer or a government agency (such as the FDA or USDA) to remove a food product from the market because it is considered unsafe. \n\nRecalls are typically issued for three main reasons:\n*   **Contamination:** The food may contain harmful bacteria (like *Salmonella*, *Listeria*, or *E. coli*), viruses, or parasites.\n*   **Undeclared Allergens:** The product contains an ingredient (such as peanuts, milk, or soy) that is not listed on the label, posing a severe risk to people with food allergies.\n*   **Foreign Objects:** The product may contain physical hazards like glass, metal, or plastic fragments that entered the food during processing.\n\nIt is important to understand that a recall is a proactive safety measure. It does not necessarily mean that every single item of that brand is contaminated, but rather that there is a specific risk associated with certain batches or production runs.\n\n---\n\n### What to Do If You Think You Have a Recalled Product\n\nIf you hear news of a food recall, do not panic. Follow these steps to ensure your safety:\n\n#### 1. Verify the Details\nA recall rarely applies to every product a company makes. You must check the specific identifiers on the packaging. Look for:\n*   **The Lot Number or Batch Code:** This is usually a string of numbers or letters printed near the expiration date.\n*   **The UPC/Barcode:** This is the 12-digit number under the barcode.\n*   **The \"Best By\" or Expiration Date:** Recalls are often limited to products manufactured during a specific window of time.\n\nCompare these details against the official recall notice, which can be found on the manufacturer\u2019s website or at [FoodSafety.gov](https://www.foodsafety.gov).\n\n#### 2. Stop Eating It Immediately\nEven if the food looks, smells, and tastes normal, **do not consume it.** Pathogens like *Listeria* or *Salmonella* cannot be detected by sight or smell. If you are unsure if your product is part of the recall, it is safer to treat it as if it is until you can confirm otherwise.\n\n#### 3. Dispose of or Return the Product\n*   **If you are throwing it away:** Place the item in a sealed bag or container so that it cannot be retrieved by children, pets, or scavengers.\n*   **If you are returning it:** Many retailers will offer a full refund for recalled items, even without a receipt. Check the recall notice to see if the manufacturer recommends returning the item to the store or disposing of it.\n\n#### 4. Clean Your Kitchen\nIf the recalled food touched any surfaces, utensils, or storage containers, clean them thoroughly with hot, soapy water. If the food was stored in a reusable container, wash that container and sanitize it before using it again.\n\n---\n\n### What If You Already Ate the Food?\n\nIf you have already consumed a product that has been recalled, do not assume you will get sick. Many people consume recalled products without experiencing symptoms. However, you should:\n\n*   **Monitor your health:** Watch for symptoms such as fever, diarrhea, vomiting, or abdominal cramps. Symptoms can appear anywhere from a few hours to several weeks after consumption, depending on the contaminant.\n*   **Contact a healthcare provider:** If you develop symptoms, contact your doctor. Tell them exactly what you ate and when, and mention that the product was subject to a recall.\n*   **Keep the packaging:** If you still have the packaging, keep it. It may contain information that helps health officials track the source of the contamination.\n\n### How to Stay Informed\nTo stay updated on food safety alerts, you can:\n*   **Bookmark [FoodSafety.gov](https://www.foodsafety.gov):** This is the central hub for all U.S. food recall information.\n*   **Sign up for alerts:** The FDA and USDA offer email alerts for food recalls.\n*   **Follow official social media:** The FDA Food account on X (formerly Twitter) provides real-time updates on safety alerts.",
+  "run_name": "2026-03-07-openrouter-v0-1-salvage-1"
+}

@@ -1,0 +1,43 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.1",
+  "candidate_label": "Gemini 3.1 Flash Lite Preview",
+  "candidate_model_id": "google/gemini-3.1-flash-lite-preview",
+  "created_at": "2026-03-07T21:04:07Z",
+  "metadata": {
+    "id": "gen-1772917441-U3Lbo1749BdxL4OYPhVi",
+    "quality_guard": {
+      "minimum_words": 120,
+      "reason": "",
+      "status": "ok",
+      "word_count": 649
+    },
+    "usage": {
+      "completion_tokens": 1256,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 425
+      },
+      "cost": 0.0018965,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.001884,
+        "upstream_inference_cost": 0.0018965,
+        "upstream_inference_prompt_cost": 1.25e-05
+      },
+      "is_byok": false,
+      "prompt_tokens": 50,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 1306
+    }
+  },
+  "prompt_category": "service_howto",
+  "prompt_id": "howto_report_water_leak",
+  "response_text": "Discovering a water leak in your ceiling is stressful, but taking immediate, organized action can prevent significant property damage and protect your rights as a tenant. Follow these steps to manage the situation effectively.\n\n### 1. Prioritize Safety\nBefore you do anything else, assess the electrical risks.\n*   **Turn off electricity:** If the water is leaking near light fixtures, outlets, or smoke detectors, go to your breaker box and turn off the power to that room immediately. Water and electricity are a dangerous combination.\n*   **Avoid the area:** If the ceiling looks like it is sagging or bulging, it may be holding a significant amount of water. Do not stand directly underneath it, as the drywall could collapse.\n\n### 2. Contain the Damage\nYour goal is to minimize the spread of water to your floors and personal belongings.\n*   **Catch the water:** Place a bucket or large container directly under the leak. If the water is splashing, place a towel in the bottom of the bucket to muffle the sound and prevent spray.\n*   **Protect your belongings:** Move furniture, electronics, rugs, and boxes away from the affected area. If you cannot move heavy furniture, cover it with plastic sheeting or trash bags.\n*   **Clear the floor:** If water is pooling on the floor, mop it up immediately to prevent warping of hardwood or the growth of mold in carpet padding.\n\n### 3. Notify Management Immediately\nDo not assume someone else has already reported it.\n*   **Call the emergency line:** Most apartment complexes have a 24/7 maintenance emergency number. Call it immediately. If you cannot reach anyone, leave a voicemail and send a follow-up text or email.\n*   **Create a paper trail:** Even if you report the leak over the phone, follow up with an email or a message through your tenant portal. State the date, time, and specific location of the leak. This creates a timestamped record that is essential if the landlord later claims you failed to report the issue.\n\n### 4. Document Everything\nBefore maintenance arrives, document the state of the apartment.\n*   **Take photos and videos:** Capture the source of the leak, the extent of the water damage, and any of your personal belongings that have been affected. \n*   **Be thorough:** Take wide shots to show the location of the leak in the room and close-ups of any damage to the ceiling or walls.\n*   **Keep a log:** Note the time you discovered the leak, the time you reported it, and the name of the person you spoke with.\n\n### 5. Do Not Attempt Repairs\nUnless you are a licensed professional, do not attempt to cut into the ceiling or fix the plumbing yourself. \n*   **Liability:** If you attempt a repair and cause further damage, you could be held financially responsible for the repairs.\n*   **Hidden hazards:** You do not know what is behind the ceiling\u2014there could be electrical wiring, mold, or structural issues that require professional remediation.\n\n### 6. Follow Up and Protect Your Interests\nOnce the leak is stopped, ensure the aftermath is handled correctly.\n*   **Request a professional inspection:** Ask management to ensure the area is properly dried out. If the ceiling remains damp, it will lead to mold growth, which is a health hazard.\n*   **Check your renters insurance:** If your personal property (electronics, furniture, clothing) was damaged, contact your insurance provider. Provide them with the photos and documentation you gathered.\n*   **Confirm the repair:** Once the ceiling is patched and painted, inspect the work. If you notice any lingering odors or signs of moisture, report them immediately.\n\n**Pro-Tip:** If the leak is coming from the unit above you, and you have a friendly relationship with your neighbor, knock on their door. They may be unaware that a pipe has burst or a tub has overflowed in their unit, and they can help stop the source of the water from their end.",
+  "run_name": "2026-03-07-openrouter-v0-1-salvage-1"
+}

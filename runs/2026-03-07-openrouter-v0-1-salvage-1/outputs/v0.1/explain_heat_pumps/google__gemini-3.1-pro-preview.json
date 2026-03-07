@@ -1,0 +1,43 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.1",
+  "candidate_label": "Gemini 3.1 Pro Preview",
+  "candidate_model_id": "google/gemini-3.1-pro-preview",
+  "created_at": "2026-03-07T21:03:23Z",
+  "metadata": {
+    "id": "gen-1772917379-YzP6ANCyDQRhYufdqRYg",
+    "quality_guard": {
+      "minimum_words": 120,
+      "reason": "",
+      "status": "ok",
+      "word_count": 519
+    },
+    "usage": {
+      "completion_tokens": 1327,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 678
+      },
+      "cost": 0.016028,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.015924,
+        "upstream_inference_cost": 0.016028,
+        "upstream_inference_prompt_cost": 0.000104
+      },
+      "is_byok": false,
+      "prompt_tokens": 52,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 1379
+    }
+  },
+  "prompt_category": "explain",
+  "prompt_id": "explain_heat_pumps",
+  "response_text": "If you are looking to upgrade your home\u2019s heating and cooling system, you have probably heard the growing buzz around heat pumps. But what exactly are they, and why are so many homeowners choosing them over traditional gas furnaces? \n\nHere is a simple breakdown of how heat pumps work and why they might be the right choice for your home.\n\n### How Heat Pumps Work\nThe easiest way to understand a heat pump is to realize that it doesn\u2019t actually *create* heat\u2014it just moves it from one place to another. \n\nThink about your kitchen refrigerator. It keeps your food cold by extracting the heat from inside the fridge and releasing it into your kitchen. A heat pump does the exact same thing, but on a larger scale for your entire home. \n\n*   **In the winter:** The heat pump extracts ambient heat from the outside air and pumps it inside to warm your home. (Surprisingly, there is still extractable heat energy in the air even when it feels freezing outside!)\n*   **In the summer:** The system simply reverses itself. It acts as an air conditioner, pulling the warm air out of your house and releasing it outdoors.\n\n### Why Choose a Heat Pump Over a Gas Furnace?\n\nWhile gas furnaces have been the standard for decades, heat pumps offer several distinct advantages that are winning homeowners over:\n\n**1. Unmatched Energy Efficiency**\nBecause a gas furnace has to burn fuel to generate heat, its maximum efficiency is physically limited; even the best furnaces max out around 98% efficiency. Because a heat pump only uses electricity to *move* existing heat, it can achieve efficiencies of 300% or more. For every unit of electricity it consumes, it can deliver three units of heat to your home. \n\n**2. Two Systems in One**\nWhen you buy a gas furnace, you still need to purchase and maintain a separate air conditioning unit for the summer. A heat pump handles both heating and cooling in a single system, saving you the hassle of maintaining two different pieces of equipment.\n\n**3. Better for the Environment**\nHeat pumps run entirely on electricity. Because they do not burn fossil fuels on-site, they produce zero direct greenhouse gas emissions. As the electrical grid becomes greener with more wind and solar power, your home's carbon footprint will automatically shrink.\n\n**4. Improved Home Safety**\nGas furnaces require a combustible fuel source, which brings a small but real risk of gas leaks and carbon monoxide poisoning. Because heat pumps are 100% electric, there is absolutely no risk of carbon monoxide leaks, making your home safer.\n\n**5. Financial Incentives**\nTo encourage energy efficiency, federal, state, and local governments\u2014as well as many utility companies\u2014are currently offering substantial tax credits and rebates for installing heat pumps. These incentives can significantly lower the upfront cost of the system.\n\n### The Bottom Line\nIf your current furnace is nearing the end of its life, a heat pump is a smart, modern upgrade. It offers a safer, greener, and highly efficient way to keep your home comfortable all year round, while potentially saving you money on your monthly utility bills.",
+  "run_name": "2026-03-07-openrouter-v0-1-salvage-1"
+}

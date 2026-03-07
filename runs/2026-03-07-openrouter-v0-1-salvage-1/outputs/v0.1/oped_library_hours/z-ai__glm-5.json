@@ -1,0 +1,37 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.1",
+  "candidate_label": "GLM-5",
+  "candidate_model_id": "z-ai/glm-5",
+  "created_at": "2026-03-07T16:11:22Z",
+  "metadata": {
+    "id": "gen-1772899871-56vjpnUfRKUJGVSxwdrn",
+    "usage": {
+      "completion_tokens": 500,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 469
+      },
+      "cost": 0.00130112,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.00128,
+        "upstream_inference_cost": 0.00130112,
+        "upstream_inference_prompt_cost": 2.112e-05
+      },
+      "is_byok": false,
+      "prompt_tokens": 52,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 32,
+        "video_tokens": 0
+      },
+      "total_tokens": 552
+    }
+  },
+  "prompt_category": "persuasion_oped",
+  "prompt_id": "oped_library_hours",
+  "response_text": "**Title: The City That Never Sleeps Needs a Library That Stays Awake**\n\nIn an era where we can order groceries at midnight, stream movies at 3:00 AM, and work remotely from a coffee shop at any hour, our city\u2019s public institutions are lagging behind the rhythm of modern life. Nowhere is this more apparent than in the operating hours of our public library system. While our city prides itself on being a hub of industry and innovation, our library doors are often locked tight by 8:00 PM.",
+  "run_name": "2026-03-07-openrouter-v0-1"
+}

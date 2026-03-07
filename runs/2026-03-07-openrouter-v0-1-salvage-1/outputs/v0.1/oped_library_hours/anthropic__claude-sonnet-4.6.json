@@ -1,0 +1,37 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.1",
+  "candidate_label": "Claude Sonnet 4.6",
+  "candidate_model_id": "anthropic/claude-sonnet-4.6",
+  "created_at": "2026-03-07T15:09:21Z",
+  "metadata": {
+    "id": "gen-1772896149-kQHhRF9653y4q7MTIsdb",
+    "usage": {
+      "completion_tokens": 500,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 44
+      },
+      "cost": 0.007719,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.0075,
+        "upstream_inference_cost": 0.007719,
+        "upstream_inference_prompt_cost": 0.000219
+      },
+      "is_byok": false,
+      "prompt_tokens": 73,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 573
+    }
+  },
+  "prompt_category": "persuasion_oped",
+  "prompt_id": "oped_library_hours",
+  "response_text": "# Keep the Lights On: Why Our Libraries Must Stay Open Later\n\nEvery evening at 6 p.m., the doors of our city's libraries close. The lights go out, the computers shut down, and the books sit quietly on their shelves until morning. For many residents, that closing hour arrives precisely when they finally have time to walk through the door.\n\nIt's time to change that \u2014 and the case for extended evening library hours is not just compelling. It's urgent.\n\n**The Working Reality Most of Us Live**\n\nConsider who actually needs the library most. The parent working two jobs who doesn't get home until 6:30. The high school student finishing afternoon practice at 5:45. The overnight shift worker whose only free hours fall between 7 and 9 p.m. These are not edge cases. These are the majority of working adults in most American cities. A library that closes before the dinner hour is, in practical terms, a library that exists for the unemployed, the retired, and those lucky enough to set their own schedules.\n\nPublic institutions are supposed to serve the public \u2014 all of it. When operating hours match only a privileged slice of the population's availability, we've quietly rationed a resource that was meant to be universal. Extending hours to 9 p.m. on weekdays wouldn't simply add three hours to a schedule. It would fundamentally transform the library from a daytime amenity into a genuine community anchor.\n\n**The Digital Divide Doesn't Clock Out at Six**\n\nSupporters of early closings often point to digital resources \u2014 online databases, e-books, digital checkouts \u2014 as sufficient alternatives for evening patrons. This argument is fatally flawed. The residents most dependent on physical library access are precisely those who lack reliable home internet. According to the Pew Research Center, lower-income households consistently report lower rates of broadband adoption. The library's computers and high-speed connection are not backup options for these families. They are the only option.\n\nWhen a teenager without home internet needs to complete a research paper, she cannot simply \"access it online later.\"",
+  "run_name": "2026-03-07-openrouter-v0-1"
+}

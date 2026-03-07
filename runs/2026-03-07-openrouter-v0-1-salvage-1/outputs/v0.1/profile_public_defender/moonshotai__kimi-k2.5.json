@@ -1,0 +1,43 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.1",
+  "candidate_label": "Kimi K2.5",
+  "candidate_model_id": "moonshotai/kimi-k2.5",
+  "created_at": "2026-03-07T21:05:49Z",
+  "metadata": {
+    "id": "gen-1772917508-aRxxwhuoRNnYoSMikTq8",
+    "quality_guard": {
+      "minimum_words": 200,
+      "reason": "",
+      "status": "ok",
+      "word_count": 1051
+    },
+    "usage": {
+      "completion_tokens": 1847,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 620
+      },
+      "cost": 0.004646,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.0046175,
+        "upstream_inference_cost": 0.004646,
+        "upstream_inference_prompt_cost": 2.85e-05
+      },
+      "is_byok": false,
+      "prompt_tokens": 57,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 1904
+    }
+  },
+  "prompt_category": "profile",
+  "prompt_id": "profile_public_defender",
+  "response_text": "At 7:15 on a Tuesday morning, Sarah Chen unlocks the third-floor office of the Bridgeport Public Defender\u2019s Office, her arms laden with case files that have migrated from her desk to her passenger seat to her kitchen table over the weekend. The fluorescent lights flicker on, revealing a space that looks less like a law office and more like a paper recycling facility in mid-collapse: towers of manila folders teeter beside empty coffee cups, and a whiteboard calendar bleeds red ink across three weeks of overlapping court dates. Sarah, thirty-four, has been a public defender for eight years. She carries 127 open felony cases\u2014nearly triple the maximum caseload recommended by the American Bar Association.\n\nShe hangs her coat on a hook already bowed under the weight of three others and opens her laptop to a blinking inbox: 43 new emails since she checked at midnight. The first is from a prosecutor offering a plea on a burglary case she hasn\u2019t had time to review yet. The second is from a client\u2019s mother, sent at 3:00 a.m., asking why her son is still in jail. Sarah rubs her temples and reaches for the coffee she bought at the bodega downstairs, already lukewarm.\n\nBy 9:00 a.m., she is in Courtroom 3B at the Golden Hill Street courthouse, a brutalist concrete structure that smells perpetually of industrial cleaner and anxiety. She wears the same navy blazer she wore yesterday and the day before, the one with a frayed buttonhole she keeps meaning to repair. The gallery is packed with families in church clothes, defendants in orange jumpsuits, and bail bondsmen scrolling through their phones. Sarah moves through the crowd with the efficiency of a triage nurse, touching shoulders, remembering names\u2014*Mr. Henderson, I\u2019ll be with you in five minutes; Ms. Ortiz, did you bring that housing letter?*\n\nHer first client of the day is Darius, nineteen, charged with possession with intent to distribute after police found forty dollars\u2019 worth of heroin in the glove compartment of his girlfriend\u2019s car. He has been in the Bridgeport Correctional Center for six weeks because his family cannot afford the $15,000 bond. In the holding cell interview room\u2014a concrete box with a metal stool and a phone receiver connected to nothing\u2014Darius looks smaller than he did at arraignment. His hands shake.\n\n\u201cThey offered three years,\u201d Sarah tells him, sliding the plea offer across the table. \u201cOr we can fight it. But the trial calendar is backed up six months. You\u2019d sit in here waiting.\u201d\n\nDarius stares at the paper. \u201cI got my GED in here,\u201d he says quietly. \u201cI don\u2019t want to lose that.\u201d\n\nSarah nods. She has fifteen minutes before she must be in a different courtroom for a probation violation hearing. She knows the evidence against Darius is shaky\u2014the search might have been bad, the chain of custody on the drugs sloppy\u2014but she also knows that \u201cmight\u201d is a luxury her clients cannot afford. Time is the currency of indigent defense, and Sarah is bankrupt. She explains the risks, the percentages, the way a judge might view his prior juvenile record. She does not promise justice. She promises to try.\n\nBy noon, she has appeared in three courtrooms, handled seven arraignments, and negotiated two pleas while standing in the hallway outside the clerk\u2019s office. She eats lunch\u2014a granola bar and a banana\u2014while driving to the jail for afternoon client visits. Her car, a 2012 Honda Civic with 140,000 miles, serves as her second office. The backseat is a mobile archive of human crisis: discovery packets, psychological evaluations, a child\u2019s drawing given to her by a client last Christmas, still taped to the dashboard.\n\nThe afternoon brings the weight of the caseload into sharper relief. There is the domestic violence case where she believes her client is innocent but the DNA evidence is damning; the armed robbery where the eyewitness is shaky but the prosecutor is running for judge and refusing to budge; the mentally ill veteran who keeps getting arrested for trespassing at the library because it is the only warm place in the city, and for whom she is trying to secure housing instead of jail time. Each file represents not just a case but a constellation of trauma\u2014addiction, poverty, untreated illness, generational violence\u2014that Sarah must navigate while operating within the narrow technical parameters of the law.\n\nAt 4:30 p.m., she is back at her desk, returning calls. A legal aid attorney in the next cubicle is crying silently, headset still on. Sarah looks away. She has learned that empathy is a renewable resource but one that requires careful management. She cannot cry for every client or she would never stop. Instead, she focuses on the mechanics: the motion that needs filing by 5:00 p.m., the expert witness fee she is trying to get approved for an indigent client, the investigator she shares with four other attorneys who is already overbooked.\n\nShe leaves the office at 8:00 p.m., the sky over Bridgeport a bruised purple. In her apartment, a one-bedroom in the Black Rock neighborhood with water stains on the ceiling, she microwaves leftover rice and opens her laptop. She will work until midnight, reviewing police reports, drafting suppression motions, trying to remember which client takes lithium and which one takes methadone.\n\nThere are victories, though they are small and often invisible. Last month, she got a case dismissed because the police report contradicted the officer\u2019s body camera footage. Two weeks ago, a client she helped get into drug treatment instead of prison sent her a photo of his one-month chip. These moments sustain her, though they are buried under the avalanche of pleas and continuances and the grinding reality that the system is designed for efficiency, not justice.\n\nAt 11:45 p.m., Sarah closes her laptop. On her nightstand is a photograph from her law school graduation, eight years ago, when she believed she would change the system. She no longer believes that, not exactly. But she believes in the man she kept out of prison today, and the woman she will defend tomorrow, and the idea that everyone, regardless of what they are accused of, deserves someone in their corner who sees them as human.\n\nShe sets her alarm for 6:00 a.m. The docket starts at 9:00, and she has 127 reasons to be there.",
+  "run_name": "2026-03-07-openrouter-v0-1-salvage-1"
+}

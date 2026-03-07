@@ -1,0 +1,37 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.1",
+  "candidate_label": "MiniMax M2.5",
+  "candidate_model_id": "minimax/minimax-m2.5",
+  "created_at": "2026-03-07T15:09:47Z",
+  "metadata": {
+    "id": "gen-1772896175-zHfx5ZK9G9LyWpiGnmlB",
+    "usage": {
+      "completion_tokens": 936,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 216
+      },
+      "cost": 0.0011415,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.0011232,
+        "upstream_inference_cost": 0.0011415,
+        "upstream_inference_prompt_cost": 1.83e-05
+      },
+      "is_byok": false,
+      "prompt_tokens": 61,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 997
+    }
+  },
+  "prompt_category": "persuasion_oped",
+  "prompt_id": "oped_library_hours",
+  "response_text": "# Keep the Lights On: Why Our City Library System Needs Extended Evening Hours\n\n**The library closes at 6 p.m. on a Tuesday.** For millions of working Americans, that means the public library\u2014our greatest equalizer\u2014is effectively closed before they even leave the office. This is not just an inconvenience; it is a failure of public service. Our city library system should stay open later in the evening, and here's why.\n\nFirst, consider who gets left behind. The 9-to-5 workday is no longer the reality for millions of workers. Nurses, retail employees, service workers, and night-shift employees keep our city running, yet they have virtually no opportunity to visit the library during standard hours. When we close our doors at 6 p.m., we are telling these essential workers that our public resources are not for them. That is unacceptable.\n\nThe equity argument is even more compelling. Libraries are supposed to be the great equalizer\u2014a place where anyone, regardless of income, can access books, computers, job training, and educational resources. But what good is that promise if the people who need it most cannot reach us? Working parents scrambling to pick up children after school, night students pursuing their degrees, job seekers who can only search for employment after their shifts end\u2014these are the citizens libraries were built to serve. Extended evening hours would finally make good on our democratic promise.\n\nStudents, too, would benefit enormously. After-school hours are prime time for homework, research, and quiet study. Teenagers need a safe, supervised space to spend time between the end of the school day and when their parents come home. Our libraries could be that space\u2014but only if the doors remain open. Instead, we force young people into unsupervised environments or rely on parents who are still at work. It makes no sense.\n\nBeyond individual patrons, libraries serve as community hubs. They host neighborhood meetings, literacy programs, citizenship classes, and small business workshops. Many of these events must be scheduled during evening hours to accommodate working participants. Yet when the library closes early, these vital community functions become impossible. We are actively limiting our own capacity to build a stronger, more connected city.\n\nCritics will argue that extended hours are expensive. That is true\u2014but it is also short-sighted. Libraries are one of the most cost-effective public institutions we operate. Every dollar spent on a library returns multiple dollars in economic value through education, workforce development, and community cohesion. Moreover, many cities have successfully implemented extended hours through creative partnerships, volunteer programs, and phased rollouts. The question is not whether we can afford to keep libraries open later; it is whether we can afford not to.\n\nSome will say that people can simply use digital resources from home. But this ignores the digital divide that still exists in our city. Not everyone has reliable internet access or a computer at home. For many families, the library is the only place their children can complete online assignments. For many job seekers, the library computer is their only connection to employment opportunities. Evening hours are not a luxury\u2014they are a necessity.\n\nOur city library system has the chance to be truly transformative. By extending evening hours, we send a clear message: public resources belong to everyone, and we will meet you where you are. We will be there for the nurse finishing her shift at 7 p.m. We will be there for the father helping his daughter with a science project after dinner. We will be there for the student studying for exams in a quiet room.\n\nThe lights should stay on a little longer. Our community deserves nothing less.",
+  "run_name": "2026-03-07-openrouter-v0-1"
+}

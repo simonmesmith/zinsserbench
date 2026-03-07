@@ -1,0 +1,47 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.1",
+  "candidate_model_id": "anthropic/claude-opus-4.6",
+  "created_at": "2026-03-07T21:11:01Z",
+  "judge_model_id": "anthropic/claude-opus-4.6",
+  "metadata": {
+    "id": "gen-1772917846-PMYb8hqwflqKTEA8MIfT",
+    "raw_text": "{\"scores\": {\"clarity\": 5, \"simplicity\": 4, \"brevity_economy\": 3, \"structure_flow\": 3, \"specificity_precision\": 5, \"humanity_voice\": 4, \"overall\": 3}, \"rationale\": \"What exists is excellent: crisp headers, concrete details (dates, approval chains, specific spending categories), and a tone that balances authority with empathy ('This decision was not made lightly'). Specificity is a standout strength\u2014overtime rules, exception processes, and the reasoning behind the freeze are all precise. However, the response is materially incomplete: the 'WHAT IS NOT AFFECTED' section cuts off after a single bullet dash, and the required 'what questions to bring forward' section is entirely missing. Two of the three prompt requirements are unmet. Structure earns credit for a strong skeleton but loses points for the missing body. Brevity score is middled because, while nothing present is bloated, the piece simply doesn't finish the job. Overall effectiveness is capped by incompleteness despite high per-sentence quality.\"}",
+    "usage": {
+      "completion_tokens": 654,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 368
+      },
+      "cost": 0.020625,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.01635,
+        "upstream_inference_cost": 0.020625,
+        "upstream_inference_prompt_cost": 0.004275
+      },
+      "is_byok": false,
+      "prompt_tokens": 855,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 1509
+    }
+  },
+  "prompt_category": "memo",
+  "prompt_id": "memo_budget_freeze",
+  "rationale": "What exists is excellent: crisp headers, concrete details (dates, approval chains, specific spending categories), and a tone that balances authority with empathy ('This decision was not made lightly'). Specificity is a standout strength\u2014overtime rules, exception processes, and the reasoning behind the freeze are all precise. However, the response is materially incomplete: the 'WHAT IS NOT AFFECTED' section cuts off after a single bullet dash, and the required 'what questions to bring forward' section is entirely missing. Two of the three prompt requirements are unmet. Structure earns credit for a strong skeleton but loses points for the missing body. Brevity score is middled because, while nothing present is bloated, the piece simply doesn't finish the job. Overall effectiveness is capped by incompleteness despite high per-sentence quality.",
+  "run_name": "2026-03-07-openrouter-v0-1-salvage-1",
+  "scores": {
+    "brevity_economy": 3,
+    "clarity": 5,
+    "humanity_voice": 4,
+    "overall": 3,
+    "simplicity": 4,
+    "specificity_precision": 5,
+    "structure_flow": 3
+  }
+}

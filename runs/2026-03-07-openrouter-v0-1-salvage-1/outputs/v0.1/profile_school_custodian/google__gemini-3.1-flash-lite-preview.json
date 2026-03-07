@@ -1,0 +1,43 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.1",
+  "candidate_label": "Gemini 3.1 Flash Lite Preview",
+  "candidate_model_id": "google/gemini-3.1-flash-lite-preview",
+  "created_at": "2026-03-07T21:03:25Z",
+  "metadata": {
+    "id": "gen-1772917398-IgoBtpFRJ0friMtTXMyX",
+    "quality_guard": {
+      "minimum_words": 200,
+      "reason": "",
+      "status": "ok",
+      "word_count": 701
+    },
+    "usage": {
+      "completion_tokens": 1506,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 587
+      },
+      "cost": 0.002273,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.002259,
+        "upstream_inference_cost": 0.002273,
+        "upstream_inference_prompt_cost": 1.4e-05
+      },
+      "is_byok": false,
+      "prompt_tokens": 56,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 1562
+    }
+  },
+  "prompt_category": "profile",
+  "prompt_id": "profile_school_custodian",
+  "response_text": "The keys are the first thing you hear. They announce Arthur \u201cArtie\u201d Miller\u2019s arrival long before he turns the corner of the second-floor hallway. It is a heavy, rhythmic jingle\u2014a brass-and-steel symphony that has echoed through the corridors of Oak Ridge High for twenty-eight years.\n\nAt 5:30 a.m., the school is a cavern of shadows and silence. Artie, sixty-two, moves through the dark with the practiced grace of a man who knows the exact location of every loose floorboard and temperamental light switch in the building. He is a man of medium height, perpetually dressed in a navy-blue work shirt with his name stitched in white thread above the pocket. His hands are calloused, stained with the permanent ink of boiler room grease and floor wax, but they are steady.\n\nTo the administration, Artie is the head custodian. To the three generations of students who have passed through these doors, he is the building\u2019s unofficial pulse.\n\n\u201cMorning, Sarah,\u201d he says, not looking up from the industrial buffer he\u2019s guiding across the linoleum. He doesn\u2019t need to look. He knows the specific, hesitant gait of the junior who is worried about her chemistry final. \u201cDon\u2019t sweat the lab report. You\u2019ve got the data. Just breathe.\u201d\n\nSarah stops, surprised, then offers a small, genuine smile. \u201cThanks, Artie.\u201d\n\nHe knows them all. Not just the honor roll students or the star athletes, but the quiet ones in the back of the library, the ones who eat lunch in the stairwells, and the ones who are currently serving detention. He remembers their names, their siblings, and often, the names of their parents, whom he served decades ago.\n\n\u201cIt\u2019s not a trick,\u201d Artie says later, leaning against his cart during a rare lull in the morning rush. \u201cYou just have to pay attention. Most people look at a school and see a building. I look at it and see a garden. You have to notice who\u2019s wilting and who\u2019s blooming.\u201d\n\nHis twenty-eight-year tenure has turned him into a living archive. He remembers when the gym floor was replaced in 2004, and he remembers the exact spot where a senior once tried to hide a stray cat in a locker in 1998. He has seen the fashion trends cycle from oversized flannels to skinny jeans and back again. He has seen the technology shift from chalkboards to smartboards, yet the fundamental needs of the students\u2014to be seen, to be heard, and to be respected\u2014have remained identical.\n\nThere is a specific kind of power in Artie\u2019s anonymity. Because he is the one who cleans the spills and fixes the broken lockers, students often drop their guard around him. He has heard the secrets whispered in the hallways that teachers never catch. He has been the silent witness to heartbreaks, triumphs, and the quiet, messy process of growing up.\n\n\u201cI\u2019m not a counselor,\u201d he says, wiping a smudge off a trophy case. \u201cBut sometimes, a kid just needs to know that someone noticed they were there. If I call them by their name, it tells them they aren\u2019t just a number in a database. They\u2019re part of this place.\u201d\n\nAs the final bell rings at 3:00 p.m., the hallways erupt into a chaotic tide of slamming lockers and shouting teenagers. Artie stands near the main entrance, his keys tucked into his belt, watching the flood. He is the anchor in the current. He nods to a boy who just made the varsity team; he gives a thumbs-up to a girl who just finished her first solo in the school play.\n\nWhen the last student finally clears the building, the silence returns, heavier than before. Artie begins his evening rounds. He picks up a stray notebook, checks the locks on the auditorium doors, and adjusts the thermostat. He is the last one to leave, the guardian of the empty rooms.\n\nHe doesn\u2019t view his work as a thankless task. To Artie, the school is a living organism, and he is its caretaker. He knows that tomorrow, the hallways will be filled with the same noise, the same energy, and the same names. And he will be there, keys in hand, ready to greet them all by name, one by one.",
+  "run_name": "2026-03-07-openrouter-v0-1-salvage-1"
+}

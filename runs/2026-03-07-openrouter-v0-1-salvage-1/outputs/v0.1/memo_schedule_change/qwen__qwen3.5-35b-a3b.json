@@ -1,0 +1,37 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.1",
+  "candidate_label": "Qwen 3.5 35B A3B",
+  "candidate_model_id": "qwen/qwen3.5-35b-a3b",
+  "created_at": "2026-03-07T15:17:02Z",
+  "metadata": {
+    "id": "gen-1772896613-y1VKlpq5OAc0ZzGBsT11",
+    "usage": {
+      "completion_tokens": 1531,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 1053
+      },
+      "cost": 0.0020002125,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.003062,
+        "upstream_inference_cost": 0.00307725,
+        "upstream_inference_prompt_cost": 1.525e-05
+      },
+      "is_byok": false,
+      "prompt_tokens": 61,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 1592
+    }
+  },
+  "prompt_category": "memo",
+  "prompt_id": "memo_schedule_change",
+  "response_text": "**MEMORANDUM**\n\n**TO:** All Warehouse Staff\n**FROM:** Operations Management\n**DATE:** October 26, 2023\n**SUBJECT:** Important Update: Holiday Season Shift Schedule Adjustments\n\nTeam,\n\nAs we approach the peak holiday season, our order volume is projected to increase by 40% compared to last year. To ensure we meet customer delivery deadlines and maintain our service standards, we will be implementing an adjusted shift schedule starting November 15th.\n\nWe understand that changes to your routine can be challenging, and we appreciate your flexibility and dedication in helping us navigate this busy period.\n\n**Key Schedule Changes:**\n\n*   **Effective Dates:** November 15, 2023 \u2013 January 5, 2024.\n*   **Extended Hours:** The warehouse will operate from 6:00 AM to 8:00 PM, Monday through Saturday.\n*   **Weekend Coverage:** All shifts will include a rotating weekend component. Please note that Sunday shifts will remain closed.\n*   **Shift Lengths:** Standard shifts will be 10 hours to accommodate the extended operating window.\n\n**Compensation and Benefits:**\n\n*   **Overtime Pay:** All hours worked beyond 8 hours in a single day will be compensated at 1.5x your regular rate.\n*   **Holiday Premium:** Employees working on Thanksgiving Day and Christmas Day will receive double-time pay.\n*   **Meal Allowance:** A meal voucher will be provided for all shifts exceeding 6 hours.\n\n**Next Steps:**\n\n1.  **Review Your Assignment:** Please check the updated shift roster posted on the breakroom bulletin board and in the employee portal by **Friday, October 27th**.\n2.  **Confirm Availability:** If you have a conflict with your assigned shift, please submit a request to your Shift Supervisor by **Monday, October 30th**.\n3.  **Contact HR:** If you have questions regarding pay or scheduling, please visit the HR office or email hr@company.com.\n\nThank you for your hard work and commitment. Your efforts are vital to our success this season. Let\u2019s finish the year strong.\n\nSincerely,\n\n**Sarah Jenkins**\nWarehouse Operations Manager",
+  "run_name": "2026-03-07-openrouter-v0-1"
+}

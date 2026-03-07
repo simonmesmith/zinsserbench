@@ -1,0 +1,37 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.1",
+  "candidate_label": "Claude Sonnet 4.6",
+  "candidate_model_id": "anthropic/claude-sonnet-4.6",
+  "created_at": "2026-03-07T15:07:24Z",
+  "metadata": {
+    "id": "gen-1772896033-pf4JjNE0YKUcXPHaTxr5",
+    "usage": {
+      "completion_tokens": 500,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 43
+      },
+      "cost": 0.007728,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.0075,
+        "upstream_inference_cost": 0.007728,
+        "upstream_inference_prompt_cost": 0.000228
+      },
+      "is_byok": false,
+      "prompt_tokens": 76,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 576
+    }
+  },
+  "prompt_category": "service_howto",
+  "prompt_id": "howto_neighborhood_meeting",
+  "response_text": "# How to Organize a Neighborhood Traffic Safety Meeting: A Practical Guide\n\nBusy streets affect everyone who lives near them. If you're concerned about speeding cars, dangerous intersections, inadequate crosswalks, or other traffic hazards, a well-organized neighborhood meeting is one of the most effective first steps you can take. This guide walks you through the entire process, from initial planning to follow-up action.\n\n---\n\n## Step 1: Clarify Your Purpose Before You Plan\n\nBefore sending a single invitation, spend time defining exactly what you want the meeting to accomplish. A meeting with a vague agenda tends to produce vague results.\n\nAsk yourself:\n- What specific problem am I trying to address? (Speeding, lack of crosswalks, poor lighting, cut-through traffic, dangerous school drop-off zones?)\n- What outcome do I want from this meeting? (Raising awareness, forming a working group, drafting a petition, inviting city officials to listen?)\n- Who needs to be in the room for that outcome to happen?\n\nWrite a one- or two-sentence purpose statement and keep it visible throughout your planning. Something like: *\"The goal of this meeting is to identify the three most dangerous traffic problems on Oak Street and agree on next steps for bringing them to the city's attention.\"*\n\n---\n\n## Step 2: Build a Small Planning Team\n\nTrying to organize a community meeting entirely on your own is exhausting and limits your reach. Recruit two to four neighbors early in the process. Look for people who:\n\n- Live directly on or adjacent to the street in question\n- Have connections to different parts of the neighborhood (different blocks, apartment buildings, homeowner associations)\n- Have organizational skills, communication skills, or simply time and enthusiasm\n\nDivide responsibilities clearly from the start. Common roles include a primary coordinator, a communications lead, a logistics person, and someone responsible for following up with invited officials.\n\n---\n\n## Step 3: Gather Basic Information First\n\nWalking into your own meeting unprepared is a missed opportunity. Before the event, spend a week or two collecting relevant information. This",
+  "run_name": "2026-03-07-openrouter-v0-1"
+}

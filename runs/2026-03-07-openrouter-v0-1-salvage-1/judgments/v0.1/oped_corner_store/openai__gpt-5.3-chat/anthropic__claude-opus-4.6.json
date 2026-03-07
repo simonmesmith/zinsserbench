@@ -1,0 +1,47 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.1",
+  "candidate_model_id": "openai/gpt-5.3-chat",
+  "created_at": "2026-03-07T21:34:32Z",
+  "judge_model_id": "anthropic/claude-opus-4.6",
+  "metadata": {
+    "id": "gen-1772919256-Y0QDg0zIcFJodpdIzFq5",
+    "raw_text": "{\"scores\": {\"clarity\": 5, \"simplicity\": 5, \"brevity_economy\": 4, \"structure_flow\": 5, \"specificity_precision\": 3, \"humanity_voice\": 4, \"overall\": 4}, \"rationale\": \"Clear, well-organized, and plainly written. The structure is textbook-strong: thesis, convenience, community, economics, counterargument, historical framing, conclusion\u2014each transition is smooth. Language is refreshingly free of jargon or inflation. Brevity is good but the opening and closing overlap ('not a threat to neighborhood character' echoes 'not turning quiet streets into shopping districts'), and the piece could be a touch leaner. The main weakness is specificity: arguments rely on familiar generalities (milk, bread, elderly residents, parents) without any concrete data, named neighborhoods, real case studies, or specific zoning provisions, which keeps the persuasion at a surface level. Voice is warm and readable but stays in a safe, editorial register without a distinctive personal stamp. Overall a polished, competent op-ed that does the job cleanly but doesn't surprise.\"}",
+    "usage": {
+      "completion_tokens": 679,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 427
+      },
+      "cost": 0.021455,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.016975,
+        "upstream_inference_cost": 0.021455,
+        "upstream_inference_prompt_cost": 0.00448
+      },
+      "is_byok": false,
+      "prompt_tokens": 896,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 1575
+    }
+  },
+  "prompt_category": "persuasion_oped",
+  "prompt_id": "oped_corner_store",
+  "rationale": "Clear, well-organized, and plainly written. The structure is textbook-strong: thesis, convenience, community, economics, counterargument, historical framing, conclusion\u2014each transition is smooth. Language is refreshingly free of jargon or inflation. Brevity is good but the opening and closing overlap ('not a threat to neighborhood character' echoes 'not turning quiet streets into shopping districts'), and the piece could be a touch leaner. The main weakness is specificity: arguments rely on familiar generalities (milk, bread, elderly residents, parents) without any concrete data, named neighborhoods, real case studies, or specific zoning provisions, which keeps the persuasion at a surface level. Voice is warm and readable but stays in a safe, editorial register without a distinctive personal stamp. Overall a polished, competent op-ed that does the job cleanly but doesn't surprise.",
+  "run_name": "2026-03-07-openrouter-v0-1-salvage-1",
+  "scores": {
+    "brevity_economy": 4,
+    "clarity": 5,
+    "humanity_voice": 4,
+    "overall": 4,
+    "simplicity": 5,
+    "specificity_precision": 3,
+    "structure_flow": 5
+  }
+}

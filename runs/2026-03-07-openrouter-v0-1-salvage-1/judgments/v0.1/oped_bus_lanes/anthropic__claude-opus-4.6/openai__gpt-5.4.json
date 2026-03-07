@@ -1,0 +1,47 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.1",
+  "candidate_model_id": "anthropic/claude-opus-4.6",
+  "created_at": "2026-03-07T21:23:44Z",
+  "judge_model_id": "openai/gpt-5.4",
+  "metadata": {
+    "id": "gen-1772918617-VSrhjSLj2qBxwOKZFavp",
+    "raw_text": "{\"scores\":{\"clarity\":4,\"simplicity\":4,\"brevity_economy\":4,\"structure_flow\":3,\"specificity_precision\":4,\"humanity_voice\":5,\"overall\":4},\"rationale\":\"Vivid, persuasive opening with a strong human voice and useful concrete numbers. The prose is mostly clear and direct, though some phrasing is slightly heightened. The main weakness is structural: the sample is truncated mid-argument, so the piece feels incomplete and the flow breaks at the end.\"}",
+    "usage": {
+      "completion_tokens": 372,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 259
+      },
+      "cost": 0.0074175,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.00558,
+        "upstream_inference_cost": 0.0074175,
+        "upstream_inference_prompt_cost": 0.0018375
+      },
+      "is_byok": false,
+      "prompt_tokens": 735,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 1107
+    }
+  },
+  "prompt_category": "persuasion_oped",
+  "prompt_id": "oped_bus_lanes",
+  "rationale": "Vivid, persuasive opening with a strong human voice and useful concrete numbers. The prose is mostly clear and direct, though some phrasing is slightly heightened. The main weakness is structural: the sample is truncated mid-argument, so the piece feels incomplete and the flow breaks at the end.",
+  "run_name": "2026-03-07-openrouter-v0-1-salvage-1",
+  "scores": {
+    "brevity_economy": 4,
+    "clarity": 4,
+    "humanity_voice": 5,
+    "overall": 4,
+    "simplicity": 4,
+    "specificity_precision": 4,
+    "structure_flow": 3
+  }
+}

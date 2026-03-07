@@ -1,0 +1,47 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.1",
+  "candidate_model_id": "openai/gpt-5.4",
+  "created_at": "2026-03-07T21:28:10Z",
+  "judge_model_id": "google/gemini-3.1-pro-preview",
+  "metadata": {
+    "id": "gen-1772918884-7hI7n6JvJ1hFnhTjPnUc",
+    "raw_text": "{\n  \"scores\": {\n    \"clarity\": 5,\n    \"simplicity\": 5,\n    \"brevity_economy\": 4,\n    \"structure_flow\": 3,\n    \"specificity_precision\": 4,\n    \"humanity_voice\": 4,\n    \"overall\": 2\n  },\n  \"rationale\": \"The writing is clear, simple, and professional, effectively explaining the technical issue in plain language. However, the response cuts off abruptly and fails to address the final prompt requirement (what employees should expect next), severely impacting its overall effectiveness.\"\n}",
+    "usage": {
+      "completion_tokens": 474,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 341
+      },
+      "cost": 0.007054,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.005688,
+        "upstream_inference_cost": 0.007054,
+        "upstream_inference_prompt_cost": 0.001366
+      },
+      "is_byok": false,
+      "prompt_tokens": 683,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 1157
+    }
+  },
+  "prompt_category": "memo",
+  "prompt_id": "memo_incident_response",
+  "rationale": "The writing is clear, simple, and professional, effectively explaining the technical issue in plain language. However, the response cuts off abruptly and fails to address the final prompt requirement (what employees should expect next), severely impacting its overall effectiveness.",
+  "run_name": "2026-03-07-openrouter-v0-1-salvage-1",
+  "scores": {
+    "brevity_economy": 4,
+    "clarity": 5,
+    "humanity_voice": 4,
+    "overall": 2,
+    "simplicity": 5,
+    "specificity_precision": 4,
+    "structure_flow": 3
+  }
+}

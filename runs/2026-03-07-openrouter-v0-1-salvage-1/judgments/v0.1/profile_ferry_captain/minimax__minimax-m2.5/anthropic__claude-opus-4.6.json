@@ -1,0 +1,47 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.1",
+  "candidate_model_id": "minimax/minimax-m2.5",
+  "created_at": "2026-03-07T21:18:52Z",
+  "judge_model_id": "anthropic/claude-opus-4.6",
+  "metadata": {
+    "id": "gen-1772918325-3hcL1tskJHQFZZCXB2BJ",
+    "raw_text": "{\"scores\": {\"clarity\": 5, \"simplicity\": 5, \"brevity_economy\": 5, \"structure_flow\": 4, \"specificity_precision\": 5, \"humanity_voice\": 5, \"overall\": 5}, \"rationale\": \"Exceptionally well-crafted profile writing. The specificity is outstanding\u20145:47 a.m., seventeen steps, sixty feet at Mallard Point, 23,000 crossings, coffee maker replaced four times. These details feel earned and purposeful, never decorative. The language is plain and muscular ('lives in her bones like a hymn') without ever becoming overwrought. Every sentence carries weight; there's no throat-clearing or filler. The voice is warm and observant, reading like quality literary journalism. The only slight ding is structure/flow: the piece is clearly incomplete (cuts off mid-sentence at the osprey nest), and the section break feels slightly arbitrary rather than marking a clear thematic shift. But what's on the page is remarkably assured and evocative nonfiction.\"}",
+    "usage": {
+      "completion_tokens": 240,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 0
+      },
+      "cost": 0.009765,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.006,
+        "upstream_inference_cost": 0.009765,
+        "upstream_inference_prompt_cost": 0.003765
+      },
+      "is_byok": false,
+      "prompt_tokens": 753,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 993
+    }
+  },
+  "prompt_category": "profile",
+  "prompt_id": "profile_ferry_captain",
+  "rationale": "Exceptionally well-crafted profile writing. The specificity is outstanding\u20145:47 a.m., seventeen steps, sixty feet at Mallard Point, 23,000 crossings, coffee maker replaced four times. These details feel earned and purposeful, never decorative. The language is plain and muscular ('lives in her bones like a hymn') without ever becoming overwrought. Every sentence carries weight; there's no throat-clearing or filler. The voice is warm and observant, reading like quality literary journalism. The only slight ding is structure/flow: the piece is clearly incomplete (cuts off mid-sentence at the osprey nest), and the section break feels slightly arbitrary rather than marking a clear thematic shift. But what's on the page is remarkably assured and evocative nonfiction.",
+  "run_name": "2026-03-07-openrouter-v0-1-salvage-1",
+  "scores": {
+    "brevity_economy": 5,
+    "clarity": 5,
+    "humanity_voice": 5,
+    "overall": 5,
+    "simplicity": 5,
+    "specificity_precision": 5,
+    "structure_flow": 4
+  }
+}

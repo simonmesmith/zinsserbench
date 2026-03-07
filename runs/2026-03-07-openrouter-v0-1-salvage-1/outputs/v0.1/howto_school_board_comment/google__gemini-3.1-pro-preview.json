@@ -1,0 +1,43 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.1",
+  "candidate_label": "Gemini 3.1 Pro Preview",
+  "candidate_model_id": "google/gemini-3.1-pro-preview",
+  "created_at": "2026-03-07T21:05:49Z",
+  "metadata": {
+    "id": "gen-1772917524-ximN7tATgBiTVy1oYJJ4",
+    "quality_guard": {
+      "minimum_words": 140,
+      "reason": "",
+      "status": "ok",
+      "word_count": 825
+    },
+    "usage": {
+      "completion_tokens": 1589,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 518
+      },
+      "cost": 0.019162,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.019068,
+        "upstream_inference_cost": 0.019162,
+        "upstream_inference_prompt_cost": 9.4e-05
+      },
+      "is_byok": false,
+      "prompt_tokens": 47,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 1636
+    }
+  },
+  "prompt_category": "service_howto",
+  "prompt_id": "howto_school_board_comment",
+  "response_text": "Speaking at a school board meeting is one of the most direct ways a parent can advocate for their child and influence local education policy. However, the formal setting, strict time limits, and public audience can make the experience intimidating. \n\nWith the right preparation, you can deliver a clear, impactful message. Here is a practical guide to help you prepare for your local school board meeting.\n\n### 1. Understand the Rules of Engagement\nEvery school district has its own bylaws regarding public comment. Before you start writing your speech, visit your school district\u2019s website or call the superintendent\u2019s office to find out the following:\n*   **How to register:** Do you need to sign up in advance online, or do you fill out a card at the door? \n*   **Time limits:** Most boards strictly limit public comments to two or three minutes per speaker. \n*   **Agenda vs. Non-Agenda items:** Some meetings only allow comments on items currently on the board\u2019s agenda, while others have a general public comment period.\n*   **Decorum rules:** Boards usually prohibit speakers from naming specific students or staff members to protect privacy. \n\n### 2. Define Your Core Message\nYou only have a few minutes, so you cannot cover every grievance or idea you have. Choose one specific issue. Ask yourself: *What is the single most important thing I want the board to understand, and what do I want them to do about it?* \n\nWhether you are advocating for better special education funding, raising concerns about a new curriculum, or praising a successful district program, narrow your focus to a single, actionable topic.\n\n### 3. Craft Your Speech\nA well-structured three-minute speech is roughly 350 to 450 words. Use the following framework to make every second count:\n*   **The Introduction (15 seconds):** State your name, the school your child attends, and the topic you are addressing. (e.g., *\"Good evening, President Smith and members of the board. My name is Jane Doe, I have a third-grader at Oak Elementary, and I am here to speak about the proposed changes to the bus routes.\"*)\n*   **The Problem (45 seconds):** Clearly state the issue. Use facts and data if you have them, but keep it easy to understand.\n*   **The Personal Impact (60 seconds):** This is your most powerful tool. Share a brief, compelling story about how this issue directly affects your child or your family. Board members hear statistics all day; personal stories are what they remember.\n*   **The Solution/Call to Action (30 seconds):** Tell the board exactly what you want them to do. Do you want them to vote no on a proposal? Form a parent committee? Allocate funds differently? Be specific.\n*   **The Conclusion (15 seconds):** Thank them for their time and their service to the community.\n\n### 4. Practice and Time Yourself\nDo not wing it. Write your speech out word-for-word and read it aloud with a timer. People tend to speak faster when they are nervous, but you want to aim for a steady, conversational pace. \n\nIf your speech runs over the time limit, cut the fluff. The board president will likely cut your microphone or interrupt you the second your time is up, so ensure your call to action happens well before the buzzer.\n\n### 5. Prepare for the Day Of\n*   **Bring copies:** Print out several copies of your speech. You can hand these to the board secretary before or after you speak so that your full comments are entered into the public record, which is especially helpful if you get cut off.\n*   **Dress comfortably but neatly:** You do not need to wear a suit, but business casual attire can help you feel more confident and project authority.\n*   **Manage your nerves:** It is completely normal to feel anxious. Take deep breaths. Remember that you are a taxpayer and a parent; you have every right to be in that room.\n\n### 6. Deliver Your Message\nWhen your name is called, walk to the podium, adjust the microphone so you don't have to lean over, and make eye contact with the board members. \n\nMaintain a respectful, firm tone. Even if you are angry about an issue, yelling or using hostile language will often cause the board to stop listening to your actual message. Passion is highly effective; aggression is not. \n\n### 7. Follow Up\nThe board will likely not respond to you during the meeting. By law, school boards often cannot engage in back-and-forth dialogue during public comment periods. Do not take their silence as a dismissal. \n\nThe next morning, send a follow-up email to the board members and the superintendent. Thank them for listening, attach the written copy of your statement, and reiterate your call to action. \n\nSpeaking at a school board meeting takes courage, but it is a vital part of the democratic process. By preparing thoroughly, staying focused, and speaking from the heart, you can be a highly effective advocate for your child and your community.",
+  "run_name": "2026-03-07-openrouter-v0-1-salvage-1"
+}

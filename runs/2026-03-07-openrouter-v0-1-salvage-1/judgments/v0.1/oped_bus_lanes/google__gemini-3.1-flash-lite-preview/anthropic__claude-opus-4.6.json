@@ -1,0 +1,47 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.1",
+  "candidate_model_id": "google/gemini-3.1-flash-lite-preview",
+  "created_at": "2026-03-07T21:23:46Z",
+  "judge_model_id": "anthropic/claude-opus-4.6",
+  "metadata": {
+    "id": "gen-1772918607-VcLtzunh2ea6DJEn0AFZ",
+    "raw_text": "{\"scores\": {\"clarity\": 5, \"simplicity\": 4, \"brevity_economy\": 4, \"structure_flow\": 5, \"specificity_precision\": 3, \"humanity_voice\": 4, \"overall\": 4}, \"rationale\": \"Clear, well-structured opinion piece that moves logically from the problem through efficiency, equity, and environment. The throughput numbers (1,500-2,000 vs. 10,000) add useful specificity, but the piece otherwise relies on generic framing\u2014no named corridor, no city, no real-world case studies or cost figures, which limits precision. Language is mostly plain and direct, though it leans on some rhetorical flourishes ('rolling waiting room,' 'arteries of movement') and a few stock phrases ('as simple as it is transformative'). The induced-demand counterargument is handled well. Slight repetition between the opening image and the closing 'stagnant parking lots' metaphor, but nothing egregious. Voice is confident and engaged, if a touch polished to the point of feeling like a template op-ed rather than a deeply personal or locally grounded one.\"}",
+    "usage": {
+      "completion_tokens": 260,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 0
+      },
+      "cost": 0.012065,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.0065,
+        "upstream_inference_cost": 0.012065,
+        "upstream_inference_prompt_cost": 0.005565
+      },
+      "is_byok": false,
+      "prompt_tokens": 1113,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 1373
+    }
+  },
+  "prompt_category": "persuasion_oped",
+  "prompt_id": "oped_bus_lanes",
+  "rationale": "Clear, well-structured opinion piece that moves logically from the problem through efficiency, equity, and environment. The throughput numbers (1,500-2,000 vs. 10,000) add useful specificity, but the piece otherwise relies on generic framing\u2014no named corridor, no city, no real-world case studies or cost figures, which limits precision. Language is mostly plain and direct, though it leans on some rhetorical flourishes ('rolling waiting room,' 'arteries of movement') and a few stock phrases ('as simple as it is transformative'). The induced-demand counterargument is handled well. Slight repetition between the opening image and the closing 'stagnant parking lots' metaphor, but nothing egregious. Voice is confident and engaged, if a touch polished to the point of feeling like a template op-ed rather than a deeply personal or locally grounded one.",
+  "run_name": "2026-03-07-openrouter-v0-1-salvage-1",
+  "scores": {
+    "brevity_economy": 4,
+    "clarity": 5,
+    "humanity_voice": 4,
+    "overall": 4,
+    "simplicity": 4,
+    "specificity_precision": 3,
+    "structure_flow": 5
+  }
+}

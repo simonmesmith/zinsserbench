@@ -1,0 +1,43 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.1",
+  "candidate_label": "Gemini 3.1 Pro Preview",
+  "candidate_model_id": "google/gemini-3.1-pro-preview",
+  "created_at": "2026-03-07T21:04:30Z",
+  "metadata": {
+    "id": "gen-1772917444-eIPsPw2RoUJkZlWQygcy",
+    "quality_guard": {
+      "minimum_words": 120,
+      "reason": "",
+      "status": "ok",
+      "word_count": 775
+    },
+    "usage": {
+      "completion_tokens": 1534,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 536
+      },
+      "cost": 0.018508,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.018408,
+        "upstream_inference_cost": 0.018508,
+        "upstream_inference_prompt_cost": 0.0001
+      },
+      "is_byok": false,
+      "prompt_tokens": 50,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 1584
+    }
+  },
+  "prompt_category": "service_howto",
+  "prompt_id": "howto_report_water_leak",
+  "response_text": "**Drip, Drop, Don\u2019t Panic: A Tenant\u2019s Guide to Ceiling Water Leaks**\n\nDiscovering a water leak in your apartment ceiling is a stressful experience. Whether it\u2019s a slow, steady drip or a sudden downpour, water damage can escalate quickly, threatening your belongings and the structural integrity of the building. As a tenant, your quick response is critical. Here is a step-by-step practical guide on exactly what to do when you look up and see water where it shouldn't be.\n\n### 1. Secure the Area and Protect Your Belongings\nYour immediate priority is damage control. Before you pick up the phone, take a few seconds to protect your personal property.\n*   **Move your furniture:** Push beds, couches, electronics, and rugs out of the splash zone. \n*   **Catch the water:** Place a bucket, trash can, or large cooking pot directly under the leak. Put a towel at the bottom of the container to muffle the dripping sound and prevent splashing.\n*   **Lay down tarps or towels:** Protect your flooring by laying down plastic sheeting or thick towels around the catch-bucket. \n\n### 2. Prioritize Electrical Safety\nWater and electricity are a deadly combination. If the leak is near a ceiling fan, light fixture, or electrical outlet, **do not touch the fixture or the water near it.** Go to your apartment\u2019s breaker box and flip the switch to cut the power to that specific room. If you cannot safely access the breaker, evacuate the room and wait for professional help.\n\n### 3. Relieve the Pressure (If the Ceiling is Bulging)\nIf the water is pooling and causing the ceiling paint or drywall to sag and form a bubble, it is at risk of collapsing. A ceiling collapse will cause a massive mess and potential injury. To prevent this, take a screwdriver, a skewer, or a broom handle and carefully poke a small hole in the center of the bulge. This will allow the water to drain steadily into your bucket rather than building up enough weight to bring the ceiling down. *Note: Only do this if you can do so safely, away from electrical fixtures.*\n\n### 4. Contact the Upstairs Neighbor\nIf there is an apartment directly above yours, head upstairs and knock on the door. Many ceiling leaks are caused by simple, immediate human errors: an overflowing bathtub, a spilled mop bucket, or a disconnected washing machine hose. If your neighbor is home, they can turn off the water source immediately, stopping the leak at its root. \n\n### 5. Notify Your Landlord or Property Management\nOnce the immediate area is secured, you must officially report the issue. \n*   **Call, don't just email:** A water leak is a maintenance emergency. Call your landlord, property manager, or the 24/7 emergency maintenance line. \n*   **Be specific:** Tell them exactly where the leak is, how heavy the water flow is, and whether the ceiling looks structurally compromised. \n*   **Follow up in writing:** After the phone call, send an email or submit a ticket through your tenant portal summarizing the issue. This creates a paper trail proving exactly when you reported the problem.\n\n### 6. Document the Damage\nWhile you wait for maintenance to arrive, pull out your smartphone. Take clear photos and videos of the leak, the ceiling damage, and any of your personal property that got wet. This documentation is vital for two reasons: it protects you from being blamed for the property damage, and it provides necessary evidence if you need to file a renters insurance claim.\n\n### 7. Contact Your Renters Insurance\nYour landlord\u2019s insurance covers the building (the drywall, the floors, the plumbing), but it **does not** cover your personal belongings. If your laptop, mattress, or expensive furniture was ruined by the leak, contact your renters insurance provider to start a claim. Provide them with the photos and videos you took in the previous step.\n\n### 8. Monitor the Cleanup and Repair Process\nAfter the immediate leak is stopped, the repair process begins. Ensure your landlord follows through on proper remediation. \n*   **Drying it out:** The affected drywall and flooring must be thoroughly dried using industrial fans or dehumidifiers to prevent mold growth.\n*   **Mold watch:** If the drywall remains damp for more than 48 hours, mold can develop. If you smell a musty odor or see dark spots forming in the days following the leak, notify your landlord immediately. Severely waterlogged drywall usually needs to be cut out and replaced, not just painted over.\n\nDealing with a ceiling leak is never fun, but by acting quickly, communicating clearly, and documenting everything, you can minimize the damage and get your living space back to normal as smoothly as possible.",
+  "run_name": "2026-03-07-openrouter-v0-1-salvage-1"
+}

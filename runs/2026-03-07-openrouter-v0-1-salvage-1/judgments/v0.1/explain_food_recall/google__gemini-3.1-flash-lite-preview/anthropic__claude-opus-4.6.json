@@ -1,0 +1,47 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.1",
+  "candidate_model_id": "google/gemini-3.1-flash-lite-preview",
+  "created_at": "2026-03-07T21:30:11Z",
+  "judge_model_id": "anthropic/claude-opus-4.6",
+  "metadata": {
+    "id": "gen-1772918996-4aaaU3A2HsNNC1ytanzk",
+    "raw_text": "{\"scores\": {\"clarity\": 5, \"simplicity\": 4, \"brevity_economy\": 4, \"structure_flow\": 5, \"specificity_precision\": 5, \"humanity_voice\": 3, \"overall\": 4}, \"rationale\": \"Exceptionally well-organized with clear headers, numbered steps, and a logical progression from definition to action to follow-up. Specificity is a real strength: naming pathogens in italics, explaining what a lot number looks like, citing FoodSafety.gov, noting the 12-digit UPC. Language is mostly plain, though a few phrases ('It is important to understand,' 'posing a severe risk') lean slightly formal/bureaucratic. The piece earns its length\u2014each section does real work\u2014though the kitchen-cleaning paragraph could be trimmer. The main shortcoming is voice: it reads like a competent government fact sheet rather than a piece with personality. 'Do not panic' is a good reader-aware moment, but the overall tone stays clinical where a warmer, more conversational register would better suit a consumer explainer.\"}",
+    "usage": {
+      "completion_tokens": 645,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 413
+      },
+      "cost": 0.022945,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.016125,
+        "upstream_inference_cost": 0.022945,
+        "upstream_inference_prompt_cost": 0.00682
+      },
+      "is_byok": false,
+      "prompt_tokens": 1364,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 2009
+    }
+  },
+  "prompt_category": "explain",
+  "prompt_id": "explain_food_recall",
+  "rationale": "Exceptionally well-organized with clear headers, numbered steps, and a logical progression from definition to action to follow-up. Specificity is a real strength: naming pathogens in italics, explaining what a lot number looks like, citing FoodSafety.gov, noting the 12-digit UPC. Language is mostly plain, though a few phrases ('It is important to understand,' 'posing a severe risk') lean slightly formal/bureaucratic. The piece earns its length\u2014each section does real work\u2014though the kitchen-cleaning paragraph could be trimmer. The main shortcoming is voice: it reads like a competent government fact sheet rather than a piece with personality. 'Do not panic' is a good reader-aware moment, but the overall tone stays clinical where a warmer, more conversational register would better suit a consumer explainer.",
+  "run_name": "2026-03-07-openrouter-v0-1-salvage-1",
+  "scores": {
+    "brevity_economy": 4,
+    "clarity": 5,
+    "humanity_voice": 3,
+    "overall": 4,
+    "simplicity": 4,
+    "specificity_precision": 5,
+    "structure_flow": 5
+  }
+}

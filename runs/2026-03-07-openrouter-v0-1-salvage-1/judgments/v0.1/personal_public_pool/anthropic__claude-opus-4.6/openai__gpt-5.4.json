@@ -1,0 +1,47 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.1",
+  "candidate_model_id": "anthropic/claude-opus-4.6",
+  "created_at": "2026-03-07T21:26:59Z",
+  "judge_model_id": "openai/gpt-5.4",
+  "metadata": {
+    "id": "gen-1772918811-Wz6HKcKjmqwbYCmOL44j",
+    "raw_text": "{\"scores\":{\"clarity\":4,\"simplicity\":3,\"brevity_economy\":3,\"structure_flow\":2,\"specificity_precision\":5,\"humanity_voice\":5,\"overall\":3},\"rationale\":\"Vivid, concrete details and a strong personal voice make the scene memorable. The prose is mostly clear, though some lines are a bit ornate rather than plain. The biggest weakness is structure: the piece cuts off abruptly, so the essay does not fully develop what the pool revealed about the town.\"}",
+    "usage": {
+      "completion_tokens": 459,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 345
+      },
+      "cost": 0.0086925,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.006885,
+        "upstream_inference_cost": 0.0086925,
+        "upstream_inference_prompt_cost": 0.0018075
+      },
+      "is_byok": false,
+      "prompt_tokens": 723,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 1182
+    }
+  },
+  "prompt_category": "personal_nonfiction",
+  "prompt_id": "personal_public_pool",
+  "rationale": "Vivid, concrete details and a strong personal voice make the scene memorable. The prose is mostly clear, though some lines are a bit ornate rather than plain. The biggest weakness is structure: the piece cuts off abruptly, so the essay does not fully develop what the pool revealed about the town.",
+  "run_name": "2026-03-07-openrouter-v0-1-salvage-1",
+  "scores": {
+    "brevity_economy": 3,
+    "clarity": 4,
+    "humanity_voice": 5,
+    "overall": 3,
+    "simplicity": 3,
+    "specificity_precision": 5,
+    "structure_flow": 2
+  }
+}

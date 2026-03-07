@@ -1,0 +1,47 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.1",
+  "candidate_model_id": "z-ai/glm-5",
+  "created_at": "2026-03-07T21:32:29Z",
+  "judge_model_id": "anthropic/claude-opus-4.6",
+  "metadata": {
+    "id": "gen-1772919141-Y2BdRjMF2YGNASTd0wf2",
+    "raw_text": "{\"scores\": {\"clarity\": 5, \"simplicity\": 4, \"brevity_economy\": 4, \"structure_flow\": 5, \"specificity_precision\": 4, \"humanity_voice\": 5, \"overall\": 5}, \"rationale\": \"Exceptionally well-crafted profile writing with a strong narrative voice. The opening hook ('the shape of their trouble') is memorable and the piece moves fluidly from scene-setting to biography. Concrete details\u2014187 files, army surplus cabinets from 1987, the Bridge of Sorrows\u2014anchor the piece and avoid vagueness. The humanity is palpable: 'the one whose face she can't quite remember anymore' is devastating in its restraint. Minor dings: a few moments tip toward literary flourish over plainness ('the particular desperation of bureaucratic inertia' is a touch ornate), and the piece is clearly a fragment that cuts off mid-thought, which limits full assessment of structure and economy. But what's on the page is polished, vivid, and emotionally resonant magazine-quality profile writing. The specificity score reflects that Millbrook County is fictional and some details feel constructed rather than reported, though this is inherent to the prompt.\"}",
+    "usage": {
+      "completion_tokens": 277,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 0
+      },
+      "cost": 0.01073,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.006925,
+        "upstream_inference_cost": 0.01073,
+        "upstream_inference_prompt_cost": 0.003805
+      },
+      "is_byok": false,
+      "prompt_tokens": 761,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 1038
+    }
+  },
+  "prompt_category": "profile",
+  "prompt_id": "profile_public_defender",
+  "rationale": "Exceptionally well-crafted profile writing with a strong narrative voice. The opening hook ('the shape of their trouble') is memorable and the piece moves fluidly from scene-setting to biography. Concrete details\u2014187 files, army surplus cabinets from 1987, the Bridge of Sorrows\u2014anchor the piece and avoid vagueness. The humanity is palpable: 'the one whose face she can't quite remember anymore' is devastating in its restraint. Minor dings: a few moments tip toward literary flourish over plainness ('the particular desperation of bureaucratic inertia' is a touch ornate), and the piece is clearly a fragment that cuts off mid-thought, which limits full assessment of structure and economy. But what's on the page is polished, vivid, and emotionally resonant magazine-quality profile writing. The specificity score reflects that Millbrook County is fictional and some details feel constructed rather than reported, though this is inherent to the prompt.",
+  "run_name": "2026-03-07-openrouter-v0-1-salvage-1",
+  "scores": {
+    "brevity_economy": 4,
+    "clarity": 5,
+    "humanity_voice": 5,
+    "overall": 5,
+    "simplicity": 4,
+    "specificity_precision": 4,
+    "structure_flow": 5
+  }
+}

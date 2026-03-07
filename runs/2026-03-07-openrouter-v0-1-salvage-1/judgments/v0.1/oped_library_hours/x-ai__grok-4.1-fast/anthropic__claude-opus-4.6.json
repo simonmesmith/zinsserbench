@@ -1,0 +1,47 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.1",
+  "candidate_model_id": "x-ai/grok-4.1-fast",
+  "created_at": "2026-03-07T21:22:39Z",
+  "judge_model_id": "anthropic/claude-opus-4.6",
+  "metadata": {
+    "id": "gen-1772918551-oArB0724YyNY2bX5BTQ4",
+    "raw_text": "{\"scores\": {\"clarity\": 5, \"simplicity\": 3, \"brevity_economy\": 3, \"structure_flow\": 4, \"specificity_precision\": 4, \"humanity_voice\": 4, \"overall\": 4}, \"rationale\": \"The argument is clearly structured and easy to follow, with a logical progression from access equity to public safety to cost objections. However, the language is often overwrought\u2014'beacon of free knowledge,' 'gaping hole,' 'engines of upward mobility,' 'shutter their doors'\u2014which undermines simplicity and economy. Phrases like 'moral and practical imperative' and 'democratize opportunity' feel inflated for an op-ed about library hours. The piece includes specific data points (ALA study, Seattle/Chicago pilots) that strengthen credibility, though some statistics feel potentially fabricated and the precision is undermined by vagueness ('places like Seattle and Chicago'). The voice is engaged and passionate, with vivid scenarios (the high schooler, the unemployed father), though it occasionally tips into melodrama. The piece is cut off mid-sentence, which is a significant flaw\u2014the cost rebuttal, a critical section for persuasiveness, is incomplete. Some repetition exists (the access argument is made multiple ways). Overall, competent opinion writing with strong structure but marred by purple prose and an incomplete ending.\"}",
+    "usage": {
+      "completion_tokens": 308,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 0
+      },
+      "cost": 0.012535,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.0077,
+        "upstream_inference_cost": 0.012535,
+        "upstream_inference_prompt_cost": 0.004835
+      },
+      "is_byok": false,
+      "prompt_tokens": 967,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 1275
+    }
+  },
+  "prompt_category": "persuasion_oped",
+  "prompt_id": "oped_library_hours",
+  "rationale": "The argument is clearly structured and easy to follow, with a logical progression from access equity to public safety to cost objections. However, the language is often overwrought\u2014'beacon of free knowledge,' 'gaping hole,' 'engines of upward mobility,' 'shutter their doors'\u2014which undermines simplicity and economy. Phrases like 'moral and practical imperative' and 'democratize opportunity' feel inflated for an op-ed about library hours. The piece includes specific data points (ALA study, Seattle/Chicago pilots) that strengthen credibility, though some statistics feel potentially fabricated and the precision is undermined by vagueness ('places like Seattle and Chicago'). The voice is engaged and passionate, with vivid scenarios (the high schooler, the unemployed father), though it occasionally tips into melodrama. The piece is cut off mid-sentence, which is a significant flaw\u2014the cost rebuttal, a critical section for persuasiveness, is incomplete. Some repetition exists (the access argument is made multiple ways). Overall, competent opinion writing with strong structure but marred by purple prose and an incomplete ending.",
+  "run_name": "2026-03-07-openrouter-v0-1-salvage-1",
+  "scores": {
+    "brevity_economy": 3,
+    "clarity": 5,
+    "humanity_voice": 4,
+    "overall": 4,
+    "simplicity": 3,
+    "specificity_precision": 4,
+    "structure_flow": 4
+  }
+}

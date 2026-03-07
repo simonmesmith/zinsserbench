@@ -1,0 +1,47 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.1",
+  "candidate_model_id": "google/gemini-3.1-pro-preview",
+  "created_at": "2026-03-07T21:09:21Z",
+  "judge_model_id": "anthropic/claude-opus-4.6",
+  "metadata": {
+    "id": "gen-1772917755-pmLkBfJTjrLvCC5coU4S",
+    "raw_text": "{\"scores\": {\"clarity\": 5, \"simplicity\": 4, \"brevity_economy\": 4, \"structure_flow\": 5, \"specificity_precision\": 5, \"humanity_voice\": 4, \"overall\": 5}, \"rationale\": \"Exceptionally well-structured memo with clear headers guiding the reader through what, why, and next steps. Specificity is strong: concrete dates (Nov 1, Nov 10), dollar amounts ($500), core hours (10-2 EST), numbered action items with links. Language is mostly plain and direct, though it occasionally dips into corporate enthusiasm ('incredible software,' 'incredibly excited,' 'next chapter in our company's growth') that slightly inflates the tone. The voice is warm and human but edges toward motivational boilerplate in places. Brevity is good\u2014nothing truly extraneous\u2014though the opening paragraph about crossing 120 employees and reflecting on scaling is mild throat-clearing. Overall, this is a highly effective internal memo that would serve its purpose excellently in a real company.\"}",
+    "usage": {
+      "completion_tokens": 236,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 0
+      },
+      "cost": 0.01187,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.0059,
+        "upstream_inference_cost": 0.01187,
+        "upstream_inference_prompt_cost": 0.00597
+      },
+      "is_byok": false,
+      "prompt_tokens": 1194,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 1430
+    }
+  },
+  "prompt_category": "memo",
+  "prompt_id": "memo_remote_work_policy",
+  "rationale": "Exceptionally well-structured memo with clear headers guiding the reader through what, why, and next steps. Specificity is strong: concrete dates (Nov 1, Nov 10), dollar amounts ($500), core hours (10-2 EST), numbered action items with links. Language is mostly plain and direct, though it occasionally dips into corporate enthusiasm ('incredible software,' 'incredibly excited,' 'next chapter in our company's growth') that slightly inflates the tone. The voice is warm and human but edges toward motivational boilerplate in places. Brevity is good\u2014nothing truly extraneous\u2014though the opening paragraph about crossing 120 employees and reflecting on scaling is mild throat-clearing. Overall, this is a highly effective internal memo that would serve its purpose excellently in a real company.",
+  "run_name": "2026-03-07-openrouter-v0-1-salvage-1",
+  "scores": {
+    "brevity_economy": 4,
+    "clarity": 5,
+    "humanity_voice": 4,
+    "overall": 5,
+    "simplicity": 4,
+    "specificity_precision": 5,
+    "structure_flow": 5
+  }
+}

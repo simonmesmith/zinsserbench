@@ -1,0 +1,47 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.1",
+  "candidate_model_id": "z-ai/glm-5",
+  "created_at": "2026-03-07T21:29:17Z",
+  "judge_model_id": "anthropic/claude-opus-4.6",
+  "metadata": {
+    "id": "gen-1772918942-J7Yt0JcYjR5U9TmXBw2o",
+    "raw_text": "{\"scores\": {\"clarity\": 5, \"simplicity\": 4, \"brevity_economy\": 4, \"structure_flow\": 5, \"specificity_precision\": 5, \"humanity_voice\": 3, \"overall\": 4}, \"rationale\": \"The memo is clear, well-structured, and impressively specific\u2014exact timestamps, named systems, identified root cause, and concrete next steps (PIR tomorrow, summary by EOW). The three bolded sections mirror the prompt perfectly and guide the reader naturally. Minor dings: the opening paragraph ('We are writing to provide a summary of...outline the remediation steps taken') is throat-clearing that the headers already handle, and phrases like 'enhanced monitoring protocols' and 'remediation steps' lean corporate. The humanity score is the weakest point\u2014it reads like a competent template rather than a person talking to colleagues; 'Thank you for your patience while we resolved this issue' is boilerplate. Overall a strong, functional memo that accomplishes its purpose well.\"}",
+    "usage": {
+      "completion_tokens": 700,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 350
+      },
+      "cost": 0.0216,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.0175,
+        "upstream_inference_cost": 0.0216,
+        "upstream_inference_prompt_cost": 0.0041
+      },
+      "is_byok": false,
+      "prompt_tokens": 820,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 1520
+    }
+  },
+  "prompt_category": "memo",
+  "prompt_id": "memo_incident_response",
+  "rationale": "The memo is clear, well-structured, and impressively specific\u2014exact timestamps, named systems, identified root cause, and concrete next steps (PIR tomorrow, summary by EOW). The three bolded sections mirror the prompt perfectly and guide the reader naturally. Minor dings: the opening paragraph ('We are writing to provide a summary of...outline the remediation steps taken') is throat-clearing that the headers already handle, and phrases like 'enhanced monitoring protocols' and 'remediation steps' lean corporate. The humanity score is the weakest point\u2014it reads like a competent template rather than a person talking to colleagues; 'Thank you for your patience while we resolved this issue' is boilerplate. Overall a strong, functional memo that accomplishes its purpose well.",
+  "run_name": "2026-03-07-openrouter-v0-1-salvage-1",
+  "scores": {
+    "brevity_economy": 4,
+    "clarity": 5,
+    "humanity_voice": 3,
+    "overall": 4,
+    "simplicity": 4,
+    "specificity_precision": 5,
+    "structure_flow": 5
+  }
+}

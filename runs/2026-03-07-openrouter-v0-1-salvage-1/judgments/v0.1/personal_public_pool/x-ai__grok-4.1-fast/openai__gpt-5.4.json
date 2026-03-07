@@ -1,0 +1,47 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.1",
+  "candidate_model_id": "x-ai/grok-4.1-fast",
+  "created_at": "2026-03-07T21:27:08Z",
+  "judge_model_id": "openai/gpt-5.4",
+  "metadata": {
+    "id": "gen-1772918821-KY7Cv7y0XJ3xjUL0BAk5",
+    "raw_text": "{\"scores\":{\"clarity\":4,\"simplicity\":3,\"brevity_economy\":3,\"structure_flow\":3,\"specificity_precision\":5,\"humanity_voice\":5,\"overall\":3},\"rationale\":\"Vivid, concrete, and strongly voiced, with memorable details about the pool and town. The main weakness is that it reads somewhat overwritten in places and is clearly incomplete, which hurts flow, development, and overall effectiveness.\"}",
+    "usage": {
+      "completion_tokens": 375,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 276
+      },
+      "cost": 0.00776,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.005625,
+        "upstream_inference_cost": 0.00776,
+        "upstream_inference_prompt_cost": 0.002135
+      },
+      "is_byok": false,
+      "prompt_tokens": 854,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 1229
+    }
+  },
+  "prompt_category": "personal_nonfiction",
+  "prompt_id": "personal_public_pool",
+  "rationale": "Vivid, concrete, and strongly voiced, with memorable details about the pool and town. The main weakness is that it reads somewhat overwritten in places and is clearly incomplete, which hurts flow, development, and overall effectiveness.",
+  "run_name": "2026-03-07-openrouter-v0-1-salvage-1",
+  "scores": {
+    "brevity_economy": 3,
+    "clarity": 4,
+    "humanity_voice": 5,
+    "overall": 3,
+    "simplicity": 3,
+    "specificity_precision": 5,
+    "structure_flow": 3
+  }
+}

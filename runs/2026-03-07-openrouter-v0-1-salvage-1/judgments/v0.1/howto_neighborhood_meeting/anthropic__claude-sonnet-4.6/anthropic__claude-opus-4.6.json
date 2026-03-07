@@ -1,0 +1,47 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.1",
+  "candidate_model_id": "anthropic/claude-sonnet-4.6",
+  "created_at": "2026-03-07T21:19:26Z",
+  "judge_model_id": "anthropic/claude-opus-4.6",
+  "metadata": {
+    "id": "gen-1772918355-iouaZqm7Ej3MZju2nfKA",
+    "raw_text": "{\"scores\": {\"clarity\": 5, \"simplicity\": 5, \"brevity_economy\": 4, \"structure_flow\": 3, \"specificity_precision\": 5, \"humanity_voice\": 5, \"overall\": 3}, \"rationale\": \"What's on the page is excellent: clear numbered steps, plain language, concrete examples (the Oak Street purpose statement, specific role suggestions, parenthetical lists of real traffic problems). The voice is warm and direct without being chatty. However, the piece cuts off mid-sentence in Step 3, leaving the guide drastically incomplete \u2014 no venue logistics, no invitation process, no meeting-day facilitation advice, no follow-up steps. For a practical guide, incompleteness is a serious functional flaw that caps overall effectiveness despite the high sentence-level quality.\"}",
+    "usage": {
+      "completion_tokens": 506,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 326
+      },
+      "cost": 0.01692,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.01265,
+        "upstream_inference_cost": 0.01692,
+        "upstream_inference_prompt_cost": 0.00427
+      },
+      "is_byok": false,
+      "prompt_tokens": 854,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 1360
+    }
+  },
+  "prompt_category": "service_howto",
+  "prompt_id": "howto_neighborhood_meeting",
+  "rationale": "What's on the page is excellent: clear numbered steps, plain language, concrete examples (the Oak Street purpose statement, specific role suggestions, parenthetical lists of real traffic problems). The voice is warm and direct without being chatty. However, the piece cuts off mid-sentence in Step 3, leaving the guide drastically incomplete \u2014 no venue logistics, no invitation process, no meeting-day facilitation advice, no follow-up steps. For a practical guide, incompleteness is a serious functional flaw that caps overall effectiveness despite the high sentence-level quality.",
+  "run_name": "2026-03-07-openrouter-v0-1-salvage-1",
+  "scores": {
+    "brevity_economy": 4,
+    "clarity": 5,
+    "humanity_voice": 5,
+    "overall": 3,
+    "simplicity": 5,
+    "specificity_precision": 5,
+    "structure_flow": 3
+  }
+}

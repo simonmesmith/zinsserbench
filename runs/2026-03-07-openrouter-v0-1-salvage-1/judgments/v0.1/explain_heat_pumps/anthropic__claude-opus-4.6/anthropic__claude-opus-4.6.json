@@ -1,0 +1,47 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.1",
+  "candidate_model_id": "anthropic/claude-opus-4.6",
+  "created_at": "2026-03-07T21:12:43Z",
+  "judge_model_id": "anthropic/claude-opus-4.6",
+  "metadata": {
+    "id": "gen-1772917949-gqArnl0KinVvMAAt3ZYb",
+    "raw_text": "{\"scores\": {\"clarity\": 5, \"simplicity\": 5, \"brevity_economy\": 4, \"structure_flow\": 3, \"specificity_precision\": 4, \"humanity_voice\": 4, \"overall\": 3}, \"rationale\": \"What's on the page is excellent: the AC-in-reverse framing orients readers immediately, the refrigerant-cycle explanation is accessible without dumbing down, the 'sponge for heat' analogy is vivid and apt, and concrete figures ('two to three times more heating energy') ground the efficiency claim. Language is plain and direct throughout. However, the piece is conspicuously incomplete\u2014it cuts off mid-sentence in the 'Why Choose' section, leaving the carbon-footprint point unfinished and likely omitting other considerations (cold-climate limitations, upfront cost, etc.) a homeowner would need. That truncation materially undermines structure and overall effectiveness for the stated task.\"}",
+    "usage": {
+      "completion_tokens": 657,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 346
+      },
+      "cost": 0.02075,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.016425,
+        "upstream_inference_cost": 0.02075,
+        "upstream_inference_prompt_cost": 0.004325
+      },
+      "is_byok": false,
+      "prompt_tokens": 865,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 1522
+    }
+  },
+  "prompt_category": "explain",
+  "prompt_id": "explain_heat_pumps",
+  "rationale": "What's on the page is excellent: the AC-in-reverse framing orients readers immediately, the refrigerant-cycle explanation is accessible without dumbing down, the 'sponge for heat' analogy is vivid and apt, and concrete figures ('two to three times more heating energy') ground the efficiency claim. Language is plain and direct throughout. However, the piece is conspicuously incomplete\u2014it cuts off mid-sentence in the 'Why Choose' section, leaving the carbon-footprint point unfinished and likely omitting other considerations (cold-climate limitations, upfront cost, etc.) a homeowner would need. That truncation materially undermines structure and overall effectiveness for the stated task.",
+  "run_name": "2026-03-07-openrouter-v0-1-salvage-1",
+  "scores": {
+    "brevity_economy": 4,
+    "clarity": 5,
+    "humanity_voice": 4,
+    "overall": 3,
+    "simplicity": 5,
+    "specificity_precision": 4,
+    "structure_flow": 3
+  }
+}

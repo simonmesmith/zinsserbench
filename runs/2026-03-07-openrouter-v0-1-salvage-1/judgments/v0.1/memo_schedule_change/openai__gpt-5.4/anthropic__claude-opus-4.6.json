@@ -1,0 +1,47 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.1",
+  "candidate_model_id": "openai/gpt-5.4",
+  "created_at": "2026-03-07T21:55:26Z",
+  "judge_model_id": "anthropic/claude-opus-4.6",
+  "metadata": {
+    "id": "gen-1772920512-IpI3yCwIo6SvviqE06Qc",
+    "raw_text": "{\"scores\": {\"clarity\": 4, \"simplicity\": 5, \"brevity_economy\": 4, \"structure_flow\": 5, \"specificity_precision\": 3, \"humanity_voice\": 3, \"overall\": 4}, \"rationale\": \"Well-structured memo with clear headers, bullet points, and logical progression (what \u2192 when \u2192 impact \u2192 why). Language is plain and direct throughout. Specific shift times are a strength, but heavy reliance on placeholders ([Insert Date] x3) and vague deferrals ('some departments,' 'supervisors will share') weaken precision. The closing paragraph acknowledging disruption adds warmth, but the overall voice still reads as a corporate template rather than a genuinely human communication. The response is visibly cut off mid-sentence ('If you have questions, please'), which is a notable flaw. The 'Why We Are Making This Change' section partially restates what was already stated in the opening, though it adds useful operational detail (bottlenecks in receiving, picking, packing, loading). Solid and functional overall.\"}",
+    "usage": {
+      "completion_tokens": 632,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 378
+      },
+      "cost": 0.020105,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.0158,
+        "upstream_inference_cost": 0.020105,
+        "upstream_inference_prompt_cost": 0.004305
+      },
+      "is_byok": false,
+      "prompt_tokens": 861,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 1493
+    }
+  },
+  "prompt_category": "memo",
+  "prompt_id": "memo_schedule_change",
+  "rationale": "Well-structured memo with clear headers, bullet points, and logical progression (what \u2192 when \u2192 impact \u2192 why). Language is plain and direct throughout. Specific shift times are a strength, but heavy reliance on placeholders ([Insert Date] x3) and vague deferrals ('some departments,' 'supervisors will share') weaken precision. The closing paragraph acknowledging disruption adds warmth, but the overall voice still reads as a corporate template rather than a genuinely human communication. The response is visibly cut off mid-sentence ('If you have questions, please'), which is a notable flaw. The 'Why We Are Making This Change' section partially restates what was already stated in the opening, though it adds useful operational detail (bottlenecks in receiving, picking, packing, loading). Solid and functional overall.",
+  "run_name": "2026-03-07-openrouter-v0-1-salvage-1",
+  "scores": {
+    "brevity_economy": 4,
+    "clarity": 4,
+    "humanity_voice": 3,
+    "overall": 4,
+    "simplicity": 5,
+    "specificity_precision": 3,
+    "structure_flow": 5
+  }
+}

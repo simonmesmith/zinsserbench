@@ -1,0 +1,47 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.1",
+  "candidate_model_id": "openai/gpt-5.4",
+  "created_at": "2026-03-07T21:28:04Z",
+  "judge_model_id": "openai/gpt-5.4",
+  "metadata": {
+    "id": "gen-1772918880-7ydwWzUT3lJp6iRgPgUr",
+    "raw_text": "{\"scores\":{\"clarity\":4,\"simplicity\":4,\"brevity_economy\":4,\"structure_flow\":3,\"specificity_precision\":3,\"humanity_voice\":3,\"overall\":3},\"rationale\":\"Clear, plain memo with a logical setup and useful summary of cause and fixes. However, it relies on placeholders and some vague terms, and the response is cut off mid-bullet, which hurts flow, completeness, and overall effectiveness.\"}",
+    "usage": {
+      "completion_tokens": 200,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 98
+      },
+      "cost": 0.0046625,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.003,
+        "upstream_inference_cost": 0.0046625,
+        "upstream_inference_prompt_cost": 0.0016625
+      },
+      "is_byok": false,
+      "prompt_tokens": 665,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 865
+    }
+  },
+  "prompt_category": "memo",
+  "prompt_id": "memo_incident_response",
+  "rationale": "Clear, plain memo with a logical setup and useful summary of cause and fixes. However, it relies on placeholders and some vague terms, and the response is cut off mid-bullet, which hurts flow, completeness, and overall effectiveness.",
+  "run_name": "2026-03-07-openrouter-v0-1-salvage-1",
+  "scores": {
+    "brevity_economy": 4,
+    "clarity": 4,
+    "humanity_voice": 3,
+    "overall": 3,
+    "simplicity": 4,
+    "specificity_precision": 3,
+    "structure_flow": 3
+  }
+}

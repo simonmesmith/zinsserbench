@@ -1,0 +1,37 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.1",
+  "candidate_label": "GLM-5",
+  "candidate_model_id": "z-ai/glm-5",
+  "created_at": "2026-03-07T16:08:29Z",
+  "metadata": {
+    "id": "gen-1772899693-R6IfkA1PqB5qdZBnAgX0",
+    "usage": {
+      "completion_tokens": 500,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 273
+      },
+      "cost": 0.00166,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.0016,
+        "upstream_inference_cost": 0.00166,
+        "upstream_inference_prompt_cost": 6e-05
+      },
+      "is_byok": false,
+      "prompt_tokens": 60,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 560
+    }
+  },
+  "prompt_category": "personal_nonfiction",
+  "prompt_id": "personal_first_day_union_job",
+  "response_text": "# The Eight-Hour Day\n\nI showed up twenty minutes early because that's what I'd been trained to do. Twenty years of at-will employment had taught me that being on time meant being early, that lunch breaks were suggestions, that staying late was how you proved you cared. I'd never belonged to anything.\n\nThe hiring hall was in a converted warehouse near the docks. I'd passed the test, paid my initiation fee, and now I was waiting for my first dispatch as a new member of Local 23. The dispatcher called my name and handed me a slip with an address\u2014a processing plant, refrigerated goods, night shift.\n\nMy previous job had been at a nonprofit where I'd worked fifty-hour weeks for salary that translated to less than minimum wage when you did the math. Before that, a coffee shop where my schedule changed weekly without notice. Before that, a call center where bathroom breaks were monitored in six-minute increments. I thought this was simply what work meant: you gave them everything, and they gave you just enough to come back tomorrow.\n\nThe plant was massive and cold. I checked in at security, got my badge, and found the break room where the shop steward\u2014a woman named Darla with gray in her braid and a Teamsters jacket\u2014was holding court.\n\n\"You're new,\" she said. Not a question.\n\n\"First dispatch.\"\n\nShe nodded. \"Here's what you need to know.",
+  "run_name": "2026-03-07-openrouter-v0-1"
+}

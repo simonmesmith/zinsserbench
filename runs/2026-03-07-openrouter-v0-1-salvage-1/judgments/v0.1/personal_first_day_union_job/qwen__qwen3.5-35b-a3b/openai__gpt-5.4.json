@@ -1,0 +1,47 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.1",
+  "candidate_model_id": "qwen/qwen3.5-35b-a3b",
+  "created_at": "2026-03-07T21:25:53Z",
+  "judge_model_id": "openai/gpt-5.4",
+  "metadata": {
+    "id": "gen-1772918748-6B6abqyYqwDEq0GsL4go",
+    "raw_text": "{\"scores\":{\"clarity\":2,\"simplicity\":3,\"brevity_economy\":2,\"structure_flow\":2,\"specificity_precision\":2,\"humanity_voice\":1,\"overall\":1},\"rationale\":\"The response does not actually write the requested personal nonfiction essay; it provides planning notes and an outline instead. It is somewhat understandable and uses mostly plain language, but it includes meta-commentary, incomplete structure, and only generic details rather than a lived scene or personal voice. Because it fails the core task, the overall score is very low.\"}",
+    "usage": {
+      "completion_tokens": 174,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 51
+      },
+      "cost": 0.0046725,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.00261,
+        "upstream_inference_cost": 0.0046725,
+        "upstream_inference_prompt_cost": 0.0020625
+      },
+      "is_byok": false,
+      "prompt_tokens": 825,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 999
+    }
+  },
+  "prompt_category": "personal_nonfiction",
+  "prompt_id": "personal_first_day_union_job",
+  "rationale": "The response does not actually write the requested personal nonfiction essay; it provides planning notes and an outline instead. It is somewhat understandable and uses mostly plain language, but it includes meta-commentary, incomplete structure, and only generic details rather than a lived scene or personal voice. Because it fails the core task, the overall score is very low.",
+  "run_name": "2026-03-07-openrouter-v0-1-salvage-1",
+  "scores": {
+    "brevity_economy": 2,
+    "clarity": 2,
+    "humanity_voice": 1,
+    "overall": 1,
+    "simplicity": 3,
+    "specificity_precision": 2,
+    "structure_flow": 2
+  }
+}

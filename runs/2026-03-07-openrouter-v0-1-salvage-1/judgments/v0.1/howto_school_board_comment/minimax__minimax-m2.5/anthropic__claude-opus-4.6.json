@@ -1,0 +1,47 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.1",
+  "candidate_model_id": "minimax/minimax-m2.5",
+  "created_at": "2026-03-07T21:34:14Z",
+  "judge_model_id": "anthropic/claude-opus-4.6",
+  "metadata": {
+    "id": "gen-1772919246-V9Zdl1adyrBF61UQKRqY",
+    "raw_text": "{\"scores\": {\"clarity\": 5, \"simplicity\": 5, \"brevity_economy\": 4, \"structure_flow\": 4, \"specificity_precision\": 4, \"humanity_voice\": 5, \"overall\": 4}, \"rationale\": \"Clear, plain language throughout; the opening line immediately acknowledges the reader's anxiety, establishing a warm, human tone. Specific and actionable details (e.g., typical time limits, sign-up requirements, a five-step speech framework) ground the advice concretely. Structure is logical\u2014research first, then craft message\u2014and formatting with headers, bold, and bullet lists aids scanning. Deducted slightly on structure/flow and overall because the piece is visibly truncated mid-sentence ('aim...'), leaving the guide incomplete (only 2 of what appear to be several sections). Brevity is good within what exists, though the incomplete state means we can't fully assess economy. Specificity is strong but not exceptional\u2014some points (e.g., 'gather facts') could use a brief concrete example. Voice is a standout: conversational, encouraging, and reader-aware without being patronizing.\"}",
+    "usage": {
+      "completion_tokens": 294,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 21
+      },
+      "cost": 0.011495,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.00735,
+        "upstream_inference_cost": 0.011495,
+        "upstream_inference_prompt_cost": 0.004145
+      },
+      "is_byok": false,
+      "prompt_tokens": 829,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 1123
+    }
+  },
+  "prompt_category": "service_howto",
+  "prompt_id": "howto_school_board_comment",
+  "rationale": "Clear, plain language throughout; the opening line immediately acknowledges the reader's anxiety, establishing a warm, human tone. Specific and actionable details (e.g., typical time limits, sign-up requirements, a five-step speech framework) ground the advice concretely. Structure is logical\u2014research first, then craft message\u2014and formatting with headers, bold, and bullet lists aids scanning. Deducted slightly on structure/flow and overall because the piece is visibly truncated mid-sentence ('aim...'), leaving the guide incomplete (only 2 of what appear to be several sections). Brevity is good within what exists, though the incomplete state means we can't fully assess economy. Specificity is strong but not exceptional\u2014some points (e.g., 'gather facts') could use a brief concrete example. Voice is a standout: conversational, encouraging, and reader-aware without being patronizing.",
+  "run_name": "2026-03-07-openrouter-v0-1-salvage-1",
+  "scores": {
+    "brevity_economy": 4,
+    "clarity": 5,
+    "humanity_voice": 5,
+    "overall": 4,
+    "simplicity": 5,
+    "specificity_precision": 4,
+    "structure_flow": 4
+  }
+}

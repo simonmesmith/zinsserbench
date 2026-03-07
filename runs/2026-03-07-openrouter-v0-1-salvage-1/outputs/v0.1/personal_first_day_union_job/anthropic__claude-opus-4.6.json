@@ -1,0 +1,37 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.1",
+  "candidate_label": "Claude Opus 4.6",
+  "candidate_model_id": "anthropic/claude-opus-4.6",
+  "created_at": "2026-03-07T15:10:51Z",
+  "metadata": {
+    "id": "gen-1772896234-FUmnThUJ9RrdnW0KGHHA",
+    "usage": {
+      "completion_tokens": 500,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 70
+      },
+      "cost": 0.01291,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.0125,
+        "upstream_inference_cost": 0.01291,
+        "upstream_inference_prompt_cost": 0.00041
+      },
+      "is_byok": false,
+      "prompt_tokens": 82,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 582
+    }
+  },
+  "prompt_category": "personal_nonfiction",
+  "prompt_id": "personal_first_day_union_job",
+  "response_text": "# The Break Room Had Chairs\n\nThe first thing I noticed was that the break room had chairs. Real chairs. Not milk crates, not overturned buckets, not the hood of someone's Civic in the parking lot. Padded chairs with armrests, arranged around actual tables, in a room with a door that closed and a microwave that worked and a coffee maker that no one had taped a sign to reading \"FOR MANAGEMENT ONLY.\"\n\nI was twenty-six and starting as a custodial worker at the county library system, AFSCME Local 1632, and I did not yet understand what I was looking at.\n\nBefore the library, I had worked for eight years across a geography of jobs that shared a common physics: you were a body, and the body was a cost, and the goal of management was to extract the most from that cost before the body broke or quit or, ideally, did both at the same time so they wouldn't have to pay unemployment. I'd washed dishes at a barbecue chain where the weights on the sanitizer thermometer were rigged so that corporate inspections would pass, where a cook lost the tip of his ring finger to the meat slicer and the manager asked him to finish his shift before going to urgent care. I'd stocked shelves at a big-box pet supply store where they scheduled you for thirty-nine hours so you'd never technically be full-time, where the cameras in the break room were acknowledged by everyone and denied by no one. I'd done landscaping for a man named Dale who paid cash, on Fridays, if he remembered, and if he forgot you could ask once but not twice. I'd done temp work in warehouses where they told you on the first day that the agency could replace you by lunch. They said it like weather. Like fact. Like the temperature outside.\n\nI never questioned any of this. That sounds strange to write now, but it is the truest thing in this essay.",
+  "run_name": "2026-03-07-openrouter-v0-1"
+}

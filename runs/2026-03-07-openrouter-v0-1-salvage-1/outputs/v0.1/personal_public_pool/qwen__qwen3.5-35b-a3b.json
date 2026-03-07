@@ -1,0 +1,37 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.1",
+  "candidate_label": "Qwen 3.5 35B A3B",
+  "candidate_model_id": "qwen/qwen3.5-35b-a3b",
+  "created_at": "2026-03-07T15:11:49Z",
+  "metadata": {
+    "id": "gen-1772896297-Pgp1QhgfPtvNFvNk8neK",
+    "usage": {
+      "completion_tokens": 1634,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 1130
+      },
+      "cost": 0.002134275,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.003268,
+        "upstream_inference_cost": 0.0032835,
+        "upstream_inference_prompt_cost": 1.55e-05
+      },
+      "is_byok": false,
+      "prompt_tokens": 62,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 1696
+    }
+  },
+  "prompt_category": "personal_nonfiction",
+  "prompt_id": "personal_public_pool",
+  "response_text": "The heat in Oakhaven didn't just sit on the town; it pressed down, a heavy, wet blanket that made the asphalt shimmer and the air taste of dust and exhaust. By July, the only place to escape it was the municipal pool on the edge of the old industrial district. We called it the Basin, though it was never more than a concrete rectangle cut into the earth, surrounded by chain-link fences that rattled in the wind.\n\nI spent the summers of my adolescence there, not because I was a swimmer, but because I was a creature of the heat. The Basin was the town\u2019s living room, its town square, and its sanctuary all at once. It was where the air conditioning failed, and where the community gathered to breathe.\n\nWalking through the turnstile, the smell hit you first. It was a specific, chemical perfume: chlorine, sunscreen, wet concrete, and the faint, sweet rot of old leaves caught in the drainage grates. It was the scent of Oakhaven itself.\n\nThe ticket booth was manned by Mrs. Halloway, a woman whose skin was as weathered as the brickwork of the post office across the street. She knew everyone. She knew who had money for the extra dollar for a locker, and who didn't. She knew who was late for work and who was skipping school. But she never asked. She just stamped the wristband. That was the first thing the pool revealed about the town: it was a place of quiet grace. In a community that was slowly hollowing out, losing its factories and its young people to the cities, the pool was a place where dignity was preserved. You didn't have to be rich to be there. You just had to be willing to get wet.\n\nThe water was always the same temperature, a cool shock that felt like a slap of reality. In the shallow end, the children played tag, their voices rising above the hum of the cicadas. In the deep end, the teenagers floated on their backs, staring at the sky, their bodies still and silent. There was a hierarchy, of course. The lifeguards, usually local high schoolers with sunburned shoulders and whistles around their necks, held the power. But it was a benevolent power. They didn't yell unless someone was in danger. They watched with a steady, unblinking gaze that felt less like policing and more like guardianship.\n\nI",
+  "run_name": "2026-03-07-openrouter-v0-1"
+}

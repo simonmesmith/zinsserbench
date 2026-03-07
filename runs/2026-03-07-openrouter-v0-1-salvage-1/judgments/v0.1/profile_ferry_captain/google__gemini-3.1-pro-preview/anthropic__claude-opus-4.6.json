@@ -1,0 +1,47 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.1",
+  "candidate_model_id": "google/gemini-3.1-pro-preview",
+  "created_at": "2026-03-07T21:17:45Z",
+  "judge_model_id": "anthropic/claude-opus-4.6",
+  "metadata": {
+    "id": "gen-1772918257-0suadiDjAq1n0RoRdk1A",
+    "raw_text": "{\"scores\": {\"clarity\": 5, \"simplicity\": 4, \"brevity_economy\": 4, \"structure_flow\": 5, \"specificity_precision\": 5, \"humanity_voice\": 5, \"overall\": 5}, \"rationale\": \"Exceptionally well-crafted profile that reads like polished magazine journalism. The piece moves naturally from the sensory opening through character, context, anecdote, and a satisfying circular close. Specificity is outstanding\u2014forty thousand crossings, the Valentine's Day blizzard, dead reckoning by buoy clangs, the three-hundred-ton vessel kissing the pilings. The quotes feel authentic and reveal character economically ('We had a schedule to keep'). Minor dings: a few descriptive flourishes edge toward literary polish rather than plain directness ('voice a low gravel,' 'beard the color of sea foam'), and the piece occasionally lingers on atmospheric detail that, while lovely, isn't strictly necessary. But these are small costs for the voice and texture they provide. Structure is seamless\u2014one crossing frames the entire profile, giving it narrative momentum and a satisfying bookend ending.\"}",
+    "usage": {
+      "completion_tokens": 258,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 0
+      },
+      "cost": 0.013695,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.00645,
+        "upstream_inference_cost": 0.013695,
+        "upstream_inference_prompt_cost": 0.007245
+      },
+      "is_byok": false,
+      "prompt_tokens": 1449,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 1707
+    }
+  },
+  "prompt_category": "profile",
+  "prompt_id": "profile_ferry_captain",
+  "rationale": "Exceptionally well-crafted profile that reads like polished magazine journalism. The piece moves naturally from the sensory opening through character, context, anecdote, and a satisfying circular close. Specificity is outstanding\u2014forty thousand crossings, the Valentine's Day blizzard, dead reckoning by buoy clangs, the three-hundred-ton vessel kissing the pilings. The quotes feel authentic and reveal character economically ('We had a schedule to keep'). Minor dings: a few descriptive flourishes edge toward literary polish rather than plain directness ('voice a low gravel,' 'beard the color of sea foam'), and the piece occasionally lingers on atmospheric detail that, while lovely, isn't strictly necessary. But these are small costs for the voice and texture they provide. Structure is seamless\u2014one crossing frames the entire profile, giving it narrative momentum and a satisfying bookend ending.",
+  "run_name": "2026-03-07-openrouter-v0-1-salvage-1",
+  "scores": {
+    "brevity_economy": 4,
+    "clarity": 5,
+    "humanity_voice": 5,
+    "overall": 5,
+    "simplicity": 4,
+    "specificity_precision": 5,
+    "structure_flow": 5
+  }
+}

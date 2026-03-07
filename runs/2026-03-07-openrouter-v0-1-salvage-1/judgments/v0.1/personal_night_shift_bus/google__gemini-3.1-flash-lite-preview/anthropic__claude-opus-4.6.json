@@ -1,0 +1,47 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.1",
+  "candidate_model_id": "google/gemini-3.1-flash-lite-preview",
+  "created_at": "2026-03-07T21:36:35Z",
+  "judge_model_id": "anthropic/claude-opus-4.6",
+  "metadata": {
+    "id": "gen-1772919387-TS0xHuwDjDJacp2EmEM9",
+    "raw_text": "{\"scores\": {\"clarity\": 5, \"simplicity\": 4, \"brevity_economy\": 4, \"structure_flow\": 5, \"specificity_precision\": 4, \"humanity_voice\": 4, \"overall\": 4}, \"rationale\": \"The essay is immediately clear and well-organized, moving naturally from routine to seasons to a climactic moment of connection and then a reflective close. The writing is mostly plain and direct, though it leans on some literary flourishes that feel slightly overwrought ('decompression chamber,' 'sanctuary of anonymity,' 'community of the transient'). These moments tip toward essay-contest polish rather than genuine personal voice. The specificity is good in places\u2014the nurse's scrubs, the pen-tapping student, 4th Street\u2014but the characters feel somewhat archetypal rather than observed from real life, and the essay lacks the kind of messy, idiosyncratic detail that would make it feel truly lived-in. The delayed-bus scene is the strongest moment, grounding the piece in a concrete event. The closing paragraph drifts into sentimentality ('quiet dignity,' 'grace in the way we all move through the dark'). Overall it's a polished, competent personal essay that reads a touch too composed and literary to fully convince as raw personal nonfiction.\"}",
+    "usage": {
+      "completion_tokens": 296,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 0
+      },
+      "cost": 0.01365,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.0074,
+        "upstream_inference_cost": 0.01365,
+        "upstream_inference_prompt_cost": 0.00625
+      },
+      "is_byok": false,
+      "prompt_tokens": 1250,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 1546
+    }
+  },
+  "prompt_category": "personal_nonfiction",
+  "prompt_id": "personal_night_shift_bus",
+  "rationale": "The essay is immediately clear and well-organized, moving naturally from routine to seasons to a climactic moment of connection and then a reflective close. The writing is mostly plain and direct, though it leans on some literary flourishes that feel slightly overwrought ('decompression chamber,' 'sanctuary of anonymity,' 'community of the transient'). These moments tip toward essay-contest polish rather than genuine personal voice. The specificity is good in places\u2014the nurse's scrubs, the pen-tapping student, 4th Street\u2014but the characters feel somewhat archetypal rather than observed from real life, and the essay lacks the kind of messy, idiosyncratic detail that would make it feel truly lived-in. The delayed-bus scene is the strongest moment, grounding the piece in a concrete event. The closing paragraph drifts into sentimentality ('quiet dignity,' 'grace in the way we all move through the dark'). Overall it's a polished, competent personal essay that reads a touch too composed and literary to fully convince as raw personal nonfiction.",
+  "run_name": "2026-03-07-openrouter-v0-1-salvage-1",
+  "scores": {
+    "brevity_economy": 4,
+    "clarity": 5,
+    "humanity_voice": 4,
+    "overall": 4,
+    "simplicity": 4,
+    "specificity_precision": 4,
+    "structure_flow": 5
+  }
+}

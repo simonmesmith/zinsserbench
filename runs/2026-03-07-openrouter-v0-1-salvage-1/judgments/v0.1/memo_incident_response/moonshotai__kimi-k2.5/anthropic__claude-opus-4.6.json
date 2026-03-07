@@ -1,0 +1,47 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.1",
+  "candidate_model_id": "moonshotai/kimi-k2.5",
+  "created_at": "2026-03-07T21:29:32Z",
+  "judge_model_id": "anthropic/claude-opus-4.6",
+  "metadata": {
+    "id": "gen-1772918958-ej7gc86A1E7651P1WvVs",
+    "raw_text": "```json\n{\"scores\": {\"clarity\": 4, \"simplicity\": 4, \"brevity_economy\": 4, \"structure_flow\": 3, \"specificity_precision\": 5, \"humanity_voice\": 3, \"overall\": 3}, \"rationale\": \"What exists is strong: precise timestamps (2:15 PM, 2:22 PM, 6:45 PM ET), a clear causal chain (config update \u2192 rate-limit removal \u2192 memory exhaustion \u2192 crash-recovery loop \u2192 failover failure), and clean sectioned formatting. Language is direct and technically specific without being jargon-heavy for a general employee audience. However, the response is visibly truncated mid-sentence ('This'), omitting the promised fix details and forward-looking guidance\u2014two of the three elements the prompt explicitly requires. Structure earns only a 3 because the logical arc is incomplete. Voice is competent and professional but reads more like a clinical incident report than a memo that reassures anxious employees; a sentence of empathy or acknowledgment would help. Specificity is the standout strength.\"}\n```",
+    "usage": {
+      "completion_tokens": 648,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 402
+      },
+      "cost": 0.01945,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.0162,
+        "upstream_inference_cost": 0.01945,
+        "upstream_inference_prompt_cost": 0.00325
+      },
+      "is_byok": false,
+      "prompt_tokens": 650,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 1298
+    }
+  },
+  "prompt_category": "memo",
+  "prompt_id": "memo_incident_response",
+  "rationale": "What exists is strong: precise timestamps (2:15 PM, 2:22 PM, 6:45 PM ET), a clear causal chain (config update \u2192 rate-limit removal \u2192 memory exhaustion \u2192 crash-recovery loop \u2192 failover failure), and clean sectioned formatting. Language is direct and technically specific without being jargon-heavy for a general employee audience. However, the response is visibly truncated mid-sentence ('This'), omitting the promised fix details and forward-looking guidance\u2014two of the three elements the prompt explicitly requires. Structure earns only a 3 because the logical arc is incomplete. Voice is competent and professional but reads more like a clinical incident report than a memo that reassures anxious employees; a sentence of empathy or acknowledgment would help. Specificity is the standout strength.",
+  "run_name": "2026-03-07-openrouter-v0-1-salvage-1",
+  "scores": {
+    "brevity_economy": 4,
+    "clarity": 4,
+    "humanity_voice": 3,
+    "overall": 3,
+    "simplicity": 4,
+    "specificity_precision": 5,
+    "structure_flow": 3
+  }
+}

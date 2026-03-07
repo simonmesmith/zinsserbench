@@ -1,0 +1,47 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.1",
+  "candidate_model_id": "google/gemini-3.1-flash-lite-preview",
+  "created_at": "2026-03-07T21:13:57Z",
+  "judge_model_id": "anthropic/claude-opus-4.6",
+  "metadata": {
+    "id": "gen-1772918031-Zp3i7dMyyyE04HPXn12d",
+    "raw_text": "{\"scores\": {\"clarity\": 5, \"simplicity\": 5, \"brevity_economy\": 4, \"structure_flow\": 5, \"specificity_precision\": 4, \"humanity_voice\": 5, \"overall\": 5}, \"rationale\": \"Exceptionally clear and well-organized explainer. The IOU analogy and 'you are essentially acting as a bank' framing make abstract concepts immediately graspable. The intergenerational fairness point (future residents also use the school) is a smart, specific detail that elevates the piece. Language is consistently plain without being dumbed down. Minor dings: the 'Bottom Line' section slightly restates what was already clear, and a few more concrete numbers (e.g., typical interest rates, typical bond denominations) could sharpen specificity. The voice is warm, conversational, and genuinely reader-aware throughout\u2014never condescending.\"}",
+    "usage": {
+      "completion_tokens": 206,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 0
+      },
+      "cost": 0.00997,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.00515,
+        "upstream_inference_cost": 0.00997,
+        "upstream_inference_prompt_cost": 0.00482
+      },
+      "is_byok": false,
+      "prompt_tokens": 964,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 1170
+    }
+  },
+  "prompt_category": "explain",
+  "prompt_id": "explain_municipal_bonds",
+  "rationale": "Exceptionally clear and well-organized explainer. The IOU analogy and 'you are essentially acting as a bank' framing make abstract concepts immediately graspable. The intergenerational fairness point (future residents also use the school) is a smart, specific detail that elevates the piece. Language is consistently plain without being dumbed down. Minor dings: the 'Bottom Line' section slightly restates what was already clear, and a few more concrete numbers (e.g., typical interest rates, typical bond denominations) could sharpen specificity. The voice is warm, conversational, and genuinely reader-aware throughout\u2014never condescending.",
+  "run_name": "2026-03-07-openrouter-v0-1-salvage-1",
+  "scores": {
+    "brevity_economy": 4,
+    "clarity": 5,
+    "humanity_voice": 5,
+    "overall": 5,
+    "simplicity": 5,
+    "specificity_precision": 4,
+    "structure_flow": 5
+  }
+}

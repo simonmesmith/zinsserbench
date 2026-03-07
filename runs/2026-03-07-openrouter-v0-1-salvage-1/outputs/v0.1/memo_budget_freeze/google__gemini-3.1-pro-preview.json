@@ -1,0 +1,43 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.1",
+  "candidate_label": "Gemini 3.1 Pro Preview",
+  "candidate_model_id": "google/gemini-3.1-pro-preview",
+  "created_at": "2026-03-07T21:03:18Z",
+  "metadata": {
+    "id": "gen-1772917374-kdSSxjMsW4M2vhRxhLJR",
+    "quality_guard": {
+      "minimum_words": 100,
+      "reason": "",
+      "status": "ok",
+      "word_count": 474
+    },
+    "usage": {
+      "completion_tokens": 1491,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 827
+      },
+      "cost": 0.018018,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.017892,
+        "upstream_inference_cost": 0.018018,
+        "upstream_inference_prompt_cost": 0.000126
+      },
+      "is_byok": false,
+      "prompt_tokens": 63,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 1554
+    }
+  },
+  "prompt_category": "memo",
+  "prompt_id": "memo_budget_freeze",
+  "response_text": "**MEMORANDUM**\n\n**TO:** All Department Heads and Clinical Directors\n**FROM:** Office of the Chief Financial Officer\n**DATE:** October 24, 2023\n**SUBJECT:** Implementation of a Temporary Budget Freeze\n\nEffective immediately, administration is implementing a temporary, hospital-wide budget freeze. Due to recent, unexpected fluctuations in our operational costs and supply chain expenses, this proactive measure is necessary to ensure our financial stability as we close out the current fiscal quarter. \n\nWe anticipate this freeze will remain in place for the next 45 days. During this time, we must strictly prioritize our resources to ensure that our core mission\u2014providing safe, high-quality patient care\u2014remains entirely uncompromised.\n\nTo provide clarity on how this will impact your daily operations, please review the following guidelines regarding what is and is not affected by this freeze.\n\n**What IS Affected (Spending Paused):**\n*   **Non-Clinical Hiring:** All open requisitions for administrative, clerical, and non-essential support roles are paused. \n*   **Travel and Education:** All hospital-funded travel, conference attendance, and off-site training are suspended, unless strictly required for immediate regulatory compliance.\n*   **Capital Equipment:** All new requests for capital equipment, elective technology upgrades, and departmental renovations are on hold.\n*   **Discretionary Spending:** Purchases of non-essential office supplies, catered departmental meetings, and team-building expenses are frozen.\n\n**What is NOT Affected (Spending Approved):**\n*   **Direct Patient Care:** All medical supplies, pharmaceuticals, and consumables required for direct patient care and safety.\n*   **Essential Clinical Staffing:** Hiring and scheduling for nurses, physicians, and critical allied health professionals required to maintain safe, mandated patient-to-staff ratios.\n*   **Emergency Maintenance:** Urgent repairs to the facility or to critical, life-saving medical equipment.\n*   **Active Projects:** Any previously approved capital projects or vendor contracts that are already in the active execution phase.\n\n**Questions and Exceptions to Bring Forward:**\nWe recognize that a freeze of this nature requires careful navigation, and you understand the unique needs of your departments better than anyone. We ask that you review your operational needs for the next 45 days and bring the following issues directly to the Finance Committee for review:\n1.  **Patient Safety Risks:** Are there any pending purchases or paused initiatives in your department that, if delayed, will directly compromise patient safety or our regulatory compliance?\n2.  **Critical Staffing:** Do you have an impending clinical staffing shortage that cannot be safely managed through our current PRN pools, overtime, or schedule adjustments?\n3.  **Vendor Renewals:** Do you have essential vendor contracts or software licenses expiring within the next 45 days that will cause an operational disruption if not immediately renewed?\n\nIf you have a request that falls into one of these three categories, please submit an exception request to the Finance Office by the end of the week. \n\nThank you for your leadership, flexibility, and continued dedication to our patients and staff during this period. We will provide a financial update and reassess the status of this freeze in mid-December.",
+  "run_name": "2026-03-07-openrouter-v0-1-salvage-1"
+}

@@ -1,0 +1,47 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.1",
+  "candidate_model_id": "deepseek/deepseek-v3.2",
+  "created_at": "2026-03-07T21:21:03Z",
+  "judge_model_id": "openai/gpt-5.4",
+  "metadata": {
+    "id": "gen-1772918456-VUY4RKEjQqtjwIsXaKO5",
+    "raw_text": "{\"scores\":{\"clarity\":4,\"simplicity\":4,\"brevity_economy\":4,\"structure_flow\":3,\"specificity_precision\":4,\"humanity_voice\":3,\"overall\":3},\"rationale\":\"Clear, practical, and well organized, with concrete steps and useful examples. The language is mostly plain and efficient. However, the response ends abruptly mid-sentence, so the guide feels incomplete; that weakens flow, voice, and overall effectiveness.\"}",
+    "usage": {
+      "completion_tokens": 316,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 211
+      },
+      "cost": 0.0068425,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.00474,
+        "upstream_inference_cost": 0.0068425,
+        "upstream_inference_prompt_cost": 0.0021025
+      },
+      "is_byok": false,
+      "prompt_tokens": 841,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 1157
+    }
+  },
+  "prompt_category": "service_howto",
+  "prompt_id": "howto_report_water_leak",
+  "rationale": "Clear, practical, and well organized, with concrete steps and useful examples. The language is mostly plain and efficient. However, the response ends abruptly mid-sentence, so the guide feels incomplete; that weakens flow, voice, and overall effectiveness.",
+  "run_name": "2026-03-07-openrouter-v0-1-salvage-1",
+  "scores": {
+    "brevity_economy": 4,
+    "clarity": 4,
+    "humanity_voice": 3,
+    "overall": 3,
+    "simplicity": 4,
+    "specificity_precision": 4,
+    "structure_flow": 3
+  }
+}

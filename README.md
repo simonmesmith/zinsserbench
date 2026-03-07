@@ -6,31 +6,32 @@ ZinsserBench is a benchmark that tests how well language models write the kinds 
 
 ## Scores
 
-The most recent run (`2026-03-07-openrouter-v0-1`, benchmark version `v0.1`) tested 12 candidate models across 20 prompts. Scores are on a 1-to-5 scale. Higher is better.
+The most recent completed run (`2026-03-07-openrouter-v0-1-salvage-1`, benchmark version `v0.1`) tested 12 candidate models across 20 prompts. Scores are on a 1-to-5 scale. Higher is better.
 
-![Overall scores](runs/2026-03-07-openrouter-v0-1/analysis/overall_scores.svg)
+![Overall scores](runs/2026-03-07-openrouter-v0-1-salvage-1/analysis/overall_scores.svg)
 
 **Top three by overall writing quality:**
 
 | Rank | Model | Overall |
 | ---: | --- | ---: |
-| 1 | openai/gpt-5.3-chat | 4.18 |
-| 2 | z-ai/glm-5 | 4.05 |
-| 3 | anthropic/claude-opus-4.6 | 4.03 |
+| 1 | google/gemini-3.1-pro-preview | 4.92 |
+| 2 | google/gemini-3.1-flash-lite-preview | 4.65 |
+| 3 | openai/gpt-5.3-chat | 4.30 |
 
-Full results are in the [detailed report](runs/2026-03-07-openrouter-v0-1/analysis/REPORT.md).
+Full results are in the [detailed report](runs/2026-03-07-openrouter-v0-1-salvage-1/analysis/REPORT.md).
 
 ### Judge agreement
 
-ZinsserBench also measures how closely each judge matches the rest of the panel. In this run, `google/gemini-3.1-pro-preview` had the highest agreement, narrowly ahead of `openai/gpt-5.4`.
+ZinsserBench also measures how closely each judge matches the rest of the panel. In this run, `google/gemini-3.1-pro-preview` had the highest agreement, ahead of `openai/gpt-5.4` and `anthropic/claude-opus-4.6`.
 
-![Judge quality](runs/2026-03-07-openrouter-v0-1/analysis/judge_quality.svg)
+![Judge quality](runs/2026-03-07-openrouter-v0-1-salvage-1/analysis/judge_quality.svg)
 
 ### Caveats for this run
 
 This is an early `v0.1` run using OpenRouter with `--reasoning-effort medium`. Treat the results as directional, not definitive.
 
-- **Gemini truncation.** The two Gemini candidate models hit an OpenRouter failure: they spent most of their token budget on reasoning and returned visibly truncated text. They are included in the chart but should be treated as artifacts of the provider issue, not real writing scores. A [response-length audit](runs/2026-03-07-openrouter-v0-1/analysis/response_lengths_by_model.csv) is available.
+- **Salvaged from the original run.** This leaderboard comes from `2026-03-07-openrouter-v0-1-salvage-1`, a repaired copy of the original OpenRouter run. The salvage run kept valid outputs, regenerated contaminated ones, removed judge identity leakage, and re-judged the full run under one consistent method.
+- **A few outputs are still excluded.** Three candidate outputs were quarantined because they were visibly cut off and too short to score fairly. A [response-length audit](runs/2026-03-07-openrouter-v0-1-salvage-1/analysis/response_lengths_by_model.csv) and [quarantine table](runs/2026-03-07-openrouter-v0-1-salvage-1/analysis/quarantined_outputs.csv) are available.
 - **Judge panel.** The panel is `openai/gpt-5.4`, `anthropic/claude-opus-4.6`, and `google/gemini-3.1-pro-preview`. Three judges is a starting point; future runs may expand the panel.
 - **Prompt count.** 20 prompts across 6 categories. Enough to see patterns, not enough to claim statistical precision.
 
@@ -145,12 +146,22 @@ zinsserbench run \
   --generation-concurrency 4 \
   --judge-concurrency 4 \
   --reasoning-effort medium \
-  --max-output-tokens 500
+  --max-output-tokens 2500
 ```
 
 The CLI loads `.env` and `.env.local` from `--root` on startup. Shell environment variables take precedence.
 
 Runs are resumable. If work is partially complete, reuse the same `--run-name`.
+
+### Salvaging a run
+
+If a run is partly valid but contaminated by provider failures, copy it to a new run name before repairing it.
+
+```bash
+cp -R runs/old-run runs/new-run
+```
+
+Then remove the bad outputs and stale judgments from `runs/new-run/`, keeping unaffected outputs in place. Resume with the same benchmark version and a fresh `--run-name` pointed at the copied directory. ZinsserBench will regenerate only the missing artifacts.
 
 ### Running stages separately
 
@@ -169,6 +180,7 @@ The repo includes defensive handling for provider quirks observed in live runs:
 - Some providers return `content: null` after spending tokens on reasoning.
 - Some providers need a retry with reasoning disabled and a larger token budget.
 - `429` responses with `retry_after_seconds` are honored, not treated as fatal.
+- OpenRouter requests require provider parameter support so routing does not silently ignore requested controls.
 - Judge calls stay in JSON mode.
 
 When OpenRouter supports reasoning controls for a model, ZinsserBench sends reasoning effort while excluding returned reasoning blocks by default.
@@ -179,6 +191,7 @@ After a run, `runs/<run_name>/analysis/` contains:
 
 - `REPORT.md` -- human-readable summary
 - `summary.json`
+- `quarantined_outputs.csv`
 - `response_lengths_by_model.csv`
 - `writing_by_model.csv` -- the leaderboard
 - `writing_by_model_axis.csv`, `writing_by_model_category.csv`, `writing_by_model_prompt.csv`

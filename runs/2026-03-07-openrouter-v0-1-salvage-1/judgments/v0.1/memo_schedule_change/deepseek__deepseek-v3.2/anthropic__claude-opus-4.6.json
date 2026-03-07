@@ -1,0 +1,47 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.1",
+  "candidate_model_id": "deepseek/deepseek-v3.2",
+  "created_at": "2026-03-07T21:40:02Z",
+  "judge_model_id": "anthropic/claude-opus-4.6",
+  "metadata": {
+    "id": "gen-1772919586-TsqCStSekCr157CEw224",
+    "raw_text": "{\"scores\": {\"clarity\": 5, \"simplicity\": 4, \"brevity_economy\": 4, \"structure_flow\": 5, \"specificity_precision\": 2, \"humanity_voice\": 3, \"overall\": 3}, \"rationale\": \"The memo is clearly organized and easy to follow on first read, with a logical progression from context to dates to next steps. However, the 'key details' section is critically vague\u2014it essentially says shifts may change without specifying how. Bullet points like 'Shift start and end times may be adjusted' and 'Some teams may be assigned to extended or weekend shifts' contain almost no concrete information, making the memo more of a pre-announcement than an actual announcement. Language is mostly plain but has some corporate filler ('fulfill orders efficiently,' 'critical time for our operations'). The empathy paragraph is welcome but reads as boilerplate rather than genuinely engaged. Structurally sound, but the lack of real specifics significantly limits its usefulness.\"}",
+    "usage": {
+      "completion_tokens": 626,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 379
+      },
+      "cost": 0.01899,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.01565,
+        "upstream_inference_cost": 0.01899,
+        "upstream_inference_prompt_cost": 0.00334
+      },
+      "is_byok": false,
+      "prompt_tokens": 668,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 1294
+    }
+  },
+  "prompt_category": "memo",
+  "prompt_id": "memo_schedule_change",
+  "rationale": "The memo is clearly organized and easy to follow on first read, with a logical progression from context to dates to next steps. However, the 'key details' section is critically vague\u2014it essentially says shifts may change without specifying how. Bullet points like 'Shift start and end times may be adjusted' and 'Some teams may be assigned to extended or weekend shifts' contain almost no concrete information, making the memo more of a pre-announcement than an actual announcement. Language is mostly plain but has some corporate filler ('fulfill orders efficiently,' 'critical time for our operations'). The empathy paragraph is welcome but reads as boilerplate rather than genuinely engaged. Structurally sound, but the lack of real specifics significantly limits its usefulness.",
+  "run_name": "2026-03-07-openrouter-v0-1-salvage-1",
+  "scores": {
+    "brevity_economy": 4,
+    "clarity": 5,
+    "humanity_voice": 3,
+    "overall": 3,
+    "simplicity": 4,
+    "specificity_precision": 2,
+    "structure_flow": 5
+  }
+}

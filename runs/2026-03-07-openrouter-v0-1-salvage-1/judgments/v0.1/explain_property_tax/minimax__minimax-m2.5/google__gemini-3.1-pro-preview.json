@@ -1,0 +1,47 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.1",
+  "candidate_model_id": "minimax/minimax-m2.5",
+  "created_at": "2026-03-07T21:39:04Z",
+  "judge_model_id": "google/gemini-3.1-pro-preview",
+  "metadata": {
+    "id": "gen-1772919537-X5cpxHi1E40XudcbOgGY",
+    "raw_text": "{\n  \"scores\": {\n    \"clarity\": 5,\n    \"simplicity\": 5,\n    \"brevity_economy\": 5,\n    \"structure_flow\": 4,\n    \"specificity_precision\": 5,\n    \"humanity_voice\": 5,\n    \"overall\": 4\n  },\n  \"rationale\": \"The writing is exceptionally clear, simple, and well-structured, perfectly suited for a plain-English explainer. It uses concrete examples and maintains a helpful, human tone. However, the response cuts off mid-sentence at the end, which impacts the overall and structure scores.\"\n}",
+    "usage": {
+      "completion_tokens": 454,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 312
+      },
+      "cost": 0.006924,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.005448,
+        "upstream_inference_cost": 0.006924,
+        "upstream_inference_prompt_cost": 0.001476
+      },
+      "is_byok": false,
+      "prompt_tokens": 738,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 1192
+    }
+  },
+  "prompt_category": "explain",
+  "prompt_id": "explain_property_tax",
+  "rationale": "The writing is exceptionally clear, simple, and well-structured, perfectly suited for a plain-English explainer. It uses concrete examples and maintains a helpful, human tone. However, the response cuts off mid-sentence at the end, which impacts the overall and structure scores.",
+  "run_name": "2026-03-07-openrouter-v0-1-salvage-1",
+  "scores": {
+    "brevity_economy": 5,
+    "clarity": 5,
+    "humanity_voice": 5,
+    "overall": 4,
+    "simplicity": 5,
+    "specificity_precision": 5,
+    "structure_flow": 4
+  }
+}

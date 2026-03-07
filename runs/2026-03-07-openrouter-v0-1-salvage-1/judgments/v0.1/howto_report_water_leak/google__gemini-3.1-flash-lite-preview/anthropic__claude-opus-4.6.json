@@ -1,0 +1,47 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.1",
+  "candidate_model_id": "google/gemini-3.1-flash-lite-preview",
+  "created_at": "2026-03-07T21:20:32Z",
+  "judge_model_id": "anthropic/claude-opus-4.6",
+  "metadata": {
+    "id": "gen-1772918417-GIPUjw6sdQnrQytDiXOg",
+    "raw_text": "{\"scores\": {\"clarity\": 5, \"simplicity\": 5, \"brevity_economy\": 4, \"structure_flow\": 5, \"specificity_precision\": 4, \"humanity_voice\": 4, \"overall\": 5}, \"rationale\": \"Exceptionally clear and well-organized guide. The sequential structure (safety \u2192 containment \u2192 notification \u2192 documentation \u2192 don't DIY \u2192 follow-up) is logical and intuitive. Language is plain and direct throughout with no jargon. Specific details like the towel-in-bucket tip, turning off breakers near fixtures, and creating a timestamped paper trail elevate it beyond generic advice. Brevity docked slightly because a few explanatory clauses ('which is a health hazard,' 'Water and electricity are a dangerous combination') state the obvious for the likely audience. Humanity is good\u2014the opening acknowledges stress, the neighbor pro-tip is a warm practical touch\u2014but the tone stays mostly in instructional mode without much distinctive voice. Specificity could be slightly sharper (e.g., how quickly mold can develop, what constitutes an 'emergency' vs. routine maintenance call). Overall, this is an excellent practical guide that would genuinely help a tenant in the moment.\"}",
+    "usage": {
+      "completion_tokens": 620,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 354
+      },
+      "cost": 0.021965,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.0155,
+        "upstream_inference_cost": 0.021965,
+        "upstream_inference_prompt_cost": 0.006465
+      },
+      "is_byok": false,
+      "prompt_tokens": 1293,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 1913
+    }
+  },
+  "prompt_category": "service_howto",
+  "prompt_id": "howto_report_water_leak",
+  "rationale": "Exceptionally clear and well-organized guide. The sequential structure (safety \u2192 containment \u2192 notification \u2192 documentation \u2192 don't DIY \u2192 follow-up) is logical and intuitive. Language is plain and direct throughout with no jargon. Specific details like the towel-in-bucket tip, turning off breakers near fixtures, and creating a timestamped paper trail elevate it beyond generic advice. Brevity docked slightly because a few explanatory clauses ('which is a health hazard,' 'Water and electricity are a dangerous combination') state the obvious for the likely audience. Humanity is good\u2014the opening acknowledges stress, the neighbor pro-tip is a warm practical touch\u2014but the tone stays mostly in instructional mode without much distinctive voice. Specificity could be slightly sharper (e.g., how quickly mold can develop, what constitutes an 'emergency' vs. routine maintenance call). Overall, this is an excellent practical guide that would genuinely help a tenant in the moment.",
+  "run_name": "2026-03-07-openrouter-v0-1-salvage-1",
+  "scores": {
+    "brevity_economy": 4,
+    "clarity": 5,
+    "humanity_voice": 4,
+    "overall": 5,
+    "simplicity": 5,
+    "specificity_precision": 4,
+    "structure_flow": 5
+  }
+}

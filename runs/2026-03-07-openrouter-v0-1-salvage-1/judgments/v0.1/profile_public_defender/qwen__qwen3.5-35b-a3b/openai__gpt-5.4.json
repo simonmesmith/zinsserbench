@@ -1,0 +1,47 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.1",
+  "candidate_model_id": "qwen/qwen3.5-35b-a3b",
+  "created_at": "2026-03-07T21:32:33Z",
+  "judge_model_id": "openai/gpt-5.4",
+  "metadata": {
+    "id": "gen-1772919149-2FsFPFTFCV6yQdE5dhKS",
+    "raw_text": "{\"scores\":{\"clarity\":2,\"simplicity\":2,\"brevity_economy\":2,\"structure_flow\":1,\"specificity_precision\":2,\"humanity_voice\":1,\"overall\":1},\"rationale\":\"This is mostly planning notes, not the requested nonfiction profile. It is understandable at a glance, but the response is incomplete, meta, and unfinished. It offers a few concrete details (name, city, caseload ideas), yet lacks developed scenes, narrative flow, and a human voice on the page.\"}",
+    "usage": {
+      "completion_tokens": 243,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 127
+      },
+      "cost": 0.0056675,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.003645,
+        "upstream_inference_cost": 0.0056675,
+        "upstream_inference_prompt_cost": 0.0020225
+      },
+      "is_byok": false,
+      "prompt_tokens": 809,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 1052
+    }
+  },
+  "prompt_category": "profile",
+  "prompt_id": "profile_public_defender",
+  "rationale": "This is mostly planning notes, not the requested nonfiction profile. It is understandable at a glance, but the response is incomplete, meta, and unfinished. It offers a few concrete details (name, city, caseload ideas), yet lacks developed scenes, narrative flow, and a human voice on the page.",
+  "run_name": "2026-03-07-openrouter-v0-1-salvage-1",
+  "scores": {
+    "brevity_economy": 2,
+    "clarity": 2,
+    "humanity_voice": 1,
+    "overall": 1,
+    "simplicity": 2,
+    "specificity_precision": 2,
+    "structure_flow": 1
+  }
+}

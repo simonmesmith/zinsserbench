@@ -1,0 +1,47 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.1",
+  "candidate_model_id": "anthropic/claude-opus-4.6",
+  "created_at": "2026-03-07T21:21:00Z",
+  "judge_model_id": "anthropic/claude-opus-4.6",
+  "metadata": {
+    "id": "gen-1772918454-mOcVUjn1nMaQCcKhGCbk",
+    "raw_text": "{\"scores\": {\"clarity\": 5, \"simplicity\": 5, \"brevity_economy\": 4, \"structure_flow\": 5, \"specificity_precision\": 5, \"humanity_voice\": 5, \"overall\": 5}, \"rationale\": \"Exceptionally clear and well-organized guide that reads naturally and addresses the reader directly. Concrete details (circuit breakers, washing-machine hoses, plumbing risers) give it real practical value. The voice is warm and authoritative without being condescending\u2014phrases like 'no piece of furniture is worth the risk' show genuine reader awareness. The bold formatting and bullet lists aid scannability. Minor ding on brevity only because the preamble ('How you respond in the first minutes and hours matters') edges toward throat-clearing, and the piece is cut off, so we can't fully assess economy across the whole guide. What's present is excellent nonfiction craft.\"}",
+    "usage": {
+      "completion_tokens": 210,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 0
+      },
+      "cost": 0.00944,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.00525,
+        "upstream_inference_cost": 0.00944,
+        "upstream_inference_prompt_cost": 0.00419
+      },
+      "is_byok": false,
+      "prompt_tokens": 838,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 1048
+    }
+  },
+  "prompt_category": "service_howto",
+  "prompt_id": "howto_report_water_leak",
+  "rationale": "Exceptionally clear and well-organized guide that reads naturally and addresses the reader directly. Concrete details (circuit breakers, washing-machine hoses, plumbing risers) give it real practical value. The voice is warm and authoritative without being condescending\u2014phrases like 'no piece of furniture is worth the risk' show genuine reader awareness. The bold formatting and bullet lists aid scannability. Minor ding on brevity only because the preamble ('How you respond in the first minutes and hours matters') edges toward throat-clearing, and the piece is cut off, so we can't fully assess economy across the whole guide. What's present is excellent nonfiction craft.",
+  "run_name": "2026-03-07-openrouter-v0-1-salvage-1",
+  "scores": {
+    "brevity_economy": 4,
+    "clarity": 5,
+    "humanity_voice": 5,
+    "overall": 5,
+    "simplicity": 5,
+    "specificity_precision": 5,
+    "structure_flow": 5
+  }
+}

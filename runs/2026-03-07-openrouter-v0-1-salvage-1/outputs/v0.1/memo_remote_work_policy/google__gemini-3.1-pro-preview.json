@@ -1,0 +1,43 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.1",
+  "candidate_label": "Gemini 3.1 Pro Preview",
+  "candidate_model_id": "google/gemini-3.1-pro-preview",
+  "created_at": "2026-03-07T21:03:13Z",
+  "metadata": {
+    "id": "gen-1772917369-IQo3aQo7RDVPTxZUs97G",
+    "quality_guard": {
+      "minimum_words": 100,
+      "reason": "",
+      "status": "ok",
+      "word_count": 543
+    },
+    "usage": {
+      "completion_tokens": 1420,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 659
+      },
+      "cost": 0.017174,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.01704,
+        "upstream_inference_cost": 0.017174,
+        "upstream_inference_prompt_cost": 0.000134
+      },
+      "is_byok": false,
+      "prompt_tokens": 67,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 1487
+    }
+  },
+  "prompt_category": "memo",
+  "prompt_id": "memo_remote_work_policy",
+  "response_text": "**MEMORANDUM**\n\n**TO:** All Employees  \n**FROM:** Executive Leadership Team  \n**DATE:** October 24, 2023  \n**SUBJECT:** Announcing Our New \"Flexible First\" Remote Work Policy  \n\nTeam,\n\nAs we recently crossed the milestone of 120 employees, the leadership team has been reflecting on how we work together, how we continue to scale, and how we can best support the people who build our incredible software every day. \n\nOver the past year, you have proven that exceptional code, creative problem-solving, and seamless collaboration do not require us all to be sitting in the same building. To reflect this reality and to support the diverse needs of our growing team, we are officially transitioning to a **\"Flexible First\" Remote Work Policy**, effective November 1st.\n\n**The Reason for the Policy**\nOur goal is simple: we want to empower you to do your best work in the environment that suits you best. By adopting a Flexible First approach, we are prioritizing work-life balance, reducing unnecessary commute times, and opening our doors to top-tier engineering, design, and operational talent regardless of their geographic location. We measure success by the impact and quality of your output, not by the hours you spend at a specific desk.\n\n**Understanding the Policy**\nUnder the Flexible First model, you now have the autonomy to choose how and where you work. \n\n*   **Location Choice:** You may choose to work fully remotely, fully from our headquarters, or a hybrid of both. \n*   **Core Collaboration Hours:** To ensure our distributed teams can still collaborate effectively, we are instituting company-wide \"Core Hours\" from 10:00 AM to 2:00 PM (EST). During this window, we ask that you are online and available for synchronous meetings and team communication. Outside of these hours, you have the flexibility to manage your schedule as you see fit.\n*   **Home Office Stipend:** To ensure everyone has a comfortable and productive remote setup, the company will provide a one-time $500 home office stipend for all employees to use toward desks, ergonomic chairs, monitors, or internet upgrades.\n*   **Quarterly Gatherings:** Because face-to-face connection remains valuable for our culture, we will host fully-funded, company-wide retreats once a quarter to collaborate, celebrate our wins, and bond as a team.\n\n**What You Need to Do Next**\nTo help us manage office space, IT logistics, and tax compliance, please complete the following steps by **Friday, November 10th**:\n\n1.  **Read the Full Policy:** Review the detailed Flexible First Policy Guide located on the company intranet [Link].\n2.  **Discuss with Your Manager:** Schedule a brief 1-on-1 with your direct manager to discuss your preferred working arrangement and how it aligns with your team\u2019s specific sprint schedules and communication norms.\n3.  **Submit Your Preference:** Fill out the Work Location Preference Form [Link] so HR can update your profile. \n4.  **Claim Your Stipend:** If you are opting for a remote or hybrid schedule, you can submit your home office equipment receipts through our standard expense portal under the new \"Remote Setup\" category.\n\nWe are incredibly excited about this next chapter in our company's growth. We believe this policy will make us a stronger, happier, and more productive team. \n\nIf you have any immediate questions, please reach out to your manager or drop a message in the #hr-questions Slack channel. \n\nThank you for your continued dedication and hard work.",
+  "run_name": "2026-03-07-openrouter-v0-1-salvage-1"
+}

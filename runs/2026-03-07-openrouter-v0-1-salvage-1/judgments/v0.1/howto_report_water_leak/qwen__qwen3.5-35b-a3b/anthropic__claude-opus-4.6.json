@@ -1,0 +1,47 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.1",
+  "candidate_model_id": "qwen/qwen3.5-35b-a3b",
+  "created_at": "2026-03-07T21:21:25Z",
+  "judge_model_id": "anthropic/claude-opus-4.6",
+  "metadata": {
+    "id": "gen-1772918477-KtsJKPP8lwVT36MP8BhS",
+    "raw_text": "{\"scores\": {\"clarity\": 5, \"simplicity\": 5, \"brevity_economy\": 4, \"structure_flow\": 5, \"specificity_precision\": 5, \"humanity_voice\": 4, \"overall\": 4}, \"rationale\": \"The writing is exceptionally clear and well-organized with a logical numbered protocol. Language is plain and direct ('Water and electricity are a dangerous combination'). Specificity is a strong point\u2014concrete actions like puncturing a bulging ceiling with a screwdriver, turning off circuit breakers, and ensuring timestamps on photos. The hierarchical structure (safety \u2192 containment \u2192 documentation) is intuitive and smooth. Voice is competent and reassuring without being overly warm or bureaucratic. The opening sentence effectively acknowledges the reader's stress. Main drawback: the piece is truncated mid-sentence in step 3, so it's incomplete\u2014missing the rest of documentation advice, landlord notification, insurance steps, and follow-up. This significantly limits overall effectiveness despite the high quality of what's present. Brevity is good within the existing text, though some bullet explanations could be tighter.\"}",
+    "usage": {
+      "completion_tokens": 289,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 26
+      },
+      "cost": 0.011975,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.007225,
+        "upstream_inference_cost": 0.011975,
+        "upstream_inference_prompt_cost": 0.00475
+      },
+      "is_byok": false,
+      "prompt_tokens": 950,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 1239
+    }
+  },
+  "prompt_category": "service_howto",
+  "prompt_id": "howto_report_water_leak",
+  "rationale": "The writing is exceptionally clear and well-organized with a logical numbered protocol. Language is plain and direct ('Water and electricity are a dangerous combination'). Specificity is a strong point\u2014concrete actions like puncturing a bulging ceiling with a screwdriver, turning off circuit breakers, and ensuring timestamps on photos. The hierarchical structure (safety \u2192 containment \u2192 documentation) is intuitive and smooth. Voice is competent and reassuring without being overly warm or bureaucratic. The opening sentence effectively acknowledges the reader's stress. Main drawback: the piece is truncated mid-sentence in step 3, so it's incomplete\u2014missing the rest of documentation advice, landlord notification, insurance steps, and follow-up. This significantly limits overall effectiveness despite the high quality of what's present. Brevity is good within the existing text, though some bullet explanations could be tighter.",
+  "run_name": "2026-03-07-openrouter-v0-1-salvage-1",
+  "scores": {
+    "brevity_economy": 4,
+    "clarity": 5,
+    "humanity_voice": 4,
+    "overall": 4,
+    "simplicity": 5,
+    "specificity_precision": 5,
+    "structure_flow": 5
+  }
+}

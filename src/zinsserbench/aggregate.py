@@ -7,6 +7,8 @@ from collections import defaultdict
 from pathlib import Path
 from typing import Dict, Iterable, List, Tuple
 
+from .quality import evaluate_output
+from .specs import load_benchmark_version
 from .storage import RunStorage
 from .types import JudgmentRecord, RUBRIC_AXES
 
@@ -20,8 +22,36 @@ def aggregate_run(root: Path, run_name: str) -> Dict[str, object]:
     if not judgments:
         raise RuntimeError(f"No judgments found for run {run_name}")
 
+    benchmark = load_benchmark_version(root, manifest.benchmark_version)
+    prompt_by_id = {prompt.prompt_id: prompt for prompt in benchmark.prompts}
     outputs = storage.load_outputs()
     output_lookup = {(record.prompt_id, record.candidate_model_id): record for record in outputs}
+    quarantined_outputs = []
+    valid_output_keys = set()
+    for record in outputs:
+        prompt = prompt_by_id.get(record.prompt_id)
+        if prompt is None:
+            continue
+        guard = evaluate_output(prompt, record.response_text)
+        if guard.is_valid:
+            valid_output_keys.add((record.prompt_id, record.candidate_model_id))
+            continue
+        quarantined_outputs.append(
+            {
+                "prompt_id": record.prompt_id,
+                "candidate_model_id": record.candidate_model_id,
+                "reason": guard.reason,
+                "word_count": guard.word_count,
+                "minimum_words": guard.minimum_words,
+            }
+        )
+    judgments = [
+        judgment
+        for judgment in judgments
+        if (judgment.prompt_id, judgment.candidate_model_id) in valid_output_keys
+    ]
+    if not judgments:
+        raise RuntimeError(f"No valid judgments found for run {run_name}")
 
     per_item, per_axis = _build_per_item_records(judgments)
     writing_by_model = _average_group(per_item, ("candidate_model_id",), RUBRIC_AXES)
@@ -40,6 +70,11 @@ def aggregate_run(root: Path, run_name: str) -> Dict[str, object]:
         "writing_by_model_prompt": writing_by_model_prompt,
         "writing_by_prompt_axis": writing_by_prompt_axis,
         "judge_quality": judge_quality,
+        "quarantined_outputs": sorted(
+            quarantined_outputs,
+            key=lambda item: (item["candidate_model_id"], item["prompt_id"]),
+        ),
+        "response_lengths_by_model": _response_lengths_by_model(outputs, prompt_by_id),
         "model_prompt_details": [
             {
                 "candidate_model_id": item["candidate_model_id"],
@@ -59,6 +94,8 @@ def aggregate_run(root: Path, run_name: str) -> Dict[str, object]:
     _write_csv(storage.analysis_dir / "writing_by_model_prompt.csv", writing_by_model_prompt)
     _write_csv(storage.analysis_dir / "writing_by_prompt_axis.csv", writing_by_prompt_axis)
     _write_csv(storage.analysis_dir / "judge_quality.csv", judge_quality)
+    _write_csv(storage.analysis_dir / "quarantined_outputs.csv", summary["quarantined_outputs"])
+    _write_csv(storage.analysis_dir / "response_lengths_by_model.csv", summary["response_lengths_by_model"])
     _write_csv(storage.analysis_dir / "model_prompt_details.csv", summary["model_prompt_details"])
     return summary
 
@@ -171,3 +208,24 @@ def _write_csv(path: Path, rows: List[Dict[str, object]]) -> None:
         writer = csv.DictWriter(handle, fieldnames=fieldnames)
         writer.writeheader()
         writer.writerows(rows)
+
+
+def _response_lengths_by_model(outputs: List[object], prompt_by_id: Dict[str, object]) -> List[Dict[str, object]]:
+    rows = []
+    for record in outputs:
+        prompt = prompt_by_id.get(record.prompt_id)
+        if prompt is None:
+            continue
+        guard = evaluate_output(prompt, record.response_text)
+        rows.append(
+            {
+                "candidate_model_id": record.candidate_model_id,
+                "prompt_id": record.prompt_id,
+                "prompt_category": record.prompt_category,
+                "word_count": guard.word_count,
+                "minimum_words": guard.minimum_words,
+                "status": "ok" if guard.is_valid else "quarantined",
+                "reason": guard.reason,
+            }
+        )
+    return sorted(rows, key=lambda item: (item["candidate_model_id"], item["prompt_id"]))

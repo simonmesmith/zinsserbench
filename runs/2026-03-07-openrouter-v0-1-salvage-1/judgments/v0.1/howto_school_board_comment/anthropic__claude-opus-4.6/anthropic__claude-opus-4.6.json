@@ -1,0 +1,47 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.1",
+  "candidate_model_id": "anthropic/claude-opus-4.6",
+  "created_at": "2026-03-07T21:33:48Z",
+  "judge_model_id": "anthropic/claude-opus-4.6",
+  "metadata": {
+    "id": "gen-1772919222-815AabivF2GyM1yJlVgU",
+    "raw_text": "{\"scores\": {\"clarity\": 5, \"simplicity\": 5, \"brevity_economy\": 4, \"structure_flow\": 5, \"specificity_precision\": 5, \"humanity_voice\": 4, \"overall\": 5}, \"rationale\": \"Exceptionally clear and well-organized writing. Each paragraph has a distinct purpose, and the bolded sub-steps create an intuitive hierarchy. The language is plain and direct without being dumbed down. Specificity is strong \u2014 concrete details like '24 to 48 hours,' 'three minutes,' and 'board clerk's office' give the reader actionable information rather than vague advice. The piece is slightly more expansive than strictly necessary (e.g., the opening paragraph about the opportunity could be trimmed), but nothing feels like filler. Voice is warm and reader-aware ('people like you,' 'prevents surprises') though it stays fairly instructional rather than distinctly personal. Overall, this is high-quality practical nonfiction that accomplishes exactly what the prompt asks for.\"}",
+    "usage": {
+      "completion_tokens": 234,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 0
+      },
+      "cost": 0.009995,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.00585,
+        "upstream_inference_cost": 0.009995,
+        "upstream_inference_prompt_cost": 0.004145
+      },
+      "is_byok": false,
+      "prompt_tokens": 829,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 1063
+    }
+  },
+  "prompt_category": "service_howto",
+  "prompt_id": "howto_school_board_comment",
+  "rationale": "Exceptionally clear and well-organized writing. Each paragraph has a distinct purpose, and the bolded sub-steps create an intuitive hierarchy. The language is plain and direct without being dumbed down. Specificity is strong \u2014 concrete details like '24 to 48 hours,' 'three minutes,' and 'board clerk's office' give the reader actionable information rather than vague advice. The piece is slightly more expansive than strictly necessary (e.g., the opening paragraph about the opportunity could be trimmed), but nothing feels like filler. Voice is warm and reader-aware ('people like you,' 'prevents surprises') though it stays fairly instructional rather than distinctly personal. Overall, this is high-quality practical nonfiction that accomplishes exactly what the prompt asks for.",
+  "run_name": "2026-03-07-openrouter-v0-1-salvage-1",
+  "scores": {
+    "brevity_economy": 4,
+    "clarity": 5,
+    "humanity_voice": 4,
+    "overall": 5,
+    "simplicity": 5,
+    "specificity_precision": 5,
+    "structure_flow": 5
+  }
+}

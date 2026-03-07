@@ -1,0 +1,37 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.1",
+  "candidate_label": "MiniMax M2.5",
+  "candidate_model_id": "minimax/minimax-m2.5",
+  "created_at": "2026-03-07T15:15:24Z",
+  "metadata": {
+    "id": "gen-1772896511-V1WtjzukefN8TwqcxlDH",
+    "usage": {
+      "completion_tokens": 500,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 321
+      },
+      "cost": 0.000568,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.00055,
+        "upstream_inference_cost": 0.000568,
+        "upstream_inference_prompt_cost": 1.8e-05
+      },
+      "is_byok": false,
+      "prompt_tokens": 60,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 560
+    }
+  },
+  "prompt_category": "personal_nonfiction",
+  "prompt_id": "personal_night_shift_bus",
+  "response_text": "# The 34-Bus at 12:15\n\nFor eleven months, I took the 34-bus home from work. The 12:15 a.m. departure from the downtown transit center, the last run before the system shut down for its four-hour silence. I knew its rhythms the way you know a body you've shared a bed with\u2014every groan of the engine, every stuck door that required the driver to lean across his console and whack it with the flat of his hand.\n\nMy shift ended at eleven-forty-five. I'd walk the four blocks to the stop in the cold, always cold, because the office kept its thermostat aggressive and stepping outside was like stepping into a different element entirely. The bus shelter had a bench that collected water when it rained, but mostly I stood. I liked standing. It felt like a small defiance against the night, against the gravity of exhaustion pulling at my limbs.\n\nMarcus was the regular driver. He'd been on the night route for nineteen years, he told me once, after I'd ridden with him for nearly three months without either of us speaking. Then one night I sneezed, and he said \"Bless you,\" and something broke open between us. After that, we talked. He told me about his daughter in nursing school,",
+  "run_name": "2026-03-07-openrouter-v0-1"
+}

@@ -1,0 +1,47 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.1",
+  "candidate_model_id": "anthropic/claude-opus-4.6",
+  "created_at": "2026-03-07T21:39:46Z",
+  "judge_model_id": "anthropic/claude-opus-4.6",
+  "metadata": {
+    "id": "gen-1772919579-EWZuF3GVNu7Jx5Q2gGeo",
+    "raw_text": "{\"scores\": {\"clarity\": 5, \"simplicity\": 5, \"brevity_economy\": 5, \"structure_flow\": 5, \"specificity_precision\": 5, \"humanity_voice\": 4, \"overall\": 5}, \"rationale\": \"Exceptionally well-structured memo with clear headers, bolded key dates and figures, and a logical progression from context \u2192 schedule details \u2192 compensation \u2192 action items. Every detail is concrete: specific shift times, exact dates, dollar amounts for differentials, overtime multiplier, and deadlines for responses. Language is plain and direct throughout with no filler or jargon. The only minor weakness is voice\u2014it reads competently professional but slightly formulaic, lacking a warmer personal touch (e.g., a brief thank-you or acknowledgment of the burden these changes impose). Still, for an internal warehouse memo, the tone is appropriate and reader-aware.\"}",
+    "usage": {
+      "completion_tokens": 201,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 0
+      },
+      "cost": 0.009235,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.005025,
+        "upstream_inference_cost": 0.009235,
+        "upstream_inference_prompt_cost": 0.00421
+      },
+      "is_byok": false,
+      "prompt_tokens": 842,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 1043
+    }
+  },
+  "prompt_category": "memo",
+  "prompt_id": "memo_schedule_change",
+  "rationale": "Exceptionally well-structured memo with clear headers, bolded key dates and figures, and a logical progression from context \u2192 schedule details \u2192 compensation \u2192 action items. Every detail is concrete: specific shift times, exact dates, dollar amounts for differentials, overtime multiplier, and deadlines for responses. Language is plain and direct throughout with no filler or jargon. The only minor weakness is voice\u2014it reads competently professional but slightly formulaic, lacking a warmer personal touch (e.g., a brief thank-you or acknowledgment of the burden these changes impose). Still, for an internal warehouse memo, the tone is appropriate and reader-aware.",
+  "run_name": "2026-03-07-openrouter-v0-1-salvage-1",
+  "scores": {
+    "brevity_economy": 5,
+    "clarity": 5,
+    "humanity_voice": 4,
+    "overall": 5,
+    "simplicity": 5,
+    "specificity_precision": 5,
+    "structure_flow": 5
+  }
+}

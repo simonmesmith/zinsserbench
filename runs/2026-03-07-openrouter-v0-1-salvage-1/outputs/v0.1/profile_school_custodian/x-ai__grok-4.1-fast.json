@@ -1,0 +1,37 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.1",
+  "candidate_label": "Grok 4.1 Fast",
+  "candidate_model_id": "x-ai/grok-4.1-fast",
+  "created_at": "2026-03-07T15:06:11Z",
+  "metadata": {
+    "id": "gen-1772895958-K1Hiy9QJ9YxwvVCO4C6q",
+    "usage": {
+      "completion_tokens": 807,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 307
+      },
+      "cost": 0.00042265,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.0004035,
+        "upstream_inference_cost": 0.00042265,
+        "upstream_inference_prompt_cost": 1.915e-05
+      },
+      "is_byok": false,
+      "prompt_tokens": 209,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 151,
+        "video_tokens": 0
+      },
+      "total_tokens": 1016
+    }
+  },
+  "prompt_category": "profile",
+  "prompt_id": "profile_school_custodian",
+  "response_text": "# The Heartbeat of Lincoln High: Ray Thompson's 28-Year Watch\n\nIn the bustling corridors of Lincoln High School, a public institution in suburban Ohio serving 1,800 students, Ray Thompson moves like a quiet force of nature. At 62, with salt-and-pepper hair cropped short under a faded navy ball cap, Ray has been the school's custodian for 28 years. His uniform\u2014khaki pants, a polo shirt embroidered with \"Lincoln High Maintenance\"\u2014bears the faint stains of a thousand spills, from cafeteria soda to art-room paint. But what sets Ray apart isn't his mop or his toolbox; it's his memory. He knows every student by name. Every one.\n\nIt started in 1996, when Ray, then 34 and fresh off a layoff from a local factory, answered a help-wanted ad for the district. \"I figured it'd be steady work, benefits for the kids,\" he recalls, leaning on his cart in the dim light of the gymnasium one afternoon. His three children were students here at the time\u2014now grown, with grandkids of their own. What began as a job became a calling. Ray arrived before dawn, when the building was a silent shell, and stayed until the last bus pulled away. Over decades, he's witnessed generations cycle through: freshmen awkward in oversized backpacks, seniors striding out to diplomas and beyond.\n\nRay's encyclopedic recall isn't magic; it's method. He patrols the halls during lunch shifts, waving at clusters of teens. \"Hey, Mia! How's that chem test?\" he calls to a sophomore juggling a tray. Or, \"Jaden, tell Coach I fixed the bleachers\u2014game's on!\" Kids light up; it's rare in a high school to feel seen by an adult who isn't teaching you algebra. Ray logs names mentally, cross-referencing faces with schedules. He knows the theater kids from late-night rehearsals, the athletes from pre-dawn practices, the band members from scattered sheet music. \"I empty 200 trash cans a day,\" he says with a grin. \"Plenty of time to chat. They talk; I listen.\"\n\nHis presence weaves into the school's fabric. During the 2010 floods, Ray waded waist-deep to save band instruments. In 2020, amid COVID shutdowns, he sanitized rooms solo, emerging as the first face for hybrid learners. \"Ray's the one who notices when you're having a bad day,\" says Principal Elena Vasquez",
+  "run_name": "2026-03-07-openrouter-v0-1"
+}

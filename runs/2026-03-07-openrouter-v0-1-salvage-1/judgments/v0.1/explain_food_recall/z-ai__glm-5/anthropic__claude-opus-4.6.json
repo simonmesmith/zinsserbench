@@ -1,0 +1,47 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.1",
+  "candidate_model_id": "z-ai/glm-5",
+  "created_at": "2026-03-07T21:30:55Z",
+  "judge_model_id": "anthropic/claude-opus-4.6",
+  "metadata": {
+    "id": "gen-1772919049-vsdoIXFXs1px6BuHdhlx",
+    "raw_text": "{\"scores\": {\"clarity\": 5, \"simplicity\": 5, \"brevity_economy\": 4, \"structure_flow\": 5, \"specificity_precision\": 5, \"humanity_voice\": 4, \"overall\": 5}, \"rationale\": \"Exceptionally clear and well-organized consumer explainer. Every section answers a natural reader question in logical sequence. Specific details like lot numbers, UPC codes, the FDA's sealed-bag disposal tip, and the distinction among pathogen/allergen/foreign-object recalls give it real informational value. Language is plain and direct throughout. Minor deductions: the opening two paragraphs could be tighter (slight throat-clearing), and the voice, while warm and reader-aware, occasionally tips toward a slightly formulaic how-to tone rather than a distinctive human voice. Overall, this is a model consumer explainer\u2014accurate, actionable, and easy to follow on first read.\"}",
+    "usage": {
+      "completion_tokens": 208,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 0
+      },
+      "cost": 0.0129,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.0052,
+        "upstream_inference_cost": 0.0129,
+        "upstream_inference_prompt_cost": 0.0077
+      },
+      "is_byok": false,
+      "prompt_tokens": 1540,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 1748
+    }
+  },
+  "prompt_category": "explain",
+  "prompt_id": "explain_food_recall",
+  "rationale": "Exceptionally clear and well-organized consumer explainer. Every section answers a natural reader question in logical sequence. Specific details like lot numbers, UPC codes, the FDA's sealed-bag disposal tip, and the distinction among pathogen/allergen/foreign-object recalls give it real informational value. Language is plain and direct throughout. Minor deductions: the opening two paragraphs could be tighter (slight throat-clearing), and the voice, while warm and reader-aware, occasionally tips toward a slightly formulaic how-to tone rather than a distinctive human voice. Overall, this is a model consumer explainer\u2014accurate, actionable, and easy to follow on first read.",
+  "run_name": "2026-03-07-openrouter-v0-1-salvage-1",
+  "scores": {
+    "brevity_economy": 4,
+    "clarity": 5,
+    "humanity_voice": 4,
+    "overall": 5,
+    "simplicity": 5,
+    "specificity_precision": 5,
+    "structure_flow": 5
+  }
+}

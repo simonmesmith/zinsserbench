@@ -1,0 +1,47 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.1",
+  "candidate_model_id": "moonshotai/kimi-k2.5",
+  "created_at": "2026-03-07T21:11:42Z",
+  "judge_model_id": "anthropic/claude-opus-4.6",
+  "metadata": {
+    "id": "gen-1772917895-32uVNb3C5LP0vOvy5FNP",
+    "raw_text": "{\"scores\": {\"clarity\": 5, \"simplicity\": 4, \"brevity_economy\": 4, \"structure_flow\": 5, \"specificity_precision\": 5, \"humanity_voice\": 4, \"overall\": 5}, \"rationale\": \"Exceptionally well-structured memo that clearly delineates affected vs. unaffected categories with concrete examples (e.g., '$5,000 threshold,' '30 days of standard inventory,' '90 days ROI'). The three-part structure (affected/not affected/questions) directly answers the prompt. Specificity is outstanding\u2014submission requirements, review cadence (every Friday), and five distinct exception categories give managers actionable guidance. Language is mostly plain, though phrases like 'fiscal stability' and 'accounts receivable normalize' lean slightly corporate. The closing paragraph adds a human touch acknowledging burden. Minor ding on brevity: the submission requirements section and some bullet elaborations could be trimmed, but nothing feels truly wasteful. This reads like a real, usable hospital memo.\"}",
+    "usage": {
+      "completion_tokens": 235,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 0
+      },
+      "cost": 0.011725,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.005875,
+        "upstream_inference_cost": 0.011725,
+        "upstream_inference_prompt_cost": 0.00585
+      },
+      "is_byok": false,
+      "prompt_tokens": 1170,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 1405
+    }
+  },
+  "prompt_category": "memo",
+  "prompt_id": "memo_budget_freeze",
+  "rationale": "Exceptionally well-structured memo that clearly delineates affected vs. unaffected categories with concrete examples (e.g., '$5,000 threshold,' '30 days of standard inventory,' '90 days ROI'). The three-part structure (affected/not affected/questions) directly answers the prompt. Specificity is outstanding\u2014submission requirements, review cadence (every Friday), and five distinct exception categories give managers actionable guidance. Language is mostly plain, though phrases like 'fiscal stability' and 'accounts receivable normalize' lean slightly corporate. The closing paragraph adds a human touch acknowledging burden. Minor ding on brevity: the submission requirements section and some bullet elaborations could be trimmed, but nothing feels truly wasteful. This reads like a real, usable hospital memo.",
+  "run_name": "2026-03-07-openrouter-v0-1-salvage-1",
+  "scores": {
+    "brevity_economy": 4,
+    "clarity": 5,
+    "humanity_voice": 4,
+    "overall": 5,
+    "simplicity": 4,
+    "specificity_precision": 5,
+    "structure_flow": 5
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.1",
+  "candidate_model_id": "openai/gpt-5.4",
+  "created_at": "2026-03-07T21:13:36Z",
+  "judge_model_id": "anthropic/claude-opus-4.6",
+  "metadata": {
+    "id": "gen-1772918002-ijq3uJX6hddkCXB7Gx24",
+    "raw_text": "{\"scores\": {\"clarity\": 4, \"simplicity\": 5, \"brevity_economy\": 3, \"structure_flow\": 3, \"specificity_precision\": 3, \"humanity_voice\": 4, \"overall\": 3}, \"rationale\": \"Strong plain-language writing\u2014'IOU issued by a state or local government' is an effective anchor, the numbered promise list is crisp, and the $100M example adds concreteness. Tone is warm and reader-addressed ('If you buy one\u2026'). However, the piece cuts off mid-sentence ('Not all municipal bonds are'), leaving the explainer materially incomplete; the reader never learns about GO vs. revenue bonds, the well-known tax-exemption advantage, or any risks\u2014all expected in this kind of explainer. The example section largely restates the 'spread the cost over time' point already made, costing it on brevity. Structure up to the break is logical, but the abrupt truncation undermines flow and precision.\"}",
+    "usage": {
+      "completion_tokens": 609,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 375
+      },
+      "cost": 0.0196,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.015225,
+        "upstream_inference_cost": 0.0196,
+        "upstream_inference_prompt_cost": 0.004375
+      },
+      "is_byok": false,
+      "prompt_tokens": 875,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 1484
+    }
+  },
+  "prompt_category": "explain",
+  "prompt_id": "explain_municipal_bonds",
+  "rationale": "Strong plain-language writing\u2014'IOU issued by a state or local government' is an effective anchor, the numbered promise list is crisp, and the $100M example adds concreteness. Tone is warm and reader-addressed ('If you buy one\u2026'). However, the piece cuts off mid-sentence ('Not all municipal bonds are'), leaving the explainer materially incomplete; the reader never learns about GO vs. revenue bonds, the well-known tax-exemption advantage, or any risks\u2014all expected in this kind of explainer. The example section largely restates the 'spread the cost over time' point already made, costing it on brevity. Structure up to the break is logical, but the abrupt truncation undermines flow and precision.",
+  "run_name": "2026-03-07-openrouter-v0-1-salvage-1",
+  "scores": {
+    "brevity_economy": 3,
+    "clarity": 4,
+    "humanity_voice": 4,
+    "overall": 3,
+    "simplicity": 5,
+    "specificity_precision": 3,
+    "structure_flow": 3
+  }
+}

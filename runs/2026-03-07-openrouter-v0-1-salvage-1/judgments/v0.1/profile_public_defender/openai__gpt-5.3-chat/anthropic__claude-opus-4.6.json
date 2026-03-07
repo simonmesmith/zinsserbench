@@ -1,0 +1,47 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.1",
+  "candidate_model_id": "openai/gpt-5.3-chat",
+  "created_at": "2026-03-07T21:31:23Z",
+  "judge_model_id": "anthropic/claude-opus-4.6",
+  "metadata": {
+    "id": "gen-1772919067-mQOK0sHAgFfcPBWxQ9V2",
+    "raw_text": "{\"scores\": {\"clarity\": 5, \"simplicity\": 5, \"brevity_economy\": 4, \"structure_flow\": 3, \"specificity_precision\": 5, \"humanity_voice\": 5, \"overall\": 4}, \"rationale\": \"The prose is clean, concrete, and immediately engaging. Details like '147 open cases,' the neon-tabbed folders, the legal-pad fragments ('call mom,' 'video request,' 'mental health eval?') do real work and avoid generality. The voice is warm without sentimentality; quotes feel natural and earned. Language is plain and direct throughout\u2014no inflated diction. The main deficiency is that the piece is visibly incomplete, cutting off mid-sentence ('Expert witnesses require'), which undercuts structure and overall effectiveness. What exists flows logically\u2014morning routine to courtroom to client interaction to systemic constraints\u2014but the missing ending means the profile has no arc or closing resonance. Judging purely what's on the page, the sentence-level craft is consistently strong.\"}",
+    "usage": {
+      "completion_tokens": 700,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 430
+      },
+      "cost": 0.022295,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.0175,
+        "upstream_inference_cost": 0.022295,
+        "upstream_inference_prompt_cost": 0.004795
+      },
+      "is_byok": false,
+      "prompt_tokens": 959,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 1659
+    }
+  },
+  "prompt_category": "profile",
+  "prompt_id": "profile_public_defender",
+  "rationale": "The prose is clean, concrete, and immediately engaging. Details like '147 open cases,' the neon-tabbed folders, the legal-pad fragments ('call mom,' 'video request,' 'mental health eval?') do real work and avoid generality. The voice is warm without sentimentality; quotes feel natural and earned. Language is plain and direct throughout\u2014no inflated diction. The main deficiency is that the piece is visibly incomplete, cutting off mid-sentence ('Expert witnesses require'), which undercuts structure and overall effectiveness. What exists flows logically\u2014morning routine to courtroom to client interaction to systemic constraints\u2014but the missing ending means the profile has no arc or closing resonance. Judging purely what's on the page, the sentence-level craft is consistently strong.",
+  "run_name": "2026-03-07-openrouter-v0-1-salvage-1",
+  "scores": {
+    "brevity_economy": 4,
+    "clarity": 5,
+    "humanity_voice": 5,
+    "overall": 4,
+    "simplicity": 5,
+    "specificity_precision": 5,
+    "structure_flow": 3
+  }
+}

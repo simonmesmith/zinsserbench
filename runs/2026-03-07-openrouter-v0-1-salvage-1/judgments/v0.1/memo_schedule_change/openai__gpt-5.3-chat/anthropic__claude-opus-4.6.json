@@ -1,0 +1,47 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.1",
+  "candidate_model_id": "openai/gpt-5.3-chat",
+  "created_at": "2026-03-07T21:39:05Z",
+  "judge_model_id": "anthropic/claude-opus-4.6",
+  "metadata": {
+    "id": "gen-1772919540-Uv07Q1yz1vceGyM9jjI6",
+    "raw_text": "{\"scores\": {\"clarity\": 5, \"simplicity\": 5, \"brevity_economy\": 5, \"structure_flow\": 5, \"specificity_precision\": 4, \"humanity_voice\": 4, \"overall\": 5}, \"rationale\": \"Excellent memo: clear header block, concrete dates and shift times, logical progression (why \u2192 what \u2192 when \u2192 what to do). Language is plain and direct with no filler. Minor dings: specificity could improve by noting overtime/pay implications, weekend expectations, or headcount per shift\u2014details warehouse workers would want. Voice is warm ('we appreciate your flexibility') but still leans slightly toward standard corporate tone. Overall a strong, ready-to-send memo.\"}",
+    "usage": {
+      "completion_tokens": 194,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 19
+      },
+      "cost": 0.008115,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.00485,
+        "upstream_inference_cost": 0.008115,
+        "upstream_inference_prompt_cost": 0.003265
+      },
+      "is_byok": false,
+      "prompt_tokens": 653,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 847
+    }
+  },
+  "prompt_category": "memo",
+  "prompt_id": "memo_schedule_change",
+  "rationale": "Excellent memo: clear header block, concrete dates and shift times, logical progression (why \u2192 what \u2192 when \u2192 what to do). Language is plain and direct with no filler. Minor dings: specificity could improve by noting overtime/pay implications, weekend expectations, or headcount per shift\u2014details warehouse workers would want. Voice is warm ('we appreciate your flexibility') but still leans slightly toward standard corporate tone. Overall a strong, ready-to-send memo.",
+  "run_name": "2026-03-07-openrouter-v0-1-salvage-1",
+  "scores": {
+    "brevity_economy": 5,
+    "clarity": 5,
+    "humanity_voice": 4,
+    "overall": 5,
+    "simplicity": 5,
+    "specificity_precision": 4,
+    "structure_flow": 5
+  }
+}

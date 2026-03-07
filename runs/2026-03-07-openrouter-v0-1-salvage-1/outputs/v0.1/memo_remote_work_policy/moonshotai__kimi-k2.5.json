@@ -1,0 +1,43 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.1",
+  "candidate_label": "Kimi K2.5",
+  "candidate_model_id": "moonshotai/kimi-k2.5",
+  "created_at": "2026-03-07T21:04:05Z",
+  "metadata": {
+    "id": "gen-1772917369-F1STtFwBSLc8SD7npvFU",
+    "quality_guard": {
+      "minimum_words": 100,
+      "reason": "",
+      "status": "ok",
+      "word_count": 482
+    },
+    "usage": {
+      "completion_tokens": 1220,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 664
+      },
+      "cost": 0.0027783,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.002745,
+        "upstream_inference_cost": 0.0027783,
+        "upstream_inference_prompt_cost": 3.33e-05
+      },
+      "is_byok": false,
+      "prompt_tokens": 74,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 1294
+    }
+  },
+  "prompt_category": "memo",
+  "prompt_id": "memo_remote_work_policy",
+  "response_text": "**MEMORANDUM**\n\n**TO:** All Employees  \n**FROM:** Sarah Chen, CEO  \n**DATE:** October 24, 2024  \n**SUBJECT:** Launch of Our Flexible Hybrid Work Policy \u2013 Effective November 1\n\nWe are implementing a new Flexible Hybrid work model designed to balance the collaborative energy of in-person work with the focus and flexibility of remote work. After six months of pilot data, employee feedback, and infrastructure upgrades, we are ready to make this transition permanent.\n\n**THE POLICY**\n\nBeginning November 1, all employees will operate on a **\"3-2 Flexible\"** schedule:\n\n*   **Three days remote:** Choose your most productive work-from-home days. We trust you to align these with your team\u2019s needs and project deadlines.\n*   **Two days in-office:** Each team will designate two \"Anchor Days\" (Tuesday/Wednesday for most teams) when everyone is expected on-site for collaboration, sprint planning, and face-to-face problem-solving.\n*   **Core collaboration hours:** Whether remote or in-office, be available for synchronous work between 10:00 AM and 3:00 PM in your local time zone. Outside these hours, you control your deep-work schedule.\n*   **Equipment & security:** We will provide ergonomic home office setups (monitor, keyboard, chair) and require VPN usage on all networks. Full guidelines are attached.\n\n**WHY WE\u2019RE MAKING THIS CHANGE**\n\nOur pilot data showed a 22% increase in feature delivery velocity on remote days and a 40% increase in cross-functional idea generation on in-office anchor days. More importantly, 89% of you reported improved work-life balance under a flexible structure.\n\nThis policy also positions us to hire exceptional talent regardless of geography while preserving the culture and mentorship that happens when we share physical space. We are not becoming a \"remote-first\" company; we are becoming a \"flexibility-first\" company that uses the right environment for the right work.\n\n**WHAT YOU NEED TO DO NEXT**\n\n**By November 1:**\n1.  **Schedule a 1:1 with your manager** to confirm your team\u2019s Anchor Days and discuss any scheduling constraints.\n2.  **Submit equipment requests** through the new Work-From-Home Portal (IT will ship approved items by November 8).\n3.  **Update your calendar** to reflect your recurring in-office days so colleagues can plan accordingly.\n4.  **Complete the 15-minute Remote Security Training** in LearningHub (mandatory by November 5).\n\n**By November 15:**\n*   Test your home setup during a remote day and report any technical gaps to IT.\n*   Participate in your team\u2019s \"Collaboration Charter\" workshop to establish norms for hybrid meetings and async communication.\n\nThe Operations team has converted 30% of our office space to hot-desking and added six new Zoom-enabled conference rooms. If you have questions, join the #hybrid-work-policy Slack channel or attend the Q&A session this Friday at 2:00 PM in the main conference room (streamed live).\n\nThis is an evolution, not a revolution. We will review the policy quarterly based on your feedback and project metrics.\n\nThank you for building something great\u2014whether that happens at your kitchen table or at Desk 42.\n\nSarah\n\n**Attachments:** Remote Security Checklist, Equipment Request Form, Team Anchor Day Schedule",
+  "run_name": "2026-03-07-openrouter-v0-1-salvage-1"
+}

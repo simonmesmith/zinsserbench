@@ -1,0 +1,37 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.1",
+  "candidate_label": "Qwen 3.5 35B A3B",
+  "candidate_model_id": "qwen/qwen3.5-35b-a3b",
+  "created_at": "2026-03-07T16:08:50Z",
+  "metadata": {
+    "id": "gen-1772899720-ConenlH9ddbuYdcf3axe",
+    "usage": {
+      "completion_tokens": 1350,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 846
+      },
+      "cost": 0.0017649125,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.0027,
+        "upstream_inference_cost": 0.00271525,
+        "upstream_inference_prompt_cost": 1.525e-05
+      },
+      "is_byok": false,
+      "prompt_tokens": 61,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 1411
+    }
+  },
+  "prompt_category": "service_howto",
+  "prompt_id": "howto_school_board_comment",
+  "response_text": "# A Parent\u2019s Guide to Speaking at a School Board Meeting\n\nSchool board meetings are the primary venue for community input on education policy, budget, and student welfare. While the prospect of addressing a room of elected officials can feel intimidating, public comment periods are designed for parents and community members to share their perspectives. Preparation is the key to transforming anxiety into effective advocacy.\n\nFollow this step-by-step guide to prepare for a successful and impactful appearance.\n\n### 1. Understand the Rules and Procedures\nBefore drafting a single word, you must understand the specific protocols of your local district. Rules vary significantly between jurisdictions.\n*   **Check the Website:** Visit the school district\u2019s official website. Look for the \"Board of Education\" or \"Board Meetings\" section.\n*   **Review the Agenda:** Agendas are usually posted 24 to 72 hours before the meeting. Identify if your topic is already on the agenda (which may allow for more specific discussion) or if you are speaking during the general \"Public Comment\" period.\n*   **Note the Time Limits:** Most districts enforce a strict time limit for public comment, typically ranging from two to five minutes per speaker. Know the limit and respect it.\n*   **Sign-Up Requirements:** Some districts require you to sign up in advance, while others allow walk-in registration. Determine if you need to submit a written statement beforehand.\n\n### 2. Define Your Objective\nClarity of purpose prevents rambling. Ask yourself: *What do I want to happen as a result of this speech?*\n*   **Information:** Do you need clarification on a policy?\n*   **Concern:** Do you want to highlight a problem affecting students?\n*   **Action:** Do you want the board to vote on a specific change?\n*   **Support:** Do you want to publicly endorse a teacher or initiative?\n\nYour goal dictates your tone and your closing statement. If you want action, your speech must end with a clear request.\n\n### 3. Draft and Refine Your Message\nTime is your most valuable resource. A three-minute speech is approximately 300 to 400 words spoken at a moderate pace.\n*   **Use the \"Problem-Solution-Ask\" Framework:**\n    *   **Problem:** Briefly state the issue. (e.g., \"The current bus route change increases commute time by 20 minutes.\")\n    *",
+  "run_name": "2026-03-07-openrouter-v0-1"
+}

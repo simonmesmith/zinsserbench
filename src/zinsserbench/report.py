@@ -55,6 +55,7 @@ def _report_markdown(summary: Dict[str, object]) -> str:
         "",
         f"- Benchmark version: `{summary['benchmark_version']}`",
         f"- Models evaluated: `{len(summary['writing_by_model'])}`",
+        f"- Quarantined outputs excluded from scoring: `{len(summary.get('quarantined_outputs', []))}`",
         "",
         "## Overall writing leaderboard",
         "",
@@ -64,8 +65,26 @@ def _report_markdown(summary: Dict[str, object]) -> str:
         "",
         table(judge_rows, ["judge_model_id", "agreement_overall", "agreement_clarity", "agreement_structure_flow"]),
         "",
+        "## Quarantined outputs",
+        "",
+    ]
+    quarantined_rows = summary.get("quarantined_outputs", [])
+    if quarantined_rows:
+        lines.extend(
+            [
+                table(quarantined_rows, ["candidate_model_id", "prompt_id", "reason", "word_count", "minimum_words"]),
+                "",
+            ]
+        )
+    else:
+        lines.extend(["None.", ""])
+
+    lines.extend(
+        [
         "## Analysis files",
         "",
+        "- `quarantined_outputs.csv`",
+        "- `response_lengths_by_model.csv`",
         "- `writing_by_model.csv`",
         "- `writing_by_model_axis.csv`",
         "- `writing_by_model_category.csv`",
@@ -80,7 +99,8 @@ def _report_markdown(summary: Dict[str, object]) -> str:
         "",
         "![Judge quality](judge_quality.svg)",
         "",
-    ]
+        ]
+    )
     return "\n".join(lines)
 
 

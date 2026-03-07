@@ -1,0 +1,47 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.1",
+  "candidate_model_id": "x-ai/grok-4.1-fast",
+  "created_at": "2026-03-07T21:37:14Z",
+  "judge_model_id": "anthropic/claude-opus-4.6",
+  "metadata": {
+    "id": "gen-1772919427-KIruo3j3TETJaeYIEnUB",
+    "raw_text": "{\"scores\": {\"clarity\": 4, \"simplicity\": 3, \"brevity_economy\": 3, \"structure_flow\": 3, \"specificity_precision\": 4, \"humanity_voice\": 4, \"overall\": 3}, \"rationale\": \"The writing is vivid and engaging with strong concrete details (the 142 express, Eddie's duffel bag of newspapers, Maria's bloodstained scrubs). Voice is distinctive and human. However, the piece is incomplete\u2014it cuts off mid-sentence, so we can't judge full structure or arc. The language leans heavily on literary flourishes ('chariot through the city's underbelly,' 'unwashed ambition,' 'bus North Star,' 'rolling igloo') that sometimes feel overwrought rather than plain and direct. Similes pile up ('buzzed like angry hornets,' 'descended like a blackout curtain,' 'laugh like shattered glass'). The specificity is a strength\u2014real names, real details, sensory texture\u2014but the prose occasionally prioritizes style over substance. The chronological structure (September to winter) works well for what exists, but the abrupt cutoff prevents evaluation of overall coherence and payoff.\"}",
+    "usage": {
+      "completion_tokens": 271,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 0
+      },
+      "cost": 0.0116,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.006775,
+        "upstream_inference_cost": 0.0116,
+        "upstream_inference_prompt_cost": 0.004825
+      },
+      "is_byok": false,
+      "prompt_tokens": 965,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 1236
+    }
+  },
+  "prompt_category": "personal_nonfiction",
+  "prompt_id": "personal_night_shift_bus",
+  "rationale": "The writing is vivid and engaging with strong concrete details (the 142 express, Eddie's duffel bag of newspapers, Maria's bloodstained scrubs). Voice is distinctive and human. However, the piece is incomplete\u2014it cuts off mid-sentence, so we can't judge full structure or arc. The language leans heavily on literary flourishes ('chariot through the city's underbelly,' 'unwashed ambition,' 'bus North Star,' 'rolling igloo') that sometimes feel overwrought rather than plain and direct. Similes pile up ('buzzed like angry hornets,' 'descended like a blackout curtain,' 'laugh like shattered glass'). The specificity is a strength\u2014real names, real details, sensory texture\u2014but the prose occasionally prioritizes style over substance. The chronological structure (September to winter) works well for what exists, but the abrupt cutoff prevents evaluation of overall coherence and payoff.",
+  "run_name": "2026-03-07-openrouter-v0-1-salvage-1",
+  "scores": {
+    "brevity_economy": 3,
+    "clarity": 4,
+    "humanity_voice": 4,
+    "overall": 3,
+    "simplicity": 3,
+    "specificity_precision": 4,
+    "structure_flow": 3
+  }
+}

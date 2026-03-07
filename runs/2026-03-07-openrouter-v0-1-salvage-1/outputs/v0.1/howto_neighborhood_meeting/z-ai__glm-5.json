@@ -1,0 +1,37 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.1",
+  "candidate_label": "GLM-5",
+  "candidate_model_id": "z-ai/glm-5",
+  "created_at": "2026-03-07T16:17:48Z",
+  "metadata": {
+    "id": "gen-1772900208-l2fvTViDxBzl1K76CGEX",
+    "usage": {
+      "completion_tokens": 1500,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 929
+      },
+      "cost": 0.00386352,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.00384,
+        "upstream_inference_cost": 0.00386352,
+        "upstream_inference_prompt_cost": 2.352e-05
+      },
+      "is_byok": false,
+      "prompt_tokens": 55,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 32,
+        "video_tokens": 0
+      },
+      "total_tokens": 1555
+    }
+  },
+  "prompt_category": "service_howto",
+  "prompt_id": "howto_neighborhood_meeting",
+  "response_text": "**A Resident\u2019s Guide to Organizing a Neighborhood Traffic Safety Meeting**\n\nTurning a dangerous street into a safe one requires more than just complaining to the city; it requires collective action. Organizing a neighborhood meeting is the most effective way to demonstrate community consensus and pressure local officials for change.\n\nHere is a step-by-step practical guide to organizing a successful traffic safety meeting.\n\n### Phase 1: Preparation and Research\n\nBefore you send out invitations, you must do your homework. Credibility is your most valuable asset.\n\n**1. Define the Specific Issue**\n\"Traffic is bad\" is too vague. You need specific, actionable complaints. Identify exactly what the problems are:\n*   **Speeding:** Is it a \"cut-through\" street during rush hour?\n*   **Visibility:** Are parked cars blocking sightlines at crosswalks?\n*   **Infrastructure:** Are there missing sidewalks, faded crosswalks, or broken streetlights?\n\n**2. Gather Preliminary Evidence**\nDocument the issue before the meeting.\n*   **Photos/Videos:** Take pictures of blind corners, cars speeding, or pedestrians walking in the street due to missing sidewalks.\n*   **Data:** Use tools like Google Maps (traffic data) or request accident reports from your local police department\u2019s public records office.\n*   **Anecdotes:** Ask a few neighbors to write down their \"near miss\" stories.\n\n**3. Identify the Decision Makers**\nFind out exactly who controls your street. Is it the City Council, the County Commission, or the State Department of Transportation (DOT)? You need to know who has the authority to install a stop sign or lower a speed limit so you can invite them\u2014or target them later.\n\n### Phase 2: Logistics and Outreach\n\nThe goal is high attendance. A meeting with three people is easily ignored; a meeting with thirty is a political force.\n\n**1. Form a Small Planning Committee**\nDo not do this alone. Recruit two or three neighbors to help with logistics. This prevents burnout and ensures the group isn't seen as a \"one-person crusade.\"\n\n**2. Choose the Right Time and Place**\n*   **Time:** Weekday evenings (Tuesday or Wednesday, 6:30 PM \u2013 8:00 PM) usually work best for working families.\n*   **Location:** Choose a neutral, accessible location. A public library branch meeting room, a community center, or a place of worship with a parking lot is ideal. Avoid hosting in a private home, as it may discourage strangers from attending.\n\n**3. Advertise Effectively**\nYou need to reach people who don't use social media.\n*   **Flyers:** Create a simple, large-font flyer. Distribute them in mailboxes or tape them to utility poles (check local ordinances first). Walk the affected blocks and knock on doors.\n*   **Digital:** Create a Facebook event or a Nextdoor post. Use a Google Form or a simple email address for RSVPs so you can gauge attendance.\n*   **The \"Hook\":** Use a specific headline. Instead of \"Traffic Meeting,\" try: *\"Meeting to Discuss Pedestrian Safety on Oak Street.\"*\n\n**4. Invite the Experts**\nSend a formal",
+  "run_name": "2026-03-07-openrouter-v0-1"
+}

@@ -1,0 +1,37 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.1",
+  "candidate_label": "DeepSeek V3.2",
+  "candidate_model_id": "deepseek/deepseek-v3.2",
+  "created_at": "2026-03-07T15:15:54Z",
+  "metadata": {
+    "id": "gen-1772896506-oaY92pN4qRBFRFfn8DDL",
+    "usage": {
+      "completion_tokens": 500,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 286
+      },
+      "cost": 0.0002004,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.00019,
+        "upstream_inference_cost": 0.0002004,
+        "upstream_inference_prompt_cost": 1.04e-05
+      },
+      "is_byok": false,
+      "prompt_tokens": 48,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 16,
+        "video_tokens": 0
+      },
+      "total_tokens": 548
+    }
+  },
+  "prompt_category": "personal_nonfiction",
+  "prompt_id": "personal_night_shift_bus",
+  "response_text": "The 11:15 is always five minutes late. I know this because for a year, I\u2019ve stood under the same flickering streetlamp at the same empty intersection, feeling the same chill seep through my coat. My year of the late-night bus wasn\u2019t born of romance or tragedy, but of a shift change at a bookstore caf\u00e9, a simple reordering of my life into an AM and PM shift. And so, my world contracted to the route of the 11:15.\n\nAt first, it was just a bus. A lit tube of worn vinyl and chrome, hissing to a stop. But over months, it became a moving diorama, a pocket universe with its own rules and regulars. There was the driver, Leo, who had a voice like gravel and a nod he reserved only for us, the night-riders. He\u2019d wait an extra beat if he saw someone running under the glow of the convenience store sign. There was the woman in the nurse\u2019s scrubs, her shoes unlaced, who would always fall instantly asleep, her head tracing a slow, trusting circle against the window. And the older man with the careful part in his silver hair, who carried a hardcover book every night and never turned a page. He just held it, staring out at the dark shops, and I wondered if the weight of it in his",
+  "run_name": "2026-03-07-openrouter-v0-1"
+}

@@ -1,0 +1,47 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.1",
+  "candidate_model_id": "anthropic/claude-opus-4.6",
+  "created_at": "2026-03-07T21:23:52Z",
+  "judge_model_id": "anthropic/claude-opus-4.6",
+  "metadata": {
+    "id": "gen-1772918624-B9QA0NRIQ03grSToj18P",
+    "raw_text": "{\"scores\": {\"clarity\": 5, \"simplicity\": 5, \"brevity_economy\": 4, \"structure_flow\": 5, \"specificity_precision\": 5, \"humanity_voice\": 5, \"overall\": 5}, \"rationale\": \"Exceptionally well-crafted opinion writing. The opening scene is vivid and immediately grounds the abstract policy argument in human experience. Specific numbers (1.2 occupancy, 600-1,600 cars/hr, headways of 2-3 minutes) give the argument real teeth. The voice is confident, conversational, and sharp without being smug \u2014 lines like 'the numbers are merciless' and 'a failure of priorities made visible in asphalt and paint' are memorable. Structure is clean: scene-setting \u2192 thesis \u2192 preemptive acknowledgment of opposition \u2192 data-driven case. Language is plain and direct throughout. The only minor ding is the piece is incomplete (cuts off mid-calculation), and a few rhetorical flourishes ('strangle it in its crib') border on overwrought, but what exists is high-quality opinion writing. Brevity docked slightly because some rhetorical repetition (e.g., the 'Think of the...' list) is more stylistic than strictly necessary.\"}",
+    "usage": {
+      "completion_tokens": 331,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 25
+      },
+      "cost": 0.012495,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.008275,
+        "upstream_inference_cost": 0.012495,
+        "upstream_inference_prompt_cost": 0.00422
+      },
+      "is_byok": false,
+      "prompt_tokens": 844,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 1175
+    }
+  },
+  "prompt_category": "persuasion_oped",
+  "prompt_id": "oped_bus_lanes",
+  "rationale": "Exceptionally well-crafted opinion writing. The opening scene is vivid and immediately grounds the abstract policy argument in human experience. Specific numbers (1.2 occupancy, 600-1,600 cars/hr, headways of 2-3 minutes) give the argument real teeth. The voice is confident, conversational, and sharp without being smug \u2014 lines like 'the numbers are merciless' and 'a failure of priorities made visible in asphalt and paint' are memorable. Structure is clean: scene-setting \u2192 thesis \u2192 preemptive acknowledgment of opposition \u2192 data-driven case. Language is plain and direct throughout. The only minor ding is the piece is incomplete (cuts off mid-calculation), and a few rhetorical flourishes ('strangle it in its crib') border on overwrought, but what exists is high-quality opinion writing. Brevity docked slightly because some rhetorical repetition (e.g., the 'Think of the...' list) is more stylistic than strictly necessary.",
+  "run_name": "2026-03-07-openrouter-v0-1-salvage-1",
+  "scores": {
+    "brevity_economy": 4,
+    "clarity": 5,
+    "humanity_voice": 5,
+    "overall": 5,
+    "simplicity": 5,
+    "specificity_precision": 5,
+    "structure_flow": 5
+  }
+}

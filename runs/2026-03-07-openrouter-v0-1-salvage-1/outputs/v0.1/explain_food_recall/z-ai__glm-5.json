@@ -1,0 +1,37 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.1",
+  "candidate_label": "GLM-5",
+  "candidate_model_id": "z-ai/glm-5",
+  "created_at": "2026-03-07T16:09:18Z",
+  "metadata": {
+    "id": "gen-1772899709-YizcGFAWV6et1ObBYAmf",
+    "usage": {
+      "completion_tokens": 2015,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 968
+      },
+      "cost": 0.0051943,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.00513825,
+        "upstream_inference_cost": 0.0051943,
+        "upstream_inference_prompt_cost": 5.605e-05
+      },
+      "is_byok": false,
+      "prompt_tokens": 59,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 2074
+    }
+  },
+  "prompt_category": "explain",
+  "prompt_id": "explain_food_recall",
+  "response_text": "### Understanding Food Recalls: A Consumer\u2019s Guide\n\nSeeing a headline about a food recall can be alarming. One minute you are planning dinner, and the next you are checking your pantry to see if a specific box or bag is dangerous.\n\nWhile the term \"recall\" sounds frightening, it is actually a safety net designed to protect the public. Here is what a food recall actually means, why it happens, and exactly what you should do if you find a recalled product in your kitchen.\n\n#### What Is a Food Recall?\n\nA food recall is a voluntary action taken by a food manufacturer or distributor to remove a product from the market. Although it is voluntary, it is usually done at the request of a federal agency\u2014such as the Food and Drug Administration (FDA) or the U.S. Department of Agriculture (USDA)\u2014or because the company has discovered a safety issue independently.\n\nThe goal is to get the product out of stores and homes before it can cause illness or injury.\n\n#### Why Do Recalls Happen?\n\nRecalls generally fall into three main categories:\n\n1.  **Pathogens:** The presence of harmful bacteria such as *Salmonella*, *E. coli*, or *Listeria*. These are often discovered during routine testing.\n2.  **Undeclared Allergens:** This is one of the most common reasons for recalls. It happens when a product contains an allergen (like milk, nuts, soy, or wheat) that is not listed on the label. For someone with a severe allergy, this can be life-threatening.\n3.  **Foreign Objects:** Occasionally, products are recalled because they may contain physical contaminants like plastic, glass, or metal fragments introduced during the manufacturing process.\n\n#### What to Do If You Have a Recalled Product\n\nIf you hear about a recall and suspect you have the item, do not panic. Follow these steps to ensure your safety.\n\n**1. Verify the Details**\nA recall usually applies to a very specific batch of a product, not necessarily every item that brand produces. Check the recall notice for:\n*   **The Brand Name:** Ensure it matches exactly.\n*   **The \"Best By\" or \"Use By\" Date:** This is crucial.\n*   **The Lot Number or UPC Code:** These numbers are usually printed on the back or bottom of the package. Compare them to the numbers listed in the recall alert.\n\n**2. Do Not Eat or Open the Product**\nEven if the product looks and smells fine, do not taste it. If the recall is due to bacteria, you cannot see, smell, or taste the contamination. If the recall is due to an undeclared allergen, tasting it could cause a reaction. If the product is sealed, leave it sealed.\n\n**3. Do Not Donate It**\nIt may seem wasteful to throw away food, but you should never donate a recalled item to a food bank or give it to a neighbor. The product is considered unsafe for human consumption.\n\n**4. Decide: Return or Discard**\nYou generally have two options for getting rid of the product:\n*   **Return it:** Most retailers will accept returns for recalled items for a full refund, even without a receipt. This is often the safest option as it ensures the product is disposed of properly by the store.\n*   **Discard it:** If you cannot return the item, throw it away immediately. To prevent others (including pets or wildlife) from eating it, the FDA recommends putting the item in a sealed bag or container before placing it in an outdoor trash bin.\n\n**5. Clean Your Kitchen**\nIf the recalled product was raw meat, poultry, or produce, or if the package was leaking, you must sanitize your kitchen.\n*   Wash any utensils, cutting boards, or countertops that may have touched the product with hot, soapy water.\n*   If you stored the item in a reusable cloth grocery bag, wash the bag in the washing machine.\n\n#### What If You Already Ate It?\n\nIf you have already consumed a recalled product, monitor yourself and your family for symptoms.\n\n*   **For Pathogens:** Symptoms like nausea, vomiting, diarrhea, and fever can appear anywhere from a few hours to several days after eating contaminated food. If you feel ill, contact a doctor and mention that you ate a recalled product.\n*   **For Allergens:** If you have a food allergy and consumed a product with an undeclared allergen, watch for reactions. If you have a severe reaction, use an epinephrine auto-injector (if prescribed) and seek emergency medical care immediately.\n\n#### How to Stay Informed\n\nYou don\u2019t have to rely on chance to hear about recalls. You can stay proactive by:\n*   Signing up for email alerts from [Recalls.gov](https://www.recalls.gov) or the FDA.\n*   Checking the \"News\" section of the FDA or USDA websites.\n*   Following your local health department on social media, as they often share regional recalls.\n\nFood recalls are a standard part of the food safety system. By checking your labels and following these steps, you can handle them quickly and keep your household safe.",
+  "run_name": "2026-03-07-openrouter-v0-1"
+}

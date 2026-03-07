@@ -1,0 +1,37 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.1",
+  "candidate_label": "GLM-5",
+  "candidate_model_id": "z-ai/glm-5",
+  "created_at": "2026-03-07T16:16:23Z",
+  "metadata": {
+    "id": "gen-1772900114-DGLYTFUn4vwSg1LZIAg3",
+    "usage": {
+      "completion_tokens": 1500,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 1027
+      },
+      "cost": 0.00385424,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.00384,
+        "upstream_inference_cost": 0.00385424,
+        "upstream_inference_prompt_cost": 1.424e-05
+      },
+      "is_byok": false,
+      "prompt_tokens": 69,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 64,
+        "video_tokens": 0
+      },
+      "total_tokens": 1569
+    }
+  },
+  "prompt_category": "memo",
+  "prompt_id": "memo_remote_work_policy",
+  "response_text": "**MEMORANDUM**\n\n**TO:** All Employees\n**FROM:** Executive Leadership Team\n**DATE:** October 26, 2023\n**SUBJECT:** Introduction of New \"Hybrid-Flexible\" Work Policy\n\n**Introduction**\n\nOver the past few years, the way we work has evolved significantly. As we continue to scale, we want to ensure that our work environment supports both our professional goals and personal well-being. After reviewing employee feedback, productivity data, and industry trends, we are formalizing a new work policy designed to offer greater flexibility while maintaining the collaborative spirit that drives our success.\n\n**The New Policy: Hybrid-Flexible**\n\nEffective **November 15th**, we are moving to a **Hybrid-Flexible** model.\n\nUnder this policy, employees will have the autonomy to choose where they work based on the needs of their specific tasks and teams. The specifics are as follows:\n\n*   **Remote-First Approach:** Employees may work from home (or any remote location) indefinitely. There is no requirement to be in the office for standard daily work.\n*   **Core Collaboration Hours:** To ensure we remain connected, all employees must be available for synchronous communication (Slack, Zoom, or phone) between **1:00 PM and 4:00 PM EST** on weekdays. Outside of these hours, you may structure your day in the way that best suits your productivity.\n*   **In-Person Gatherings:** While daily presence is not required, we value face-to-face interaction. Teams are expected to coordinate in-person meetups or \"sprints\" at least once per quarter for planning and team building. Travel expenses for these gatherings will be covered by the company.\n*   **Office Access:** Our headquarters will remain open for those who prefer to work on-site. You are welcome to use the space at any time, though we ask that you reserve a desk via the Envoy app 24 hours in advance to ensure availability.\n\n**Why We Are Making This Change**\n\nWe believe that the future of work is outcome-oriented. We have seen that our team delivers high-quality software regardless of physical location. This policy is designed to:\n\n1.  **Attract and Retain Talent:** By removing geographic barriers, we can hire the best engineers and staff regardless of location, and offer a perk that improves work-life balance.\n2.  **Increase Productivity:** Allowing you to control your environment and schedule minimizes commute stress and allows for \"deep work\" time.\n3.  **Build Trust:** We want to shift our culture from measuring \"hours in the seat\" to measuring results and impact.\n\n**What You Need To Do Next**\n\nTo ensure a smooth transition, please complete the following steps by **November 10th**:\n\n1.  **Update Your Status:** Log into Workday and update your primary",
+  "run_name": "2026-03-07-openrouter-v0-1"
+}

@@ -1,0 +1,37 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.1",
+  "candidate_label": "Grok 4.1 Fast",
+  "candidate_model_id": "x-ai/grok-4.1-fast",
+  "created_at": "2026-03-07T15:09:28Z",
+  "metadata": {
+    "id": "gen-1772896156-SrsO5OTFx0DGTXvQjRhW",
+    "usage": {
+      "completion_tokens": 799,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 299
+      },
+      "cost": 0.00041705,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.0003995,
+        "upstream_inference_cost": 0.00041705,
+        "upstream_inference_prompt_cost": 1.755e-05
+      },
+      "is_byok": false,
+      "prompt_tokens": 201,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 151,
+        "video_tokens": 0
+      },
+      "total_tokens": 1000
+    }
+  },
+  "prompt_category": "persuasion_oped",
+  "prompt_id": "oped_library_hours",
+  "response_text": "# Lights On After Dark: Why City Libraries Must Stay Open Later\n\nIn an era where our days are devoured by the grind of work, school, and endless errands, the public library stands as a beacon of free knowledge, quiet refuge, and community connection. Yet in too many cities, these vital institutions shutter their doors by early evening\u2014often 6 or 7 p.m.\u2014leaving a gaping hole in access for those who need them most. It's time for city library systems to extend hours into the night, at least until 10 p.m. on weekdays and midnight on weekends. This isn't just a convenience; it's a moral and practical imperative that would democratize opportunity, bolster public safety, and invigorate our neighborhoods.\n\nConsider the daily reality for millions of urban dwellers. The traditional 9-to-5 workforce\u2014janitors, nurses, retail clerks, and gig economy hustlers\u2014can't waltz into a library at noon. Parents juggling after-school childcare, college students cramming for exams, and job seekers polishing resumes after a long shift are locked out. A 2023 study by the American Library Association found that 40% of library users prefer evening hours, with demand spiking after 6 p.m. in high-density areas. By closing early, we're not saving resources; we're squandering them, denying equitable access to the internet, books, printers, and study spaces that level the playing field. Extending hours would transform libraries from daytime relics into 24/7 engines of upward mobility.\n\nBeyond individual access, late-night libraries would serve as safer, more productive alternatives to the streets. In cities plagued by homelessness, youth idleness, and urban isolation, libraries offer warmth, Wi-Fi, and supervision without the risks of parks or corner stores. Imagine a high schooler from a cramped apartment finishing homework under fluorescent lights instead of distractions at home. Or an unemployed father researching job leads rather than scrolling social media in a dimly lit diner. Data from pilot programs in places like Seattle and Chicago, where libraries experimented with 10 p.m. closures, showed a 25% uptick in evening patrons, including more families and teens, with zero increase in disruptive incidents. Staffed adequately and equipped with basic security\u2014like cameras and night-shift attendants\u2014these spaces become sanctuaries, reducing petty crime and fostering community resilience.\n\nCritics will cry foul over costs: overtime pay, utilities, maintenance. Fair point, but the math doesn't add up against the benefits. Evening extensions could be funded",
+  "run_name": "2026-03-07-openrouter-v0-1"
+}

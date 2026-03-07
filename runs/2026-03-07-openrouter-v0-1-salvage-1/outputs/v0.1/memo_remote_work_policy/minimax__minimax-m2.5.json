@@ -1,0 +1,37 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.1",
+  "candidate_label": "MiniMax M2.5",
+  "candidate_model_id": "minimax/minimax-m2.5",
+  "created_at": "2026-03-07T15:03:06Z",
+  "metadata": {
+    "id": "gen-1772895777-82pes53SxrQBO5a1WYmb",
+    "usage": {
+      "completion_tokens": 500,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 219
+      },
+      "cost": 0.0005734,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.00055,
+        "upstream_inference_cost": 0.0005734,
+        "upstream_inference_prompt_cost": 2.34e-05
+      },
+      "is_byok": false,
+      "prompt_tokens": 78,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 578
+    }
+  },
+  "prompt_category": "memo",
+  "prompt_id": "memo_remote_work_policy",
+  "response_text": "# INTERNAL MEMO\n\n**TO:** All Employees\n**FROM:** [CEO Name], Chief Executive Officer\n**DATE:** [Date]\n**RE:** New Remote Work Policy \u2013 Effective [Date]\n\n---\n\nI am pleased to announce that we are implementing a new flexible remote work policy, effective [Date]. This policy reflects our commitment to creating a modern, flexible work environment that supports both productivity and work-life balance.\n\n---\n\n## The Policy\n\n**Hybrid Work Model**\nWe are adopting a hybrid approach that combines in-office collaboration with remote flexibility:\n\n- **In-Office Days:** Employees are expected to be in the office **two days per week** (Tuesday and Thursday). These days are designated for team collaboration, meetings, and in-person brainstorming sessions.\n- **Remote Days:** Employees may work remotely up to **three days per week** (Monday, Wednesday, and Friday), at their discretion and with manager approval.\n- **Core Hours:** All employees must be available for synchronous collaboration between **10:00 AM and 3:00 PM** local time, regardless of work location.\n- **Team Flexibility:** Team leads may adjust in-office requirements for specific roles or projects as needed, with HR approval.\n\n**Equipment & Setup**\nThe company will continue to provide:\n\n- Laptop computer and necessary peripherals\n- $500 one-time stipend for home office equipment (desk, chair, monitor)\n- Monthly reimbursement of $50 for internet/utility costs\n\n---\n\n## Why This Policy\n\nThis policy was developed based on employee feedback from our recent survey, industry best practices, and our goal to remain competitive in talent acquisition.\n\n**Key drivers include:**\n\n1",
+  "run_name": "2026-03-07-openrouter-v0-1"
+}

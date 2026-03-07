@@ -1,0 +1,37 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.1",
+  "candidate_label": "GPT-5.3 Chat",
+  "candidate_model_id": "openai/gpt-5.3-chat",
+  "created_at": "2026-03-07T15:02:45Z",
+  "metadata": {
+    "id": "gen-1772895759-1Y97ioJJKo6t67EilArF",
+    "usage": {
+      "completion_tokens": 500,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 0
+      },
+      "cost": 0.007126,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.007,
+        "upstream_inference_cost": 0.007126,
+        "upstream_inference_prompt_cost": 0.000126
+      },
+      "is_byok": false,
+      "prompt_tokens": 72,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 572
+    }
+  },
+  "prompt_category": "memo",
+  "prompt_id": "memo_remote_work_policy",
+  "response_text": ":::writing\nTo: All Employees  \nFrom: Leadership Team  \nSubject: New Remote Work Policy (Effective Next Month)\n\nOver the past several years, our team has successfully adapted to a variety of working arrangements. As we continue to grow, we want to create a clear, consistent policy that supports productivity, collaboration, and flexibility. Beginning next month, we will be implementing a new remote work policy for the company.\n\nPolicy Overview  \nOur company will adopt a \u201cRemote-First with In\u2011Person Collaboration\u201d model.\n\n\u2022 Employees may work remotely up to four days per week.  \n\u2022 Each team will designate one common in\u2011office collaboration day per week.  \n\u2022 Employees who prefer to work in the office more often are welcome to do so.  \n\u2022 Fully remote arrangements may be approved for roles or individuals whose responsibilities do not require in\u2011person presence.\n\nManagers will coordinate with their teams to determine the most effective in\u2011office day based on project needs, cross\u2011team collaboration, and customer commitments.\n\nWhy We\u2019re Making This Change  \nAs a 120\u2011person software company, we are at a size where coordination and communication become increasingly important. While remote work has offered flexibility and improved focus for many people, we have also heard feedback about the value of regular in\u2011person collaboration for brainstorming, onboarding, mentoring, and complex problem solving.\n\nThis policy is designed to balance both priorities:  \n\u2022 Preserve the flexibility many employees value.  \n\u2022 Create predictable in\u2011person time for stronger collaboration.  \n\u2022 Maintain a consistent structure across teams as we continue to grow.\n\nWhat You Need To Do Next  \nOver the next two weeks:\n\n1. Managers will meet with their teams to select a weekly in\u2011office day.  \n2. Employees with unique circumstances or interest in full\u2011time remote status should discuss this with their manager and HR.  \n3. Please review the detailed policy document that HR will distribute later this week, which will include guidelines for scheduling, office space use, and remote work expectations.\n\nThe new policy will take effect on the first Monday of next month.\n\nWe appreciate the flexibility and professionalism everyone has shown as our work environment continues to evolve. Our goal is to support both great work and a sustainable work experience for the entire team.\n\nIf you have questions, please reach out to your manager or the HR team.\n\nThank you,  \nLeadership Team",
+  "run_name": "2026-03-07-openrouter-v0-1"
+}

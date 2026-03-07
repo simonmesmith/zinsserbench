@@ -1,0 +1,47 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.1",
+  "candidate_model_id": "deepseek/deepseek-v3.2",
+  "created_at": "2026-03-07T21:29:36Z",
+  "judge_model_id": "anthropic/claude-opus-4.6",
+  "metadata": {
+    "id": "gen-1772918969-wSufbWZDA9CRqRcMzzAI",
+    "raw_text": "{\"scores\": {\"clarity\": 5, \"simplicity\": 4, \"brevity_economy\": 4, \"structure_flow\": 5, \"specificity_precision\": 5, \"humanity_voice\": 3, \"overall\": 4}, \"rationale\": \"Exceptionally clear and well-structured memo with logical three-part organization (what happened, what was fixed, what's next) that a reader can scan quickly. Specificity is strong: exact times, numbered steps, named systems, a concrete date for the follow-up report. Language is mostly plain, though phrases like 'catastrophic failure,' 'cascading failure,' and 'geographically redundant backup system' lean technical\u2014acceptable for an internal IT memo but could be simplified for a general audience. Brevity is good; there's minor throat-clearing ('This memo is to inform you') and the closing is slightly formulaic. The biggest weakness is voice: it reads competently professional but somewhat boilerplate-corporate. Phrases like 'We sincerely apologize for the interruption to your productivity' and 'Thank you for your patience and understanding' feel templated rather than genuinely human. A touch more candor or personality would elevate it.\"}",
+    "usage": {
+      "completion_tokens": 271,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 0
+      },
+      "cost": 0.01147,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.006775,
+        "upstream_inference_cost": 0.01147,
+        "upstream_inference_prompt_cost": 0.004695
+      },
+      "is_byok": false,
+      "prompt_tokens": 939,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 1210
+    }
+  },
+  "prompt_category": "memo",
+  "prompt_id": "memo_incident_response",
+  "rationale": "Exceptionally clear and well-structured memo with logical three-part organization (what happened, what was fixed, what's next) that a reader can scan quickly. Specificity is strong: exact times, numbered steps, named systems, a concrete date for the follow-up report. Language is mostly plain, though phrases like 'catastrophic failure,' 'cascading failure,' and 'geographically redundant backup system' lean technical\u2014acceptable for an internal IT memo but could be simplified for a general audience. Brevity is good; there's minor throat-clearing ('This memo is to inform you') and the closing is slightly formulaic. The biggest weakness is voice: it reads competently professional but somewhat boilerplate-corporate. Phrases like 'We sincerely apologize for the interruption to your productivity' and 'Thank you for your patience and understanding' feel templated rather than genuinely human. A touch more candor or personality would elevate it.",
+  "run_name": "2026-03-07-openrouter-v0-1-salvage-1",
+  "scores": {
+    "brevity_economy": 4,
+    "clarity": 5,
+    "humanity_voice": 3,
+    "overall": 4,
+    "simplicity": 4,
+    "specificity_precision": 5,
+    "structure_flow": 5
+  }
+}

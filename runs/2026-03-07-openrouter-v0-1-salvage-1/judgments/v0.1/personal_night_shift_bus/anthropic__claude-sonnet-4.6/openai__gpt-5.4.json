@@ -1,0 +1,47 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.1",
+  "candidate_model_id": "anthropic/claude-sonnet-4.6",
+  "created_at": "2026-03-07T21:36:26Z",
+  "judge_model_id": "openai/gpt-5.4",
+  "metadata": {
+    "id": "gen-1772919382-ErqI1xs4ajNQIZ0YdQnN",
+    "raw_text": "{\"scores\":{\"clarity\":4,\"simplicity\":3,\"brevity_economy\":4,\"structure_flow\":4,\"specificity_precision\":5,\"humanity_voice\":5,\"overall\":4},\"rationale\":\"Vivid, specific, and strongly voiced, with concrete details like the route, stop names, and recurring riders. The prose is clear overall, though sometimes a bit ornate rather than plain. Organization is smooth, but the excerpt ends mid-sentence, which hurts completeness and flow.\"}",
+    "usage": {
+      "completion_tokens": 214,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 103
+      },
+      "cost": 0.0050675,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.00321,
+        "upstream_inference_cost": 0.0050675,
+        "upstream_inference_prompt_cost": 0.0018575
+      },
+      "is_byok": false,
+      "prompt_tokens": 743,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 957
+    }
+  },
+  "prompt_category": "personal_nonfiction",
+  "prompt_id": "personal_night_shift_bus",
+  "rationale": "Vivid, specific, and strongly voiced, with concrete details like the route, stop names, and recurring riders. The prose is clear overall, though sometimes a bit ornate rather than plain. Organization is smooth, but the excerpt ends mid-sentence, which hurts completeness and flow.",
+  "run_name": "2026-03-07-openrouter-v0-1-salvage-1",
+  "scores": {
+    "brevity_economy": 4,
+    "clarity": 4,
+    "humanity_voice": 5,
+    "overall": 4,
+    "simplicity": 3,
+    "specificity_precision": 5,
+    "structure_flow": 4
+  }
+}

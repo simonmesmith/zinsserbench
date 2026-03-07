@@ -1,0 +1,37 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.1",
+  "candidate_label": "DeepSeek V3.2",
+  "candidate_model_id": "deepseek/deepseek-v3.2",
+  "created_at": "2026-03-07T15:07:18Z",
+  "metadata": {
+    "id": "gen-1772896014-T2dEnD4zDASJkYpNZuC6",
+    "usage": {
+      "completion_tokens": 692,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 192
+      },
+      "cost": 0.00027674,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.00026296,
+        "upstream_inference_cost": 0.00027674,
+        "upstream_inference_prompt_cost": 1.378e-05
+      },
+      "is_byok": false,
+      "prompt_tokens": 53,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 745
+    }
+  },
+  "prompt_category": "profile",
+  "prompt_id": "profile_ferry_captain",
+  "response_text": "Captain Elias Vance stands at the helm of the *Island Dawn*, his hands resting on the worn teak wheel as if it were an extension of his own bones. For thirty years, five days a week, he has guided this same ferry across the six-mile channel between Port Haven and Shearwater Cove. The route is a straight line on a chart, but for Elias, it is a living, breathing artery, and he its steady pulse.\n\nHis day begins in the pre-dawn dark, with the smell of diesel and salt. He walks the decks, his footsteps a familiar echo, checking cleats and rails with a touch that is both ritual and inspection. He knows the *Dawn\u2019s* every sigh and groan\u2014the particular shudder of her engines at 15 knots, the way her bow parts a following sea. \u201cShe talks to me,\u201d he says, a faint smile touching his weathered face. \u201cAnd I listen.\u201d\n\nThe passengers are as familiar as the vessel. There\u2019s Mrs. Gable, who has taken the 7:15 to her Shearwater bakery every morning for twenty-two years. He knows she prefers the port-side bench, second from the front. He nods to the seasonal fishermen, the high school students with their backpacks, the tourists clutching cameras. He remembers their faces, their routines, the small stories shared in passing over decades. He has witnessed first dates, daily commutes, and the solemn, quiet trips accompanying a casket back to a hometown for burial.\n\nThe world beyond the rail has changed. The lights onshore have multiplied, and cell phones now glow where novels once lay open on laps. But the channel remains constant, and so does Elias\u2019s dialogue with it. He reads the water\u2019s mood in its color and texture\u2014the flat, oily calm of a coming morning fog, the short, choppy anger of a sudden squall. He knows where the eagles nest on the western bluffs and the time of year the porpoises will race the bow. He has piloted through storms that turned the six miles into an eternity, his entire being focused on the next wave, the next gust, holding the line between the two points of land that define his life.\n\nAsk him about the highlight of his career, and he won\u2019t mention a dramatic rescue (though there have been a few) or a famous passenger. He\u2019ll instead describe a perfectly ordinary evening crossing: the sun setting behind",
+  "run_name": "2026-03-07-openrouter-v0-1"
+}

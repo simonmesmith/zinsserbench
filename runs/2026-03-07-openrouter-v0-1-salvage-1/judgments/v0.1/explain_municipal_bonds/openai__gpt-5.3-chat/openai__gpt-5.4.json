@@ -1,0 +1,47 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.1",
+  "candidate_model_id": "openai/gpt-5.3-chat",
+  "created_at": "2026-03-07T21:13:30Z",
+  "judge_model_id": "openai/gpt-5.4",
+  "metadata": {
+    "id": "gen-1772918007-ysQvERR22JJSqrk6DGc0",
+    "raw_text": "{\"scores\":{\"clarity\":5,\"simplicity\":5,\"brevity_economy\":4,\"structure_flow\":5,\"specificity_precision\":5,\"humanity_voice\":4,\"overall\":5},\"rationale\":\"Clear, accurate, and easy to follow. It explains what munis are, why cities issue them, how repayment works, tax benefits, and the two main types with concrete examples. Slightly longer than necessary and a bit textbook in tone, but overall very effective for a general audience.\"}",
+    "usage": {
+      "completion_tokens": 188,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 75
+      },
+      "cost": 0.004745,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.00282,
+        "upstream_inference_cost": 0.004745,
+        "upstream_inference_prompt_cost": 0.001925
+      },
+      "is_byok": false,
+      "prompt_tokens": 770,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 958
+    }
+  },
+  "prompt_category": "explain",
+  "prompt_id": "explain_municipal_bonds",
+  "rationale": "Clear, accurate, and easy to follow. It explains what munis are, why cities issue them, how repayment works, tax benefits, and the two main types with concrete examples. Slightly longer than necessary and a bit textbook in tone, but overall very effective for a general audience.",
+  "run_name": "2026-03-07-openrouter-v0-1-salvage-1",
+  "scores": {
+    "brevity_economy": 4,
+    "clarity": 5,
+    "humanity_voice": 4,
+    "overall": 5,
+    "simplicity": 5,
+    "specificity_precision": 5,
+    "structure_flow": 5
+  }
+}

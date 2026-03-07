@@ -1,0 +1,47 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.1",
+  "candidate_model_id": "z-ai/glm-5",
+  "created_at": "2026-03-07T21:14:17Z",
+  "judge_model_id": "openai/gpt-5.4",
+  "metadata": {
+    "id": "gen-1772918050-a2fyy2F2J9s5CtxxQd6O",
+    "raw_text": "{\"scores\":{\"clarity\":4,\"simplicity\":5,\"brevity_economy\":4,\"structure_flow\":4,\"specificity_precision\":3,\"humanity_voice\":5,\"overall\":4},\"rationale\":\"Clear, conversational explainer with strong examples and a logical setup. The mortgage analogy and project examples make the topic easy to grasp. It loses points because the response is cut off mid-sentence, and a few claims are oversimplified or imprecise (for example, not all municipal bonds are backed by tax power in the same way).\"}",
+    "usage": {
+      "completion_tokens": 445,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 321
+      },
+      "cost": 0.008905,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.006675,
+        "upstream_inference_cost": 0.008905,
+        "upstream_inference_prompt_cost": 0.00223
+      },
+      "is_byok": false,
+      "prompt_tokens": 892,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 1337
+    }
+  },
+  "prompt_category": "explain",
+  "prompt_id": "explain_municipal_bonds",
+  "rationale": "Clear, conversational explainer with strong examples and a logical setup. The mortgage analogy and project examples make the topic easy to grasp. It loses points because the response is cut off mid-sentence, and a few claims are oversimplified or imprecise (for example, not all municipal bonds are backed by tax power in the same way).",
+  "run_name": "2026-03-07-openrouter-v0-1-salvage-1",
+  "scores": {
+    "brevity_economy": 4,
+    "clarity": 4,
+    "humanity_voice": 5,
+    "overall": 4,
+    "simplicity": 5,
+    "specificity_precision": 3,
+    "structure_flow": 4
+  }
+}

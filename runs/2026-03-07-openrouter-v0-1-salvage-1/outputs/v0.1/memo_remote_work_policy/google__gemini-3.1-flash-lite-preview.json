@@ -1,0 +1,43 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.1",
+  "candidate_label": "Gemini 3.1 Flash Lite Preview",
+  "candidate_model_id": "google/gemini-3.1-flash-lite-preview",
+  "created_at": "2026-03-07T21:02:54Z",
+  "metadata": {
+    "id": "gen-1772917369-v6a1Pfuw16xqVM9hMwBO",
+    "quality_guard": {
+      "minimum_words": 100,
+      "reason": "",
+      "status": "ok",
+      "word_count": 439
+    },
+    "usage": {
+      "completion_tokens": 1034,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 441
+      },
+      "cost": 0.00156775,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.001551,
+        "upstream_inference_cost": 0.00156775,
+        "upstream_inference_prompt_cost": 1.675e-05
+      },
+      "is_byok": false,
+      "prompt_tokens": 67,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 1101
+    }
+  },
+  "prompt_category": "memo",
+  "prompt_id": "memo_remote_work_policy",
+  "response_text": "**MEMORANDUM**\n\n**TO:** All Staff\n**FROM:** [Name/Executive Leadership Team]\n**DATE:** October 26, 2023\n**SUBJECT:** Update to Our Remote Work Policy\n\nAs [Company Name] continues to grow, we have spent the last few months evaluating how we work best as a team. We have listened to your feedback regarding the balance between the flexibility of remote work and the creative energy that comes from in-person collaboration. \n\nTo support our culture of innovation while respecting the individual focus time that is essential to software development, we are moving to a **Flexible Hybrid Model**, effective [Date].\n\n### The Policy\nUnder this new policy, all employees are expected to be in the office three days per week, with the option to work remotely for the remaining two days. \n\n*   **Anchor Days:** To ensure we are all present for key meetings and cross-departmental collaboration, Tuesday, Wednesday, and Thursday will be our \"Anchor Days\" where all staff are expected to be on-site.\n*   **Flexible Days:** Mondays and Fridays will remain flexible, allowing you to choose your work location based on your project needs and personal schedule.\n*   **Core Hours:** Regardless of location, our core collaboration hours remain 10:00 AM to 3:00 PM to ensure team availability for stand-ups and syncs.\n\n### Why We Are Making This Change\nOur goal is to strike a sustainable balance. We have found that while deep, individual coding tasks are often best performed in a quiet, remote environment, our most complex architectural discussions and team-building moments suffer when we are entirely distributed. By aligning our in-office days, we ensure that when you come to the office, you are surrounded by your colleagues, making those days high-impact and collaborative.\n\n### What You Need To Do Next\n1.  **Review the Handbook:** The full policy, including details on exceptions for long-distance commuters and medical accommodations, has been updated in the Employee Handbook [Link]. Please review this document by [Date].\n2.  **Acknowledge Receipt:** Please sign the acknowledgment form in the HR portal by [Date] to confirm you have read and understood the new guidelines.\n3.  **Coordinate with Your Lead:** If you have specific questions regarding your team\u2019s workflow or need to discuss a unique situation, please schedule a brief chat with your direct manager before [Date].\n\nWe believe this hybrid approach will help us maintain the high standard of software we build while fostering the strong, connected culture that makes [Company Name] a great place to work. \n\nThank you for your continued dedication and for the feedback that helped shape this policy. If you have any immediate questions, please reach out to the People Operations team or join us for the Q&A session on [Date/Time].",
+  "run_name": "2026-03-07-openrouter-v0-1-salvage-1"
+}

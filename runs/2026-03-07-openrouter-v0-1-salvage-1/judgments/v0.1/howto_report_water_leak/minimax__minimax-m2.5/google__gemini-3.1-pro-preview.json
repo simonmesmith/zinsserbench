@@ -1,0 +1,47 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.1",
+  "candidate_model_id": "minimax/minimax-m2.5",
+  "created_at": "2026-03-07T21:21:31Z",
+  "judge_model_id": "google/gemini-3.1-pro-preview",
+  "metadata": {
+    "id": "gen-1772918484-YXNjlUpBL5LCTlLBfHTN",
+    "raw_text": "{\n  \"scores\": {\n    \"clarity\": 5,\n    \"simplicity\": 5,\n    \"brevity_economy\": 4,\n    \"structure_flow\": 3,\n    \"specificity_precision\": 5,\n    \"humanity_voice\": 4,\n    \"overall\": 3\n  },\n  \"rationale\": \"The writing is clear, concise, and highly practical, offering specific and actionable steps for tenants to follow in an emergency. The language is simple and direct. However, the response cuts off abruptly at section 5, which significantly impacts the structure and overall effectiveness.\"\n}",
+    "usage": {
+      "completion_tokens": 377,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 239
+      },
+      "cost": 0.006012,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.004524,
+        "upstream_inference_cost": 0.006012,
+        "upstream_inference_prompt_cost": 0.001488
+      },
+      "is_byok": false,
+      "prompt_tokens": 744,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 1121
+    }
+  },
+  "prompt_category": "service_howto",
+  "prompt_id": "howto_report_water_leak",
+  "rationale": "The writing is clear, concise, and highly practical, offering specific and actionable steps for tenants to follow in an emergency. The language is simple and direct. However, the response cuts off abruptly at section 5, which significantly impacts the structure and overall effectiveness.",
+  "run_name": "2026-03-07-openrouter-v0-1-salvage-1",
+  "scores": {
+    "brevity_economy": 4,
+    "clarity": 5,
+    "humanity_voice": 4,
+    "overall": 3,
+    "simplicity": 5,
+    "specificity_precision": 5,
+    "structure_flow": 3
+  }
+}

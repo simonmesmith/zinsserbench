@@ -1,0 +1,37 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.1",
+  "candidate_label": "Claude Sonnet 4.6",
+  "candidate_model_id": "anthropic/claude-sonnet-4.6",
+  "created_at": "2026-03-07T15:08:17Z",
+  "metadata": {
+    "id": "gen-1772896085-VcBRu7cdKgBKVP6QwXGN",
+    "usage": {
+      "completion_tokens": 500,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 44
+      },
+      "cost": 0.007731,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.0075,
+        "upstream_inference_cost": 0.007731,
+        "upstream_inference_prompt_cost": 0.000231
+      },
+      "is_byok": false,
+      "prompt_tokens": 77,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 577
+    }
+  },
+  "prompt_category": "service_howto",
+  "prompt_id": "howto_report_water_leak",
+  "response_text": "# What to Do When You Discover a Water Leak in Your Ceiling: A Tenant's Guide\n\nWater leaking through your ceiling can feel alarming, but acting quickly and methodically can limit the damage to your belongings, protect your health, and establish the documentation you need as a tenant. Here is what to do, in order.\n\n---\n\n## Step 1: Protect Yourself and Your Belongings Immediately\n\nBefore anything else, assess whether the situation is physically safe.\n\n- **Turn off nearby electrical circuits.** Water and electricity are a deadly combination. If the leak is near a light fixture, outlet, or any wired appliance, go to your breaker panel and cut power to that area. If you are uncertain which breaker controls the affected zone, cut the main breaker. Do not touch a wet outlet or switch.\n- **Move furniture, electronics, and valuables out of the affected area.** Even a slow drip can ruin electronics, warp wood furniture, and saturate upholstery within minutes.\n- **Place buckets, pots, or towels** to catch dripping water and protect your flooring.\n- **If water is actively bulging in the ceiling**, that means it is pooling above you. You can carefully puncture the lowest point of the bulge with a screwdriver to release it in a controlled flow rather than waiting for a sudden collapse. This sounds counterintuitive, but a small controlled hole is far less destructive than a ceiling giving way unexpectedly.\n\n---\n\n## Step 2: Identify the Source if You Can Safely Do So\n\nUnderstanding where the water is coming from helps when you contact your landlord and may tell you whether you need emergency services.\n\n- **Is anyone home in the unit above you?** A running washing machine, an overflowing bathtub, or a burst pipe upstairs is a common cause. Knock on your neighbor's door if it is safe and reasonable to do so.\n- **Is it raining?** A roof leak will typically worsen during or immediately after rain",
+  "run_name": "2026-03-07-openrouter-v0-1"
+}

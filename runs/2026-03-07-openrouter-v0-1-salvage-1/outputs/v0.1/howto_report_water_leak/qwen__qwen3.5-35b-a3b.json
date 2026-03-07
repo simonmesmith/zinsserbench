@@ -1,0 +1,37 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.1",
+  "candidate_label": "Qwen 3.5 35B A3B",
+  "candidate_model_id": "qwen/qwen3.5-35b-a3b",
+  "created_at": "2026-03-07T15:09:02Z",
+  "metadata": {
+    "id": "gen-1772896129-DmdzGvXL7enjgtp2fDp9",
+    "usage": {
+      "completion_tokens": 1635,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 1129
+      },
+      "cost": 0.0021359,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.00327,
+        "upstream_inference_cost": 0.003286,
+        "upstream_inference_prompt_cost": 1.6e-05
+      },
+      "is_byok": false,
+      "prompt_tokens": 64,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 1699
+    }
+  },
+  "prompt_category": "service_howto",
+  "prompt_id": "howto_report_water_leak",
+  "response_text": "# Emergency Guide: Handling a Water Leak in Your Apartment Ceiling\n\nDiscovering water dripping from your ceiling is stressful, but acting quickly can prevent structural damage to the building and protect your personal property. As a tenant, your primary goals are safety, damage mitigation, and proper communication with your landlord.\n\nFollow this step-by-step protocol to manage the situation effectively.\n\n### 1. Prioritize Safety Immediately\nWater and electricity are a dangerous combination. Before touching anything, assess the environment.\n*   **Check for Electrical Hazards:** If the leak is near a light fixture, ceiling fan, or electrical outlet, do not touch the water or the fixture. If you can safely reach the circuit breaker panel, turn off the power to that specific room or the entire unit.\n*   **Watch for Structural Collapse:** If the ceiling is bulging, sagging heavily, or making a cracking sound, the drywall may be saturated and at risk of falling. Do not stand directly underneath the leak.\n*   **Avoid Slip Hazards:** Water on the floor can be slippery. Place a \"Wet Floor\" sign or a towel if necessary to prevent falls.\n\n### 2. Contain the Water\nYour goal is to stop the water from spreading to your belongings and the floor.\n*   **Catch the Water:** Place a bucket, pot, or large bowl directly under the drip. If the leak is heavy, you may need multiple containers.\n*   **Relieve Pressure (If Safe):** If the ceiling is bulging significantly, water pressure can cause a large section to collapse. If you are certain it is safe to do so (no electrical wires exposed), you can carefully puncture the center of the bulge with a screwdriver to drain the water into your bucket. This prevents a sudden, heavy collapse.\n*   **Move Valuables:** Immediately move electronics, furniture, rugs, and clothing away from the affected area. If you cannot move furniture, cover it with plastic sheeting or waterproof tarps.\n\n### 3. Document the Damage\nBefore the landlord arrives or repairs begin, you must create a record of the incident. This is crucial for insurance claims and liability disputes.\n*   **Take Photos and Video:** Capture wide shots of the room and close-ups of the leak, the water stains, and any damaged belongings. Ensure the timestamp is visible on your device.\n*   **Keep a Log:** Write down the exact",
+  "run_name": "2026-03-07-openrouter-v0-1"
+}

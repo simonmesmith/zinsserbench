@@ -1,0 +1,37 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.1",
+  "candidate_label": "Grok 4.1 Fast",
+  "candidate_model_id": "x-ai/grok-4.1-fast",
+  "created_at": "2026-03-07T15:10:44Z",
+  "metadata": {
+    "id": "gen-1772896236-9CXWmwmtpn4lRnUnb3Nh",
+    "usage": {
+      "completion_tokens": 896,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 396
+      },
+      "cost": 0.00046705,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.000448,
+        "upstream_inference_cost": 0.00046705,
+        "upstream_inference_prompt_cost": 1.905e-05
+      },
+      "is_byok": false,
+      "prompt_tokens": 207,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 149,
+        "video_tokens": 0
+      },
+      "total_tokens": 1103
+    }
+  },
+  "prompt_category": "personal_nonfiction",
+  "prompt_id": "personal_first_day_union_job",
+  "response_text": "# The Day Work Became a Brotherhood\n\nI'd always thought of work as a grind\u2014a necessary evil that chewed you up and spat you out leaner, meaner, and broker. My twenties were a blur of gig apps and retail hell: dashing through rush-hour traffic for DoorDash tips that barely covered gas, or stocking shelves at Walmart during Black Friday shifts that stretched to 12 hours without a real break. Work was survival, atomized and anonymous. You hustled alone, prayed for no bad reviews or micromanaging bosses, and crossed your fingers that rent wouldn't eat you alive before payday. Union jobs? They sounded like relics from some dusty history book, a myth for old-timers in hard hats. But desperation has a way of rewriting your script.\n\nIt was early 2019, and I'd hit bottom. A car breakdown killed my rideshare side, and the warehouse temp gig I'd scraped together paid $12 an hour with no benefits. Then, through a friend of a friend, I landed an interview at a massive distribution center for a national grocery chain. Teamsters Local 705. Entry-level loader, $22 an hour to start, full medical, pension. I showed up in my cleanest jeans, palms sweaty, expecting the usual bait-and-switch. Instead, the hiring manager\u2014a burly guy named Mike with a union pin on his lanyard\u2014handed me a copy of the contract before we even talked wages. \"Read this,\" he said. \"It's your Bible here.\"\n\nMy first day was a Monday in March, the kind of Chicago morning where the wind bites like it's got a grudge. I pulled into the vast parking lot at 5:45 a.m., the sky still bruised purple. Hundreds of cars already there\u2014pickups with bumper stickers reading \"Teamsters: Stronger Together\" and \"Don't Mourn, Organize.\" No scrambling for spots; the lot was union-negotiated, free and plentiful. I clocked in at the guard shack, got my photo ID badge, and was directed to the cafeteria for orientation. Not some cramped back room, but a real space with vending machines stocked by a local supplier and tables big enough for 50.\n\nThe orientation steward, Rosa, a Latina woman in her fifties with steel-gray hair and a no-nonsense ponytail, ran the show. She was fifth-generation Teamster, her dad a trucker, her mom a packer. \"This ain't no at-will playground,\" she said, sliding",
+  "run_name": "2026-03-07-openrouter-v0-1"
+}

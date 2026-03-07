@@ -1,0 +1,43 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.1",
+  "candidate_label": "Gemini 3.1 Flash Lite Preview",
+  "candidate_model_id": "google/gemini-3.1-flash-lite-preview",
+  "created_at": "2026-03-07T21:02:55Z",
+  "metadata": {
+    "id": "gen-1772917369-eJkR7Eb4cEdSH1ntElgb",
+    "quality_guard": {
+      "minimum_words": 100,
+      "reason": "",
+      "status": "ok",
+      "word_count": 395
+    },
+    "usage": {
+      "completion_tokens": 1092,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 542
+      },
+      "cost": 0.00165325,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.001638,
+        "upstream_inference_cost": 0.00165325,
+        "upstream_inference_prompt_cost": 1.525e-05
+      },
+      "is_byok": false,
+      "prompt_tokens": 61,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 1153
+    }
+  },
+  "prompt_category": "memo",
+  "prompt_id": "memo_budget_freeze",
+  "response_text": "**MEMORANDUM**\n\n**TO:** All Department Heads\n**FROM:** Office of the Chief Financial Officer\n**DATE:** October 26, 2023\n**SUBJECT:** Notice of Temporary Budget Freeze\n\nEffective immediately, [Hospital Name] is implementing a temporary freeze on all discretionary spending. This measure is a proactive step to ensure our fiscal stability in light of recent [e.g., rising supply costs/unexpected revenue fluctuations] and to ensure we remain well-positioned to meet our long-term operational goals.\n\nWe understand that this may impact your department\u2019s planned activities. Please review the following guidelines regarding what is affected and what remains prioritized.\n\n### What Is Affected\nThe following expenditures are frozen until further notice:\n*   **Non-Essential Equipment:** All purchases of non-clinical equipment or office furniture.\n*   **Professional Development:** Travel, conference registrations, and external training seminars.\n*   **New Hiring:** All non-clinical recruitment and open administrative positions are currently on hold.\n*   **Facility Upgrades:** Any non-critical renovations or aesthetic improvements to department spaces.\n*   **Discretionary Contracts:** New service contracts or renewals that involve an increase in cost.\n\n### What Is NOT Affected\nOur primary commitment remains the safety and care of our patients. The following areas are exempt from this freeze:\n*   **Patient Care Operations:** All medical supplies, pharmaceuticals, and clinical equipment necessary for direct patient treatment.\n*   **Staffing for Safety:** Essential clinical staffing levels required to maintain patient safety ratios and regulatory compliance.\n*   **Emergency Maintenance:** Repairs required to maintain the physical integrity of the facility or the functionality of critical life-support systems.\n*   **Grant-Funded Projects:** Expenditures strictly tied to restricted grant funding.\n\n### Next Steps for Managers\nWe ask that all department heads conduct a thorough review of their current pending purchase orders and outstanding invoices. Please categorize any pending items as \"Essential\" or \"Deferrable.\"\n\nIf you have questions regarding specific expenditures or believe a pending request is critical to your department\u2019s core function, please prepare the following information for your next meeting with the Finance Department:\n1.  The specific nature of the expense and why it is considered essential.\n2.  The potential impact on patient care or safety if the expense is deferred.\n3.  Any alternative solutions or cost-saving measures you have identified.\n\nWe appreciate your cooperation and your continued dedication to maintaining the high standard of care our community expects. We will provide an update on the status of this freeze by [Date].\n\nPlease direct any immediate questions to the Finance Office at [Extension/Email].",
+  "run_name": "2026-03-07-openrouter-v0-1-salvage-1"
+}

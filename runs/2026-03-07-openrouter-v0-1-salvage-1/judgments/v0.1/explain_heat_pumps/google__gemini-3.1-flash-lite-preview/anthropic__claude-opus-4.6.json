@@ -1,0 +1,47 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.1",
+  "candidate_model_id": "google/gemini-3.1-flash-lite-preview",
+  "created_at": "2026-03-07T21:12:28Z",
+  "judge_model_id": "anthropic/claude-opus-4.6",
+  "metadata": {
+    "id": "gen-1772917941-Ww7IY7M3dAtbSU6cGNkU",
+    "raw_text": "{\"scores\": {\"clarity\": 5, \"simplicity\": 4, \"brevity_economy\": 4, \"structure_flow\": 5, \"specificity_precision\": 4, \"humanity_voice\": 3, \"overall\": 4}, \"rationale\": \"Very clear and well-organized with a logical progression from how it works to why you'd choose one. The refrigerator-in-reverse analogy is effective. Specificity is good\u2014citing 300-400% efficiency ratings and mentioning federal tax credits\u2014though it could include approximate cost figures or temperature thresholds where performance drops. Language is mostly plain but occasionally drifts into slightly polished/marketing territory ('remarkably efficient,' 'streamlined system,' 'financially sound investment'), which also makes the voice feel a touch generic rather than genuinely conversational. Minor factual nuance missing: no mention that heat pump performance degrades in very cold climates, which a homeowner should know. Slight repetition of the 'moving heat vs. creating it' concept across sections. Overall a strong, well-structured explainer that accomplishes its task effectively.\"}",
+    "usage": {
+      "completion_tokens": 248,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 0
+      },
+      "cost": 0.010865,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.0062,
+        "upstream_inference_cost": 0.010865,
+        "upstream_inference_prompt_cost": 0.004665
+      },
+      "is_byok": false,
+      "prompt_tokens": 933,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 1181
+    }
+  },
+  "prompt_category": "explain",
+  "prompt_id": "explain_heat_pumps",
+  "rationale": "Very clear and well-organized with a logical progression from how it works to why you'd choose one. The refrigerator-in-reverse analogy is effective. Specificity is good\u2014citing 300-400% efficiency ratings and mentioning federal tax credits\u2014though it could include approximate cost figures or temperature thresholds where performance drops. Language is mostly plain but occasionally drifts into slightly polished/marketing territory ('remarkably efficient,' 'streamlined system,' 'financially sound investment'), which also makes the voice feel a touch generic rather than genuinely conversational. Minor factual nuance missing: no mention that heat pump performance degrades in very cold climates, which a homeowner should know. Slight repetition of the 'moving heat vs. creating it' concept across sections. Overall a strong, well-structured explainer that accomplishes its task effectively.",
+  "run_name": "2026-03-07-openrouter-v0-1-salvage-1",
+  "scores": {
+    "brevity_economy": 4,
+    "clarity": 5,
+    "humanity_voice": 3,
+    "overall": 4,
+    "simplicity": 4,
+    "specificity_precision": 4,
+    "structure_flow": 5
+  }
+}

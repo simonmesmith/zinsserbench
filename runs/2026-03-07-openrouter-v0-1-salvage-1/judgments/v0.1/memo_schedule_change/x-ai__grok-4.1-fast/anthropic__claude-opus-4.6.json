@@ -1,0 +1,47 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.1",
+  "candidate_model_id": "x-ai/grok-4.1-fast",
+  "created_at": "2026-03-07T21:39:52Z",
+  "judge_model_id": "anthropic/claude-opus-4.6",
+  "metadata": {
+    "id": "gen-1772919586-QHGDItl4IwkHiFQRwZhc",
+    "raw_text": "{\"scores\": {\"clarity\": 5, \"simplicity\": 5, \"brevity_economy\": 5, \"structure_flow\": 5, \"specificity_precision\": 5, \"humanity_voice\": 4, \"overall\": 5}, \"rationale\": \"Exceptionally well-structured memo with clear headers, bolded key details, and specific dates, times, pay rates, and deadlines. Language is plain and direct throughout. Nothing is repeated or padded. The flow moves logically from rationale \u2192 changes \u2192 assignments \u2192 next steps \u2192 contact info. Every detail is concrete: exact shift hours, break structure, overtime rates, holiday dates, posting deadlines, and contact information. Voice is warm and motivating ('Let's crush this season!') though a couple of phrases ('gear up,' 'top service levels') lean slightly corporate. Overall, this is a near-ideal example of the genre.\"}",
+    "usage": {
+      "completion_tokens": 199,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 0
+      },
+      "cost": 0.009235,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.004975,
+        "upstream_inference_cost": 0.009235,
+        "upstream_inference_prompt_cost": 0.00426
+      },
+      "is_byok": false,
+      "prompt_tokens": 852,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 1051
+    }
+  },
+  "prompt_category": "memo",
+  "prompt_id": "memo_schedule_change",
+  "rationale": "Exceptionally well-structured memo with clear headers, bolded key details, and specific dates, times, pay rates, and deadlines. Language is plain and direct throughout. Nothing is repeated or padded. The flow moves logically from rationale \u2192 changes \u2192 assignments \u2192 next steps \u2192 contact info. Every detail is concrete: exact shift hours, break structure, overtime rates, holiday dates, posting deadlines, and contact information. Voice is warm and motivating ('Let's crush this season!') though a couple of phrases ('gear up,' 'top service levels') lean slightly corporate. Overall, this is a near-ideal example of the genre.",
+  "run_name": "2026-03-07-openrouter-v0-1-salvage-1",
+  "scores": {
+    "brevity_economy": 5,
+    "clarity": 5,
+    "humanity_voice": 4,
+    "overall": 5,
+    "simplicity": 5,
+    "specificity_precision": 5,
+    "structure_flow": 5
+  }
+}

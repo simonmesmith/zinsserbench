@@ -1,0 +1,37 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.1",
+  "candidate_label": "Claude Sonnet 4.6",
+  "candidate_model_id": "anthropic/claude-sonnet-4.6",
+  "created_at": "2026-03-07T15:10:47Z",
+  "metadata": {
+    "id": "gen-1772896233-C5GnNvpG1ujVzBnXlaT4",
+    "usage": {
+      "completion_tokens": 500,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 84
+      },
+      "cost": 0.007746,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.0075,
+        "upstream_inference_cost": 0.007746,
+        "upstream_inference_prompt_cost": 0.000246
+      },
+      "is_byok": false,
+      "prompt_tokens": 82,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 582
+    }
+  },
+  "prompt_category": "personal_nonfiction",
+  "prompt_id": "personal_first_day_union_job",
+  "response_text": "# The Thirty-Minute Break\n\nThe foreman's name was Dale, and the first thing he told me was to slow down.\n\nI had just stacked forty-two boxes in twelve minutes. I know because I counted, the way you count everything when you are twenty-three and trying to prove something in a new place. The boxes held automotive parts\u2014I never learned exactly which ones\u2014and they weighed roughly thirty pounds each, and I had moved them from a pallet near the loading dock to a staging area along the south wall of the warehouse with what I believed was impressive efficiency. I was sweating through my gray t-shirt. I felt good.\n\nDale watched me with the patient expression of a man who had seen this particular performance many times. He was maybe fifty-five, with forearms that looked architectural, and he had been with the local for twenty-two years. He pointed at a folding chair near the break table.\n\n\"Sit down,\" he said. \"You're on your break.\"\n\nI told him I had just started. I had been on the floor for less than an hour.\n\n\"Doesn't matter,\" he said. \"Break's at ten. It's ten.\"\n\n---\n\nI had spent the previous four years doing what I'd been doing for most of my working life: non-union jobs that asked everything and promised almost nothing. A restaurant where the owner routinely held our checks until the following week because of what he called \"cash flow situations.\" A moving company that classified us as independent contractors so that a pulled back muscle became entirely our own personal financial problem. A call center where bathroom breaks were timed and managers walked the floor with clipboards, recording how long you'd been away from your headset. In that last place, I once ate a sandwich in four bites while walking back from the men's room because I was afraid of the clipboard.\n\nWhat those jobs taught me was a specific and very efficient lesson: your time is",
+  "run_name": "2026-03-07-openrouter-v0-1"
+}

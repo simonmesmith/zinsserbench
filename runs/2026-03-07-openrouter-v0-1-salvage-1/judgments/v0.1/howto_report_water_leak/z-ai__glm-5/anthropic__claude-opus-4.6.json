@@ -1,0 +1,47 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.1",
+  "candidate_model_id": "z-ai/glm-5",
+  "created_at": "2026-03-07T21:21:12Z",
+  "judge_model_id": "anthropic/claude-opus-4.6",
+  "metadata": {
+    "id": "gen-1772918466-mACGWDxlixw8a90GfPbX",
+    "raw_text": "{\"scores\": {\"clarity\": 5, \"simplicity\": 5, \"brevity_economy\": 4, \"structure_flow\": 5, \"specificity_precision\": 5, \"humanity_voice\": 4, \"overall\": 5}, \"rationale\": \"Exceptionally well-organized with a clear four-phase structure that mirrors the chronological reality of dealing with a leak. Specific, actionable advice throughout\u2014the sample email text, the mention of 24-48 hour mold timeline, the subrogation explanation, and the warning about ceiling bubbles all demonstrate genuine expertise rather than vague generalities. Language is plain and direct without being sterile. Minor dings: the title is a bit cutesy, the opening paragraph has slight throat-clearing ('can be panic-inducing'), and the voice occasionally tips toward template-like instructional tone rather than truly warm human engagement. The tip about not poking the ceiling bubble is a standout detail that shows real practical knowledge. The summary checklist at the end is a smart structural choice for a practical guide.\"}",
+    "usage": {
+      "completion_tokens": 234,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 0
+      },
+      "cost": 0.014355,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.00585,
+        "upstream_inference_cost": 0.014355,
+        "upstream_inference_prompt_cost": 0.008505
+      },
+      "is_byok": false,
+      "prompt_tokens": 1701,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 1935
+    }
+  },
+  "prompt_category": "service_howto",
+  "prompt_id": "howto_report_water_leak",
+  "rationale": "Exceptionally well-organized with a clear four-phase structure that mirrors the chronological reality of dealing with a leak. Specific, actionable advice throughout\u2014the sample email text, the mention of 24-48 hour mold timeline, the subrogation explanation, and the warning about ceiling bubbles all demonstrate genuine expertise rather than vague generalities. Language is plain and direct without being sterile. Minor dings: the title is a bit cutesy, the opening paragraph has slight throat-clearing ('can be panic-inducing'), and the voice occasionally tips toward template-like instructional tone rather than truly warm human engagement. The tip about not poking the ceiling bubble is a standout detail that shows real practical knowledge. The summary checklist at the end is a smart structural choice for a practical guide.",
+  "run_name": "2026-03-07-openrouter-v0-1-salvage-1",
+  "scores": {
+    "brevity_economy": 4,
+    "clarity": 5,
+    "humanity_voice": 4,
+    "overall": 5,
+    "simplicity": 5,
+    "specificity_precision": 5,
+    "structure_flow": 5
+  }
+}

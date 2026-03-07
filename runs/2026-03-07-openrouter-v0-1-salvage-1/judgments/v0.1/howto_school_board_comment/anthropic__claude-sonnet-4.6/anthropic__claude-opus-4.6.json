@@ -1,0 +1,47 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.1",
+  "candidate_model_id": "anthropic/claude-sonnet-4.6",
+  "created_at": "2026-03-07T21:33:26Z",
+  "judge_model_id": "anthropic/claude-opus-4.6",
+  "metadata": {
+    "id": "gen-1772919199-Y17LTjSLTCL22YH2ZXEx",
+    "raw_text": "{\"scores\": {\"clarity\": 5, \"simplicity\": 5, \"brevity_economy\": 4, \"structure_flow\": 5, \"specificity_precision\": 5, \"humanity_voice\": 4, \"overall\": 4}, \"rationale\": \"The writing is exceptionally clear, well-organized with numbered steps and bold subheadings, and uses plain, direct language throughout. Specificity is a strength: it names concrete details like typical comment lengths, policy manual locations, and types of public records. The opening line ('can feel intimidating') shows reader-awareness and warmth. The line 'Vague complaints rarely produce results; specific requests do' is sharp and useful. Brevity is good\u2014no throat-clearing or padding\u2014though the piece is incomplete (cuts off mid-Step 3), which limits the overall score. What exists is high-quality practical nonfiction, but the truncation means the guide doesn't deliver on its full promise.\"}",
+    "usage": {
+      "completion_tokens": 249,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 16
+      },
+      "cost": 0.010465,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.006225,
+        "upstream_inference_cost": 0.010465,
+        "upstream_inference_prompt_cost": 0.00424
+      },
+      "is_byok": false,
+      "prompt_tokens": 848,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 1097
+    }
+  },
+  "prompt_category": "service_howto",
+  "prompt_id": "howto_school_board_comment",
+  "rationale": "The writing is exceptionally clear, well-organized with numbered steps and bold subheadings, and uses plain, direct language throughout. Specificity is a strength: it names concrete details like typical comment lengths, policy manual locations, and types of public records. The opening line ('can feel intimidating') shows reader-awareness and warmth. The line 'Vague complaints rarely produce results; specific requests do' is sharp and useful. Brevity is good\u2014no throat-clearing or padding\u2014though the piece is incomplete (cuts off mid-Step 3), which limits the overall score. What exists is high-quality practical nonfiction, but the truncation means the guide doesn't deliver on its full promise.",
+  "run_name": "2026-03-07-openrouter-v0-1-salvage-1",
+  "scores": {
+    "brevity_economy": 4,
+    "clarity": 5,
+    "humanity_voice": 4,
+    "overall": 4,
+    "simplicity": 5,
+    "specificity_precision": 5,
+    "structure_flow": 5
+  }
+}

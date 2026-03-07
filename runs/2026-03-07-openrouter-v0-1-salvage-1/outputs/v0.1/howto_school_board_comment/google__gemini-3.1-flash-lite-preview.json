@@ -1,0 +1,43 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.1",
+  "candidate_label": "Gemini 3.1 Flash Lite Preview",
+  "candidate_model_id": "google/gemini-3.1-flash-lite-preview",
+  "created_at": "2026-03-07T21:05:23Z",
+  "metadata": {
+    "id": "gen-1772917515-IkMujT3bFZCexxiI9GnT",
+    "quality_guard": {
+      "minimum_words": 140,
+      "reason": "",
+      "status": "ok",
+      "word_count": 722
+    },
+    "usage": {
+      "completion_tokens": 1746,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 781
+      },
+      "cost": 0.00263025,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.002619,
+        "upstream_inference_cost": 0.00263025,
+        "upstream_inference_prompt_cost": 1.125e-05
+      },
+      "is_byok": false,
+      "prompt_tokens": 45,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 1791
+    }
+  },
+  "prompt_category": "service_howto",
+  "prompt_id": "howto_school_board_comment",
+  "response_text": "Speaking at a school board meeting is one of the most effective ways to advocate for your child and influence district policy. However, because these meetings are formal public proceedings, success depends on preparation and adherence to protocol.\n\nHere is a practical guide to preparing for your testimony.\n\n### 1. Understand the Rules and Logistics\nBefore you write a single word, you must understand the constraints of the meeting.\n*   **Check the Agenda:** Visit the district website to find the meeting agenda. Ensure the topic you wish to address is appropriate for the board\u2019s jurisdiction. (Note: School boards set policy; they generally do not handle individual grievances regarding specific teachers or students, which should be directed to the principal or superintendent.)\n*   **Review Public Comment Policies:** Most boards have strict rules regarding public comment. Look for the \"Public Participation\" section of the board policy manual. Note the deadline for signing up to speak, the time limit per person (usually 2\u20133 minutes), and whether you must register in advance or at the door.\n*   **Know the Format:** Determine if you are speaking on an agenda item or during the general public comment period.\n\n### 2. Draft Your Statement\nA school board meeting is not the place for a long-winded speech. You have a very limited window to make an impact.\n*   **The Structure:**\n    *   **The Hook:** State your name, your connection to the district (e.g., \"I am a parent of a student at X Elementary\"), and the specific issue you are addressing.\n    *   **The Problem:** Clearly define the issue. Use data or specific examples rather than vague complaints.\n    *   **The Impact:** Explain how this issue affects students, teachers, or the community.\n    *   **The Call to Action:** Be specific about what you want the board to do. Do you want them to vote a certain way? Request a report? Form a committee?\n*   **Keep it Concise:** A standard speaking pace is about 130 words per minute. If you have three minutes, aim for a speech of no more than 350\u2013400 words.\n*   **Maintain Professionalism:** Avoid personal attacks, shouting, or inflammatory language. You are more likely to be heard if you remain calm, firm, and respectful.\n\n### 3. Practice Your Delivery\nThe environment of a board meeting can be intimidating, with bright lights, microphones, and a dais of elected officials.\n*   **Read Aloud:** Read your speech out loud multiple times to ensure the flow is natural and you aren't stumbling over words.\n*   **Time Yourself:** If you go over your allotted time, the board president will cut you off mid-sentence. Practice with a timer to ensure you finish within the limit.\n*   **Prepare for the Mic:** Practice speaking clearly and directly into a microphone.\n\n### 4. The Day of the Meeting\n*   **Bring a Written Copy:** Bring at least three printed copies of your statement: one for yourself, one for the board secretary (for the official record), and one as a backup.\n*   **Arrive Early:** Arrive at least 15\u201320 minutes before the meeting starts to check in with the board secretary and ensure your name is on the list.\n*   **Observe the Room:** Take a seat and observe the proceedings before your turn. Pay attention to how the board interacts with other speakers.\n\n### 5. Delivering Your Testimony\n*   **State Your Name:** When you reach the podium, state your name and address (if required by policy) clearly for the record.\n*   **Speak to the Board:** Address your comments to the Board President or the board as a whole, not to the audience behind you.\n*   **Stay Focused:** If you get nervous, stick to your written notes. Do not feel pressured to improvise.\n*   **Accept the Time Limit:** If the timer goes off, conclude your sentence and thank the board. Do not argue for more time.\n\n### 6. Follow Up\nDo not expect an immediate response. By law, school board members often cannot engage in a debate during the public comment portion of the meeting.\n*   **Email the Board:** After the meeting, send a follow-up email to the board members summarizing your points and attaching your written statement.\n*   **Track the Issue:** Monitor future agendas to see if your issue is addressed or if a follow-up discussion is scheduled. If you don't see progress, continue to show up\u2014consistency is the most powerful tool in local advocacy.",
+  "run_name": "2026-03-07-openrouter-v0-1-salvage-1"
+}

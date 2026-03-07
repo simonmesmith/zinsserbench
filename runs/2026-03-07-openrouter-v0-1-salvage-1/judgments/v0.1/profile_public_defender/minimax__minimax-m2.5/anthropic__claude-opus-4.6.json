@@ -1,0 +1,47 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.1",
+  "candidate_model_id": "minimax/minimax-m2.5",
+  "created_at": "2026-03-07T21:33:02Z",
+  "judge_model_id": "anthropic/claude-opus-4.6",
+  "metadata": {
+    "id": "gen-1772919175-p6PPVhhnPeMnEv9rXNOU",
+    "raw_text": "{\"scores\": {\"clarity\": 5, \"simplicity\": 5, \"brevity_economy\": 5, \"structure_flow\": 5, \"specificity_precision\": 5, \"humanity_voice\": 5, \"overall\": 5}, \"rationale\": \"This is exceptional profile writing. Every detail is concrete and purposeful\u2014the 5:47 alarm, the 247 cases, the 1978 building, the 14,000 annual caseload against 12 attorneys. The sensory details ('cleaning solution and anxiety') are precise without being overwrought. The prose is stripped clean with no wasted words, yet it carries enormous emotional weight through restraint\u2014'She is thirty-nine years old' as a standalone sentence is devastating in context. The structure moves logically from personal morning routine to the institutional reality, building a portrait through accumulation of specific facts rather than editorializing. The voice is distinctly human and literary without sacrificing journalistic clarity. The juxtaposition of ABA standards against Santos's actual caseload lets the reader draw conclusions without being told what to feel. Though the piece is incomplete (cuts off mid-sentence), what exists is among the best profile writing one could produce for this prompt.\"}",
+    "usage": {
+      "completion_tokens": 272,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 0
+      },
+      "cost": 0.010565,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.0068,
+        "upstream_inference_cost": 0.010565,
+        "upstream_inference_prompt_cost": 0.003765
+      },
+      "is_byok": false,
+      "prompt_tokens": 753,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 1025
+    }
+  },
+  "prompt_category": "profile",
+  "prompt_id": "profile_public_defender",
+  "rationale": "This is exceptional profile writing. Every detail is concrete and purposeful\u2014the 5:47 alarm, the 247 cases, the 1978 building, the 14,000 annual caseload against 12 attorneys. The sensory details ('cleaning solution and anxiety') are precise without being overwrought. The prose is stripped clean with no wasted words, yet it carries enormous emotional weight through restraint\u2014'She is thirty-nine years old' as a standalone sentence is devastating in context. The structure moves logically from personal morning routine to the institutional reality, building a portrait through accumulation of specific facts rather than editorializing. The voice is distinctly human and literary without sacrificing journalistic clarity. The juxtaposition of ABA standards against Santos's actual caseload lets the reader draw conclusions without being told what to feel. Though the piece is incomplete (cuts off mid-sentence), what exists is among the best profile writing one could produce for this prompt.",
+  "run_name": "2026-03-07-openrouter-v0-1-salvage-1",
+  "scores": {
+    "brevity_economy": 5,
+    "clarity": 5,
+    "humanity_voice": 5,
+    "overall": 5,
+    "simplicity": 5,
+    "specificity_precision": 5,
+    "structure_flow": 5
+  }
+}

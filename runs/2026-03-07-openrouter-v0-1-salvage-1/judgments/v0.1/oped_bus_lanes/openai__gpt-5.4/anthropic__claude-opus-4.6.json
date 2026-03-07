@@ -1,0 +1,47 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.1",
+  "candidate_model_id": "openai/gpt-5.4",
+  "created_at": "2026-03-07T21:23:08Z",
+  "judge_model_id": "anthropic/claude-opus-4.6",
+  "metadata": {
+    "id": "gen-1772918572-EY5mscMq7ChcgHGO80Ao",
+    "raw_text": "{\"scores\": {\"clarity\": 5, \"simplicity\": 5, \"brevity_economy\": 4, \"structure_flow\": 4, \"specificity_precision\": 3, \"humanity_voice\": 4, \"overall\": 4}, \"rationale\": \"Very clear, direct prose with no jargon or inflated language. The structure moves logically from scene-setting to efficiency, reliability, counterargument rebuttal, and equity. The piece is cut off mid-sentence, which hurts structure and completeness. Main weakness is specificity: no city examples, ridership numbers, travel-time data, or cost figures\u2014arguments rest on reasonable but unquantified generalizations (e.g., 'far more people,' 'disproportionately working people'). The 20-vs-45-minute illustration is effective but hypothetical. Voice is confident and engaging ('This is not a radical idea. It is a practical one.') without sounding mechanical. Economy is good\u2014no real throat-clearing\u2014though the congestion-shift argument slightly reiterates points already made.\"}",
+    "usage": {
+      "completion_tokens": 700,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 370
+      },
+      "cost": 0.02192,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.0175,
+        "upstream_inference_cost": 0.02192,
+        "upstream_inference_prompt_cost": 0.00442
+      },
+      "is_byok": false,
+      "prompt_tokens": 884,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 1584
+    }
+  },
+  "prompt_category": "persuasion_oped",
+  "prompt_id": "oped_bus_lanes",
+  "rationale": "Very clear, direct prose with no jargon or inflated language. The structure moves logically from scene-setting to efficiency, reliability, counterargument rebuttal, and equity. The piece is cut off mid-sentence, which hurts structure and completeness. Main weakness is specificity: no city examples, ridership numbers, travel-time data, or cost figures\u2014arguments rest on reasonable but unquantified generalizations (e.g., 'far more people,' 'disproportionately working people'). The 20-vs-45-minute illustration is effective but hypothetical. Voice is confident and engaging ('This is not a radical idea. It is a practical one.') without sounding mechanical. Economy is good\u2014no real throat-clearing\u2014though the congestion-shift argument slightly reiterates points already made.",
+  "run_name": "2026-03-07-openrouter-v0-1-salvage-1",
+  "scores": {
+    "brevity_economy": 4,
+    "clarity": 5,
+    "humanity_voice": 4,
+    "overall": 4,
+    "simplicity": 5,
+    "specificity_precision": 3,
+    "structure_flow": 4
+  }
+}

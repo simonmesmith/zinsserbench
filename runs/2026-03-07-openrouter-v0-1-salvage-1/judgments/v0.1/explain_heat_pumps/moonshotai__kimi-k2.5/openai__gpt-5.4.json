@@ -1,0 +1,47 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.1",
+  "candidate_model_id": "moonshotai/kimi-k2.5",
+  "created_at": "2026-03-07T21:13:03Z",
+  "judge_model_id": "openai/gpt-5.4",
+  "metadata": {
+    "id": "gen-1772917978-D08WorA95bmHRvvOOaSn",
+    "raw_text": "{\"scores\":{\"clarity\":5,\"simplicity\":4,\"brevity_economy\":5,\"structure_flow\":5,\"specificity_precision\":5,\"humanity_voice\":4,\"overall\":5},\"rationale\":\"Clear, well-organized explainer that answers both how heat pumps work and why a homeowner might choose one. It uses helpful comparisons and concrete details (3\u20134 units of heat, 95% furnace efficiency, cold-climate caveat) without wandering. Slightly less plain in spots\u2014phrases like \\\"inherently inefficient\\\" and \\\"future-proofs\\\" feel a bit promotional or overstated\u2014but overall it is strong, concise, and reader-friendly.\"}",
+    "usage": {
+      "completion_tokens": 263,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 115
+      },
+      "cost": 0.0057825,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.003945,
+        "upstream_inference_cost": 0.0057825,
+        "upstream_inference_prompt_cost": 0.0018375
+      },
+      "is_byok": false,
+      "prompt_tokens": 735,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 998
+    }
+  },
+  "prompt_category": "explain",
+  "prompt_id": "explain_heat_pumps",
+  "rationale": "Clear, well-organized explainer that answers both how heat pumps work and why a homeowner might choose one. It uses helpful comparisons and concrete details (3\u20134 units of heat, 95% furnace efficiency, cold-climate caveat) without wandering. Slightly less plain in spots\u2014phrases like \"inherently inefficient\" and \"future-proofs\" feel a bit promotional or overstated\u2014but overall it is strong, concise, and reader-friendly.",
+  "run_name": "2026-03-07-openrouter-v0-1-salvage-1",
+  "scores": {
+    "brevity_economy": 5,
+    "clarity": 5,
+    "humanity_voice": 4,
+    "overall": 5,
+    "simplicity": 4,
+    "specificity_precision": 5,
+    "structure_flow": 5
+  }
+}

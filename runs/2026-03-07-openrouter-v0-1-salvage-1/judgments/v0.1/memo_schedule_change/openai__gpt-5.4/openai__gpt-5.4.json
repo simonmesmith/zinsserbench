@@ -1,0 +1,47 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.1",
+  "candidate_model_id": "openai/gpt-5.4",
+  "created_at": "2026-03-07T21:55:12Z",
+  "judge_model_id": "openai/gpt-5.4",
+  "metadata": {
+    "id": "gen-1772920506-Sp75T0IdHplRS2w818fh",
+    "raw_text": "{\"scores\":{\"clarity\":4,\"simplicity\":4,\"brevity_economy\":4,\"structure_flow\":4,\"specificity_precision\":3,\"humanity_voice\":3,\"overall\":4},\"rationale\":\"Clear, well-organized memo with plain language and useful shift details. It stays concise and covers the key points employees need. Precision is limited by placeholders and vague notes about overtime/weekends, and the cut-off final sentence makes it feel unfinished and slightly less human.\"}",
+    "usage": {
+      "completion_tokens": 359,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 251
+      },
+      "cost": 0.0072575,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.005385,
+        "upstream_inference_cost": 0.0072575,
+        "upstream_inference_prompt_cost": 0.0018725
+      },
+      "is_byok": false,
+      "prompt_tokens": 749,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 1108
+    }
+  },
+  "prompt_category": "memo",
+  "prompt_id": "memo_schedule_change",
+  "rationale": "Clear, well-organized memo with plain language and useful shift details. It stays concise and covers the key points employees need. Precision is limited by placeholders and vague notes about overtime/weekends, and the cut-off final sentence makes it feel unfinished and slightly less human.",
+  "run_name": "2026-03-07-openrouter-v0-1-salvage-1",
+  "scores": {
+    "brevity_economy": 4,
+    "clarity": 4,
+    "humanity_voice": 3,
+    "overall": 4,
+    "simplicity": 4,
+    "specificity_precision": 3,
+    "structure_flow": 4
+  }
+}

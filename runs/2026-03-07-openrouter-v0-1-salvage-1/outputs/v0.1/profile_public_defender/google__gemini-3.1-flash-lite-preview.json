@@ -1,0 +1,43 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.1",
+  "candidate_label": "Gemini 3.1 Flash Lite Preview",
+  "candidate_model_id": "google/gemini-3.1-flash-lite-preview",
+  "created_at": "2026-03-07T21:05:07Z",
+  "metadata": {
+    "id": "gen-1772917499-7dzu3sR8LGp6vMLRUR2T",
+    "quality_guard": {
+      "minimum_words": 200,
+      "reason": "",
+      "status": "ok",
+      "word_count": 680
+    },
+    "usage": {
+      "completion_tokens": 1474,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 570
+      },
+      "cost": 0.002222,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.002211,
+        "upstream_inference_cost": 0.002222,
+        "upstream_inference_prompt_cost": 1.1e-05
+      },
+      "is_byok": false,
+      "prompt_tokens": 44,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 1518
+    }
+  },
+  "prompt_category": "profile",
+  "prompt_id": "profile_public_defender",
+  "response_text": "The fluorescent lights in the basement of the County Public Defender\u2019s office in Riverton hum with a low, persistent buzz that seems to vibrate in Elena\u2019s teeth. It is 7:45 a.m., and her desk is a topographical map of human crisis. There are stacks of manila folders\u2014eighty-two active cases\u2014piled so high they threaten to topple onto her keyboard.\n\nElena has been a public defender for seven years. In a midsize city like Riverton, the job is not the cinematic drama of high-profile murder trials. It is a relentless, grinding assembly line of petty theft, drug possession, probation violations, and domestic disputes. It is the work of triage.\n\n\"I\u2019m not a lawyer today,\" she says, stirring a cup of lukewarm coffee. \"I\u2019m a traffic controller.\"\n\nHer morning begins with the \"jail list.\" She scans the names of clients who were arrested overnight. There are four of them. She has to decide which one needs her presence in the arraignment court most urgently. One is a repeat offender with a mental health history; another is a nineteen-year-old facing his first felony charge. She chooses the teenager. She has to.\n\nBy 9:30 a.m., she is in Courtroom 4B. The air is thick with the smell of floor wax and unwashed wool. The judge, a man who views the docket as a race against his lunch hour, is already moving. \n\n\"Counsel, are we ready?\" the judge asks, not looking up from his notes.\n\n\"Ready, Your Honor,\" Elena says, her voice steady despite the fact that she only received the discovery for this case fifteen minutes ago.\n\nThis is the reality of the heavy caseload: the \"drive-by\" representation. She has three minutes to explain to her client, a man named Marcus, that the prosecutor is offering a plea deal that will keep him out of jail but leave him with a record that will make finding a job nearly impossible. \n\n\"If we push for trial, we\u2019re looking at six months,\" she whispers to him, leaning over the wooden partition. \"If we take this, you go home today. I know it\u2019s not fair. I know you didn't do what they say you did. But I can\u2019t guarantee a win, and I can\u2019t guarantee you won't lose your apartment if you\u2019re sitting in county for the next three weeks waiting for a jury.\"\n\nMarcus looks at her, his eyes tired. He\u2019s heard this before. He nods. Elena signs the papers. It is a victory of sorts\u2014he isn't going to jail\u2014but it feels like a defeat. It is the quiet, soul-eroding compromise that defines her career.\n\nBy mid-afternoon, the adrenaline has worn off, replaced by a dull, throbbing headache. She spends two hours in the \"interview room\"\u2014a windowless concrete box\u2014talking to a client who is convinced the government is tracking his thoughts. She listens, not because she can fix his delusions, but because she is the only person in the system who is paid to listen to him without judgment.\n\nThe burnout is a constant, ambient pressure. Elena sees the turnover in her office; colleagues leave every few months for private firms, for better pay, for jobs where they don't have to carry the weight of eighty-two lives on their shoulders. She stays because she believes that the system, for all its flaws, requires a firewall. Without her, the machine would simply crush the people who cannot afford to buy their way out of it.\n\nAt 6:30 p.m., the courthouse is mostly empty. Elena walks back to her office. She picks up a file from the top of the stack\u2014a woman charged with shoplifting diapers and formula. She opens it, reads the police report, and begins to draft a motion. \n\nShe is exhausted, her back aches, and she knows that tomorrow will be exactly the same. She will walk into the basement, the lights will hum, and the stack of files will be waiting. She takes a breath, clicks her pen, and starts to write. In Riverton, justice is not a grand, sweeping gesture; it is a series of small, desperate acts, performed one file at a time.",
+  "run_name": "2026-03-07-openrouter-v0-1-salvage-1"
+}

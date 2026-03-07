@@ -1,0 +1,37 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.1",
+  "candidate_label": "GLM-5",
+  "candidate_model_id": "z-ai/glm-5",
+  "created_at": "2026-03-07T15:13:17Z",
+  "metadata": {
+    "id": "gen-1772896384-nPup0DHJRxcqCIwJxhaN",
+    "usage": {
+      "completion_tokens": 500,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 157
+      },
+      "cost": 0.0016244,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.001575,
+        "upstream_inference_cost": 0.0016244,
+        "upstream_inference_prompt_cost": 4.94e-05
+      },
+      "is_byok": false,
+      "prompt_tokens": 52,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 552
+    }
+  },
+  "prompt_category": "profile",
+  "prompt_id": "profile_public_defender",
+  "response_text": "# The Weight of 187 Files\n\nMarta Reyes keeps a mental tally of her clients. Not by name\u2014there are too many for that\u2014but by the shape of their trouble. The shape changes, but the weight stays the same.\n\nIt's 7:45 a.m. on a Tuesday in the public defender's office of Millbrook County, a midsize jurisdiction in the industrial Midwest. Reyes has been at her desk for forty minutes. Before noon, she will meet with six clients, argue two bail hearings, and review a plea offer that could mean the difference between probation and three years in state prison. She will not eat breakfast. She will forget to call her mother back. She will drive home in the dark and think about the one she couldn't save, the one whose face she can't quite remember anymore.\n\nHer caseload currently stands at 187 open files.\n\n---\n\nThe public defender's office occupies the third floor of a concrete building across the street from the courthouse, connected by a pedestrian bridge that everyone calls the Bridge of Sorrows, though no one remembers who coined the phrase. The carpets are gray, the walls are beige, the filing cabinets are army surplus from a government auction in 1987. The office smells like stale coffee and the particular desperation of bureaucratic inertia.\n\nReyes, forty-three, has worked here for eleven years. She grew up three miles from where she now sits, daughter of a factory worker and a school secretary, first in her family to attend college, then law school at the state university, then back home because the debt was real and the idealism was realer. She planned to stay two years. Two years became five. Five became eleven",
+  "run_name": "2026-03-07-openrouter-v0-1"
+}

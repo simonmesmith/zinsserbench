@@ -1,0 +1,37 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.1",
+  "candidate_label": "Qwen 3.5 35B A3B",
+  "candidate_model_id": "qwen/qwen3.5-35b-a3b",
+  "created_at": "2026-03-07T16:09:01Z",
+  "metadata": {
+    "id": "gen-1772899731-uSAFtYCgMAdpQJyj6tOl",
+    "usage": {
+      "completion_tokens": 1431,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 925
+      },
+      "cost": 0.0018702125,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.002862,
+        "upstream_inference_cost": 0.00287725,
+        "upstream_inference_prompt_cost": 1.525e-05
+      },
+      "is_byok": false,
+      "prompt_tokens": 61,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 1492
+    }
+  },
+  "prompt_category": "personal_nonfiction",
+  "prompt_id": "personal_night_shift_bus",
+  "response_text": "The route number was 42, but we didn't call it that. We called it the Night Owl, or sometimes just the 11:45. It was the last bus out of the financial district, the one that picked up the shift workers, the insomniacs, and the people who had stayed too late at the office to catch the subway. For three hundred and sixty-five days, I sat in the second row, window seat, left side, watching the city dissolve into the dark.\n\nAt first, the ride was a punishment. It was the cost of a job that paid well but demanded my evenings. I would step onto the bus smelling of stale coffee and dry cleaning, my shoulders hunched against the weight of the day. The driver, a man named Elias with a beard like steel wool and a cap pulled low, never looked up from the road. He was the anchor of the vessel. He knew the rhythm of the brakes, the exact pitch of the turn signal, the way the engine groaned when the temperature dropped below freezing.\n\nThe first month was defined by the silence. It wasn't an empty silence, but a heavy, pressurized one. There were usually six or seven of us. A nurse in scrubs who slept with her head against the glass, her breathing a soft metronome. A young man in a suit who checked his phone until the screen went black, then stared at his reflection. A woman who always wore a red coat, regardless of the season. We were a congregation of strangers bound by a shared destination and a shared exhaustion. We didn't speak. To speak was to acknowledge that we were all alone together.\n\nBy November, the city had changed. The leaves were gone, and the streetlights cast long, skeletal shadows across the wet pavement. The bus smelled different then\u2014diesel mixed with the damp wool of coats and the faint, sweet scent of rain. I began to notice the details I had previously ignored. The peeling sticker on the back of the seat in front of me, advertising a lost dog in Queens. The way the condensation on the window would freeze into fern-like patterns when the heater kicked on.\n\nI started to arrive at the bus stop before the bus did. I would stand there, watching the street, waiting for the headlights to cut through the fog. There was a comfort in the predictability. In a life that felt increasingly chaotic, the",
+  "run_name": "2026-03-07-openrouter-v0-1"
+}

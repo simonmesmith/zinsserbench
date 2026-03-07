@@ -1,0 +1,37 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.1",
+  "candidate_label": "Kimi K2.5",
+  "candidate_model_id": "moonshotai/kimi-k2.5",
+  "created_at": "2026-03-07T16:15:48Z",
+  "metadata": {
+    "id": "gen-1772900103-AnDpQ8ViJG2vt29xp9wT",
+    "usage": {
+      "completion_tokens": 1499,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 829
+      },
+      "cost": 0.003903185,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.0038974,
+        "upstream_inference_cost": 0.003903185,
+        "upstream_inference_prompt_cost": 5.785e-06
+      },
+      "is_byok": false,
+      "prompt_tokens": 65,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 65,
+        "video_tokens": 0
+      },
+      "total_tokens": 1564
+    }
+  },
+  "prompt_category": "profile",
+  "prompt_id": "profile_school_custodian",
+  "response_text": "At 5:15 each morning, Jim Kowalski disables the alarm system at Roosevelt High and stands still for seventeen seconds, listening to the building exhale. The heat ticks in the radiators. The gymnasium roof settles with a groan that\u2019s particular to February. In twenty-eight years, he has learned that a silence at 5:17 means a compressor has failed in the science wing; a whistle at 5:22 means the wind has shifted the loose vent on the auditorium.\n\nHe wears navy coveralls frayed at the cuffs and a ring of forty-seven keys that weighs two pounds exactly. He is sixty-two now, and his beard, once brown, has gone the color of steel wool. He moves through the corridors with a slight limp\u2014an old basketball injury from his own days at Roosevelt in 1980, before he returned in 1996 to fix the place instead of dribble through it.\n\nBy 6:30, he has unlocked the east doors, brewed coffee in the teachers\u2019 lounge, and begun his first round. This is when the memorization happens. Freshmen arrive earliest, nervous, clutching instrument cases and spiral notebooks. Jim doesn\u2019t just learn faces; he learns contexts. He knows that Marcus Chen only wears his glasses on test days, that the Rodriguez twins switch hoodies on Tuesdays to confuse their English teacher, that Jenna Walsh carries her late mother\u2019s keychain on a carabiner clipped to her backpack. He maintains a mental card file of 1,200 names, updated every August when the new class arrives terrified and nameless, then filed away by June when they leave taller and louder.\n\n\u201cYou\u2019re wearing the wrong shoes for slush,\u201d he\u2019ll call to a sophomore in canvas sneakers, not breaking stride as he pushes a dust mop down the history hallway. \u201cHow\u2019s your sister doing at State?\u201d he asks a senior at her locker, though he has never spoken to the sister, only overheard the conversation three weeks prior in the cafeteria line.\n\nTeachers rotate through Roosevelt on seven-year cycles. Principals have come and gone\u2014four of them since 1996. The building itself has been altered: the 2009 flood destroyed the basement band room, the 2015 renovation added a glass atrium that Jim still hasn\u2019t fully trusted structurally. But he remains, the institutional memory made flesh. He knows which floor tiles in the west wing pop loose when the humidity hits eighty percent. He knows that the third stall in the girls\u2019 bathroom near the art rooms has had a broken latch since 2004, and he has replaced it fourteen times, each time inscribing the date in Sharpie on the metal flange where no one looks.\n\nHis work is largely invisible by design. Students see him vacuuming the library carpet at 7:00 AM or buffing the cafeteria floors at 3:30 PM, but they rarely register the labor until it stops\u2014the trash that overflows, the lock that jams, the hallway that goes un-salted. What they do see is the recognition. In a school of concrete and bells and standardized tests, Jim offers the specific gravity of being known.\n\nOn graduation day, he stands at the rear of the gymnasium in his one suit, the navy one he bought for his daughter\u2019s wedding in 2018. The seniors file past in caps and gowns, and they break formation to hug him\u2014the valedictorian who once vomited in the trophy case during freshman orientation, the linebacker he taught to change a tire in the parking lot during a study hall, the quiet girl who ate lunch alone in the band room for three years until Jim started leaving the radio tuned to classical music at noon. He shakes their hands and says their names, every one of them, releasing them from the building he has kept standing, watching them go out into the morning light that he has already been awake to see for two hours.",
+  "run_name": "2026-03-07-openrouter-v0-1"
+}

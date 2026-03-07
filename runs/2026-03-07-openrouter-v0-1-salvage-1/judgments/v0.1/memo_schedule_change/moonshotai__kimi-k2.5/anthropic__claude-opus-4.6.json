@@ -1,0 +1,47 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.1",
+  "candidate_model_id": "moonshotai/kimi-k2.5",
+  "created_at": "2026-03-07T21:55:41Z",
+  "judge_model_id": "anthropic/claude-opus-4.6",
+  "metadata": {
+    "id": "gen-1772920533-6p7Wxld9SyaULMAD2D9F",
+    "raw_text": "{\"scores\": {\"clarity\": 5, \"simplicity\": 5, \"brevity_economy\": 4, \"structure_flow\": 5, \"specificity_precision\": 4, \"humanity_voice\": 5, \"overall\": 5}, \"rationale\": \"Exceptionally well-structured memo with clear headers, bullet points, and logical flow from context \u2192 changes \u2192 expectations \u2192 action items \u2192 support. Language is plain and direct throughout, appropriate for a warehouse audience. The humanity shines through with genuine acknowledgment of sacrifice, fatigue concerns, and accommodation offers\u2014it reads like a manager who actually cares. Specificity is strong with concrete shift times, pay details, meal provisions, and parking improvements, though the bracketed placeholders ([Date], [Your Name]) are expected for a template but slightly reduce the precision score. Brevity is nearly perfect\u2014every section earns its space\u2014though the closing could be trimmed slightly. The $2/hour differential, extended breaks, and meal provisions show thoughtful anticipation of employee concerns. One minor note: the shift overlaps (Day ends 4:30, Evening starts 2:00; Evening ends 12:30, Overnight starts 10:00) are realistic and well-handled.\"}",
+    "usage": {
+      "completion_tokens": 272,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 0
+      },
+      "cost": 0.01194,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.0068,
+        "upstream_inference_cost": 0.01194,
+        "upstream_inference_prompt_cost": 0.00514
+      },
+      "is_byok": false,
+      "prompt_tokens": 1028,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 1300
+    }
+  },
+  "prompt_category": "memo",
+  "prompt_id": "memo_schedule_change",
+  "rationale": "Exceptionally well-structured memo with clear headers, bullet points, and logical flow from context \u2192 changes \u2192 expectations \u2192 action items \u2192 support. Language is plain and direct throughout, appropriate for a warehouse audience. The humanity shines through with genuine acknowledgment of sacrifice, fatigue concerns, and accommodation offers\u2014it reads like a manager who actually cares. Specificity is strong with concrete shift times, pay details, meal provisions, and parking improvements, though the bracketed placeholders ([Date], [Your Name]) are expected for a template but slightly reduce the precision score. Brevity is nearly perfect\u2014every section earns its space\u2014though the closing could be trimmed slightly. The $2/hour differential, extended breaks, and meal provisions show thoughtful anticipation of employee concerns. One minor note: the shift overlaps (Day ends 4:30, Evening starts 2:00; Evening ends 12:30, Overnight starts 10:00) are realistic and well-handled.",
+  "run_name": "2026-03-07-openrouter-v0-1-salvage-1",
+  "scores": {
+    "brevity_economy": 4,
+    "clarity": 5,
+    "humanity_voice": 5,
+    "overall": 5,
+    "simplicity": 5,
+    "specificity_precision": 4,
+    "structure_flow": 5
+  }
+}

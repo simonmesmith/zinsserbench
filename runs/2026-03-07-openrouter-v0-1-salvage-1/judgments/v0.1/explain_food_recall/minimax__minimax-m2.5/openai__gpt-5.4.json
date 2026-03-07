@@ -1,0 +1,47 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.1",
+  "candidate_model_id": "minimax/minimax-m2.5",
+  "created_at": "2026-03-07T21:31:03Z",
+  "judge_model_id": "openai/gpt-5.4",
+  "metadata": {
+    "id": "gen-1772919059-G6xxGn1cdAaMoCONURI9",
+    "raw_text": "{\"scores\":{\"clarity\":4,\"simplicity\":4,\"brevity_economy\":4,\"structure_flow\":2,\"specificity_precision\":4,\"humanity_voice\":3,\"overall\":2},\"rationale\":\"Clear, plain opening with concrete examples and useful specifics like FDA/USDA, allergens, and pathogens. But the draft is cut off mid-list, so the flow breaks, the explainer is incomplete, and it never actually covers the key promised guidance about what consumers should do if a product in their kitchen is recalled.\"}",
+    "usage": {
+      "completion_tokens": 222,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 103
+      },
+      "cost": 0.0050175,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.00333,
+        "upstream_inference_cost": 0.0050175,
+        "upstream_inference_prompt_cost": 0.0016875
+      },
+      "is_byok": false,
+      "prompt_tokens": 675,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 897
+    }
+  },
+  "prompt_category": "explain",
+  "prompt_id": "explain_food_recall",
+  "rationale": "Clear, plain opening with concrete examples and useful specifics like FDA/USDA, allergens, and pathogens. But the draft is cut off mid-list, so the flow breaks, the explainer is incomplete, and it never actually covers the key promised guidance about what consumers should do if a product in their kitchen is recalled.",
+  "run_name": "2026-03-07-openrouter-v0-1-salvage-1",
+  "scores": {
+    "brevity_economy": 4,
+    "clarity": 4,
+    "humanity_voice": 3,
+    "overall": 2,
+    "simplicity": 4,
+    "specificity_precision": 4,
+    "structure_flow": 2
+  }
+}
