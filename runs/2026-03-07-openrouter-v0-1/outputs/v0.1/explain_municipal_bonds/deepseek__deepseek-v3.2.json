@@ -1,0 +1,37 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.1",
+  "candidate_label": "DeepSeek V3.2",
+  "candidate_model_id": "deepseek/deepseek-v3.2",
+  "created_at": "2026-03-07T15:05:25Z",
+  "metadata": {
+    "id": "gen-1772895896-qnvkkLO4079m5bx9uJHK",
+    "usage": {
+      "completion_tokens": 624,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 152
+      },
+      "cost": 0.00027612,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.00026208,
+        "upstream_inference_cost": 0.00027612,
+        "upstream_inference_prompt_cost": 1.404e-05
+      },
+      "is_byok": false,
+      "prompt_tokens": 52,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 676
+    }
+  },
+  "prompt_category": "explain",
+  "prompt_id": "explain_municipal_bonds",
+  "response_text": "### What Are Municipal Bonds (And Why Do Cities Use Them)?\n\nThink of a municipal bond like a city's credit card for big projects\u2014but instead of paying interest to a bank, the city pays it to everyday investors.\n\nIn simple terms, a **municipal bond** (or \"muni\") is an IOU issued by a city, county, or state government. When you buy one, you are essentially lending your money to that local government. In return, they promise to pay you back with interest over a set period of time, like 5, 10, or 30 years.\n\n### Why Do Cities Issue These Bonds?\n\nCities don't always have giant piles of cash sitting around to pay for major projects upfront. Instead of raising taxes sharply for a single year or waiting decades to save up, they use bonds to spread the cost over time. It's like taking out a mortgage to buy a house rather than saving your whole life to pay in cash.\n\nHere are the most common reasons a city issues bonds:\n\n1.  **To Build and Fix Things:** This is the biggest reason. Bonds fund projects that serve the public, like:\n    *   Building new schools, libraries, or parks.\n    *   Repairing roads, bridges, and water systems.\n    *   Upgrading public transportation or airports.\n\n2.  **To Manage Cash Flow Smoothly:** Sometimes tax revenue comes in slowly or at certain times of year, but bills (like payroll) are due regularly. Short-term bonds can help cover these temporary gaps.\n\n3.  **To Finance Large, One-Time Expenses:** This includes big, essential projects that are too costly for a single year's budget, like building a new hospital or a courthouse.\n\n### Why Would a Regular Person Buy One?\n\nFor investors, the main appeal is that the **interest earned on most municipal bonds is exempt from federal income tax** (and often state and local tax if you live in the issuing state). This makes them especially attractive to people in higher tax brackets.\n\nIn short: **Cities get the money they need now for important projects, and investors get a relatively safe stream of tax-friendly income.** It's a way for the community to fund its own growth, with residents and other investors helping to foot the bill in exchange for a reliable return.",
+  "run_name": "2026-03-07-openrouter-v0-1"
+}

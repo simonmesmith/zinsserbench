@@ -1,0 +1,37 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.1",
+  "candidate_label": "DeepSeek V3.2",
+  "candidate_model_id": "deepseek/deepseek-v3.2",
+  "created_at": "2026-03-07T15:16:54Z",
+  "metadata": {
+    "id": "gen-1772896601-25ZDromyZEM6UZ18VxXs",
+    "usage": {
+      "completion_tokens": 393,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 149
+      },
+      "cost": 0.000170381,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.0001572,
+        "upstream_inference_cost": 0.000170381,
+        "upstream_inference_prompt_cost": 1.3181e-05
+      },
+      "is_byok": false,
+      "prompt_tokens": 49,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 442
+    }
+  },
+  "prompt_category": "memo",
+  "prompt_id": "memo_schedule_change",
+  "response_text": "**MEMORANDUM**\n\n**TO:** All Warehouse Employees  \n**FROM:** Warehouse Management  \n**DATE:** October 26, 2023  \n**SUBJECT:** Updated Shift Schedule for the Holiday Season  \n\nAs we approach the busy holiday period, we are implementing a temporary shift schedule to ensure we meet increased customer demand and fulfill orders efficiently. This change will help us manage higher volume and provide timely service.\n\nThe new schedule will be in effect from **Monday, November 20th, through Friday, December 29th**.\n\nKey details of the schedule change include:\n*   Shift start and end times may be adjusted.\n*   Some teams may be assigned to extended or weekend shifts.\n*   Overtime opportunities will be available.\n\nYour individual schedule and any adjustments to your regular hours will be provided by your shift supervisor by **Friday, November 3rd**. Please review it carefully and discuss any conflicts or questions directly with them as soon as possible.\n\nWe understand schedule changes can be disruptive and sincerely appreciate your flexibility and dedication during this critical time for our operations. Your hard work is essential to our success this season.\n\nThank you for your cooperation.\n\nFor questions, please contact your shift supervisor or the Warehouse Manager.",
+  "run_name": "2026-03-07-openrouter-v0-1"
+}

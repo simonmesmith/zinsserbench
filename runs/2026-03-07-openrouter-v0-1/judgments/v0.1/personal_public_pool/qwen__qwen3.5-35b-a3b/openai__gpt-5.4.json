@@ -1,0 +1,47 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.1",
+  "candidate_model_id": "qwen/qwen3.5-35b-a3b",
+  "created_at": "2026-03-07T17:29:01Z",
+  "judge_model_id": "openai/gpt-5.4",
+  "metadata": {
+    "id": "gen-1772904532-eYt6PEy5XCUsTAjZml4s",
+    "raw_text": "{\"scores\":{\"clarity\":4,\"simplicity\":3,\"brevity_economy\":4,\"structure_flow\":3,\"specificity_precision\":4,\"humanity_voice\":5,\"overall\":4},\"rationale\":\"Vivid, readable prose with strong sensory detail and a distinct personal voice. The pool is rendered concretely, and the social insight about the town begins to emerge clearly. But the language is somewhat literary rather than plain, and the piece is cut off abruptly, which weakens structure and keeps the essay from fully delivering on the prompt.\"}",
+    "usage": {
+      "completion_tokens": 494,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 372
+      },
+      "cost": 0.009535,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.00741,
+        "upstream_inference_cost": 0.009535,
+        "upstream_inference_prompt_cost": 0.002125
+      },
+      "is_byok": false,
+      "prompt_tokens": 850,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 1344
+    }
+  },
+  "prompt_category": "personal_nonfiction",
+  "prompt_id": "personal_public_pool",
+  "rationale": "Vivid, readable prose with strong sensory detail and a distinct personal voice. The pool is rendered concretely, and the social insight about the town begins to emerge clearly. But the language is somewhat literary rather than plain, and the piece is cut off abruptly, which weakens structure and keeps the essay from fully delivering on the prompt.",
+  "run_name": "2026-03-07-openrouter-v0-1",
+  "scores": {
+    "brevity_economy": 4,
+    "clarity": 4,
+    "humanity_voice": 5,
+    "overall": 4,
+    "simplicity": 3,
+    "specificity_precision": 4,
+    "structure_flow": 3
+  }
+}

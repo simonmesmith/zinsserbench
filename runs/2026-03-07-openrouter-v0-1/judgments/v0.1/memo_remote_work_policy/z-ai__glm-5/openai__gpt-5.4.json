@@ -1,0 +1,47 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.1",
+  "candidate_model_id": "z-ai/glm-5",
+  "created_at": "2026-03-07T16:51:26Z",
+  "judge_model_id": "openai/gpt-5.4",
+  "metadata": {
+    "id": "gen-1772902279-p4kUCxxjJNAwQiq3QVG1",
+    "raw_text": "{\"scores\":{\"clarity\":3,\"simplicity\":3,\"brevity_economy\":3,\"structure_flow\":3,\"specificity_precision\":3,\"humanity_voice\":3,\"overall\":2},\"rationale\":\"Clear sectioning and some concrete details (effective date, core hours, quarterly meetups), but the memo is cut off mid-sentence, leaving the required next steps incomplete. The prose is competent but somewhat generic and corporate, which limits economy and voice.\"}",
+    "usage": {
+      "completion_tokens": 435,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 329
+      },
+      "cost": 0.008865,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.006525,
+        "upstream_inference_cost": 0.008865,
+        "upstream_inference_prompt_cost": 0.00234
+      },
+      "is_byok": false,
+      "prompt_tokens": 936,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 1371
+    }
+  },
+  "prompt_category": "memo",
+  "prompt_id": "memo_remote_work_policy",
+  "rationale": "Clear sectioning and some concrete details (effective date, core hours, quarterly meetups), but the memo is cut off mid-sentence, leaving the required next steps incomplete. The prose is competent but somewhat generic and corporate, which limits economy and voice.",
+  "run_name": "2026-03-07-openrouter-v0-1",
+  "scores": {
+    "brevity_economy": 3,
+    "clarity": 3,
+    "humanity_voice": 3,
+    "overall": 2,
+    "simplicity": 3,
+    "specificity_precision": 3,
+    "structure_flow": 3
+  }
+}

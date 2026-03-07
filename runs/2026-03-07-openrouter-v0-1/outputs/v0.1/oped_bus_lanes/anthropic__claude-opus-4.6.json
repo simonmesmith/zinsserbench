@@ -1,0 +1,37 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.1",
+  "candidate_label": "Claude Opus 4.6",
+  "candidate_model_id": "anthropic/claude-opus-4.6",
+  "created_at": "2026-03-07T15:10:07Z",
+  "metadata": {
+    "id": "gen-1772896194-P4TDenEVk65YzkQQqE7m",
+    "usage": {
+      "completion_tokens": 500,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 42
+      },
+      "cost": 0.012855,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.0125,
+        "upstream_inference_cost": 0.012855,
+        "upstream_inference_prompt_cost": 0.000355
+      },
+      "is_byok": false,
+      "prompt_tokens": 71,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 571
+    }
+  },
+  "prompt_category": "persuasion_oped",
+  "prompt_id": "oped_bus_lanes",
+  "response_text": "# It's Time to Give Buses Their Own Lane\n\n**The math is simple. The politics shouldn't be this hard.**\n\nEvery weekday morning, the same scene plays out on our city's busiest corridors. A single bus carrying sixty people sits trapped behind a line of cars, most of them carrying one person each. The bus belches exhaust at a red light. The passengers inside check their watches, text their bosses, and wonder \u2014 again \u2014 why they bothered leaving the car at home.\n\nThis is not a transportation system. This is a failure of priorities made visible in asphalt and paint.\n\nDedicated bus lanes are one of the most cost-effective, evidence-backed, and immediately impactful interventions a city can make to address traffic congestion, air quality, equity, and economic productivity \u2014 all at once. And yet, every time a proposal surfaces, the same chorus of opposition rises to strangle it in its crib: *You can't take away a lane of traffic. You'll make congestion worse. Think of the businesses. Think of the drivers.*\n\nI've heard the objections. I understand them. And I believe they are profoundly wrong.\n\n## The Arithmetic of the Road\n\nLet's start with the numbers, because the numbers are merciless.\n\nA standard ten-foot traffic lane in a congested urban corridor moves roughly 600 to 1,600 cars per hour. With average vehicle occupancy hovering around 1.2 persons per car in most American cities, that lane is moving somewhere between 720 and 1,920 people per hour. That's the ceiling for private vehicles.\n\nNow convert that same lane to a dedicated bus corridor. A single bus can carry 40 to 80 passengers. Freed from the surrounding congestion, buses running on a dedicated lane with signal priority can maintain headways of two to three minutes during peak hours. That's 20 to 30 buses per hour. Even at modest ridership \u2014 say, 50 passengers per bus \u2014 that single lane is now moving 1,000 to",
+  "run_name": "2026-03-07-openrouter-v0-1"
+}

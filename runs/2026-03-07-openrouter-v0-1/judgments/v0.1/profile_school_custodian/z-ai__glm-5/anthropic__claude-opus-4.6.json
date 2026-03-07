@@ -1,0 +1,47 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.1",
+  "candidate_model_id": "z-ai/glm-5",
+  "created_at": "2026-03-07T17:05:10Z",
+  "judge_model_id": "anthropic/claude-opus-4.6",
+  "metadata": {
+    "id": "gen-1772903102-O4sO67bEgJBTHlfJ39be",
+    "raw_text": "{\"scores\": {\"clarity\": 5, \"simplicity\": 4, \"brevity_economy\": 4, \"structure_flow\": 5, \"specificity_precision\": 5, \"humanity_voice\": 5, \"overall\": 5}, \"rationale\": \"This is excellent profile writing. The opening scene is cinematic and immediately grounding\u2014the swish-thud of the broom, the specific time, the cathedral metaphor. The piece moves logically from setting to character to what makes him remarkable, with smooth transitions. Specificity is outstanding: shag carpet replaced by hardwood, the class of 1999, 1,400 students, the yellow vest over gray work shirt, the jangling keys. The dialogue snippets feel natural and do real characterization work. The line 'Thorne is the geological constant' is sharp and earned. The voice is warm, literary but not overwrought, with a magazine-profile sensibility. Minor dings: a few phrases lean slightly purple ('cathedral of echoes,' 'a river of hoodies'), and 'inhaling cleaning chemicals and school dust' edges toward sentimentality. The piece appears cut off mid-sentence, which prevents a proper ending, but what's on the page is remarkably well-crafted. The simplicity score dips slightly for occasional literary flourishes that, while effective, aren't strictly plain language.\"}",
+    "usage": {
+      "completion_tokens": 305,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 0
+      },
+      "cost": 0.01235,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.007625,
+        "upstream_inference_cost": 0.01235,
+        "upstream_inference_prompt_cost": 0.004725
+      },
+      "is_byok": false,
+      "prompt_tokens": 945,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 1250
+    }
+  },
+  "prompt_category": "profile",
+  "prompt_id": "profile_school_custodian",
+  "rationale": "This is excellent profile writing. The opening scene is cinematic and immediately grounding\u2014the swish-thud of the broom, the specific time, the cathedral metaphor. The piece moves logically from setting to character to what makes him remarkable, with smooth transitions. Specificity is outstanding: shag carpet replaced by hardwood, the class of 1999, 1,400 students, the yellow vest over gray work shirt, the jangling keys. The dialogue snippets feel natural and do real characterization work. The line 'Thorne is the geological constant' is sharp and earned. The voice is warm, literary but not overwrought, with a magazine-profile sensibility. Minor dings: a few phrases lean slightly purple ('cathedral of echoes,' 'a river of hoodies'), and 'inhaling cleaning chemicals and school dust' edges toward sentimentality. The piece appears cut off mid-sentence, which prevents a proper ending, but what's on the page is remarkably well-crafted. The simplicity score dips slightly for occasional literary flourishes that, while effective, aren't strictly plain language.",
+  "run_name": "2026-03-07-openrouter-v0-1",
+  "scores": {
+    "brevity_economy": 4,
+    "clarity": 5,
+    "humanity_voice": 5,
+    "overall": 5,
+    "simplicity": 4,
+    "specificity_precision": 5,
+    "structure_flow": 5
+  }
+}

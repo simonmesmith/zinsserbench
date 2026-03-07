@@ -1,0 +1,47 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.1",
+  "candidate_model_id": "moonshotai/kimi-k2.5",
+  "created_at": "2026-03-07T17:35:24Z",
+  "judge_model_id": "openai/gpt-5.4",
+  "metadata": {
+    "id": "gen-1772904918-7JXLLtwBSmGHc4nTCWZY",
+    "raw_text": "{\"scores\":{\"clarity\":4,\"simplicity\":4,\"brevity_economy\":4,\"structure_flow\":3,\"specificity_precision\":4,\"humanity_voice\":4,\"overall\":3},\"rationale\":\"Clear, plain explanation with concrete examples of recall risks and agencies involved. The tone is accessible and direct. But the piece is cut off mid-thought and never gets to the key consumer action steps, so structure and overall task completion are only moderate.\"}",
+    "usage": {
+      "completion_tokens": 294,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 189
+      },
+      "cost": 0.005745,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.00441,
+        "upstream_inference_cost": 0.005745,
+        "upstream_inference_prompt_cost": 0.001335
+      },
+      "is_byok": false,
+      "prompt_tokens": 534,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 828
+    }
+  },
+  "prompt_category": "explain",
+  "prompt_id": "explain_food_recall",
+  "rationale": "Clear, plain explanation with concrete examples of recall risks and agencies involved. The tone is accessible and direct. But the piece is cut off mid-thought and never gets to the key consumer action steps, so structure and overall task completion are only moderate.",
+  "run_name": "2026-03-07-openrouter-v0-1",
+  "scores": {
+    "brevity_economy": 4,
+    "clarity": 4,
+    "humanity_voice": 4,
+    "overall": 3,
+    "simplicity": 4,
+    "specificity_precision": 4,
+    "structure_flow": 3
+  }
+}

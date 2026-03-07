@@ -1,0 +1,37 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.1",
+  "candidate_label": "GLM-5",
+  "candidate_model_id": "z-ai/glm-5",
+  "created_at": "2026-03-07T16:16:47Z",
+  "metadata": {
+    "id": "gen-1772900156-44uSEPlhHkKgqoHpD9aW",
+    "usage": {
+      "completion_tokens": 2156,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 989
+      },
+      "cost": 0.00555005,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.0054978,
+        "upstream_inference_cost": 0.00555005,
+        "upstream_inference_prompt_cost": 5.225e-05
+      },
+      "is_byok": false,
+      "prompt_tokens": 55,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 2211
+    }
+  },
+  "prompt_category": "service_howto",
+  "prompt_id": "howto_report_water_leak",
+  "response_text": "**Drip, Drip, Drop: A Tenant\u2019s Practical Guide to Ceiling Leaks**\n\nDiscovering a water leak in your ceiling can be panic-inducing. Whether it\u2019s a slow, spreading brown stain or an active drip splashing onto your floor, water damage escalates quickly. As a tenant, your primary goals are to minimize damage to your belongings, protect yourself from liability, and ensure the issue is fixed promptly.\n\nHere is a step-by-step guide on exactly what to do when you spot a leak.\n\n### Phase 1: Immediate Mitigation (Do This First)\n\nBefore you pick up the phone, take immediate steps to stop the damage from getting worse. Your lease likely requires you to \"mitigate damages,\" meaning you cannot simply watch your apartment flood.\n\n**1. Move Your Belongings**\nImmediately move furniture, rugs, and electronics away from the wet area. If the leak is directly over a heavy piece of furniture you cannot move, cover it with a waterproof tarp or heavy-duty trash bags.\n\n**2. Contain the Water**\nPlace a bucket, trash can, or large bowl directly under the drip. If the water is splashing onto the floor, lay down towels to absorb the moisture.\n*   *Pro Tip:* If the leak is fast-moving and you hear a \"crackling\" or \"popping\" sound from the ceiling drywall, do not stand directly under it. The ceiling could be saturating and at risk of collapsing.\n\n**3. Protect Your Electronics**\nIf there is standing water on the floor, unplug any electronics in the vicinity to prevent electrical shorts or shock. Do not touch light switches or outlets that appear wet.\n\n**4. Do Not Poke the Bubble**\nIf the water has caused a \"bubble\" in the paint or drywall, do not puncture it. While it is tempting to release the water, the bubble is currently containing the mess. Puncturing it will release dirty water all at once and may cause a section of the ceiling to crumble.\n\n### Phase 2: Notification (The Paper Trail)\n\nOnce the immediate area is secured, you must notify your landlord or property manager. Speed is critical here; a small leak can turn into a mold issue in as little as 24 to 48 hours.\n\n**1. Call the Emergency Line**\nIf it is after hours or the leak is active (dripping), call the emergency maintenance number immediately. Do not wait for business hours.\n\n**2. Send a Written Notice**\nEven if you call, follow up with a text or email immediately. This creates a timestamped paper trail.\n*   *What to write:* \"I discovered an active water leak in the ceiling of the [Living Room/Bedroom] at [Time]. I have placed a bucket under it and moved my furniture. Please send maintenance immediately to inspect and repair.\"\n\n**3. Take Photos and Video**\nBefore maintenance arrives, document the scene thoroughly.\n*   Take wide shots to show the location of the leak.\n*   Take close-ups of the stain, the bubble, or the dripping water.\n*   Photograph any damage to your personal property (ruined rug, warped bookshelf, etc.).\n*   Save these photos in a folder; you may need them for renter's insurance claims later.\n\n### Phase 3: The Repair Process\n\nWhen maintenance arrives, they will likely need to access the source of the leak.\n\n**1. Identify the Source**\nThe landlord needs to determine where the water is coming from. Common sources include:\n*   **The unit above you:** An overflowing bathtub, a broken supply line, or a spilled aquarium.\n*   **Common plumbing:** A main drain line or roof leak.\n*   **HVAC:** A clogged condensate line from an AC unit.\n\n**2. Ask for a Timeline**\nAsk the maintenance technician how long the repair will take and if the water needs to be shut off. If the repair requires cutting into the drywall, ask how long the hole will remain open and when they plan to repaint.\n\n**3. Be Present (If Possible)**\nWhile you are not required to supervise, being present allows you to ensure the technician sees the full extent of the damage and doesn't just patch the cosmetic issue without fixing the source.\n\n### Phase 4: After the Leak\n\nOnce the water stops, the work isn't necessarily over.\n\n**1. Monitor for Mold**\nIf the drywall remained wet for an extended period, ask the landlord about mold remediation. They should use moisture meters to ensure the wood studs are dry before patching the ceiling.\n\n**2. Review Your Renter\u2019s Insurance**\nContact your insurance provider to see if your policy covers the damage to your personal property.\n*   *Note:* The landlord\u2019s insurance typically covers the structure (the ceiling, the pipes, the floor), while your renter\u2019s insurance covers your stuff. If the leak was caused by negligence (e.g., the neighbor upstairs left a faucet running), your insurance company may subrogate (seek reimbursement) from the neighbor\u2019s insurance.\n\n**3. Follow Up on Repairs**\nIf the maintenance team cut a hole in the ceiling to fix a pipe but left without patching it, send a polite follow-up email asking when the drywall repair and painting will be scheduled. Do not let a temporary patch become a permanent eyesore.\n\n### Summary Checklist\n*   [ ] Move belongings / contain water with a bucket.\n*   [ ] Unplug electronics near water.\n*   [ ] Call landlord/maintenance immediately.\n*   [ ] Send follow-up text/email for documentation.\n*   [ ] Take photos/video of the leak and damage.\n*   [ ] Contact renter's insurance if property was damaged.",
+  "run_name": "2026-03-07-openrouter-v0-1"
+}

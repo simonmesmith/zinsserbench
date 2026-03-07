@@ -1,0 +1,47 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.1",
+  "candidate_model_id": "openai/gpt-5.3-chat",
+  "created_at": "2026-03-07T16:53:42Z",
+  "judge_model_id": "anthropic/claude-opus-4.6",
+  "metadata": {
+    "id": "gen-1772902415-fF8LpuFvCE2h1qBJHtRe",
+    "raw_text": "{\"scores\": {\"clarity\": 5, \"simplicity\": 5, \"brevity_economy\": 5, \"structure_flow\": 5, \"specificity_precision\": 4, \"humanity_voice\": 4, \"overall\": 5}, \"rationale\": \"Exceptionally clear and well-organized memo. The three-section structure (affected/not affected/what we need) directly answers the prompt's requirements and makes the memo scannable. Language is plain and direct throughout\u2014no jargon inflation or filler. Bullet points are concrete and specific to a hospital context (clinical vs. non-clinical hiring, patient care supplies, regulatory expenditures). Minor deductions: specificity loses a point because some details remain templated (e.g., '[Insert Date]', no named contact person, no timeline for reassessment), and humanity/voice is competent but still reads somewhat formulaic\u2014it's polished corporate tone rather than a distinctly human voice, though the closing line about patient care adds warmth. Overall, this is a near-ideal internal memo for the stated purpose.\"}",
+    "usage": {
+      "completion_tokens": 239,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 0
+      },
+      "cost": 0.01042,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.005975,
+        "upstream_inference_cost": 0.01042,
+        "upstream_inference_prompt_cost": 0.004445
+      },
+      "is_byok": false,
+      "prompt_tokens": 889,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 1128
+    }
+  },
+  "prompt_category": "memo",
+  "prompt_id": "memo_budget_freeze",
+  "rationale": "Exceptionally clear and well-organized memo. The three-section structure (affected/not affected/what we need) directly answers the prompt's requirements and makes the memo scannable. Language is plain and direct throughout\u2014no jargon inflation or filler. Bullet points are concrete and specific to a hospital context (clinical vs. non-clinical hiring, patient care supplies, regulatory expenditures). Minor deductions: specificity loses a point because some details remain templated (e.g., '[Insert Date]', no named contact person, no timeline for reassessment), and humanity/voice is competent but still reads somewhat formulaic\u2014it's polished corporate tone rather than a distinctly human voice, though the closing line about patient care adds warmth. Overall, this is a near-ideal internal memo for the stated purpose.",
+  "run_name": "2026-03-07-openrouter-v0-1",
+  "scores": {
+    "brevity_economy": 5,
+    "clarity": 5,
+    "humanity_voice": 4,
+    "overall": 5,
+    "simplicity": 5,
+    "specificity_precision": 4,
+    "structure_flow": 5
+  }
+}

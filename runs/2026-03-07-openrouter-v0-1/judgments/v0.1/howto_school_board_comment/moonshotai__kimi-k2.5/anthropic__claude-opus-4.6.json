@@ -1,0 +1,47 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.1",
+  "candidate_model_id": "moonshotai/kimi-k2.5",
+  "created_at": "2026-03-07T17:41:39Z",
+  "judge_model_id": "anthropic/claude-opus-4.6",
+  "metadata": {
+    "id": "gen-1772905292-FWGyfXD9yLlrUuIMjPAq",
+    "raw_text": "{\"scores\": {\"clarity\": 5, \"simplicity\": 5, \"brevity_economy\": 4, \"structure_flow\": 4, \"specificity_precision\": 5, \"humanity_voice\": 4, \"overall\": 4}, \"rationale\": \"The writing is immediately clear and uses plain, direct language throughout. Specific details like '2\u20135 minutes,' '24\u201348 hours,' and concrete action steps (check the website, call the district clerk) make it genuinely useful rather than vague. The structure with headers and bullet points is logical and scannable. The opening line effectively frames the stakes, and the advice to attend a meeting first shows practical, reader-aware thinking. Voice is warm and encouraging without being saccharine ('preparation transforms anxiety into effective advocacy'). The main limitation is that the response is clearly truncated mid-section ('**Focus' cuts off), so we can't evaluate the full piece. What exists is strong, but incompleteness prevents a top overall score. Brevity is good for what's present, though we can't fully assess economy without the complete text.\"}",
+    "usage": {
+      "completion_tokens": 243,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 0
+      },
+      "cost": 0.00917,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.006075,
+        "upstream_inference_cost": 0.00917,
+        "upstream_inference_prompt_cost": 0.003095
+      },
+      "is_byok": false,
+      "prompt_tokens": 619,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 862
+    }
+  },
+  "prompt_category": "service_howto",
+  "prompt_id": "howto_school_board_comment",
+  "rationale": "The writing is immediately clear and uses plain, direct language throughout. Specific details like '2\u20135 minutes,' '24\u201348 hours,' and concrete action steps (check the website, call the district clerk) make it genuinely useful rather than vague. The structure with headers and bullet points is logical and scannable. The opening line effectively frames the stakes, and the advice to attend a meeting first shows practical, reader-aware thinking. Voice is warm and encouraging without being saccharine ('preparation transforms anxiety into effective advocacy'). The main limitation is that the response is clearly truncated mid-section ('**Focus' cuts off), so we can't evaluate the full piece. What exists is strong, but incompleteness prevents a top overall score. Brevity is good for what's present, though we can't fully assess economy without the complete text.",
+  "run_name": "2026-03-07-openrouter-v0-1",
+  "scores": {
+    "brevity_economy": 4,
+    "clarity": 5,
+    "humanity_voice": 4,
+    "overall": 4,
+    "simplicity": 5,
+    "specificity_precision": 5,
+    "structure_flow": 4
+  }
+}

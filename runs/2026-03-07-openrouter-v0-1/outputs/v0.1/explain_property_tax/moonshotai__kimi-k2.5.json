@@ -1,0 +1,37 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.1",
+  "candidate_label": "Kimi K2.5",
+  "candidate_model_id": "moonshotai/kimi-k2.5",
+  "created_at": "2026-03-07T15:16:29Z",
+  "metadata": {
+    "id": "gen-1772896552-Uc18ZMJ6cqT6iLhsGUmx",
+    "usage": {
+      "completion_tokens": 500,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 410
+      },
+      "cost": 0.0011538,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.001125,
+        "upstream_inference_cost": 0.0011538,
+        "upstream_inference_prompt_cost": 2.88e-05
+      },
+      "is_byok": false,
+      "prompt_tokens": 64,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 564
+    }
+  },
+  "prompt_category": "explain",
+  "prompt_id": "explain_property_tax",
+  "response_text": "Here is how your property tax bill actually works\u2014and why that number on your bill rarely stays still.\n\n### The Simple Math\nYour annual property tax bill comes from one basic formula:\n\n**Assessed Value \u00d7 Tax Rate = Your Tax Bill**\n\nBoth halves of that equation can move independently, which is why your bill changes even when you haven\u2019t renovated your kitchen or the housing market seems quiet.\n\n---\n\n### Part 1: How Your Home Gets Its \u201cAssessed Value\u201d\nEvery year (or every few years, depending on your state), your local tax assessor estimates what your home is worth. This is *not* the price you could sell it for tomorrow; it is a standardized value used only for taxation.\n\nAssessors look at:\n*   Recent sales of",
+  "run_name": "2026-03-07-openrouter-v0-1"
+}

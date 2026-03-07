@@ -1,0 +1,47 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.1",
+  "candidate_model_id": "google/gemini-3.1-pro-preview",
+  "created_at": "2026-03-07T17:16:44Z",
+  "judge_model_id": "openai/gpt-5.4",
+  "metadata": {
+    "id": "gen-1772903802-ckSlp0x9YVTPRjnNuKit",
+    "raw_text": "{\"scores\":{\"clarity\":1,\"simplicity\":3,\"brevity_economy\":2,\"structure_flow\":1,\"specificity_precision\":1,\"humanity_voice\":2,\"overall\":1},\"rationale\":\"The piece is essentially unfinished: it has a clear title and an opening fragment, but no developed argument. The language shown is simple and somewhat human, yet there is no structure, supporting detail, or precise case for why libraries should stay open later.\"}",
+    "usage": {
+      "completion_tokens": 159,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 54
+      },
+      "cost": 0.0033125,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.002385,
+        "upstream_inference_cost": 0.0033125,
+        "upstream_inference_prompt_cost": 0.0009275
+      },
+      "is_byok": false,
+      "prompt_tokens": 371,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 530
+    }
+  },
+  "prompt_category": "persuasion_oped",
+  "prompt_id": "oped_library_hours",
+  "rationale": "The piece is essentially unfinished: it has a clear title and an opening fragment, but no developed argument. The language shown is simple and somewhat human, yet there is no structure, supporting detail, or precise case for why libraries should stay open later.",
+  "run_name": "2026-03-07-openrouter-v0-1",
+  "scores": {
+    "brevity_economy": 2,
+    "clarity": 1,
+    "humanity_voice": 2,
+    "overall": 1,
+    "simplicity": 3,
+    "specificity_precision": 1,
+    "structure_flow": 1
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.1",
+  "candidate_model_id": "minimax/minimax-m2.5",
+  "created_at": "2026-03-07T17:16:03Z",
+  "judge_model_id": "anthropic/claude-opus-4.6",
+  "metadata": {
+    "id": "gen-1772903757-2pmSiHJ8i3bkgvZ3Cxcj",
+    "raw_text": "{\"scores\": {\"clarity\": 5, \"simplicity\": 5, \"brevity_economy\": 4, \"structure_flow\": 5, \"specificity_precision\": 4, \"humanity_voice\": 4, \"overall\": 4}, \"rationale\": \"Clear, well-organized guide with logical step-by-step structure. Language is plain and direct, with concrete actionable advice (buckets, tarps, email paper trail). The numbered headings and bullet points make it scannable and easy to follow. Minor deductions: the piece is cut off at step 5, so we can't judge completeness; some tips are slightly generic ('move furniture and valuables away'); and the voice, while competent and reader-aware ('can be stressful'), leans a touch toward template-style instructional writing rather than having a distinctive human voice. The 'Tip' and 'Best practice' callouts are a nice touch for practical emphasis.\"}",
+    "usage": {
+      "completion_tokens": 212,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 0
+      },
+      "cost": 0.00945,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.0053,
+        "upstream_inference_cost": 0.00945,
+        "upstream_inference_prompt_cost": 0.00415
+      },
+      "is_byok": false,
+      "prompt_tokens": 830,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 1042
+    }
+  },
+  "prompt_category": "service_howto",
+  "prompt_id": "howto_report_water_leak",
+  "rationale": "Clear, well-organized guide with logical step-by-step structure. Language is plain and direct, with concrete actionable advice (buckets, tarps, email paper trail). The numbered headings and bullet points make it scannable and easy to follow. Minor deductions: the piece is cut off at step 5, so we can't judge completeness; some tips are slightly generic ('move furniture and valuables away'); and the voice, while competent and reader-aware ('can be stressful'), leans a touch toward template-style instructional writing rather than having a distinctive human voice. The 'Tip' and 'Best practice' callouts are a nice touch for practical emphasis.",
+  "run_name": "2026-03-07-openrouter-v0-1",
+  "scores": {
+    "brevity_economy": 4,
+    "clarity": 5,
+    "humanity_voice": 4,
+    "overall": 4,
+    "simplicity": 5,
+    "specificity_precision": 4,
+    "structure_flow": 5
+  }
+}

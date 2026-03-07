@@ -1,0 +1,47 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.1",
+  "candidate_model_id": "x-ai/grok-4.1-fast",
+  "created_at": "2026-03-07T17:53:09Z",
+  "judge_model_id": "anthropic/claude-opus-4.6",
+  "metadata": {
+    "id": "gen-1772905983-l2lM7JPlbYvLpDfK6vdm",
+    "raw_text": "{\"scores\": {\"clarity\": 5, \"simplicity\": 5, \"brevity_economy\": 5, \"structure_flow\": 5, \"specificity_precision\": 5, \"humanity_voice\": 4, \"overall\": 5}, \"rationale\": \"Exceptionally well-structured memo with clear headers, bolded key details, and a logical flow from context \u2192 changes \u2192 action items \u2192 contact info. Specificity is excellent: exact dates, shift times, break structure, overtime rates, holiday pay days, deadlines for conflicts, and contact details are all concrete. Language is plain and direct throughout. Brevity is strong\u2014nothing extraneous, yet nothing important is missing. The voice is warm and motivating ('Let's crush this season!') without being saccharine, though the closing and the 'We're all in this together' line edge slightly toward corporate cheerfulness. Overall, this is a near-ideal internal memo for the stated purpose.\"}",
+    "usage": {
+      "completion_tokens": 212,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 0
+      },
+      "cost": 0.00963,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.0053,
+        "upstream_inference_cost": 0.00963,
+        "upstream_inference_prompt_cost": 0.00433
+      },
+      "is_byok": false,
+      "prompt_tokens": 866,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 1078
+    }
+  },
+  "prompt_category": "memo",
+  "prompt_id": "memo_schedule_change",
+  "rationale": "Exceptionally well-structured memo with clear headers, bolded key details, and a logical flow from context \u2192 changes \u2192 action items \u2192 contact info. Specificity is excellent: exact dates, shift times, break structure, overtime rates, holiday pay days, deadlines for conflicts, and contact details are all concrete. Language is plain and direct throughout. Brevity is strong\u2014nothing extraneous, yet nothing important is missing. The voice is warm and motivating ('Let's crush this season!') without being saccharine, though the closing and the 'We're all in this together' line edge slightly toward corporate cheerfulness. Overall, this is a near-ideal internal memo for the stated purpose.",
+  "run_name": "2026-03-07-openrouter-v0-1",
+  "scores": {
+    "brevity_economy": 5,
+    "clarity": 5,
+    "humanity_voice": 4,
+    "overall": 5,
+    "simplicity": 5,
+    "specificity_precision": 5,
+    "structure_flow": 5
+  }
+}

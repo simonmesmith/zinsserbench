@@ -1,0 +1,37 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.1",
+  "candidate_label": "GLM-5",
+  "candidate_model_id": "z-ai/glm-5",
+  "created_at": "2026-03-07T16:15:10Z",
+  "metadata": {
+    "id": "gen-1772900088-COA9vTHt6Z9dqm1wk33B",
+    "usage": {
+      "completion_tokens": 1500,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 1013
+      },
+      "cost": 0.004856,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.0048,
+        "upstream_inference_cost": 0.004856,
+        "upstream_inference_prompt_cost": 5.6e-05
+      },
+      "is_byok": false,
+      "prompt_tokens": 56,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 1556
+    }
+  },
+  "prompt_category": "explain",
+  "prompt_id": "explain_municipal_bonds",
+  "response_text": "Imagine a city needs to build a new high school, repair a crumbling bridge, or upgrade its sewer system. These are massive projects that cost millions of dollars. Most cities don\u2019t have that kind of cash just sitting in a bank account.\n\nTo get the money, the city does what most homeowners do when they need to buy a house: they take out a loan. But instead of going to a bank, they go to the public. This loan is called a **municipal bond**.\n\nHere is a plain-English breakdown of how they work and why cities use them.\n\n### What is a Municipal Bond?\n\nA municipal bond\u2014often nicknamed a \"muni\"\u2014is essentially an IOU issued by a local government. When a city, county, or school district needs money, they sell these bonds to investors.\n\nHere is how the transaction works:\n1.  **The Purchase:** You (the investor) give the city your money.\n2.  **The Promise:** In exchange, the city gives you a bond. This is a promise to pay you back the full amount of money you lent them, plus interest, over a set period of time.\n3.  **The Payback:** The city uses the money to build the project. Over the next 10, 20, or 30 years, they pay you back in regular installments.\n\n### Why Do Cities Issue Them?\n\nCities issue bonds for the same reason people take out mortgages: it allows them to pay for expensive, long-lasting items over a long period of time.\n\n**1. Paying for \"Big Ticket\" Items**\nCity budgets usually cover daily operating costs\u2014police salaries, trash pickup, electricity bills\u2014using tax revenue collected that year. But a new water treatment plant might cost $50 million. If a city tried to save up cash to pay for that, it would take decades, and the infrastructure would crumble in the meantime. Issuing a bond allows the city to build the plant *now* and pay for it gradually as residents use it.\n\n**2. Spreading the Cost to Future Users**\nIf a city builds a new library that will last for 50 years, it makes sense to spread the cost out over those 50 years. Bonds allow the city to make the residents who will use the library in the future help pay for it, rather than asking today's taxpayers to foot the entire bill at once.\n\n### Why Investors Like Them\n\nMunicipal bonds are popular investments, particularly for people looking for steady, safe income. There are two main reasons for this:\n\n*   **Safety:** Because they are backed by the government\u2019s power to collect taxes, municipal bonds are generally very safe. While companies can go out of",
+  "run_name": "2026-03-07-openrouter-v0-1"
+}

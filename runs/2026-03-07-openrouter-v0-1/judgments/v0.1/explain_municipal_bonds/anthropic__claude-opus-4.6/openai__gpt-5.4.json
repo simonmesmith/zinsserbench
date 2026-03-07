@@ -1,0 +1,47 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.1",
+  "candidate_model_id": "anthropic/claude-opus-4.6",
+  "created_at": "2026-03-07T17:00:55Z",
+  "judge_model_id": "openai/gpt-5.4",
+  "metadata": {
+    "id": "gen-1772902849-HnDxg56o1vdkOqRtmGyB",
+    "raw_text": "{\"scores\":{\"clarity\":4,\"simplicity\":5,\"brevity_economy\":4,\"structure_flow\":2,\"specificity_precision\":4,\"humanity_voice\":4,\"overall\":3},\"rationale\":\"Clear, plain-English writing with a helpful bridge/mortgage analogy and concrete examples of what cities fund. The tone is approachable and the language stays simple. But the piece is incomplete and cuts off mid-sentence, which breaks the flow and leaves the investor-side explanation unfinished, so it only partially fulfills the prompt.\"}",
+    "usage": {
+      "completion_tokens": 268,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 150
+      },
+      "cost": 0.0060575,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.00402,
+        "upstream_inference_cost": 0.0060575,
+        "upstream_inference_prompt_cost": 0.0020375
+      },
+      "is_byok": false,
+      "prompt_tokens": 815,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 1083
+    }
+  },
+  "prompt_category": "explain",
+  "prompt_id": "explain_municipal_bonds",
+  "rationale": "Clear, plain-English writing with a helpful bridge/mortgage analogy and concrete examples of what cities fund. The tone is approachable and the language stays simple. But the piece is incomplete and cuts off mid-sentence, which breaks the flow and leaves the investor-side explanation unfinished, so it only partially fulfills the prompt.",
+  "run_name": "2026-03-07-openrouter-v0-1",
+  "scores": {
+    "brevity_economy": 4,
+    "clarity": 4,
+    "humanity_voice": 4,
+    "overall": 3,
+    "simplicity": 5,
+    "specificity_precision": 4,
+    "structure_flow": 2
+  }
+}

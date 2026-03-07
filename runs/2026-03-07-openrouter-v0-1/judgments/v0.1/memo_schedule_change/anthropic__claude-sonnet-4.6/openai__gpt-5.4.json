@@ -1,0 +1,47 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.1",
+  "candidate_model_id": "anthropic/claude-sonnet-4.6",
+  "created_at": "2026-03-07T17:52:22Z",
+  "judge_model_id": "openai/gpt-5.4",
+  "metadata": {
+    "id": "gen-1772905939-6dN57jGMx2evAyFKWxmU",
+    "raw_text": "{\"scores\":{\"clarity\":4,\"simplicity\":4,\"brevity_economy\":4,\"structure_flow\":3,\"specificity_precision\":5,\"humanity_voice\":3,\"overall\":3},\"rationale\":\"Clear, plain, and specific with concrete dates, times, and actions. Organization is logical, but the memo is cut off mid-heading, which hurts flow and overall effectiveness. Tone is competent but somewhat generic and managerial rather than especially human.\"}",
+    "usage": {
+      "completion_tokens": 229,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 126
+      },
+      "cost": 0.005345,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.003435,
+        "upstream_inference_cost": 0.005345,
+        "upstream_inference_prompt_cost": 0.00191
+      },
+      "is_byok": false,
+      "prompt_tokens": 764,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 993
+    }
+  },
+  "prompt_category": "memo",
+  "prompt_id": "memo_schedule_change",
+  "rationale": "Clear, plain, and specific with concrete dates, times, and actions. Organization is logical, but the memo is cut off mid-heading, which hurts flow and overall effectiveness. Tone is competent but somewhat generic and managerial rather than especially human.",
+  "run_name": "2026-03-07-openrouter-v0-1",
+  "scores": {
+    "brevity_economy": 4,
+    "clarity": 4,
+    "humanity_voice": 3,
+    "overall": 3,
+    "simplicity": 4,
+    "specificity_precision": 5,
+    "structure_flow": 3
+  }
+}

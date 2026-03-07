@@ -1,0 +1,37 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.1",
+  "candidate_label": "Kimi K2.5",
+  "candidate_model_id": "moonshotai/kimi-k2.5",
+  "created_at": "2026-03-07T15:16:52Z",
+  "metadata": {
+    "id": "gen-1772896602-LwiylsilCtMBkjU9WlKA",
+    "usage": {
+      "completion_tokens": 500,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 531
+      },
+      "cost": 0.0012785,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.00125,
+        "upstream_inference_cost": 0.0012785,
+        "upstream_inference_prompt_cost": 2.85e-05
+      },
+      "is_byok": false,
+      "prompt_tokens": 57,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 557
+    }
+  },
+  "prompt_category": "memo",
+  "prompt_id": "memo_schedule_change",
+  "response_text": "**TO:** All Warehouse Operations Staff  \n**FROM:** Marcus Chen, Warehouse Operations Manager  \n**DATE:** October 15, 2024  \n**SUBJECT:** Holiday Season Shift Schedule Changes \u2013 Effective November 1st  \n\n---\n\nTeam,\n\nAs we prepare for the upcoming holiday surge, I want to first thank you for the exceptional work you\u2019ve done getting our inventory levels ready. Based on projected volume increases starting November 1st, we are implementing temporary schedule adjustments",
+  "run_name": "2026-03-07-openrouter-v0-1"
+}

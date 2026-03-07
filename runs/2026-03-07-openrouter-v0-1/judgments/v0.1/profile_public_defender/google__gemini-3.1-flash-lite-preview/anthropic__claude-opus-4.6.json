@@ -1,0 +1,47 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.1",
+  "candidate_model_id": "google/gemini-3.1-flash-lite-preview",
+  "created_at": "2026-03-07T17:36:33Z",
+  "judge_model_id": "anthropic/claude-opus-4.6",
+  "metadata": {
+    "id": "gen-1772904986-RK4Tbylg5E5Io0H4Tk55",
+    "raw_text": "{\"scores\": {\"clarity\": 3, \"simplicity\": 3, \"brevity_economy\": 1, \"structure_flow\": 1, \"specificity_precision\": 1, \"humanity_voice\": 3, \"overall\": 1}, \"rationale\": \"This is a single opening sentence, not a profile. The line itself is evocative and clear\u2014the metaphor of the desk as topography hints at an overwhelming caseload\u2014but the response is radically incomplete. There is no information about the public defender's work, caseload, daily life, or the city. No structure, no substance, no specificity beyond one desk metaphor. It cannot be evaluated as nonfiction writing fulfilling the prompt; it is essentially an abandoned draft.\"}",
+    "usage": {
+      "completion_tokens": 262,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 87
+      },
+      "cost": 0.00873,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.00655,
+        "upstream_inference_cost": 0.00873,
+        "upstream_inference_prompt_cost": 0.00218
+      },
+      "is_byok": false,
+      "prompt_tokens": 436,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 698
+    }
+  },
+  "prompt_category": "profile",
+  "prompt_id": "profile_public_defender",
+  "rationale": "This is a single opening sentence, not a profile. The line itself is evocative and clear\u2014the metaphor of the desk as topography hints at an overwhelming caseload\u2014but the response is radically incomplete. There is no information about the public defender's work, caseload, daily life, or the city. No structure, no substance, no specificity beyond one desk metaphor. It cannot be evaluated as nonfiction writing fulfilling the prompt; it is essentially an abandoned draft.",
+  "run_name": "2026-03-07-openrouter-v0-1",
+  "scores": {
+    "brevity_economy": 1,
+    "clarity": 3,
+    "humanity_voice": 3,
+    "overall": 1,
+    "simplicity": 3,
+    "specificity_precision": 1,
+    "structure_flow": 1
+  }
+}

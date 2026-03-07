@@ -1,0 +1,47 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.1",
+  "candidate_model_id": "z-ai/glm-5",
+  "created_at": "2026-03-07T17:08:32Z",
+  "judge_model_id": "anthropic/claude-opus-4.6",
+  "metadata": {
+    "id": "gen-1772903306-wrwBNktTSLI4Iy9hmmiN",
+    "raw_text": "{\"scores\": {\"clarity\": 5, \"simplicity\": 5, \"brevity_economy\": 5, \"structure_flow\": 4, \"specificity_precision\": 5, \"humanity_voice\": 5, \"overall\": 4}, \"rationale\": \"Beautifully crafted prose with vivid, precise details (21,842 crossings, the 1892 post office argument, 5:45 arrival, 47-minute crossing). The language is clean and direct without a single wasted word. The voice is warm and literary\u2014'boards her the way a man climbs into his own skin' is striking. Harold's quoted dialogue feels natural and revealing. The only real weakness is that the piece is clearly truncated mid-sentence, cutting off before it can develop a full profile arc, which hurts structure/flow and overall effectiveness. What exists, however, is excellent nonfiction writing.\"}",
+    "usage": {
+      "completion_tokens": 203,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 0
+      },
+      "cost": 0.00885,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.005075,
+        "upstream_inference_cost": 0.00885,
+        "upstream_inference_prompt_cost": 0.003775
+      },
+      "is_byok": false,
+      "prompt_tokens": 755,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 958
+    }
+  },
+  "prompt_category": "profile",
+  "prompt_id": "profile_ferry_captain",
+  "rationale": "Beautifully crafted prose with vivid, precise details (21,842 crossings, the 1892 post office argument, 5:45 arrival, 47-minute crossing). The language is clean and direct without a single wasted word. The voice is warm and literary\u2014'boards her the way a man climbs into his own skin' is striking. Harold's quoted dialogue feels natural and revealing. The only real weakness is that the piece is clearly truncated mid-sentence, cutting off before it can develop a full profile arc, which hurts structure/flow and overall effectiveness. What exists, however, is excellent nonfiction writing.",
+  "run_name": "2026-03-07-openrouter-v0-1",
+  "scores": {
+    "brevity_economy": 5,
+    "clarity": 5,
+    "humanity_voice": 5,
+    "overall": 4,
+    "simplicity": 5,
+    "specificity_precision": 5,
+    "structure_flow": 4
+  }
+}

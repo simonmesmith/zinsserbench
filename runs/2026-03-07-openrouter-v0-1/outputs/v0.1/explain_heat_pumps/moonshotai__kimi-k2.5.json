@@ -1,0 +1,37 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.1",
+  "candidate_label": "Kimi K2.5",
+  "candidate_model_id": "moonshotai/kimi-k2.5",
+  "created_at": "2026-03-07T15:05:58Z",
+  "metadata": {
+    "id": "gen-1772895842-JwX1tr69K3eiIYjTaL9n",
+    "usage": {
+      "completion_tokens": 943,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 560
+      },
+      "cost": 0.00214965,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.00212175,
+        "upstream_inference_cost": 0.00214965,
+        "upstream_inference_prompt_cost": 2.79e-05
+      },
+      "is_byok": false,
+      "prompt_tokens": 62,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 1005
+    }
+  },
+  "prompt_category": "explain",
+  "prompt_id": "explain_heat_pumps",
+  "response_text": "A heat pump doesn\u2019t generate heat\u2014it moves it. Think of it like a refrigerator running in reverse. In winter, the system extracts heat from the outdoor air (even when it\u2019s cold) and pumps it inside. In summer, it reverses the flow, pulling heat from your home and releasing it outdoors to provide air conditioning.\n\nBy contrast, a gas furnace burns fuel to *create* heat through combustion. It\u2019s effective, but inherently inefficient: the best furnaces convert about 95% of the gas into heat, while the rest escapes as exhaust. A heat pump can deliver three to four units of heat for every unit of electricity it consumes because it\u2019s transferring energy rather than generating it.\n\n**Why homeowners are making the switch:**\n\n*   **Two systems in one.** A heat pump replaces both your furnace and your air conditioner, simplifying maintenance and freeing up space.\n*   **Lower operating costs.** Depending on local electricity and gas rates, moving heat is often cheaper than burning fuel, especially in mild to moderate climates.\n*   **Safety and air quality.** Without combustion, there\u2019s no risk of carbon monoxide leaks, gas explosions, or fumes. You eliminate the need for a flue or gas line into the home.\n*   **Environmental impact.** Heat pumps produce no on-site emissions. As the electrical grid incorporates more renewable energy, your heating becomes progressively cleaner.\n\n**The cold-climate caveat:** Standard heat pumps lose efficiency in sub-freezing temperatures, though modern \u201ccold-climate\u201d models now work effectively well below 0\u00b0F. In the coldest regions, you might opt for a hybrid system\u2014using the heat pump for cool days and a backup furnace only during extreme cold.\n\nIf you\u2019re replacing an aging furnace and air conditioner, a heat pump offers a single, efficient, electric alternative that heats, cools, and future-proofs your home against rising fossil-fuel costs.",
+  "run_name": "2026-03-07-openrouter-v0-1"
+}

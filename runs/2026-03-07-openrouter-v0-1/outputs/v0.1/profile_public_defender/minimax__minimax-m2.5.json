@@ -1,0 +1,37 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.1",
+  "candidate_label": "MiniMax M2.5",
+  "candidate_model_id": "minimax/minimax-m2.5",
+  "created_at": "2026-03-07T15:13:19Z",
+  "metadata": {
+    "id": "gen-1772896397-xPOaXHEEt71KREqo2g0f",
+    "usage": {
+      "completion_tokens": 500,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 209
+      },
+      "cost": 0.0006183,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.0006,
+        "upstream_inference_cost": 0.0006183,
+        "upstream_inference_prompt_cost": 1.83e-05
+      },
+      "is_byok": false,
+      "prompt_tokens": 61,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 561
+    }
+  },
+  "prompt_category": "profile",
+  "prompt_id": "profile_public_defender",
+  "response_text": "# The Weight of the Docket\n\n## A Profile of Public Defender Maria Santos\n\nThe alarm at 5:47 a.m. is not a suggestion. Maria Santos has set it seventeen minutes before she needs to be awake, a small rebellion against the concept of mornings that she's maintained since law school. The coffee maker in her one-bedroom apartment near the river finished brewing at 5:30, programmed the night before because she learned years ago that waiting for coffee while getting ready is a luxury she cannot afford.\n\nBy 7:15, she is walking through the glass doors of the Hamilton County Justice Center, nodding to the security guard who has known her for eight years. The building smells the way it always does\u2014cleaning solution and anxiety and the particular staleness of old carpet. Her caseload, as of this morning, stands at 247 active cases. This is down from last month, when it peaked at 261.\n\nShe is thirty-nine years old.\n\n---\n\nThe public defender's office for Hamilton County occupies the third floor of a building that was meant to be temporary when constructed in 1978. The fluorescent lights hum at a frequency that Santos has long since stopped noticing but that new attorneys describe as \"like a dentist's office, but worse.\" Her desk is in the corner, near the window that overlooks the parking garage, a location she chose specifically because it means fewer people walking behind her while she's trying to read.\n\nHer office handles approximately 14,000 cases per year. There are twelve full-time public defenders. The national standard, as set by the American Bar Association, recommends a maximum of 150 felony cases per attorney annually. Santos carried 198 last year",
+  "run_name": "2026-03-07-openrouter-v0-1"
+}

@@ -119,17 +119,21 @@ When OpenRouter supports reasoning controls for a model, ZinsserBench sends `rea
 - `qwen/qwen3.5-35b-a3b`
 - `minimax/minimax-m2.5`
 
-## Example run in this repo
+## Latest run in this repo
 
-This repository includes a committed example run created with the built-in `mock` backend so the artifact layout, reports, and charts are inspectable without API access. Replace it with a live OpenRouter run when you are ready to publish benchmark results.
+Latest live OpenRouter run: `2026-03-07-openrouter-v0-1`
 
-Latest example report: [runs/example-v0-1-12-models/analysis/REPORT.md](/Users/simonsmith/Scratch/2026-03-07-zinsserbench/runs/example-v0-1-12-models/analysis/REPORT.md)
+- Candidate models: `12`
+- Judge panel: `openai/gpt-5.4`, `anthropic/claude-opus-4.6`, `google/gemini-3.1-pro-preview`
+- Top writing models: `openai/gpt-5.3-chat`, `z-ai/glm-5`, `anthropic/claude-opus-4.6`
 
-Latest example charts:
+Latest report: [runs/2026-03-07-openrouter-v0-1/analysis/REPORT.md](/Users/simonsmith/Scratch/2026-03-07-zinsserbench/runs/2026-03-07-openrouter-v0-1/analysis/REPORT.md)
 
-![Overall scores](/Users/simonsmith/Scratch/2026-03-07-zinsserbench/runs/example-v0-1-12-models/analysis/overall_scores.svg)
+Latest charts:
 
-![Judge quality](/Users/simonsmith/Scratch/2026-03-07-zinsserbench/runs/example-v0-1-12-models/analysis/judge_quality.svg)
+![Overall scores](/Users/simonsmith/Scratch/2026-03-07-zinsserbench/runs/2026-03-07-openrouter-v0-1/analysis/overall_scores.svg)
+
+![Judge quality](/Users/simonsmith/Scratch/2026-03-07-zinsserbench/runs/2026-03-07-openrouter-v0-1/analysis/judge_quality.svg)
 
 ## Outputs and analysis
 

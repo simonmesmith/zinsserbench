@@ -1,0 +1,47 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.1",
+  "candidate_model_id": "openai/gpt-5.4",
+  "created_at": "2026-03-07T17:36:00Z",
+  "judge_model_id": "anthropic/claude-opus-4.6",
+  "metadata": {
+    "id": "gen-1772904954-uAuUXERYT0YN29Q0eYdf",
+    "raw_text": "{\"scores\": {\"clarity\": 4, \"simplicity\": 4, \"brevity_economy\": 3, \"structure_flow\": 2, \"specificity_precision\": 4, \"humanity_voice\": 4, \"overall\": 2}, \"rationale\": \"The fragment that exists is well-written: vivid, specific opening details (warehouse job, missed court date, three conversations by 8:30), clean prose, and a human voice. However, the response is drastically incomplete\u2014it cuts off mid-sentence after barely a paragraph. There is no developed profile: no exploration of caseload pressures, courtroom life, systemic context, or character arc. Structure and flow cannot be properly assessed because the piece never develops. The composite-profile disclaimer at the top is a mild throat-clear. What's present shows promise, but as a finished product it fails the task.\"}",
+    "usage": {
+      "completion_tokens": 234,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 25
+      },
+      "cost": 0.00838,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.00585,
+        "upstream_inference_cost": 0.00838,
+        "upstream_inference_prompt_cost": 0.00253
+      },
+      "is_byok": false,
+      "prompt_tokens": 506,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 740
+    }
+  },
+  "prompt_category": "profile",
+  "prompt_id": "profile_public_defender",
+  "rationale": "The fragment that exists is well-written: vivid, specific opening details (warehouse job, missed court date, three conversations by 8:30), clean prose, and a human voice. However, the response is drastically incomplete\u2014it cuts off mid-sentence after barely a paragraph. There is no developed profile: no exploration of caseload pressures, courtroom life, systemic context, or character arc. Structure and flow cannot be properly assessed because the piece never develops. The composite-profile disclaimer at the top is a mild throat-clear. What's present shows promise, but as a finished product it fails the task.",
+  "run_name": "2026-03-07-openrouter-v0-1",
+  "scores": {
+    "brevity_economy": 3,
+    "clarity": 4,
+    "humanity_voice": 4,
+    "overall": 2,
+    "simplicity": 4,
+    "specificity_precision": 4,
+    "structure_flow": 2
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.1",
+  "candidate_label": "GPT-5.4",
+  "candidate_model_id": "openai/gpt-5.4",
+  "created_at": "2026-03-07T15:02:47Z",
+  "metadata": {
+    "id": "gen-1772895759-FkH8fULWkZrD2gCFmBC5",
+    "usage": {
+      "completion_tokens": 500,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 98
+      },
+      "cost": 0.00768,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.0075,
+        "upstream_inference_cost": 0.00768,
+        "upstream_inference_prompt_cost": 0.00018
+      },
+      "is_byok": false,
+      "prompt_tokens": 72,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 572
+    }
+  },
+  "prompt_category": "memo",
+  "prompt_id": "memo_remote_work_policy",
+  "response_text": "**Internal Memo**\n\n**To:** All Employees  \n**From:** Leadership Team  \n**Date:** [Insert Date]  \n**Subject:** New Remote Work Policy\n\nAs our company continues to grow, we are updating our remote work policy to better support collaboration, flexibility, and consistency across the organization. Effective **[insert effective date]**, we will move to a **hybrid remote work model** for all employees whose roles can be performed off-site.\n\n## What the new policy is\n\nUnder the new policy:\n\n- Employees will be expected to work **in the office at least two days per week**.\n- The remaining workdays may be completed remotely, subject to team needs and manager approval.\n- Employees and managers should agree on regular in-office days to ensure overlap for meetings, project work, and team collaboration.\n- Some roles may require a different schedule based on business or customer needs. Managers will communicate those exceptions directly.\n- Core working hours will remain **9:00 a.m. to 3:00 p.m. local time**, unless otherwise approved, to make collaboration easier across teams.\n- All employees, whether working remotely or in the office, are expected to remain available on Slack, attend scheduled meetings, and follow standard security and data protection practices.\n\n## Why we are making this change\n\nOver the past several years, remote work has given our teams greater flexibility and helped many employees maintain a strong work-life balance. At the same time, we have seen that certain kinds of work benefit from more regular in-person interaction, especially:\n\n- onboarding and mentoring new employees,\n- cross-functional planning,\n- design and product collaboration,\n- team building and company culture, and\n- faster problem-solving on complex projects.\n\nAs a 120-person software company, we are at a stage where we need both flexibility and more predictable ways of working together. This policy is intended to create a clearer structure while still preserving the benefits of remote work.\n\n## What employees need to do next\n\nPlease",
+  "run_name": "2026-03-07-openrouter-v0-1"
+}

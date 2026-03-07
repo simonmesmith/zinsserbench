@@ -1,0 +1,47 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.1",
+  "candidate_model_id": "minimax/minimax-m2.5",
+  "created_at": "2026-03-07T17:35:49Z",
+  "judge_model_id": "openai/gpt-5.4",
+  "metadata": {
+    "id": "gen-1772904942-ZlYztMe5oalbdtB5HMUh",
+    "raw_text": "{\"scores\":{\"clarity\":4,\"simplicity\":4,\"brevity_economy\":3,\"structure_flow\":2,\"specificity_precision\":4,\"humanity_voice\":3,\"overall\":2},\"rationale\":\"The writing on the page is clear, plain, and reasonably specific, with useful examples of recall causes and agencies. But it is abruptly cut off and never reaches the main consumer advice about what to do if a recalled product is in your kitchen, which weakens structure, completeness, and overall effectiveness for the task.\"}",
+    "usage": {
+      "completion_tokens": 375,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 257
+      },
+      "cost": 0.0073375,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.005625,
+        "upstream_inference_cost": 0.0073375,
+        "upstream_inference_prompt_cost": 0.0017125
+      },
+      "is_byok": false,
+      "prompt_tokens": 685,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 1060
+    }
+  },
+  "prompt_category": "explain",
+  "prompt_id": "explain_food_recall",
+  "rationale": "The writing on the page is clear, plain, and reasonably specific, with useful examples of recall causes and agencies. But it is abruptly cut off and never reaches the main consumer advice about what to do if a recalled product is in your kitchen, which weakens structure, completeness, and overall effectiveness for the task.",
+  "run_name": "2026-03-07-openrouter-v0-1",
+  "scores": {
+    "brevity_economy": 3,
+    "clarity": 4,
+    "humanity_voice": 3,
+    "overall": 2,
+    "simplicity": 4,
+    "specificity_precision": 4,
+    "structure_flow": 2
+  }
+}

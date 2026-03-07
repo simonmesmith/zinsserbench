@@ -1,0 +1,47 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.1",
+  "candidate_model_id": "anthropic/claude-sonnet-4.6",
+  "created_at": "2026-03-07T17:46:27Z",
+  "judge_model_id": "anthropic/claude-opus-4.6",
+  "metadata": {
+    "id": "gen-1772905579-70tZBE9qvg6OLaUyobrJ",
+    "raw_text": "{\"scores\": {\"clarity\": 5, \"simplicity\": 5, \"brevity_economy\": 5, \"structure_flow\": 5, \"specificity_precision\": 5, \"humanity_voice\": 5, \"overall\": 5}, \"rationale\": \"This is exceptional personal nonfiction. The clarity is flawless \u2014 every sentence lands on first read. The language is plain but precise, never inflated: 'the slow accordion of delay,' 'my body developed a kind of liturgy,' 'absence had a shape' \u2014 these are earned metaphors, not decorations. The economy is remarkable: the reason for riding the bus (avoidance after a breakup) is delivered in a single honest paragraph without self-pity or over-explanation. The structure moves naturally from the bus itself to the emotional context to the regulars, each section flowing logically. Specificity is outstanding \u2014 '11:47,' 'Meridian and Fifth,' 'Carhartt canvas pants stiffened with dried concrete or drywall compound,' 'a hard hat under his arm like a clutch purse.' The voice is deeply human, confessional without being maudlin, observant without being detached. The piece is cut off, which is the only flaw, but what exists is among the best personal essay writing I've seen in a prompt response. The comparison of the HVAC-warm office to the accusatory quiet apartment is devastating in its restraint.\"}",
+    "usage": {
+      "completion_tokens": 325,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 0
+      },
+      "cost": 0.0123,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.008125,
+        "upstream_inference_cost": 0.0123,
+        "upstream_inference_prompt_cost": 0.004175
+      },
+      "is_byok": false,
+      "prompt_tokens": 835,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 1160
+    }
+  },
+  "prompt_category": "personal_nonfiction",
+  "prompt_id": "personal_night_shift_bus",
+  "rationale": "This is exceptional personal nonfiction. The clarity is flawless \u2014 every sentence lands on first read. The language is plain but precise, never inflated: 'the slow accordion of delay,' 'my body developed a kind of liturgy,' 'absence had a shape' \u2014 these are earned metaphors, not decorations. The economy is remarkable: the reason for riding the bus (avoidance after a breakup) is delivered in a single honest paragraph without self-pity or over-explanation. The structure moves naturally from the bus itself to the emotional context to the regulars, each section flowing logically. Specificity is outstanding \u2014 '11:47,' 'Meridian and Fifth,' 'Carhartt canvas pants stiffened with dried concrete or drywall compound,' 'a hard hat under his arm like a clutch purse.' The voice is deeply human, confessional without being maudlin, observant without being detached. The piece is cut off, which is the only flaw, but what exists is among the best personal essay writing I've seen in a prompt response. The comparison of the HVAC-warm office to the accusatory quiet apartment is devastating in its restraint.",
+  "run_name": "2026-03-07-openrouter-v0-1",
+  "scores": {
+    "brevity_economy": 5,
+    "clarity": 5,
+    "humanity_voice": 5,
+    "overall": 5,
+    "simplicity": 5,
+    "specificity_precision": 5,
+    "structure_flow": 5
+  }
+}

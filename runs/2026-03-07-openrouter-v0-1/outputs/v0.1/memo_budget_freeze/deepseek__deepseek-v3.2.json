@@ -1,0 +1,37 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.1",
+  "candidate_label": "DeepSeek V3.2",
+  "candidate_model_id": "deepseek/deepseek-v3.2",
+  "created_at": "2026-03-07T15:03:38Z",
+  "metadata": {
+    "id": "gen-1772895796-LjLpm3I2jsdVvxfMA0Gc",
+    "usage": {
+      "completion_tokens": 500,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 129
+      },
+      "cost": 0.0002282,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.00021,
+        "upstream_inference_cost": 0.0002282,
+        "upstream_inference_prompt_cost": 1.82e-05
+      },
+      "is_byok": false,
+      "prompt_tokens": 65,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 565
+    }
+  },
+  "prompt_category": "memo",
+  "prompt_id": "memo_budget_freeze",
+  "response_text": "**MEMORANDUM**\n\n**TO:** All Department Heads  \n**FROM:** Hospital Administration  \n**DATE:** October 26, 2023  \n**SUBJECT:** Temporary Budget Freeze - Immediate Effect  \n\nThis memo is to inform you of an immediate, temporary freeze on all non-essential discretionary spending. This measure is necessary to address an unforeseen, significant variance in our Q3 financial performance and to ensure we end the fiscal year in alignment with our financial targets. The freeze will remain in effect until further notice, pending a comprehensive review in mid-November.\n\nOur primary goal is to protect core patient care services and staff positions. This action is a proactive step to avoid more severe measures later. Your cooperation and leadership in communicating this to your teams are critical.\n\n**WHAT IS AFFECTED (FROZEN):**\n*   **New Discretionary Purchases:** All non-essential supplies, equipment, and furniture not directly related to immediate patient safety.\n*   **Travel & Conference Attendance:** All non-essential business travel, conferences, and external training requiring budget funds.\n*   **Consultant & Temporary Services:** New contracts or extensions for consulting, temporary staff, or agency personnel not pre-approved for critical clinical coverage.\n*   **Memberships & Subscriptions:** New or renewal payments for professional memberships or non-essential software/service subscriptions.\n*   **Departmental Events & Catering:** All non-patient-related meals, catering, and social functions.\n\n**WHAT IS NOT AFFECTED (PROCEED AS USUAL):**\n*   **Patient Care Supplies:** All medical/surgical supplies, pharmaceuticals, and linens required for direct patient care.\n*   **Routine Maintenance & Repairs:** Essential facility maintenance, biomedical equipment repairs, and IT system support to ensure operational safety and continuity.\n*   **Payroll &",
+  "run_name": "2026-03-07-openrouter-v0-1"
+}

@@ -1,0 +1,37 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.1",
+  "candidate_label": "GLM-5",
+  "candidate_model_id": "z-ai/glm-5",
+  "created_at": "2026-03-07T16:11:47Z",
+  "metadata": {
+    "id": "gen-1772899888-Vi4XtUIpUq9dOqrabGWz",
+    "usage": {
+      "completion_tokens": 500,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 268
+      },
+      "cost": 0.00130192,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.00128,
+        "upstream_inference_cost": 0.00130192,
+        "upstream_inference_prompt_cost": 2.192e-05
+      },
+      "is_byok": false,
+      "prompt_tokens": 53,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 32,
+        "video_tokens": 0
+      },
+      "total_tokens": 553
+    }
+  },
+  "prompt_category": "personal_nonfiction",
+  "prompt_id": "personal_public_pool",
+  "response_text": "# The Deep End\n\nThe Maplewood Pool opened on Memorial Day and closed on Labor Day, and in the ten weeks between, you could watch the entire town pass through its chain-link gates.\n\nI worked there for four summers, starting when I was sixteen. My job was technically \"pool attendant,\" which meant I checked membership cards, fished leaves out of the water, and occasionally blew a whistle at children running on the concrete deck. But really, I watched people.\n\nThe pool sat on the edge of town, carved into a hillside behind the recreation center. It wasn't fancy\u2014no water slides or lazy rivers, just a rectangular lap pool, a shallow end for kids, and a grassy area with faded umbrellas. The locker rooms smelled permanently of chlorine and damp concrete. The snack bar sold soft pretzels and ice cream sandwiches at prices that hadn't changed since the 1990s.\n\nWhat the pool revealed, more than anything, was who belonged.\n\nMaplewood was the kind of town that liked to think of itself as integrated, progressive, diverse. The school district boasted about its demographics. The downtown had a co-op grocery store and a fair-trade coffee shop. But the pool showed the seams.\n\nYou had to buy a membership to get in. A family pass cost $150 for the summer, which wasn't nothing but wasn't prohibitive either. Still, the crowd was self-selecting",
+  "run_name": "2026-03-07-openrouter-v0-1"
+}

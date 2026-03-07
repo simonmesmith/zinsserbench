@@ -1,0 +1,37 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.1",
+  "candidate_label": "Kimi K2.5",
+  "candidate_model_id": "moonshotai/kimi-k2.5",
+  "created_at": "2026-03-07T15:14:15Z",
+  "metadata": {
+    "id": "gen-1772896420-8Cn4KJU22unBc2zH9NaV",
+    "usage": {
+      "completion_tokens": 500,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 387
+      },
+      "cost": 0.00115065,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.001125,
+        "upstream_inference_cost": 0.00115065,
+        "upstream_inference_prompt_cost": 2.565e-05
+      },
+      "is_byok": false,
+      "prompt_tokens": 57,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 557
+    }
+  },
+  "prompt_category": "service_howto",
+  "prompt_id": "howto_school_board_comment",
+  "response_text": "**How to Speak at a School Board Meeting: A Parent\u2019s Practical Guide**\n\nSpeaking at a school board meeting is one of the most direct ways to influence policy, advocate for your child, or support district initiatives. While the prospect can feel intimidating, preparation transforms anxiety into effective advocacy.\n\n## Before You Commit to Speaking\n\n**Verify the process.** Every district operates differently. Check the school board\u2019s website or call the district clerk to confirm:\n- How to sign up (online portal, email, phone call, or in-person signup before the meeting)\n- Time limits (typically 2\u20135 minutes)\n- Deadlines (often 24\u201348 hours before the meeting)\n- Whether you must address items specifically on that meeting\u2019s agenda\n\n**Attend one meeting first.** Watch how public comment works in your district. Note whether the board allows back-and-forth dialogue or strictly limits speakers to statements. Observe the tone\u2014some boards are formal and rigid; others are conversational.\n\n## Crafting Your Message\n\n**Focus",
+  "run_name": "2026-03-07-openrouter-v0-1"
+}

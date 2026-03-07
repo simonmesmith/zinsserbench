@@ -1,0 +1,47 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.1",
+  "candidate_model_id": "deepseek/deepseek-v3.2",
+  "created_at": "2026-03-07T17:41:09Z",
+  "judge_model_id": "openai/gpt-5.4",
+  "metadata": {
+    "id": "gen-1772905266-1UoN9c7lOFzq766aDEHm",
+    "raw_text": "{\"scores\":{\"clarity\":4,\"simplicity\":4,\"brevity_economy\":4,\"structure_flow\":2,\"specificity_precision\":4,\"humanity_voice\":3,\"overall\":3},\"rationale\":\"Clear, practical, and mostly plainspoken, with useful specifics like checking public-comment rules, agenda review, and a 3-minute word-count target. However, the response is visibly incomplete, ending mid-outline at 'Opening,' which hurts flow, completeness, and overall effectiveness. The tone is helpful but somewhat generic.\"}",
+    "usage": {
+      "completion_tokens": 160,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 42
+      },
+      "cost": 0.00409,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.0024,
+        "upstream_inference_cost": 0.00409,
+        "upstream_inference_prompt_cost": 0.00169
+      },
+      "is_byok": false,
+      "prompt_tokens": 676,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 836
+    }
+  },
+  "prompt_category": "service_howto",
+  "prompt_id": "howto_school_board_comment",
+  "rationale": "Clear, practical, and mostly plainspoken, with useful specifics like checking public-comment rules, agenda review, and a 3-minute word-count target. However, the response is visibly incomplete, ending mid-outline at 'Opening,' which hurts flow, completeness, and overall effectiveness. The tone is helpful but somewhat generic.",
+  "run_name": "2026-03-07-openrouter-v0-1",
+  "scores": {
+    "brevity_economy": 4,
+    "clarity": 4,
+    "humanity_voice": 3,
+    "overall": 3,
+    "simplicity": 4,
+    "specificity_precision": 4,
+    "structure_flow": 2
+  }
+}

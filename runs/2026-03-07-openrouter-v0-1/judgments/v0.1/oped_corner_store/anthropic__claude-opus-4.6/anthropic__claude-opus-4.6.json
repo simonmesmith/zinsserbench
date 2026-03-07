@@ -1,0 +1,47 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.1",
+  "candidate_model_id": "anthropic/claude-opus-4.6",
+  "created_at": "2026-03-07T17:43:33Z",
+  "judge_model_id": "anthropic/claude-opus-4.6",
+  "metadata": {
+    "id": "gen-1772905407-6cPeW4CeOJL85t6sW2Jj",
+    "raw_text": "{\"scores\": {\"clarity\": 5, \"simplicity\": 5, \"brevity_economy\": 4, \"structure_flow\": 5, \"specificity_precision\": 4, \"humanity_voice\": 5, \"overall\": 5}, \"rationale\": \"Exceptionally clear and readable opinion piece. The voice is warm, personal, and persuasive from the opening subtitle ('tired of driving ten minutes just to buy a carton of eggs') through the concrete examples (Brooklyn brownstones, 1,000 square feet, hand-written signs). Language is plain and direct without being simplistic. Structure flows logically from nostalgia/framing to practicality/equity, with clear section headers. Minor dings: the piece is cut off mid-section ('Safer' heading with no content), which hurts completeness, and a few phrases lean slightly toward rhetorical flourish ('fabric of mixed, walkable communities') rather than strict plainness. The specificity is strong but could go further with local data or named examples. Despite the truncation, what's on the page is polished, engaging, and effective opinion writing.\"}",
+    "usage": {
+      "completion_tokens": 251,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 0
+      },
+      "cost": 0.01047,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.006275,
+        "upstream_inference_cost": 0.01047,
+        "upstream_inference_prompt_cost": 0.004195
+      },
+      "is_byok": false,
+      "prompt_tokens": 839,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 1090
+    }
+  },
+  "prompt_category": "persuasion_oped",
+  "prompt_id": "oped_corner_store",
+  "rationale": "Exceptionally clear and readable opinion piece. The voice is warm, personal, and persuasive from the opening subtitle ('tired of driving ten minutes just to buy a carton of eggs') through the concrete examples (Brooklyn brownstones, 1,000 square feet, hand-written signs). Language is plain and direct without being simplistic. Structure flows logically from nostalgia/framing to practicality/equity, with clear section headers. Minor dings: the piece is cut off mid-section ('Safer' heading with no content), which hurts completeness, and a few phrases lean slightly toward rhetorical flourish ('fabric of mixed, walkable communities') rather than strict plainness. The specificity is strong but could go further with local data or named examples. Despite the truncation, what's on the page is polished, engaging, and effective opinion writing.",
+  "run_name": "2026-03-07-openrouter-v0-1",
+  "scores": {
+    "brevity_economy": 4,
+    "clarity": 5,
+    "humanity_voice": 5,
+    "overall": 5,
+    "simplicity": 5,
+    "specificity_precision": 4,
+    "structure_flow": 5
+  }
+}

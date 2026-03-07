@@ -1,0 +1,47 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.1",
+  "candidate_model_id": "minimax/minimax-m2.5",
+  "created_at": "2026-03-07T17:26:01Z",
+  "judge_model_id": "anthropic/claude-opus-4.6",
+  "metadata": {
+    "id": "gen-1772904354-bTOhpACa0TfeV7lYfFlC",
+    "raw_text": "{\"scores\": {\"clarity\": 5, \"simplicity\": 5, \"brevity_economy\": 4, \"structure_flow\": 5, \"specificity_precision\": 5, \"humanity_voice\": 5, \"overall\": 5}, \"rationale\": \"Exceptionally well-crafted opening to a personal essay. The prose is clean, direct, and vivid without being overwrought. Specific details\u2014Ashland Avenue, logging bathroom breaks, docking pay for scanning too slowly, the water-stained ceiling, the TV mounted too high\u2014ground the piece in lived experience and do real narrative work. The voice is distinctive and warm, with a wry intelligence ('the word break was more aspiration than policy') that never tips into cleverness for its own sake. The structure moves logically from the writer's prior understanding of work through the arrival at the union job, building tension naturally. The only slight ding is that the piece is incomplete\u2014it ends mid-scene without delivering the promised transformation\u2014but what's on the page is excellent. The italicized emphasis on 'to' and 'mine' is purposeful and effective. Language is plain throughout without sacrificing sophistication.\"}",
+    "usage": {
+      "completion_tokens": 262,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 0
+      },
+      "cost": 0.01016,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.00655,
+        "upstream_inference_cost": 0.01016,
+        "upstream_inference_prompt_cost": 0.00361
+      },
+      "is_byok": false,
+      "prompt_tokens": 722,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 984
+    }
+  },
+  "prompt_category": "personal_nonfiction",
+  "prompt_id": "personal_first_day_union_job",
+  "rationale": "Exceptionally well-crafted opening to a personal essay. The prose is clean, direct, and vivid without being overwrought. Specific details\u2014Ashland Avenue, logging bathroom breaks, docking pay for scanning too slowly, the water-stained ceiling, the TV mounted too high\u2014ground the piece in lived experience and do real narrative work. The voice is distinctive and warm, with a wry intelligence ('the word break was more aspiration than policy') that never tips into cleverness for its own sake. The structure moves logically from the writer's prior understanding of work through the arrival at the union job, building tension naturally. The only slight ding is that the piece is incomplete\u2014it ends mid-scene without delivering the promised transformation\u2014but what's on the page is excellent. The italicized emphasis on 'to' and 'mine' is purposeful and effective. Language is plain throughout without sacrificing sophistication.",
+  "run_name": "2026-03-07-openrouter-v0-1",
+  "scores": {
+    "brevity_economy": 4,
+    "clarity": 5,
+    "humanity_voice": 5,
+    "overall": 5,
+    "simplicity": 5,
+    "specificity_precision": 5,
+    "structure_flow": 5
+  }
+}

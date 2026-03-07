@@ -1,0 +1,47 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.1",
+  "candidate_model_id": "moonshotai/kimi-k2.5",
+  "created_at": "2026-03-07T17:19:06Z",
+  "judge_model_id": "anthropic/claude-opus-4.6",
+  "metadata": {
+    "id": "gen-1772903939-7RgKRRLhqk2kdAuZ1F8L",
+    "raw_text": "{\"scores\": {\"clarity\": 5, \"simplicity\": 4, \"brevity_economy\": 4, \"structure_flow\": 4, \"specificity_precision\": 4, \"humanity_voice\": 5, \"overall\": 4}, \"rationale\": \"The writing is immediately clear and compelling, with vivid concrete examples (single parent working two jobs, restaurant server studying for a licensing exam) that ground the argument. The voice is strong and persuasive\u2014phrases like 'daytime luxuries' and 'exclusive clubs for the daytime-privileged' are memorable without being overwrought. The piece is unfortunately cut off mid-sentence, which prevents it from being a complete argument and hurts structure/flow since we never get a conclusion. The language is mostly plain and direct, though occasional phrases like 'genuine civic equalizers' lean slightly toward the rhetorical. What exists is well-organized with clear paragraph-level topic shifts (opening thesis, equity argument, community infrastructure). Docked slightly on specificity because while the examples are good, some claims could use data or citations. The incompleteness is the main limitation.\"}",
+    "usage": {
+      "completion_tokens": 249,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 0
+      },
+      "cost": 0.00957,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.006225,
+        "upstream_inference_cost": 0.00957,
+        "upstream_inference_prompt_cost": 0.003345
+      },
+      "is_byok": false,
+      "prompt_tokens": 669,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 918
+    }
+  },
+  "prompt_category": "persuasion_oped",
+  "prompt_id": "oped_library_hours",
+  "rationale": "The writing is immediately clear and compelling, with vivid concrete examples (single parent working two jobs, restaurant server studying for a licensing exam) that ground the argument. The voice is strong and persuasive\u2014phrases like 'daytime luxuries' and 'exclusive clubs for the daytime-privileged' are memorable without being overwrought. The piece is unfortunately cut off mid-sentence, which prevents it from being a complete argument and hurts structure/flow since we never get a conclusion. The language is mostly plain and direct, though occasional phrases like 'genuine civic equalizers' lean slightly toward the rhetorical. What exists is well-organized with clear paragraph-level topic shifts (opening thesis, equity argument, community infrastructure). Docked slightly on specificity because while the examples are good, some claims could use data or citations. The incompleteness is the main limitation.",
+  "run_name": "2026-03-07-openrouter-v0-1",
+  "scores": {
+    "brevity_economy": 4,
+    "clarity": 5,
+    "humanity_voice": 5,
+    "overall": 4,
+    "simplicity": 4,
+    "specificity_precision": 4,
+    "structure_flow": 4
+  }
+}

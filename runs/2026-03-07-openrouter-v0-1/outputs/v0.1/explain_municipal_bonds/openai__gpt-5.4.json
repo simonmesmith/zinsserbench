@@ -1,0 +1,37 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.1",
+  "candidate_label": "GPT-5.4",
+  "candidate_model_id": "openai/gpt-5.4",
+  "created_at": "2026-03-07T15:04:36Z",
+  "metadata": {
+    "id": "gen-1772895861-arGdWUIwqqwBDual8q0F",
+    "usage": {
+      "completion_tokens": 500,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 49
+      },
+      "cost": 0.007645,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.0075,
+        "upstream_inference_cost": 0.007645,
+        "upstream_inference_prompt_cost": 0.000145
+      },
+      "is_byok": false,
+      "prompt_tokens": 58,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 558
+    }
+  },
+  "prompt_category": "explain",
+  "prompt_id": "explain_municipal_bonds",
+  "response_text": "## What municipal bonds are, in plain English\n\nA **municipal bond** is basically an **IOU issued by a state or local government**.\n\nWhen a city, county, school district, or state needs money for a big public project, it often does not have enough cash on hand to pay for everything upfront. So instead of waiting years to save up, it can **borrow money from investors**. It does that by issuing bonds.\n\nIf you buy one of these bonds, you are **lending money** to that government. In return, the government promises to:\n\n1. **Pay you interest** along the way, and  \n2. **Pay back the original amount** you lent at a set future date.\n\nBecause they are issued by public entities, these bonds are called **municipal bonds**, often shortened to **\u201cmunis.\u201d**\n\n---\n\n## Why cities and towns issue them\n\nCities issue municipal bonds because many public projects are:\n\n- **expensive**\n- **needed now**\n- **used for decades**\n\nThink about things like:\n\n- roads and bridges\n- schools\n- water and sewer systems\n- public transit\n- parks\n- hospitals\n- airports\n- public buildings\n\nA city could try to pay for a new water treatment plant entirely out of this year\u2019s taxes, but that would be very hard and could mean huge tax increases or deep cuts elsewhere. Borrowing lets the city **spread the cost over time**.\n\nThat makes sense because the project will benefit people for many years. In effect, the cost is shared more broadly across the people who use it over time, rather than falling all at once on current taxpayers.\n\n---\n\n## A simple example\n\nImagine a city needs **$100 million** to repair roads and replace old water pipes.\n\nInstead of raising all $100 million immediately, the city sells bonds to investors. Investors provide the money now. The city uses it to do the work. Then over the next 10, 20, or 30 years, the city repays investors with interest.\n\nSo the city gets the infrastructure it needs now, and the repayment is spread out over time.\n\n---\n\n## How municipal bonds are repaid\n\nNot all municipal bonds are",
+  "run_name": "2026-03-07-openrouter-v0-1"
+}

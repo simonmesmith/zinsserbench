@@ -1,0 +1,37 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.1",
+  "candidate_label": "GPT-5.3 Chat",
+  "candidate_model_id": "openai/gpt-5.3-chat",
+  "created_at": "2026-03-07T15:12:26Z",
+  "metadata": {
+    "id": "gen-1772896340-QHT2kITJMIYgIrYQn8x7",
+    "usage": {
+      "completion_tokens": 500,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 0
+      },
+      "cost": 0.0071085,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.007,
+        "upstream_inference_cost": 0.0071085,
+        "upstream_inference_prompt_cost": 0.0001085
+      },
+      "is_byok": false,
+      "prompt_tokens": 62,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 562
+    }
+  },
+  "prompt_category": "explain",
+  "prompt_id": "explain_food_recall",
+  "response_text": "When you see news that a food product has been \u201crecalled,\u201d it means the product has been removed from sale because it might be unsafe to eat. Recalls usually happen when a company or government regulator discovers a risk such as contamination with bacteria (like Salmonella, E. coli, or Listeria), the presence of undeclared allergens, foreign objects in the food, or problems with how the product was made or labeled.\n\nA recall does not always mean people have already gotten sick. Sometimes the issue is caught during routine testing or quality checks before many people are affected. But the recall is issued because there is a real possibility the product could cause harm.\n\nWhat a recall includes  \nRecall announcements typically give very specific details so people can identify the affected items. These details may include:\n\n- The brand and product name  \n- Package size and type  \n- Lot numbers or batch codes  \n- \u201cBest by\u201d or expiration dates  \n- The factory or establishment number (sometimes printed near the barcode)  \n- Photos of the packaging\n\nOften only certain batches are affected, not every product from that brand.\n\nWhat to do if you have the recalled product\n\n1. Stop eating it immediately. Even if it looks or smells normal, contamination often cannot be detected by sight, taste, or smell.\n\n2. Check the recall details carefully. Compare the lot number, expiration date, and package size with the information in the recall notice.\n\n3. Follow the instructions in the recall notice. Usually you will be told to either:\n   - Throw the product away, or  \n   - Return it to the store for a refund or replacement.\n\n4. Prevent cross\u2011contamination. If the recalled food might carry bacteria, clean any surfaces, containers, or refrigerator shelves it touched. Wash your hands after handling it.\n\n5. Monitor for symptoms if you already ate it. If the recall involves bacteria, watch for signs of foodborne illness such as diarrhea, vomiting, fever, or stomach cramps. Most mild cases resolve on their own, but people at higher risk\u2014young children, older adults, pregnant people, and those with weakened immune systems\u2014should contact a healthcare provider if symptoms appear.\n\nWhy recalls matter  \nFood recalls are a normal part of food safety systems. They allow companies and regulators to quickly remove potentially harmful products from circulation and inform consumers before more people get sick. Paying attention to recall notices and checking products at home helps reduce your risk.\n\nHow to stay informed  \nConsumers can learn about",
+  "run_name": "2026-03-07-openrouter-v0-1"
+}

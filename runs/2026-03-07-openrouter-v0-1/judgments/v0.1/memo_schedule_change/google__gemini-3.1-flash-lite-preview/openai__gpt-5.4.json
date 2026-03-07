@@ -1,0 +1,47 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.1",
+  "candidate_model_id": "google/gemini-3.1-flash-lite-preview",
+  "created_at": "2026-03-07T17:52:07Z",
+  "judge_model_id": "openai/gpt-5.4",
+  "metadata": {
+    "id": "gen-1772905923-2sUIsdx4FNxsOoe2JXS6",
+    "raw_text": "{\"scores\":{\"clarity\":2,\"simplicity\":4,\"brevity_economy\":1,\"structure_flow\":2,\"specificity_precision\":1,\"humanity_voice\":1,\"overall\":1},\"rationale\":\"The response is only a memo header. What is there is clear and simple, but it does not actually announce a schedule change, provide details, or develop a full memo. It lacks substance, specificity, reader guidance, and voice, so it fails the task overall.\"}",
+    "usage": {
+      "completion_tokens": 277,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 168
+      },
+      "cost": 0.005085,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.004155,
+        "upstream_inference_cost": 0.005085,
+        "upstream_inference_prompt_cost": 0.00093
+      },
+      "is_byok": false,
+      "prompt_tokens": 372,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 649
+    }
+  },
+  "prompt_category": "memo",
+  "prompt_id": "memo_schedule_change",
+  "rationale": "The response is only a memo header. What is there is clear and simple, but it does not actually announce a schedule change, provide details, or develop a full memo. It lacks substance, specificity, reader guidance, and voice, so it fails the task overall.",
+  "run_name": "2026-03-07-openrouter-v0-1",
+  "scores": {
+    "brevity_economy": 1,
+    "clarity": 2,
+    "humanity_voice": 1,
+    "overall": 1,
+    "simplicity": 4,
+    "specificity_precision": 1,
+    "structure_flow": 2
+  }
+}

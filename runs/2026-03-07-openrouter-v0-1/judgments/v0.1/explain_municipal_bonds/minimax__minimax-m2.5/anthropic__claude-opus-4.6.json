@@ -1,0 +1,47 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.1",
+  "candidate_model_id": "minimax/minimax-m2.5",
+  "created_at": "2026-03-07T17:03:04Z",
+  "judge_model_id": "anthropic/claude-opus-4.6",
+  "metadata": {
+    "id": "gen-1772902976-3FDoaG7KRhkyelWCRx08",
+    "raw_text": "{\"scores\": {\"clarity\": 5, \"simplicity\": 5, \"brevity_economy\": 4, \"structure_flow\": 5, \"specificity_precision\": 4, \"humanity_voice\": 5, \"overall\": 4}, \"rationale\": \"Exceptionally clear and well-organized explainer that uses relatable analogies (the neighbor loan, the mortgage) to make abstract financial concepts accessible. The plain language is consistent throughout, and the headers guide the reader logically from 'what is it' to 'why cities issue them' to 'why investors buy them.' The neighbor analogy is slightly oversimplified (bonds are tradeable securities, not personal IOUs), but for a general audience this is a reasonable tradeoff. The piece loses a point on brevity because the bulleted infrastructure list is somewhat generic and could be tightened, and the response is visibly cut off mid-sentence in the tax-free section, which is a meaningful flaw \u2014 the reader is left hanging on an important point. Specificity is good but not exceptional; the $1,000/$50 example is concrete, but the piece doesn't mention typical bond terms, yields, or the scale of the muni market. Voice is warm, conversational, and genuinely reader-aware. The truncation prevents a higher overall score.\"}",
+    "usage": {
+      "completion_tokens": 293,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 0
+      },
+      "cost": 0.01178,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.007325,
+        "upstream_inference_cost": 0.01178,
+        "upstream_inference_prompt_cost": 0.004455
+      },
+      "is_byok": false,
+      "prompt_tokens": 891,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 1184
+    }
+  },
+  "prompt_category": "explain",
+  "prompt_id": "explain_municipal_bonds",
+  "rationale": "Exceptionally clear and well-organized explainer that uses relatable analogies (the neighbor loan, the mortgage) to make abstract financial concepts accessible. The plain language is consistent throughout, and the headers guide the reader logically from 'what is it' to 'why cities issue them' to 'why investors buy them.' The neighbor analogy is slightly oversimplified (bonds are tradeable securities, not personal IOUs), but for a general audience this is a reasonable tradeoff. The piece loses a point on brevity because the bulleted infrastructure list is somewhat generic and could be tightened, and the response is visibly cut off mid-sentence in the tax-free section, which is a meaningful flaw \u2014 the reader is left hanging on an important point. Specificity is good but not exceptional; the $1,000/$50 example is concrete, but the piece doesn't mention typical bond terms, yields, or the scale of the muni market. Voice is warm, conversational, and genuinely reader-aware. The truncation prevents a higher overall score.",
+  "run_name": "2026-03-07-openrouter-v0-1",
+  "scores": {
+    "brevity_economy": 4,
+    "clarity": 5,
+    "humanity_voice": 5,
+    "overall": 4,
+    "simplicity": 5,
+    "specificity_precision": 4,
+    "structure_flow": 5
+  }
+}

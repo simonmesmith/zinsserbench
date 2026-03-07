@@ -1,0 +1,37 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.1",
+  "candidate_label": "GPT-5.4",
+  "candidate_model_id": "openai/gpt-5.4",
+  "created_at": "2026-03-07T15:07:53Z",
+  "metadata": {
+    "id": "gen-1772896062-uMVkh004DTnmvKgwO2Pr",
+    "usage": {
+      "completion_tokens": 500,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 74
+      },
+      "cost": 0.007645,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.0075,
+        "upstream_inference_cost": 0.007645,
+        "upstream_inference_prompt_cost": 0.000145
+      },
+      "is_byok": false,
+      "prompt_tokens": 58,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 558
+    }
+  },
+  "prompt_category": "service_howto",
+  "prompt_id": "howto_report_water_leak",
+  "response_text": "# What to Do If You Discover a Water Leak in Your Apartment Ceiling\n\nA ceiling leak can go from minor annoyance to serious damage very quickly. The right first steps can protect your safety, your belongings, and your ability to get repairs and reimbursement later.\n\n## 1. Make Safety Your First Priority\n\nIf water is dripping from the ceiling, pooled overhead, or causing bulging drywall, treat it as a potential hazard.\n\n### Do this immediately:\n- **Move people and pets away** from the area.\n- **Do not stand under a bulging ceiling.** A swollen section can collapse.\n- **Turn off electricity to the affected room if it is safe to do so.**\n  - If water is near light fixtures, outlets, smoke detectors, or electrical cords, this is especially important.\n  - Use your breaker panel only if you can reach it without stepping through water.\n- **Do not touch wet light fixtures or ceiling fans.**\n- If there is **active leaking near electricity and you cannot safely cut power**, call building management/emergency maintenance right away. If the situation feels dangerous, call the fire department or emergency services.\n\n## 2. Protect Your Belongings\n\nAs soon as it is safe:\n\n- Move furniture, electronics, rugs, clothing, and valuables out of the area.\n- Put **buckets, pots, or storage bins** under drips.\n- Use **towels, rags, or a mop** to control spreading water.\n- If you cannot move large furniture, cover it with **plastic sheeting, shower curtains, trash bags, or waterproof tarps**.\n\n## 3. Document Everything\n\nDocumentation matters for repairs, deposit disputes, and renters insurance claims.\n\n### Take clear photos and videos of:\n- The leak source or wet ceiling area\n- Water dripping or pooling\n- Any bulging, cracking, stains, or sagging drywall\n- Damaged belongings\n- Wet floors, walls, or fixtures\n\n### Also record:\n- The **date and time** you first noticed it\n- Whether the leak is **steady,",
+  "run_name": "2026-03-07-openrouter-v0-1"
+}

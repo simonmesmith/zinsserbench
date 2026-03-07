@@ -1,0 +1,37 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.1",
+  "candidate_label": "GPT-5.4",
+  "candidate_model_id": "openai/gpt-5.4",
+  "created_at": "2026-03-07T15:10:35Z",
+  "metadata": {
+    "id": "gen-1772896223-BSxNP5kVCvW4uUGMfyuH",
+    "usage": {
+      "completion_tokens": 500,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 412
+      },
+      "cost": 0.007655,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.0075,
+        "upstream_inference_cost": 0.007655,
+        "upstream_inference_prompt_cost": 0.000155
+      },
+      "is_byok": false,
+      "prompt_tokens": 62,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 562
+    }
+  },
+  "prompt_category": "personal_nonfiction",
+  "prompt_id": "personal_first_day_union_job",
+  "response_text": "On the first day of my union job, the thing that startled me most was not the machinery, or the size of the building, or even the fact that people had worked there long enough to go gray in the same uniforms. It was a sentence.\n\n\u201cThe contract says you get two fifteen-minute breaks and a half-hour lunch,\u201d the shop steward told our little group of new hires. He said it casually, like",
+  "run_name": "2026-03-07-openrouter-v0-1"
+}

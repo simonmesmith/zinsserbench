@@ -1,0 +1,47 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.1",
+  "candidate_model_id": "minimax/minimax-m2.5",
+  "created_at": "2026-03-07T17:29:35Z",
+  "judge_model_id": "anthropic/claude-opus-4.6",
+  "metadata": {
+    "id": "gen-1772904567-rBiSnicivdD2nfysqsnS",
+    "raw_text": "{\"scores\": {\"clarity\": 5, \"simplicity\": 5, \"brevity_economy\": 4, \"structure_flow\": 4, \"specificity_precision\": 4, \"humanity_voice\": 5, \"overall\": 4}, \"rationale\": \"The writing is remarkably clear and natural, with plain language that never feels inflated. Specific details\u2014the dollar for the concession stand, The Rusty Nail, colonials vs. trailers\u2014ground the essay convincingly. The voice is warm, personal, and genuinely human, with a memoirist's cadence that feels earned rather than performed. The central insight\u2014the pool as the literal and social intersection of two Ridgewoods\u2014is well set up. However, the piece is clearly incomplete, cutting off mid-sentence, which undermines structure and flow since we never get the payoff of what the pool ultimately revealed. The prompt asks what the pool revealed about the town, and while the essay gestures toward class division, it doesn't develop or resolve that theme. Brevity is good within what exists, though the incompleteness itself is a significant flaw. Specificity is strong but could deepen\u2014some details (lifeguards flirting, 'rough democracy of the shallow end') are evocative but slightly familiar territory for this genre.\"}",
+    "usage": {
+      "completion_tokens": 294,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 0
+      },
+      "cost": 0.011065,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.00735,
+        "upstream_inference_cost": 0.011065,
+        "upstream_inference_prompt_cost": 0.003715
+      },
+      "is_byok": false,
+      "prompt_tokens": 743,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 1037
+    }
+  },
+  "prompt_category": "personal_nonfiction",
+  "prompt_id": "personal_public_pool",
+  "rationale": "The writing is remarkably clear and natural, with plain language that never feels inflated. Specific details\u2014the dollar for the concession stand, The Rusty Nail, colonials vs. trailers\u2014ground the essay convincingly. The voice is warm, personal, and genuinely human, with a memoirist's cadence that feels earned rather than performed. The central insight\u2014the pool as the literal and social intersection of two Ridgewoods\u2014is well set up. However, the piece is clearly incomplete, cutting off mid-sentence, which undermines structure and flow since we never get the payoff of what the pool ultimately revealed. The prompt asks what the pool revealed about the town, and while the essay gestures toward class division, it doesn't develop or resolve that theme. Brevity is good within what exists, though the incompleteness itself is a significant flaw. Specificity is strong but could deepen\u2014some details (lifeguards flirting, 'rough democracy of the shallow end') are evocative but slightly familiar territory for this genre.",
+  "run_name": "2026-03-07-openrouter-v0-1",
+  "scores": {
+    "brevity_economy": 4,
+    "clarity": 5,
+    "humanity_voice": 5,
+    "overall": 4,
+    "simplicity": 5,
+    "specificity_precision": 4,
+    "structure_flow": 4
+  }
+}

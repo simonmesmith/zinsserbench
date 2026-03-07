@@ -1,0 +1,47 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.1",
+  "candidate_model_id": "google/gemini-3.1-pro-preview",
+  "created_at": "2026-03-07T17:23:29Z",
+  "judge_model_id": "anthropic/claude-opus-4.6",
+  "metadata": {
+    "id": "gen-1772904204-Iocy0YDDeJ2BtfvTc06L",
+    "raw_text": "{\"scores\": {\"clarity\": 1, \"simplicity\": 2, \"brevity_economy\": 1, \"structure_flow\": 1, \"specificity_precision\": 2, \"humanity_voice\": 2, \"overall\": 1}, \"rationale\": \"The response is a single incomplete sentence fragment. It cannot be evaluated as an essay: there is no structure, no arc, no developed ideas, and no fulfillment of the prompt's core requirement (showing how a union job changed the writer's idea of work). The fragment that exists has decent sensory detail ('damp,' 'diesel exhaust,' 'municipal maintenance') and plain language, but one clause does not constitute a piece of writing.\"}",
+    "usage": {
+      "completion_tokens": 186,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 19
+      },
+      "cost": 0.006865,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.00465,
+        "upstream_inference_cost": 0.006865,
+        "upstream_inference_prompt_cost": 0.002215
+      },
+      "is_byok": false,
+      "prompt_tokens": 443,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 629
+    }
+  },
+  "prompt_category": "personal_nonfiction",
+  "prompt_id": "personal_first_day_union_job",
+  "rationale": "The response is a single incomplete sentence fragment. It cannot be evaluated as an essay: there is no structure, no arc, no developed ideas, and no fulfillment of the prompt's core requirement (showing how a union job changed the writer's idea of work). The fragment that exists has decent sensory detail ('damp,' 'diesel exhaust,' 'municipal maintenance') and plain language, but one clause does not constitute a piece of writing.",
+  "run_name": "2026-03-07-openrouter-v0-1",
+  "scores": {
+    "brevity_economy": 1,
+    "clarity": 1,
+    "humanity_voice": 2,
+    "overall": 1,
+    "simplicity": 2,
+    "specificity_precision": 2,
+    "structure_flow": 1
+  }
+}

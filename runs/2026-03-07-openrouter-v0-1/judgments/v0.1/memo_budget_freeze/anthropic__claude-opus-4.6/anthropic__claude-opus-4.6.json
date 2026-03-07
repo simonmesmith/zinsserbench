@@ -1,0 +1,47 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.1",
+  "candidate_model_id": "anthropic/claude-opus-4.6",
+  "created_at": "2026-03-07T16:54:49Z",
+  "judge_model_id": "anthropic/claude-opus-4.6",
+  "metadata": {
+    "id": "gen-1772902480-7L73xkjB91RCMaUIkHS2",
+    "raw_text": "{\"scores\": {\"clarity\": 5, \"simplicity\": 5, \"brevity_economy\": 4, \"structure_flow\": 5, \"specificity_precision\": 5, \"humanity_voice\": 4, \"overall\": 4}, \"rationale\": \"The memo is exceptionally clear and well-organized, with bold headers and clean bullet points that make it scannable for busy department heads. The language is direct and plain without being curt\u2014phrases like 'This decision was not made lightly' and the explanation of contributing factors show appropriate reader-awareness. Specificity is strong: concrete examples (conferences, catering, office furnishings), named approval chains (VP + CFO), a defined timeline (through September 30), and precise conditions for exceptions. The 'What Is Not Affected' section is unfortunately cut off, which is a significant incompleteness\u2014the prompt explicitly asked for what is not affected and what questions to bring forward, and neither is fully delivered. This truncation prevents a top score on overall effectiveness and brevity/economy (the preamble paragraph explaining the reasons, while useful, takes space that could have gone to completing the memo). Voice is professional and human but stays safely within corporate-memo conventions without much distinctive personality. What exists is excellent; the incompleteness is the main liability.\"}",
+    "usage": {
+      "completion_tokens": 287,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 0
+      },
+      "cost": 0.011425,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.007175,
+        "upstream_inference_cost": 0.011425,
+        "upstream_inference_prompt_cost": 0.00425
+      },
+      "is_byok": false,
+      "prompt_tokens": 850,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 1137
+    }
+  },
+  "prompt_category": "memo",
+  "prompt_id": "memo_budget_freeze",
+  "rationale": "The memo is exceptionally clear and well-organized, with bold headers and clean bullet points that make it scannable for busy department heads. The language is direct and plain without being curt\u2014phrases like 'This decision was not made lightly' and the explanation of contributing factors show appropriate reader-awareness. Specificity is strong: concrete examples (conferences, catering, office furnishings), named approval chains (VP + CFO), a defined timeline (through September 30), and precise conditions for exceptions. The 'What Is Not Affected' section is unfortunately cut off, which is a significant incompleteness\u2014the prompt explicitly asked for what is not affected and what questions to bring forward, and neither is fully delivered. This truncation prevents a top score on overall effectiveness and brevity/economy (the preamble paragraph explaining the reasons, while useful, takes space that could have gone to completing the memo). Voice is professional and human but stays safely within corporate-memo conventions without much distinctive personality. What exists is excellent; the incompleteness is the main liability.",
+  "run_name": "2026-03-07-openrouter-v0-1",
+  "scores": {
+    "brevity_economy": 4,
+    "clarity": 5,
+    "humanity_voice": 4,
+    "overall": 4,
+    "simplicity": 5,
+    "specificity_precision": 5,
+    "structure_flow": 5
+  }
+}

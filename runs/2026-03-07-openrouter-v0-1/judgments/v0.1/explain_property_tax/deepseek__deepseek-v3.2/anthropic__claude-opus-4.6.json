@@ -1,0 +1,47 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.1",
+  "candidate_model_id": "deepseek/deepseek-v3.2",
+  "created_at": "2026-03-07T17:50:48Z",
+  "judge_model_id": "anthropic/claude-opus-4.6",
+  "metadata": {
+    "id": "gen-1772905842-mtro5u2WpB2aBcUgXLbr",
+    "raw_text": "{\"scores\": {\"clarity\": 5, \"simplicity\": 5, \"brevity_economy\": 4, \"structure_flow\": 3, \"specificity_precision\": 4, \"humanity_voice\": 4, \"overall\": 3}, \"rationale\": \"The writing that exists is excellent: clear, plain-English, well-organized with a helpful formula upfront, concrete examples (like the 50% or 80% assessment ratio), and a friendly tone. However, the response is clearly incomplete\u2014it cuts off mid-sentence at Step 2 and never reaches Part 2 (why taxes change year to year), which is half the prompt. The structure earns only a 3 because the reader is left hanging with no conclusion or second major section. Specificity is good for what's covered but incomplete overall. The piece only addresses roughly half the assignment, which significantly limits its overall effectiveness.\"}",
+    "usage": {
+      "completion_tokens": 200,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 0
+      },
+      "cost": 0.008555,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.005,
+        "upstream_inference_cost": 0.008555,
+        "upstream_inference_prompt_cost": 0.003555
+      },
+      "is_byok": false,
+      "prompt_tokens": 711,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 911
+    }
+  },
+  "prompt_category": "explain",
+  "prompt_id": "explain_property_tax",
+  "rationale": "The writing that exists is excellent: clear, plain-English, well-organized with a helpful formula upfront, concrete examples (like the 50% or 80% assessment ratio), and a friendly tone. However, the response is clearly incomplete\u2014it cuts off mid-sentence at Step 2 and never reaches Part 2 (why taxes change year to year), which is half the prompt. The structure earns only a 3 because the reader is left hanging with no conclusion or second major section. Specificity is good for what's covered but incomplete overall. The piece only addresses roughly half the assignment, which significantly limits its overall effectiveness.",
+  "run_name": "2026-03-07-openrouter-v0-1",
+  "scores": {
+    "brevity_economy": 4,
+    "clarity": 5,
+    "humanity_voice": 4,
+    "overall": 3,
+    "simplicity": 5,
+    "specificity_precision": 4,
+    "structure_flow": 3
+  }
+}

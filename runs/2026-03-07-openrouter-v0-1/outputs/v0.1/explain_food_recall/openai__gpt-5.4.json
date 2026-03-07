@@ -1,0 +1,37 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.1",
+  "candidate_label": "GPT-5.4",
+  "candidate_model_id": "openai/gpt-5.4",
+  "created_at": "2026-03-07T15:12:28Z",
+  "metadata": {
+    "id": "gen-1772896340-PxputLdFlckkaYYyGYwm",
+    "usage": {
+      "completion_tokens": 500,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 105
+      },
+      "cost": 0.007655,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.0075,
+        "upstream_inference_cost": 0.007655,
+        "upstream_inference_prompt_cost": 0.000155
+      },
+      "is_byok": false,
+      "prompt_tokens": 62,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 562
+    }
+  },
+  "prompt_category": "explain",
+  "prompt_id": "explain_food_recall",
+  "response_text": "# What a Food Recall Means \u2014 and What to Do if a Recalled Product Is in Your Kitchen\n\nA food recall is a public warning that a food product may be unsafe to eat. When a recall is announced, it usually means the manufacturer, distributor, or a government agency has identified a problem serious enough that consumers should not use the product.\n\nThat does **not** always mean every package of that food is dangerous. Recalls often apply only to certain sizes, batches, lot numbers, or \u201cbest by\u201d dates. But if you have a matching product at home, take the recall seriously.\n\n## Why foods get recalled\n\nFoods are usually recalled for one of these reasons:\n\n- **Possible contamination with germs** such as Salmonella, Listeria, or E. coli\n- **Undeclared allergens**, such as milk, peanuts, eggs, soy, wheat, tree nuts, sesame, fish, or shellfish\n- **Foreign material** in the food, such as metal, plastic, or glass\n- **Packaging or labeling mistakes** that could make the product unsafe\n- **Chemical contamination** or other safety concerns\n\nSome recalls are issued after people get sick. Others happen before any illnesses are reported.\n\n## What a recall means for consumers\n\nA recall is a signal to **stop and check**. If the product in your kitchen matches the recall notice, don\u2019t eat it, serve it, donate it, or give it to pets unless the notice specifically says it is safe to do so.\n\nEven if the food looks and smells normal, it may still be unsafe.\n\n## How to tell whether your product is part of the recall\n\nStart by comparing the item in your home to the recall notice. Look for:\n\n- **Brand name**\n- **Product name**\n- **Package size**\n- **UPC or barcode number**\n- **Lot code or batch number**\n- **Use-by, sell-by, or best",
+  "run_name": "2026-03-07-openrouter-v0-1"
+}

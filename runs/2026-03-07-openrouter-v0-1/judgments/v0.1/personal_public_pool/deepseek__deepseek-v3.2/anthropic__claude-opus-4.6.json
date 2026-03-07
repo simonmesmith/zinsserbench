@@ -1,0 +1,47 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.1",
+  "candidate_model_id": "deepseek/deepseek-v3.2",
+  "created_at": "2026-03-07T17:28:35Z",
+  "judge_model_id": "anthropic/claude-opus-4.6",
+  "metadata": {
+    "id": "gen-1772904505-6Dm0jkhhqvWsqYHHxP59",
+    "raw_text": "{\"scores\": {\"clarity\": 5, \"simplicity\": 5, \"brevity_economy\": 4, \"structure_flow\": 5, \"specificity_precision\": 4, \"humanity_voice\": 5, \"overall\": 5}, \"rationale\": \"This is a remarkably well-crafted essay. The clarity is excellent\u2014every sentence lands on first read. The language is plain and direct without ever feeling flat; sensory details like 'slap-slap of wet feet on hot deck' and 'soggy nickel candy' are vivid and economical. The structure moves beautifully: from sensory arrival, to the democratic nature of the pool, to its social hierarchies, to the adult swim transformation, to the narrator's own working experience, to the pool's closure and its meaning. Each section builds naturally on the last. The specificity is strong\u2014Mrs. Henderson, Darnell, the boy with Down syndrome, the quarters counted for admission\u2014though some details feel slightly generic or composited rather than deeply particular (the 'bank manager's wife' and 'car fixer' feel a touch archetypal). The voice is warm, nostalgic without being saccharine, and genuinely human. The closing metaphor about the spray park lacking a deep end is earned and resonant. Minor ding on brevity: the final paragraph slightly over-explains the metaphor ('a town is not just a collection of houses...'), and a few observations could be tighter. But overall this is polished, moving personal nonfiction.\"}",
+    "usage": {
+      "completion_tokens": 341,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 0
+      },
+      "cost": 0.015145,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.008525,
+        "upstream_inference_cost": 0.015145,
+        "upstream_inference_prompt_cost": 0.00662
+      },
+      "is_byok": false,
+      "prompt_tokens": 1324,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 1665
+    }
+  },
+  "prompt_category": "personal_nonfiction",
+  "prompt_id": "personal_public_pool",
+  "rationale": "This is a remarkably well-crafted essay. The clarity is excellent\u2014every sentence lands on first read. The language is plain and direct without ever feeling flat; sensory details like 'slap-slap of wet feet on hot deck' and 'soggy nickel candy' are vivid and economical. The structure moves beautifully: from sensory arrival, to the democratic nature of the pool, to its social hierarchies, to the adult swim transformation, to the narrator's own working experience, to the pool's closure and its meaning. Each section builds naturally on the last. The specificity is strong\u2014Mrs. Henderson, Darnell, the boy with Down syndrome, the quarters counted for admission\u2014though some details feel slightly generic or composited rather than deeply particular (the 'bank manager's wife' and 'car fixer' feel a touch archetypal). The voice is warm, nostalgic without being saccharine, and genuinely human. The closing metaphor about the spray park lacking a deep end is earned and resonant. Minor ding on brevity: the final paragraph slightly over-explains the metaphor ('a town is not just a collection of houses...'), and a few observations could be tighter. But overall this is polished, moving personal nonfiction.",
+  "run_name": "2026-03-07-openrouter-v0-1",
+  "scores": {
+    "brevity_economy": 4,
+    "clarity": 5,
+    "humanity_voice": 5,
+    "overall": 5,
+    "simplicity": 5,
+    "specificity_precision": 4,
+    "structure_flow": 5
+  }
+}

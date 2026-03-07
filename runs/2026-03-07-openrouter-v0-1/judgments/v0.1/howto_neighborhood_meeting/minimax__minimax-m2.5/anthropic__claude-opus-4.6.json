@@ -1,0 +1,47 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.1",
+  "candidate_model_id": "minimax/minimax-m2.5",
+  "created_at": "2026-03-07T17:12:34Z",
+  "judge_model_id": "anthropic/claude-opus-4.6",
+  "metadata": {
+    "id": "gen-1772903547-DW8gy4oWzd35Mf9mrjnf",
+    "raw_text": "{\"scores\": {\"clarity\": 5, \"simplicity\": 5, \"brevity_economy\": 4, \"structure_flow\": 5, \"specificity_precision\": 5, \"humanity_voice\": 4, \"overall\": 5}, \"rationale\": \"Exceptionally clear and well-organized guide with numbered steps, bold sub-points, and concrete actionable advice (e.g., 'borrow a radar gun,' 'weekday evenings 6:30\u20138:00 PM'). The language is plain and direct throughout. Specificity is strong\u2014documenting incidents with dates, identifying city contacts, assigning roles. The piece is cut off mid-section (Step 4 is incomplete), which slightly hurts brevity/economy scoring since we can't assess the full arc, but what's present is tight with no filler. Voice is warm and encouraging ('You don't have to do this alone') without being saccharine, though it leans slightly toward template-guide tone. The structural logic\u2014purpose \u2192 team \u2192 research \u2192 logistics\u2014is intuitive and well-sequenced. Despite the truncation, the quality of what's delivered is high.\"}",
+    "usage": {
+      "completion_tokens": 259,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 0
+      },
+      "cost": 0.010735,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.006475,
+        "upstream_inference_cost": 0.010735,
+        "upstream_inference_prompt_cost": 0.00426
+      },
+      "is_byok": false,
+      "prompt_tokens": 852,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 1111
+    }
+  },
+  "prompt_category": "service_howto",
+  "prompt_id": "howto_neighborhood_meeting",
+  "rationale": "Exceptionally clear and well-organized guide with numbered steps, bold sub-points, and concrete actionable advice (e.g., 'borrow a radar gun,' 'weekday evenings 6:30\u20138:00 PM'). The language is plain and direct throughout. Specificity is strong\u2014documenting incidents with dates, identifying city contacts, assigning roles. The piece is cut off mid-section (Step 4 is incomplete), which slightly hurts brevity/economy scoring since we can't assess the full arc, but what's present is tight with no filler. Voice is warm and encouraging ('You don't have to do this alone') without being saccharine, though it leans slightly toward template-guide tone. The structural logic\u2014purpose \u2192 team \u2192 research \u2192 logistics\u2014is intuitive and well-sequenced. Despite the truncation, the quality of what's delivered is high.",
+  "run_name": "2026-03-07-openrouter-v0-1",
+  "scores": {
+    "brevity_economy": 4,
+    "clarity": 5,
+    "humanity_voice": 4,
+    "overall": 5,
+    "simplicity": 5,
+    "specificity_precision": 5,
+    "structure_flow": 5
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.1",
+  "candidate_model_id": "openai/gpt-5.3-chat",
+  "created_at": "2026-03-07T17:36:28Z",
+  "judge_model_id": "anthropic/claude-opus-4.6",
+  "metadata": {
+    "id": "gen-1772904981-Y4aASer5Va7NUQiehdTz",
+    "raw_text": "{\"scores\": {\"clarity\": 5, \"simplicity\": 5, \"brevity_economy\": 5, \"structure_flow\": 5, \"specificity_precision\": 4, \"humanity_voice\": 5, \"overall\": 5}, \"rationale\": \"This reads like a polished magazine profile. The prose is clean, direct, and vivid without a single wasted sentence. Details are concrete and well-chosen\u2014the canvas tote, the neon tabs on folders, the whiteboard with initials, 147 cases\u2014giving the piece texture and credibility. The quotes feel natural and are deployed sparingly to maximum effect. Structure flows seamlessly from the morning routine to the courtroom to the office, building a layered portrait. The only slight ding is on specificity: because the character is fictional/composite, some details (midsize Midwestern city, pale concrete courthouse) stay just generic enough to feel slightly constructed rather than reported. The piece is unfortunately cut off mid-sentence, which would be a real flaw in a finished piece, but what exists is excellent. Voice is warm, observant, and distinctly human throughout.\"}",
+    "usage": {
+      "completion_tokens": 251,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 0
+      },
+      "cost": 0.01105,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.006275,
+        "upstream_inference_cost": 0.01105,
+        "upstream_inference_prompt_cost": 0.004775
+      },
+      "is_byok": false,
+      "prompt_tokens": 955,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 1206
+    }
+  },
+  "prompt_category": "profile",
+  "prompt_id": "profile_public_defender",
+  "rationale": "This reads like a polished magazine profile. The prose is clean, direct, and vivid without a single wasted sentence. Details are concrete and well-chosen\u2014the canvas tote, the neon tabs on folders, the whiteboard with initials, 147 cases\u2014giving the piece texture and credibility. The quotes feel natural and are deployed sparingly to maximum effect. Structure flows seamlessly from the morning routine to the courtroom to the office, building a layered portrait. The only slight ding is on specificity: because the character is fictional/composite, some details (midsize Midwestern city, pale concrete courthouse) stay just generic enough to feel slightly constructed rather than reported. The piece is unfortunately cut off mid-sentence, which would be a real flaw in a finished piece, but what exists is excellent. Voice is warm, observant, and distinctly human throughout.",
+  "run_name": "2026-03-07-openrouter-v0-1",
+  "scores": {
+    "brevity_economy": 5,
+    "clarity": 5,
+    "humanity_voice": 5,
+    "overall": 5,
+    "simplicity": 5,
+    "specificity_precision": 4,
+    "structure_flow": 5
+  }
+}

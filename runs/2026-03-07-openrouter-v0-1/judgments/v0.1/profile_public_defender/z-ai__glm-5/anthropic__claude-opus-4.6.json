@@ -1,0 +1,47 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.1",
+  "candidate_model_id": "z-ai/glm-5",
+  "created_at": "2026-03-07T17:38:03Z",
+  "judge_model_id": "anthropic/claude-opus-4.6",
+  "metadata": {
+    "id": "gen-1772905077-FnhWFohmwSB3FNnq60Wo",
+    "raw_text": "{\"scores\": {\"clarity\": 5, \"simplicity\": 5, \"brevity_economy\": 5, \"structure_flow\": 5, \"specificity_precision\": 5, \"humanity_voice\": 5, \"overall\": 5}, \"rationale\": \"This is exceptional literary nonfiction. The opening line ('Not by name\u2014there are too many for that\u2014but by the shape of their trouble') immediately establishes voice and stakes. The specificity is outstanding: 187 files, army surplus cabinets from 1987, the Bridge of Sorrows, six clients before noon. The prose is clean, muscular, and free of filler\u2014every sentence earns its place. The rhythm is masterful, particularly the closing cadence ('Two years became five. Five became eleven'). Sensory details (gray carpets, stale coffee) ground the piece without overwriting. The structure moves logically from the personal to the institutional to the biographical, carrying the reader effortlessly. The voice is deeply human and engaged, balancing reportorial precision with genuine empathy. The piece reads like a polished magazine profile from a top-tier publication.\"}",
+    "usage": {
+      "completion_tokens": 255,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 0
+      },
+      "cost": 0.010225,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.006375,
+        "upstream_inference_cost": 0.010225,
+        "upstream_inference_prompt_cost": 0.00385
+      },
+      "is_byok": false,
+      "prompt_tokens": 770,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 1025
+    }
+  },
+  "prompt_category": "profile",
+  "prompt_id": "profile_public_defender",
+  "rationale": "This is exceptional literary nonfiction. The opening line ('Not by name\u2014there are too many for that\u2014but by the shape of their trouble') immediately establishes voice and stakes. The specificity is outstanding: 187 files, army surplus cabinets from 1987, the Bridge of Sorrows, six clients before noon. The prose is clean, muscular, and free of filler\u2014every sentence earns its place. The rhythm is masterful, particularly the closing cadence ('Two years became five. Five became eleven'). Sensory details (gray carpets, stale coffee) ground the piece without overwriting. The structure moves logically from the personal to the institutional to the biographical, carrying the reader effortlessly. The voice is deeply human and engaged, balancing reportorial precision with genuine empathy. The piece reads like a polished magazine profile from a top-tier publication.",
+  "run_name": "2026-03-07-openrouter-v0-1",
+  "scores": {
+    "brevity_economy": 5,
+    "clarity": 5,
+    "humanity_voice": 5,
+    "overall": 5,
+    "simplicity": 5,
+    "specificity_precision": 5,
+    "structure_flow": 5
+  }
+}

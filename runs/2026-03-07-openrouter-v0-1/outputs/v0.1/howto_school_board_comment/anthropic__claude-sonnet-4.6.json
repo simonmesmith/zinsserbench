@@ -1,0 +1,37 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.1",
+  "candidate_label": "Claude Sonnet 4.6",
+  "candidate_model_id": "anthropic/claude-sonnet-4.6",
+  "created_at": "2026-03-07T15:13:37Z",
+  "metadata": {
+    "id": "gen-1772896405-0LRI3ssBbAfpEbCL0QFL",
+    "usage": {
+      "completion_tokens": 500,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 41
+      },
+      "cost": 0.007719,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.0075,
+        "upstream_inference_cost": 0.007719,
+        "upstream_inference_prompt_cost": 0.000219
+      },
+      "is_byok": false,
+      "prompt_tokens": 73,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 573
+    }
+  },
+  "prompt_category": "service_howto",
+  "prompt_id": "howto_school_board_comment",
+  "response_text": "# How to Speak at a School Board Meeting: A Practical Guide for Parents\n\nSpeaking at a school board meeting can feel intimidating, but it is one of the most direct ways a parent can influence decisions affecting their child's education. With the right preparation, you can make your time at the microphone count.\n\n---\n\n## Step 1: Know the Basics Before You Arrive\n\n**Find out when and where the meeting is held.**\nSchool board meetings are typically scheduled monthly and listed on your district's website. Confirm the date, time, and location well in advance.\n\n**Understand the agenda.**\nMost districts post the meeting agenda online a few days before the meeting. Review it so you know where your topic fits\u2014whether it appears as a formal agenda item or falls under general public comment.\n\n**Learn the public comment rules.**\nEvery district has its own procedures. Find out:\n- How long each speaker gets (often two to three minutes)\n- Whether you need to sign up in advance or can register when you arrive\n- Whether public comment occurs at the beginning or end of the meeting\n- Any restrictions on what topics can be addressed during public comment\n\n---\n\n## Step 2: Clarify Your Goal\n\nBefore writing a single word, ask yourself what you want to accomplish. Common goals include:\n\n- Raising awareness about a problem\n- Requesting a specific action or policy change\n- Supporting or opposing a proposed decision\n- Thanking staff or programs\n- Asking the board to investigate a concern\n\nA clear goal will shape everything else you prepare. Vague complaints rarely produce results; specific requests do.\n\n---\n\n## Step 3: Do Your Research\n\nArrive informed. Boards respond more seriously to speakers who demonstrate they understand the issue.\n\n- **Read relevant policies.** Your district's policy manual is usually available on the website. Cite specific policy numbers if your concern involves a rule being broken or ignored.\n- **Gather facts and data.** Test scores, enrollment figures, budget documents, and incident reports are often public records. Use concrete numbers rather than general impressions.\n- **Talk",
+  "run_name": "2026-03-07-openrouter-v0-1"
+}

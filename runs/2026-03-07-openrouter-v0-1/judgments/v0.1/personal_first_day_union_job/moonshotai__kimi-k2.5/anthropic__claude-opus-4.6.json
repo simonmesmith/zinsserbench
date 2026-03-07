@@ -1,0 +1,47 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.1",
+  "candidate_model_id": "moonshotai/kimi-k2.5",
+  "created_at": "2026-03-07T17:25:24Z",
+  "judge_model_id": "anthropic/claude-opus-4.6",
+  "metadata": {
+    "id": "gen-1772904316-hVCC2xShns1RtuVtWOG8",
+    "raw_text": "{\"scores\": {\"clarity\": 5, \"simplicity\": 5, \"brevity_economy\": 4, \"structure_flow\": 5, \"specificity_precision\": 5, \"humanity_voice\": 5, \"overall\": 5}, \"rationale\": \"This is exceptionally well-crafted personal nonfiction. The clarity is flawless\u2014every scene, character, and idea lands on first read. The language is plain and muscular without being sparse, with precise sensory details (the clanging lunchbox, the foil-wrapped sandwich, the pneumatic hiss of air brakes) that ground every moment. The structure follows a clean chronological arc\u2014before/arrival/morning/break/lunch/afternoon/departure/reflection\u2014that mirrors the transformation naturally. Specificity is outstanding: Mike's mustache, Gloria's red tag, Ray's deliberate slowness, Devon's apple, the 3:30 quitting time. The voice is deeply human and emotionally honest without sentimentality. Lines like 'something unclench in my chest that I hadn't known was clenched' and 'worked as part of something larger than my own desperation to survive' earn their weight. The only minor ding is on brevity\u2014the closing paragraphs slightly over-explain the thematic takeaway ('the weight was collective\u2014twenty thousand other members, decades of negotiations') when the scenes have already done that work beautifully. But this is a small quibble in what reads like polished, publishable essay writing.\"}",
+    "usage": {
+      "completion_tokens": 339,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 0
+      },
+      "cost": 0.017465,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.008475,
+        "upstream_inference_cost": 0.017465,
+        "upstream_inference_prompt_cost": 0.00899
+      },
+      "is_byok": false,
+      "prompt_tokens": 1798,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 2137
+    }
+  },
+  "prompt_category": "personal_nonfiction",
+  "prompt_id": "personal_first_day_union_job",
+  "rationale": "This is exceptionally well-crafted personal nonfiction. The clarity is flawless\u2014every scene, character, and idea lands on first read. The language is plain and muscular without being sparse, with precise sensory details (the clanging lunchbox, the foil-wrapped sandwich, the pneumatic hiss of air brakes) that ground every moment. The structure follows a clean chronological arc\u2014before/arrival/morning/break/lunch/afternoon/departure/reflection\u2014that mirrors the transformation naturally. Specificity is outstanding: Mike's mustache, Gloria's red tag, Ray's deliberate slowness, Devon's apple, the 3:30 quitting time. The voice is deeply human and emotionally honest without sentimentality. Lines like 'something unclench in my chest that I hadn't known was clenched' and 'worked as part of something larger than my own desperation to survive' earn their weight. The only minor ding is on brevity\u2014the closing paragraphs slightly over-explain the thematic takeaway ('the weight was collective\u2014twenty thousand other members, decades of negotiations') when the scenes have already done that work beautifully. But this is a small quibble in what reads like polished, publishable essay writing.",
+  "run_name": "2026-03-07-openrouter-v0-1",
+  "scores": {
+    "brevity_economy": 4,
+    "clarity": 5,
+    "humanity_voice": 5,
+    "overall": 5,
+    "simplicity": 5,
+    "specificity_precision": 5,
+    "structure_flow": 5
+  }
+}

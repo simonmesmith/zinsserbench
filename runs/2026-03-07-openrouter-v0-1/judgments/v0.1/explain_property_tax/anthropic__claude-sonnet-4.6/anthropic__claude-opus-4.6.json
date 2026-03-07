@@ -1,0 +1,47 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.1",
+  "candidate_model_id": "anthropic/claude-sonnet-4.6",
+  "created_at": "2026-03-07T17:49:29Z",
+  "judge_model_id": "anthropic/claude-opus-4.6",
+  "metadata": {
+    "id": "gen-1772905762-kWQsGpFO2sxHU6hwuNaT",
+    "raw_text": "{\"scores\": {\"clarity\": 5, \"simplicity\": 5, \"brevity_economy\": 4, \"structure_flow\": 5, \"specificity_precision\": 4, \"humanity_voice\": 5, \"overall\": 4}, \"rationale\": \"Excellent plain-English explainer that reads naturally and conversationally. The opening hook ('If your property tax bill went up this year') immediately engages the reader. The core formula is stated cleanly and the line 'Everything else is just an explanation of how those two numbers are determined' is a brilliant framing device. Concrete examples (mill rate of 20 on $300,000 = $6,000) add precision. The explanation of assessed value is specific without being technical. However, the response is clearly truncated mid-sentence ('Where does the'), which means it fails to cover the second half of the topic \u2014 why taxes change year to year, how tax rates are set by local budgets, exemptions, caps, and appeals. This incompleteness significantly limits overall effectiveness and specificity, though what exists is high quality. Brevity docked slightly because the piece uses horizontal rules and formatting that add visual bulk, though the actual prose is economical.\"}",
+    "usage": {
+      "completion_tokens": 269,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 0
+      },
+      "cost": 0.01095,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.006725,
+        "upstream_inference_cost": 0.01095,
+        "upstream_inference_prompt_cost": 0.004225
+      },
+      "is_byok": false,
+      "prompt_tokens": 845,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 1114
+    }
+  },
+  "prompt_category": "explain",
+  "prompt_id": "explain_property_tax",
+  "rationale": "Excellent plain-English explainer that reads naturally and conversationally. The opening hook ('If your property tax bill went up this year') immediately engages the reader. The core formula is stated cleanly and the line 'Everything else is just an explanation of how those two numbers are determined' is a brilliant framing device. Concrete examples (mill rate of 20 on $300,000 = $6,000) add precision. The explanation of assessed value is specific without being technical. However, the response is clearly truncated mid-sentence ('Where does the'), which means it fails to cover the second half of the topic \u2014 why taxes change year to year, how tax rates are set by local budgets, exemptions, caps, and appeals. This incompleteness significantly limits overall effectiveness and specificity, though what exists is high quality. Brevity docked slightly because the piece uses horizontal rules and formatting that add visual bulk, though the actual prose is economical.",
+  "run_name": "2026-03-07-openrouter-v0-1",
+  "scores": {
+    "brevity_economy": 4,
+    "clarity": 5,
+    "humanity_voice": 5,
+    "overall": 4,
+    "simplicity": 5,
+    "specificity_precision": 4,
+    "structure_flow": 5
+  }
+}

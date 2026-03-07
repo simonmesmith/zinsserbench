@@ -1,0 +1,47 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.1",
+  "candidate_model_id": "minimax/minimax-m2.5",
+  "created_at": "2026-03-07T17:22:51Z",
+  "judge_model_id": "anthropic/claude-opus-4.6",
+  "metadata": {
+    "id": "gen-1772904165-YilXKMnmJez4zpN7zzY9",
+    "raw_text": "{\"scores\": {\"clarity\": 4, \"simplicity\": 4, \"brevity_economy\": 3, \"structure_flow\": 2, \"specificity_precision\": 2, \"humanity_voice\": 4, \"overall\": 2}, \"rationale\": \"The writing is clear, direct, and has a strong human voice with an engaging opening image. However, the piece is severely incomplete\u2014it cuts off mid-sentence in the second paragraph, so it never delivers on its argument. There's no structure beyond an introduction and the start of a second point. Specificity is weak: 'hundreds of hours,' 'billions' in costs, and 'major urban areas' are all vague generalities with no actual data or named corridors. The opening paragraph also has some redundancy ('proven solution' and 'pragmatic, evidence-backed approach' say similar things). What exists reads well, but as an opinion piece it fails to make a complete argument.\"}",
+    "usage": {
+      "completion_tokens": 212,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 0
+      },
+      "cost": 0.00824,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.0053,
+        "upstream_inference_cost": 0.00824,
+        "upstream_inference_prompt_cost": 0.00294
+      },
+      "is_byok": false,
+      "prompt_tokens": 588,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 800
+    }
+  },
+  "prompt_category": "persuasion_oped",
+  "prompt_id": "oped_bus_lanes",
+  "rationale": "The writing is clear, direct, and has a strong human voice with an engaging opening image. However, the piece is severely incomplete\u2014it cuts off mid-sentence in the second paragraph, so it never delivers on its argument. There's no structure beyond an introduction and the start of a second point. Specificity is weak: 'hundreds of hours,' 'billions' in costs, and 'major urban areas' are all vague generalities with no actual data or named corridors. The opening paragraph also has some redundancy ('proven solution' and 'pragmatic, evidence-backed approach' say similar things). What exists reads well, but as an opinion piece it fails to make a complete argument.",
+  "run_name": "2026-03-07-openrouter-v0-1",
+  "scores": {
+    "brevity_economy": 3,
+    "clarity": 4,
+    "humanity_voice": 4,
+    "overall": 2,
+    "simplicity": 4,
+    "specificity_precision": 2,
+    "structure_flow": 2
+  }
+}

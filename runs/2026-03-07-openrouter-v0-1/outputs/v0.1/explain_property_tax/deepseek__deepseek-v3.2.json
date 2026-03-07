@@ -1,0 +1,37 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.1",
+  "candidate_label": "DeepSeek V3.2",
+  "candidate_model_id": "deepseek/deepseek-v3.2",
+  "created_at": "2026-03-07T15:16:56Z",
+  "metadata": {
+    "id": "gen-1772896550-9TlJj7MuqU0U4xRyQQ3P",
+    "usage": {
+      "completion_tokens": 500,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 269
+      },
+      "cost": 0.00020222,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.00019,
+        "upstream_inference_cost": 0.00020222,
+        "upstream_inference_prompt_cost": 1.222e-05
+      },
+      "is_byok": false,
+      "prompt_tokens": 55,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 16,
+        "video_tokens": 0
+      },
+      "total_tokens": 555
+    }
+  },
+  "prompt_category": "explain",
+  "prompt_id": "explain_property_tax",
+  "response_text": "### **Your Property Tax Bill: How It's Made and Why It Changes**\n\nThink of your property tax bill as the result of a simple math problem:\n\n**Your Home's Taxable Value \u00d7 Your Local Tax Rate = Your Property Tax Bill**\n\nWhile the formula is straightforward, the numbers that go into it can change, which is why your bill might be different from one year to the next. Here\u2019s a plain-English breakdown of how it works.\n\n#### **Part 1: How Your Property Tax Bill is Set**\n\nIt\u2019s a two-step process involving your local government and a county official called the **Assessor**.\n\n1.  **Step 1: Finding Your Home's \"Taxable Value\" (The Assessor's Job)**\n    *   The **Assessor\u2019s Office** doesn't set your taxes; their job is to estimate what your property is worth for tax purposes. This is called its **\"assessed value.\"**\n    *   They don't visit every home every year. Instead, they use recent sales of similar homes in your neighborhood, property features (size, age, condition), and sometimes mass-appraisal software to estimate your home's market value.\n    *   To get your **\"taxable value,\"** this assessed value is often multiplied by a standard percentage set by your state (like 50% or 80%). This taxable value is the first number in the tax equation.\n\n2.",
+  "run_name": "2026-03-07-openrouter-v0-1"
+}

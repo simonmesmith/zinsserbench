@@ -1,0 +1,47 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.1",
+  "candidate_model_id": "anthropic/claude-sonnet-4.6",
+  "created_at": "2026-03-07T17:30:54Z",
+  "judge_model_id": "google/gemini-3.1-pro-preview",
+  "metadata": {
+    "id": "gen-1772904642-vaFP0ZEXnJY1pZontLpP",
+    "raw_text": "{\n  \"scores\": {\n    \"clarity\": 5,\n    \"simplicity\": 5,\n    \"brevity_economy\": 4,\n    \"structure_flow\": 3,\n    \"specificity_precision\": 5,\n    \"humanity_voice\": 4,\n    \"overall\": 2\n  },\n  \"rationale\": \"The writing is clear, specific, and professional, effectively explaining the root cause of the outage. However, the response cuts off mid-table and fails to address the full resolution or what employees should expect next, significantly impacting its overall effectiveness.\"\n}",
+    "usage": {
+      "completion_tokens": 754,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 620
+      },
+      "cost": 0.010632,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.009048,
+        "upstream_inference_cost": 0.010632,
+        "upstream_inference_prompt_cost": 0.001584
+      },
+      "is_byok": false,
+      "prompt_tokens": 792,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 1546
+    }
+  },
+  "prompt_category": "memo",
+  "prompt_id": "memo_incident_response",
+  "rationale": "The writing is clear, specific, and professional, effectively explaining the root cause of the outage. However, the response cuts off mid-table and fails to address the full resolution or what employees should expect next, significantly impacting its overall effectiveness.",
+  "run_name": "2026-03-07-openrouter-v0-1",
+  "scores": {
+    "brevity_economy": 4,
+    "clarity": 5,
+    "humanity_voice": 4,
+    "overall": 2,
+    "simplicity": 5,
+    "specificity_precision": 5,
+    "structure_flow": 3
+  }
+}

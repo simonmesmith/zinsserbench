@@ -1,0 +1,47 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.1",
+  "candidate_model_id": "qwen/qwen3.5-35b-a3b",
+  "created_at": "2026-03-07T17:35:42Z",
+  "judge_model_id": "anthropic/claude-opus-4.6",
+  "metadata": {
+    "id": "gen-1772904936-dtrJ7Vz0MQw8F60CEWZH",
+    "raw_text": "{\"scores\": {\"clarity\": 1, \"simplicity\": 1, \"brevity_economy\": 1, \"structure_flow\": 1, \"specificity_precision\": 1, \"humanity_voice\": 1, \"overall\": 1}, \"rationale\": \"The response contains only the model's internal thinking/planning notes and never delivers an actual finished explainer. The output cuts off mid-sentence during a draft outline. There is no consumer-facing piece to evaluate\u2014no headline, no coherent paragraphs, no actionable guidance in readable form. It fails the task entirely.\"}",
+    "usage": {
+      "completion_tokens": 222,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 98
+      },
+      "cost": 0.010355,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.00555,
+        "upstream_inference_cost": 0.010355,
+        "upstream_inference_prompt_cost": 0.004805
+      },
+      "is_byok": false,
+      "prompt_tokens": 961,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 1183
+    }
+  },
+  "prompt_category": "explain",
+  "prompt_id": "explain_food_recall",
+  "rationale": "The response contains only the model's internal thinking/planning notes and never delivers an actual finished explainer. The output cuts off mid-sentence during a draft outline. There is no consumer-facing piece to evaluate\u2014no headline, no coherent paragraphs, no actionable guidance in readable form. It fails the task entirely.",
+  "run_name": "2026-03-07-openrouter-v0-1",
+  "scores": {
+    "brevity_economy": 1,
+    "clarity": 1,
+    "humanity_voice": 1,
+    "overall": 1,
+    "simplicity": 1,
+    "specificity_precision": 1,
+    "structure_flow": 1
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.1",
+  "candidate_model_id": "anthropic/claude-sonnet-4.6",
+  "created_at": "2026-03-07T17:37:08Z",
+  "judge_model_id": "anthropic/claude-opus-4.6",
+  "metadata": {
+    "id": "gen-1772905022-VdGiaooYZSHfUVirWf8g",
+    "raw_text": "{\"scores\": {\"clarity\": 5, \"simplicity\": 5, \"brevity_economy\": 5, \"structure_flow\": 5, \"specificity_precision\": 5, \"humanity_voice\": 5, \"overall\": 5}, \"rationale\": \"This is exceptional magazine-quality profile writing. The opening drops us immediately into scene ('already behind' \u2014 doing double duty as literal and thematic). The specificity is outstanding: 147 open cases, sixty-two cents per dollar, nineteen emails, the printer broken since March, the carpet worn to padding. The simile about bitterness as a bass note is precise and earned. The voice is distinctly human and literary without being overwrought \u2014 'not defensively, just factually, the way a person states weather' is masterful compression. The 'We have Diane' line is a perfect kicker that conveys systemic disparity through character. The section break and shift from individual to institutional context is structurally sound. The only flaw is that it's clearly incomplete (cuts off mid-sentence), but what exists on the page is nearly flawless in craft. Every sentence earns its place; there is zero throat-clearing or filler.\"}",
+    "usage": {
+      "completion_tokens": 270,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 0
+      },
+      "cost": 0.01067,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.00675,
+        "upstream_inference_cost": 0.01067,
+        "upstream_inference_prompt_cost": 0.00392
+      },
+      "is_byok": false,
+      "prompt_tokens": 784,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 1054
+    }
+  },
+  "prompt_category": "profile",
+  "prompt_id": "profile_public_defender",
+  "rationale": "This is exceptional magazine-quality profile writing. The opening drops us immediately into scene ('already behind' \u2014 doing double duty as literal and thematic). The specificity is outstanding: 147 open cases, sixty-two cents per dollar, nineteen emails, the printer broken since March, the carpet worn to padding. The simile about bitterness as a bass note is precise and earned. The voice is distinctly human and literary without being overwrought \u2014 'not defensively, just factually, the way a person states weather' is masterful compression. The 'We have Diane' line is a perfect kicker that conveys systemic disparity through character. The section break and shift from individual to institutional context is structurally sound. The only flaw is that it's clearly incomplete (cuts off mid-sentence), but what exists on the page is nearly flawless in craft. Every sentence earns its place; there is zero throat-clearing or filler.",
+  "run_name": "2026-03-07-openrouter-v0-1",
+  "scores": {
+    "brevity_economy": 5,
+    "clarity": 5,
+    "humanity_voice": 5,
+    "overall": 5,
+    "simplicity": 5,
+    "specificity_precision": 5,
+    "structure_flow": 5
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.1",
+  "candidate_label": "Kimi K2.5",
+  "candidate_model_id": "moonshotai/kimi-k2.5",
+  "created_at": "2026-03-07T15:14:37Z",
+  "metadata": {
+    "id": "gen-1772896462-sFdPYAV2wTBiB14nDQG7",
+    "usage": {
+      "completion_tokens": 500,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 630
+      },
+      "cost": 0.0013275,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.0013,
+        "upstream_inference_cost": 0.0013275,
+        "upstream_inference_prompt_cost": 2.75e-05
+      },
+      "is_byok": false,
+      "prompt_tokens": 55,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 555
+    }
+  },
+  "prompt_category": "persuasion_oped",
+  "prompt_id": "oped_corner_store",
+  "response_text": "The corner store is making a comeback, and not a moment too soon. After decades of zoning laws that segregated homes",
+  "run_name": "2026-03-07-openrouter-v0-1"
+}

@@ -1,0 +1,47 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.1",
+  "candidate_model_id": "anthropic/claude-opus-4.6",
+  "created_at": "2026-03-07T17:46:40Z",
+  "judge_model_id": "anthropic/claude-opus-4.6",
+  "metadata": {
+    "id": "gen-1772905592-ZJNCH5Z48u9Au1XFX0Rj",
+    "raw_text": "{\"scores\": {\"clarity\": 5, \"simplicity\": 4, \"brevity_economy\": 5, \"structure_flow\": 5, \"specificity_precision\": 5, \"humanity_voice\": 5, \"overall\": 5}, \"rationale\": \"Exceptional personal essay writing. The opening metaphor (coin in a fountain) is striking and earns its place. Concrete details anchor every passage\u2014Route 19 northbound, Maple and 4th, the headlights like 'a single yellow eye opening,' the specific times (11:51, 11:54), the five-mile walk in February. The observation about late-night buses as non-performative public space is genuinely insightful and precisely articulated. The prose is lyrical but never bloated; every sentence does work. The piece cuts off mid-thought (likely a length constraint), but what's here is structurally sound with a clear movement from setting to observation to reflection. The only minor ding on simplicity is that a few metaphors stack closely together (the coin/fountain, the yellow eye, the animal resting), but each is fresh enough to justify itself. Voice is deeply human, warm without being sentimental, and the rhythm of the sentences feels carefully controlled.\"}",
+    "usage": {
+      "completion_tokens": 280,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 0
+      },
+      "cost": 0.011125,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.007,
+        "upstream_inference_cost": 0.011125,
+        "upstream_inference_prompt_cost": 0.004125
+      },
+      "is_byok": false,
+      "prompt_tokens": 825,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 1105
+    }
+  },
+  "prompt_category": "personal_nonfiction",
+  "prompt_id": "personal_night_shift_bus",
+  "rationale": "Exceptional personal essay writing. The opening metaphor (coin in a fountain) is striking and earns its place. Concrete details anchor every passage\u2014Route 19 northbound, Maple and 4th, the headlights like 'a single yellow eye opening,' the specific times (11:51, 11:54), the five-mile walk in February. The observation about late-night buses as non-performative public space is genuinely insightful and precisely articulated. The prose is lyrical but never bloated; every sentence does work. The piece cuts off mid-thought (likely a length constraint), but what's here is structurally sound with a clear movement from setting to observation to reflection. The only minor ding on simplicity is that a few metaphors stack closely together (the coin/fountain, the yellow eye, the animal resting), but each is fresh enough to justify itself. Voice is deeply human, warm without being sentimental, and the rhythm of the sentences feels carefully controlled.",
+  "run_name": "2026-03-07-openrouter-v0-1",
+  "scores": {
+    "brevity_economy": 5,
+    "clarity": 5,
+    "humanity_voice": 5,
+    "overall": 5,
+    "simplicity": 4,
+    "specificity_precision": 5,
+    "structure_flow": 5
+  }
+}

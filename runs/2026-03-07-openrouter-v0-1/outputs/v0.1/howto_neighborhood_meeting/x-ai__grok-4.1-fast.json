@@ -1,0 +1,37 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.1",
+  "candidate_label": "Grok 4.1 Fast",
+  "candidate_model_id": "x-ai/grok-4.1-fast",
+  "created_at": "2026-03-07T15:07:29Z",
+  "metadata": {
+    "id": "gen-1772896040-n4CzkWjyT2FHbdNbvPFl",
+    "usage": {
+      "completion_tokens": 717,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 217
+      },
+      "cost": 0.00037695,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.0003585,
+        "upstream_inference_cost": 0.00037695,
+        "upstream_inference_prompt_cost": 1.845e-05
+      },
+      "is_byok": false,
+      "prompt_tokens": 204,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 149,
+        "video_tokens": 0
+      },
+      "total_tokens": 921
+    }
+  },
+  "prompt_category": "service_howto",
+  "prompt_id": "howto_neighborhood_meeting",
+  "response_text": "# Practical Guide: Organizing a Neighborhood Meeting on Traffic Safety\n\nAs a resident concerned about traffic safety on a busy street\u2014whether it's speeding vehicles, missing crosswalks, poor lighting, or pedestrian risks\u2014you can take the lead to rally your neighbors and push for change. Organizing a meeting builds community consensus, gathers data, and positions you to approach local authorities effectively. This step-by-step guide will help you plan and execute a successful event, even if you're new to activism.\n\n## Step 1: Clarify Your Goals and Build Initial Support\n- **Define the problem clearly**: Document specific issues with photos, videos, accident reports (from local police or news), or personal anecdotes. For example: \"Vehicles exceed 40 mph on a 25 mph street near a school.\"\n- **Gauge neighbor interest**: Start small. Talk to 10-20 nearby households door-to-door or via a quick online poll (use free tools like Google Forms or Nextdoor). Ask: \"Are you concerned about traffic safety on [Street Name]? Would you attend a meeting?\"\n- **Form a small core team**: Recruit 2-4 motivated neighbors to share the workload. Assign roles early (e.g., one for outreach, one for logistics).\n\n**Tip**: Aim for 20-50 attendees for a first meeting\u2014manageable yet impactful.\n\n## Step 2: Choose Date, Time, Location, and Format\n- **Pick a convenient slot**: Weekday evenings (6-8 PM) or Saturday mornings work best for families. Avoid holidays or major events.\n- **Select a free or low-cost venue**:\n  | Option | Pros | Cons |\n  |--------|------|------|\n  | Home/backyard | Personal, no cost | Weather-dependent, limited space |\n  | Park pavilion or community center | Neutral, accessible | May need reservation/permit |\n  | Library or church hall | Free, equipped (chairs, projector) | Book early (1-2 months ahead) |\n  | Virtual (Zoom) | Easy access, recordable | Less personal; hybrid is ideal |\n- **Set duration**: 60-90 minutes to keep energy high.\n\n**Pitfall to avoid**: Don't schedule during rush hour when traffic frustration peaks but attendance dips.\n\n## Step 3: Create a Simple Agenda\nStructure keeps things focused. Share it in advance via flyers or email.\n\n**Sample Agenda (7:00-8:30 PM)**:\n1. **Welcome (5 min)**",
+  "run_name": "2026-03-07-openrouter-v0-1"
+}

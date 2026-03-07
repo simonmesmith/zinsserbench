@@ -1,0 +1,47 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.1",
+  "candidate_model_id": "z-ai/glm-5",
+  "created_at": "2026-03-07T17:11:31Z",
+  "judge_model_id": "anthropic/claude-opus-4.6",
+  "metadata": {
+    "id": "gen-1772903483-DzktMEWSYrqtkqmZ1HIv",
+    "raw_text": "{\"scores\": {\"clarity\": 5, \"simplicity\": 5, \"brevity_economy\": 4, \"structure_flow\": 4, \"specificity_precision\": 5, \"humanity_voice\": 5, \"overall\": 4}, \"rationale\": \"The writing is exceptionally clear, specific, and human-voiced. Concrete examples (Oak Street headline, Tuesday 6:30 PM, Google Form for RSVPs) elevate it well beyond generic advice. The opening line is punchy and sets a practical, empowering tone. Formatting with bold headers, bullet points, and italicized examples aids scannability. However, the response is clearly truncated mid-sentence ('Send a formal'), cutting off before covering the actual meeting agenda, facilitation, and follow-up phases\u2014arguably the most critical parts of the guide. This incompleteness significantly undermines overall effectiveness and structure/flow, as the reader is left without a conclusion or the promised later phases. Brevity is good within what exists, though the piece promises more than it delivers.\"}",
+    "usage": {
+      "completion_tokens": 277,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 30
+      },
+      "cost": 0.012645,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.006925,
+        "upstream_inference_cost": 0.012645,
+        "upstream_inference_prompt_cost": 0.00572
+      },
+      "is_byok": false,
+      "prompt_tokens": 1144,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 1421
+    }
+  },
+  "prompt_category": "service_howto",
+  "prompt_id": "howto_neighborhood_meeting",
+  "rationale": "The writing is exceptionally clear, specific, and human-voiced. Concrete examples (Oak Street headline, Tuesday 6:30 PM, Google Form for RSVPs) elevate it well beyond generic advice. The opening line is punchy and sets a practical, empowering tone. Formatting with bold headers, bullet points, and italicized examples aids scannability. However, the response is clearly truncated mid-sentence ('Send a formal'), cutting off before covering the actual meeting agenda, facilitation, and follow-up phases\u2014arguably the most critical parts of the guide. This incompleteness significantly undermines overall effectiveness and structure/flow, as the reader is left without a conclusion or the promised later phases. Brevity is good within what exists, though the piece promises more than it delivers.",
+  "run_name": "2026-03-07-openrouter-v0-1",
+  "scores": {
+    "brevity_economy": 4,
+    "clarity": 5,
+    "humanity_voice": 5,
+    "overall": 4,
+    "simplicity": 5,
+    "specificity_precision": 5,
+    "structure_flow": 4
+  }
+}

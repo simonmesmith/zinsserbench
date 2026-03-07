@@ -1,0 +1,47 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.1",
+  "candidate_model_id": "openai/gpt-5.4",
+  "created_at": "2026-03-07T17:25:57Z",
+  "judge_model_id": "openai/gpt-5.4",
+  "metadata": {
+    "id": "gen-1772904351-dNvtKkcI9zY8dsHo4loA",
+    "raw_text": "{\"scores\":{\"clarity\":5,\"simplicity\":4,\"brevity_economy\":4,\"structure_flow\":4,\"specificity_precision\":5,\"humanity_voice\":5,\"overall\":4},\"rationale\":\"Vivid, clear, and strongly voiced, with concrete details that make the pool feel real and begin to show the town in miniature. The social mapping is sharp and easy to follow. Slightly lowered for some decorative phrasing and because the excerpt ends mid-thought, so the full essay arc and payoff are incomplete.\"}",
+    "usage": {
+      "completion_tokens": 292,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 173
+      },
+      "cost": 0.006125,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.00438,
+        "upstream_inference_cost": 0.006125,
+        "upstream_inference_prompt_cost": 0.001745
+      },
+      "is_byok": false,
+      "prompt_tokens": 698,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 990
+    }
+  },
+  "prompt_category": "personal_nonfiction",
+  "prompt_id": "personal_public_pool",
+  "rationale": "Vivid, clear, and strongly voiced, with concrete details that make the pool feel real and begin to show the town in miniature. The social mapping is sharp and easy to follow. Slightly lowered for some decorative phrasing and because the excerpt ends mid-thought, so the full essay arc and payoff are incomplete.",
+  "run_name": "2026-03-07-openrouter-v0-1",
+  "scores": {
+    "brevity_economy": 4,
+    "clarity": 5,
+    "humanity_voice": 5,
+    "overall": 4,
+    "simplicity": 4,
+    "specificity_precision": 5,
+    "structure_flow": 4
+  }
+}

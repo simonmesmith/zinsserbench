@@ -1,0 +1,47 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.1",
+  "candidate_model_id": "openai/gpt-5.3-chat",
+  "created_at": "2026-03-07T17:23:18Z",
+  "judge_model_id": "anthropic/claude-opus-4.6",
+  "metadata": {
+    "id": "gen-1772904189-dP8KaGQR7I9xgC5FMZwR",
+    "raw_text": "{\"scores\": {\"clarity\": 5, \"simplicity\": 5, \"brevity_economy\": 4, \"structure_flow\": 4, \"specificity_precision\": 5, \"humanity_voice\": 5, \"overall\": 4}, \"rationale\": \"The writing is exceptionally clear and uses plain, direct language with strong sensory details (buzzing lights, squeaky boots, coffee on a burner too long, Raul's gray beard tucked into his collar). The voice feels genuinely human and emotionally grounded\u2014the contrast between past jobs ('nobody knew anyone's last name') and the union shop is rendered through specific scenes rather than abstract claims. The piece is cut off mid-sentence, which is a significant structural flaw: we never get the payoff of the forklift operator's response, nor the essay's reflective turn where the writer articulates how the experience changed their idea of work. The prompt asks for that transformation, and while it's clearly being set up, it's never delivered. What exists is economical and well-paced, though the catalog of prior jobs borders on slight repetition. Structure up to the cutoff is strong\u2014sensory opening, backstory, arrival scene, escalating moments of surprise\u2014but incompleteness prevents full marks on structure and overall effectiveness.\"}",
+    "usage": {
+      "completion_tokens": 285,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 0
+      },
+      "cost": 0.01141,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.007125,
+        "upstream_inference_cost": 0.01141,
+        "upstream_inference_prompt_cost": 0.004285
+      },
+      "is_byok": false,
+      "prompt_tokens": 857,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 1142
+    }
+  },
+  "prompt_category": "personal_nonfiction",
+  "prompt_id": "personal_first_day_union_job",
+  "rationale": "The writing is exceptionally clear and uses plain, direct language with strong sensory details (buzzing lights, squeaky boots, coffee on a burner too long, Raul's gray beard tucked into his collar). The voice feels genuinely human and emotionally grounded\u2014the contrast between past jobs ('nobody knew anyone's last name') and the union shop is rendered through specific scenes rather than abstract claims. The piece is cut off mid-sentence, which is a significant structural flaw: we never get the payoff of the forklift operator's response, nor the essay's reflective turn where the writer articulates how the experience changed their idea of work. The prompt asks for that transformation, and while it's clearly being set up, it's never delivered. What exists is economical and well-paced, though the catalog of prior jobs borders on slight repetition. Structure up to the cutoff is strong\u2014sensory opening, backstory, arrival scene, escalating moments of surprise\u2014but incompleteness prevents full marks on structure and overall effectiveness.",
+  "run_name": "2026-03-07-openrouter-v0-1",
+  "scores": {
+    "brevity_economy": 4,
+    "clarity": 5,
+    "humanity_voice": 5,
+    "overall": 4,
+    "simplicity": 5,
+    "specificity_precision": 5,
+    "structure_flow": 4
+  }
+}

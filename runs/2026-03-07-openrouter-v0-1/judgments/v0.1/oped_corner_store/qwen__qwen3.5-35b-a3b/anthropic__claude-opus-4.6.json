@@ -1,0 +1,47 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.1",
+  "candidate_model_id": "qwen/qwen3.5-35b-a3b",
+  "created_at": "2026-03-07T17:44:53Z",
+  "judge_model_id": "anthropic/claude-opus-4.6",
+  "metadata": {
+    "id": "gen-1772905487-YNch14i0B3UPvmmUBTXd",
+    "raw_text": "{\"scores\": {\"clarity\": 5, \"simplicity\": 4, \"brevity_economy\": 4, \"structure_flow\": 4, \"specificity_precision\": 4, \"humanity_voice\": 5, \"overall\": 4}, \"rationale\": \"The piece opens with a vivid, relatable anecdote that immediately grounds the argument in human experience. Each paragraph advances a distinct claim\u2014sustainability, safety/community, economics\u2014with clear topic sentences and logical progression. The Jane Jacobs reference and 'last mile' framing add specificity, though some points lean on familiar urbanist generalities ('heartbeat of community,' 'eyes on the street') without local data or concrete examples of successful corner-store neighborhoods. Language is mostly plain and direct, with occasional slightly inflated phrasing ('effectively segregated our lives,' 'incubators of local entrepreneurship'). The biggest structural flaw is that the piece is clearly cut off mid-paragraph\u2014the counterargument is introduced but never addressed, leaving the argument incomplete. This truncation hurts both structure and persuasive effectiveness. Voice is strong and engaging throughout what exists.\"}",
+    "usage": {
+      "completion_tokens": 251,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 0
+      },
+      "cost": 0.010905,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.006275,
+        "upstream_inference_cost": 0.010905,
+        "upstream_inference_prompt_cost": 0.00463
+      },
+      "is_byok": false,
+      "prompt_tokens": 926,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 1177
+    }
+  },
+  "prompt_category": "persuasion_oped",
+  "prompt_id": "oped_corner_store",
+  "rationale": "The piece opens with a vivid, relatable anecdote that immediately grounds the argument in human experience. Each paragraph advances a distinct claim\u2014sustainability, safety/community, economics\u2014with clear topic sentences and logical progression. The Jane Jacobs reference and 'last mile' framing add specificity, though some points lean on familiar urbanist generalities ('heartbeat of community,' 'eyes on the street') without local data or concrete examples of successful corner-store neighborhoods. Language is mostly plain and direct, with occasional slightly inflated phrasing ('effectively segregated our lives,' 'incubators of local entrepreneurship'). The biggest structural flaw is that the piece is clearly cut off mid-paragraph\u2014the counterargument is introduced but never addressed, leaving the argument incomplete. This truncation hurts both structure and persuasive effectiveness. Voice is strong and engaging throughout what exists.",
+  "run_name": "2026-03-07-openrouter-v0-1",
+  "scores": {
+    "brevity_economy": 4,
+    "clarity": 5,
+    "humanity_voice": 5,
+    "overall": 4,
+    "simplicity": 4,
+    "specificity_precision": 4,
+    "structure_flow": 4
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.1",
+  "candidate_label": "GPT-5.4",
+  "candidate_model_id": "openai/gpt-5.4",
+  "created_at": "2026-03-07T15:13:01Z",
+  "metadata": {
+    "id": "gen-1772896370-Uhl815gniegHD741hjfj",
+    "usage": {
+      "completion_tokens": 500,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 405
+      },
+      "cost": 0.0076375,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.0075,
+        "upstream_inference_cost": 0.0076375,
+        "upstream_inference_prompt_cost": 0.0001375
+      },
+      "is_byok": false,
+      "prompt_tokens": 55,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 555
+    }
+  },
+  "prompt_category": "profile",
+  "prompt_id": "profile_public_defender",
+  "response_text": "What follows is a composite profile, drawn from common conditions described by public defenders in midsize American cities.\n\nBy 8:30 on a weekday morning, Elena Ramirez has already had three conversations that could change someone\u2019s life. One client wants to know whether taking a plea will keep him out of jail long enough to hold onto his warehouse job. Another has missed a court date and is panicking about a warrant. A third, calling from the county",
+  "run_name": "2026-03-07-openrouter-v0-1"
+}

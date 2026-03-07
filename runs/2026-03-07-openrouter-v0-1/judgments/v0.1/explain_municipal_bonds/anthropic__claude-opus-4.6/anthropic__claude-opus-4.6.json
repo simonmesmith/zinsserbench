@@ -1,0 +1,47 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.1",
+  "candidate_model_id": "anthropic/claude-opus-4.6",
+  "created_at": "2026-03-07T17:01:16Z",
+  "judge_model_id": "anthropic/claude-opus-4.6",
+  "metadata": {
+    "id": "gen-1772902868-cVmEYOfpFVm9S0IatXA9",
+    "raw_text": "{\"scores\": {\"clarity\": 5, \"simplicity\": 5, \"brevity_economy\": 4, \"structure_flow\": 5, \"specificity_precision\": 4, \"humanity_voice\": 5, \"overall\": 4}, \"rationale\": \"Exceptionally clear and well-structured explainer that uses effective analogies (mortgage, IOU) and concrete examples ($50 million bridge, library in 2040). The section headers guide the reader logically through what bonds are, why they exist, and who issues them. Language is genuinely plain without being condescending. The home mortgage analogy is apt and well-placed. Deductions: the response is cut off mid-sentence in the investor section, which is a significant flaw \u2014 the piece is literally incomplete, leaving a key topic (tax-exempt status) unfinished. Specificity is good but not exceptional; the $50 million figure and named infrastructure types help, but the truncation prevents the tax advantage from being explained. Brevity is solid \u2014 no real padding \u2014 though the piece could have been slightly tighter to fit the investor section within its apparent length constraint. The incomplete ending prevents a top overall score despite the high quality of what's present.\"}",
+    "usage": {
+      "completion_tokens": 270,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 0
+      },
+      "cost": 0.01123,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.00675,
+        "upstream_inference_cost": 0.01123,
+        "upstream_inference_prompt_cost": 0.00448
+      },
+      "is_byok": false,
+      "prompt_tokens": 896,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 1166
+    }
+  },
+  "prompt_category": "explain",
+  "prompt_id": "explain_municipal_bonds",
+  "rationale": "Exceptionally clear and well-structured explainer that uses effective analogies (mortgage, IOU) and concrete examples ($50 million bridge, library in 2040). The section headers guide the reader logically through what bonds are, why they exist, and who issues them. Language is genuinely plain without being condescending. The home mortgage analogy is apt and well-placed. Deductions: the response is cut off mid-sentence in the investor section, which is a significant flaw \u2014 the piece is literally incomplete, leaving a key topic (tax-exempt status) unfinished. Specificity is good but not exceptional; the $50 million figure and named infrastructure types help, but the truncation prevents the tax advantage from being explained. Brevity is solid \u2014 no real padding \u2014 though the piece could have been slightly tighter to fit the investor section within its apparent length constraint. The incomplete ending prevents a top overall score despite the high quality of what's present.",
+  "run_name": "2026-03-07-openrouter-v0-1",
+  "scores": {
+    "brevity_economy": 4,
+    "clarity": 5,
+    "humanity_voice": 5,
+    "overall": 4,
+    "simplicity": 5,
+    "specificity_precision": 4,
+    "structure_flow": 5
+  }
+}

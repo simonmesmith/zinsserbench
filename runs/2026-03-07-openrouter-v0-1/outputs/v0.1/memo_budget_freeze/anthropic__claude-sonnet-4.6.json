@@ -1,0 +1,37 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.1",
+  "candidate_label": "Claude Sonnet 4.6",
+  "candidate_model_id": "anthropic/claude-sonnet-4.6",
+  "created_at": "2026-03-07T15:03:21Z",
+  "metadata": {
+    "id": "gen-1772895788-NpKRzcjCtPfcQQlna2m4",
+    "usage": {
+      "completion_tokens": 500,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 42
+      },
+      "cost": 0.007767,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.0075,
+        "upstream_inference_cost": 0.007767,
+        "upstream_inference_prompt_cost": 0.000267
+      },
+      "is_byok": false,
+      "prompt_tokens": 89,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 589
+    }
+  },
+  "prompt_category": "memo",
+  "prompt_id": "memo_budget_freeze",
+  "response_text": "# INTERNAL MEMORANDUM\n\n**TO:** All Department Heads and Service Line Managers\n**FROM:** Office of the Chief Financial Officer\n**DATE:** [Date]\n**RE:** Temporary Discretionary Budget Freeze \u2014 Effective Immediately\n**CLASSIFICATION:** Internal \u2014 Do Not Distribute Externally\n\n---\n\n## Purpose\n\nThis memo is to inform all department heads of a temporary freeze on select budget categories, effective immediately. This action is a proactive and precautionary measure in response to current regional reimbursement delays and unanticipated increases in supply chain costs during this fiscal quarter. The freeze is not a signal of a structural financial crisis. It is a standard fiscal management tool designed to protect operational stability while leadership conducts a full budget review.\n\nWe expect the freeze to remain in place for **approximately 60 days**, with a formal reassessment on **[reassessment date]**. We appreciate your cooperation and ask that you read this memo carefully before directing questions to your budget liaison.\n\n---\n\n## What Is Affected\n\nThe following categories are **frozen** and require written CFO approval before any commitment or expenditure is made:\n\n**1. Capital Equipment Purchases**\nAll non-emergency capital expenditures are on hold, including equipment upgrades, replacement hardware, and new device acquisitions. This applies regardless of whether a purchase order has been drafted but not yet submitted. Items already formally approved and contractually committed prior to today's date are not affected.\n\n**2. Non-Essential Supply Orders Above Established Par Levels**\nRoutine replenishment of supplies to maintain current par levels may continue. Discretionary orders that exceed par \u2014 including stockpiling, program expansion supplies, or trial product orders \u2014 require approval.\n\n**3. Discretionary Travel and Conference Attendance**\nAll non-mandatory travel, including conference registrations, off-site training, and professional development travel, is suspended. Reimbursement for travel already completed will be processed normally. Mandatory travel required for regulatory compliance or patient care continuity must be pre-approved through your VP.\n\n**4. Consulting",
+  "run_name": "2026-03-07-openrouter-v0-1"
+}

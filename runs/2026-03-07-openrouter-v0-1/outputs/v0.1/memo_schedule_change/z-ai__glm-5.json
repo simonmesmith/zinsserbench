@@ -1,0 +1,37 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.1",
+  "candidate_label": "GLM-5",
+  "candidate_model_id": "z-ai/glm-5",
+  "created_at": "2026-03-07T15:17:02Z",
+  "metadata": {
+    "id": "gen-1772896597-BYd2Hv38s2C3bOirwDcJ",
+    "usage": {
+      "completion_tokens": 1416,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 880
+      },
+      "cost": 0.0036602,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.0036108,
+        "upstream_inference_cost": 0.0036602,
+        "upstream_inference_prompt_cost": 4.94e-05
+      },
+      "is_byok": false,
+      "prompt_tokens": 52,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 1468
+    }
+  },
+  "prompt_category": "memo",
+  "prompt_id": "memo_schedule_change",
+  "response_text": "**MEMORANDUM**\n\n**TO:** All Warehouse Staff\n**FROM:** Warehouse Management Team\n**DATE:** October 24, 2023\n**SUBJECT:** Upcoming Shift Schedule Changes \u2013 Holiday Peak Season\n\n**Introduction**\nAs we approach the fourth quarter, we are entering our busiest time of the year. To meet the increased demand from our retail partners and ensure timely delivery for our customers, we will be implementing our Peak Season Schedule effective **Monday, November 6th**.\n\nWe understand that changes to your daily routine can be challenging. These adjustments are necessary to maximize our output during the holiday rush and ensure we meet our shipping deadlines safely and efficiently.\n\n**Schedule Details**\nThe new shift times will be as follows, effective November 6th through December 23rd:\n\n*   **Day Shift (A-Shift):** 6:00 AM \u2013 4:30 PM (Monday through Thursday)\n*   **Night Shift (B-Shift):** 5:00 PM \u2013 3:30 AM (Monday through Thursday)\n*   **Weekend Shift (C-Shift):** 6:00 AM \u2013 6:00 PM (Friday through Sunday)\n\n*Note: All shifts will include a 30-minute paid lunch and two 15-minute breaks.*\n\n**Key Changes and Overtime**\nPlease note the following operational changes that will accompany the new schedule:\n\n1.  **Mandatory Overtime:** Due to the volume of inbound and outbound freight, the 10-hour shift structure is mandatory for the duration of the peak period.\n2.  **Holiday Pay:** Employees working on designated holidays (Thanksgiving Day, Christmas Eve, and Christmas Day) will receive double-time pay, as per company policy.\n3.  **Shift Differential:** The standard $1.50/hour shift differential for the Night Shift will remain in effect.\n\n**Support and Resources**\nTo show our appreciation for your hard work during this demanding period, the break room will be stocked with complimentary coffee, energy drinks, and snacks starting November 1st. Additionally, we will be hosting a catered lunch for all shifts on Friday, November 10th.\n\n**Next Steps**\nPlease review the attached roster to confirm your assigned shift and rotation. If you have a pre-approved vacation request or a conflict that prevents you from working the assigned hours, you must submit a formal adjustment request to your Shift Supervisor by **Friday, October 27th**.\n\nWe rely on your dedication and hard work to make this season a success. Thank you for your flexibility and continued commitment to the team.\n\nSincerely,\n\n**Warehouse Management Team**\n[Company Name] Logistics Division",
+  "run_name": "2026-03-07-openrouter-v0-1"
+}

@@ -1,0 +1,37 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.1",
+  "candidate_label": "MiniMax M2.5",
+  "candidate_model_id": "minimax/minimax-m2.5",
+  "created_at": "2026-03-07T15:05:52Z",
+  "metadata": {
+    "id": "gen-1772895924-u82cqN074DXSgbgITfNp",
+    "usage": {
+      "completion_tokens": 500,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 49
+      },
+      "cost": 0.00082344,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.0008,
+        "upstream_inference_cost": 0.00082344,
+        "upstream_inference_prompt_cost": 2.344e-05
+      },
+      "is_byok": false,
+      "prompt_tokens": 64,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 6,
+        "video_tokens": 0
+      },
+      "total_tokens": 564
+    }
+  },
+  "prompt_category": "explain",
+  "prompt_id": "explain_municipal_bonds",
+  "response_text": "# What Are Municipal Bonds?\n\nImagine your city wants to build a new school, fix a leaky bridge, or upgrade its water system. These are big projects \u2014 the kind that cost millions of dollars. Most cities don't have that kind of cash sitting around, so they need to find a way to raise the money.\n\nOne common way they do this is by issuing something called a **municipal bond** \u2014 often shortened to \"muni.\"\n\n## A bond is basically an IOU\n\nWhen a city issues a bond, it's asking people and organizations to lend it money. In exchange, the city promises to pay that money back over time, with a little extra \u2014 called **interest** \u2014 as a thank-you for the loan.\n\nThink of it like this: you lend your neighbor $1,000 to cover an unexpected expense. They agree to pay you back in five years, plus $50 as a thank-you. That's essentially what a bond is \u2014 a loan with a promise of repayment and interest.\n\n## Why do cities issue them?\n\nCities issue bonds to pay for **infrastructure** \u2014 the physical stuff that makes a community work. This includes:\n\n- **Schools** \u2014 new buildings or renovations\n- **Roads and bridges** \u2014 repairs and new construction\n- **Water and sewer systems** \u2014 keeping clean water flowing\n- **Public transit** \u2014 buses, trains, and related facilities\n- **Parks and recreation centers**\n- **Hospitals and other public facilities**\n\nThese are the kinds of projects that benefit everyone in a community, but they cost far more than a city can cover from its regular budget. Bonds let the city spread the cost out over many years, much like a homeowner takes out a mortgage to buy a house rather than paying the full price upfront.\n\n## Why would someone buy a city bond?\n\nFrom the investor's side, municipal bonds have a few features that make them attractive:\n\n- **They tend to be safe.** Cities have a strong track record of repaying their debts. While no investment is completely risk-free, defaults on municipal bonds are relatively rare.\n- **The interest is often tax-free.** This is a big one. The interest you earn from most municipal bonds is exempt from federal taxes \u2014 and often from state and local taxes too. For people",
+  "run_name": "2026-03-07-openrouter-v0-1"
+}

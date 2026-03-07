@@ -1,0 +1,37 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.1",
+  "candidate_label": "Claude Opus 4.6",
+  "candidate_model_id": "anthropic/claude-opus-4.6",
+  "created_at": "2026-03-07T15:13:40Z",
+  "metadata": {
+    "id": "gen-1772896407-nri6jwfv5f939Bb0MuK1",
+    "usage": {
+      "completion_tokens": 499,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 43
+      },
+      "cost": 0.01284,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.012475,
+        "upstream_inference_cost": 0.01284,
+        "upstream_inference_prompt_cost": 0.000365
+      },
+      "is_byok": false,
+      "prompt_tokens": 73,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 572
+    }
+  },
+  "prompt_category": "service_howto",
+  "prompt_id": "howto_school_board_comment",
+  "response_text": "# How to Prepare to Speak at a School Board Meeting: A Practical Guide for Parents\n\n## Understanding the Opportunity\n\nSchool board meetings are one of the most direct ways you can influence the decisions that shape your child's education. Board members are elected to represent the community, and public comment periods exist specifically so they can hear from people like you. Whether you want to raise a concern, support a proposal, or simply ask questions, knowing how to prepare will help you make the most of your time at the podium.\n\nThis guide will walk you through each step, from finding out when and where to show up to delivering your message with clarity and confidence.\n\n---\n\n## Step 1: Learn the Basics Before You Do Anything Else\n\nEvery school district handles its meetings a little differently, so your first task is to gather logistical information.\n\n**Find the meeting schedule.** Most districts post meeting dates, times, and locations on their official website, often under a tab labeled \"Board of Education\" or \"School Board.\" Meetings are typically held once or twice a month in the evening, though some districts also schedule special sessions or work sessions that may or may not include public comment.\n\n**Determine whether you need to sign up in advance.** Some districts require you to register ahead of time if you want to speak during the public comment period. Others use a sign-up sheet available at the door on the night of the meeting. A few allow both options. Check the district website or call the board clerk's office to confirm the process. If advance registration is required, note the deadline \u2014 it may be 24 to 48 hours before the meeting.\n\n**Learn the rules for public comment.** Districts typically impose a time limit on individual speakers, most commonly three minutes, though some allow as few as two or as many as five. There may also be rules about the total length of the public comment period, restrictions on certain language, or guidelines about whether comments must relate to items on the agenda. These rules are often published in the board's bylaws or policies, which are usually available online. Knowing them in advance prevents surprises.",
+  "run_name": "2026-03-07-openrouter-v0-1"
+}

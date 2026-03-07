@@ -1,0 +1,47 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.1",
+  "candidate_model_id": "z-ai/glm-5",
+  "created_at": "2026-03-07T17:18:02Z",
+  "judge_model_id": "openai/gpt-5.4",
+  "metadata": {
+    "id": "gen-1772903876-2UAOWJId2sUj1wNDzda3",
+    "raw_text": "{\"scores\":{\"clarity\":4,\"simplicity\":3,\"brevity_economy\":4,\"structure_flow\":3,\"specificity_precision\":3,\"humanity_voice\":4,\"overall\":3},\"rationale\":\"Clear, readable opening with a lively voice and a concrete setup. The comparison to late-night services is engaging, but the phrasing is somewhat polished and inflated, and the piece stops before developing the argument with evidence or fuller support.\"}",
+    "usage": {
+      "completion_tokens": 302,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 201
+      },
+      "cost": 0.00567,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.00453,
+        "upstream_inference_cost": 0.00567,
+        "upstream_inference_prompt_cost": 0.00114
+      },
+      "is_byok": false,
+      "prompt_tokens": 456,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 758
+    }
+  },
+  "prompt_category": "persuasion_oped",
+  "prompt_id": "oped_library_hours",
+  "rationale": "Clear, readable opening with a lively voice and a concrete setup. The comparison to late-night services is engaging, but the phrasing is somewhat polished and inflated, and the piece stops before developing the argument with evidence or fuller support.",
+  "run_name": "2026-03-07-openrouter-v0-1",
+  "scores": {
+    "brevity_economy": 4,
+    "clarity": 4,
+    "humanity_voice": 4,
+    "overall": 3,
+    "simplicity": 3,
+    "specificity_precision": 3,
+    "structure_flow": 3
+  }
+}

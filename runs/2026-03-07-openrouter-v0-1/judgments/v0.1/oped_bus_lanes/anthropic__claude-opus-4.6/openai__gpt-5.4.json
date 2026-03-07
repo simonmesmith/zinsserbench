@@ -1,0 +1,47 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.1",
+  "candidate_model_id": "anthropic/claude-opus-4.6",
+  "created_at": "2026-03-07T17:20:42Z",
+  "judge_model_id": "openai/gpt-5.4",
+  "metadata": {
+    "id": "gen-1772904036-4YQJEGON7SJhfpygyTjz",
+    "raw_text": "{\"scores\":{\"clarity\":4,\"simplicity\":4,\"brevity_economy\":4,\"structure_flow\":3,\"specificity_precision\":4,\"humanity_voice\":5,\"overall\":3},\"rationale\":\"Strong, vivid opening with a clear thesis, concrete examples, and a confident human voice. Language is mostly direct, though occasionally a bit rhetorical. The main weakness is that the piece is cut off mid-argument, which hurts flow and overall effectiveness.\"}",
+    "usage": {
+      "completion_tokens": 318,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 213
+      },
+      "cost": 0.006635,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.00477,
+        "upstream_inference_cost": 0.006635,
+        "upstream_inference_prompt_cost": 0.001865
+      },
+      "is_byok": false,
+      "prompt_tokens": 746,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 1064
+    }
+  },
+  "prompt_category": "persuasion_oped",
+  "prompt_id": "oped_bus_lanes",
+  "rationale": "Strong, vivid opening with a clear thesis, concrete examples, and a confident human voice. Language is mostly direct, though occasionally a bit rhetorical. The main weakness is that the piece is cut off mid-argument, which hurts flow and overall effectiveness.",
+  "run_name": "2026-03-07-openrouter-v0-1",
+  "scores": {
+    "brevity_economy": 4,
+    "clarity": 4,
+    "humanity_voice": 5,
+    "overall": 3,
+    "simplicity": 4,
+    "specificity_precision": 4,
+    "structure_flow": 3
+  }
+}

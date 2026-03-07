@@ -1,0 +1,37 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.1",
+  "candidate_label": "Claude Opus 4.6",
+  "candidate_model_id": "anthropic/claude-opus-4.6",
+  "created_at": "2026-03-07T15:15:06Z",
+  "metadata": {
+    "id": "gen-1772896490-4YHD0Drl45cWwJtkJkMf",
+    "usage": {
+      "completion_tokens": 500,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 61
+      },
+      "cost": 0.012875,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.0125,
+        "upstream_inference_cost": 0.012875,
+        "upstream_inference_prompt_cost": 0.000375
+      },
+      "is_byok": false,
+      "prompt_tokens": 75,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 575
+    }
+  },
+  "prompt_category": "personal_nonfiction",
+  "prompt_id": "personal_night_shift_bus",
+  "response_text": "# The 11:47\n\nFor a year, I belonged to the 11:47.\n\nNot in the way you belong to a family or a team or even a neighborhood. More in the way a coin belongs to a fountain\u2014dropped in, sinking slowly, surrounded by others who'd also been tossed there by circumstance and gravity and the particular math of a life that didn't add up to a car.\n\nI started riding the Route 19 northbound in January, after I took the closing shift at a restaurant downtown. The bus stop was three blocks from the kitchen's back door, and if I walked fast in the cold, I'd arrive just as the headlights swung around the corner of Maple and 4th like a single yellow eye opening. The schedule said 11:47 but it was almost never 11:47. It was 11:51 or 11:54 or, twice, so late that I started to believe it wasn't coming at all and began to do the grim calculus of a five-mile walk in February.\n\nBut it always came.\n\n---\n\nHere is what no one tells you about a late-night bus: it is one of the last public spaces in American life where no one is performing. By midnight, the theater of daytime selfhood has closed. People on the 11:47 were not networking or projecting or curating. They were just tired. And tired people are, I think, the most honest version of people. Their faces go slack. They let their mouths hang slightly open. They stare at nothing with a focus that would be unsettling at noon but at midnight seems like the most natural thing in the world\u2014an animal resting with its eyes not quite shut, still listening for danger.\n\nI grew to love those faces. Not the way you love a friend's face, weighted with history and detail. More like the way you love a landscape you pass through daily, until one morning you realize you could draw it from memory: every ridge",
+  "run_name": "2026-03-07-openrouter-v0-1"
+}

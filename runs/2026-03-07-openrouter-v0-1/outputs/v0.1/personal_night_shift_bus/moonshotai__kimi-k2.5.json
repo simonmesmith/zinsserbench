@@ -1,0 +1,37 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.1",
+  "candidate_label": "Kimi K2.5",
+  "candidate_model_id": "moonshotai/kimi-k2.5",
+  "created_at": "2026-03-07T16:13:13Z",
+  "metadata": {
+    "id": "gen-1772899914-npfVeNUaFCzRcxlvxFDn",
+    "usage": {
+      "completion_tokens": 1710,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 438
+      },
+      "cost": 0.0038727,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.0038475,
+        "upstream_inference_cost": 0.0038727,
+        "upstream_inference_prompt_cost": 2.52e-05
+      },
+      "is_byok": false,
+      "prompt_tokens": 56,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 1766
+    }
+  },
+  "prompt_category": "personal_nonfiction",
+  "prompt_id": "personal_night_shift_bus",
+  "response_text": "The 24 smelled like vinyl and radiator heat, even in July. I knew this because I spent three hundred and sixty-something nights climbing its steps sometime between 11:45 PM and 12:20 AM, depending on how long my manager took to count the register. The driver\u2014first Marcus, then a rotating cast of substitutes, then Marcus again\u2014never asked for my pass after the second week. He just nodded, and I nodded back, and I took the third seat on the left, the one with the duct-taped rip in the upholstery that exhaled a puff of yellow foam when you sat down.\n\nA year is long enough for a route to become a diary you don\u2019t remember writing.\n\nAt first, I counted the stops to stay awake. Twelve between the restaurant and my apartment: the hospital, the all-night pharmacy, the shuttered library with its bronze lions sleeping in the dark. I\u2019d press my forehead against the glass and watch the city turn into a series of lit windows\u2014someone washing dishes at 12:15, a television flickering blue against a blank wall, a man in a third-story walk-up ironing a dress shirt at midnight. The glass was cold in winter, greasy in summer, and always, always, it held my reflection suspended over the passing streets like a ghost haunting its own commute.\n\nYou learn the taxonomy of late-night riders. There was the woman I called the Nurse, though she might have been a phlebotomist or a janitor at the dialysis center\u2014her scrubs were always the same pale green, and she carried a lunchbox that clicked with the sound of hard plastic containers. She got on at St. Mary\u2019s and off at Hawthorne, and she slept with her mouth slightly open, her head knocking gently against the window at every red light. There was the Kid, who couldn\u2019t have been older than seventeen, who rode the full route with a backpack that smelled like fryer oil and desperation, listening to music that leaked tinny beats from his headphones. And there was the Man with the Cane, who never sat down, who gripped the yellow handrails and swayed like a sailor, talking to himself in a language I didn\u2019t recognize, his voice rising and falling like he was negotiating with someone who wasn\u2019t there.\n\nWe were a constellation that never quite connected. We knew the shape of each other\u2019s exhaustion\u2014the way the Nurse rubbed her temples on Mondays, how the Kid\u2019s shoulders dropped lower on Thursdays\u2014but we never exchanged names. The bus was a confessional without the dialogue. We surrendered our days to the hum of the diesel engine, let it shake the tension out of our jaws.\n\nMarcus drove with his left hand and ate sunflower seeds with his right, spitting the shells into a paper cup he kept wedged between the fare box and the plexiglass shield. He had a daughter; I knew this because in October he started putting her drawings up with magnets\u2014crayon suns with smiling faces, stick figures holding hands. By March, the drawings were curling at the edges, the colors fading from the sun-bleach of the windshield, but he kept them there. When the substitute drivers came\u2014usually retirees picking up extra shifts, or angry young men who took the corners too fast\u2014the absence of those drawings made the bus feel abandoned.\n\nWinter was the hardest. The heaters blasted against the windows, creating a fog that turned the outside world into a watercolor wash of streetlamps and neon. I\u2019d watch my breath bloom and vanish, bloom and vanish, and feel the days accumulating like sediment. The restaurant closed at eleven, but the cleanup took until nearly midnight, and by the time I reached my stop, my fingers would be too stiff to work my keys. I\u2019d stand under the awning of the bodega on the corner, warming my hands with my own breath, watching the 24 pull away with its red taillights disappearing around the bend of the avenue.\n\nBut spring changed things. Not dramatically\u2014nothing dramatic happens on the 24\u2014but subtly, like a shift in barometric pressure. The windows stayed clear. The Kid started wearing a jacket instead of a hoodie. The Nurse changed from green scrubs to blue. And I realized, somewhere around the nine-month mark, that I had stopped counting the stops. I knew them by feel\u2014the particular sway as we rounded the cemetery, the hydraulic wheeze of the brakes at the transfer point, the way the engine labored uphill past the university. My body knew when to stand before my mind did.\n\nThe last night was unremarkable. It was a Tuesday in late June, humid, the air inside the bus heavy with the smell of rain that hadn\u2019t fallen yet. Marcus was back; the drawings had been replaced by new ones, the paper still crisp. The Nurse wasn\u2019t there\u2014maybe she\u2019d switched shifts, or moved, or gotten a car. The Kid had graduated to earbuds that didn\u2019t leak sound. I sat in my seat, the yellow foam exhaling its familiar sigh, and watched the city scroll by.\n\nI was leaving the restaurant job. I had a nine-to-five starting Monday, an office with fluorescent lights that didn\u2019t flicker, a commute that would happen in daylight among people wearing clean clothes and talking about traffic. I should have felt relief. Instead, I felt the strange vertigo of impending nostalgia, mourning something that hadn\u2019t ended yet.\n\nAt my stop, I paused at the top of the steps. Marcus looked up, his hand hovering over the lever to close the doors.\n\n\u201cTake care,\u201d he said. It was the first time he\u2019d spoken to me in eleven months.\n\n\u201cYou too,\u201d I said.\n\nThe doors hissed shut behind me, and the bus pulled away, its interior light revealing the empty seats for a moment before it turned the corner and became just another set of red taillights dissolving into the dark.\n\nI stood there for a minute, listening to the cicadas in the trees overhead, breathing in the city at that specific hour when it belongs only to the people moving through it without destination. Then I walked home, keys already in hand, ready to step out of the in-between and into whatever came next.",
+  "run_name": "2026-03-07-openrouter-v0-1"
+}

@@ -1,0 +1,47 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.1",
+  "candidate_model_id": "z-ai/glm-5",
+  "created_at": "2026-03-07T17:28:14Z",
+  "judge_model_id": "anthropic/claude-opus-4.6",
+  "metadata": {
+    "id": "gen-1772904486-7u487shpDn22eBqaymrg",
+    "raw_text": "{\"scores\": {\"clarity\": 5, \"simplicity\": 5, \"brevity_economy\": 5, \"structure_flow\": 4, \"specificity_precision\": 4, \"humanity_voice\": 5, \"overall\": 4}, \"rationale\": \"The writing is exceptionally clear, direct, and human-sounding. The plain language carries real authority\u2014sentences like 'But really, I watched people' and 'the pool showed the seams' are precise and evocative without being overwrought. Concrete details (soft pretzels, $150 family pass, chlorine-and-concrete locker rooms) ground the essay effectively. The voice is warm, observational, and confident. However, the piece is clearly truncated mid-sentence ('the crowd was self-selecting'), which prevents it from delivering on its central promise\u2014showing what the pool revealed about belonging and the town's fault lines. The structure builds beautifully toward that thesis but never gets to develop it. Specificity suffers slightly because the essay gestures at racial and class dynamics without getting to illustrate them with scenes or characters. What's here is excellent; it's just incomplete.\"}",
+    "usage": {
+      "completion_tokens": 258,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 0
+      },
+      "cost": 0.009975,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.00645,
+        "upstream_inference_cost": 0.009975,
+        "upstream_inference_prompt_cost": 0.003525
+      },
+      "is_byok": false,
+      "prompt_tokens": 705,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 963
+    }
+  },
+  "prompt_category": "personal_nonfiction",
+  "prompt_id": "personal_public_pool",
+  "rationale": "The writing is exceptionally clear, direct, and human-sounding. The plain language carries real authority\u2014sentences like 'But really, I watched people' and 'the pool showed the seams' are precise and evocative without being overwrought. Concrete details (soft pretzels, $150 family pass, chlorine-and-concrete locker rooms) ground the essay effectively. The voice is warm, observational, and confident. However, the piece is clearly truncated mid-sentence ('the crowd was self-selecting'), which prevents it from delivering on its central promise\u2014showing what the pool revealed about belonging and the town's fault lines. The structure builds beautifully toward that thesis but never gets to develop it. Specificity suffers slightly because the essay gestures at racial and class dynamics without getting to illustrate them with scenes or characters. What's here is excellent; it's just incomplete.",
+  "run_name": "2026-03-07-openrouter-v0-1",
+  "scores": {
+    "brevity_economy": 5,
+    "clarity": 5,
+    "humanity_voice": 5,
+    "overall": 4,
+    "simplicity": 5,
+    "specificity_precision": 4,
+    "structure_flow": 4
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.1",
+  "candidate_label": "Claude Sonnet 4.6",
+  "candidate_model_id": "anthropic/claude-sonnet-4.6",
+  "created_at": "2026-03-07T15:16:37Z",
+  "metadata": {
+    "id": "gen-1772896587-Gp479KbdJvj33UiDs1zi",
+    "usage": {
+      "completion_tokens": 500,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 33
+      },
+      "cost": 0.007719,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.0075,
+        "upstream_inference_cost": 0.007719,
+        "upstream_inference_prompt_cost": 0.000219
+      },
+      "is_byok": false,
+      "prompt_tokens": 73,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 573
+    }
+  },
+  "prompt_category": "memo",
+  "prompt_id": "memo_schedule_change",
+  "response_text": "# INTERNAL MEMORANDUM\n\n---\n\n**TO:** All Warehouse Staff\n**FROM:** Operations Management\n**DATE:** November 4, 2024\n**RE:** Holiday Season Shift Schedule Changes \u2014 Effective November 25, 2024\n\n---\n\n**Purpose**\n\nAs we head into our busiest time of year, we want to give you advance notice of upcoming changes to shift schedules. These adjustments are designed to meet increased order volume while ensuring our teams are properly staffed and supported throughout the holiday season.\n\n---\n\n**Schedule Changes**\n\nEffective **Monday, November 25**, the following changes will be in place through **Saturday, January 4, 2025**:\n\n- **First Shift** will move from 6:00 AM \u2013 2:30 PM to **5:00 AM \u2013 1:30 PM**\n- **Second Shift** will move from 2:30 PM \u2013 11:00 PM to **1:30 PM \u2013 10:00 PM**\n- **Third Shift** hours remain unchanged: **10:00 PM \u2013 6:00 AM**\n- **Weekend overtime shifts** will be available on a voluntary basis. Sign-up sheets will be posted in the break room by November 15.\n\n---\n\n**Additional Staffing Notes**\n\n- Mandatory overtime may be required during **peak weeks (December 9\u201313 and December 16\u201320)**. We will provide at least **72 hours' notice** whenever possible.\n- Employees interested in temporary shift transfers should speak with their direct supervisor by **November 15** to explore options.\n- Holiday pay policies remain unchanged. Please refer to your employee handbook or contact HR with questions.\n\n---\n\n**What You Need to Do**\n\n1. Review the new schedule and confirm any conflicts with your supervisor by **November 12**.\n2. Check the break room board for updated team assignments starting **November 18**.\n3. Reach out to HR at **hr@company.com** or extension **204** with any scheduling concerns or accommodation requests.\n\n---\n\n**A Note of",
+  "run_name": "2026-03-07-openrouter-v0-1"
+}

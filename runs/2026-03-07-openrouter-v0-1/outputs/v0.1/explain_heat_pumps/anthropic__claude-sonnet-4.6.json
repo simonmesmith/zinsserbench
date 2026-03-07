@@ -1,0 +1,37 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.1",
+  "candidate_label": "Claude Sonnet 4.6",
+  "candidate_model_id": "anthropic/claude-sonnet-4.6",
+  "created_at": "2026-03-07T15:03:53Z",
+  "metadata": {
+    "id": "gen-1772895823-BPdIrxeufkEUVBloiQnR",
+    "usage": {
+      "completion_tokens": 500,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 34
+      },
+      "cost": 0.007743,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.0075,
+        "upstream_inference_cost": 0.007743,
+        "upstream_inference_prompt_cost": 0.000243
+      },
+      "is_byok": false,
+      "prompt_tokens": 81,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 581
+    }
+  },
+  "prompt_category": "explain",
+  "prompt_id": "explain_heat_pumps",
+  "response_text": "# Heat Pumps: What They Are and Why You Might Want One\n\n**The basic idea**\n\nDespite the name, a heat pump doesn't generate heat \u2014 it moves it. In winter, it pulls heat energy from the outdoor air (even cold air contains usable heat) and transfers it inside your home. In summer, it runs the process in reverse, pulling heat out of your home and releasing it outside. Think of it as an air conditioner that can work both ways.\n\nA gas furnace, by contrast, burns fuel to create heat from scratch.\n\n**How it actually works**\n\nA heat pump circulates refrigerant between an outdoor unit and an indoor unit. Outside, the refrigerant absorbs heat from the air and evaporates into a gas. A compressor pressurizes that gas, which raises its temperature significantly. That warm gas travels inside, releases its heat into your home's air distribution system, and the cycle repeats.\n\nModern cold-climate heat pumps can extract useful heat from outdoor air down to around -15\u00b0F, making them viable in most of the country.\n\n**Why choose a heat pump over a gas furnace?**\n\n- **Lower operating costs.** Because you're moving heat rather than burning fuel to make it, heat pumps are typically two to three times more energy-efficient than gas furnaces.\n- **One system, two functions.** A heat pump replaces both your furnace and your central air conditioner.\n- **No combustion.** There's no open flame, no carbon monoxide risk, and no need for a gas line.\n- **Lower emissions.** Even on today's electrical grid, heat pumps often produce fewer emissions than gas heating \u2014 and that advantage grows as the grid gets cleaner.\n- **Federal and local incentives.** Tax credits and rebates can significantly reduce upfront costs.\n\n**The honest trade-offs**\n\nHeat pumps cost more upfront than a gas furnace alone. In very cold climates, efficiency drops in extreme cold snaps (though most systems include backup electric heating for those situations). And if your electricity rates are especially high and",
+  "run_name": "2026-03-07-openrouter-v0-1"
+}

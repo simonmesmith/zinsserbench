@@ -1,0 +1,47 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.1",
+  "candidate_model_id": "anthropic/claude-opus-4.6",
+  "created_at": "2026-03-07T17:04:23Z",
+  "judge_model_id": "anthropic/claude-opus-4.6",
+  "metadata": {
+    "id": "gen-1772903056-wLXdEjd1EQJXtCd0r7fH",
+    "raw_text": "{\"scores\": {\"clarity\": 5, \"simplicity\": 5, \"brevity_economy\": 5, \"structure_flow\": 5, \"specificity_precision\": 5, \"humanity_voice\": 5, \"overall\": 5}, \"rationale\": \"This is exceptional magazine-quality profile writing. The opening sequence \u2014 arriving in the dark, thermos, transistor radio, the rejected earbuds \u2014 establishes character through precise, telling details rather than adjectives. The structural move from physical labor ('the real work of his morning is already finished') to the emotional labor of greeting students is elegant and purposeful. The specificity is outstanding: 'the girl with the purple hearing aids,' 'the boy who eats lunch alone near the vending machines,' the thermos of black coffee, the loading dock entrance near the gymnasium. The dialogue snippets feel natural and varied, each one revealing a different kind of relationship. The prose is clean, direct, and rhythmically controlled \u2014 sentences like 'The floors shine. The bathrooms are stocked.' use brevity for pacing effect. The voice is warm without being sentimental, journalistic without being detached. The piece is cut off, but what exists is nearly flawless in craft.\"}",
+    "usage": {
+      "completion_tokens": 273,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 0
+      },
+      "cost": 0.011055,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.006825,
+        "upstream_inference_cost": 0.011055,
+        "upstream_inference_prompt_cost": 0.00423
+      },
+      "is_byok": false,
+      "prompt_tokens": 846,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 1119
+    }
+  },
+  "prompt_category": "profile",
+  "prompt_id": "profile_school_custodian",
+  "rationale": "This is exceptional magazine-quality profile writing. The opening sequence \u2014 arriving in the dark, thermos, transistor radio, the rejected earbuds \u2014 establishes character through precise, telling details rather than adjectives. The structural move from physical labor ('the real work of his morning is already finished') to the emotional labor of greeting students is elegant and purposeful. The specificity is outstanding: 'the girl with the purple hearing aids,' 'the boy who eats lunch alone near the vending machines,' the thermos of black coffee, the loading dock entrance near the gymnasium. The dialogue snippets feel natural and varied, each one revealing a different kind of relationship. The prose is clean, direct, and rhythmically controlled \u2014 sentences like 'The floors shine. The bathrooms are stocked.' use brevity for pacing effect. The voice is warm without being sentimental, journalistic without being detached. The piece is cut off, but what exists is nearly flawless in craft.",
+  "run_name": "2026-03-07-openrouter-v0-1",
+  "scores": {
+    "brevity_economy": 5,
+    "clarity": 5,
+    "humanity_voice": 5,
+    "overall": 5,
+    "simplicity": 5,
+    "specificity_precision": 5,
+    "structure_flow": 5
+  }
+}

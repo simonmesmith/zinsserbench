@@ -1,0 +1,37 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.1",
+  "candidate_label": "GPT-5.4",
+  "candidate_model_id": "openai/gpt-5.4",
+  "created_at": "2026-03-07T15:05:39Z",
+  "metadata": {
+    "id": "gen-1772895925-ip6kSoUlKJWSZ5Si2m7f",
+    "usage": {
+      "completion_tokens": 500,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 182
+      },
+      "cost": 0.00766,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.0075,
+        "upstream_inference_cost": 0.00766,
+        "upstream_inference_prompt_cost": 0.00016
+      },
+      "is_byok": false,
+      "prompt_tokens": 64,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 564
+    }
+  },
+  "prompt_category": "profile",
+  "prompt_id": "profile_school_custodian",
+  "response_text": "By 5:15 each morning, long before the first bus pulls up and before the front office lights blink on, the hallways at Jefferson High belong to Leon Martinez.\n\nHe arrives in the dark, lets himself in through the side entrance near the gym, and begins his rounds with the same quiet choreography he has repeated for 28 years: lights, boiler room, cafeteria, east wing, science hall, main stairwell. His keys announce him before he does, a soft metal jangle that students can identify from half a corridor away. By 7:10, when the building begins to fill with damp sneakers, perfume, winter coats, and unfinished homework, the floors are dry, the trash is gone, and Leon is standing near the front lobby with a push broom in one hand, greeting students as they stream through the doors.\n\n\u201cMorning, Aaliyah.\u201d\n\u201cGood luck on the chem test, Marcus.\u201d\n\u201cHow\u2019s your mom doing, Elena?\u201d\n\u201cDon\u2019t think I forgot it\u2019s your birthday, Jamal.\u201d\n\nThere are about 1,400 students at Jefferson High. Leon Martinez, 62, knows every one of them by name.\n\nNot just the names, either. He knows who plays left back on the girls\u2019 soccer team, who wants to be a welder, who is living with an aunt this semester, who writes poems in the library during lunch, who pretends not to care but always shows up early on the day the report cards come out. He knows whose older brothers passed through the same hallways 10",
+  "run_name": "2026-03-07-openrouter-v0-1"
+}

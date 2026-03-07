@@ -1,0 +1,47 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.1",
+  "candidate_model_id": "anthropic/claude-sonnet-4.6",
+  "created_at": "2026-03-07T16:50:29Z",
+  "judge_model_id": "anthropic/claude-opus-4.6",
+  "metadata": {
+    "id": "gen-1772902222-d6UI207xSWq6aEL8cY47",
+    "raw_text": "{\"scores\": {\"clarity\": 5, \"simplicity\": 5, \"brevity_economy\": 4, \"structure_flow\": 5, \"specificity_precision\": 5, \"humanity_voice\": 3, \"overall\": 4}, \"rationale\": \"Exceptionally clear and well-organized memo with logical sections, bold formatting for key details, and highly specific information (dates, office days, core hours, mileage threshold, office locations, role counts). Language is plain and direct throughout. Loses a point on brevity because the response is cut off\u2014it never completes the international employees section, never delivers the 'reason for the policy' or 'what employees need to do next' sections promised in the overview, which also affects overall effectiveness. Humanity and voice is adequate but leans toward standard corporate memo tone without much warmth or personality\u2014phrases like 'mandatory, non-negotiable' feel stiff. Despite the truncation, what exists is high-quality professional writing.\"}",
+    "usage": {
+      "completion_tokens": 220,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 0
+      },
+      "cost": 0.009775,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.0055,
+        "upstream_inference_cost": 0.009775,
+        "upstream_inference_prompt_cost": 0.004275
+      },
+      "is_byok": false,
+      "prompt_tokens": 855,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 1075
+    }
+  },
+  "prompt_category": "memo",
+  "prompt_id": "memo_remote_work_policy",
+  "rationale": "Exceptionally clear and well-organized memo with logical sections, bold formatting for key details, and highly specific information (dates, office days, core hours, mileage threshold, office locations, role counts). Language is plain and direct throughout. Loses a point on brevity because the response is cut off\u2014it never completes the international employees section, never delivers the 'reason for the policy' or 'what employees need to do next' sections promised in the overview, which also affects overall effectiveness. Humanity and voice is adequate but leans toward standard corporate memo tone without much warmth or personality\u2014phrases like 'mandatory, non-negotiable' feel stiff. Despite the truncation, what exists is high-quality professional writing.",
+  "run_name": "2026-03-07-openrouter-v0-1",
+  "scores": {
+    "brevity_economy": 4,
+    "clarity": 5,
+    "humanity_voice": 3,
+    "overall": 4,
+    "simplicity": 5,
+    "specificity_precision": 5,
+    "structure_flow": 5
+  }
+}

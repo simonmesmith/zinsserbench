@@ -1,0 +1,47 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.1",
+  "candidate_model_id": "moonshotai/kimi-k2.5",
+  "created_at": "2026-03-07T16:55:55Z",
+  "judge_model_id": "anthropic/claude-opus-4.6",
+  "metadata": {
+    "id": "gen-1772902548-SNtsJAAHTAI8s42jcIb4",
+    "raw_text": "{\"scores\": {\"clarity\": 5, \"simplicity\": 4, \"brevity_economy\": 4, \"structure_flow\": 5, \"specificity_precision\": 5, \"humanity_voice\": 4, \"overall\": 5}, \"rationale\": \"Exceptionally well-structured memo that clearly delineates affected vs. unaffected categories with concrete examples (e.g., '$5,000 threshold,' '30 days of standard inventory,' '90 days ROI'). The questions section is particularly strong\u2014it doesn't just say 'bring questions forward' but specifies five precise categories of concerns and submission requirements. Structure flows logically from purpose to restrictions to exemptions to process. Language is mostly plain and direct, though slightly dense in places (e.g., 'Submission Requirements' paragraph packs a lot). The closing paragraph adds a human touch acknowledging burden, though the overall tone leans professional-bureaucratic, which is appropriate for the genre. Minor ding on simplicity for occasional stacking of terms. The placeholder brackets are appropriate for a template memo.\"}",
+    "usage": {
+      "completion_tokens": 240,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 0
+      },
+      "cost": 0.01191,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.006,
+        "upstream_inference_cost": 0.01191,
+        "upstream_inference_prompt_cost": 0.00591
+      },
+      "is_byok": false,
+      "prompt_tokens": 1182,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 1422
+    }
+  },
+  "prompt_category": "memo",
+  "prompt_id": "memo_budget_freeze",
+  "rationale": "Exceptionally well-structured memo that clearly delineates affected vs. unaffected categories with concrete examples (e.g., '$5,000 threshold,' '30 days of standard inventory,' '90 days ROI'). The questions section is particularly strong\u2014it doesn't just say 'bring questions forward' but specifies five precise categories of concerns and submission requirements. Structure flows logically from purpose to restrictions to exemptions to process. Language is mostly plain and direct, though slightly dense in places (e.g., 'Submission Requirements' paragraph packs a lot). The closing paragraph adds a human touch acknowledging burden, though the overall tone leans professional-bureaucratic, which is appropriate for the genre. Minor ding on simplicity for occasional stacking of terms. The placeholder brackets are appropriate for a template memo.",
+  "run_name": "2026-03-07-openrouter-v0-1",
+  "scores": {
+    "brevity_economy": 4,
+    "clarity": 5,
+    "humanity_voice": 4,
+    "overall": 5,
+    "simplicity": 4,
+    "specificity_precision": 5,
+    "structure_flow": 5
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.1",
+  "candidate_model_id": "x-ai/grok-4.1-fast",
+  "created_at": "2026-03-07T17:46:57Z",
+  "judge_model_id": "anthropic/claude-opus-4.6",
+  "metadata": {
+    "id": "gen-1772905611-BDAWsO4HnfUBhnApHF17",
+    "raw_text": "{\"scores\": {\"clarity\": 4, \"simplicity\": 3, \"brevity_economy\": 3, \"structure_flow\": 3, \"specificity_precision\": 4, \"humanity_voice\": 4, \"overall\": 3}, \"rationale\": \"The piece is vivid and engaging with strong concrete details (the 142 express, Eddie's duffel bag of newspapers, Maria's bloodstained scrubs). The voice feels genuinely human and the scene-setting is effective. However, the language frequently overreaches with purple prose: 'chariot through the city's underbelly,' 'unwashed ambition,' 'my confessional, my fragile tether to normalcy,' 'descended like a blackout curtain.' These feel writerly rather than plain and direct. The piece is cut off mid-sentence, which severely undermines structure and completeness\u2014we never get the arc of a full year or any reflective payoff. The accumulation of colorful character sketches risks becoming a catalog rather than a shaped essay. What's here is competent and atmospheric but incomplete and somewhat overwrought.\"}",
+    "usage": {
+      "completion_tokens": 250,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 0
+      },
+      "cost": 0.011145,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.00625,
+        "upstream_inference_cost": 0.011145,
+        "upstream_inference_prompt_cost": 0.004895
+      },
+      "is_byok": false,
+      "prompt_tokens": 979,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 1229
+    }
+  },
+  "prompt_category": "personal_nonfiction",
+  "prompt_id": "personal_night_shift_bus",
+  "rationale": "The piece is vivid and engaging with strong concrete details (the 142 express, Eddie's duffel bag of newspapers, Maria's bloodstained scrubs). The voice feels genuinely human and the scene-setting is effective. However, the language frequently overreaches with purple prose: 'chariot through the city's underbelly,' 'unwashed ambition,' 'my confessional, my fragile tether to normalcy,' 'descended like a blackout curtain.' These feel writerly rather than plain and direct. The piece is cut off mid-sentence, which severely undermines structure and completeness\u2014we never get the arc of a full year or any reflective payoff. The accumulation of colorful character sketches risks becoming a catalog rather than a shaped essay. What's here is competent and atmospheric but incomplete and somewhat overwrought.",
+  "run_name": "2026-03-07-openrouter-v0-1",
+  "scores": {
+    "brevity_economy": 3,
+    "clarity": 4,
+    "humanity_voice": 4,
+    "overall": 3,
+    "simplicity": 3,
+    "specificity_precision": 4,
+    "structure_flow": 3
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.1",
+  "candidate_model_id": "google/gemini-3.1-flash-lite-preview",
+  "created_at": "2026-03-07T17:16:37Z",
+  "judge_model_id": "openai/gpt-5.4",
+  "metadata": {
+    "id": "gen-1772903793-KpSviG4HNeYBdKogNZTx",
+    "raw_text": "{\"scores\":{\"clarity\":3,\"simplicity\":4,\"brevity_economy\":2,\"structure_flow\":1,\"specificity_precision\":2,\"humanity_voice\":4,\"overall\":1},\"rationale\":\"Only a headline is provided, not an actual opinion piece. The line is clear, simple, and has some human voice, but it does not develop an argument, provide structure, or offer specific support for why libraries should stay open later.\"}",
+    "usage": {
+      "completion_tokens": 239,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 136
+      },
+      "cost": 0.0045125,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.003585,
+        "upstream_inference_cost": 0.0045125,
+        "upstream_inference_prompt_cost": 0.0009275
+      },
+      "is_byok": false,
+      "prompt_tokens": 371,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 610
+    }
+  },
+  "prompt_category": "persuasion_oped",
+  "prompt_id": "oped_library_hours",
+  "rationale": "Only a headline is provided, not an actual opinion piece. The line is clear, simple, and has some human voice, but it does not develop an argument, provide structure, or offer specific support for why libraries should stay open later.",
+  "run_name": "2026-03-07-openrouter-v0-1",
+  "scores": {
+    "brevity_economy": 2,
+    "clarity": 3,
+    "humanity_voice": 4,
+    "overall": 1,
+    "simplicity": 4,
+    "specificity_precision": 2,
+    "structure_flow": 1
+  }
+}

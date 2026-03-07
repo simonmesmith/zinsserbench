@@ -1,0 +1,47 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.1",
+  "candidate_model_id": "qwen/qwen3.5-35b-a3b",
+  "created_at": "2026-03-07T16:56:10Z",
+  "judge_model_id": "anthropic/claude-opus-4.6",
+  "metadata": {
+    "id": "gen-1772902562-KkpxMlLovOpIEbZeS1K7",
+    "raw_text": "{\"scores\": {\"clarity\": 5, \"simplicity\": 4, \"brevity_economy\": 4, \"structure_flow\": 5, \"specificity_precision\": 4, \"humanity_voice\": 4, \"overall\": 4}, \"rationale\": \"The memo is well-structured with a proper header, clear sections for what's affected and what's exempt, and a useful action-items section. The language is professional and direct. It loses some points on simplicity because phrases like 'non-essential discretionary spending' and 'operational continuity' edge toward corporate jargon. Brevity is good but the closing section ('We recognize this requires adjustment...') adds some filler. Specificity is solid\u2014concrete examples like overtime caps, new vendor contracts, and PPE are helpful, though some items remain somewhat generic (e.g., 'capital expenditures above $500' would be more precise than just 'capital expenditures'). The voice is professional and appropriately human for a hospital CFO memo, with a reassuring but not patronizing tone. The questions-to-bring-forward section is a strong practical touch. Overall a competent, well-organized business memo that fulfills all requirements of the prompt.\"}",
+    "usage": {
+      "completion_tokens": 273,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 0
+      },
+      "cost": 0.011555,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.006825,
+        "upstream_inference_cost": 0.011555,
+        "upstream_inference_prompt_cost": 0.00473
+      },
+      "is_byok": false,
+      "prompt_tokens": 946,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 1219
+    }
+  },
+  "prompt_category": "memo",
+  "prompt_id": "memo_budget_freeze",
+  "rationale": "The memo is well-structured with a proper header, clear sections for what's affected and what's exempt, and a useful action-items section. The language is professional and direct. It loses some points on simplicity because phrases like 'non-essential discretionary spending' and 'operational continuity' edge toward corporate jargon. Brevity is good but the closing section ('We recognize this requires adjustment...') adds some filler. Specificity is solid\u2014concrete examples like overtime caps, new vendor contracts, and PPE are helpful, though some items remain somewhat generic (e.g., 'capital expenditures above $500' would be more precise than just 'capital expenditures'). The voice is professional and appropriately human for a hospital CFO memo, with a reassuring but not patronizing tone. The questions-to-bring-forward section is a strong practical touch. Overall a competent, well-organized business memo that fulfills all requirements of the prompt.",
+  "run_name": "2026-03-07-openrouter-v0-1",
+  "scores": {
+    "brevity_economy": 4,
+    "clarity": 5,
+    "humanity_voice": 4,
+    "overall": 4,
+    "simplicity": 4,
+    "specificity_precision": 4,
+    "structure_flow": 5
+  }
+}

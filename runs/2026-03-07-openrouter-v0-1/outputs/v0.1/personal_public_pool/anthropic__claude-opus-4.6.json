@@ -1,0 +1,37 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.1",
+  "candidate_label": "Claude Opus 4.6",
+  "candidate_model_id": "anthropic/claude-opus-4.6",
+  "created_at": "2026-03-07T15:11:30Z",
+  "metadata": {
+    "id": "gen-1772896275-TLmrSoosh6LP9xni0cAi",
+    "usage": {
+      "completion_tokens": 500,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 85
+      },
+      "cost": 0.012875,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.0125,
+        "upstream_inference_cost": 0.012875,
+        "upstream_inference_prompt_cost": 0.000375
+      },
+      "is_byok": false,
+      "prompt_tokens": 75,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 575
+    }
+  },
+  "prompt_category": "personal_nonfiction",
+  "prompt_id": "personal_public_pool",
+  "response_text": "# The Deep End\n\nThe pool at Willowbrook Park was not beautiful. It sat in a concrete apron behind the old recreation center like an afterthought, a broad rectangle of over-chlorinated water hemmed in by a chain-link fence topped with rust. The deck paint, once a nautical blue, had blistered and peeled until it resembled a coastline seen from orbit \u2014 pale continents of exposed concrete drifting among blue seas. The bathhouse smelled of mildew in a way that suggested the mildew had been there so long it had earned tenancy rights. None of this mattered. Every summer from 1989 to 1998, from the time I was six until I was fifteen, that pool was the most important place in my world.\n\nIt cost a dollar to get in. A single bill, usually damp and wadded, handed to Mrs. Alderman at the window. She sat on a metal stool behind her counter with a shoebox full of cash and a paperback novel and a look of practiced indifference. She never counted heads against some fire code maximum. She never checked IDs. She took your dollar and pressed a button that buzzed open the turnstile and returned to her book. In this way, she was the most democratic gatekeeper I have ever known.\n\n---\n\nWillowbrook was a steel town thirty miles south of Pittsburgh, though by the time I was swimming there, the description had become aspirational, or maybe memorial. The last mill had closed in 1984. What remained were the people who had worked in it, or whose parents had, and a landscape full of institutions built for a population and a tax base that no longer existed: the wide two-lane roads, the brick elementary schools with their generous playgrounds, the public pool. Everything was scaled for a prosperity that had packed up and left. The pool could hold three hundred people. On the bus",
+  "run_name": "2026-03-07-openrouter-v0-1"
+}

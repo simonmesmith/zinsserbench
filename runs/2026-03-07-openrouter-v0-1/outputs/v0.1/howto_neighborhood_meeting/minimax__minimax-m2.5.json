@@ -1,0 +1,37 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.1",
+  "candidate_label": "MiniMax M2.5",
+  "candidate_model_id": "minimax/minimax-m2.5",
+  "created_at": "2026-03-07T15:08:28Z",
+  "metadata": {
+    "id": "gen-1772896061-0znhIVGiSOdQ84CHBuzr",
+    "usage": {
+      "completion_tokens": 500,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 130
+      },
+      "cost": 0.00081192,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.0008,
+        "upstream_inference_cost": 0.00081192,
+        "upstream_inference_prompt_cost": 1.192e-05
+      },
+      "is_byok": false,
+      "prompt_tokens": 64,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 38,
+        "video_tokens": 0
+      },
+      "total_tokens": 564
+    }
+  },
+  "prompt_category": "service_howto",
+  "prompt_id": "howto_neighborhood_meeting",
+  "response_text": "# How to Organize a Neighborhood Meeting About Traffic Safety\n\nA well-organized community meeting gives residents a collective voice and creates a clear path toward addressing traffic concerns. Here's how to plan and run an effective neighborhood traffic safety meeting.\n\n---\n\n## 1. Define Your Purpose and Goals\n\nBefore reaching out to neighbors, clarify what you want to accomplish:\n\n- **Identify the specific issues**: Is it speeding, lack of crosswalks, poor visibility, dangerous intersections, or something else?\n- **Set realistic objectives**: Are you aiming to raise awareness, gather data, petition the city, or propose specific solutions?\n- **Determine your scope**: Focus on one street or address broader traffic patterns in the area?\n\nWrite a one-paragraph statement summarizing the meeting's purpose. You'll use this in all your outreach materials.\n\n---\n\n## 2. Build a Small Planning Team\n\nYou don't have to do this alone. Recruit two or three neighbors who share your concerns. A team helps with:\n\n- Dividing outreach tasks\n- Bringing different perspectives to the meeting agenda\n- Sharing the workload of logistics\n\nAgree on basic roles: who will handle promotion, who will lead the meeting, who will take notes.\n\n---\n\n## 3. Gather Background Information\n\nStrengthen your case by collecting facts before the meeting:\n\n- **Document specific incidents**: Note dates, times, and descriptions of near-misses or accidents\n- **Collect speed data**: If possible, borrow a radar gun or use phone apps to record vehicle speeds\n- **Take photos**: Capture dangerous conditions\u2014missing signage, obstructed views, damaged infrastructure\n- **Research existing regulations**: Check local speed limits, parking rules, and any prior traffic studies in your area\n- **Identify relevant city contacts**: Find out who handles traffic engineering or neighborhood services in your municipality\n\nThis preparation transforms the meeting from venting into productive problem-solving.\n\n---\n\n## 4. Choose the Right Time and Place\n\n- **Schedule**: Weekday evenings (6:30\u20138:00 PM) or Saturday mornings typically work",
+  "run_name": "2026-03-07-openrouter-v0-1"
+}

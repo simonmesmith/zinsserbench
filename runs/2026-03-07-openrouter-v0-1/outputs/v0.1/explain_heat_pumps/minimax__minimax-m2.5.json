@@ -1,0 +1,37 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.1",
+  "candidate_label": "MiniMax M2.5",
+  "candidate_model_id": "minimax/minimax-m2.5",
+  "created_at": "2026-03-07T15:04:21Z",
+  "metadata": {
+    "id": "gen-1772895859-4RV0aR8pdL0txQy2ROb1",
+    "usage": {
+      "completion_tokens": 500,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 38
+      },
+      "cost": 0.0006198,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.0006,
+        "upstream_inference_cost": 0.0006198,
+        "upstream_inference_prompt_cost": 1.98e-05
+      },
+      "is_byok": false,
+      "prompt_tokens": 66,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 566
+    }
+  },
+  "prompt_category": "explain",
+  "prompt_id": "explain_heat_pumps",
+  "response_text": "# Heat Pumps vs. Gas Furnaces: What's the Difference?\n\nIf you've ever used an air conditioner, you've already used technology related to a heat pump. The difference is that while an AC only cools, a heat pump can **both heat and cool** your home \u2014 all from the same unit.\n\n## How a Heat Pump Actually Works\n\nThink of it like a refrigerator running in reverse. A heat pump uses electricity to move heat rather than generate it. In cooling mode, it pulls heat from inside your home and moves it outside. In heating mode, it reverses that process \u2014 pulling warmth from the outside air (yes, even when it's cold) and bringing it inside.\n\nThis is the key thing that surprises people: **a heat pump doesn't create heat from electricity the way a space heater does.** It *moves* heat, which makes it far more efficient. For every unit of electricity it uses, it can deliver 2 to 4 units of heat.\n\nA gas furnace, by contrast, burns natural gas to create heat directly. It's effective and works well in very cold climates, but it loses energy through exhaust and duct losses.\n\n## Why a Homeowner Might Choose a Heat Pump\n\n- **Lower energy bills** \u2014 Heat pumps typically cost less to run because they're moving heat rather than creating it.\n- **Year-round comfort** \u2014 One system handles both heating and cooling, meaning less equipment to maintain.\n- **Cleaner energy option** \u2014 If your electricity comes from renewable sources (or you're considering solar), a heat pump becomes a nearly zero-emissions heating option.\n- **Safety** \u2014 No combustion means no risk of carbon monoxide leaks.\n\n## A Few Things to Consider\n\nHeat pumps work best in moderate climates. In areas where temperatures regularly drop below freezing, traditional heat pumps can lose efficiency, though **cold-climate models** have improved dramatically and can work effectively even in sub-zero weather. Some homeowners pair a heat pump with a supplemental heating source for the coldest weeks.\n\nGas furnaces still make sense in regions with very cheap natural gas or extremely harsh winters, and they can provide reliable backup heat.\n\n## The Bottom Line\n\nIf you're replacing your heating and cooling system, live in a temperate to moderately cold climate, and want to lower your energy use and carbon footprint, a heat pump is worth a serious look. It's",
+  "run_name": "2026-03-07-openrouter-v0-1"
+}

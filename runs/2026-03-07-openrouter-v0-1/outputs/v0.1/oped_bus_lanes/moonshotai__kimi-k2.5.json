@@ -1,0 +1,37 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.1",
+  "candidate_label": "Kimi K2.5",
+  "candidate_model_id": "moonshotai/kimi-k2.5",
+  "created_at": "2026-03-07T15:10:23Z",
+  "metadata": {
+    "id": "gen-1772896208-qQ7yPPH09n7c2rq3p7fS",
+    "usage": {
+      "completion_tokens": 500,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 438
+      },
+      "cost": 0.0015324,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.0015,
+        "upstream_inference_cost": 0.0015324,
+        "upstream_inference_prompt_cost": 3.24e-05
+      },
+      "is_byok": false,
+      "prompt_tokens": 54,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 554
+    }
+  },
+  "prompt_category": "persuasion_oped",
+  "prompt_id": "oped_bus_lanes",
+  "response_text": "The morning commute on Metropolitan Avenue has become a ritual of collective resignation. Drivers sit gridlocked for forty-five minutes to travel three miles, engines idling, tempers fraying, while the 42 bus\u2014carrying fifty passengers\u2014creeps along at walking pace, trapped behind a single occupant in an SUV. We have engineered this paralysis through decades of misguided priority, dedicating our most valuable urban real estate to private vehicles that spend 95 percent of their lives parked. It is time to reclaim one lane in each direction for buses, transforming Metropolitan from a parking lot into a transit corridor that actually moves people.\n\nThe arithmetic is brutal and simple. A standard traffic lane moves roughly 1,600",
+  "run_name": "2026-03-07-openrouter-v0-1"
+}

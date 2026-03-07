@@ -1,0 +1,37 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.1",
+  "candidate_label": "Grok 4.1 Fast",
+  "candidate_model_id": "x-ai/grok-4.1-fast",
+  "created_at": "2026-03-07T15:04:56Z",
+  "metadata": {
+    "id": "gen-1772895885-H9ChtaVv8PJ94Mrsw63p",
+    "usage": {
+      "completion_tokens": 731,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 245
+      },
+      "cost": 0.00038395,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.0003655,
+        "upstream_inference_cost": 0.00038395,
+        "upstream_inference_prompt_cost": 1.845e-05
+      },
+      "is_byok": false,
+      "prompt_tokens": 204,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 149,
+        "video_tokens": 0
+      },
+      "total_tokens": 935
+    }
+  },
+  "prompt_category": "explain",
+  "prompt_id": "explain_municipal_bonds",
+  "response_text": "### What Are Municipal Bonds?\n\nImagine a city needs to build a new school or fix crumbling bridges, but it doesn't have enough cash on hand. Instead of hiking taxes right away, the city borrows money from investors by issuing **municipal bonds**\u2014often just called \"munis.\" These are like IOUs: the city promises to pay back the loan over time, plus a bit of extra money as interest.\n\nMunicipal bonds are issued by local governments, such as cities, counties, states, school districts, or public utilities. They're a safe way for everyday investors\u2014like retirees or middle-class savers\u2014to lend money to their community and earn a steady return. Unlike stocks, which can be risky, bonds are debt, so investors get their principal back at the end (usually after 10\u201330 years) as long as the issuer doesn't default, which is rare for munis.\n\nA big perk? The interest you earn is often **tax-free** at the federal level (and sometimes state level too), which makes them popular with people in higher tax brackets.\n\n### Why Do Cities Issue Them?\n\nCities and states issue municipal bonds to fund big public projects without draining their budgets or waiting years to save up. Here's why it makes sense:\n\n- **Big-ticket infrastructure**: Roads, bridges, water systems, hospitals, parks, and schools cost billions. Bonds let governments spread the cost over decades, matching payments to when taxpayers benefit (like driving on that new highway for years).\n  \n- **Avoid immediate tax hikes**: Raising property or sales taxes is unpopular and can slow the economy. Bonds let cities borrow now and pay later, often using future tax revenue or project income.\n\n- **Two main types**:\n  - **General obligation bonds**: Backed by the city's overall ability to tax and collect revenue. Think of it as the city's full credit card.\n  - **Revenue bonds**: Paid back from the specific project's earnings, like tolls from a new bridge or fees from a water plant. No taxpayer money involved if it flops.\n\nIn 2023 alone, U.S. municipalities issued over $400 billion in bonds to keep communities running. They're a cornerstone of American infrastructure\u2014your local library or fire station was probably funded this way. Investors love them for stability (default rates are under 0.1% historically), and cities get projects done faster. Win-win, as long as spending stays smart.",
+  "run_name": "2026-03-07-openrouter-v0-1"
+}

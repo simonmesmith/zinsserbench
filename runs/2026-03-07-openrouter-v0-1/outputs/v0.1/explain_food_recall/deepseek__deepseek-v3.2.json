@@ -1,0 +1,37 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.1",
+  "candidate_label": "DeepSeek V3.2",
+  "candidate_model_id": "deepseek/deepseek-v3.2",
+  "created_at": "2026-03-07T15:12:48Z",
+  "metadata": {
+    "id": "gen-1772896362-sEypni0XjGMrjahHs6Xu",
+    "usage": {
+      "completion_tokens": 500,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 179
+      },
+      "cost": 0.000778,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.00075,
+        "upstream_inference_cost": 0.000778,
+        "upstream_inference_prompt_cost": 2.8e-05
+      },
+      "is_byok": false,
+      "prompt_tokens": 56,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 556
+    }
+  },
+  "prompt_category": "explain",
+  "prompt_id": "explain_food_recall",
+  "response_text": "## Food Recalls Explained: What to Do If Your Food Is Affected\n\nA food recall is an official action taken to remove a product from the market because it poses a risk to consumer health. Think of it as a safety alert from the food company or government agencies like the USDA (for meat, poultry, and eggs) or the FDA (for most other foods). It\u2019s a protective measure, not necessarily a sign of widespread failure.\n\n### Why Do Recalls Happen?\nFoods are typically recalled for a few key reasons:\n*   **Contamination:** This is the most serious cause and includes bacteria like *Salmonella*, *Listeria*, or *E. coli*, or foreign objects like plastic or metal.\n*   **Undeclared Allergens:** The product may contain a major allergen (like peanuts, milk, or soy) that is not listed on the label.\n*   **Mislabeling:** For example, a product with dairy might be incorrectly labeled as \"vegan.\"\n*   **Other Hazards:** Such as elevated levels of a chemical or toxin.\n\n### What to Do If You Have a Recalled Product\n\n**1. Don't Panic, But Don't Ignore It.**\nTreat a recall notice seriously. Even if the food looks and smells fine, the risk (like contamination) is often invisible.\n\n**2. Check the Details.**\nMatch the information in the recall notice to your product. Key identifiers usually include:\n*   **Product Name & Brand**\n*   **Specific \"Use By,\" \"Best By,\" or \"Sell By\" Dates**\n*   **UPC Code** (the barcode number)\n*   **Lot or Establishment Numbers** (often near the date)\n*   **Package Size & Type",
+  "run_name": "2026-03-07-openrouter-v0-1"
+}

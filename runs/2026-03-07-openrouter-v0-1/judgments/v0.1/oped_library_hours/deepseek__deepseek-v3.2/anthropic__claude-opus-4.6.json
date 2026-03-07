@@ -1,0 +1,47 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.1",
+  "candidate_model_id": "deepseek/deepseek-v3.2",
+  "created_at": "2026-03-07T17:18:46Z",
+  "judge_model_id": "anthropic/claude-opus-4.6",
+  "metadata": {
+    "id": "gen-1772903918-NBnIAIPogw2NS59BTa0F",
+    "raw_text": "{\"scores\": {\"clarity\": 5, \"simplicity\": 4, \"brevity_economy\": 4, \"structure_flow\": 4, \"specificity_precision\": 4, \"humanity_voice\": 4, \"overall\": 4}, \"rationale\": \"The piece is clearly written and easy to follow on first read. The opening vignettes are effective and concrete, grounding the argument in real scenarios. Structure is logical\u2014access, modern library role, cost rebuttal\u2014though the piece is cut off mid-sentence at the end, which hurts both structure and completeness. Language is mostly plain and direct, though phrases like 'functionally inaccessible,' 'dynamic community hubs,' and 'essential digital lifelines' edge toward inflated language. Specificity is decent (mentioning 9-10 PM, tax forms, pilot programs, partnering with community colleges) but could use actual data or real-world examples from cities that have extended hours. The voice is warm and engaged, with the opening scenario technique lending humanity. The truncation is a notable flaw\u2014it undermines the conclusion and overall effectiveness. Without that issue, this would score higher across the board.\"}",
+    "usage": {
+      "completion_tokens": 262,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 0
+      },
+      "cost": 0.011195,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.00655,
+        "upstream_inference_cost": 0.011195,
+        "upstream_inference_prompt_cost": 0.004645
+      },
+      "is_byok": false,
+      "prompt_tokens": 929,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 1191
+    }
+  },
+  "prompt_category": "persuasion_oped",
+  "prompt_id": "oped_library_hours",
+  "rationale": "The piece is clearly written and easy to follow on first read. The opening vignettes are effective and concrete, grounding the argument in real scenarios. Structure is logical\u2014access, modern library role, cost rebuttal\u2014though the piece is cut off mid-sentence at the end, which hurts both structure and completeness. Language is mostly plain and direct, though phrases like 'functionally inaccessible,' 'dynamic community hubs,' and 'essential digital lifelines' edge toward inflated language. Specificity is decent (mentioning 9-10 PM, tax forms, pilot programs, partnering with community colleges) but could use actual data or real-world examples from cities that have extended hours. The voice is warm and engaged, with the opening scenario technique lending humanity. The truncation is a notable flaw\u2014it undermines the conclusion and overall effectiveness. Without that issue, this would score higher across the board.",
+  "run_name": "2026-03-07-openrouter-v0-1",
+  "scores": {
+    "brevity_economy": 4,
+    "clarity": 5,
+    "humanity_voice": 4,
+    "overall": 4,
+    "simplicity": 4,
+    "specificity_precision": 4,
+    "structure_flow": 4
+  }
+}

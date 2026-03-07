@@ -1,0 +1,47 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.1",
+  "candidate_model_id": "openai/gpt-5.3-chat",
+  "created_at": "2026-03-07T17:26:34Z",
+  "judge_model_id": "anthropic/claude-opus-4.6",
+  "metadata": {
+    "id": "gen-1772904387-N9wVSuxYMsq4rThdw9f8",
+    "raw_text": "{\"scores\": {\"clarity\": 5, \"simplicity\": 5, \"brevity_economy\": 5, \"structure_flow\": 5, \"specificity_precision\": 5, \"humanity_voice\": 5, \"overall\": 5}, \"rationale\": \"This is exceptionally well-crafted personal nonfiction. Every sentence earns its place. The chronological structure (morning to afternoon) doubles as a social taxonomy of the town, which directly answers the prompt. The specificity is outstanding\u2014canvas bags, foam kickboards, the smell of tar and sawdust, the grain elevator, the price of corn\u2014all grounding the essay in a real place without overloading it. The voice is warm, observant, and genuinely human, with lines like 'guarding the English Channel instead of four feet of chlorinated water' and the diving board passage revealing character through action rather than telling. The language is plain and direct throughout, with no inflated diction or throat-clearing. The piece feels complete even though it appears to be cut off, because each section already demonstrates the essay's thesis: the pool as social map. One of the strongest model-generated essays I've seen for this kind of prompt.\"}",
+    "usage": {
+      "completion_tokens": 265,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 0
+      },
+      "cost": 0.01092,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.006625,
+        "upstream_inference_cost": 0.01092,
+        "upstream_inference_prompt_cost": 0.004295
+      },
+      "is_byok": false,
+      "prompt_tokens": 859,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 1124
+    }
+  },
+  "prompt_category": "personal_nonfiction",
+  "prompt_id": "personal_public_pool",
+  "rationale": "This is exceptionally well-crafted personal nonfiction. Every sentence earns its place. The chronological structure (morning to afternoon) doubles as a social taxonomy of the town, which directly answers the prompt. The specificity is outstanding\u2014canvas bags, foam kickboards, the smell of tar and sawdust, the grain elevator, the price of corn\u2014all grounding the essay in a real place without overloading it. The voice is warm, observant, and genuinely human, with lines like 'guarding the English Channel instead of four feet of chlorinated water' and the diving board passage revealing character through action rather than telling. The language is plain and direct throughout, with no inflated diction or throat-clearing. The piece feels complete even though it appears to be cut off, because each section already demonstrates the essay's thesis: the pool as social map. One of the strongest model-generated essays I've seen for this kind of prompt.",
+  "run_name": "2026-03-07-openrouter-v0-1",
+  "scores": {
+    "brevity_economy": 5,
+    "clarity": 5,
+    "humanity_voice": 5,
+    "overall": 5,
+    "simplicity": 5,
+    "specificity_precision": 5,
+    "structure_flow": 5
+  }
+}

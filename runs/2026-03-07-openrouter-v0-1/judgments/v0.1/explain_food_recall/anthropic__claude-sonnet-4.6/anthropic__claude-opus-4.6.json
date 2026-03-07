@@ -1,0 +1,47 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.1",
+  "candidate_model_id": "anthropic/claude-sonnet-4.6",
+  "created_at": "2026-03-07T17:34:11Z",
+  "judge_model_id": "anthropic/claude-opus-4.6",
+  "metadata": {
+    "id": "gen-1772904845-axR8haJ72Jv5rydrpJcE",
+    "raw_text": "{\"scores\": {\"clarity\": 5, \"simplicity\": 5, \"brevity_economy\": 4, \"structure_flow\": 4, \"specificity_precision\": 5, \"humanity_voice\": 5, \"overall\": 4}, \"rationale\": \"The writing is exceptionally clear and accessible, with a warm, conversational tone that directly addresses the reader without being condescending. Specificity is strong: it names exact bacteria, allergen examples, recall classes with definitions, and distinguishes FDA from USDA jurisdiction. The structure is logical with well-labeled sections and bullet points. However, the response is clearly cut off mid-sentence, leaving the piece incomplete \u2014 the reader never gets the crucial 'what should you do' section promised in the headline and the prompt. This is a significant gap that prevents a top overall score despite the high quality of what's present. Brevity is good within what exists, though the piece was heading toward a longer format. Voice is a standout: the opening lines ('Before you panic \u2014 or before you shrug and ignore it') feel genuinely human and reader-aware.\"}",
+    "usage": {
+      "completion_tokens": 245,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 0
+      },
+      "cost": 0.01034,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.006125,
+        "upstream_inference_cost": 0.01034,
+        "upstream_inference_prompt_cost": 0.004215
+      },
+      "is_byok": false,
+      "prompt_tokens": 843,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 1088
+    }
+  },
+  "prompt_category": "explain",
+  "prompt_id": "explain_food_recall",
+  "rationale": "The writing is exceptionally clear and accessible, with a warm, conversational tone that directly addresses the reader without being condescending. Specificity is strong: it names exact bacteria, allergen examples, recall classes with definitions, and distinguishes FDA from USDA jurisdiction. The structure is logical with well-labeled sections and bullet points. However, the response is clearly cut off mid-sentence, leaving the piece incomplete \u2014 the reader never gets the crucial 'what should you do' section promised in the headline and the prompt. This is a significant gap that prevents a top overall score despite the high quality of what's present. Brevity is good within what exists, though the piece was heading toward a longer format. Voice is a standout: the opening lines ('Before you panic \u2014 or before you shrug and ignore it') feel genuinely human and reader-aware.",
+  "run_name": "2026-03-07-openrouter-v0-1",
+  "scores": {
+    "brevity_economy": 4,
+    "clarity": 5,
+    "humanity_voice": 5,
+    "overall": 4,
+    "simplicity": 5,
+    "specificity_precision": 5,
+    "structure_flow": 4
+  }
+}

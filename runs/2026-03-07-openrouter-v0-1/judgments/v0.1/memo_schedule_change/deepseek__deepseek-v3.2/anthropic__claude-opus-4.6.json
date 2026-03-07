@@ -1,0 +1,47 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.1",
+  "candidate_model_id": "deepseek/deepseek-v3.2",
+  "created_at": "2026-03-07T17:53:39Z",
+  "judge_model_id": "anthropic/claude-opus-4.6",
+  "metadata": {
+    "id": "gen-1772906013-ZejDbqpjHdoOS1Y9LXV0",
+    "raw_text": "{\"scores\": {\"clarity\": 5, \"simplicity\": 4, \"brevity_economy\": 4, \"structure_flow\": 5, \"specificity_precision\": 3, \"humanity_voice\": 3, \"overall\": 4}, \"rationale\": \"The memo is clearly written and well-organized, following a logical flow from context to details to action items to appreciation. Structure is excellent with proper memo formatting, bolded dates, and bullet points. However, specificity is weak: the key details section is vague ('may be adjusted,' 'some teams may be assigned') \u2014 it tells employees almost nothing concrete about what's actually changing. The language is clean and direct but leans toward standard corporate boilerplate ('sincerely appreciate your flexibility and dedication,' 'essential to our success this season'), which undercuts humanity and voice. Brevity is good overall, though 'help us manage higher volume and provide timely service' slightly repeats the preceding sentence's idea. A solid, competent memo that could be stronger with more specific schedule information.\"}",
+    "usage": {
+      "completion_tokens": 232,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 0
+      },
+      "cost": 0.00912,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.0058,
+        "upstream_inference_cost": 0.00912,
+        "upstream_inference_prompt_cost": 0.00332
+      },
+      "is_byok": false,
+      "prompt_tokens": 664,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 896
+    }
+  },
+  "prompt_category": "memo",
+  "prompt_id": "memo_schedule_change",
+  "rationale": "The memo is clearly written and well-organized, following a logical flow from context to details to action items to appreciation. Structure is excellent with proper memo formatting, bolded dates, and bullet points. However, specificity is weak: the key details section is vague ('may be adjusted,' 'some teams may be assigned') \u2014 it tells employees almost nothing concrete about what's actually changing. The language is clean and direct but leans toward standard corporate boilerplate ('sincerely appreciate your flexibility and dedication,' 'essential to our success this season'), which undercuts humanity and voice. Brevity is good overall, though 'help us manage higher volume and provide timely service' slightly repeats the preceding sentence's idea. A solid, competent memo that could be stronger with more specific schedule information.",
+  "run_name": "2026-03-07-openrouter-v0-1",
+  "scores": {
+    "brevity_economy": 4,
+    "clarity": 5,
+    "humanity_voice": 3,
+    "overall": 4,
+    "simplicity": 4,
+    "specificity_precision": 3,
+    "structure_flow": 5
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.1",
+  "candidate_model_id": "qwen/qwen3.5-35b-a3b",
+  "created_at": "2026-03-07T17:15:45Z",
+  "judge_model_id": "anthropic/claude-opus-4.6",
+  "metadata": {
+    "id": "gen-1772903738-zFcIhU8b9vbFtmpLyU0y",
+    "raw_text": "{\"scores\": {\"clarity\": 5, \"simplicity\": 5, \"brevity_economy\": 4, \"structure_flow\": 5, \"specificity_precision\": 5, \"humanity_voice\": 4, \"overall\": 4}, \"rationale\": \"Exceptionally clear and well-organized with numbered steps and bold sub-headers that make it scannable in an emergency. The language is plain and direct without being dumbed down. Specific, actionable advice (e.g., puncturing a bulging ceiling with a screwdriver, turning off the circuit breaker) elevates it above generic guidance. The opening line acknowledges the reader's stress, adding a human touch, though the tone is slightly procedural ('step-by-step protocol'). The main drawback is that the response is cut off mid-sentence in step 3, leaving the guide incomplete\u2014missing landlord notification, insurance steps, and follow-up. This incompleteness prevents a top overall score despite the high quality of what's present.\"}",
+    "usage": {
+      "completion_tokens": 225,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 0
+      },
+      "cost": 0.01038,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.005625,
+        "upstream_inference_cost": 0.01038,
+        "upstream_inference_prompt_cost": 0.004755
+      },
+      "is_byok": false,
+      "prompt_tokens": 951,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 1176
+    }
+  },
+  "prompt_category": "service_howto",
+  "prompt_id": "howto_report_water_leak",
+  "rationale": "Exceptionally clear and well-organized with numbered steps and bold sub-headers that make it scannable in an emergency. The language is plain and direct without being dumbed down. Specific, actionable advice (e.g., puncturing a bulging ceiling with a screwdriver, turning off the circuit breaker) elevates it above generic guidance. The opening line acknowledges the reader's stress, adding a human touch, though the tone is slightly procedural ('step-by-step protocol'). The main drawback is that the response is cut off mid-sentence in step 3, leaving the guide incomplete\u2014missing landlord notification, insurance steps, and follow-up. This incompleteness prevents a top overall score despite the high quality of what's present.",
+  "run_name": "2026-03-07-openrouter-v0-1",
+  "scores": {
+    "brevity_economy": 4,
+    "clarity": 5,
+    "humanity_voice": 4,
+    "overall": 4,
+    "simplicity": 5,
+    "specificity_precision": 5,
+    "structure_flow": 5
+  }
+}

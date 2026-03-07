@@ -1,0 +1,37 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.1",
+  "candidate_label": "Claude Sonnet 4.6",
+  "candidate_model_id": "anthropic/claude-sonnet-4.6",
+  "created_at": "2026-03-07T15:06:04Z",
+  "metadata": {
+    "id": "gen-1772895952-Hv3LfprFTbm4QZB61oPu",
+    "usage": {
+      "completion_tokens": 500,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 89
+      },
+      "cost": 0.007752,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.0075,
+        "upstream_inference_cost": 0.007752,
+        "upstream_inference_prompt_cost": 0.000252
+      },
+      "is_byok": false,
+      "prompt_tokens": 84,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 584
+    }
+  },
+  "prompt_category": "profile",
+  "prompt_id": "profile_school_custodian",
+  "response_text": "# The Man Who Knows Everyone\n\n**Raymond \"Ray\" Delvecchio has mopped these floors longer than most of his students' parents have been alive. He hasn't forgotten a name yet.**\n\n---\n\nBy 5:47 on a Tuesday morning, the hallways of Jefferson High School are still dark except for one wing on the ground floor, where a yellow-orange light spills out from the custodial supply room. Ray Delvecchio is already sorting mop heads. He has been here since five.\n\n\"I like the quiet,\" he says, though quiet is not exactly how you'd describe the man himself.\n\nDelvecchio, 61, has worked at Jefferson \u2014 a public high school of roughly 1,400 students in a middle-sized city in the mid-Atlantic \u2014 since 1996. He was hired at 33, recently divorced, with a bad knee from his years doing warehouse work, looking for something steadier. He expected to stay two, maybe three years. He is now, by most accounts, the most well-known person in the building, including the principal.\n\nHe knows every student by name.\n\nNot most of them. Not the ones who make trouble or the ones who volunteer for everything. All of them. Every freshman who shuffles in each September carrying the particular terror of a new school, every senior who graduates in June carrying the particular sadness of leaving somewhere they didn't know they'd miss. He learns their names in the first few weeks and keeps them somewhere that apparently does not wear out.\n\n\"I don't know how he does it,\" says assistant principal Donna Farris, who has worked alongside Delvecchio for eleven years. \"I still mix up twins. Ray knows twins, he knows their friends, he knows what sports they play.\"\n\nAsk Delvecchio how he does it and he shrugs in",
+  "run_name": "2026-03-07-openrouter-v0-1"
+}

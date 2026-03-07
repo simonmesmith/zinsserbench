@@ -1,0 +1,47 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.1",
+  "candidate_model_id": "openai/gpt-5.3-chat",
+  "created_at": "2026-03-07T17:20:14Z",
+  "judge_model_id": "anthropic/claude-opus-4.6",
+  "metadata": {
+    "id": "gen-1772904008-k26LSYDegGxzCsyVfQwz",
+    "raw_text": "{\"scores\": {\"clarity\": 5, \"simplicity\": 5, \"brevity_economy\": 4, \"structure_flow\": 5, \"specificity_precision\": 3, \"humanity_voice\": 4, \"overall\": 4}, \"rationale\": \"Clear, well-organized, and plainly written. Each paragraph advances a distinct argument (efficiency, reliability, congestion counterargument, economics, equity) with smooth transitions. Language is direct without being flat. Loses a point on specificity: it name-drops New York and Bogot\u00e1 but offers no actual data\u2014no travel-time percentages, ridership figures, or cost savings\u2014so the case relies on general assertions rather than concrete evidence. The piece is also visibly truncated mid-sentence at the end, which undercuts the conclusion and slightly hurts brevity/economy (the space used doesn't fully land). Voice is competent and engaged but leans toward polished-template op-ed rather than distinctly human or memorable.\"}",
+    "usage": {
+      "completion_tokens": 222,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 0
+      },
+      "cost": 0.01022,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.00555,
+        "upstream_inference_cost": 0.01022,
+        "upstream_inference_prompt_cost": 0.00467
+      },
+      "is_byok": false,
+      "prompt_tokens": 934,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 1156
+    }
+  },
+  "prompt_category": "persuasion_oped",
+  "prompt_id": "oped_bus_lanes",
+  "rationale": "Clear, well-organized, and plainly written. Each paragraph advances a distinct argument (efficiency, reliability, congestion counterargument, economics, equity) with smooth transitions. Language is direct without being flat. Loses a point on specificity: it name-drops New York and Bogot\u00e1 but offers no actual data\u2014no travel-time percentages, ridership figures, or cost savings\u2014so the case relies on general assertions rather than concrete evidence. The piece is also visibly truncated mid-sentence at the end, which undercuts the conclusion and slightly hurts brevity/economy (the space used doesn't fully land). Voice is competent and engaged but leans toward polished-template op-ed rather than distinctly human or memorable.",
+  "run_name": "2026-03-07-openrouter-v0-1",
+  "scores": {
+    "brevity_economy": 4,
+    "clarity": 5,
+    "humanity_voice": 4,
+    "overall": 4,
+    "simplicity": 5,
+    "specificity_precision": 3,
+    "structure_flow": 5
+  }
+}

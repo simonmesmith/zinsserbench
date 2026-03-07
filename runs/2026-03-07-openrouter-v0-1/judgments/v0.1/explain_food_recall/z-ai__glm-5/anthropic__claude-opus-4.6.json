@@ -1,0 +1,47 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.1",
+  "candidate_model_id": "z-ai/glm-5",
+  "created_at": "2026-03-07T17:35:07Z",
+  "judge_model_id": "anthropic/claude-opus-4.6",
+  "metadata": {
+    "id": "gen-1772904900-A4DkGzAEOxVxf2MPYbXh",
+    "raw_text": "{\"scores\": {\"clarity\": 5, \"simplicity\": 5, \"brevity_economy\": 4, \"structure_flow\": 5, \"specificity_precision\": 5, \"humanity_voice\": 4, \"overall\": 5}, \"rationale\": \"Exceptionally clear and well-organized consumer explainer. The numbered steps, bold subheadings, and logical progression from 'what is it' to 'what to do' to 'how to stay informed' make this easy to follow on first read. Language is plain and direct throughout\u2014no jargon or inflated phrasing. Specificity is strong: it names exact agencies (FDA, USDA), specific pathogens (Salmonella, E. coli, Listeria), tells readers to check lot numbers and UPC codes, and gives concrete disposal advice (sealed bag in outdoor bin). The piece is slightly longer than strictly necessary\u2014the cleaning section and some transitional sentences could be trimmed\u2014but nothing feels like filler. Voice is warm and reassuring ('do not panic') with a conversational opening, though it occasionally drifts toward a slightly formulaic instructional tone rather than a truly distinctive human voice. The 'Do Not Donate It' point is a smart, practical inclusion. Overall, this is a polished, highly effective consumer explainer.\"}",
+    "usage": {
+      "completion_tokens": 297,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 0
+      },
+      "cost": 0.01517,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.007425,
+        "upstream_inference_cost": 0.01517,
+        "upstream_inference_prompt_cost": 0.007745
+      },
+      "is_byok": false,
+      "prompt_tokens": 1549,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 1846
+    }
+  },
+  "prompt_category": "explain",
+  "prompt_id": "explain_food_recall",
+  "rationale": "Exceptionally clear and well-organized consumer explainer. The numbered steps, bold subheadings, and logical progression from 'what is it' to 'what to do' to 'how to stay informed' make this easy to follow on first read. Language is plain and direct throughout\u2014no jargon or inflated phrasing. Specificity is strong: it names exact agencies (FDA, USDA), specific pathogens (Salmonella, E. coli, Listeria), tells readers to check lot numbers and UPC codes, and gives concrete disposal advice (sealed bag in outdoor bin). The piece is slightly longer than strictly necessary\u2014the cleaning section and some transitional sentences could be trimmed\u2014but nothing feels like filler. Voice is warm and reassuring ('do not panic') with a conversational opening, though it occasionally drifts toward a slightly formulaic instructional tone rather than a truly distinctive human voice. The 'Do Not Donate It' point is a smart, practical inclusion. Overall, this is a polished, highly effective consumer explainer.",
+  "run_name": "2026-03-07-openrouter-v0-1",
+  "scores": {
+    "brevity_economy": 4,
+    "clarity": 5,
+    "humanity_voice": 4,
+    "overall": 5,
+    "simplicity": 5,
+    "specificity_precision": 5,
+    "structure_flow": 5
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.1",
+  "candidate_label": "MiniMax M2.5",
+  "candidate_model_id": "minimax/minimax-m2.5",
+  "created_at": "2026-03-07T15:17:28Z",
+  "metadata": {
+    "id": "gen-1772896615-EnPg762QlWKHxsPJvyZb",
+    "usage": {
+      "completion_tokens": 470,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 120
+      },
+      "cost": 0.000581995,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.000564,
+        "upstream_inference_cost": 0.000581995,
+        "upstream_inference_prompt_cost": 1.7995e-05
+      },
+      "is_byok": false,
+      "prompt_tokens": 61,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 531
+    }
+  },
+  "prompt_category": "memo",
+  "prompt_id": "memo_schedule_change",
+  "response_text": "# MEMORANDUM\n\n**TO:** All Warehouse Employees\n**FROM:** [Warehouse Manager Name], Warehouse Operations Manager\n**DATE:** [Current Date]\n**RE:** Updated Shift Schedule \u2013 Holiday Season\n\n---\n\nAs we approach the holiday season and prepare for increased order volume, we will be implementing a modified shift schedule effective **[Start Date]** through **[End Date]**.\n\n**What is Changing:**\n\nBeginning the week of **[date]**, we will transition to the following schedule:\n\n- **Shift A:** 6:00 AM \u2013 2:30 PM\n- **Shift B:** 2:30 PM \u2013 11:00 PM\n- **Overtime shifts** may be added as needed based on volume\n\nAll employees will retain their current shift assignments unless notified otherwise. If you have a scheduling conflict, please speak with your supervisor as soon as possible.\n\n**Why This Change:**\n\nHoliday demand typically increases our daily shipment volume by 30-40%. This adjusted schedule allows us to process orders efficiently and ensure timely deliveries to our customers through the season.\n\n**What You Need to Know:**\n\n- Time clocks will reflect the updated shift times\n- Break schedules remain unchanged\n- Supervisor schedules will be posted in the break room\n- Holiday pay will apply per company policy for eligible hours\n\n**Questions:**\n\nIf you have questions about the new schedule or need to discuss availability, please speak with your direct supervisor or contact me directly. We understand this is a busy time and are happy to work with you where possible.\n\nThank you for your flexibility and continued hard work. Your efforts are critical to our success during this peak season, and we appreciate everything you do.\n\n---\n\n**[Signature]**\nWarehouse Operations Manager\n[Contact Information]",
+  "run_name": "2026-03-07-openrouter-v0-1"
+}

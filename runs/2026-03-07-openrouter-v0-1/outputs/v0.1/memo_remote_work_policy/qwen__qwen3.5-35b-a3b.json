@@ -1,0 +1,37 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.1",
+  "candidate_label": "Qwen 3.5 35B A3B",
+  "candidate_model_id": "qwen/qwen3.5-35b-a3b",
+  "created_at": "2026-03-07T16:10:41Z",
+  "metadata": {
+    "id": "gen-1772899829-S9i7OXCuLuYDmVjx1Kig",
+    "usage": {
+      "completion_tokens": 1481,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 977
+      },
+      "cost": 0.0019383,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.002962,
+        "upstream_inference_cost": 0.002982,
+        "upstream_inference_prompt_cost": 2e-05
+      },
+      "is_byok": false,
+      "prompt_tokens": 80,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 1561
+    }
+  },
+  "prompt_category": "memo",
+  "prompt_id": "memo_remote_work_policy",
+  "response_text": "**MEMORANDUM**\n\n**TO:** All Employees\n**FROM:** Sarah Jenkins, Chief Executive Officer\n**DATE:** October 26, 2023\n**SUBJECT:** Implementation of New Flexible Hybrid Work Policy\n\nTeam,\n\nOver the past year, we have gathered significant feedback regarding how we work, where we work, and how we can best support one another. As we continue to scale to 120 employees, it is clear that our current workspace model needs to evolve to match our culture and the needs of our engineering and product teams.\n\nEffective November 1st, we are officially launching our new **Flexible Hybrid Work Policy**.\n\n### Why We Are Making This Change\nOur decision is driven by three key factors:\n1.  **Employee Well-being:** Feedback indicated that flexibility is a top priority for work-life balance and retention.\n2.  **Productivity:** Data from our last two quarters shows that deep work sessions are most effective when employees can control their environment.\n3.  **Collaboration:** We want to ensure that when we do meet in person, it is intentional and focused on high-value collaboration rather than routine status updates.\n\n### The Policy Details\nWe are moving to a **Flexible Hybrid Model**. This means there is no longer a rigid mandate for specific days in the office, but we do have guidelines to ensure team cohesion.\n\n*   **In-Office Expectations:** We ask that all employees come into the office for a minimum of **two days per week**. This ensures we maintain our culture and facilitate spontaneous collaboration.\n*   **Core Collaboration Hours:** To support cross-functional work, all teams should be available via Slack or video call between **10:00 AM and 3:00 PM local time**, regardless of location.\n*   **Team Huddles:** Each team will designate one \"Anchor Day\" (e.g., every Tuesday) where the entire team is expected to be in the office for workshops and planning.\n*   **Equipment & Stipend:** We will provide a home office stipend of $500 to cover ergonomic furniture or internet upgrades. IT support remains available for remote setups.\n\n### Next Steps\nTo ensure a smooth transition, please take the following actions by **October 31st**:\n\n1.  **Review the Handbook:** Please read the updated Employee Handbook section on Remote Work, available on the internal",
+  "run_name": "2026-03-07-openrouter-v0-1"
+}

@@ -1,0 +1,47 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.1",
+  "candidate_model_id": "x-ai/grok-4.1-fast",
+  "created_at": "2026-03-07T17:01:32Z",
+  "judge_model_id": "anthropic/claude-opus-4.6",
+  "metadata": {
+    "id": "gen-1772902885-i6QrkIh76OCLvWIKlVBk",
+    "raw_text": "{\"scores\": {\"clarity\": 5, \"simplicity\": 5, \"brevity_economy\": 4, \"structure_flow\": 5, \"specificity_precision\": 4, \"humanity_voice\": 5, \"overall\": 5}, \"rationale\": \"Exceptionally clear and well-organized explainer. The IOU analogy and 'full credit card' metaphor make abstract concepts immediately graspable. Language is plain and direct throughout\u2014no jargon left unexplained. Structure flows naturally from 'what are they' to 'why issue them' with clean subheadings and bullet points. Concrete details (10\u201330 year terms, $400B in 2023, <0.1% default rate, tolls/water fees) ground the piece nicely, though the $400B figure could use a source caveat and the 0.1% default stat is approximate. Minor brevity ding: a few phrases like 'Win-win, as long as spending stays smart' and the parenthetical about driving on highways are slightly padded, but nothing egregious. Voice is warm, conversational, and reader-aware ('your local library or fire station was probably funded this way') without being condescending.\"}",
+    "usage": {
+      "completion_tokens": 277,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 0
+      },
+      "cost": 0.01162,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.006925,
+        "upstream_inference_cost": 0.01162,
+        "upstream_inference_prompt_cost": 0.004695
+      },
+      "is_byok": false,
+      "prompt_tokens": 939,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 1216
+    }
+  },
+  "prompt_category": "explain",
+  "prompt_id": "explain_municipal_bonds",
+  "rationale": "Exceptionally clear and well-organized explainer. The IOU analogy and 'full credit card' metaphor make abstract concepts immediately graspable. Language is plain and direct throughout\u2014no jargon left unexplained. Structure flows naturally from 'what are they' to 'why issue them' with clean subheadings and bullet points. Concrete details (10\u201330 year terms, $400B in 2023, <0.1% default rate, tolls/water fees) ground the piece nicely, though the $400B figure could use a source caveat and the 0.1% default stat is approximate. Minor brevity ding: a few phrases like 'Win-win, as long as spending stays smart' and the parenthetical about driving on highways are slightly padded, but nothing egregious. Voice is warm, conversational, and reader-aware ('your local library or fire station was probably funded this way') without being condescending.",
+  "run_name": "2026-03-07-openrouter-v0-1",
+  "scores": {
+    "brevity_economy": 4,
+    "clarity": 5,
+    "humanity_voice": 5,
+    "overall": 5,
+    "simplicity": 5,
+    "specificity_precision": 4,
+    "structure_flow": 5
+  }
+}

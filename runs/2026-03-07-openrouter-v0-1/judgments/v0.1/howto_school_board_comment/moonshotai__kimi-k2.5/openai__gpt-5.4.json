@@ -1,0 +1,47 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.1",
+  "candidate_model_id": "moonshotai/kimi-k2.5",
+  "created_at": "2026-03-07T17:41:20Z",
+  "judge_model_id": "openai/gpt-5.4",
+  "metadata": {
+    "id": "gen-1772905276-IEcjItg3ybhOgejOrcwK",
+    "raw_text": "{\"scores\":{\"clarity\":3,\"simplicity\":4,\"brevity_economy\":3,\"structure_flow\":2,\"specificity_precision\":4,\"humanity_voice\":4,\"overall\":2},\"rationale\":\"The opening is clear, practical, and uses plain language with useful specifics like signup methods, time limits, and deadlines. It has a warm, helpful tone. But the response is cut off mid-section, so the guide is incomplete; that hurts structure, usefulness, and overall effectiveness for the prompt.\"}",
+    "usage": {
+      "completion_tokens": 239,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 124
+      },
+      "cost": 0.0049775,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.003585,
+        "upstream_inference_cost": 0.0049775,
+        "upstream_inference_prompt_cost": 0.0013925
+      },
+      "is_byok": false,
+      "prompt_tokens": 557,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 796
+    }
+  },
+  "prompt_category": "service_howto",
+  "prompt_id": "howto_school_board_comment",
+  "rationale": "The opening is clear, practical, and uses plain language with useful specifics like signup methods, time limits, and deadlines. It has a warm, helpful tone. But the response is cut off mid-section, so the guide is incomplete; that hurts structure, usefulness, and overall effectiveness for the prompt.",
+  "run_name": "2026-03-07-openrouter-v0-1",
+  "scores": {
+    "brevity_economy": 3,
+    "clarity": 3,
+    "humanity_voice": 4,
+    "overall": 2,
+    "simplicity": 4,
+    "specificity_precision": 4,
+    "structure_flow": 2
+  }
+}

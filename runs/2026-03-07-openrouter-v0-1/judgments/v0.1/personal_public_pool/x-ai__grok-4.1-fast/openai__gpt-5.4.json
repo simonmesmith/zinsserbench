@@ -1,0 +1,47 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.1",
+  "candidate_model_id": "x-ai/grok-4.1-fast",
+  "created_at": "2026-03-07T17:27:30Z",
+  "judge_model_id": "openai/gpt-5.4",
+  "metadata": {
+    "id": "gen-1772904443-CbTuB03KNYYKAILYh6Rk",
+    "raw_text": "{\"scores\":{\"clarity\":4,\"simplicity\":2,\"brevity_economy\":2,\"structure_flow\":2,\"specificity_precision\":4,\"humanity_voice\":4,\"overall\":3},\"rationale\":\"Vivid, concrete details and a strong personal voice make the scene easy to picture. But the prose is often overworked, the town-level claims are somewhat broad, and the essay stops mid-thought, which seriously weakens flow, completeness, and overall effectiveness.\"}",
+    "usage": {
+      "completion_tokens": 411,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 303
+      },
+      "cost": 0.0083275,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.006165,
+        "upstream_inference_cost": 0.0083275,
+        "upstream_inference_prompt_cost": 0.0021625
+      },
+      "is_byok": false,
+      "prompt_tokens": 865,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 1276
+    }
+  },
+  "prompt_category": "personal_nonfiction",
+  "prompt_id": "personal_public_pool",
+  "rationale": "Vivid, concrete details and a strong personal voice make the scene easy to picture. But the prose is often overworked, the town-level claims are somewhat broad, and the essay stops mid-thought, which seriously weakens flow, completeness, and overall effectiveness.",
+  "run_name": "2026-03-07-openrouter-v0-1",
+  "scores": {
+    "brevity_economy": 2,
+    "clarity": 4,
+    "humanity_voice": 4,
+    "overall": 3,
+    "simplicity": 2,
+    "specificity_precision": 4,
+    "structure_flow": 2
+  }
+}

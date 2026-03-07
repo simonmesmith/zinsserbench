@@ -1,0 +1,47 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.1",
+  "candidate_model_id": "google/gemini-3.1-pro-preview",
+  "created_at": "2026-03-07T17:49:07Z",
+  "judge_model_id": "anthropic/claude-opus-4.6",
+  "metadata": {
+    "id": "gen-1772905743-F2pyh3icPiiBtnVpRns6",
+    "raw_text": "{\"scores\": {\"clarity\": 1, \"simplicity\": 1, \"brevity_economy\": 1, \"structure_flow\": 1, \"specificity_precision\": 1, \"humanity_voice\": 1, \"overall\": 1}, \"rationale\": \"The response is a single incomplete sentence fragment that cuts off mid-thought. It delivers no explanation of how property taxes are set or why they change. There is nothing to evaluate on any axis\u2014no structure, no specifics, no useful content for a homeowner.\"}",
+    "usage": {
+      "completion_tokens": 155,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 31
+      },
+      "cost": 0.00608,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.003875,
+        "upstream_inference_cost": 0.00608,
+        "upstream_inference_prompt_cost": 0.002205
+      },
+      "is_byok": false,
+      "prompt_tokens": 441,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 596
+    }
+  },
+  "prompt_category": "explain",
+  "prompt_id": "explain_property_tax",
+  "rationale": "The response is a single incomplete sentence fragment that cuts off mid-thought. It delivers no explanation of how property taxes are set or why they change. There is nothing to evaluate on any axis\u2014no structure, no specifics, no useful content for a homeowner.",
+  "run_name": "2026-03-07-openrouter-v0-1",
+  "scores": {
+    "brevity_economy": 1,
+    "clarity": 1,
+    "humanity_voice": 1,
+    "overall": 1,
+    "simplicity": 1,
+    "specificity_precision": 1,
+    "structure_flow": 1
+  }
+}

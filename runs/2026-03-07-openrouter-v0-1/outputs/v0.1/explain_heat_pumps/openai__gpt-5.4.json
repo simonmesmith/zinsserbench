@@ -1,0 +1,37 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.1",
+  "candidate_label": "GPT-5.4",
+  "candidate_model_id": "openai/gpt-5.4",
+  "created_at": "2026-03-07T15:03:45Z",
+  "metadata": {
+    "id": "gen-1772895816-TRrCHOO17vA64uxzFfsy",
+    "usage": {
+      "completion_tokens": 500,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 137
+      },
+      "cost": 0.00765,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.0075,
+        "upstream_inference_cost": 0.00765,
+        "upstream_inference_prompt_cost": 0.00015
+      },
+      "is_byok": false,
+      "prompt_tokens": 60,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 560
+    }
+  },
+  "prompt_category": "explain",
+  "prompt_id": "explain_heat_pumps",
+  "response_text": "A heat pump is a heating and cooling system that **moves heat** instead of making it by burning fuel. In winter, it pulls heat from the outdoor air and transfers it inside your home. In summer, it reverses direction and works like an air conditioner, moving heat from indoors to outside.\n\nThat may sound strange\u2014how can it get heat from cold outdoor air? Even cold air still contains some heat energy, and a heat pump uses refrigerant, coils, and a compressor to capture and concentrate that heat.\n\n### Why choose a heat pump over a gas furnace?\n\n**1. It can be very efficient.**  \nA gas furnace creates heat by burning natural gas. A heat pump mostly uses electricity to move existing heat, which can make it much more efficient, especially in mild to moderate climates.\n\n**2. It heats and cools in one system.**  \nA furnace only heats. A heat pump can replace both your furnace and central AC, which may simplify equipment and maintenance.\n\n**3. Lower emissions.**  \nBecause it doesn\u2019t burn gas in your home, a heat pump can reduce carbon emissions\u2014especially if your electricity comes partly from renewable sources.\n\n**4. No combustion in the house.**  \nThat means no pilot light, no flue gases, and no risk of carbon monoxide from the heating system.\n\n### When a gas furnace may still appeal\nGas furnaces can still be a strong option in areas with **very cold winters**, **low gas prices**, or homes that need high-temperature heat quickly. That said, modern **cold-climate heat pumps** perform much better in low temperatures than older models, and some homes use a heat pump with backup heat for the coldest days.\n\n### Bottom line\nIf you want **efficient heating, built",
+  "run_name": "2026-03-07-openrouter-v0-1"
+}

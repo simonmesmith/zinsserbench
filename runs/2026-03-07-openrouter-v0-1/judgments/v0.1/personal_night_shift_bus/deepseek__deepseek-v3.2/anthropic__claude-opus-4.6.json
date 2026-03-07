@@ -1,0 +1,47 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.1",
+  "candidate_model_id": "deepseek/deepseek-v3.2",
+  "created_at": "2026-03-07T17:47:31Z",
+  "judge_model_id": "anthropic/claude-opus-4.6",
+  "metadata": {
+    "id": "gen-1772905644-KSeHgOofk4uShuGILmMw",
+    "raw_text": "{\"scores\": {\"clarity\": 5, \"simplicity\": 5, \"brevity_economy\": 4, \"structure_flow\": 4, \"specificity_precision\": 5, \"humanity_voice\": 5, \"overall\": 4}, \"rationale\": \"Beautifully clear, specific prose with vivid concrete details (the nurse's unlaced shoes, the man's unturned pages, Leo's extra-beat wait). The voice is warm, observant, and genuinely human. Language is plain and direct without being flat\u2014every image earns its place. The repetition of 'same' in the opening is purposeful rather than wasteful. However, the piece is clearly truncated mid-sentence, which undermines structure and completeness. What exists is excellent, but the lack of any arc, resolution, or even a complete paragraph at the end prevents full marks on structure/flow and overall. The specificity is the standout strength\u2014'a lit tube of worn vinyl and chrome' and 'her head tracing a slow, trusting circle' are precise and evocative.\"}",
+    "usage": {
+      "completion_tokens": 241,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 0
+      },
+      "cost": 0.00947,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.006025,
+        "upstream_inference_cost": 0.00947,
+        "upstream_inference_prompt_cost": 0.003445
+      },
+      "is_byok": false,
+      "prompt_tokens": 689,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 930
+    }
+  },
+  "prompt_category": "personal_nonfiction",
+  "prompt_id": "personal_night_shift_bus",
+  "rationale": "Beautifully clear, specific prose with vivid concrete details (the nurse's unlaced shoes, the man's unturned pages, Leo's extra-beat wait). The voice is warm, observant, and genuinely human. Language is plain and direct without being flat\u2014every image earns its place. The repetition of 'same' in the opening is purposeful rather than wasteful. However, the piece is clearly truncated mid-sentence, which undermines structure and completeness. What exists is excellent, but the lack of any arc, resolution, or even a complete paragraph at the end prevents full marks on structure/flow and overall. The specificity is the standout strength\u2014'a lit tube of worn vinyl and chrome' and 'her head tracing a slow, trusting circle' are precise and evocative.",
+  "run_name": "2026-03-07-openrouter-v0-1",
+  "scores": {
+    "brevity_economy": 4,
+    "clarity": 5,
+    "humanity_voice": 5,
+    "overall": 4,
+    "simplicity": 5,
+    "specificity_precision": 5,
+    "structure_flow": 4
+  }
+}

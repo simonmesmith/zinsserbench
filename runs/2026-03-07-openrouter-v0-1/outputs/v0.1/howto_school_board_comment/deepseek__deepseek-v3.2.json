@@ -1,0 +1,37 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.1",
+  "candidate_label": "DeepSeek V3.2",
+  "candidate_model_id": "deepseek/deepseek-v3.2",
+  "created_at": "2026-03-07T15:14:26Z",
+  "metadata": {
+    "id": "gen-1772896417-GRCr9CJUd023SXU6RhXJ",
+    "usage": {
+      "completion_tokens": 500,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 237
+      },
+      "cost": 0.00020066,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.00019,
+        "upstream_inference_cost": 0.00020066,
+        "upstream_inference_prompt_cost": 1.066e-05
+      },
+      "is_byok": false,
+      "prompt_tokens": 49,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 16,
+        "video_tokens": 0
+      },
+      "total_tokens": 549
+    }
+  },
+  "prompt_category": "service_howto",
+  "prompt_id": "howto_school_board_comment",
+  "response_text": "# A Practical Guide for Parents: Preparing to Speak at a School Board Meeting\n\nSpeaking at a school board meeting can feel intimidating, but with preparation, you can present your perspective clearly and effectively. This guide will walk you through the steps to get ready.\n\n## Step 1: Understand the Process\n*   **Know the Rules:** Visit your school district\u2019s website to find the board\u2019s \u201cPublic Comment\u201d policy. Note time limits (often 2-3 minutes), registration requirements (sign-up before the meeting or online), and any content restrictions.\n*   **Review the Agenda:** Meetings have set agendas. Identify which item your concern relates to. Speaking on-topic is more impactful.\n*   **Attend a Meeting First:** If possible, watch a meeting live or online. Observe the format, tone, and how other speakers are received.\n\n## Step 2: Clarify Your Message\n*   **Define Your Goal:** What specific outcome are you seeking? (e.g., \u201cI am asking the board to reinstate the after-school arts program.\u201d)\n*   **Focus on One Issue:** Don\u2019t list multiple unrelated concerns. A single, clear message is more powerful and memorable.\n*   **Gather Facts:** Support your position with data, specific examples, or direct quotes from district policies. Avoid relying solely on emotion or hearsay.\n\n## Step 3: Craft Your Remarks\n*   **Write a Script:** For a 3-minute slot, aim for about 400-450 words. Practice reading it aloud to ensure it fits.\n*   **Structure Your Comments:**\n    *   **Opening",
+  "run_name": "2026-03-07-openrouter-v0-1"
+}

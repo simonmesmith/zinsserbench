@@ -1,0 +1,47 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.1",
+  "candidate_model_id": "anthropic/claude-opus-4.6",
+  "created_at": "2026-03-07T17:27:23Z",
+  "judge_model_id": "google/gemini-3.1-pro-preview",
+  "metadata": {
+    "id": "gen-1772904434-cOQRDaZOpcoxWZI0S8MM",
+    "raw_text": "{\n  \"scores\": {\n    \"clarity\": 5,\n    \"simplicity\": 4,\n    \"brevity_economy\": 4,\n    \"structure_flow\": 4,\n    \"specificity_precision\": 5,\n    \"humanity_voice\": 5,\n    \"overall\": 4\n  },\n  \"rationale\": \"The writing is highly evocative, specific, and clear, with a strong narrative voice that perfectly captures the prompt's requirements through concrete details. However, the response cuts off abruptly at the end, which impacts its overall effectiveness and structure.\"\n}",
+    "usage": {
+      "completion_tokens": 484,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 351
+      },
+      "cost": 0.00729,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.005808,
+        "upstream_inference_cost": 0.00729,
+        "upstream_inference_prompt_cost": 0.001482
+      },
+      "is_byok": false,
+      "prompt_tokens": 741,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 1225
+    }
+  },
+  "prompt_category": "personal_nonfiction",
+  "prompt_id": "personal_public_pool",
+  "rationale": "The writing is highly evocative, specific, and clear, with a strong narrative voice that perfectly captures the prompt's requirements through concrete details. However, the response cuts off abruptly at the end, which impacts its overall effectiveness and structure.",
+  "run_name": "2026-03-07-openrouter-v0-1",
+  "scores": {
+    "brevity_economy": 4,
+    "clarity": 5,
+    "humanity_voice": 5,
+    "overall": 4,
+    "simplicity": 4,
+    "specificity_precision": 5,
+    "structure_flow": 4
+  }
+}

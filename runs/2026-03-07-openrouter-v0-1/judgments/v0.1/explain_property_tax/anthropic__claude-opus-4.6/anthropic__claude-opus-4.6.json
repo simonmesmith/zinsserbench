@@ -1,0 +1,47 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.1",
+  "candidate_model_id": "anthropic/claude-opus-4.6",
+  "created_at": "2026-03-07T17:49:55Z",
+  "judge_model_id": "anthropic/claude-opus-4.6",
+  "metadata": {
+    "id": "gen-1772905789-AiTz8XXKThaY1rWHWM3H",
+    "raw_text": "{\"scores\": {\"clarity\": 5, \"simplicity\": 5, \"brevity_economy\": 4, \"structure_flow\": 4, \"specificity_precision\": 4, \"humanity_voice\": 5, \"overall\": 4}, \"rationale\": \"The writing is exceptionally clear and uses genuinely plain language throughout \u2014 phrases like 'That's really it at the highest level' and 'which is where things get interesting' make it approachable. The concrete example ($300,000 home assessed at $240,000) adds useful specificity. The structure with headers and bullet points is logical and reader-friendly. However, the piece is clearly cut off mid-sentence ('So when you'), meaning it only covers Part One of what appears to be a two-part explainer \u2014 the tax rate side is entirely missing. This incompleteness significantly limits its effectiveness as a full explainer, though what exists is high quality. The voice is warm and conversational without being condescending. Minor ding on brevity for the slightly ceremonial opening, but overall the pacing is good.\"}",
+    "usage": {
+      "completion_tokens": 240,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 0
+      },
+      "cost": 0.01009,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.006,
+        "upstream_inference_cost": 0.01009,
+        "upstream_inference_prompt_cost": 0.00409
+      },
+      "is_byok": false,
+      "prompt_tokens": 818,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 1058
+    }
+  },
+  "prompt_category": "explain",
+  "prompt_id": "explain_property_tax",
+  "rationale": "The writing is exceptionally clear and uses genuinely plain language throughout \u2014 phrases like 'That's really it at the highest level' and 'which is where things get interesting' make it approachable. The concrete example ($300,000 home assessed at $240,000) adds useful specificity. The structure with headers and bullet points is logical and reader-friendly. However, the piece is clearly cut off mid-sentence ('So when you'), meaning it only covers Part One of what appears to be a two-part explainer \u2014 the tax rate side is entirely missing. This incompleteness significantly limits its effectiveness as a full explainer, though what exists is high quality. The voice is warm and conversational without being condescending. Minor ding on brevity for the slightly ceremonial opening, but overall the pacing is good.",
+  "run_name": "2026-03-07-openrouter-v0-1",
+  "scores": {
+    "brevity_economy": 4,
+    "clarity": 5,
+    "humanity_voice": 5,
+    "overall": 4,
+    "simplicity": 5,
+    "specificity_precision": 4,
+    "structure_flow": 4
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.1",
+  "candidate_label": "Claude Opus 4.6",
+  "candidate_model_id": "anthropic/claude-opus-4.6",
+  "created_at": "2026-03-07T15:06:53Z",
+  "metadata": {
+    "id": "gen-1772895998-DYJTPPP5EtJNVK1MOr15",
+    "usage": {
+      "completion_tokens": 500,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 65
+      },
+      "cost": 0.012885,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.0125,
+        "upstream_inference_cost": 0.012885,
+        "upstream_inference_prompt_cost": 0.000385
+      },
+      "is_byok": false,
+      "prompt_tokens": 77,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 577
+    }
+  },
+  "prompt_category": "profile",
+  "prompt_id": "profile_ferry_captain",
+  "response_text": "# The Crossing\n\n## Thirty Years on the Water with Captain Dale Eversole\n\nThe first thing you notice about Dale Eversole's hands is that they never leave the wheel for long. Even when the conversation turns personal \u2014 to his late wife, to the grandson who just started kindergarten, to the morning twenty-three years ago when a drunk driver rolled a pickup truck off the end of the loading ramp \u2014 his right hand drifts back to the worn wooden grip of the helm as though drawn by some private magnetism. The wheel on the *Margaret Ann* is original, installed in 1974, and the spots where his fingers rest have been polished to a buttery smoothness that no varnish could replicate. It is the smoothness of repetition. Of routine refined into something close to ritual.\n\nFor thirty-one years, Dale Eversole has captained the ferry between Corden and Halesport, two towns on the central Oregon coast separated by seven miles of open water across Tillamook Bay. The crossing takes forty minutes on a calm day, perhaps fifty-five when the winter storms drive whitecaps against the bow. He makes the trip six times a day, six days a week, ten months a year. By his own rough calculation \u2014 scrawled once on a napkin at the Halesport Caf\u00e9 and never verified \u2014 he has made somewhere north of forty thousand crossings. He has carried schoolchildren, caskets, livestock, a traveling dentist, at least two women in active labor, and once, in 1998, a Steinway grand piano that had to be lashed to the car deck with ratchet straps and moving blankets.\n\n\"People think it must get boring,\" he says, guiding the *Margaret Ann* out of the Corden slip on a Tuesday morning in March. The bay is flat and gray, the color of an old dime. A blue heron stands on a piling and watches them go. \"They always ask if I",
+  "run_name": "2026-03-07-openrouter-v0-1"
+}

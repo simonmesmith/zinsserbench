@@ -1,0 +1,37 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.1",
+  "candidate_label": "Claude Sonnet 4.6",
+  "candidate_model_id": "anthropic/claude-sonnet-4.6",
+  "created_at": "2026-03-07T15:02:52Z",
+  "metadata": {
+    "id": "gen-1772895762-gL8woRhvbxZRWobrefQ0",
+    "usage": {
+      "completion_tokens": 500,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 52
+      },
+      "cost": 0.007776,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.0075,
+        "upstream_inference_cost": 0.007776,
+        "upstream_inference_prompt_cost": 0.000276
+      },
+      "is_byok": false,
+      "prompt_tokens": 92,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 592
+    }
+  },
+  "prompt_category": "memo",
+  "prompt_id": "memo_remote_work_policy",
+  "response_text": "# INTERNAL MEMORANDUM\n\n**TO:** All Employees\n**FROM:** Sarah Chen, Chief People Officer\n**DATE:** June 12, 2025\n**RE:** New Flexible Remote Work Policy \u2014 Effective July 14, 2025\n\n---\n\n## Overview\n\nAfter several months of feedback gathering, manager roundtables, and careful review of our productivity data, we are formalizing a new company-wide remote work policy. This memo outlines what the policy includes, why we made these decisions, and what you need to do before it takes effect.\n\n---\n\n## The Policy\n\n**Effective July 14, 2025**, Meridian Software will operate under a **structured hybrid model** with the following terms:\n\n**Core In-Office Days**\nAll employees are expected to be in the office on **Tuesdays and Thursdays**. These days are mandatory, non-negotiable, and the same across every team. No meetings requiring full-team attendance will be scheduled outside these days.\n\n**Flexible Days**\nMonday, Wednesday, and Friday are fully remote. Employees may come into the office on these days if they choose, but there is no obligation to do so.\n\n**Fully Remote Roles**\nApproximately 18 roles that were hired as fully remote at the time of offer will remain fully remote. Those employees are not affected by the in-office requirement. If you are unsure whether your role falls into this category, your manager will confirm this with you directly by June 20th.\n\n**Work Hours**\nWe are maintaining our existing core hours of **10:00 AM \u2013 3:00 PM local time**, during which all employees should be reachable and available for meetings. Outside those hours, flexible scheduling remains in place.\n\n**International and Long-Distance Employees**\nEmployees living more than 50 miles from our office locations in Austin and Denver are considered remote employees and will follow a modified version of this policy. They are asked to travel to their nearest office location **once per quarter** for a full",
+  "run_name": "2026-03-07-openrouter-v0-1"
+}

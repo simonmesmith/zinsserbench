@@ -1,0 +1,47 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.1",
+  "candidate_model_id": "openai/gpt-5.3-chat",
+  "created_at": "2026-03-07T17:10:04Z",
+  "judge_model_id": "anthropic/claude-opus-4.6",
+  "metadata": {
+    "id": "gen-1772903397-tuCXEIsP2lMubeHXHZe3",
+    "raw_text": "{\"scores\": {\"clarity\": 5, \"simplicity\": 5, \"brevity_economy\": 4, \"structure_flow\": 5, \"specificity_precision\": 4, \"humanity_voice\": 4, \"overall\": 4}, \"rationale\": \"Exceptionally clear and well-organized guide with numbered steps that flow logically from initial planning through execution. Language is plain and direct throughout\u2014no jargon or inflated phrasing. Specificity is strong with concrete examples (Maple Street, 45-60 minute timeframe, sample agenda with time allocations), though a few more details on engaging city officials would strengthen it. The response is cut off at step 8, which loses the conclusion and final action items\u2014a notable flaw. Voice is warm and practical without being mechanical, though it stays fairly neutral. Brevity is good; nothing feels padded, though the piece could have trimmed slightly to fit the complete guide within its length. The truncation prevents a top score on overall effectiveness.\"}",
+    "usage": {
+      "completion_tokens": 225,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 0
+      },
+      "cost": 0.01044,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.005625,
+        "upstream_inference_cost": 0.01044,
+        "upstream_inference_prompt_cost": 0.004815
+      },
+      "is_byok": false,
+      "prompt_tokens": 963,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 1188
+    }
+  },
+  "prompt_category": "service_howto",
+  "prompt_id": "howto_neighborhood_meeting",
+  "rationale": "Exceptionally clear and well-organized guide with numbered steps that flow logically from initial planning through execution. Language is plain and direct throughout\u2014no jargon or inflated phrasing. Specificity is strong with concrete examples (Maple Street, 45-60 minute timeframe, sample agenda with time allocations), though a few more details on engaging city officials would strengthen it. The response is cut off at step 8, which loses the conclusion and final action items\u2014a notable flaw. Voice is warm and practical without being mechanical, though it stays fairly neutral. Brevity is good; nothing feels padded, though the piece could have trimmed slightly to fit the complete guide within its length. The truncation prevents a top score on overall effectiveness.",
+  "run_name": "2026-03-07-openrouter-v0-1",
+  "scores": {
+    "brevity_economy": 4,
+    "clarity": 5,
+    "humanity_voice": 4,
+    "overall": 4,
+    "simplicity": 5,
+    "specificity_precision": 4,
+    "structure_flow": 5
+  }
+}

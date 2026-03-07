@@ -1,0 +1,47 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.1",
+  "candidate_model_id": "anthropic/claude-sonnet-4.6",
+  "created_at": "2026-03-07T16:50:16Z",
+  "judge_model_id": "openai/gpt-5.4",
+  "metadata": {
+    "id": "gen-1772902209-ac0OgdnbsP2MZhp2ch0b",
+    "raw_text": "{\"scores\":{\"clarity\":3,\"simplicity\":4,\"brevity_economy\":4,\"structure_flow\":3,\"specificity_precision\":4,\"humanity_voice\":3,\"overall\":3},\"rationale\":\"Clear memo structure and strong concrete details like dates, days, hours, and exceptions. The language is mostly plain and direct. However, the response is truncated mid-sentence, so the policy explanation, rationale, and employee next steps are left incomplete, which weakens clarity, flow, and overall effectiveness.\"}",
+    "usage": {
+      "completion_tokens": 407,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 291
+      },
+      "cost": 0.0080275,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.006105,
+        "upstream_inference_cost": 0.0080275,
+        "upstream_inference_prompt_cost": 0.0019225
+      },
+      "is_byok": false,
+      "prompt_tokens": 769,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 1176
+    }
+  },
+  "prompt_category": "memo",
+  "prompt_id": "memo_remote_work_policy",
+  "rationale": "Clear memo structure and strong concrete details like dates, days, hours, and exceptions. The language is mostly plain and direct. However, the response is truncated mid-sentence, so the policy explanation, rationale, and employee next steps are left incomplete, which weakens clarity, flow, and overall effectiveness.",
+  "run_name": "2026-03-07-openrouter-v0-1",
+  "scores": {
+    "brevity_economy": 4,
+    "clarity": 3,
+    "humanity_voice": 3,
+    "overall": 3,
+    "simplicity": 4,
+    "specificity_precision": 4,
+    "structure_flow": 3
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.1",
+  "candidate_label": "Claude Sonnet 4.6",
+  "candidate_model_id": "anthropic/claude-sonnet-4.6",
+  "created_at": "2026-03-07T15:11:26Z",
+  "metadata": {
+    "id": "gen-1772896274-huFDn483QSVY7uiYbYBn",
+    "usage": {
+      "completion_tokens": 500,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 95
+      },
+      "cost": 0.007725,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.0075,
+        "upstream_inference_cost": 0.007725,
+        "upstream_inference_prompt_cost": 0.000225
+      },
+      "is_byok": false,
+      "prompt_tokens": 75,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 575
+    }
+  },
+  "prompt_category": "personal_nonfiction",
+  "prompt_id": "personal_public_pool",
+  "response_text": "# The Deep End\n\nThe summer I turned eleven, I learned everything I needed to know about the town of Millbrook by standing at the edge of its public pool.\n\nThe pool was called Lakeside, which was a lie. There was no lake. There was a cracked concrete apron, a chain-link fence threaded with privacy slats the color of old mustard, and six lanes of water that turned a faint, institutional green by mid-July. A hand-painted sign near the entrance listed the rules in descending order of seriousness: No Running. No Diving in Shallow End. No Glass Containers. No Horseplay. There were perhaps thirty rules in total, and reading them felt less like an invitation than a warning\u2014a town telling you what it expected you to do wrong before you'd done anything at all.\n\nStill, I loved it. My mother would drop my brother and me off at ten in the morning and collect us at four, and those six hours felt like the freest of my childhood. We arrived clutching dollar bills for the snack bar and left smelling of chlorine so potent it lingered in your hair for two days, a badge you wore back into the school year like a summer medal.\n\nBut the pool was also, I came to understand, a kind of census. Everyone came to Lakeside because everyone had to. We didn't have country clubs in Millbrook, didn't have private pools behind split-level houses. We had this one shared rectangle of water and whatever democracy it offered.\n\nWhich turned out to be uneven democracy. The kind that makes you think, for a while, that it's working.\n\n---\n\nThe snack bar was run by a teenager named Garrett who had the slow, sovereign confidence of someone who had never doubted his place in a room. He was seventeen, blond, the nephew of the parks director. He gave his",
+  "run_name": "2026-03-07-openrouter-v0-1"
+}

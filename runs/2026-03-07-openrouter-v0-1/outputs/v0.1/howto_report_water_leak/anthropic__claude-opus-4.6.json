@@ -1,0 +1,37 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.1",
+  "candidate_label": "Claude Opus 4.6",
+  "candidate_model_id": "anthropic/claude-opus-4.6",
+  "created_at": "2026-03-07T15:08:29Z",
+  "metadata": {
+    "id": "gen-1772896093-k2QCnaMnuxUHu91VwTLw",
+    "usage": {
+      "completion_tokens": 500,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 38
+      },
+      "cost": 0.012885,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.0125,
+        "upstream_inference_cost": 0.012885,
+        "upstream_inference_prompt_cost": 0.000385
+      },
+      "is_byok": false,
+      "prompt_tokens": 77,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 577
+    }
+  },
+  "prompt_category": "service_howto",
+  "prompt_id": "howto_report_water_leak",
+  "response_text": "# What to Do When You Discover a Water Leak in Your Ceiling: A Tenant's Practical Guide\n\nWater stains, dripping, or bulging patches on your ceiling can range from a minor nuisance to a sign of serious structural damage. How you respond in the first minutes and hours matters. This guide walks you through every step\u2014from immediate damage control to long-term follow-up\u2014so you can protect yourself, your belongings, and your rights as a tenant.\n\n---\n\n## Part One: Immediate Actions (The First 30 Minutes)\n\n### Protect yourself and your property first\n\nBefore you do anything else, take a quick look at the area around the leak. If water is near any electrical fixtures\u2014ceiling lights, fans, or outlets\u2014**do not touch them**. Switch off the circuit breaker that controls electricity to that room. Water and live wiring are a deadly combination, and no piece of furniture is worth the risk.\n\nOnce the area is electrically safe, move electronics, documents, clothing, and furniture away from the drip zone. Lay down towels, place buckets or large pots under the leak, and, if you have them, spread plastic tarps or garbage bags over anything you cannot move. Act quickly; water migrates along ceiling joists and drywall seams, so the wet area can spread far from the original source.\n\n### Identify the likely source\n\nA ceiling leak in an apartment almost always comes from one of a few places:\n\n- **The unit directly above you.** An overflowing bathtub, a burst supply line under a sink, a failed washing-machine hose, or even excessive water on a bathroom floor can send water through the floor and into your ceiling.\n- **A shared plumbing riser or drain stack.** Older buildings have vertical pipes that run between floors inside walls. Corrosion, loose fittings, or clogs can cause leaks that show up in unexpected places.\n- **The roof or exterior wall.** If you live on the top floor, rain or snowmelt can enter through damaged flashing",
+  "run_name": "2026-03-07-openrouter-v0-1"
+}

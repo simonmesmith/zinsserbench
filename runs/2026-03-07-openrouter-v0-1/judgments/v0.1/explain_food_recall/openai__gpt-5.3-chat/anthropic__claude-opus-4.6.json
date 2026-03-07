@@ -1,0 +1,47 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.1",
+  "candidate_model_id": "openai/gpt-5.3-chat",
+  "created_at": "2026-03-07T17:33:35Z",
+  "judge_model_id": "anthropic/claude-opus-4.6",
+  "metadata": {
+    "id": "gen-1772904808-QDITWOdNR6ZSqBc4wVgN",
+    "raw_text": "{\"scores\": {\"clarity\": 5, \"simplicity\": 5, \"brevity_economy\": 4, \"structure_flow\": 5, \"specificity_precision\": 5, \"humanity_voice\": 4, \"overall\": 5}, \"rationale\": \"Exceptionally clear and well-organized consumer explainer. The language is plain and direct throughout, with no jargon left unexplained (e.g., bacteria names are parenthetically listed as examples). Structure is logical: what a recall is \u2192 what it includes \u2192 what to do \u2192 why it matters \u2192 how to stay informed. Specificity is strong\u2014concrete details like lot numbers, establishment numbers, and specific symptoms give readers actionable information. The numbered action steps are practical and precise, including the often-overlooked cross-contamination point. Minor deductions: the piece is slightly cut off at the end ('How to stay informed' section is incomplete), which hurts completeness. The voice is competent and reader-aware but leans slightly toward institutional tone rather than truly warm or engaging. Brevity is good but a few phrases ('a normal part of food safety systems') could be tighter.\"}",
+    "usage": {
+      "completion_tokens": 255,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 0
+      },
+      "cost": 0.01113,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.006375,
+        "upstream_inference_cost": 0.01113,
+        "upstream_inference_prompt_cost": 0.004755
+      },
+      "is_byok": false,
+      "prompt_tokens": 951,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 1206
+    }
+  },
+  "prompt_category": "explain",
+  "prompt_id": "explain_food_recall",
+  "rationale": "Exceptionally clear and well-organized consumer explainer. The language is plain and direct throughout, with no jargon left unexplained (e.g., bacteria names are parenthetically listed as examples). Structure is logical: what a recall is \u2192 what it includes \u2192 what to do \u2192 why it matters \u2192 how to stay informed. Specificity is strong\u2014concrete details like lot numbers, establishment numbers, and specific symptoms give readers actionable information. The numbered action steps are practical and precise, including the often-overlooked cross-contamination point. Minor deductions: the piece is slightly cut off at the end ('How to stay informed' section is incomplete), which hurts completeness. The voice is competent and reader-aware but leans slightly toward institutional tone rather than truly warm or engaging. Brevity is good but a few phrases ('a normal part of food safety systems') could be tighter.",
+  "run_name": "2026-03-07-openrouter-v0-1",
+  "scores": {
+    "brevity_economy": 4,
+    "clarity": 5,
+    "humanity_voice": 4,
+    "overall": 5,
+    "simplicity": 5,
+    "specificity_precision": 5,
+    "structure_flow": 5
+  }
+}

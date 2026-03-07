@@ -1,0 +1,37 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.1",
+  "candidate_label": "Claude Opus 4.6",
+  "candidate_model_id": "anthropic/claude-opus-4.6",
+  "created_at": "2026-03-07T15:03:57Z",
+  "metadata": {
+    "id": "gen-1772895825-a5ScgYoHV1CuDq1pSzOr",
+    "usage": {
+      "completion_tokens": 500,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 27
+      },
+      "cost": 0.012905,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.0125,
+        "upstream_inference_cost": 0.012905,
+        "upstream_inference_prompt_cost": 0.000405
+      },
+      "is_byok": false,
+      "prompt_tokens": 81,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 581
+    }
+  },
+  "prompt_category": "explain",
+  "prompt_id": "explain_heat_pumps",
+  "response_text": "# Heat Pumps: A Homeowner's Guide\n\n## What Is a Heat Pump?\n\nA heat pump is a heating and cooling system that works by moving heat from one place to another rather than generating heat by burning fuel. If you've ever used an air conditioner, you've already experienced half of what a heat pump does. In fact, a heat pump is essentially an air conditioner that can run in reverse.\n\n## How It Works\n\nIn the summer, a heat pump pulls warm air from inside your home and moves it outside, just like a conventional air conditioner. In the winter, it does the opposite \u2014 it extracts heat from the outdoor air (even when it's cold outside) and transfers it indoors.\n\nThis might sound counterintuitive. How can you pull heat from cold air? The key is that \"cold\" outdoor air still contains thermal energy. A heat pump uses a refrigerant \u2014 a special fluid that cycles between liquid and gas states \u2014 to absorb that energy and concentrate it. The refrigerant evaporates at very low temperatures, absorbs heat from the outside air, gets compressed to raise its temperature further, and then releases that warmth inside your home.\n\nThink of it like a sponge for heat. The refrigerant soaks up small amounts of warmth from outside and wrings it out indoors.\n\n## Why Choose a Heat Pump Over a Gas Furnace?\n\n**Energy efficiency.** Because a heat pump moves heat rather than creating it, it can deliver two to three times more heating energy than the electrical energy it consumes. A gas furnace, even a high-efficiency model, can never exceed 100 percent efficiency \u2014 some energy is always lost in combustion and venting.\n\n**One system, two jobs.** A heat pump handles both heating and cooling, which means you don't need a separate air conditioner. That can simplify maintenance and potentially reduce equipment costs.\n\n**Lower carbon footprint.** Heat pumps run on electricity, which means they produce no emissions on-site. As the electrical grid increasingly relies on renewable sources, the environmental benefit grows over time. A gas furnace, by contrast",
+  "run_name": "2026-03-07-openrouter-v0-1"
+}

@@ -1,0 +1,37 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.1",
+  "candidate_label": "Gemini 3.1 Flash Lite Preview",
+  "candidate_model_id": "google/gemini-3.1-flash-lite-preview",
+  "created_at": "2026-03-07T15:11:52Z",
+  "metadata": {
+    "id": "gen-1772896309-RzQrU1ib31yPhJ5Tdu5M",
+    "usage": {
+      "completion_tokens": 496,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 379
+      },
+      "cost": 0.00075825,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.000744,
+        "upstream_inference_cost": 0.00075825,
+        "upstream_inference_prompt_cost": 1.425e-05
+      },
+      "is_byok": false,
+      "prompt_tokens": 57,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 553
+    }
+  },
+  "prompt_category": "memo",
+  "prompt_id": "memo_incident_response",
+  "response_text": "**MEMORANDUM**\n\n**TO:** All Employees\n**FROM:** [Name/Title, e.g., CTO or IT Operations]\n**DATE:** October 26, 2023\n**SUBJECT:** Update Regarding Today\u2019s System Outage\n\nDear Team,\n\nI am writing to provide clarity regarding the system-wide outage that impacted our operations earlier today. We understand the frustration this caused and appreciate your patience as our teams worked to restore services.\n\n**What Happened**\nAt approximately 9:15 AM, our primary database cluster",
+  "run_name": "2026-03-07-openrouter-v0-1"
+}

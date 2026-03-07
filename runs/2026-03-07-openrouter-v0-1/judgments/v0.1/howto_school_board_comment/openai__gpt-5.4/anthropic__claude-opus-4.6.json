@@ -1,0 +1,47 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.1",
+  "candidate_model_id": "openai/gpt-5.4",
+  "created_at": "2026-03-07T17:39:16Z",
+  "judge_model_id": "anthropic/claude-opus-4.6",
+  "metadata": {
+    "id": "gen-1772905149-7a1AFxED5mpE8rceWNH4",
+    "raw_text": "{\"scores\": {\"clarity\": 5, \"simplicity\": 5, \"brevity_economy\": 5, \"structure_flow\": 5, \"specificity_precision\": 5, \"humanity_voice\": 5, \"overall\": 5}, \"rationale\": \"Exceptionally clear and readable on first pass. Language is plain and direct throughout\u2014no jargon, no inflated phrasing. Every sentence earns its place; the bulleted lists and numbered steps eliminate filler. The structure is logical and progressive (goal \u2192 rules \u2192 research), with smooth transitions and a practical tip callout that adds value. Specificity is strong: concrete example sentences for goals, exact questions to ask the district office, and a realistic warning about time limits. The opening line ('can feel intimidating, but good preparation makes it much easier') and the closing zinger ('If your goal is vague, your speech will be vague too') give it a warm, human, coach-like voice without being folksy. The only limitation is that the response appears truncated\u2014section 3 cuts off mid-list\u2014but what is on the page is excellent across every axis.\"}",
+    "usage": {
+      "completion_tokens": 253,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 0
+      },
+      "cost": 0.010455,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.006325,
+        "upstream_inference_cost": 0.010455,
+        "upstream_inference_prompt_cost": 0.00413
+      },
+      "is_byok": false,
+      "prompt_tokens": 826,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 1079
+    }
+  },
+  "prompt_category": "service_howto",
+  "prompt_id": "howto_school_board_comment",
+  "rationale": "Exceptionally clear and readable on first pass. Language is plain and direct throughout\u2014no jargon, no inflated phrasing. Every sentence earns its place; the bulleted lists and numbered steps eliminate filler. The structure is logical and progressive (goal \u2192 rules \u2192 research), with smooth transitions and a practical tip callout that adds value. Specificity is strong: concrete example sentences for goals, exact questions to ask the district office, and a realistic warning about time limits. The opening line ('can feel intimidating, but good preparation makes it much easier') and the closing zinger ('If your goal is vague, your speech will be vague too') give it a warm, human, coach-like voice without being folksy. The only limitation is that the response appears truncated\u2014section 3 cuts off mid-list\u2014but what is on the page is excellent across every axis.",
+  "run_name": "2026-03-07-openrouter-v0-1",
+  "scores": {
+    "brevity_economy": 5,
+    "clarity": 5,
+    "humanity_voice": 5,
+    "overall": 5,
+    "simplicity": 5,
+    "specificity_precision": 5,
+    "structure_flow": 5
+  }
+}

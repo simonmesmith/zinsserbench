@@ -1,0 +1,47 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.1",
+  "candidate_model_id": "openai/gpt-5.3-chat",
+  "created_at": "2026-03-07T16:49:56Z",
+  "judge_model_id": "anthropic/claude-opus-4.6",
+  "metadata": {
+    "id": "gen-1772902190-dMNF657pjdQpf0ofyQQI",
+    "raw_text": "{\"scores\": {\"clarity\": 5, \"simplicity\": 5, \"brevity_economy\": 4, \"structure_flow\": 5, \"specificity_precision\": 4, \"humanity_voice\": 4, \"overall\": 5}, \"rationale\": \"Exceptionally clear and well-organized memo. The three-section structure (policy, rationale, next steps) is logical and easy to scan. Language is plain and direct throughout. Minor dings: some phrases like 'sustainable work experience' and 'flexibility and professionalism everyone has shown' lean slightly corporate/boilerplate, and the piece could be trimmed a touch (the opening paragraph restates what the subject line already conveys). Specificity is strong\u2014four days remote, one in-office day, two-week timeline, first Monday of next month\u2014though the effective date could name an actual date and the 'detailed policy document' is deferred rather than summarized. Overall, this is a polished, professional memo that accomplishes the task very well.\"}",
+    "usage": {
+      "completion_tokens": 229,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 0
+      },
+      "cost": 0.01044,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.005725,
+        "upstream_inference_cost": 0.01044,
+        "upstream_inference_prompt_cost": 0.004715
+      },
+      "is_byok": false,
+      "prompt_tokens": 943,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 1172
+    }
+  },
+  "prompt_category": "memo",
+  "prompt_id": "memo_remote_work_policy",
+  "rationale": "Exceptionally clear and well-organized memo. The three-section structure (policy, rationale, next steps) is logical and easy to scan. Language is plain and direct throughout. Minor dings: some phrases like 'sustainable work experience' and 'flexibility and professionalism everyone has shown' lean slightly corporate/boilerplate, and the piece could be trimmed a touch (the opening paragraph restates what the subject line already conveys). Specificity is strong\u2014four days remote, one in-office day, two-week timeline, first Monday of next month\u2014though the effective date could name an actual date and the 'detailed policy document' is deferred rather than summarized. Overall, this is a polished, professional memo that accomplishes the task very well.",
+  "run_name": "2026-03-07-openrouter-v0-1",
+  "scores": {
+    "brevity_economy": 4,
+    "clarity": 5,
+    "humanity_voice": 4,
+    "overall": 5,
+    "simplicity": 5,
+    "specificity_precision": 4,
+    "structure_flow": 5
+  }
+}

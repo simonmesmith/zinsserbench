@@ -1,0 +1,37 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.1",
+  "candidate_label": "GPT-5.4",
+  "candidate_model_id": "openai/gpt-5.4",
+  "created_at": "2026-03-07T15:14:48Z",
+  "metadata": {
+    "id": "gen-1772896477-0MXEmeZlAocftQQG2y3v",
+    "usage": {
+      "completion_tokens": 500,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 166
+      },
+      "cost": 0.007635,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.0075,
+        "upstream_inference_cost": 0.007635,
+        "upstream_inference_prompt_cost": 0.000135
+      },
+      "is_byok": false,
+      "prompt_tokens": 54,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 554
+    }
+  },
+  "prompt_category": "personal_nonfiction",
+  "prompt_id": "personal_night_shift_bus",
+  "response_text": "For a year, I rode the same late-night bus home.\n\nIt was the last reliable line still moving through my part of the city after 11:30, a blue-and-white city bus that came with enough regularity to be called dependable and enough delay to remind you it was still public transit. I caught it five nights a week, usually from the stop outside the grocery store with the flickering red sign, after a shift that ended too late for dinner and too early for sleep. By the time I climbed aboard, I smelled faintly of dish soap, fryer oil, coffee grounds, or printer toner, depending on which stretch of that year you asked about. The bus became, in a way that embarrassed me to admit at first, the most stable part of my day.\n\nAt night, cities flatten out. The storefronts go dark, the crowds thin, and all the places that are loud in daylight become suddenly legible. You notice what stays open. You notice who is still working. You notice how many people are carrying plastic bags instead of briefcases, how many shoes are built for standing rather than walking, how many faces are turned toward the window as if the dark glass might answer them back.\n\nThe bus arrived under the same weak streetlamp, but it was never really the same bus. Some nights it sighed to the curb and knelt as if exhausted. Some nights it came hot and overlit, humming with mechanical confidence. In winter, the doors opened with a gust of heat that smelled like wet wool and old rubber. In summer, it exhaled trapped air and human fatigue. The route number gl",
+  "run_name": "2026-03-07-openrouter-v0-1"
+}

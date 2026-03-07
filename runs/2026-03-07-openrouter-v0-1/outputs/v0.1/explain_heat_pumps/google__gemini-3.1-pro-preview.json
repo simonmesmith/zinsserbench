@@ -1,0 +1,37 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.1",
+  "candidate_label": "Gemini 3.1 Pro Preview",
+  "candidate_model_id": "google/gemini-3.1-pro-preview",
+  "created_at": "2026-03-07T15:03:51Z",
+  "metadata": {
+    "id": "gen-1772895823-O8UcfvTrLVxo2YV3dGXv",
+    "usage": {
+      "completion_tokens": 496,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 478
+      },
+      "cost": 0.006052,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.005952,
+        "upstream_inference_cost": 0.006052,
+        "upstream_inference_prompt_cost": 0.0001
+      },
+      "is_byok": false,
+      "prompt_tokens": 50,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 546
+    }
+  },
+  "prompt_category": "explain",
+  "prompt_id": "explain_heat_pumps",
+  "response_text": "**The Homeowner\u2019s Guide to Heat Pumps: A Smarter Way to Heat and",
+  "run_name": "2026-03-07-openrouter-v0-1"
+}

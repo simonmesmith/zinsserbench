@@ -1,0 +1,47 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.1",
+  "candidate_model_id": "deepseek/deepseek-v3.2",
+  "created_at": "2026-03-07T17:08:53Z",
+  "judge_model_id": "anthropic/claude-opus-4.6",
+  "metadata": {
+    "id": "gen-1772903327-tfbt5i7Cq6Y0tKwHGrch",
+    "raw_text": "{\"scores\": {\"clarity\": 5, \"simplicity\": 4, \"brevity_economy\": 4, \"structure_flow\": 5, \"specificity_precision\": 5, \"humanity_voice\": 5, \"overall\": 5}, \"rationale\": \"This is a beautifully crafted profile with vivid, concrete details\u2014the teak wheel, Mrs. Gable's port-side bench, the shudder at 15 knots, porpoises racing the bow. The structure flows naturally from pre-dawn routine to passengers to the channel itself to reflection, building a complete portrait. The voice is warm and literary without becoming overwrought. A few phrases tip toward the purple ('as if it were an extension of his own bones,' 'a living, breathing artery, and he its steady pulse') which slightly ding simplicity, and the piece is cut off mid-sentence, which prevents a proper ending. But what's on the page is exceptionally well-executed profile writing with genuine humanity and precise sensory detail throughout.\"}",
+    "usage": {
+      "completion_tokens": 231,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 0
+      },
+      "cost": 0.010485,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.005775,
+        "upstream_inference_cost": 0.010485,
+        "upstream_inference_prompt_cost": 0.00471
+      },
+      "is_byok": false,
+      "prompt_tokens": 942,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 1173
+    }
+  },
+  "prompt_category": "profile",
+  "prompt_id": "profile_ferry_captain",
+  "rationale": "This is a beautifully crafted profile with vivid, concrete details\u2014the teak wheel, Mrs. Gable's port-side bench, the shudder at 15 knots, porpoises racing the bow. The structure flows naturally from pre-dawn routine to passengers to the channel itself to reflection, building a complete portrait. The voice is warm and literary without becoming overwrought. A few phrases tip toward the purple ('as if it were an extension of his own bones,' 'a living, breathing artery, and he its steady pulse') which slightly ding simplicity, and the piece is cut off mid-sentence, which prevents a proper ending. But what's on the page is exceptionally well-executed profile writing with genuine humanity and precise sensory detail throughout.",
+  "run_name": "2026-03-07-openrouter-v0-1",
+  "scores": {
+    "brevity_economy": 4,
+    "clarity": 5,
+    "humanity_voice": 5,
+    "overall": 5,
+    "simplicity": 4,
+    "specificity_precision": 5,
+    "structure_flow": 5
+  }
+}

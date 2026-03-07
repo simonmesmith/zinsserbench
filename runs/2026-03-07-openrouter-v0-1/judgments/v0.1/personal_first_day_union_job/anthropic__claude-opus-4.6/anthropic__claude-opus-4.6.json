@@ -1,0 +1,47 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.1",
+  "candidate_model_id": "anthropic/claude-opus-4.6",
+  "created_at": "2026-03-07T17:24:12Z",
+  "judge_model_id": "anthropic/claude-opus-4.6",
+  "metadata": {
+    "id": "gen-1772904245-XDkmoKrqTGg0ldSlRSg2",
+    "raw_text": "{\"scores\": {\"clarity\": 5, \"simplicity\": 5, \"brevity_economy\": 5, \"structure_flow\": 5, \"specificity_precision\": 5, \"humanity_voice\": 5, \"overall\": 5}, \"rationale\": \"This is exceptional personal nonfiction. The opening image of the chairs is brilliantly concrete and immediately establishes the essay's central contrast. The specificity is extraordinary\u2014thirty-nine hours, the rigged sanitizer thermometer, the cook's ring finger, Dale who paid cash on Fridays 'if he remembered.' The prose is plain and muscular without a single wasted word. The rhetorical patterns (triads like 'broke or quit or, ideally, did both') feel earned rather than showy. The voice is deeply human, wry, and controlled\u2014the final line ('That sounds strange to write now, but it is the truest thing in this essay') lands with devastating understatement. Structure flows perfectly from the break room discovery backward through the catalog of prior jobs, building a case through accumulation. The only possible critique is that the essay appears truncated\u2014it doesn't fully deliver on the promise of showing how the union job changed the writer's idea of work\u2014but what's on the page is so precisely crafted and compelling that it reads as a deliberate opening movement. Every sentence justifies its presence.\"}",
+    "usage": {
+      "completion_tokens": 304,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 0
+      },
+      "cost": 0.01173,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.0076,
+        "upstream_inference_cost": 0.01173,
+        "upstream_inference_prompt_cost": 0.00413
+      },
+      "is_byok": false,
+      "prompt_tokens": 826,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 1130
+    }
+  },
+  "prompt_category": "personal_nonfiction",
+  "prompt_id": "personal_first_day_union_job",
+  "rationale": "This is exceptional personal nonfiction. The opening image of the chairs is brilliantly concrete and immediately establishes the essay's central contrast. The specificity is extraordinary\u2014thirty-nine hours, the rigged sanitizer thermometer, the cook's ring finger, Dale who paid cash on Fridays 'if he remembered.' The prose is plain and muscular without a single wasted word. The rhetorical patterns (triads like 'broke or quit or, ideally, did both') feel earned rather than showy. The voice is deeply human, wry, and controlled\u2014the final line ('That sounds strange to write now, but it is the truest thing in this essay') lands with devastating understatement. Structure flows perfectly from the break room discovery backward through the catalog of prior jobs, building a case through accumulation. The only possible critique is that the essay appears truncated\u2014it doesn't fully deliver on the promise of showing how the union job changed the writer's idea of work\u2014but what's on the page is so precisely crafted and compelling that it reads as a deliberate opening movement. Every sentence justifies its presence.",
+  "run_name": "2026-03-07-openrouter-v0-1",
+  "scores": {
+    "brevity_economy": 5,
+    "clarity": 5,
+    "humanity_voice": 5,
+    "overall": 5,
+    "simplicity": 5,
+    "specificity_precision": 5,
+    "structure_flow": 5
+  }
+}

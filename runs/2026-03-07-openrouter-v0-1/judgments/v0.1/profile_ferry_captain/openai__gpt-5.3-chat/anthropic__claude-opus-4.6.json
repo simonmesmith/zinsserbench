@@ -1,0 +1,47 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.1",
+  "candidate_model_id": "openai/gpt-5.3-chat",
+  "created_at": "2026-03-07T17:06:52Z",
+  "judge_model_id": "anthropic/claude-opus-4.6",
+  "metadata": {
+    "id": "gen-1772903206-bFUL0do1kxFB7ZMZikWM",
+    "raw_text": "{\"scores\": {\"clarity\": 5, \"simplicity\": 5, \"brevity_economy\": 5, \"structure_flow\": 5, \"specificity_precision\": 5, \"humanity_voice\": 5, \"overall\": 5}, \"rationale\": \"This is exceptionally well-crafted profile writing. Every sentence earns its place. The specificity is outstanding\u2014six miles of gray-green water, the blue crate, the 6:30 departure, the darker ripples signaling crosscurrent, anchovies turning the water silver. The language is plain and precise without ever feeling flat; metaphors like 'the bay decides the schedule' and repetition being 'constant but never identical' feel natural and earned. The structure flows seamlessly from the morning routine to backstory to passengers to the bay's moods, building a layered portrait. The voice is warm and observant, reading like quality literary journalism. The only minor issue is that the piece is cut off mid-sentence, but what exists on the page is near-flawless nonfiction prose.\"}",
+    "usage": {
+      "completion_tokens": 239,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 0
+      },
+      "cost": 0.010435,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.005975,
+        "upstream_inference_cost": 0.010435,
+        "upstream_inference_prompt_cost": 0.00446
+      },
+      "is_byok": false,
+      "prompt_tokens": 892,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 1131
+    }
+  },
+  "prompt_category": "profile",
+  "prompt_id": "profile_ferry_captain",
+  "rationale": "This is exceptionally well-crafted profile writing. Every sentence earns its place. The specificity is outstanding\u2014six miles of gray-green water, the blue crate, the 6:30 departure, the darker ripples signaling crosscurrent, anchovies turning the water silver. The language is plain and precise without ever feeling flat; metaphors like 'the bay decides the schedule' and repetition being 'constant but never identical' feel natural and earned. The structure flows seamlessly from the morning routine to backstory to passengers to the bay's moods, building a layered portrait. The voice is warm and observant, reading like quality literary journalism. The only minor issue is that the piece is cut off mid-sentence, but what exists on the page is near-flawless nonfiction prose.",
+  "run_name": "2026-03-07-openrouter-v0-1",
+  "scores": {
+    "brevity_economy": 5,
+    "clarity": 5,
+    "humanity_voice": 5,
+    "overall": 5,
+    "simplicity": 5,
+    "specificity_precision": 5,
+    "structure_flow": 5
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.1",
+  "candidate_label": "GPT-5.4",
+  "candidate_model_id": "openai/gpt-5.4",
+  "created_at": "2026-03-07T15:13:32Z",
+  "metadata": {
+    "id": "gen-1772896399-Zyl73PikBvMwgw7ddStc",
+    "usage": {
+      "completion_tokens": 500,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 100
+      },
+      "cost": 0.0076375,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.0075,
+        "upstream_inference_cost": 0.0076375,
+        "upstream_inference_prompt_cost": 0.0001375
+      },
+      "is_byok": false,
+      "prompt_tokens": 55,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 555
+    }
+  },
+  "prompt_category": "service_howto",
+  "prompt_id": "howto_school_board_comment",
+  "response_text": "# How a Parent Can Prepare to Speak at a School Board Meeting\n\nSpeaking at a school board meeting can feel intimidating, but good preparation makes it much easier. The goal is not to give a perfect speech. The goal is to make a clear, credible point that board members can understand and remember.\n\n## 1. Get clear on your goal\n\nBefore you write anything, decide what you want the board to do.\n\nAsk yourself:\n\n- Do I want them to change a policy?\n- Reconsider a decision?\n- Add funding or support?\n- Investigate a problem?\n- Put an item on a future agenda?\n\nTry to state your goal in one sentence:\n\n- \u201cI am asking the board to keep the school librarian position.\u201d\n- \u201cI want the board to review the proposed boundary change.\u201d\n- \u201cI\u2019m asking for clearer communication about student safety incidents.\u201d\n\nIf your goal is vague, your speech will be vague too.\n\n---\n\n## 2. Learn the meeting rules\n\nEvery district has its own procedures for public comment. Check the school district website or call the district office to find out:\n\n- Whether you must sign up in advance\n- How long each speaker gets\n- Whether comments must relate to agenda items\n- Whether there are rules about naming staff or students\n- Whether written comments can also be submitted\n- Whether meetings are in person, virtual, or hybrid\n\nThis matters because many parents prepare a five-minute speech and then find out they only have two minutes.\n\n### Practical tip\nIf the time limit is short, focus on:\n1. Your main point  \n2. One or two supporting facts  \n3. A specific request\n\n---\n\n## 3. Understand the issue\n\nBoard members are more likely to listen if you speak from facts, not just frustration.\n\nGather:\n\n- District policies\n- Agenda documents\n- Budget information\n- School handbooks\n- Emails or letters from the school\n- Data, dates, and examples\n- State law",
+  "run_name": "2026-03-07-openrouter-v0-1"
+}

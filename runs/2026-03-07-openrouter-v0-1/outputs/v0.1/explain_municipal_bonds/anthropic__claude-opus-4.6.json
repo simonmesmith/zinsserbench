@@ -1,0 +1,37 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.1",
+  "candidate_label": "Claude Opus 4.6",
+  "candidate_model_id": "anthropic/claude-opus-4.6",
+  "created_at": "2026-03-07T15:04:56Z",
+  "metadata": {
+    "id": "gen-1772895882-U5Q7YrL31LjX2ovzYwac",
+    "usage": {
+      "completion_tokens": 500,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 0
+      },
+      "cost": 0.012885,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.0125,
+        "upstream_inference_cost": 0.012885,
+        "upstream_inference_prompt_cost": 0.000385
+      },
+      "is_byok": false,
+      "prompt_tokens": 77,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 577
+    }
+  },
+  "prompt_category": "explain",
+  "prompt_id": "explain_municipal_bonds",
+  "response_text": "# Municipal Bonds: How Cities Borrow Money to Build Things\n\n## The Basic Idea\n\nImagine your city needs to build a new bridge. The bridge will cost $50 million, but the city doesn't have $50 million sitting in its bank account. What does it do?\n\nIt borrows the money \u2014 not from a bank, but from thousands of ordinary investors. It does this by issuing **municipal bonds**, often called \"munis\" for short.\n\nA municipal bond is essentially an IOU. The city says: \"Give us money now, and we'll pay you back over time, with interest.\" Investors buy these bonds, the city gets the cash it needs to build the bridge, and over the following years \u2014 often 10, 20, or even 30 \u2014 the city makes regular interest payments to those investors and eventually returns the original amount borrowed.\n\n## Why Not Just Use Tax Revenue?\n\nCities do use tax revenue to pay for plenty of things: police salaries, office supplies, snow plows. But major infrastructure projects \u2014 schools, highways, water treatment plants, hospitals \u2014 cost enormous sums of money all at once. Waiting until a city has saved up enough tax dollars could mean waiting decades while roads crumble and classrooms overflow.\n\nBorrowing through bonds lets a city spread the cost of a big project over many years, which makes practical sense because the things being built will serve the public for many years too. The people who use a new library in 2040 help pay for it through the taxes that fund bond repayments, rather than forcing today's taxpayers to shoulder the entire bill.\n\nThink of it like a home mortgage. Most families can't pay cash for a house, so they borrow and pay it back over 30 years. Cities operate on the same logic, just at a much larger scale.\n\n## Who Issues Municipal Bonds?\n\nThe word \"municipal\" might suggest only cities, but the term covers bonds issued by all kinds of state and local government entities: states, counties, cities, towns, school districts, public universities, airport authorities, water districts, and toll road agencies, among others. If it's a government body below the federal level, it can likely issue munis.\n\n## Why Do Investors Buy Them?\n\nHere's the feature that makes municipal bonds especially attractive: **in most",
+  "run_name": "2026-03-07-openrouter-v0-1"
+}

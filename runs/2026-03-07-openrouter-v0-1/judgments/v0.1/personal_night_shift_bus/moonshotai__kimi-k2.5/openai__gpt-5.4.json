@@ -1,0 +1,47 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.1",
+  "candidate_model_id": "moonshotai/kimi-k2.5",
+  "created_at": "2026-03-07T17:47:24Z",
+  "judge_model_id": "openai/gpt-5.4",
+  "metadata": {
+    "id": "gen-1772905640-jToYGzROphcetSYLvJdy",
+    "raw_text": "{\"scores\":{\"clarity\":5,\"simplicity\":3,\"brevity_economy\":4,\"structure_flow\":5,\"specificity_precision\":5,\"humanity_voice\":5,\"overall\":5},\"rationale\":\"Vivid, coherent, and well-shaped essay with strong scene details and a clear emotional arc. The bus route, riders, and driver are rendered precisely and memorably. The main weakness is simplicity: the prose is often lyrical and image-dense, with a few phrases that feel a bit polished or inflated for plain nonfiction. It is slightly more ornate than necessary, but still highly effective overall.\"}",
+    "usage": {
+      "completion_tokens": 238,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 104
+      },
+      "cost": 0.007605,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.00357,
+        "upstream_inference_cost": 0.007605,
+        "upstream_inference_prompt_cost": 0.004035
+      },
+      "is_byok": false,
+      "prompt_tokens": 1614,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 1852
+    }
+  },
+  "prompt_category": "personal_nonfiction",
+  "prompt_id": "personal_night_shift_bus",
+  "rationale": "Vivid, coherent, and well-shaped essay with strong scene details and a clear emotional arc. The bus route, riders, and driver are rendered precisely and memorably. The main weakness is simplicity: the prose is often lyrical and image-dense, with a few phrases that feel a bit polished or inflated for plain nonfiction. It is slightly more ornate than necessary, but still highly effective overall.",
+  "run_name": "2026-03-07-openrouter-v0-1",
+  "scores": {
+    "brevity_economy": 4,
+    "clarity": 5,
+    "humanity_voice": 5,
+    "overall": 5,
+    "simplicity": 3,
+    "specificity_precision": 5,
+    "structure_flow": 5
+  }
+}

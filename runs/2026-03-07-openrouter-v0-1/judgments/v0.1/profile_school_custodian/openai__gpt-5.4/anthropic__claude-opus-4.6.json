@@ -1,0 +1,47 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.1",
+  "candidate_model_id": "openai/gpt-5.4",
+  "created_at": "2026-03-07T17:03:20Z",
+  "judge_model_id": "anthropic/claude-opus-4.6",
+  "metadata": {
+    "id": "gen-1772902994-T6pUU1EqbhzAqv18h4GA",
+    "raw_text": "{\"scores\": {\"clarity\": 5, \"simplicity\": 5, \"brevity_economy\": 5, \"structure_flow\": 5, \"specificity_precision\": 5, \"humanity_voice\": 5, \"overall\": 5}, \"rationale\": \"This is exceptional profile writing. The opening scene-setting is cinematic and precise ('soft metal jangle,' 'damp sneakers, perfume, winter coats, and unfinished homework'). The language is plain but never flat\u2014every sentence earns its place. The dialogue snippets efficiently demonstrate the central claim (knowing every student by name) rather than merely asserting it. The sensory choreography of the morning routine grounds the reader in physical reality. The final paragraph expands from names to deeper knowledge with a beautifully constructed catalog that reveals character and community. The piece is cut off, which is unfortunate, but what exists is nearly flawless magazine-quality profile writing with strong voice, rhythm, and specificity. The structure flows naturally from dark/empty building to populated building, from surface knowledge to intimate knowledge. No wasted words anywhere.\"}",
+    "usage": {
+      "completion_tokens": 245,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 0
+      },
+      "cost": 0.00984,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.006125,
+        "upstream_inference_cost": 0.00984,
+        "upstream_inference_prompt_cost": 0.003715
+      },
+      "is_byok": false,
+      "prompt_tokens": 743,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 988
+    }
+  },
+  "prompt_category": "profile",
+  "prompt_id": "profile_school_custodian",
+  "rationale": "This is exceptional profile writing. The opening scene-setting is cinematic and precise ('soft metal jangle,' 'damp sneakers, perfume, winter coats, and unfinished homework'). The language is plain but never flat\u2014every sentence earns its place. The dialogue snippets efficiently demonstrate the central claim (knowing every student by name) rather than merely asserting it. The sensory choreography of the morning routine grounds the reader in physical reality. The final paragraph expands from names to deeper knowledge with a beautifully constructed catalog that reveals character and community. The piece is cut off, which is unfortunate, but what exists is nearly flawless magazine-quality profile writing with strong voice, rhythm, and specificity. The structure flows naturally from dark/empty building to populated building, from surface knowledge to intimate knowledge. No wasted words anywhere.",
+  "run_name": "2026-03-07-openrouter-v0-1",
+  "scores": {
+    "brevity_economy": 5,
+    "clarity": 5,
+    "humanity_voice": 5,
+    "overall": 5,
+    "simplicity": 5,
+    "specificity_precision": 5,
+    "structure_flow": 5
+  }
+}

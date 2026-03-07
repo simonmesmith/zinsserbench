@@ -1,0 +1,47 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.1",
+  "candidate_model_id": "moonshotai/kimi-k2.5",
+  "created_at": "2026-03-07T17:15:35Z",
+  "judge_model_id": "anthropic/claude-opus-4.6",
+  "metadata": {
+    "id": "gen-1772903729-Ol0deEb5rMafhPxBzvbQ",
+    "raw_text": "{\"scores\": {\"clarity\": 5, \"simplicity\": 4, \"brevity_economy\": 4, \"structure_flow\": 4, \"specificity_precision\": 5, \"humanity_voice\": 4, \"overall\": 4}, \"rationale\": \"The response is highly clear and well-organized with numbered steps and bold headers that make it scannable in an emergency. Specificity is excellent\u2014noting water color as a diagnostic clue, mentioning breaker boxes, and advising to save damaged drywall pieces are concrete, actionable details. Language is mostly plain and direct, though phrases like 'containment vessel' are slightly inflated (just say 'container'). The guide is unfortunately cut off mid-section ('Verbal' is incomplete), which significantly hurts completeness and structure. What exists flows logically from safety to documentation to notification. Voice is practical and reader-aware with parenthetical explanations that feel helpful rather than mechanical. The truncation prevents a higher overall score despite the strong quality of what's present.\"}",
+    "usage": {
+      "completion_tokens": 229,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 0
+      },
+      "cost": 0.00905,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.005725,
+        "upstream_inference_cost": 0.00905,
+        "upstream_inference_prompt_cost": 0.003325
+      },
+      "is_byok": false,
+      "prompt_tokens": 665,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 894
+    }
+  },
+  "prompt_category": "service_howto",
+  "prompt_id": "howto_report_water_leak",
+  "rationale": "The response is highly clear and well-organized with numbered steps and bold headers that make it scannable in an emergency. Specificity is excellent\u2014noting water color as a diagnostic clue, mentioning breaker boxes, and advising to save damaged drywall pieces are concrete, actionable details. Language is mostly plain and direct, though phrases like 'containment vessel' are slightly inflated (just say 'container'). The guide is unfortunately cut off mid-section ('Verbal' is incomplete), which significantly hurts completeness and structure. What exists flows logically from safety to documentation to notification. Voice is practical and reader-aware with parenthetical explanations that feel helpful rather than mechanical. The truncation prevents a higher overall score despite the strong quality of what's present.",
+  "run_name": "2026-03-07-openrouter-v0-1",
+  "scores": {
+    "brevity_economy": 4,
+    "clarity": 5,
+    "humanity_voice": 4,
+    "overall": 4,
+    "simplicity": 4,
+    "specificity_precision": 5,
+    "structure_flow": 4
+  }
+}

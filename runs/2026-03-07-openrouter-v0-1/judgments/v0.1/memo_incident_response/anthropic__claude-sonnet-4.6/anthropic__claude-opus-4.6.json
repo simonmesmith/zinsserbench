@@ -1,0 +1,47 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.1",
+  "candidate_model_id": "anthropic/claude-sonnet-4.6",
+  "created_at": "2026-03-07T17:30:44Z",
+  "judge_model_id": "anthropic/claude-opus-4.6",
+  "metadata": {
+    "id": "gen-1772904636-6LU6LcN5Z1NlaquQ9nAC",
+    "raw_text": "{\"scores\": {\"clarity\": 5, \"simplicity\": 4, \"brevity_economy\": 4, \"structure_flow\": 5, \"specificity_precision\": 5, \"humanity_voice\": 4, \"overall\": 5}, \"rationale\": \"Exceptionally well-structured memo with clear headers, a timeline table, and logical progression from what happened to what was fixed. The root cause explanation (misconfigured update causing a memory leak that cascaded under load) is specific and concrete without being overly technical. The writing is direct and plain, though a few phrases lean slightly formal ('underpin virtually every internal application'). The human touches \u2014 acknowledging disruption, thanking employees \u2014 are present and genuine without being overwrought. The bulleted list of affected vs. unaffected systems is a smart inclusion. The piece is cut off mid-table, which prevents full evaluation of the 'what we fixed' and 'next steps' sections, but what's present is excellent. Minor ding on simplicity for occasional corporate-speak ('unusually broad impact across the organization') and on brevity only because the full memo would likely be long, though what's shown is well-paced.\"}",
+    "usage": {
+      "completion_tokens": 263,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 0
+      },
+      "cost": 0.010835,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.006575,
+        "upstream_inference_cost": 0.010835,
+        "upstream_inference_prompt_cost": 0.00426
+      },
+      "is_byok": false,
+      "prompt_tokens": 852,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 1115
+    }
+  },
+  "prompt_category": "memo",
+  "prompt_id": "memo_incident_response",
+  "rationale": "Exceptionally well-structured memo with clear headers, a timeline table, and logical progression from what happened to what was fixed. The root cause explanation (misconfigured update causing a memory leak that cascaded under load) is specific and concrete without being overly technical. The writing is direct and plain, though a few phrases lean slightly formal ('underpin virtually every internal application'). The human touches \u2014 acknowledging disruption, thanking employees \u2014 are present and genuine without being overwrought. The bulleted list of affected vs. unaffected systems is a smart inclusion. The piece is cut off mid-table, which prevents full evaluation of the 'what we fixed' and 'next steps' sections, but what's present is excellent. Minor ding on simplicity for occasional corporate-speak ('unusually broad impact across the organization') and on brevity only because the full memo would likely be long, though what's shown is well-paced.",
+  "run_name": "2026-03-07-openrouter-v0-1",
+  "scores": {
+    "brevity_economy": 4,
+    "clarity": 5,
+    "humanity_voice": 4,
+    "overall": 5,
+    "simplicity": 4,
+    "specificity_precision": 5,
+    "structure_flow": 5
+  }
+}

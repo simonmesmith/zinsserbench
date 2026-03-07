@@ -1,0 +1,47 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.1",
+  "candidate_model_id": "deepseek/deepseek-v3.2",
+  "created_at": "2026-03-07T17:44:17Z",
+  "judge_model_id": "openai/gpt-5.4",
+  "metadata": {
+    "id": "gen-1772905450-ZbDxJogO5dGdLu9eRQ4v",
+    "raw_text": "{\"scores\":{\"clarity\":4,\"simplicity\":3,\"brevity_economy\":3,\"structure_flow\":4,\"specificity_precision\":3,\"humanity_voice\":4,\"overall\":4},\"rationale\":\"Clear, well-organized argument with a lively, persuasive voice and a good concession to critics. It uses some concrete examples, but much of the wording is generic or inflated, and the piece overstates at times. The incomplete final sentence also hurts polish and flow.\"}",
+    "usage": {
+      "completion_tokens": 357,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 249
+      },
+      "cost": 0.00745,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.005355,
+        "upstream_inference_cost": 0.00745,
+        "upstream_inference_prompt_cost": 0.002095
+      },
+      "is_byok": false,
+      "prompt_tokens": 838,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 1195
+    }
+  },
+  "prompt_category": "persuasion_oped",
+  "prompt_id": "oped_corner_store",
+  "rationale": "Clear, well-organized argument with a lively, persuasive voice and a good concession to critics. It uses some concrete examples, but much of the wording is generic or inflated, and the piece overstates at times. The incomplete final sentence also hurts polish and flow.",
+  "run_name": "2026-03-07-openrouter-v0-1",
+  "scores": {
+    "brevity_economy": 3,
+    "clarity": 4,
+    "humanity_voice": 4,
+    "overall": 4,
+    "simplicity": 3,
+    "specificity_precision": 3,
+    "structure_flow": 4
+  }
+}

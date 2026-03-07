@@ -1,0 +1,37 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.1",
+  "candidate_label": "Grok 4.1 Fast",
+  "candidate_model_id": "x-ai/grok-4.1-fast",
+  "created_at": "2026-03-07T15:12:42Z",
+  "metadata": {
+    "id": "gen-1772896355-sorCmJGVDpDEcmN1XLXB",
+    "usage": {
+      "completion_tokens": 780,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 280
+      },
+      "cost": 0.00040925,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.00039,
+        "upstream_inference_cost": 0.00040925,
+        "upstream_inference_prompt_cost": 1.925e-05
+      },
+      "is_byok": false,
+      "prompt_tokens": 208,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 149,
+        "video_tokens": 0
+      },
+      "total_tokens": 988
+    }
+  },
+  "prompt_category": "explain",
+  "prompt_id": "explain_food_recall",
+  "response_text": "# What a Food Recall Means\u2014and What to Do If It's in Your Kitchen\n\nFood recalls happen more often than you might think: the U.S. Food and Drug Administration (FDA) and U.S. Department of Agriculture (USDA) oversee thousands each year. If you've ever seen a news headline about contaminated peanut butter or undeclared allergens in ice cream, that's a recall in action. Here's a straightforward guide to understanding recalls and protecting yourself.\n\n## What Is a Food Recall?\nA **food recall** is an official action to remove a specific product from the market because it poses a health or safety risk. It's usually voluntary\u2014meaning the company pulls it themselves\u2014but often at the urging of regulators like the FDA (for most foods) or USDA (for meat, poultry, and eggs).\n\n### Why Do Recalls Happen?\nCommon reasons include:\n- **Contamination**: Bacteria like Salmonella, E. coli, or Listeria; foreign objects like glass or metal.\n- **Allergens**: Undeclared ingredients (e.g., peanuts in a cookie labeled \"nut-free\").\n- **Mislabeling**: Wrong nutrition info, expiration dates, or \"best by\" dates.\n- **Other issues**: Spoilage, chemical contamination, or tampering.\n\nRecalls are classified by risk level:\n- **Class I**: Highest danger\u2014could cause serious illness or death (e.g., Listeria in deli meats).\n- **Class II**: May cause temporary illness (e.g., mild Salmonella).\n- **Class III**: Low risk, unlikely to harm but violates regulations (e.g., labeling errors).\n\nNot all recalls make big news; some are quiet fixes.\n\n## How Do You Hear About a Recall?\n- **News and social media**: Major ones hit headlines.\n- **Official sites**: FDA.gov/recalls, USDA.gov/recalls, or Recalls.gov (a one-stop search tool).\n- **Store notices**: Signs, emails, or apps from chains like Walmart or Kroger.\n- **Company alerts**: Emails if you're on their list, or product packaging updates.\n\nPro tip: Download the FDA or USDA recall apps for push notifications.\n\n## What Should You Do If the Recalled Product Is in Your Kitchen?\nDon't panic, but act fast. Here's your step-by-step action plan:\n\n1. **Verify It's Yours**:\n   - Check the exact product name, brand, size, lot/code numbers, \"use by\" or \"best by\" dates, and UPC barcode.\n   - Compare to the recall notice (",
+  "run_name": "2026-03-07-openrouter-v0-1"
+}

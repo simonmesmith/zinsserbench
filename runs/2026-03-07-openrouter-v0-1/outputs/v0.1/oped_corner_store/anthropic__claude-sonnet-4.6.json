@@ -1,0 +1,37 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.1",
+  "candidate_label": "Claude Sonnet 4.6",
+  "candidate_model_id": "anthropic/claude-sonnet-4.6",
+  "created_at": "2026-03-07T15:14:11Z",
+  "metadata": {
+    "id": "gen-1772896440-WWk0clVN0V5qUsUTKxnT",
+    "usage": {
+      "completion_tokens": 500,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 46
+      },
+      "cost": 0.007716,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.0075,
+        "upstream_inference_cost": 0.007716,
+        "upstream_inference_prompt_cost": 0.000216
+      },
+      "is_byok": false,
+      "prompt_tokens": 72,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 572
+    }
+  },
+  "prompt_category": "persuasion_oped",
+  "prompt_id": "oped_corner_store",
+  "response_text": "# Bring Back the Corner Store: Why Our Neighborhoods Need Small Shops Again\n\nThere is a particular kind of magic that happens when a neighborhood has a good corner store. You know the place: a small shop wedged between homes, its windows glowing in the early morning, run by someone who knows your name and keeps your preferred brand of coffee on the shelf. For much of American urban history, these stores were unremarkable fixtures of daily life. Then zoning laws slowly squeezed them out, and we are only now beginning to understand what we lost.\n\nIt is time to bring them back.\n\nAcross the country, residential neighborhoods are locked into strict single-use zoning codes that forbid any commercial activity on their blocks. The logic, inherited from mid-20th century planning ideology, was that separating homes from businesses would protect residential character and property values. The result, after decades of enforcement, is sterile neighborhoods where residents must drive several miles for a carton of milk, where streets are empty and lifeless after five o'clock, and where the built environment actively discourages the kind of casual human contact that holds communities together.\n\nAllowing small corner stores to return would address all of this at once.\n\n**The practical case is overwhelming.** Food access is a genuine public health issue. Millions of Americans live in what researchers call \"food deserts\" \u2014 areas where fresh, affordable groceries are simply not within walking distance. Elderly residents, people without cars, parents with young children, and people with disabilities carry this burden most heavily. A single, well-stocked corner store within a few blocks can meaningfully change what people eat, reduce transportation costs, and restore a basic element of self-sufficiency to daily life. No city bus route or rideshare app is a substitute for being able to walk three minutes to get what you need.\n\n**The economic case is equally compelling.** Small corner stores are incubators for local entrepreneurship. They are typically owned by individuals or families \u2014 often immigrants building a foothold in a new country \u2014 not by distant corporations. The money spent there circulates locally. The jobs created are accessible to people",
+  "run_name": "2026-03-07-openrouter-v0-1"
+}

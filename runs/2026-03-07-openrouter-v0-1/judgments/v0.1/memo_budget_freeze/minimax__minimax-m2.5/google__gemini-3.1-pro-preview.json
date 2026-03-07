@@ -1,0 +1,47 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.1",
+  "candidate_model_id": "minimax/minimax-m2.5",
+  "created_at": "2026-03-07T16:56:33Z",
+  "judge_model_id": "google/gemini-3.1-pro-preview",
+  "metadata": {
+    "id": "gen-1772902585-RgUFx3q47cUH3ksyhrVL",
+    "raw_text": "{\n  \"scores\": {\n    \"clarity\": 4,\n    \"simplicity\": 4,\n    \"brevity_economy\": 4,\n    \"structure_flow\": 3,\n    \"specificity_precision\": 4,\n    \"humanity_voice\": 3,\n    \"overall\": 2\n  },\n  \"rationale\": \"The memo is clear, well-structured, and uses precise language to detail the budget freeze. However, the response cuts off abruptly at the end and completely fails to address the prompt's requirement to state what questions managers should bring forward.\"\n}",
+    "usage": {
+      "completion_tokens": 575,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 441
+      },
+      "cost": 0.008532,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.0069,
+        "upstream_inference_cost": 0.008532,
+        "upstream_inference_prompt_cost": 0.001632
+      },
+      "is_byok": false,
+      "prompt_tokens": 816,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 1391
+    }
+  },
+  "prompt_category": "memo",
+  "prompt_id": "memo_budget_freeze",
+  "rationale": "The memo is clear, well-structured, and uses precise language to detail the budget freeze. However, the response cuts off abruptly at the end and completely fails to address the prompt's requirement to state what questions managers should bring forward.",
+  "run_name": "2026-03-07-openrouter-v0-1",
+  "scores": {
+    "brevity_economy": 4,
+    "clarity": 4,
+    "humanity_voice": 3,
+    "overall": 2,
+    "simplicity": 4,
+    "specificity_precision": 4,
+    "structure_flow": 3
+  }
+}

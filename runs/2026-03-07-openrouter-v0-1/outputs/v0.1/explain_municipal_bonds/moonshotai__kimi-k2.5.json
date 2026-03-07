@@ -1,0 +1,37 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.1",
+  "candidate_label": "Kimi K2.5",
+  "candidate_model_id": "moonshotai/kimi-k2.5",
+  "created_at": "2026-03-07T15:06:24Z",
+  "metadata": {
+    "id": "gen-1772895896-qfkR2aduN5e0SbQgnSN9",
+    "usage": {
+      "completion_tokens": 1078,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 501
+      },
+      "cost": 0.00245295,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.0024255,
+        "upstream_inference_cost": 0.00245295,
+        "upstream_inference_prompt_cost": 2.745e-05
+      },
+      "is_byok": false,
+      "prompt_tokens": 61,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 1139
+    }
+  },
+  "prompt_category": "explain",
+  "prompt_id": "explain_municipal_bonds",
+  "response_text": "Think of a municipal bond as an IOU that a city writes to its neighbors\u2014and to investors around the country.\n\nWhen a city needs to build something expensive that will last for decades\u2014a new high school, a water treatment plant, or a bridge\u2014it faces the same dilemma you face when buying a house. It could try to save up and pay cash, but that would mean waiting twenty years while the old pipes burst and the school overcrowds. Or it can borrow the money, build now, and pay it back over time while the community enjoys the new asset.\n\nThat is exactly what a municipal bond does. The city borrows a large sum\u2014say, $50 million\u2014by selling bonds to investors. The investors hand over cash today, and the city promises to pay them back in regular installments over the next 10, 20, or 30 years, plus a little extra as a thank-you (interest). Once the debt is paid off, the bond disappears.\n\n**Why cities choose to borrow rather than pay upfront**\n\nCities issue bonds for three practical reasons:\n\n1. **Spreading the cost across generations.** A new sewer line might last 40 years. If the city taxed residents enough to pay for it in one year, today\u2019s taxpayers would bear the full burden while tomorrow\u2019s residents use it for free. Bonds let the city match the payments to the lifespan of the project, so the people who benefit from the infrastructure help pay for it over time.\n\n2. **Keeping daily services running.** City budgets are tight. If a town had to drain its savings to rebuild a fire station, it might have to lay off firefighters or delay road repairs that same year. Bonds allow the city to keep the lights on and the buses running while still making big capital investments.\n\n3. **Access to cheaper money.** Because the federal government does not tax the interest earned on most municipal bonds, investors are willing to accept lower interest rates than they would demand from a corporation. This \u201ctax break\u201d effectively gives cities a discount on their loans, making it cheaper for them to build than it would be for a private company.\n\n**What happens to the money**\n\nWhen you buy a municipal bond\u2014often through a broker or a mutual fund\u2014you are essentially becoming the city\u2019s banker. The city uses your cash to pour concrete, hire construction crews, and buy equipment. Every six months, you receive an interest payment, and when the bond matures, you get your original investment back. Most city bonds are backed by property taxes or specific revenue (like bridge tolls), so the risk of default is historically low.\n\nIn short, municipal bonds are a way for communities to invest in themselves without breaking the bank today. They let cities fix the roof while the sun is shining, ensuring that schools, water systems, and transit networks keep pace with the people who rely on them.",
+  "run_name": "2026-03-07-openrouter-v0-1"
+}

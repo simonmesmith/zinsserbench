@@ -1,0 +1,47 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.1",
+  "candidate_model_id": "x-ai/grok-4.1-fast",
+  "created_at": "2026-03-07T17:11:23Z",
+  "judge_model_id": "anthropic/claude-opus-4.6",
+  "metadata": {
+    "id": "gen-1772903477-OFqAtLXZg6zMkiektHng",
+    "raw_text": "{\"scores\": {\"clarity\": 5, \"simplicity\": 5, \"brevity_economy\": 4, \"structure_flow\": 5, \"specificity_precision\": 5, \"humanity_voice\": 4, \"overall\": 5}, \"rationale\": \"Exceptionally clear and well-organized guide with numbered steps, a useful comparison table for venues, a sample agenda, and concrete examples (e.g., '40 mph on a 25 mph street near a school'). Language is plain and direct throughout. The tips and pitfall callouts add practical value. Minor dings: the intro paragraph has a touch of motivational padding ('even if you're new to activism'), and the piece is cut off mid-agenda, which hurts completeness\u2014but judging what's on the page, the writing quality is strong. Voice is warm and reader-aware without being overly casual or bureaucratic. Specificity is a standout strength with exact tools (Google Forms, Nextdoor), attendee targets (20-50), and time recommendations.\"}",
+    "usage": {
+      "completion_tokens": 233,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 0
+      },
+      "cost": 0.010715,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.005825,
+        "upstream_inference_cost": 0.010715,
+        "upstream_inference_prompt_cost": 0.00489
+      },
+      "is_byok": false,
+      "prompt_tokens": 978,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 1211
+    }
+  },
+  "prompt_category": "service_howto",
+  "prompt_id": "howto_neighborhood_meeting",
+  "rationale": "Exceptionally clear and well-organized guide with numbered steps, a useful comparison table for venues, a sample agenda, and concrete examples (e.g., '40 mph on a 25 mph street near a school'). Language is plain and direct throughout. The tips and pitfall callouts add practical value. Minor dings: the intro paragraph has a touch of motivational padding ('even if you're new to activism'), and the piece is cut off mid-agenda, which hurts completeness\u2014but judging what's on the page, the writing quality is strong. Voice is warm and reader-aware without being overly casual or bureaucratic. Specificity is a standout strength with exact tools (Google Forms, Nextdoor), attendee targets (20-50), and time recommendations.",
+  "run_name": "2026-03-07-openrouter-v0-1",
+  "scores": {
+    "brevity_economy": 4,
+    "clarity": 5,
+    "humanity_voice": 4,
+    "overall": 5,
+    "simplicity": 5,
+    "specificity_precision": 5,
+    "structure_flow": 5
+  }
+}

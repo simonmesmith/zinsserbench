@@ -1,0 +1,47 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.1",
+  "candidate_model_id": "google/gemini-3.1-flash-lite-preview",
+  "created_at": "2026-03-07T16:50:01Z",
+  "judge_model_id": "anthropic/claude-opus-4.6",
+  "metadata": {
+    "id": "gen-1772902195-kNIX6gVBcXUNHiPaEAQB",
+    "raw_text": "{\"scores\": {\"clarity\": 2, \"simplicity\": 3, \"brevity_economy\": 2, \"structure_flow\": 1, \"specificity_precision\": 1, \"humanity_voice\": 3, \"overall\": 1}, \"rationale\": \"The response is critically incomplete, cutting off mid-sentence after only a brief preamble. It never actually explains the policy, the reasoning behind it, or the next steps employees should take\u2014the three core requirements of the prompt. The few lines present use reasonably plain language and a warm tone, but there is no substance to evaluate for specificity, structure, or effectiveness. A memo that fails to deliver its core content cannot be considered functional.\"}",
+    "usage": {
+      "completion_tokens": 195,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 25
+      },
+      "cost": 0.007455,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.004875,
+        "upstream_inference_cost": 0.007455,
+        "upstream_inference_prompt_cost": 0.00258
+      },
+      "is_byok": false,
+      "prompt_tokens": 516,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 711
+    }
+  },
+  "prompt_category": "memo",
+  "prompt_id": "memo_remote_work_policy",
+  "rationale": "The response is critically incomplete, cutting off mid-sentence after only a brief preamble. It never actually explains the policy, the reasoning behind it, or the next steps employees should take\u2014the three core requirements of the prompt. The few lines present use reasonably plain language and a warm tone, but there is no substance to evaluate for specificity, structure, or effectiveness. A memo that fails to deliver its core content cannot be considered functional.",
+  "run_name": "2026-03-07-openrouter-v0-1",
+  "scores": {
+    "brevity_economy": 2,
+    "clarity": 2,
+    "humanity_voice": 3,
+    "overall": 1,
+    "simplicity": 3,
+    "specificity_precision": 1,
+    "structure_flow": 1
+  }
+}

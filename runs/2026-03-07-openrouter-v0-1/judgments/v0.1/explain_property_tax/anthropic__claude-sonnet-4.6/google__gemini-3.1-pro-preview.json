@@ -1,0 +1,47 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.1",
+  "candidate_model_id": "anthropic/claude-sonnet-4.6",
+  "created_at": "2026-03-07T17:49:41Z",
+  "judge_model_id": "google/gemini-3.1-pro-preview",
+  "metadata": {
+    "id": "gen-1772905762-f4sztZkx8CojgthkQ8LF",
+    "raw_text": "{\n  \"scores\": {\n    \"clarity\": 5,\n    \"simplicity\": 5,\n    \"brevity_economy\": 5,\n    \"structure_flow\": 5,\n    \"specificity_precision\": 5,\n    \"humanity_voice\": 5,\n    \"overall\": 4\n  },\n  \"rationale\": \"The writing on the page is exceptionally clear, simple, and well-structured, using plain English to explain a complex topic. It has a warm, engaging voice and uses precise examples (like the mill rate calculation). However, the response cuts off mid-sentence at the end, which impacts its overall effectiveness.\"\n}",
+    "usage": {
+      "completion_tokens": 736,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 588
+      },
+      "cost": 0.01047,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.008832,
+        "upstream_inference_cost": 0.01047,
+        "upstream_inference_prompt_cost": 0.001638
+      },
+      "is_byok": false,
+      "prompt_tokens": 819,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 1555
+    }
+  },
+  "prompt_category": "explain",
+  "prompt_id": "explain_property_tax",
+  "rationale": "The writing on the page is exceptionally clear, simple, and well-structured, using plain English to explain a complex topic. It has a warm, engaging voice and uses precise examples (like the mill rate calculation). However, the response cuts off mid-sentence at the end, which impacts its overall effectiveness.",
+  "run_name": "2026-03-07-openrouter-v0-1",
+  "scores": {
+    "brevity_economy": 5,
+    "clarity": 5,
+    "humanity_voice": 5,
+    "overall": 4,
+    "simplicity": 5,
+    "specificity_precision": 5,
+    "structure_flow": 5
+  }
+}

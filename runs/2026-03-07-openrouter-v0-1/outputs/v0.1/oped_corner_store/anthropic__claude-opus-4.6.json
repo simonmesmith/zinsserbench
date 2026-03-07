@@ -1,0 +1,37 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.1",
+  "candidate_label": "Claude Opus 4.6",
+  "candidate_model_id": "anthropic/claude-opus-4.6",
+  "created_at": "2026-03-07T15:14:21Z",
+  "metadata": {
+    "id": "gen-1772896446-ePvgW0uCfqdOrBEDj5Hm",
+    "usage": {
+      "completion_tokens": 500,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 50
+      },
+      "cost": 0.01286,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.0125,
+        "upstream_inference_cost": 0.01286,
+        "upstream_inference_prompt_cost": 0.00036
+      },
+      "is_byok": false,
+      "prompt_tokens": 72,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 572
+    }
+  },
+  "prompt_category": "persuasion_oped",
+  "prompt_id": "oped_corner_store",
+  "response_text": "# Bring Back the Corner Store: Why Our Neighborhood Needs Small Shops Where We Live\n\n**By a concerned resident who's tired of driving ten minutes just to buy a carton of eggs**\n\nThere was a time in this country when nearly every neighborhood had a corner store \u2014 a small, unassuming shop where you could grab a loaf of bread, chat with a neighbor, and walk home in five minutes. Somewhere along the way, rigid zoning laws wiped these places off the map, replacing the fabric of mixed, walkable communities with miles of single-use residential blocks where the nearest gallon of milk requires a car trip. It's time we brought the corner store back, and our neighborhood should lead the way.\n\nI'm not talking about big-box retail or noisy commercial strips. I'm talking about a modest, neighborhood-scale shop \u2014 maybe 1,000 square feet \u2014 tucked into a street corner or the ground floor of an existing building. The kind of place with a familiar face behind the counter and a hand-written sign for the daily special. If that sounds like a relic of the past, it shouldn't. It's a model that still thrives in some of the most desirable neighborhoods in the country, from the brownstone blocks of Brooklyn to the bungalow courts of Los Angeles. It works. And we're worse off for having zoned it out of existence.\n\n## The Case for Convenience \u2014 and Equity\n\nThe most immediate argument is simple practicality. When the nearest store is a ten- or fifteen-minute drive away, every forgotten ingredient becomes an errand. Every quick need turns into a production. For residents without reliable access to a car \u2014 the elderly, teenagers, people with disabilities, lower-income families \u2014 it's not just inconvenient. It can be genuinely isolating.\n\nAllowing small corner stores in residential areas is an equity issue. Not everyone can or should have to drive for basic necessities. A walkable source of everyday goods closes a gap that our car-dependent planning created in the first place.\n\n## Stronger Communities, Safer",
+  "run_name": "2026-03-07-openrouter-v0-1"
+}

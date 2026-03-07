@@ -1,0 +1,37 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.1",
+  "candidate_label": "Kimi K2.5",
+  "candidate_model_id": "moonshotai/kimi-k2.5",
+  "created_at": "2026-03-07T15:08:58Z",
+  "metadata": {
+    "id": "gen-1772896109-DHLxJtIcA9Ky13rxkefu",
+    "usage": {
+      "completion_tokens": 500,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 363
+      },
+      "cost": 0.001152,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.001125,
+        "upstream_inference_cost": 0.001152,
+        "upstream_inference_prompt_cost": 2.7e-05
+      },
+      "is_byok": false,
+      "prompt_tokens": 60,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 560
+    }
+  },
+  "prompt_category": "service_howto",
+  "prompt_id": "howto_report_water_leak",
+  "response_text": "**What to Do When Water Is Coming Through Your Ceiling: A Step-by-Step Guide for Tenants**\n\n### Immediate Safety First (Do This Now)\n1. **Turn off electricity** to the affected area at the breaker box if water is near light fixtures, ceiling fans, or outlets. Do not touch wet electrical fixtures.\n2. **Clear the area**\u2014move people, pets, and valuables away from the leak.\n3. **Place a containment vessel**\u2014Position buckets, trash cans, or storage bins under the drip. Line the floor beneath with towels, tarps, or plastic sheeting to prevent carpet/flooring damage.\n\n### Document Everything Immediately\nBefore you touch anything else:\n- **Photograph and video** the active leak, water color (clear vs. brown/rusty indicates pipe age), and any visible ceiling damage from multiple angles.\n- **Note the date, time, and weather conditions** (heavy rain may indicate roof issues; clear weather suggests plumbing).\n- **Save damaged items** for insurance/landlord inspection\u2014do not throw away sodden drywall pieces or damaged belongings yet.\n\n### Notify Your Landlord (The Right Way)\n**Verbal",
+  "run_name": "2026-03-07-openrouter-v0-1"
+}

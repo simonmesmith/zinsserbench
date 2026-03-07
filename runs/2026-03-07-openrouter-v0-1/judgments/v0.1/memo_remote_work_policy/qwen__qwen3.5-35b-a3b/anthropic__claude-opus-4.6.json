@@ -1,0 +1,47 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.1",
+  "candidate_model_id": "qwen/qwen3.5-35b-a3b",
+  "created_at": "2026-03-07T16:52:38Z",
+  "judge_model_id": "anthropic/claude-opus-4.6",
+  "metadata": {
+    "id": "gen-1772902349-LU90ruSrQQKkwxzAeUXr",
+    "raw_text": "{\"scores\": {\"clarity\": 5, \"simplicity\": 4, \"brevity_economy\": 4, \"structure_flow\": 5, \"specificity_precision\": 5, \"humanity_voice\": 4, \"overall\": 5}, \"rationale\": \"Exceptionally well-structured memo with clear headers, numbered lists, and a logical progression from rationale to policy details to next steps. Specificity is strong: concrete dates (Nov 1, Oct 31), exact numbers ($500 stipend, two days/week, 10-3 core hours), and named roles. The tone is warm but professional\u2014'Team,' opening and phrases like 'intentional and focused' feel human without being overly casual. Minor dings: the response is cut off mid-sentence at the end (the handbook link), which slightly hurts completeness; a few phrases like 'facilitate spontaneous collaboration' lean slightly corporate. The three-reason justification is well-articulated with data references. Language is mostly plain and direct, though occasionally edges toward business-speak ('high-value collaboration'). Overall an excellent example of the genre despite the truncation.\"}",
+    "usage": {
+      "completion_tokens": 254,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 0
+      },
+      "cost": 0.011055,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.00635,
+        "upstream_inference_cost": 0.011055,
+        "upstream_inference_prompt_cost": 0.004705
+      },
+      "is_byok": false,
+      "prompt_tokens": 941,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 1195
+    }
+  },
+  "prompt_category": "memo",
+  "prompt_id": "memo_remote_work_policy",
+  "rationale": "Exceptionally well-structured memo with clear headers, numbered lists, and a logical progression from rationale to policy details to next steps. Specificity is strong: concrete dates (Nov 1, Oct 31), exact numbers ($500 stipend, two days/week, 10-3 core hours), and named roles. The tone is warm but professional\u2014'Team,' opening and phrases like 'intentional and focused' feel human without being overly casual. Minor dings: the response is cut off mid-sentence at the end (the handbook link), which slightly hurts completeness; a few phrases like 'facilitate spontaneous collaboration' lean slightly corporate. The three-reason justification is well-articulated with data references. Language is mostly plain and direct, though occasionally edges toward business-speak ('high-value collaboration'). Overall an excellent example of the genre despite the truncation.",
+  "run_name": "2026-03-07-openrouter-v0-1",
+  "scores": {
+    "brevity_economy": 4,
+    "clarity": 5,
+    "humanity_voice": 4,
+    "overall": 5,
+    "simplicity": 4,
+    "specificity_precision": 5,
+    "structure_flow": 5
+  }
+}

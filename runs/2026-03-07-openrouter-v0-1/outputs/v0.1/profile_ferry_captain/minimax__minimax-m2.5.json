@@ -1,0 +1,37 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.1",
+  "candidate_label": "MiniMax M2.5",
+  "candidate_model_id": "minimax/minimax-m2.5",
+  "created_at": "2026-03-07T15:07:09Z",
+  "metadata": {
+    "id": "gen-1772896016-n5muy2pj0dNz2vckV9Ob",
+    "usage": {
+      "completion_tokens": 500,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 210
+      },
+      "cost": 0.0006195,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.0006,
+        "upstream_inference_cost": 0.0006195,
+        "upstream_inference_prompt_cost": 1.95e-05
+      },
+      "is_byok": false,
+      "prompt_tokens": 65,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 565
+    }
+  },
+  "prompt_category": "profile",
+  "prompt_id": "profile_ferry_captain",
+  "response_text": "# The Keeper of the Channel\n\nEvery morning at 5:47, Margaret Hollis climbs the same seventeen steps onto the bridge of the *Cumberland Sound*, her right hand finding the worn spot on the railing where generations of captains have rested their palms. She doesn't need to check the gauge to know the fuel level, doesn't need to look at the chart to remember the shallow stretch near Mallard Point where the channel narrows to sixty feet. After thirty years, the route between Port Alden and Harwick Cove lives in her bones like a hymn.\n\nThe *Cumberland Sound* is a 78-foot ferry built in 1989, the year Margaret turned twenty-three and first earned her captain's license. The vessel has been repainted twice, the engines rebuilt once, and the coffee maker replaced four times\u2014but the wheel is original, its wood darkened by three decades of grip. Margaret has outlasted three owners, two major storms, and the retirement of every dockhand who once taught her how to coil a line.\n\n---\n\nPort Alden wakes in stages. The fish processing plant on the north pier begins its day at four, and by the time Margaret fires the engines at 5:30, the first pickup trucks are already lining up at the dock. She knows their headlights. She knows which drivers will roll down their window to chat and which will simply nod, their faces half-lit by the dashboard glow.\n\nThe crossing takes forty-three minutes in calm weather, fifty in a nor'easter. Margaret has made the trip over 23,000 times. She has watched the osprey nest on the channel marker grow from a few sticks to a fortress",
+  "run_name": "2026-03-07-openrouter-v0-1"
+}

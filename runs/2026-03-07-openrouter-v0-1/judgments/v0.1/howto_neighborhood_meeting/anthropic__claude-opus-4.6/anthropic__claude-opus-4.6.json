@@ -1,0 +1,47 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.1",
+  "candidate_model_id": "anthropic/claude-opus-4.6",
+  "created_at": "2026-03-07T17:10:58Z",
+  "judge_model_id": "anthropic/claude-opus-4.6",
+  "metadata": {
+    "id": "gen-1772903451-aE9HT0DQwpUeIfJkai4y",
+    "raw_text": "{\"scores\": {\"clarity\": 5, \"simplicity\": 5, \"brevity_economy\": 4, \"structure_flow\": 5, \"specificity_precision\": 5, \"humanity_voice\": 5, \"overall\": 5}, \"rationale\": \"Exceptionally clear and well-organized writing. The opening vignettes ('A speeding car blows through your street. A child nearly gets clipped...') immediately ground the reader in the problem with vivid, concrete specifics. The language is plain and direct without being dumbed down. Step 1 is packed with actionable, precise guidance (count cars, note speeds, record times, take photos). Step 2 begins with practical advice about finding allies and gives specific examples of who to approach. The voice is warm, confident, and conversational \u2014 it reads like advice from a capable neighbor, not a bureaucratic manual. The only minor ding is on brevity: the piece is somewhat expansive in its setup and could trim a few sentences, but the elaboration generally earns its space. The response is cut off mid-sentence, which is a limitation of length rather than writing quality. What's present is excellent practical nonfiction.\"}",
+    "usage": {
+      "completion_tokens": 263,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 0
+      },
+      "cost": 0.010845,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.006575,
+        "upstream_inference_cost": 0.010845,
+        "upstream_inference_prompt_cost": 0.00427
+      },
+      "is_byok": false,
+      "prompt_tokens": 854,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 1117
+    }
+  },
+  "prompt_category": "service_howto",
+  "prompt_id": "howto_neighborhood_meeting",
+  "rationale": "Exceptionally clear and well-organized writing. The opening vignettes ('A speeding car blows through your street. A child nearly gets clipped...') immediately ground the reader in the problem with vivid, concrete specifics. The language is plain and direct without being dumbed down. Step 1 is packed with actionable, precise guidance (count cars, note speeds, record times, take photos). Step 2 begins with practical advice about finding allies and gives specific examples of who to approach. The voice is warm, confident, and conversational \u2014 it reads like advice from a capable neighbor, not a bureaucratic manual. The only minor ding is on brevity: the piece is somewhat expansive in its setup and could trim a few sentences, but the elaboration generally earns its space. The response is cut off mid-sentence, which is a limitation of length rather than writing quality. What's present is excellent practical nonfiction.",
+  "run_name": "2026-03-07-openrouter-v0-1",
+  "scores": {
+    "brevity_economy": 4,
+    "clarity": 5,
+    "humanity_voice": 5,
+    "overall": 5,
+    "simplicity": 5,
+    "specificity_precision": 5,
+    "structure_flow": 5
+  }
+}

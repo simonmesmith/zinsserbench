@@ -1,0 +1,47 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.1",
+  "candidate_model_id": "x-ai/grok-4.1-fast",
+  "created_at": "2026-03-07T16:51:00Z",
+  "judge_model_id": "openai/gpt-5.4",
+  "metadata": {
+    "id": "gen-1772902253-sJFrEAOg8ffok4vO74ri",
+    "raw_text": "{\"scores\":{\"clarity\":4,\"simplicity\":4,\"brevity_economy\":3,\"structure_flow\":4,\"specificity_precision\":4,\"humanity_voice\":4,\"overall\":4},\"rationale\":\"Clear, well-organized memo with concrete policy details, reasons, and next steps. The headings and bullets make it easy to scan, and the dates, stipend amounts, and systems add useful specificity. It loses points for slightly promotional/corporate phrasing, a bit more detail than necessary, and the cut-off ending/contact line.\"}",
+    "usage": {
+      "completion_tokens": 431,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 309
+      },
+      "cost": 0.0086625,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.006465,
+        "upstream_inference_cost": 0.0086625,
+        "upstream_inference_prompt_cost": 0.0021975
+      },
+      "is_byok": false,
+      "prompt_tokens": 879,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 1310
+    }
+  },
+  "prompt_category": "memo",
+  "prompt_id": "memo_remote_work_policy",
+  "rationale": "Clear, well-organized memo with concrete policy details, reasons, and next steps. The headings and bullets make it easy to scan, and the dates, stipend amounts, and systems add useful specificity. It loses points for slightly promotional/corporate phrasing, a bit more detail than necessary, and the cut-off ending/contact line.",
+  "run_name": "2026-03-07-openrouter-v0-1",
+  "scores": {
+    "brevity_economy": 3,
+    "clarity": 4,
+    "humanity_voice": 4,
+    "overall": 4,
+    "simplicity": 4,
+    "specificity_precision": 4,
+    "structure_flow": 4
+  }
+}

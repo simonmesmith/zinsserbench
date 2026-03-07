@@ -1,0 +1,37 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.1",
+  "candidate_label": "Kimi K2.5",
+  "candidate_model_id": "moonshotai/kimi-k2.5",
+  "created_at": "2026-03-07T15:12:59Z",
+  "metadata": {
+    "id": "gen-1772896362-OmVzAIAWGDNUW7qaNXzi",
+    "usage": {
+      "completion_tokens": 500,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 379
+      },
+      "cost": 0.0011538,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.001125,
+        "upstream_inference_cost": 0.0011538,
+        "upstream_inference_prompt_cost": 2.88e-05
+      },
+      "is_byok": false,
+      "prompt_tokens": 64,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 564
+    }
+  },
+  "prompt_category": "explain",
+  "prompt_id": "explain_food_recall",
+  "response_text": "**What a Food Recall Actually Means\u2014and Exactly What to Do Next**\n\nA food recall is a manufacturer\u2019s or government agency\u2019s way of pulling a product off the market because it might cause harm. That harm could range from an undeclared allergen (like peanuts or milk) that poses a risk to specific individuals, to bacterial contamination (like *Listeria* or *E. coli*) that could make anyone sick, to physical hazards like glass or plastic fragments.\n\nRecalls are issued by companies voluntarily or ordered by the FDA (for most foods) or the USDA (for meat and poultry). They are not suggestions\u2014they are safety alerts. However, the level of danger varies. A recall due to a missing \u201ccontains wheat\u201d label is critical for someone with celiac disease but irrelevant to others; a recall for *Salmonella* in peanut butter is urgent for everyone",
+  "run_name": "2026-03-07-openrouter-v0-1"
+}

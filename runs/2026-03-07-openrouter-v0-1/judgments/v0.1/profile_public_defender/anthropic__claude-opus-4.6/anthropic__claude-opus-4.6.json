@@ -1,0 +1,47 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.1",
+  "candidate_model_id": "anthropic/claude-opus-4.6",
+  "created_at": "2026-03-07T17:37:20Z",
+  "judge_model_id": "anthropic/claude-opus-4.6",
+  "metadata": {
+    "id": "gen-1772905033-l3ftiUxUtzIRWwJBhH8B",
+    "raw_text": "{\"scores\": {\"clarity\": 5, \"simplicity\": 5, \"brevity_economy\": 5, \"structure_flow\": 5, \"specificity_precision\": 5, \"humanity_voice\": 5, \"overall\": 5}, \"rationale\": \"This is exceptional magazine-quality profile writing. The opening scene is cinematic and precise\u2014gas-station coffee, two monitors, the yellow legal pad\u2014placing the reader immediately in the room. The detail of '241' on the sticky note, contextualized against the ABA's 150-case standard, delivers the central tension with devastating economy. The language is plain and muscular ('a topography of crisis,' 'not quite convincingly'). Every sentence earns its place; there is zero throat-clearing. The structure moves seamlessly from scene to data to quote to biographical setup. Specificity is outstanding: Mecklenburg County, Charlotte, the exact time, the exact case count, 'Ask about the landlord.' The voice is warm, observant, and literary without being overwrought. The piece reads like the opening of a New Yorker or NYT Magazine profile. The only limitation is that it's truncated, but what exists on the page is essentially flawless.\"}",
+    "usage": {
+      "completion_tokens": 275,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 0
+      },
+      "cost": 0.010835,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.006875,
+        "upstream_inference_cost": 0.010835,
+        "upstream_inference_prompt_cost": 0.00396
+      },
+      "is_byok": false,
+      "prompt_tokens": 792,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 1067
+    }
+  },
+  "prompt_category": "profile",
+  "prompt_id": "profile_public_defender",
+  "rationale": "This is exceptional magazine-quality profile writing. The opening scene is cinematic and precise\u2014gas-station coffee, two monitors, the yellow legal pad\u2014placing the reader immediately in the room. The detail of '241' on the sticky note, contextualized against the ABA's 150-case standard, delivers the central tension with devastating economy. The language is plain and muscular ('a topography of crisis,' 'not quite convincingly'). Every sentence earns its place; there is zero throat-clearing. The structure moves seamlessly from scene to data to quote to biographical setup. Specificity is outstanding: Mecklenburg County, Charlotte, the exact time, the exact case count, 'Ask about the landlord.' The voice is warm, observant, and literary without being overwrought. The piece reads like the opening of a New Yorker or NYT Magazine profile. The only limitation is that it's truncated, but what exists on the page is essentially flawless.",
+  "run_name": "2026-03-07-openrouter-v0-1",
+  "scores": {
+    "brevity_economy": 5,
+    "clarity": 5,
+    "humanity_voice": 5,
+    "overall": 5,
+    "simplicity": 5,
+    "specificity_precision": 5,
+    "structure_flow": 5
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.1",
+  "candidate_model_id": "anthropic/claude-opus-4.6",
+  "created_at": "2026-03-07T17:27:32Z",
+  "judge_model_id": "anthropic/claude-opus-4.6",
+  "metadata": {
+    "id": "gen-1772904445-d7FbUw5PCjb9coZ4yjEM",
+    "raw_text": "{\"scores\": {\"clarity\": 5, \"simplicity\": 5, \"brevity_economy\": 5, \"structure_flow\": 4, \"specificity_precision\": 5, \"humanity_voice\": 5, \"overall\": 5}, \"rationale\": \"Exceptionally vivid and precise writing. The deck paint metaphor ('pale continents of exposed concrete drifting among blue seas'), the mildew earning 'tenancy rights,' Mrs. Alderman with her shoebox and paperback \u2014 every detail is concrete and earned. The language is plain but never flat; sentences like 'she was the most democratic gatekeeper I have ever known' do real thematic work with simple words. The transition from the pool to the town's economic decline is seamless and purposeful, connecting the dollar admission and the over-scaled infrastructure to the steel mill's closure. The voice is warm, wry, and unmistakably human. The only slight ding is on structure/flow: the piece is clearly cut off mid-sentence, so we can't fully evaluate the arc or ending. But what exists is among the best personal essay writing \u2014 specific, economical, and deeply felt without sentimentality.\"}",
+    "usage": {
+      "completion_tokens": 264,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 0
+      },
+      "cost": 0.010635,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.0066,
+        "upstream_inference_cost": 0.010635,
+        "upstream_inference_prompt_cost": 0.004035
+      },
+      "is_byok": false,
+      "prompt_tokens": 807,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 1071
+    }
+  },
+  "prompt_category": "personal_nonfiction",
+  "prompt_id": "personal_public_pool",
+  "rationale": "Exceptionally vivid and precise writing. The deck paint metaphor ('pale continents of exposed concrete drifting among blue seas'), the mildew earning 'tenancy rights,' Mrs. Alderman with her shoebox and paperback \u2014 every detail is concrete and earned. The language is plain but never flat; sentences like 'she was the most democratic gatekeeper I have ever known' do real thematic work with simple words. The transition from the pool to the town's economic decline is seamless and purposeful, connecting the dollar admission and the over-scaled infrastructure to the steel mill's closure. The voice is warm, wry, and unmistakably human. The only slight ding is on structure/flow: the piece is clearly cut off mid-sentence, so we can't fully evaluate the arc or ending. But what exists is among the best personal essay writing \u2014 specific, economical, and deeply felt without sentimentality.",
+  "run_name": "2026-03-07-openrouter-v0-1",
+  "scores": {
+    "brevity_economy": 5,
+    "clarity": 5,
+    "humanity_voice": 5,
+    "overall": 5,
+    "simplicity": 5,
+    "specificity_precision": 5,
+    "structure_flow": 4
+  }
+}

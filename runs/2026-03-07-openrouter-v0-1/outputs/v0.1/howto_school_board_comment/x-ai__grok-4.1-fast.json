@@ -1,0 +1,37 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.1",
+  "candidate_label": "Grok 4.1 Fast",
+  "candidate_model_id": "x-ai/grok-4.1-fast",
+  "created_at": "2026-03-07T15:13:41Z",
+  "metadata": {
+    "id": "gen-1772896411-5h6nwolGWbXoEO0X2wjG",
+    "usage": {
+      "completion_tokens": 758,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 258
+      },
+      "cost": 0.00039685,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.000379,
+        "upstream_inference_cost": 0.00039685,
+        "upstream_inference_prompt_cost": 1.785e-05
+      },
+      "is_byok": false,
+      "prompt_tokens": 201,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 149,
+        "video_tokens": 0
+      },
+      "total_tokens": 959
+    }
+  },
+  "prompt_category": "service_howto",
+  "prompt_id": "howto_school_board_comment",
+  "response_text": "# Practical Guide: How Parents Can Prepare to Speak at a School Board Meeting\n\nSpeaking at a school board meeting is a powerful way for parents to influence decisions on curriculum, budgets, policies, and more. It's your chance to advocate for your child and community. Most meetings allow public comment, typically 2-5 minutes per speaker. Preparation is key to delivering a clear, impactful message. Follow these steps to get ready.\n\n## 1. Understand the Meeting Rules and Process\n- **Check the agenda and policies**: Visit your school district's website or call the board office for the meeting date, time, location (or virtual link), agenda, and public comment rules. Note sign-up deadlines (often in-person at the start or online beforehand), time limits, and topics (some restrict off-agenda comments).\n- **Know the format**: Public comment periods are usually at the beginning or end. Speakers may need to state their name and address. No props, disruptions, or Q&A unless specified.\n- **Review past meetings**: Watch recordings on YouTube or the district site to see the flow, board dynamics, and audience behavior.\n\n## 2. Research Your Issue Thoroughly\n- **Gather facts**: Use reliable sources like district reports, state education data (e.g., from your state's DOE website), test scores, or news articles. Avoid unsubstantiated claims\u2014cite specifics (e.g., \"Enrollment dropped 15% per the 2023 report\").\n- **Understand opposing views**: Read board minutes or emails to anticipate counterarguments. Frame your points respectfully.\n- **Connect to your child/family**: Personalize with anecdotes (e.g., \"My daughter struggled with X because of Y policy\"), but back with data.\n- **Define your goal**: Be clear\u2014what do you want? (e.g., \"Vote no on the budget cut\" or \"Pilot a new program.\")\n\n## 3. Craft a Concise, Structured Speech\nAim for 2-3 minutes (300-450 words). Time yourself reading aloud.\n\n- **Structure it like this**:\n  1. **Introduction (10-20 seconds)**: \"Good evening, I'm [Name], parent of [Child's Grade] at [School]. I'm here to address [specific issue].\"\n  2. **Main points (1-2 minutes)**: 2-3 key facts or stories. Use simple language, short sentences. Example: \"Policy Z has led to A, B",
+  "run_name": "2026-03-07-openrouter-v0-1"
+}

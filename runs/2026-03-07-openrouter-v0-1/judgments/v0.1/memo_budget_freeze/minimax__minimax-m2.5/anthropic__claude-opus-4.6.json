@@ -1,0 +1,47 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.1",
+  "candidate_model_id": "minimax/minimax-m2.5",
+  "created_at": "2026-03-07T16:56:30Z",
+  "judge_model_id": "anthropic/claude-opus-4.6",
+  "metadata": {
+    "id": "gen-1772902583-0IxptnfKQcHclidO2E1E",
+    "raw_text": "{\"scores\": {\"clarity\": 5, \"simplicity\": 4, \"brevity_economy\": 4, \"structure_flow\": 5, \"specificity_precision\": 4, \"humanity_voice\": 3, \"overall\": 4}, \"rationale\": \"The memo is exceptionally clear and well-structured, with bold headers and clean bullet points that make it scannable on first read. The affected/not-affected distinction is sharp and useful. Specificity is good\u2014concrete examples like 'per diem and temporary staff required to maintain safe patient ratios' ground the guidance\u2014though placeholder brackets ([Current Date], [CFO]) slightly undercut precision. Language is mostly plain and direct, though phrases like 'preserve cash flow and ensure operational stability' lean slightly corporate. The biggest weakness is humanity and voice: the tone is competent but reads as boilerplate institutional communication with no acknowledgment of the stress this places on department heads or any empathetic framing. The memo also appears truncated\u2014the 'What Is NOT Affected' section cuts off mid-list, and the promised section on 'what questions managers should bring forward' is missing or incomplete, which is a notable gap against the prompt. Despite the cutoff, what's present is well-organized and effective.\"}",
+    "usage": {
+      "completion_tokens": 280,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 0
+      },
+      "cost": 0.011445,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.007,
+        "upstream_inference_cost": 0.011445,
+        "upstream_inference_prompt_cost": 0.004445
+      },
+      "is_byok": false,
+      "prompt_tokens": 889,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 1169
+    }
+  },
+  "prompt_category": "memo",
+  "prompt_id": "memo_budget_freeze",
+  "rationale": "The memo is exceptionally clear and well-structured, with bold headers and clean bullet points that make it scannable on first read. The affected/not-affected distinction is sharp and useful. Specificity is good\u2014concrete examples like 'per diem and temporary staff required to maintain safe patient ratios' ground the guidance\u2014though placeholder brackets ([Current Date], [CFO]) slightly undercut precision. Language is mostly plain and direct, though phrases like 'preserve cash flow and ensure operational stability' lean slightly corporate. The biggest weakness is humanity and voice: the tone is competent but reads as boilerplate institutional communication with no acknowledgment of the stress this places on department heads or any empathetic framing. The memo also appears truncated\u2014the 'What Is NOT Affected' section cuts off mid-list, and the promised section on 'what questions managers should bring forward' is missing or incomplete, which is a notable gap against the prompt. Despite the cutoff, what's present is well-organized and effective.",
+  "run_name": "2026-03-07-openrouter-v0-1",
+  "scores": {
+    "brevity_economy": 4,
+    "clarity": 5,
+    "humanity_voice": 3,
+    "overall": 4,
+    "simplicity": 4,
+    "specificity_precision": 4,
+    "structure_flow": 5
+  }
+}

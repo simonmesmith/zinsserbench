@@ -1,0 +1,47 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.1",
+  "candidate_model_id": "z-ai/glm-5",
+  "created_at": "2026-03-07T16:51:40Z",
+  "judge_model_id": "anthropic/claude-opus-4.6",
+  "metadata": {
+    "id": "gen-1772902293-u48qcyrh5RUY5fV3ZVCe",
+    "raw_text": "{\"scores\": {\"clarity\": 5, \"simplicity\": 4, \"brevity_economy\": 4, \"structure_flow\": 5, \"specificity_precision\": 5, \"humanity_voice\": 4, \"overall\": 4}, \"rationale\": \"Exceptionally well-structured memo with clear headers, bullet points, and logical progression from policy details to rationale to action items. Specificity is a standout strength: concrete dates (Nov 15, Nov 10), exact core hours (1-4 PM EST), named tools (Envoy, Workday, Slack, Zoom), and quarterly in-person cadence. The response is cut off mid-sentence in the action items section, which is a notable flaw\u2014it undermines completeness. Language is mostly plain and direct, though phrases like 'collaborative spirit that drives our success' and 'outcome-oriented' lean slightly corporate. The tone is warm and respectful without being overly casual, appropriate for the audience. Brevity is good\u2014no real padding\u2014though the 'Why' section could be slightly tighter. The truncation prevents a full 5 on overall.\"}",
+    "usage": {
+      "completion_tokens": 258,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 0
+      },
+      "cost": 0.01163,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.00645,
+        "upstream_inference_cost": 0.01163,
+        "upstream_inference_prompt_cost": 0.00518
+      },
+      "is_byok": false,
+      "prompt_tokens": 1036,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 1294
+    }
+  },
+  "prompt_category": "memo",
+  "prompt_id": "memo_remote_work_policy",
+  "rationale": "Exceptionally well-structured memo with clear headers, bullet points, and logical progression from policy details to rationale to action items. Specificity is a standout strength: concrete dates (Nov 15, Nov 10), exact core hours (1-4 PM EST), named tools (Envoy, Workday, Slack, Zoom), and quarterly in-person cadence. The response is cut off mid-sentence in the action items section, which is a notable flaw\u2014it undermines completeness. Language is mostly plain and direct, though phrases like 'collaborative spirit that drives our success' and 'outcome-oriented' lean slightly corporate. The tone is warm and respectful without being overly casual, appropriate for the audience. Brevity is good\u2014no real padding\u2014though the 'Why' section could be slightly tighter. The truncation prevents a full 5 on overall.",
+  "run_name": "2026-03-07-openrouter-v0-1",
+  "scores": {
+    "brevity_economy": 4,
+    "clarity": 5,
+    "humanity_voice": 4,
+    "overall": 4,
+    "simplicity": 4,
+    "specificity_precision": 5,
+    "structure_flow": 5
+  }
+}

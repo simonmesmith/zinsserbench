@@ -1,0 +1,47 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.1",
+  "candidate_model_id": "openai/gpt-5.3-chat",
+  "created_at": "2026-03-07T17:16:33Z",
+  "judge_model_id": "anthropic/claude-opus-4.6",
+  "metadata": {
+    "id": "gen-1772903787-I78NSC4BSgsmQbnEXW0x",
+    "raw_text": "{\"scores\": {\"clarity\": 5, \"simplicity\": 5, \"brevity_economy\": 4, \"structure_flow\": 5, \"specificity_precision\": 3, \"humanity_voice\": 3, \"overall\": 4}, \"rationale\": \"Crystal clear and well-organized with smooth transitions from workers to students to safety to costs. Language is clean and direct throughout. Loses points on specificity: no actual data on library hours, no named city examples, no cost figures\u2014everything stays at the level of reasonable-sounding generality ('many cities have already shown'). The voice is competent but reads like a polished template rather than a piece with a distinctive human perspective or any personal stake. Brevity is good though the closing paragraph slightly restates what's already been said. Solid op-ed structure but lacks the concrete evidence and individual voice that would elevate it.\"}",
+    "usage": {
+      "completion_tokens": 197,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 0
+      },
+      "cost": 0.009135,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.004925,
+        "upstream_inference_cost": 0.009135,
+        "upstream_inference_prompt_cost": 0.00421
+      },
+      "is_byok": false,
+      "prompt_tokens": 842,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 1039
+    }
+  },
+  "prompt_category": "persuasion_oped",
+  "prompt_id": "oped_library_hours",
+  "rationale": "Crystal clear and well-organized with smooth transitions from workers to students to safety to costs. Language is clean and direct throughout. Loses points on specificity: no actual data on library hours, no named city examples, no cost figures\u2014everything stays at the level of reasonable-sounding generality ('many cities have already shown'). The voice is competent but reads like a polished template rather than a piece with a distinctive human perspective or any personal stake. Brevity is good though the closing paragraph slightly restates what's already been said. Solid op-ed structure but lacks the concrete evidence and individual voice that would elevate it.",
+  "run_name": "2026-03-07-openrouter-v0-1",
+  "scores": {
+    "brevity_economy": 4,
+    "clarity": 5,
+    "humanity_voice": 3,
+    "overall": 4,
+    "simplicity": 5,
+    "specificity_precision": 3,
+    "structure_flow": 5
+  }
+}

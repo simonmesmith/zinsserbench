@@ -1,0 +1,37 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.1",
+  "candidate_label": "Grok 4.1 Fast",
+  "candidate_model_id": "x-ai/grok-4.1-fast",
+  "created_at": "2026-03-07T15:13:11Z",
+  "metadata": {
+    "id": "gen-1772896382-hHflD6gifOKACum570bm",
+    "usage": {
+      "completion_tokens": 812,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 312
+      },
+      "cost": 0.00042355,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.000406,
+        "upstream_inference_cost": 0.00042355,
+        "upstream_inference_prompt_cost": 1.755e-05
+      },
+      "is_byok": false,
+      "prompt_tokens": 201,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 151,
+        "video_tokens": 0
+      },
+      "total_tokens": 1013
+    }
+  },
+  "prompt_category": "profile",
+  "prompt_id": "profile_public_defender",
+  "response_text": "# Overloaded and Unbowed: The Relentless World of Public Defender Elena Vasquez\n\n**By [Your Name], Special to the Gazette**\n\nIn the fluorescent-lit bowels of the Polk County Courthouse in Des Moines, Iowa\u2014a midsize city of about 215,000 where cornfields meet strip malls\u2014Elena Vasquez hunches over a battered laptop, her fingers flying across the keys. It's 8:45 a.m. on a Tuesday, and she's prepping for her third hearing of the day. Her caseload? 187 active files, a mix of DUIs, drug possession, assaults, and thefts. The national average for public defenders is around 150 felony cases per year per attorney; Vasquez is carrying triple that, plus misdemeanors.\n\nAt 38, Vasquez is a fixture in Iowa's overburdened public defense system. With her dark hair pulled into a practical ponytail and sensible flats scuffed from endless courtroom sprints, she embodies the grit of a profession that's equal parts warrior and social worker. \"You don't choose this job for the glamour,\" she says, glancing up from her screen. \"You do it because someone has to stand between the state and the forgotten.\"\n\nVasquez's path to public defense wasn't linear. Raised in a working-class Mexican-American family in Chicago's Pilsen neighborhood, she watched her father, a factory worker, navigate the immigration system after a minor traffic stop escalated into deportation proceedings. \"He wasn't a criminal,\" she recalls. \"He was just poor and brown.\" That injustice fueled her law school journey at Drake University, right here in Des Moines. After clerking for a federal judge and a stint at a small firm, she joined the Polk County Public Defender's Office in 2012. \"Private practice pays better, but you defend rich people who did stupid things. Here, you're fighting for survival.\"\n\nDes Moines isn't a metropolis like New York or L.A., but its public defender office mirrors the national crisis. Iowa ranks near the bottom in funding for indigent defense, with attorneys like Vasquez handling up to 300 cases annually\u2014far exceeding the American Bar Association's recommended maximum of 150 felonies or 400 misdemeanors. The office, housed in a drab brick building downtown, has 12 lawyers for a metro area serving 40,000 misdemeanor and 2,000 felony filings yearly. Turnover is brutal: Vasquez is one of only three attorneys with over five years' tenure",
+  "run_name": "2026-03-07-openrouter-v0-1"
+}

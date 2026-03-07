@@ -1,0 +1,47 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.1",
+  "candidate_model_id": "openai/gpt-5.4",
+  "created_at": "2026-03-07T17:45:06Z",
+  "judge_model_id": "openai/gpt-5.4",
+  "metadata": {
+    "id": "gen-1772905500-EOIBHIFcqjuMMxxcZxH8",
+    "raw_text": "{\"scores\":{\"clarity\":4,\"simplicity\":4,\"brevity_economy\":4,\"structure_flow\":3,\"specificity_precision\":5,\"humanity_voice\":5,\"overall\":4},\"rationale\":\"Vivid, readable, and strongly voiced, with concrete details like the flickering grocery sign, shift smells, and nighttime riders. The prose is polished without feeling stiff. Main weakness: the excerpt cuts off mid-sentence, which hurts flow, completeness, and slightly clarity.\"}",
+    "usage": {
+      "completion_tokens": 288,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 178
+      },
+      "cost": 0.0060175,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.00432,
+        "upstream_inference_cost": 0.0060175,
+        "upstream_inference_prompt_cost": 0.0016975
+      },
+      "is_byok": false,
+      "prompt_tokens": 679,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 967
+    }
+  },
+  "prompt_category": "personal_nonfiction",
+  "prompt_id": "personal_night_shift_bus",
+  "rationale": "Vivid, readable, and strongly voiced, with concrete details like the flickering grocery sign, shift smells, and nighttime riders. The prose is polished without feeling stiff. Main weakness: the excerpt cuts off mid-sentence, which hurts flow, completeness, and slightly clarity.",
+  "run_name": "2026-03-07-openrouter-v0-1",
+  "scores": {
+    "brevity_economy": 4,
+    "clarity": 4,
+    "humanity_voice": 5,
+    "overall": 4,
+    "simplicity": 4,
+    "specificity_precision": 5,
+    "structure_flow": 3
+  }
+}

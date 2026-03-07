@@ -1,0 +1,47 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.1",
+  "candidate_model_id": "minimax/minimax-m2.5",
+  "created_at": "2026-03-07T17:12:18Z",
+  "judge_model_id": "openai/gpt-5.4",
+  "metadata": {
+    "id": "gen-1772903532-z2XLkJR2dKnvhYeGMs3H",
+    "raw_text": "{\"scores\":{\"clarity\":5,\"simplicity\":4,\"brevity_economy\":4,\"structure_flow\":5,\"specificity_precision\":4,\"humanity_voice\":3,\"overall\":4},\"rationale\":\"Clear, well-organized step-by-step guide with practical examples like documenting incidents, taking photos, and assigning roles. The language is mostly plain, though a few phrases are slightly polished or generic. It flows logically, but the excerpt is incomplete and the voice feels more template-like than personal.\"}",
+    "usage": {
+      "completion_tokens": 348,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 235
+      },
+      "cost": 0.0071575,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.00522,
+        "upstream_inference_cost": 0.0071575,
+        "upstream_inference_prompt_cost": 0.0019375
+      },
+      "is_byok": false,
+      "prompt_tokens": 775,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 1123
+    }
+  },
+  "prompt_category": "service_howto",
+  "prompt_id": "howto_neighborhood_meeting",
+  "rationale": "Clear, well-organized step-by-step guide with practical examples like documenting incidents, taking photos, and assigning roles. The language is mostly plain, though a few phrases are slightly polished or generic. It flows logically, but the excerpt is incomplete and the voice feels more template-like than personal.",
+  "run_name": "2026-03-07-openrouter-v0-1",
+  "scores": {
+    "brevity_economy": 4,
+    "clarity": 5,
+    "humanity_voice": 3,
+    "overall": 4,
+    "simplicity": 4,
+    "specificity_precision": 4,
+    "structure_flow": 5
+  }
+}

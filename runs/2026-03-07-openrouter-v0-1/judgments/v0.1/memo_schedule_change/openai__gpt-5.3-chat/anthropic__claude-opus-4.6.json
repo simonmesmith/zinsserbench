@@ -1,0 +1,47 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.1",
+  "candidate_model_id": "openai/gpt-5.3-chat",
+  "created_at": "2026-03-07T17:52:05Z",
+  "judge_model_id": "anthropic/claude-opus-4.6",
+  "metadata": {
+    "id": "gen-1772905920-JPuZSSEHbLfJHZylTDRb",
+    "raw_text": "{\"scores\": {\"clarity\": 5, \"simplicity\": 5, \"brevity_economy\": 5, \"structure_flow\": 5, \"specificity_precision\": 5, \"humanity_voice\": 4, \"overall\": 5}, \"rationale\": \"The memo is immediately clear: it states what's changing, why, when it starts and ends, the exact shift times, how employees will learn their assignments, and what to do if there's a conflict. Language is plain and direct throughout with no jargon or filler. Structure flows logically from context \u2192 details \u2192 action items \u2192 appreciation. Specific dates, times, and next steps (scheduling board, email by Nov 17) give employees everything they need. The only minor knock is on humanity/voice\u2014it's warm and respectful but still reads a bit templated ('continued hard work and dedication' is a stock phrase). Overall, this is an exemplary internal memo.\"}",
+    "usage": {
+      "completion_tokens": 206,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 0
+      },
+      "cost": 0.008395,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.00515,
+        "upstream_inference_cost": 0.008395,
+        "upstream_inference_prompt_cost": 0.003245
+      },
+      "is_byok": false,
+      "prompt_tokens": 649,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 855
+    }
+  },
+  "prompt_category": "memo",
+  "prompt_id": "memo_schedule_change",
+  "rationale": "The memo is immediately clear: it states what's changing, why, when it starts and ends, the exact shift times, how employees will learn their assignments, and what to do if there's a conflict. Language is plain and direct throughout with no jargon or filler. Structure flows logically from context \u2192 details \u2192 action items \u2192 appreciation. Specific dates, times, and next steps (scheduling board, email by Nov 17) give employees everything they need. The only minor knock is on humanity/voice\u2014it's warm and respectful but still reads a bit templated ('continued hard work and dedication' is a stock phrase). Overall, this is an exemplary internal memo.",
+  "run_name": "2026-03-07-openrouter-v0-1",
+  "scores": {
+    "brevity_economy": 5,
+    "clarity": 5,
+    "humanity_voice": 4,
+    "overall": 5,
+    "simplicity": 5,
+    "specificity_precision": 5,
+    "structure_flow": 5
+  }
+}

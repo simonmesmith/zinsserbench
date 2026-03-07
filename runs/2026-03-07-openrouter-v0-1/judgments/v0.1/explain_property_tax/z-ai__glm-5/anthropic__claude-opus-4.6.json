@@ -1,0 +1,47 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.1",
+  "candidate_model_id": "z-ai/glm-5",
+  "created_at": "2026-03-07T17:50:39Z",
+  "judge_model_id": "anthropic/claude-opus-4.6",
+  "metadata": {
+    "id": "gen-1772905830-BiTN1OgOQvtGbHJb3LTI",
+    "raw_text": "{\"scores\": {\"clarity\": 5, \"simplicity\": 5, \"brevity_economy\": 4, \"structure_flow\": 4, \"specificity_precision\": 4, \"humanity_voice\": 4, \"overall\": 4}, \"rationale\": \"The writing is exceptionally clear and uses genuinely plain language throughout\u2014the formula presentation, the bullet points, and the explanations are all immediately understandable. The simplicity is excellent: no jargon goes unexplained, and the tone is conversational without being condescending. Brevity is good but not perfect; the opening two paragraphs could be tighter (slight throat-clearing with 'can often feel like a mystery'). Structure is logical and well-organized with headers and a clear progression from formula to assessed value, but the piece is incomplete\u2014it cuts off mid-sentence and never covers Part 2 (the tax rate) or why taxes change year to year, which is a core part of the prompt. Specificity is solid with concrete examples (swimming pool, neighbor's sale, comparable sales), though it lacks any illustrative numbers. Voice is warm and reader-aware ('can help you anticipate changes and budget accordingly'). The incompleteness is the major flaw: the response only covers roughly half the prompt, missing the tax rate side and the explicit 'why they change' synthesis. This significantly limits overall effectiveness despite the high quality of what was written.\"}",
+    "usage": {
+      "completion_tokens": 315,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 0
+      },
+      "cost": 0.011885,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.007875,
+        "upstream_inference_cost": 0.011885,
+        "upstream_inference_prompt_cost": 0.00401
+      },
+      "is_byok": false,
+      "prompt_tokens": 802,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 1117
+    }
+  },
+  "prompt_category": "explain",
+  "prompt_id": "explain_property_tax",
+  "rationale": "The writing is exceptionally clear and uses genuinely plain language throughout\u2014the formula presentation, the bullet points, and the explanations are all immediately understandable. The simplicity is excellent: no jargon goes unexplained, and the tone is conversational without being condescending. Brevity is good but not perfect; the opening two paragraphs could be tighter (slight throat-clearing with 'can often feel like a mystery'). Structure is logical and well-organized with headers and a clear progression from formula to assessed value, but the piece is incomplete\u2014it cuts off mid-sentence and never covers Part 2 (the tax rate) or why taxes change year to year, which is a core part of the prompt. Specificity is solid with concrete examples (swimming pool, neighbor's sale, comparable sales), though it lacks any illustrative numbers. Voice is warm and reader-aware ('can help you anticipate changes and budget accordingly'). The incompleteness is the major flaw: the response only covers roughly half the prompt, missing the tax rate side and the explicit 'why they change' synthesis. This significantly limits overall effectiveness despite the high quality of what was written.",
+  "run_name": "2026-03-07-openrouter-v0-1",
+  "scores": {
+    "brevity_economy": 4,
+    "clarity": 5,
+    "humanity_voice": 4,
+    "overall": 4,
+    "simplicity": 5,
+    "specificity_precision": 4,
+    "structure_flow": 4
+  }
+}

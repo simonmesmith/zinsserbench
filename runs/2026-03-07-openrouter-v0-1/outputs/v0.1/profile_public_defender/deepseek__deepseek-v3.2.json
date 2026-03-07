@@ -1,0 +1,37 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.1",
+  "candidate_label": "DeepSeek V3.2",
+  "candidate_model_id": "deepseek/deepseek-v3.2",
+  "created_at": "2026-03-07T15:13:27Z",
+  "metadata": {
+    "id": "gen-1772896391-v1SuHwV7dUuYYdtq0KMW",
+    "usage": {
+      "completion_tokens": 500,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 217
+      },
+      "cost": 0.000868,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.00084,
+        "upstream_inference_cost": 0.000868,
+        "upstream_inference_prompt_cost": 2.8e-05
+      },
+      "is_byok": false,
+      "prompt_tokens": 50,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 550
+    }
+  },
+  "prompt_category": "profile",
+  "prompt_id": "profile_public_defender",
+  "response_text": "**Profile: Maya Chen, Public Defender**\n\nThe fluorescent lights in the County Public Defender\u2019s Office hum a constant, weary note, a soundtrack to the stacks of manila folders covering every surface of Maya Chen\u2019s desk. In a midsize city like this one, the justice system grinds forward on the fuel of traffic tickets, petty theft, and drug possession cases. Maya, a public defender for eight years, is one of its essential, overworked mechanics.\n\nHer day doesn\u2019t begin at 9 AM; it begins at 7:30, with a scan of the overnight arrest reports. By 8:15, she\u2019s in the jail\u2019s visitation room, meeting a client for the first time. He\u2019s a young man, charged with breaking into a storage unit. He\u2019s scared, talking too fast. Maya listens, her questions calm and precise, cutting through the panic to find the facts. She has twenty minutes before she\u2019s due in court for an arraignment. This is the rhythm of her life: a relentless sprint from jail to courtroom to office and back again, each client a world of complexity she must understand in a matter of moments.\n\nMaya\u2019s caseload typically hovers between 80 and 100 active files. They are not just files; they are people living their worst days. There\u2019s the single mother facing eviction if a suspended license isn\u2019t resolved, the teenager caught with a friend\u2019s marijuana, the chronically homeless man arrested for trespassing\u2014again. For each, she must be investigator, strategist, therapist, and legal warrior. She negotiates",
+  "run_name": "2026-03-07-openrouter-v0-1"
+}

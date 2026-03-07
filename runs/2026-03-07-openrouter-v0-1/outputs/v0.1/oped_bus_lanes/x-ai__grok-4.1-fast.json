@@ -1,0 +1,37 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.1",
+  "candidate_label": "Grok 4.1 Fast",
+  "candidate_model_id": "x-ai/grok-4.1-fast",
+  "created_at": "2026-03-07T15:10:18Z",
+  "metadata": {
+    "id": "gen-1772896205-KTm0T57tWXi5zBwDKLEN",
+    "usage": {
+      "completion_tokens": 789,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 289
+      },
+      "cost": 0.00041175,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.0003945,
+        "upstream_inference_cost": 0.00041175,
+        "upstream_inference_prompt_cost": 1.725e-05
+      },
+      "is_byok": false,
+      "prompt_tokens": 198,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 149,
+        "video_tokens": 0
+      },
+      "total_tokens": 987
+    }
+  },
+  "prompt_category": "persuasion_oped",
+  "prompt_id": "oped_bus_lanes",
+  "response_text": "# Clear the Road: Dedicated Bus Lanes Are the Antidote to Urban Gridlock\n\nIn the heart of our city, the daily commute on Elm Avenue has devolved into a soul-crushing ritual. What was once a vibrant corridor linking neighborhoods, offices, and shops is now a parking lot on wheels. Cars crawl at 10 miles per hour during rush hour, drivers honk in futile rage, and productivity evaporates. The solution isn't more roads or autonomous vehicles\u2014it's already rumbling past us in plain sight: buses. Dedicated bus lanes on congested urban corridors like Elm Avenue would slash traffic, boost transit ridership, cut emissions, and deliver equitable mobility for all. It's time to prioritize people over tailpipes.\n\nFirst, let's confront the math of congestion. A single bus can carry 40 to 80 passengers\u2014equivalent to 40 to 80 cars in terms of road space occupied per person. When buses share lanes with private vehicles, they bog down like everyone else, turning high-capacity transit into low-speed misery. Dedicated lanes change that equation. In cities like Los Angeles, the installation of bus-only lanes on Wilshire Boulevard increased bus speeds by 30% and reduced overall corridor travel times by 15%, according to a 2022 UCLA study. Bogota, Colombia, transformed its TransMilenio system with exclusive busways, moving 2.4 million passengers daily while easing car traffic. Here on Elm Avenue, where buses currently lose 20 minutes per trip to gridlock, dedicated lanes would glide through, freeing up space behind them for smoother car flow. More people move faster; fewer vehicles clog the pipes.\n\nCritics cry foul: \"You're stealing a lane from cars!\" But this ignores person-throughput, not vehicle-throughput. A car lane might handle 1,200 cars per hour, but a bus lane can transport 10,000 passengers per hour\u2014eight times the capacity. Studies from the Institute for Transportation and Development Policy (ITDP) show that converting one general lane to bus-only on busy corridors increases total mobility by 20-50%. In our case, Elm Avenue's four lanes could become three general plus one bus rapid transit (BRT) lane, maintaining or even enhancing capacity while buses run every 3-5 minutes. Drivers might face a minor detour in mindset, but the payoff is a corridor that breathes again.\n\nReliability is the secret sauce that turns skeptics into riders. Right now, our buses are chronically late, deterr",
+  "run_name": "2026-03-07-openrouter-v0-1"
+}

@@ -1,0 +1,47 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.1",
+  "candidate_model_id": "openai/gpt-5.4",
+  "created_at": "2026-03-07T17:26:17Z",
+  "judge_model_id": "anthropic/claude-opus-4.6",
+  "metadata": {
+    "id": "gen-1772904372-PEtqHGHUhElz8dznjY2z",
+    "raw_text": "{\"scores\": {\"clarity\": 5, \"simplicity\": 5, \"brevity_economy\": 5, \"structure_flow\": 5, \"specificity_precision\": 5, \"humanity_voice\": 5, \"overall\": 5}, \"rationale\": \"Exceptional prose throughout. The opening sentence ('as if the town had arranged its values in a row') is both precise and witty. Sensory details are vivid and specific\u2014the tin roof pinging, the shaken box of silverware, the sycamore's wedge of shade. The language is plain but never flat; similes like 'the discipline of people basting a roast' are fresh and earned. The essay moves logically from physical description to social observation, fulfilling the prompt's requirement to reveal something about a town through a pool. The voice is warm, wry, and unmistakably human. The only minor note is that the piece appears to cut off mid-sentence, but what exists on the page is nearly flawless nonfiction writing\u2014economical, concrete, and structurally sound.\"}",
+    "usage": {
+      "completion_tokens": 242,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 0
+      },
+      "cost": 0.00989,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.00605,
+        "upstream_inference_cost": 0.00989,
+        "upstream_inference_prompt_cost": 0.00384
+      },
+      "is_byok": false,
+      "prompt_tokens": 768,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 1010
+    }
+  },
+  "prompt_category": "personal_nonfiction",
+  "prompt_id": "personal_public_pool",
+  "rationale": "Exceptional prose throughout. The opening sentence ('as if the town had arranged its values in a row') is both precise and witty. Sensory details are vivid and specific\u2014the tin roof pinging, the shaken box of silverware, the sycamore's wedge of shade. The language is plain but never flat; similes like 'the discipline of people basting a roast' are fresh and earned. The essay moves logically from physical description to social observation, fulfilling the prompt's requirement to reveal something about a town through a pool. The voice is warm, wry, and unmistakably human. The only minor note is that the piece appears to cut off mid-sentence, but what exists on the page is nearly flawless nonfiction writing\u2014economical, concrete, and structurally sound.",
+  "run_name": "2026-03-07-openrouter-v0-1",
+  "scores": {
+    "brevity_economy": 5,
+    "clarity": 5,
+    "humanity_voice": 5,
+    "overall": 5,
+    "simplicity": 5,
+    "specificity_precision": 5,
+    "structure_flow": 5
+  }
+}

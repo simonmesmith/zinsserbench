@@ -1,0 +1,37 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.1",
+  "candidate_label": "Claude Sonnet 4.6",
+  "candidate_model_id": "anthropic/claude-sonnet-4.6",
+  "created_at": "2026-03-07T15:12:39Z",
+  "metadata": {
+    "id": "gen-1772896348-AYpCBvuxKWDY8nUQ8Lzs",
+    "usage": {
+      "completion_tokens": 500,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 54
+      },
+      "cost": 0.00774,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.0075,
+        "upstream_inference_cost": 0.00774,
+        "upstream_inference_prompt_cost": 0.00024
+      },
+      "is_byok": false,
+      "prompt_tokens": 80,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 580
+    }
+  },
+  "prompt_category": "explain",
+  "prompt_id": "explain_food_recall",
+  "response_text": "# What Is a Food Recall \u2014 and What Should You Do?\n\nYou're scrolling through the news and see a headline: a product you have in your pantry has been recalled. Before you panic \u2014 or before you shrug and ignore it \u2014 here's what you actually need to know.\n\n---\n\n## What a Food Recall Actually Means\n\nA food recall is a request or action to remove a product from the market because it may pose a risk to consumers. Recalls happen when a food is found to be unsafe, mislabeled, or contaminated.\n\nThe most common reasons a food gets recalled include:\n\n- **Contamination with harmful bacteria**, such as Salmonella, Listeria, or E. coli\n- **Undeclared allergens** \u2014 meaning a product contains an ingredient like peanuts, milk, or wheat that isn't listed on the label, putting people with allergies at serious risk\n- **Foreign material**, such as metal fragments, plastic pieces, or glass found in the product\n- **Chemical contamination** or a manufacturing error that makes the product unsafe\n\nRecalls can be initiated by the food company itself \u2014 often after its own quality testing flags a problem \u2014 or they can be requested by a government agency. In the United States, the Food and Drug Administration (FDA) oversees most packaged foods, while the U.S. Department of Agriculture (USDA) handles meat, poultry, and egg products.\n\nRecalls are given a classification that signals how serious they are:\n\n- **Class I**: The most urgent level. There is a reasonable probability that consuming the product will cause serious harm or death.\n- **Class II**: The product may cause temporary or medically reversible health consequences, but the probability of serious harm is low.\n- **Class III**: Consuming the product is unlikely to cause any health consequences, but it still violates regulations.\n\n---\n\n## How to Find Out If Something You Own Has Been Recalled\n\nYou may hear about a recall through news coverage, a store notification, or a manufacturer email if you",
+  "run_name": "2026-03-07-openrouter-v0-1"
+}

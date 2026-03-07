@@ -1,0 +1,47 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.1",
+  "candidate_model_id": "google/gemini-3.1-pro-preview",
+  "created_at": "2026-03-07T17:49:05Z",
+  "judge_model_id": "openai/gpt-5.4",
+  "metadata": {
+    "id": "gen-1772905741-7GYmSVwT25TVxeBVgla3",
+    "raw_text": "{\"scores\":{\"clarity\":1,\"simplicity\":2,\"brevity_economy\":1,\"structure_flow\":1,\"specificity_precision\":1,\"humanity_voice\":2,\"overall\":1},\"rationale\":\"The response is only an incomplete opening sentence, so it does not explain how property taxes are set or why they change. The wording is fairly plain and directly addresses the reader, but there is no developed structure, detail, or usable content to evaluate beyond that.\"}",
+    "usage": {
+      "completion_tokens": 238,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 131
+      },
+      "cost": 0.0045175,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.00357,
+        "upstream_inference_cost": 0.0045175,
+        "upstream_inference_prompt_cost": 0.0009475
+      },
+      "is_byok": false,
+      "prompt_tokens": 379,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 617
+    }
+  },
+  "prompt_category": "explain",
+  "prompt_id": "explain_property_tax",
+  "rationale": "The response is only an incomplete opening sentence, so it does not explain how property taxes are set or why they change. The wording is fairly plain and directly addresses the reader, but there is no developed structure, detail, or usable content to evaluate beyond that.",
+  "run_name": "2026-03-07-openrouter-v0-1",
+  "scores": {
+    "brevity_economy": 1,
+    "clarity": 1,
+    "humanity_voice": 2,
+    "overall": 1,
+    "simplicity": 2,
+    "specificity_precision": 1,
+    "structure_flow": 1
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.1",
+  "candidate_model_id": "google/gemini-3.1-flash-lite-preview",
+  "created_at": "2026-03-07T16:50:04Z",
+  "judge_model_id": "google/gemini-3.1-pro-preview",
+  "metadata": {
+    "id": "gen-1772902197-dLZIKn7fUA7azU8BG6Sa",
+    "raw_text": "{\n  \"scores\": {\n    \"clarity\": 3,\n    \"simplicity\": 4,\n    \"brevity_economy\": 2,\n    \"structure_flow\": 1,\n    \"specificity_precision\": 1,\n    \"humanity_voice\": 3,\n    \"overall\": 1\n  },\n  \"rationale\": \"The response is cut off mid-sentence in the first paragraph and completely fails to address the prompt's requirements to explain the policy, the reason for it, and the next steps.\"\n}",
+    "usage": {
+      "completion_tokens": 371,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 248
+      },
+      "cost": 0.005372,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.004452,
+        "upstream_inference_cost": 0.005372,
+        "upstream_inference_prompt_cost": 0.00092
+      },
+      "is_byok": false,
+      "prompt_tokens": 460,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 831
+    }
+  },
+  "prompt_category": "memo",
+  "prompt_id": "memo_remote_work_policy",
+  "rationale": "The response is cut off mid-sentence in the first paragraph and completely fails to address the prompt's requirements to explain the policy, the reason for it, and the next steps.",
+  "run_name": "2026-03-07-openrouter-v0-1",
+  "scores": {
+    "brevity_economy": 2,
+    "clarity": 3,
+    "humanity_voice": 3,
+    "overall": 1,
+    "simplicity": 4,
+    "specificity_precision": 1,
+    "structure_flow": 1
+  }
+}

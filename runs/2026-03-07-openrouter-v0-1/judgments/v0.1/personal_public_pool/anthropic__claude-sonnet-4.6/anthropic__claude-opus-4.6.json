@@ -1,0 +1,47 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.1",
+  "candidate_model_id": "anthropic/claude-sonnet-4.6",
+  "created_at": "2026-03-07T17:27:10Z",
+  "judge_model_id": "anthropic/claude-opus-4.6",
+  "metadata": {
+    "id": "gen-1772904423-5931mVwYChjGXMLkJqLN",
+    "raw_text": "{\"scores\": {\"clarity\": 5, \"simplicity\": 5, \"brevity_economy\": 5, \"structure_flow\": 4, \"specificity_precision\": 5, \"humanity_voice\": 5, \"overall\": 5}, \"rationale\": \"Exceptionally well-crafted prose with vivid, precise details (mustard-colored privacy slats, institutional green water, dollar bills for the snack bar, chlorine lingering two days). The voice is warm, reflective, and genuinely human\u2014lines like 'a town telling you what it expected you to do wrong before you'd done anything at all' are sharp and earned. Language is plain but never flat; every sentence carries weight. The pool-as-census metaphor is introduced naturally and the essay clearly moves toward its thematic revelation about uneven democracy. The piece is cut short mid-sentence, which hurts structure/flow since we never get the full arc, but what exists is so controlled and compelling it barely matters. Specificity is outstanding\u2014Garrett, the parks director nephew, the hand-painted sign. No throat-clearing, no wasted words.\"}",
+    "usage": {
+      "completion_tokens": 251,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 0
+      },
+      "cost": 0.01029,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.006275,
+        "upstream_inference_cost": 0.01029,
+        "upstream_inference_prompt_cost": 0.004015
+      },
+      "is_byok": false,
+      "prompt_tokens": 803,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 1054
+    }
+  },
+  "prompt_category": "personal_nonfiction",
+  "prompt_id": "personal_public_pool",
+  "rationale": "Exceptionally well-crafted prose with vivid, precise details (mustard-colored privacy slats, institutional green water, dollar bills for the snack bar, chlorine lingering two days). The voice is warm, reflective, and genuinely human\u2014lines like 'a town telling you what it expected you to do wrong before you'd done anything at all' are sharp and earned. Language is plain but never flat; every sentence carries weight. The pool-as-census metaphor is introduced naturally and the essay clearly moves toward its thematic revelation about uneven democracy. The piece is cut short mid-sentence, which hurts structure/flow since we never get the full arc, but what exists is so controlled and compelling it barely matters. Specificity is outstanding\u2014Garrett, the parks director nephew, the hand-painted sign. No throat-clearing, no wasted words.",
+  "run_name": "2026-03-07-openrouter-v0-1",
+  "scores": {
+    "brevity_economy": 5,
+    "clarity": 5,
+    "humanity_voice": 5,
+    "overall": 5,
+    "simplicity": 5,
+    "specificity_precision": 5,
+    "structure_flow": 4
+  }
+}

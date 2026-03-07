@@ -1,0 +1,37 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.1",
+  "candidate_label": "Claude Opus 4.6",
+  "candidate_model_id": "anthropic/claude-opus-4.6",
+  "created_at": "2026-03-07T15:15:52Z",
+  "metadata": {
+    "id": "gen-1772896539-WMMgTiC4LuhrbpQGmG52",
+    "usage": {
+      "completion_tokens": 500,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 77
+      },
+      "cost": 0.012905,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.0125,
+        "upstream_inference_cost": 0.012905,
+        "upstream_inference_prompt_cost": 0.000405
+      },
+      "is_byok": false,
+      "prompt_tokens": 81,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 581
+    }
+  },
+  "prompt_category": "explain",
+  "prompt_id": "explain_property_tax",
+  "response_text": "# How Your Property Tax Bill Works \u2014 And Why It Changes\n\n## The Basic Idea\n\nProperty tax can feel mysterious, but the core concept is straightforward. Your local government needs money to pay for services \u2014 schools, fire departments, roads, parks, libraries, police \u2014 and it raises much of that money by taxing the property people own. Your tax bill comes down to two things multiplied together:\n\n**What your property is worth \u00d7 the tax rate = your tax bill**\n\nThat's really it at the highest level. But each side of that equation has moving parts, which is where things get interesting.\n\n---\n\n## Part One: What Your Property Is Worth (The Assessed Value)\n\nEvery so often, your local government estimates how much your property is worth. This is called an **assessment**. A public official \u2014 usually called an assessor \u2014 assigns your home a value, generally based on what similar homes in your area have sold for recently.\n\nA few things to know about assessments:\n\n- **They don't happen the same way everywhere.** Some counties reassess every year. Others do it every three, five, or even ten years. Some states trigger a reassessment when a property is sold. The rules depend entirely on where you live.\n\n- **Assessed value isn't always the same as market value.** In many places, the assessed value is only a percentage of what your home would actually sell for. For example, a state might assess homes at 80% of market value. A home worth $300,000 on the open market might be assessed at $240,000.\n\n- **You might qualify for exemptions that lower your taxable value.** Many states offer a homestead exemption, which reduces the taxable value of your primary residence by a set amount. There are often additional exemptions for seniors, veterans, and people with disabilities. These don't change what your home is worth \u2014 they just reduce the portion that gets taxed.\n\nSo when you",
+  "run_name": "2026-03-07-openrouter-v0-1"
+}

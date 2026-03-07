@@ -1,0 +1,47 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.1",
+  "candidate_model_id": "openai/gpt-5.3-chat",
+  "created_at": "2026-03-07T16:57:05Z",
+  "judge_model_id": "anthropic/claude-opus-4.6",
+  "metadata": {
+    "id": "gen-1772902617-9iOScGVmQ4tdufhQFVtI",
+    "raw_text": "{\"scores\": {\"clarity\": 5, \"simplicity\": 5, \"brevity_economy\": 4, \"structure_flow\": 5, \"specificity_precision\": 3, \"humanity_voice\": 3, \"overall\": 4}, \"rationale\": \"Very clear and well-organized with a logical progression from how it works to why you'd choose one, ending with a fair caveat about gas furnaces. Language is plain and accessible. Loses a point on brevity for slight repetition (efficiency/lower energy use mentioned multiple times across paragraphs). Specificity is the weakest area: no concrete numbers (e.g., COP of 3-4, temperature thresholds for cold-climate models, approximate cost savings), leaving claims like 'several units of heat' and 'fairly low outdoor temperatures' vague. The voice is competent but reads as polished-generic rather than genuinely engaging or conversational\u2014it lacks any distinctive human touch or personality. Solid explainer overall but could be elevated with a few concrete details and a warmer tone.\"}",
+    "usage": {
+      "completion_tokens": 238,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 0
+      },
+      "cost": 0.00943,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.00595,
+        "upstream_inference_cost": 0.00943,
+        "upstream_inference_prompt_cost": 0.00348
+      },
+      "is_byok": false,
+      "prompt_tokens": 696,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 934
+    }
+  },
+  "prompt_category": "explain",
+  "prompt_id": "explain_heat_pumps",
+  "rationale": "Very clear and well-organized with a logical progression from how it works to why you'd choose one, ending with a fair caveat about gas furnaces. Language is plain and accessible. Loses a point on brevity for slight repetition (efficiency/lower energy use mentioned multiple times across paragraphs). Specificity is the weakest area: no concrete numbers (e.g., COP of 3-4, temperature thresholds for cold-climate models, approximate cost savings), leaving claims like 'several units of heat' and 'fairly low outdoor temperatures' vague. The voice is competent but reads as polished-generic rather than genuinely engaging or conversational\u2014it lacks any distinctive human touch or personality. Solid explainer overall but could be elevated with a few concrete details and a warmer tone.",
+  "run_name": "2026-03-07-openrouter-v0-1",
+  "scores": {
+    "brevity_economy": 4,
+    "clarity": 5,
+    "humanity_voice": 3,
+    "overall": 4,
+    "simplicity": 5,
+    "specificity_precision": 3,
+    "structure_flow": 5
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.1",
+  "candidate_label": "GPT-5.3 Chat",
+  "candidate_model_id": "openai/gpt-5.3-chat",
+  "created_at": "2026-03-07T15:03:43Z",
+  "metadata": {
+    "id": "gen-1772895818-oYy2j8O1PiYWzMs09HqC",
+    "usage": {
+      "completion_tokens": 317,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 0
+      },
+      "cost": 0.004543,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.004438,
+        "upstream_inference_cost": 0.004543,
+        "upstream_inference_prompt_cost": 0.000105
+      },
+      "is_byok": false,
+      "prompt_tokens": 60,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 377
+    }
+  },
+  "prompt_category": "explain",
+  "prompt_id": "explain_heat_pumps",
+  "response_text": ":::writing\nA heat pump is a heating and cooling system that moves heat rather than creating it by burning fuel. It works a bit like a refrigerator in reverse. In winter, the system pulls heat from the outside air (or ground) and moves it indoors. Even cold outdoor air still contains some heat, and the heat pump concentrates and transfers that heat into your home. In summer, the process flips: it removes heat from inside your house and releases it outdoors, acting like an air conditioner.\n\nBecause a heat pump moves heat instead of generating it, it can be very efficient. For every unit of electricity it uses, it can deliver several units of heat. This efficiency often means lower energy bills compared with systems that burn fuel.\n\nHomeowners often choose heat pumps for a few main reasons. First, they provide both heating and cooling in one system, which can simplify equipment and maintenance. Second, they run on electricity rather than natural gas or oil, which can reduce carbon emissions\u2014especially if the electricity comes from renewable sources. Third, modern cold\u2011climate heat pumps can work effectively even in fairly low outdoor temperatures.\n\nA gas furnace may still make sense in very cold regions or where gas is much cheaper than electricity. But for many homes, heat pumps offer an efficient, all\u2011in\u2011one alternative that can lower energy use and support cleaner energy sources.\n:::",
+  "run_name": "2026-03-07-openrouter-v0-1"
+}

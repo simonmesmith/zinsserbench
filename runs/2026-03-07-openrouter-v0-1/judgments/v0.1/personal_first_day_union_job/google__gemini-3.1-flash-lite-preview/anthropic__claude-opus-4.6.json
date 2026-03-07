@@ -1,0 +1,47 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.1",
+  "candidate_model_id": "google/gemini-3.1-flash-lite-preview",
+  "created_at": "2026-03-07T17:23:19Z",
+  "judge_model_id": "anthropic/claude-opus-4.6",
+  "metadata": {
+    "id": "gen-1772904195-luKZg7gaErsZYi6IccPi",
+    "raw_text": "{\"scores\": {\"clarity\": 1, \"simplicity\": 2, \"brevity_economy\": 1, \"structure_flow\": 1, \"specificity_precision\": 1, \"humanity_voice\": 2, \"overall\": 1}, \"rationale\": \"The response is a single incomplete sentence fragment. There is no essay here\u2014no narrative, no reflection, no structure, no specificity, and no fulfillment of the prompt. The opening phrase hints at a reasonable voice and plain language, but with virtually nothing on the page, every axis must score at or near the minimum.\"}",
+    "usage": {
+      "completion_tokens": 161,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 21
+      },
+      "cost": 0.006255,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.004025,
+        "upstream_inference_cost": 0.006255,
+        "upstream_inference_prompt_cost": 0.00223
+      },
+      "is_byok": false,
+      "prompt_tokens": 446,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 607
+    }
+  },
+  "prompt_category": "personal_nonfiction",
+  "prompt_id": "personal_first_day_union_job",
+  "rationale": "The response is a single incomplete sentence fragment. There is no essay here\u2014no narrative, no reflection, no structure, no specificity, and no fulfillment of the prompt. The opening phrase hints at a reasonable voice and plain language, but with virtually nothing on the page, every axis must score at or near the minimum.",
+  "run_name": "2026-03-07-openrouter-v0-1",
+  "scores": {
+    "brevity_economy": 1,
+    "clarity": 1,
+    "humanity_voice": 2,
+    "overall": 1,
+    "simplicity": 2,
+    "specificity_precision": 1,
+    "structure_flow": 1
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.1",
+  "candidate_label": "Kimi K2.5",
+  "candidate_model_id": "moonshotai/kimi-k2.5",
+  "created_at": "2026-03-07T15:04:44Z",
+  "metadata": {
+    "id": "gen-1772895800-JtAjroYYZW5o83Xz459y",
+    "usage": {
+      "completion_tokens": 1428,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 740
+      },
+      "cost": 0.00324585,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.003213,
+        "upstream_inference_cost": 0.00324585,
+        "upstream_inference_prompt_cost": 3.285e-05
+      },
+      "is_byok": false,
+      "prompt_tokens": 73,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 1501
+    }
+  },
+  "prompt_category": "memo",
+  "prompt_id": "memo_budget_freeze",
+  "response_text": "**MEMORANDUM**\n\n**TO:** All Department Heads  \n**FROM:** Chief Financial Officer  \n**DATE:** [Current Date]  \n**RE:** Immediate Temporary Budget Freeze \u2013 Effective [Date] through [Date]\n\n**Purpose**\n\nDue to temporary cash flow constraints resulting from delayed insurance reimbursements and unexpected capital expenditures, we are implementing an immediate budget freeze to ensure fiscal stability while maintaining uninterrupted patient care. This measure is precautionary and will be reassessed weekly.\n\n**What Is Affected**\n\nEffective immediately, the following expenditures require pre-approval from Administration and the CFO:\n\n*   **Capital Equipment:** All purchases over $5,000, including imaging equipment, IT hardware, and facility upgrades\n*   **Workforce Expansion:** External recruitment and hiring for all non-essential positions (current interview pipelines may continue but offers require CFO sign-off)\n*   **Non-Essential Travel:** Conference attendance, professional development travel, and off-site meetings; virtual alternatives should be utilized\n*   **Discretionary Services:** Consulting contracts, marketing campaigns, catering for non-clinical events, and non-essential professional memberships\n*   **Supply Stockpiling:** Orders exceeding 30 days of standard inventory for non-clinical supplies\n\n**What Is NOT Affected**\n\nThe following categories remain fully authorized to protect patient safety, regulatory compliance, and core operations:\n\n*   **Direct Patient Care:** Pharmaceuticals, medical supplies, surgical instruments, and laboratory reagents\n*   **Regulatory Compliance:** Accreditation activities (Joint Commission, CMS, state health department), mandatory training, and safety inspections\n*   **Payroll & Benefits:** All staff compensation, overtime for clinical coverage, and benefits administration\n*   **Emergency Maintenance:** Repairs critical to life safety, infection control, or equipment essential to patient care\n*   **Revenue Cycle:** Activities directly tied to billing, coding, and accounts receivable collection\n*   **Existing Contracts:** Obligations already executed prior to this memo date\n\n**Questions & Exception Requests**\n\nDepartment heads should bring the following categories of concerns forward immediately to the CFO Office ([email] / [extension]):\n\n1.  **Patient Safety Risks:** Any delay in purchasing that could compromise care quality, infection control, or staff/patient safety\n2.  **Regulatory Exposure:** Expenditures required to maintain licensure, accreditation, or compliance with federal/state mandates\n3.  **Revenue Impact:** Opportunities requiring immediate investment that would generate measurable ROI within 90 days\n4.  **Contractual Penalties:** Situations where delaying payment would result in legal penalties or loss of essential vendor relationships\n5.  **Critical Staffing Gaps:** Clinical positions where vacancy creates immediate risk to patient care or regulatory staffing ratios\n\n**Submission Requirements:** Exception requests must include a one-page business case, patient impact assessment, cost of delay analysis, and proposed funding source (e.g., alternative budget line, grant funds, delayed alternative purchase).\n\n**Timeline**\n\nThis freeze remains in effect through [Date], with the Executive Leadership Team reviewing exceptions every Friday. We anticipate lifting restrictions progressively as accounts receivable normalize, with first priority given to revenue-generating departments.\n\nI recognize this creates administrative burden during an already demanding period. These controls are temporary measures to preserve our ability to invest in patient care long-term. Please direct all questions to the Finance Office.\n\n**[Name]**  \nChief Financial Officer  \n[Hospital Name]",
+  "run_name": "2026-03-07-openrouter-v0-1"
+}

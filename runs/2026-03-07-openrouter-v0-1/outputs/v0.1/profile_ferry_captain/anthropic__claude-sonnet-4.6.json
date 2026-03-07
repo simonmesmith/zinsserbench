@@ -1,0 +1,37 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.1",
+  "candidate_label": "Claude Sonnet 4.6",
+  "candidate_model_id": "anthropic/claude-sonnet-4.6",
+  "created_at": "2026-03-07T15:06:48Z",
+  "metadata": {
+    "id": "gen-1772895996-rJXEyTA5Xo6Yc4DVsAaM",
+    "usage": {
+      "completion_tokens": 500,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 51
+      },
+      "cost": 0.007731,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.0075,
+        "upstream_inference_cost": 0.007731,
+        "upstream_inference_prompt_cost": 0.000231
+      },
+      "is_byok": false,
+      "prompt_tokens": 77,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 577
+    }
+  },
+  "prompt_category": "profile",
+  "prompt_id": "profile_ferry_captain",
+  "response_text": "# The Same Water, Every Time\n\n**Ray Bouchard has crossed the Muskeg Strait eleven thousand times. He has never once stopped paying attention.**\n\n---\n\nThe ferry *Constance* leaves Harrow Point at 6:15 in the morning, which means Ray Bouchard is aboard by 5:45, walking the deck in the dark. He checks the same things in the same order \u2014 engine room first, then the bilge pumps, then the mooring lines, then the weather instrumentation on the bridge. He has done this for thirty-one years. He does not describe it as routine. He describes it as respect.\n\n\"The water doesn't repeat itself,\" he says. \"I do. That's the difference.\"\n\nBouchard is sixty-three, broad through the shoulders from decades of physical work that has lately become more supervisory than manual. His hands are large and deliberate. He speaks in the measured cadences of someone who has learned that silence is more useful than noise, a lesson the strait itself seems to have taught him. The crossing from Harrow Point to Ansett Cove takes twenty-two minutes on a calm day. In a January northeasterly, it can stretch past an hour. In the thirty-one years Bouchard has been at the helm, it has never been exactly the same twice.\n\nHe grew up in Harrow Point, one of those small Nova Scotia communities that exists in a condition of permanent negotiation with the sea \u2014 proud of the connection, tired of the winters, unable to imagine leaving. His father was a lobsterman. His grandfather was a lobsterman. Ray Bouchard was supposed to be a lobsterman, and for two seasons in his early twenties, he was. Then the ferry company posted an opening for a deckhand, and he took the job because the pay was steadier, and steadier pay mattered to him more at twenty-two than freedom mattered, and he has been aboard in some capacity ever since.\n\nHe received his Transport Canada Master's certificate in",
+  "run_name": "2026-03-07-openrouter-v0-1"
+}

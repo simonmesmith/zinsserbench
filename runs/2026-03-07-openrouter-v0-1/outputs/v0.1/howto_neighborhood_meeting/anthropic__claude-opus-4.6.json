@@ -1,0 +1,37 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.1",
+  "candidate_label": "Claude Opus 4.6",
+  "candidate_model_id": "anthropic/claude-opus-4.6",
+  "created_at": "2026-03-07T15:07:33Z",
+  "metadata": {
+    "id": "gen-1772896039-5dHkDWdipyhxTbMmkJUs",
+    "usage": {
+      "completion_tokens": 500,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 36
+      },
+      "cost": 0.01288,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.0125,
+        "upstream_inference_cost": 0.01288,
+        "upstream_inference_prompt_cost": 0.00038
+      },
+      "is_byok": false,
+      "prompt_tokens": 76,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 576
+    }
+  },
+  "prompt_category": "service_howto",
+  "prompt_id": "howto_neighborhood_meeting",
+  "response_text": "# How to Organize a Neighborhood Meeting About Traffic Safety\n\n## A Practical Guide for Concerned Residents\n\n---\n\nA speeding car blows through your street. A child nearly gets clipped crossing to the school bus. An elderly neighbor tells you she's afraid to walk to the mailbox. You know something has to change, but you're just one person. The good news is that a single resident with a clear plan can bring an entire neighborhood to the table \u2014 and actually get results. Here's how to do it, step by step.\n\n---\n\n## Step 1: Define the Problem Before You Do Anything Else\n\nBefore sending a single email or knocking on a single door, sit down and clarify what you're actually concerned about. Vague frustration doesn't move the needle. Specifics do. Ask yourself:\n\n- **What exactly is happening?** Speeding? Drivers ignoring stop signs? Poor visibility at an intersection? A lack of crosswalks near a school or park?\n- **Where is it happening?** Identify the specific stretch of road, intersection, or curve.\n- **When is it worst?** Morning rush hour? After school? Late at night?\n- **Has anyone been hurt?** Accidents, near-misses, and injuries all matter and should be documented.\n\nWrite this down in plain, factual language. This becomes the foundation of everything else you do \u2014 your flyer, your agenda, your eventual request to local government. If you can, spend a few days taking notes, photos, or even short videos that capture the problem. Count cars. Note speeds if you can estimate them. Record the times. You don't need professional-grade data, but even rough observations lend credibility to your cause.\n\n---\n\n## Step 2: Find a Few Allies Early\n\nYou don't have to do this alone, and you shouldn't try to. Talk to three to five neighbors you trust \u2014 people who share your concern or who are well-connected in the community. They might be the parent who walks kids to the bus stop every morning, the retired teacher who knows everyone on the block, or the",
+  "run_name": "2026-03-07-openrouter-v0-1"
+}

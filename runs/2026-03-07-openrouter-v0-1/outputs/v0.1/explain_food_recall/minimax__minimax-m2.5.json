@@ -1,0 +1,37 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.1",
+  "candidate_label": "MiniMax M2.5",
+  "candidate_model_id": "minimax/minimax-m2.5",
+  "created_at": "2026-03-07T15:12:52Z",
+  "metadata": {
+    "id": "gen-1772896368-7udElUtmkh816q6jIpNu",
+    "usage": {
+      "completion_tokens": 500,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 218
+      },
+      "cost": 0.0006201,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.0006,
+        "upstream_inference_cost": 0.0006201,
+        "upstream_inference_prompt_cost": 2.01e-05
+      },
+      "is_byok": false,
+      "prompt_tokens": 67,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 567
+    }
+  },
+  "prompt_category": "explain",
+  "prompt_id": "explain_food_recall",
+  "response_text": "# What a Food Recall Means and What to Do If Your Product Is Recalled\n\n## What Is a Food Recall?\n\nA food recall is when a company removes a product from the market because it may cause illness, injury, or is otherwise unsafe to consume. Recalls can range from minor issues, like improper labeling, to serious health hazards like bacterial contamination or undeclared allergens.\n\nRecalls are voluntary in most cases, but the Food and Drug Administration (FDA) and the U.S. Department of Agriculture (USDA) can mandate them when necessary. The goal is simple: get potentially dangerous products out of people's homes before anyone gets sick.\n\n## Why Do Foods Get Recalled?\n\nRecalls happen for several reasons:\n\n- **Bacterial contamination** \u2013 Salmonella, E. coli, Listeria, or other pathogens that can cause serious illness\n- **Foreign objects** \u2013 Pieces of plastic, metal, glass, or other materials accidentally introduced during production\n- **Undeclared allergens** \u2013 Ingredients like peanuts, tree nuts, wheat, or dairy that aren't listed on the label and can trigger allergic reactions\n- **Spoilage** \u2013 Products that have degraded and could cause illness\n- **Mislabeling** \u2013 Incorrect expiration dates, incorrect ingredient lists, or products that don't contain what the label says\n\n## How Do You Find Out About a Recall?\n\nRecalls are announced through multiple channels:\n\n- **Company press releases** \u2013 Manufacturers often issue their own announcements\n- **FDA and USDA websites** \u2013 Both agencies maintain searchable databases of recalls\n- **News outlets** \u2013 Major recalls often make headlines\n- **",
+  "run_name": "2026-03-07-openrouter-v0-1"
+}

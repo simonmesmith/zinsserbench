@@ -1,0 +1,47 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.1",
+  "candidate_model_id": "deepseek/deepseek-v3.2",
+  "created_at": "2026-03-07T17:41:22Z",
+  "judge_model_id": "google/gemini-3.1-pro-preview",
+  "metadata": {
+    "id": "gen-1772905276-aDjztSRrpxoXkJBy30fP",
+    "raw_text": "{\n  \"scores\": {\n    \"clarity\": 5,\n    \"simplicity\": 5,\n    \"brevity_economy\": 5,\n    \"structure_flow\": 2,\n    \"specificity_precision\": 4,\n    \"humanity_voice\": 4,\n    \"overall\": 2\n  },\n  \"rationale\": \"The writing is clear, direct, and offers highly specific, practical advice (such as word counts for time limits). However, the response cuts off mid-sentence in Step 3, which severely undermines its structure and overall effectiveness.\"\n}",
+    "usage": {
+      "completion_tokens": 460,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 328
+      },
+      "cost": 0.006916,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.00552,
+        "upstream_inference_cost": 0.006916,
+        "upstream_inference_prompt_cost": 0.001396
+      },
+      "is_byok": false,
+      "prompt_tokens": 698,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 1158
+    }
+  },
+  "prompt_category": "service_howto",
+  "prompt_id": "howto_school_board_comment",
+  "rationale": "The writing is clear, direct, and offers highly specific, practical advice (such as word counts for time limits). However, the response cuts off mid-sentence in Step 3, which severely undermines its structure and overall effectiveness.",
+  "run_name": "2026-03-07-openrouter-v0-1",
+  "scores": {
+    "brevity_economy": 5,
+    "clarity": 5,
+    "humanity_voice": 4,
+    "overall": 2,
+    "simplicity": 5,
+    "specificity_precision": 4,
+    "structure_flow": 2
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.1",
+  "candidate_model_id": "anthropic/claude-sonnet-4.6",
+  "created_at": "2026-03-07T17:52:35Z",
+  "judge_model_id": "anthropic/claude-opus-4.6",
+  "metadata": {
+    "id": "gen-1772905942-82pXAvADCWWKQCJh7UE7",
+    "raw_text": "{\"scores\": {\"clarity\": 5, \"simplicity\": 5, \"brevity_economy\": 4, \"structure_flow\": 4, \"specificity_precision\": 5, \"humanity_voice\": 3, \"overall\": 4}, \"rationale\": \"Highly clear and specific memo with exact dates, shift times, deadlines, and contact info\u2014everything an employee needs. Language is plain and direct throughout. Structure is logical (context \u2192 changes \u2192 additional notes \u2192 action items) with effective headers and bullet points. The response is cut off mid-sentence at 'A Note of,' which damages the ending and likely truncates the humanizing/appreciative closing, leaving the piece feeling somewhat transactional and bureaucratic. The 'Purpose' paragraph is mildly throat-clearing but brief enough. Specificity is a standout strength\u2014concrete times, date ranges, email, extension number, and clear deadlines.\"}",
+    "usage": {
+      "completion_tokens": 499,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 323
+      },
+      "cost": 0.01684,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.012475,
+        "upstream_inference_cost": 0.01684,
+        "upstream_inference_prompt_cost": 0.004365
+      },
+      "is_byok": false,
+      "prompt_tokens": 873,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 1372
+    }
+  },
+  "prompt_category": "memo",
+  "prompt_id": "memo_schedule_change",
+  "rationale": "Highly clear and specific memo with exact dates, shift times, deadlines, and contact info\u2014everything an employee needs. Language is plain and direct throughout. Structure is logical (context \u2192 changes \u2192 additional notes \u2192 action items) with effective headers and bullet points. The response is cut off mid-sentence at 'A Note of,' which damages the ending and likely truncates the humanizing/appreciative closing, leaving the piece feeling somewhat transactional and bureaucratic. The 'Purpose' paragraph is mildly throat-clearing but brief enough. Specificity is a standout strength\u2014concrete times, date ranges, email, extension number, and clear deadlines.",
+  "run_name": "2026-03-07-openrouter-v0-1",
+  "scores": {
+    "brevity_economy": 4,
+    "clarity": 5,
+    "humanity_voice": 3,
+    "overall": 4,
+    "simplicity": 5,
+    "specificity_precision": 5,
+    "structure_flow": 4
+  }
+}

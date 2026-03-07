@@ -1,0 +1,47 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.1",
+  "candidate_model_id": "openai/gpt-5.4",
+  "created_at": "2026-03-07T17:33:19Z",
+  "judge_model_id": "anthropic/claude-opus-4.6",
+  "metadata": {
+    "id": "gen-1772904791-GULpiMUbcwVEPHNvf2nq",
+    "raw_text": "{\"scores\": {\"clarity\": 5, \"simplicity\": 5, \"brevity_economy\": 4, \"structure_flow\": 4, \"specificity_precision\": 4, \"humanity_voice\": 4, \"overall\": 4}, \"rationale\": \"The writing is exceptionally clear and uses plain, direct language perfectly suited for a consumer audience. The bold formatting and bullet lists aid scanning. Specificity is strong \u2014 it names actual pathogens, lists the nine major allergens, and tells readers exactly which label details to check. However, the response is clearly truncated mid-sentence ('best-by, sell-by, or best'), which means it's missing critical actionable advice (what to actually do with the product, how to get a refund, where to check for recalls like FDA.gov or USDA FSIS). This incompleteness hurts structure/flow and overall effectiveness. The voice is warm and reassuring without being patronizing \u2014 lines like 'stop and check' and 'even if the food looks and smells normal' show reader awareness. Brevity is good for what's present, though the piece needed more content to fulfill the prompt fully.\"}",
+    "usage": {
+      "completion_tokens": 260,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 0
+      },
+      "cost": 0.010635,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.0065,
+        "upstream_inference_cost": 0.010635,
+        "upstream_inference_prompt_cost": 0.004135
+      },
+      "is_byok": false,
+      "prompt_tokens": 827,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 1087
+    }
+  },
+  "prompt_category": "explain",
+  "prompt_id": "explain_food_recall",
+  "rationale": "The writing is exceptionally clear and uses plain, direct language perfectly suited for a consumer audience. The bold formatting and bullet lists aid scanning. Specificity is strong \u2014 it names actual pathogens, lists the nine major allergens, and tells readers exactly which label details to check. However, the response is clearly truncated mid-sentence ('best-by, sell-by, or best'), which means it's missing critical actionable advice (what to actually do with the product, how to get a refund, where to check for recalls like FDA.gov or USDA FSIS). This incompleteness hurts structure/flow and overall effectiveness. The voice is warm and reassuring without being patronizing \u2014 lines like 'stop and check' and 'even if the food looks and smells normal' show reader awareness. Brevity is good for what's present, though the piece needed more content to fulfill the prompt fully.",
+  "run_name": "2026-03-07-openrouter-v0-1",
+  "scores": {
+    "brevity_economy": 4,
+    "clarity": 5,
+    "humanity_voice": 4,
+    "overall": 4,
+    "simplicity": 5,
+    "specificity_precision": 4,
+    "structure_flow": 4
+  }
+}

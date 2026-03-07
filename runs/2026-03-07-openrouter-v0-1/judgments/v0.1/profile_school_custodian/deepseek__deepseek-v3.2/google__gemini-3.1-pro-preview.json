@@ -1,0 +1,47 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.1",
+  "candidate_model_id": "deepseek/deepseek-v3.2",
+  "created_at": "2026-03-07T17:05:28Z",
+  "judge_model_id": "google/gemini-3.1-pro-preview",
+  "metadata": {
+    "id": "gen-1772903111-VnmKrLtUeZDgt4VQSShT",
+    "raw_text": "{\n  \"scores\": {\n    \"clarity\": 5,\n    \"simplicity\": 5,\n    \"brevity_economy\": 5,\n    \"structure_flow\": 5,\n    \"specificity_precision\": 5,\n    \"humanity_voice\": 5,\n    \"overall\": 5\n  },\n  \"rationale\": \"The profile is beautifully written, utilizing concrete details (Room 214, Maya's calculus test) to bring the subject to life. The structure flows logically from the start of the day to the end, and the tone is warm, empathetic, and highly engaging without being overly sentimental.\"\n}",
+    "usage": {
+      "completion_tokens": 405,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 260
+      },
+      "cost": 0.007008,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.00486,
+        "upstream_inference_cost": 0.007008,
+        "upstream_inference_prompt_cost": 0.002148
+      },
+      "is_byok": false,
+      "prompt_tokens": 1074,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 1479
+    }
+  },
+  "prompt_category": "profile",
+  "prompt_id": "profile_school_custodian",
+  "rationale": "The profile is beautifully written, utilizing concrete details (Room 214, Maya's calculus test) to bring the subject to life. The structure flows logically from the start of the day to the end, and the tone is warm, empathetic, and highly engaging without being overly sentimental.",
+  "run_name": "2026-03-07-openrouter-v0-1",
+  "scores": {
+    "brevity_economy": 5,
+    "clarity": 5,
+    "humanity_voice": 5,
+    "overall": 5,
+    "simplicity": 5,
+    "specificity_precision": 5,
+    "structure_flow": 5
+  }
+}

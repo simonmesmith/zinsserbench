@@ -1,0 +1,37 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.1",
+  "candidate_label": "GPT-5.4",
+  "candidate_model_id": "openai/gpt-5.4",
+  "created_at": "2026-03-07T15:15:21Z",
+  "metadata": {
+    "id": "gen-1772896512-azcsqqmRDLnoEoDwL1co",
+    "usage": {
+      "completion_tokens": 500,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 139
+      },
+      "cost": 0.0076525,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.0075,
+        "upstream_inference_cost": 0.0076525,
+        "upstream_inference_prompt_cost": 0.0001525
+      },
+      "is_byok": false,
+      "prompt_tokens": 61,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 561
+    }
+  },
+  "prompt_category": "explain",
+  "prompt_id": "explain_property_tax",
+  "response_text": "## How property taxes are set \u2014 and why they can go up or down\n\nProperty taxes help pay for local services like public schools, police and fire protection, roads, libraries, and parks. If you own a home, you pay a share of those costs based largely on your property\u2019s value and the tax rates set by local governments.\n\nThe exact rules vary by state, county, and city, but the basic idea is usually the same:\n\n**Property tax bill = your home\u2019s taxable value \u00d7 local tax rates**\n\nHere\u2019s what that means in plain English.\n\n---\n\n## Step 1: Your home is given a value\n\nA local assessor\u2019s office estimates what your property is worth for tax purposes. This is often called the:\n\n- **Assessed value**\n- **Appraised value**\n- **Market value**  \ndepending on where you live\n\nThe assessor may look at things like:\n\n- Recent sales of similar homes nearby\n- Your home\u2019s size, age, and condition\n- The land it sits on\n- Improvements like additions, garages, or finished basements\n\nThis value is **not always the same as what you could sell your home for today**, but it is usually tied in some way to market value.\n\n---\n\n## Step 2: Exemptions or caps may reduce the taxable value\n\nMany homeowners do not pay tax on the full assessed value.\n\nYou may qualify for reductions such as:\n\n- **Homestead exemption** for a primary residence\n- **Senior exemption**\n- **Veteran or disability exemption**\n- **Assessment caps** that limit how fast taxable value can rise each year\n\nSo even if your home\u2019s assessed value goes up, your **taxable value** might rise more slowly if your area has these protections.\n\n---\n\n## Step",
+  "run_name": "2026-03-07-openrouter-v0-1"
+}

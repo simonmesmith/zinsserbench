@@ -1,0 +1,47 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.1",
+  "candidate_model_id": "z-ai/glm-5",
+  "created_at": "2026-03-07T16:58:40Z",
+  "judge_model_id": "anthropic/claude-opus-4.6",
+  "metadata": {
+    "id": "gen-1772902707-SvSCAz2d4ii0ojBhZBa2",
+    "raw_text": "{\"scores\": {\"clarity\": 5, \"simplicity\": 5, \"brevity_economy\": 4, \"structure_flow\": 5, \"specificity_precision\": 4, \"humanity_voice\": 4, \"overall\": 5}, \"rationale\": \"Exceptionally clear and well-organized explainer. The refrigerator analogy and the 'moving vs. creating heat' framing make the concept immediately accessible. Specific numbers (95% vs. 300-400% efficiency) ground the claims concretely. The summer/winter bullet breakdown is effective. Minor dings: the piece is slightly long for a 'short explainer' with some mild redundancy (e.g., restating the two-in-one benefit), and the ending is abruptly cut off mid-sentence. The voice is warm and reader-directed but occasionally tips into a slightly formulaic listicle tone. Overall, this is a strong, well-crafted piece that would genuinely help a homeowner understand heat pumps.\"}",
+    "usage": {
+      "completion_tokens": 227,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 0
+      },
+      "cost": 0.01124,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.005675,
+        "upstream_inference_cost": 0.01124,
+        "upstream_inference_prompt_cost": 0.005565
+      },
+      "is_byok": false,
+      "prompt_tokens": 1113,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 1340
+    }
+  },
+  "prompt_category": "explain",
+  "prompt_id": "explain_heat_pumps",
+  "rationale": "Exceptionally clear and well-organized explainer. The refrigerator analogy and the 'moving vs. creating heat' framing make the concept immediately accessible. Specific numbers (95% vs. 300-400% efficiency) ground the claims concretely. The summer/winter bullet breakdown is effective. Minor dings: the piece is slightly long for a 'short explainer' with some mild redundancy (e.g., restating the two-in-one benefit), and the ending is abruptly cut off mid-sentence. The voice is warm and reader-directed but occasionally tips into a slightly formulaic listicle tone. Overall, this is a strong, well-crafted piece that would genuinely help a homeowner understand heat pumps.",
+  "run_name": "2026-03-07-openrouter-v0-1",
+  "scores": {
+    "brevity_economy": 4,
+    "clarity": 5,
+    "humanity_voice": 4,
+    "overall": 5,
+    "simplicity": 5,
+    "specificity_precision": 4,
+    "structure_flow": 5
+  }
+}

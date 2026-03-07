@@ -1,0 +1,37 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.1",
+  "candidate_label": "GLM-5",
+  "candidate_model_id": "z-ai/glm-5",
+  "created_at": "2026-03-07T16:20:17Z",
+  "metadata": {
+    "id": "gen-1772900394-3hetegLH12SJfMAHyKE1",
+    "usage": {
+      "completion_tokens": 1500,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 1057
+      },
+      "cost": 0.004861,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.0048,
+        "upstream_inference_cost": 0.004861,
+        "upstream_inference_prompt_cost": 6.1e-05
+      },
+      "is_byok": false,
+      "prompt_tokens": 61,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 1561
+    }
+  },
+  "prompt_category": "profile",
+  "prompt_id": "profile_school_custodian",
+  "response_text": "At 6:45 AM, the hallways of Martin Luther King Jr. High School are a cathedral of echoes. The only sound is the rhythmic *swish-thud* of a push broom against linoleum, a metronome marking the final moments of silence before the chaos of the day begins. This is the domain of Elias \"Mr. E\" Thorne, a man who has held the keys to the building longer than the current principal has been out of college.\n\nFor 28 years, Thorne has walked these floors. He was here when the library was carpeted in shag, and he was here when they tore it out for hardwood. He watched the smartboards replace the chalkboards, and he watched the graduating class of 1999 return for their twentieth reunion, slightly grayer and wider around the middle. In a profession defined by turnover\u2014where principals rotate every few years and teachers burn out or move districts\u2014Thorne is the geological constant.\n\nBut it isn\u2019t his longevity that makes him a fixture; it is his memory.\n\nBy the time the first bell rings at 7:20 AM, Thorne is usually stationed by the main entrance, a yellow vest over his gray work shirt, a ring of keys jangling at his hip. As the flood of teenagers pours in\u2014a river of hoodies, headphones, and backpacks\u2014he does not just monitor the crowd. He greets it.\n\n\"Jacket on, Marcus, it\u2019s freezing in the science wing today,\" he calls out, his voice gravelly from decades of inhaling cleaning chemicals and school dust.\n\nA sophomore boy in a varsity jacket looks up, startled, then grins. \"Got it, Mr. E.\"\n\n\"Keisha, how\u2019s that history project coming? Your mom said you were up late.\"\n\n\"I'm almost done, Mr. Thorne!\" a girl shouts back without breaking her stride.\n\nAdministrators estimate the school houses roughly 1,400 students. Thorne knows 1,400 names. He does not need a seating chart or a yearbook. He knows them because he cleans up after them, yes, but mostly because he sees them. He sees the freshman who cries in the bathroom during third period, the couple sneaking a kiss behind the gym bleachers, and the quiet kid who stays late to avoid going home. He knows their siblings, often recalling the specific messes their older brothers or sisters made a decade prior",
+  "run_name": "2026-03-07-openrouter-v0-1"
+}

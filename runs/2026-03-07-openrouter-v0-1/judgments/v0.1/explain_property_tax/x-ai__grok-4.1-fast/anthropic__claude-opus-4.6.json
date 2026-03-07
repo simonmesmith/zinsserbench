@@ -1,0 +1,47 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.1",
+  "candidate_model_id": "x-ai/grok-4.1-fast",
+  "created_at": "2026-03-07T17:50:18Z",
+  "judge_model_id": "anthropic/claude-opus-4.6",
+  "metadata": {
+    "id": "gen-1772905810-wIbpZ9Wi7M2ijzMfkWF8",
+    "raw_text": "{\"scores\": {\"clarity\": 5, \"simplicity\": 5, \"brevity_economy\": 4, \"structure_flow\": 4, \"specificity_precision\": 4, \"humanity_voice\": 4, \"overall\": 4}, \"rationale\": \"The writing is genuinely clear and accessible, with plain language, concrete examples (the $400,000 home, 20-mill rate), and a logical step-by-step structure that a homeowner could follow easily. The millage rate explanation is well done with the 'one mill = $1 per $1,000' translation. However, the response is cut off mid-sentence in the 'Why Your Taxes Change' section, which significantly undermines completeness\u2014the piece promises to explain why taxes change but only gets through the first of what appears to be a numbered list. This truncation hurts structure/flow and overall effectiveness. The voice is warm and reader-aware ('If you're a homeowner') without being overly casual. Brevity is generally good but the parenthetical asides occasionally add mild clutter. Specificity is solid with concrete numbers and examples, though some hedging ('depending on your state') is appropriate for the topic.\"}",
+    "usage": {
+      "completion_tokens": 270,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 0
+      },
+      "cost": 0.011535,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.00675,
+        "upstream_inference_cost": 0.011535,
+        "upstream_inference_prompt_cost": 0.004785
+      },
+      "is_byok": false,
+      "prompt_tokens": 957,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 1227
+    }
+  },
+  "prompt_category": "explain",
+  "prompt_id": "explain_property_tax",
+  "rationale": "The writing is genuinely clear and accessible, with plain language, concrete examples (the $400,000 home, 20-mill rate), and a logical step-by-step structure that a homeowner could follow easily. The millage rate explanation is well done with the 'one mill = $1 per $1,000' translation. However, the response is cut off mid-sentence in the 'Why Your Taxes Change' section, which significantly undermines completeness\u2014the piece promises to explain why taxes change but only gets through the first of what appears to be a numbered list. This truncation hurts structure/flow and overall effectiveness. The voice is warm and reader-aware ('If you're a homeowner') without being overly casual. Brevity is generally good but the parenthetical asides occasionally add mild clutter. Specificity is solid with concrete numbers and examples, though some hedging ('depending on your state') is appropriate for the topic.",
+  "run_name": "2026-03-07-openrouter-v0-1",
+  "scores": {
+    "brevity_economy": 4,
+    "clarity": 5,
+    "humanity_voice": 4,
+    "overall": 4,
+    "simplicity": 5,
+    "specificity_precision": 4,
+    "structure_flow": 4
+  }
+}

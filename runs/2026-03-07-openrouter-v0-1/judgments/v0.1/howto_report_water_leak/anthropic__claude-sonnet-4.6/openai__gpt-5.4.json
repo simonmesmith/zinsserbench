@@ -1,0 +1,47 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.1",
+  "candidate_model_id": "anthropic/claude-sonnet-4.6",
+  "created_at": "2026-03-07T17:13:47Z",
+  "judge_model_id": "openai/gpt-5.4",
+  "metadata": {
+    "id": "gen-1772903621-v8nt6eJuUGk0S1KOcy5C",
+    "raw_text": "{\"scores\":{\"clarity\":4,\"simplicity\":4,\"brevity_economy\":4,\"structure_flow\":3,\"specificity_precision\":4,\"humanity_voice\":4,\"overall\":4},\"rationale\":\"Clear, practical, and concrete, with useful immediate-action steps and a reassuring voice. The main weakness is that the piece is incomplete and cuts off mid-thought, which hurts flow and leaves the guide unfinished.\"}",
+    "usage": {
+      "completion_tokens": 356,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 259
+      },
+      "cost": 0.0072125,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.00534,
+        "upstream_inference_cost": 0.0072125,
+        "upstream_inference_prompt_cost": 0.0018725
+      },
+      "is_byok": false,
+      "prompt_tokens": 749,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 1105
+    }
+  },
+  "prompt_category": "service_howto",
+  "prompt_id": "howto_report_water_leak",
+  "rationale": "Clear, practical, and concrete, with useful immediate-action steps and a reassuring voice. The main weakness is that the piece is incomplete and cuts off mid-thought, which hurts flow and leaves the guide unfinished.",
+  "run_name": "2026-03-07-openrouter-v0-1",
+  "scores": {
+    "brevity_economy": 4,
+    "clarity": 4,
+    "humanity_voice": 4,
+    "overall": 4,
+    "simplicity": 4,
+    "specificity_precision": 4,
+    "structure_flow": 3
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.1",
+  "candidate_model_id": "z-ai/glm-5",
+  "created_at": "2026-03-07T16:55:25Z",
+  "judge_model_id": "anthropic/claude-opus-4.6",
+  "metadata": {
+    "id": "gen-1772902517-YHvnFDpq4UcYYbC2jtM1",
+    "raw_text": "{\"scores\": {\"clarity\": 5, \"simplicity\": 5, \"brevity_economy\": 5, \"structure_flow\": 5, \"specificity_precision\": 5, \"humanity_voice\": 4, \"overall\": 5}, \"rationale\": \"Exceptionally well-structured memo that hits every requirement of the prompt. Affected and unaffected items are clearly delineated with concrete examples (e.g., 'cosmetic renovations,' 'nurse-to-patient ratios'). Language is plain and direct throughout\u2014no jargon inflation or filler. The freeze duration, review timeline, and contact information (email, extension) add useful specificity. The only minor weakness is voice: while professional and warm enough ('We appreciate your cooperation'), it leans slightly toward boilerplate corporate tone in spots ('financial health,' 'leadership and commitment to our community'). But for an internal hospital memo this register is appropriate and the closing is reader-aware. The prompt's third requirement\u2014what questions to bring forward\u2014is addressed with the 'grey area' guidance and contact details, though it could have been slightly more explicit about the types of questions welcomed. Overall, this is a near-ideal execution of the task.\"}",
+    "usage": {
+      "completion_tokens": 270,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 0
+      },
+      "cost": 0.01179,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.00675,
+        "upstream_inference_cost": 0.01179,
+        "upstream_inference_prompt_cost": 0.00504
+      },
+      "is_byok": false,
+      "prompt_tokens": 1008,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 1278
+    }
+  },
+  "prompt_category": "memo",
+  "prompt_id": "memo_budget_freeze",
+  "rationale": "Exceptionally well-structured memo that hits every requirement of the prompt. Affected and unaffected items are clearly delineated with concrete examples (e.g., 'cosmetic renovations,' 'nurse-to-patient ratios'). Language is plain and direct throughout\u2014no jargon inflation or filler. The freeze duration, review timeline, and contact information (email, extension) add useful specificity. The only minor weakness is voice: while professional and warm enough ('We appreciate your cooperation'), it leans slightly toward boilerplate corporate tone in spots ('financial health,' 'leadership and commitment to our community'). But for an internal hospital memo this register is appropriate and the closing is reader-aware. The prompt's third requirement\u2014what questions to bring forward\u2014is addressed with the 'grey area' guidance and contact details, though it could have been slightly more explicit about the types of questions welcomed. Overall, this is a near-ideal execution of the task.",
+  "run_name": "2026-03-07-openrouter-v0-1",
+  "scores": {
+    "brevity_economy": 5,
+    "clarity": 5,
+    "humanity_voice": 4,
+    "overall": 5,
+    "simplicity": 5,
+    "specificity_precision": 5,
+    "structure_flow": 5
+  }
+}

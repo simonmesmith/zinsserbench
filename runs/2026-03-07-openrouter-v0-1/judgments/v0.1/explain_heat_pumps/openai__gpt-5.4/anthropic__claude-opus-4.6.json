@@ -1,0 +1,47 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.1",
+  "candidate_model_id": "openai/gpt-5.4",
+  "created_at": "2026-03-07T16:56:44Z",
+  "judge_model_id": "anthropic/claude-opus-4.6",
+  "metadata": {
+    "id": "gen-1772902593-49H9EzDVRvOFAwjvKGy4",
+    "raw_text": "{\"scores\": {\"clarity\": 5, \"simplicity\": 5, \"brevity_economy\": 4, \"structure_flow\": 4, \"specificity_precision\": 3, \"humanity_voice\": 4, \"overall\": 4}, \"rationale\": \"Clear, plain-language explainer with a friendly conversational tone (e.g., the 'That may sound strange' pivot). Well structured with headers guiding the reader logically from mechanism to benefits to caveats. Language is simple and direct with no jargon inflation. Specificity is adequate but could be stronger\u2014no efficiency numbers (COP), no rough cost comparisons, no temperature thresholds for cold-climate models. The biggest flaw is the truncation: the 'Bottom line' section is cut off mid-sentence, leaving the piece incomplete. Without that, structure and overall would score higher. Economy is good\u2014no throat-clearing or repetition.\"}",
+    "usage": {
+      "completion_tokens": 490,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 252
+      },
+      "cost": 0.016255,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.01225,
+        "upstream_inference_cost": 0.016255,
+        "upstream_inference_prompt_cost": 0.004005
+      },
+      "is_byok": false,
+      "prompt_tokens": 801,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 1291
+    }
+  },
+  "prompt_category": "explain",
+  "prompt_id": "explain_heat_pumps",
+  "rationale": "Clear, plain-language explainer with a friendly conversational tone (e.g., the 'That may sound strange' pivot). Well structured with headers guiding the reader logically from mechanism to benefits to caveats. Language is simple and direct with no jargon inflation. Specificity is adequate but could be stronger\u2014no efficiency numbers (COP), no rough cost comparisons, no temperature thresholds for cold-climate models. The biggest flaw is the truncation: the 'Bottom line' section is cut off mid-sentence, leaving the piece incomplete. Without that, structure and overall would score higher. Economy is good\u2014no throat-clearing or repetition.",
+  "run_name": "2026-03-07-openrouter-v0-1",
+  "scores": {
+    "brevity_economy": 4,
+    "clarity": 5,
+    "humanity_voice": 4,
+    "overall": 4,
+    "simplicity": 5,
+    "specificity_precision": 3,
+    "structure_flow": 4
+  }
+}

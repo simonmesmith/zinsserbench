@@ -1,0 +1,47 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.1",
+  "candidate_model_id": "anthropic/claude-opus-4.6",
+  "created_at": "2026-03-07T17:14:17Z",
+  "judge_model_id": "anthropic/claude-opus-4.6",
+  "metadata": {
+    "id": "gen-1772903650-FRscHc9IyT44KjxoPI55",
+    "raw_text": "{\"scores\": {\"clarity\": 5, \"simplicity\": 5, \"brevity_economy\": 4, \"structure_flow\": 5, \"specificity_precision\": 5, \"humanity_voice\": 5, \"overall\": 5}, \"rationale\": \"Exceptionally clear and well-organized guide. The writing is direct and plain without being sterile\u2014phrases like 'no piece of furniture is worth the risk' and 'water and live wiring are a deadly combination' show genuine reader awareness and voice. Concrete details (circuit breakers, washing-machine hoses, plumbing risers, garbage bags as tarps) demonstrate strong specificity. The structure with time-based sections and bold subheadings makes it scannable and logical. Minor ding on brevity: some phrasing could be tighter ('How you respond in the first minutes and hours matters' is slightly padded), and the piece is cut off, but what's present is efficient. The response is unfortunately truncated, which limits full evaluation, but the quality of what exists is excellent.\"}",
+    "usage": {
+      "completion_tokens": 237,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 0
+      },
+      "cost": 0.010175,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.005925,
+        "upstream_inference_cost": 0.010175,
+        "upstream_inference_prompt_cost": 0.00425
+      },
+      "is_byok": false,
+      "prompt_tokens": 850,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 1087
+    }
+  },
+  "prompt_category": "service_howto",
+  "prompt_id": "howto_report_water_leak",
+  "rationale": "Exceptionally clear and well-organized guide. The writing is direct and plain without being sterile\u2014phrases like 'no piece of furniture is worth the risk' and 'water and live wiring are a deadly combination' show genuine reader awareness and voice. Concrete details (circuit breakers, washing-machine hoses, plumbing risers, garbage bags as tarps) demonstrate strong specificity. The structure with time-based sections and bold subheadings makes it scannable and logical. Minor ding on brevity: some phrasing could be tighter ('How you respond in the first minutes and hours matters' is slightly padded), and the piece is cut off, but what's present is efficient. The response is unfortunately truncated, which limits full evaluation, but the quality of what exists is excellent.",
+  "run_name": "2026-03-07-openrouter-v0-1",
+  "scores": {
+    "brevity_economy": 4,
+    "clarity": 5,
+    "humanity_voice": 5,
+    "overall": 5,
+    "simplicity": 5,
+    "specificity_precision": 5,
+    "structure_flow": 5
+  }
+}

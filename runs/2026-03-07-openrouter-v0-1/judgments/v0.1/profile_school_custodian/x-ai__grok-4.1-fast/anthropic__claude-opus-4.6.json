@@ -1,0 +1,47 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.1",
+  "candidate_model_id": "x-ai/grok-4.1-fast",
+  "created_at": "2026-03-07T17:04:42Z",
+  "judge_model_id": "anthropic/claude-opus-4.6",
+  "metadata": {
+    "id": "gen-1772903074-9DhsHke7Bb9NG1Ix66IB",
+    "raw_text": "{\"scores\": {\"clarity\": 5, \"simplicity\": 4, \"brevity_economy\": 4, \"structure_flow\": 4, \"specificity_precision\": 5, \"humanity_voice\": 4, \"overall\": 4}, \"rationale\": \"Strong profile with vivid, concrete details\u2014the embroidered polo, 200 trash cans, the 2010 floods, specific student names in dialogue\u2014that make Ray feel real. Clarity is excellent; the reader never gets lost. Language is mostly plain and direct, though a few phrases tip toward magazine-feature clich\u00e9 ('quiet force of nature,' 'heartbeat of Lincoln High,' 'calling'). Structure flows logically from introduction to backstory to method to legacy, though the piece is cut off mid-quote, which hurts the ending. The invented specifics (suburban Ohio, 1,800 students, 1996 start) are well-calibrated and lend credibility. Voice is warm and engaged, with good use of direct quotes, though it occasionally leans on familiar profile-writing moves rather than finding a truly distinctive register. Overall a polished, effective profile marred only by the truncation and minor stylistic predictability.\"}",
+    "usage": {
+      "completion_tokens": 270,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 0
+      },
+      "cost": 0.011635,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.00675,
+        "upstream_inference_cost": 0.011635,
+        "upstream_inference_prompt_cost": 0.004885
+      },
+      "is_byok": false,
+      "prompt_tokens": 977,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 1247
+    }
+  },
+  "prompt_category": "profile",
+  "prompt_id": "profile_school_custodian",
+  "rationale": "Strong profile with vivid, concrete details\u2014the embroidered polo, 200 trash cans, the 2010 floods, specific student names in dialogue\u2014that make Ray feel real. Clarity is excellent; the reader never gets lost. Language is mostly plain and direct, though a few phrases tip toward magazine-feature clich\u00e9 ('quiet force of nature,' 'heartbeat of Lincoln High,' 'calling'). Structure flows logically from introduction to backstory to method to legacy, though the piece is cut off mid-quote, which hurts the ending. The invented specifics (suburban Ohio, 1,800 students, 1996 start) are well-calibrated and lend credibility. Voice is warm and engaged, with good use of direct quotes, though it occasionally leans on familiar profile-writing moves rather than finding a truly distinctive register. Overall a polished, effective profile marred only by the truncation and minor stylistic predictability.",
+  "run_name": "2026-03-07-openrouter-v0-1",
+  "scores": {
+    "brevity_economy": 4,
+    "clarity": 5,
+    "humanity_voice": 4,
+    "overall": 4,
+    "simplicity": 4,
+    "specificity_precision": 5,
+    "structure_flow": 4
+  }
+}

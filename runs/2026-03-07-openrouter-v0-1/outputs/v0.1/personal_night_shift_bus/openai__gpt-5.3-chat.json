@@ -1,0 +1,37 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.1",
+  "candidate_label": "GPT-5.3 Chat",
+  "candidate_model_id": "openai/gpt-5.3-chat",
+  "created_at": "2026-03-07T15:14:50Z",
+  "metadata": {
+    "id": "gen-1772896483-fKiEraa0SC2FwN34w9W1",
+    "usage": {
+      "completion_tokens": 500,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 0
+      },
+      "cost": 0.0070945,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.007,
+        "upstream_inference_cost": 0.0070945,
+        "upstream_inference_prompt_cost": 9.45e-05
+      },
+      "is_byok": false,
+      "prompt_tokens": 54,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 554
+    }
+  },
+  "prompt_category": "personal_nonfiction",
+  "prompt_id": "personal_night_shift_bus",
+  "response_text": ":::writing\nFor a year, my life ended the same way every night: under the yellow glow of a bus stop lamp that hummed faintly like an insect trapped in glass. The 12:40 a.m. bus was rarely on time, and somehow that became part of the ritual. I would stand there with my backpack slung over one shoulder, listening for the distant sigh of brakes long before the bus itself appeared.\n\nDuring the day, my routine changed constantly. Classes shifted, work schedules rotated, friendships rearranged themselves around other people\u2019s obligations. But the late-night bus was the fixed point. However chaotic the day had been, it always ended there, on the cracked square of sidewalk beside a closed pharmacy.\n\nAt first I noticed only the inconveniences. The cold wind that tunneled down the avenue in winter. The way the shelter\u2019s metal bench seemed to draw heat from your body. The uncertainty\u2014would the bus come in five minutes or twenty? Once, it didn\u2019t come at all, and I walked forty minutes home through a neighborhood of dark houses and barking dogs.\n\nBut after a few weeks the stop stopped feeling like a pause and started feeling like a small community.\n\nThere was the night-shift nurse who boarded two stops after me. She always carried a bright purple water bottle and smelled faintly of hospital soap. We never introduced ourselves, but after a while we nodded when we saw each other. Once, during a heavy snow, she said, \u201cIf this thing doesn\u2019t show up soon, I might just lie down right here.\u201d I laughed harder than the joke deserved, mostly because the silence of the snowy street made everything feel a little unreal.\n\nThere was also a man who I think worked in a bakery. He got on with two white boxes tied with twine and got off three stops later. Sometimes, when the bus lurched, the boxes slid and released a warm smell of bread and sugar that filled the aisle for a moment. No one ever said anything about it, but you could see heads lift slightly, like people catching the scent of a distant campfire.\n\nAnd there was the driver who worked most Tuesdays and Thursdays. He had a soft voice",
+  "run_name": "2026-03-07-openrouter-v0-1"
+}

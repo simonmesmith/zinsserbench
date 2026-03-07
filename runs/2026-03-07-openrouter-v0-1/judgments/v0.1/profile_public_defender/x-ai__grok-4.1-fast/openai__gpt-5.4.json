@@ -1,0 +1,47 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.1",
+  "candidate_model_id": "x-ai/grok-4.1-fast",
+  "created_at": "2026-03-07T17:37:22Z",
+  "judge_model_id": "openai/gpt-5.4",
+  "metadata": {
+    "id": "gen-1772905035-Q6kY2WywOst081oBvOYF",
+    "raw_text": "{\"scores\":{\"clarity\":4,\"simplicity\":3,\"brevity_economy\":3,\"structure_flow\":3,\"specificity_precision\":4,\"humanity_voice\":4,\"overall\":4},\"rationale\":\"Vivid and readable, with concrete details, quotes, and a clear sense of the defender\u2019s workload and background. The main weaknesses are slightly overwritten phrasing, some statistics dropped in stiffly, and an abrupt cutoff that weakens flow and completeness.\"}",
+    "usage": {
+      "completion_tokens": 407,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 302
+      },
+      "cost": 0.008265,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.006105,
+        "upstream_inference_cost": 0.008265,
+        "upstream_inference_prompt_cost": 0.00216
+      },
+      "is_byok": false,
+      "prompt_tokens": 864,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 1271
+    }
+  },
+  "prompt_category": "profile",
+  "prompt_id": "profile_public_defender",
+  "rationale": "Vivid and readable, with concrete details, quotes, and a clear sense of the defender\u2019s workload and background. The main weaknesses are slightly overwritten phrasing, some statistics dropped in stiffly, and an abrupt cutoff that weakens flow and completeness.",
+  "run_name": "2026-03-07-openrouter-v0-1",
+  "scores": {
+    "brevity_economy": 3,
+    "clarity": 4,
+    "humanity_voice": 4,
+    "overall": 4,
+    "simplicity": 3,
+    "specificity_precision": 4,
+    "structure_flow": 3
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.1",
+  "candidate_model_id": "google/gemini-3.1-pro-preview",
+  "created_at": "2026-03-07T17:07:08Z",
+  "judge_model_id": "openai/gpt-5.4",
+  "metadata": {
+    "id": "gen-1772903223-oF5RHnGg0WIWuEaKt6Vi",
+    "raw_text": "{\"scores\":{\"clarity\":2,\"simplicity\":4,\"brevity_economy\":2,\"structure_flow\":1,\"specificity_precision\":3,\"humanity_voice\":3,\"overall\":2},\"rationale\":\"There is a vivid, concrete opening image and the language is plain, but the response is only a sentence fragment. Because it is incomplete, it lacks structure, does not develop a profile, and cannot fully satisfy the prompt.\"}",
+    "usage": {
+      "completion_tokens": 268,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 168
+      },
+      "cost": 0.0049525,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.00402,
+        "upstream_inference_cost": 0.0049525,
+        "upstream_inference_prompt_cost": 0.0009325
+      },
+      "is_byok": false,
+      "prompt_tokens": 373,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 641
+    }
+  },
+  "prompt_category": "profile",
+  "prompt_id": "profile_ferry_captain",
+  "rationale": "There is a vivid, concrete opening image and the language is plain, but the response is only a sentence fragment. Because it is incomplete, it lacks structure, does not develop a profile, and cannot fully satisfy the prompt.",
+  "run_name": "2026-03-07-openrouter-v0-1",
+  "scores": {
+    "brevity_economy": 2,
+    "clarity": 2,
+    "humanity_voice": 3,
+    "overall": 2,
+    "simplicity": 4,
+    "specificity_precision": 3,
+    "structure_flow": 1
+  }
+}

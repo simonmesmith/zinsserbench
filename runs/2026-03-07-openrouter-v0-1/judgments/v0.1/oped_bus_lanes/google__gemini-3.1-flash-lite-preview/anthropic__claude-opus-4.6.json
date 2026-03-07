@@ -1,0 +1,47 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.1",
+  "candidate_model_id": "google/gemini-3.1-flash-lite-preview",
+  "created_at": "2026-03-07T17:20:19Z",
+  "judge_model_id": "anthropic/claude-opus-4.6",
+  "metadata": {
+    "id": "gen-1772904014-xPmS54nKnsmGAKFhXguE",
+    "raw_text": "{\"scores\": {\"clarity\": 1, \"simplicity\": 1, \"brevity_economy\": 1, \"structure_flow\": 1, \"specificity_precision\": 1, \"humanity_voice\": 1, \"overall\": 1}, \"rationale\": \"The response consists of only a headline and two words ('Every morning'). There is no argument, no evidence, no structure\u2014essentially nothing to evaluate. It fails every axis by virtue of being almost entirely absent.\"}",
+    "usage": {
+      "completion_tokens": 170,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 52
+      },
+      "cost": 0.006435,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.00425,
+        "upstream_inference_cost": 0.006435,
+        "upstream_inference_prompt_cost": 0.002185
+      },
+      "is_byok": false,
+      "prompt_tokens": 437,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 607
+    }
+  },
+  "prompt_category": "persuasion_oped",
+  "prompt_id": "oped_bus_lanes",
+  "rationale": "The response consists of only a headline and two words ('Every morning'). There is no argument, no evidence, no structure\u2014essentially nothing to evaluate. It fails every axis by virtue of being almost entirely absent.",
+  "run_name": "2026-03-07-openrouter-v0-1",
+  "scores": {
+    "brevity_economy": 1,
+    "clarity": 1,
+    "humanity_voice": 1,
+    "overall": 1,
+    "simplicity": 1,
+    "specificity_precision": 1,
+    "structure_flow": 1
+  }
+}

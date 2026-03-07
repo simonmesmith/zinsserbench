@@ -1,0 +1,47 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.1",
+  "candidate_model_id": "openai/gpt-5.3-chat",
+  "created_at": "2026-03-07T17:49:01Z",
+  "judge_model_id": "anthropic/claude-opus-4.6",
+  "metadata": {
+    "id": "gen-1772905734-rKBHOT0HQnYsOX7Cb12Z",
+    "raw_text": "{\"scores\": {\"clarity\": 5, \"simplicity\": 5, \"brevity_economy\": 4, \"structure_flow\": 5, \"specificity_precision\": 4, \"humanity_voice\": 4, \"overall\": 4}, \"rationale\": \"Exceptionally clear and well-organized explainer that walks homeowners through the two-part formula (assessed value \u00d7 tax rate) before listing reasons taxes change. Language is genuinely plain\u2014no jargon left unexplained. Structure is logical: what property taxes fund \u2192 how they're calculated \u2192 why they change. Specificity is good (mentions dollars per $1,000, homestead exemptions, special districts) though a brief concrete example with numbers would have strengthened it further. Slightly mechanical in tone\u2014reads more like a well-crafted FAQ than a warm, conversational piece, hence a 4 on humanity. The response is cut off mid-sentence at the end ('If you think your assessment is too'), which is a notable flaw\u2014it loses the closing advice section and feels incomplete. Brevity is fine but the truncation prevents a proper wrap-up. Overall a strong, useful piece marred only by the incomplete ending and slightly formulaic voice.\"}",
+    "usage": {
+      "completion_tokens": 270,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 0
+      },
+      "cost": 0.01137,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.00675,
+        "upstream_inference_cost": 0.01137,
+        "upstream_inference_prompt_cost": 0.00462
+      },
+      "is_byok": false,
+      "prompt_tokens": 924,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 1194
+    }
+  },
+  "prompt_category": "explain",
+  "prompt_id": "explain_property_tax",
+  "rationale": "Exceptionally clear and well-organized explainer that walks homeowners through the two-part formula (assessed value \u00d7 tax rate) before listing reasons taxes change. Language is genuinely plain\u2014no jargon left unexplained. Structure is logical: what property taxes fund \u2192 how they're calculated \u2192 why they change. Specificity is good (mentions dollars per $1,000, homestead exemptions, special districts) though a brief concrete example with numbers would have strengthened it further. Slightly mechanical in tone\u2014reads more like a well-crafted FAQ than a warm, conversational piece, hence a 4 on humanity. The response is cut off mid-sentence at the end ('If you think your assessment is too'), which is a notable flaw\u2014it loses the closing advice section and feels incomplete. Brevity is fine but the truncation prevents a proper wrap-up. Overall a strong, useful piece marred only by the incomplete ending and slightly formulaic voice.",
+  "run_name": "2026-03-07-openrouter-v0-1",
+  "scores": {
+    "brevity_economy": 4,
+    "clarity": 5,
+    "humanity_voice": 4,
+    "overall": 4,
+    "simplicity": 5,
+    "specificity_precision": 4,
+    "structure_flow": 5
+  }
+}

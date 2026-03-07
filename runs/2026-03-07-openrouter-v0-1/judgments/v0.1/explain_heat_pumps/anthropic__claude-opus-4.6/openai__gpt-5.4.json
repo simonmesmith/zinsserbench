@@ -1,0 +1,47 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.1",
+  "candidate_model_id": "anthropic/claude-opus-4.6",
+  "created_at": "2026-03-07T16:57:40Z",
+  "judge_model_id": "openai/gpt-5.4",
+  "metadata": {
+    "id": "gen-1772902654-eRtvY7Bsll36LxSy3OYx",
+    "raw_text": "{\"scores\":{\"clarity\":4,\"simplicity\":4,\"brevity_economy\":3,\"structure_flow\":3,\"specificity_precision\":4,\"humanity_voice\":4,\"overall\":3},\"rationale\":\"Clear and reader-friendly, with a good basic explanation of heat-pump operation and a helpful analogy. Language is mostly plain and specific. But the piece is cut off mid-sentence, which hurts flow, completeness, and overall effectiveness for the prompt.\"}",
+    "usage": {
+      "completion_tokens": 352,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 247
+      },
+      "cost": 0.0072075,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.00528,
+        "upstream_inference_cost": 0.0072075,
+        "upstream_inference_prompt_cost": 0.0019275
+      },
+      "is_byok": false,
+      "prompt_tokens": 771,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 1123
+    }
+  },
+  "prompt_category": "explain",
+  "prompt_id": "explain_heat_pumps",
+  "rationale": "Clear and reader-friendly, with a good basic explanation of heat-pump operation and a helpful analogy. Language is mostly plain and specific. But the piece is cut off mid-sentence, which hurts flow, completeness, and overall effectiveness for the prompt.",
+  "run_name": "2026-03-07-openrouter-v0-1",
+  "scores": {
+    "brevity_economy": 3,
+    "clarity": 4,
+    "humanity_voice": 4,
+    "overall": 3,
+    "simplicity": 4,
+    "specificity_precision": 4,
+    "structure_flow": 3
+  }
+}

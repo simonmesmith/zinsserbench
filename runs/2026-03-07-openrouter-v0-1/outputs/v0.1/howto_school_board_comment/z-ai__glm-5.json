@@ -1,0 +1,37 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.1",
+  "candidate_label": "GLM-5",
+  "candidate_model_id": "z-ai/glm-5",
+  "created_at": "2026-03-07T16:18:02Z",
+  "metadata": {
+    "id": "gen-1772900228-Nysh6FbSl7S4FG5KlYQ4",
+    "usage": {
+      "completion_tokens": 1500,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 811
+      },
+      "cost": 0.00386112,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.00384,
+        "upstream_inference_cost": 0.00386112,
+        "upstream_inference_prompt_cost": 2.112e-05
+      },
+      "is_byok": false,
+      "prompt_tokens": 52,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 32,
+        "video_tokens": 0
+      },
+      "total_tokens": 1552
+    }
+  },
+  "prompt_category": "service_howto",
+  "prompt_id": "howto_school_board_comment",
+  "response_text": "**Speaking Up: A Practical Guide for Parents Addressing the School Board**\n\nSpeaking at a school board meeting can be an intimidating prospect. The setting is formal, the time limits are strict, and the stakes often feel high. However, school boards are elected bodies designed to represent the community, and your voice is a vital part of that process.\n\nThis guide outlines the steps necessary to move from a concerned parent to an effective advocate.\n\n### Phase 1: Research and Protocol\n\nBefore you write a single word, you must understand the \"rules of engagement.\" Showing up uninformed about the process can undermine your credibility before you even speak.\n\n**1. Locate the Agenda**\nSchool boards operate on specific agendas posted days or weeks before a meeting. You can usually find this on your district\u2019s website. Review the agenda to see if your topic is already listed for discussion. If it is, your comments will likely be more relevant. If it isn't, you will speak during the general \"Public Comment\" section.\n\n**2. Understand the Sign-Up Process**\nMost boards require speakers to sign up in advance.\n*   **Check the deadline:** Some districts require you to register 24 hours prior to the meeting; others allow sign-ups at the door.\n*   **Check the limits:** Confirm the time limit (typically two or three minutes) and whether you need to submit written copies of your remarks.\n\n**3. Identify the Players**\nKnow who sits on the board. Learn the names of the Board President and the Superintendent. Addressing them by name during your speech adds a layer of professionalism and respect.\n\n### Phase 2: Crafting Your Message\n\nYou have a limited amount of time to make an impact. A rambling speech is easily forgotten; a focused speech is remembered.\n\n**1. The \"One Issue\" Rule**\nDo not attempt to list every grievance you have with the district. Focus on **one specific topic**. Whether it is a budget cut, a library policy, or a bus route issue, stick to that single subject.\n\n**2. The Three-Part Structure**\nStructure your remarks like a short essay:\n*   **The Hook:** Introduce yourself and your connection to the school (e.g., \"My name is Jane Doe, and I am the parent of a third grader at Lincoln Elementary\").\n*   **The Problem:** State the issue clearly and factually. Avoid hearsay.\n*   **The Ask:** Conclude with a specific action you want the board to take (e.g., \"I ask that you vote no on this measure,\" or \"I request a review of the current policy\").\n\n**3. Data Over Drama**\nWhile personal stories are powerful, they should be supported by facts. If you claim a policy is harmful, cite a specific example or statistic. If you claim a budget item is wasteful, reference the line number in the financial report. This demonstrates that you have done your homework.\n\n**4. Write for the Ear**\nWrite your speech to be spoken, not read. Keep sentences relatively short. Avoid jargon or acronyms that a general audience might not immediately recognize.\n\n### Phase 3: Practice and Polish\n\nThe difference between a good speech and a great one is usually rehearsal.\n\n**1. Time Yourself**\nUse a stopwatch. If you have three minutes, write a speech that takes two minutes and forty-five seconds to read aloud at a conversational pace. Nervousness tends to make people speak faster; building in a buffer ensures you won't be cut off mid-sentence.\n\n**2. Prepare for Nerves**\nIt is normal to be nervous. To combat this:\n*   Print your speech in a large, bold font so it",
+  "run_name": "2026-03-07-openrouter-v0-1"
+}

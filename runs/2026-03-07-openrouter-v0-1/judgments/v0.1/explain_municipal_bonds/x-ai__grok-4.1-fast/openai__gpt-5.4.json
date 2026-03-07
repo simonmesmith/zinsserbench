@@ -1,0 +1,47 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.1",
+  "candidate_model_id": "x-ai/grok-4.1-fast",
+  "created_at": "2026-03-07T17:01:14Z",
+  "judge_model_id": "openai/gpt-5.4",
+  "metadata": {
+    "id": "gen-1772902867-HsxxCjhPWoF56NsaQpeb",
+    "raw_text": "{\"scores\":{\"clarity\":5,\"simplicity\":4,\"brevity_economy\":4,\"structure_flow\":5,\"specificity_precision\":4,\"humanity_voice\":5,\"overall\":4},\"rationale\":\"Clear, engaging, and well organized, with helpful examples and a smooth move from definition to purpose. The language is mostly plain, though it uses a few finance terms and adds some extra detail/stats. Strong voice overall, but a couple of claims are a bit oversimplified or too absolute, especially around safety and revenue bonds.\"}",
+    "usage": {
+      "completion_tokens": 409,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 287
+      },
+      "cost": 0.00825,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.006135,
+        "upstream_inference_cost": 0.00825,
+        "upstream_inference_prompt_cost": 0.002115
+      },
+      "is_byok": false,
+      "prompt_tokens": 846,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 1255
+    }
+  },
+  "prompt_category": "explain",
+  "prompt_id": "explain_municipal_bonds",
+  "rationale": "Clear, engaging, and well organized, with helpful examples and a smooth move from definition to purpose. The language is mostly plain, though it uses a few finance terms and adds some extra detail/stats. Strong voice overall, but a couple of claims are a bit oversimplified or too absolute, especially around safety and revenue bonds.",
+  "run_name": "2026-03-07-openrouter-v0-1",
+  "scores": {
+    "brevity_economy": 4,
+    "clarity": 5,
+    "humanity_voice": 5,
+    "overall": 4,
+    "simplicity": 4,
+    "specificity_precision": 4,
+    "structure_flow": 5
+  }
+}

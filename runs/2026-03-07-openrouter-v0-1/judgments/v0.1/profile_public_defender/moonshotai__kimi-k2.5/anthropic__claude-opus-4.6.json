@@ -1,0 +1,47 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.1",
+  "candidate_model_id": "moonshotai/kimi-k2.5",
+  "created_at": "2026-03-07T17:38:25Z",
+  "judge_model_id": "anthropic/claude-opus-4.6",
+  "metadata": {
+    "id": "gen-1772905097-AbrkIhsemj3wUTCojxRc",
+    "raw_text": "{\"scores\": {\"clarity\": 3, \"simplicity\": 4, \"brevity_economy\": 1, \"structure_flow\": 1, \"specificity_precision\": 3, \"humanity_voice\": 3, \"overall\": 1}, \"rationale\": \"The response is barely a single sentence fragment. What exists is clear, plainly written, and has a nice concrete detail (fraying canvas tote, three case files, 7:15 a.m. arrival), showing promise of a strong voice and specificity. However, it is radically incomplete\u2014it does not constitute a profile in any meaningful sense. There is no structure, no development of character or theme, no information about the caseload, the city, or the defender's work. It cannot be judged as an effective piece of nonfiction writing because it essentially doesn't exist beyond an opening image.\"}",
+    "usage": {
+      "completion_tokens": 230,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 26
+      },
+      "cost": 0.007995,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.00575,
+        "upstream_inference_cost": 0.007995,
+        "upstream_inference_prompt_cost": 0.002245
+      },
+      "is_byok": false,
+      "prompt_tokens": 449,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 679
+    }
+  },
+  "prompt_category": "profile",
+  "prompt_id": "profile_public_defender",
+  "rationale": "The response is barely a single sentence fragment. What exists is clear, plainly written, and has a nice concrete detail (fraying canvas tote, three case files, 7:15 a.m. arrival), showing promise of a strong voice and specificity. However, it is radically incomplete\u2014it does not constitute a profile in any meaningful sense. There is no structure, no development of character or theme, no information about the caseload, the city, or the defender's work. It cannot be judged as an effective piece of nonfiction writing because it essentially doesn't exist beyond an opening image.",
+  "run_name": "2026-03-07-openrouter-v0-1",
+  "scores": {
+    "brevity_economy": 1,
+    "clarity": 3,
+    "humanity_voice": 3,
+    "overall": 1,
+    "simplicity": 4,
+    "specificity_precision": 3,
+    "structure_flow": 1
+  }
+}

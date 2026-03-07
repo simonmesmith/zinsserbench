@@ -1,0 +1,47 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.1",
+  "candidate_model_id": "openai/gpt-5.4",
+  "created_at": "2026-03-07T17:36:07Z",
+  "judge_model_id": "google/gemini-3.1-pro-preview",
+  "metadata": {
+    "id": "gen-1772904961-Rq1TvvvUS7u8ChGk2A43",
+    "raw_text": "{\n  \"scores\": {\n    \"clarity\": 4,\n    \"simplicity\": 4,\n    \"brevity_economy\": 3,\n    \"structure_flow\": 2,\n    \"specificity_precision\": 4,\n    \"humanity_voice\": 4,\n    \"overall\": 2\n  },\n  \"rationale\": \"The writing is clear, specific, and human, but the response is cut off mid-sentence, severely impacting its structure and overall effectiveness. The opening sentence is also unnecessary throat-clearing.\"\n}",
+    "usage": {
+      "completion_tokens": 333,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 208
+      },
+      "cost": 0.004892,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.003996,
+        "upstream_inference_cost": 0.004892,
+        "upstream_inference_prompt_cost": 0.000896
+      },
+      "is_byok": false,
+      "prompt_tokens": 448,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 781
+    }
+  },
+  "prompt_category": "profile",
+  "prompt_id": "profile_public_defender",
+  "rationale": "The writing is clear, specific, and human, but the response is cut off mid-sentence, severely impacting its structure and overall effectiveness. The opening sentence is also unnecessary throat-clearing.",
+  "run_name": "2026-03-07-openrouter-v0-1",
+  "scores": {
+    "brevity_economy": 3,
+    "clarity": 4,
+    "humanity_voice": 4,
+    "overall": 2,
+    "simplicity": 4,
+    "specificity_precision": 4,
+    "structure_flow": 2
+  }
+}

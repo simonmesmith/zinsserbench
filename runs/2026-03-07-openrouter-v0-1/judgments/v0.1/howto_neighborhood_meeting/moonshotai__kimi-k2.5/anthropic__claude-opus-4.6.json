@@ -1,0 +1,47 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.1",
+  "candidate_model_id": "moonshotai/kimi-k2.5",
+  "created_at": "2026-03-07T17:12:06Z",
+  "judge_model_id": "anthropic/claude-opus-4.6",
+  "metadata": {
+    "id": "gen-1772903515-gzHKZxcC0kb2ijCNap9K",
+    "raw_text": "{\"scores\": {\"clarity\": 5, \"simplicity\": 4, \"brevity_economy\": 4, \"structure_flow\": 3, \"specificity_precision\": 5, \"humanity_voice\": 4, \"overall\": 3}, \"rationale\": \"What exists is excellent: concrete details (three-to-five-day observation window, counter app, specific things to log, core team of three to five), clear phased structure, direct and engaging voice ('A Resident's Playbook'). The phrase 'actionable intelligence' is slightly inflated but forgivable. However, the response is cut off mid-sentence in Phase 2, leaving the guide incomplete\u2014no venue selection, no meeting agenda advice, no follow-up steps. For a practical guide, incompleteness is a serious flaw that drags down structure/flow and overall effectiveness despite the high quality of the existing text.\"}",
+    "usage": {
+      "completion_tokens": 472,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 233
+      },
+      "cost": 0.015355,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.0118,
+        "upstream_inference_cost": 0.015355,
+        "upstream_inference_prompt_cost": 0.003555
+      },
+      "is_byok": false,
+      "prompt_tokens": 711,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 1183
+    }
+  },
+  "prompt_category": "service_howto",
+  "prompt_id": "howto_neighborhood_meeting",
+  "rationale": "What exists is excellent: concrete details (three-to-five-day observation window, counter app, specific things to log, core team of three to five), clear phased structure, direct and engaging voice ('A Resident's Playbook'). The phrase 'actionable intelligence' is slightly inflated but forgivable. However, the response is cut off mid-sentence in Phase 2, leaving the guide incomplete\u2014no venue selection, no meeting agenda advice, no follow-up steps. For a practical guide, incompleteness is a serious flaw that drags down structure/flow and overall effectiveness despite the high quality of the existing text.",
+  "run_name": "2026-03-07-openrouter-v0-1",
+  "scores": {
+    "brevity_economy": 4,
+    "clarity": 5,
+    "humanity_voice": 4,
+    "overall": 3,
+    "simplicity": 4,
+    "specificity_precision": 5,
+    "structure_flow": 3
+  }
+}

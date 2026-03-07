@@ -1,0 +1,37 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.1",
+  "candidate_label": "Kimi K2.5",
+  "candidate_model_id": "moonshotai/kimi-k2.5",
+  "created_at": "2026-03-07T16:12:48Z",
+  "metadata": {
+    "id": "gen-1772899891-4ekL9ePKFSwxzAPDYcFI",
+    "usage": {
+      "completion_tokens": 1810,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 491
+      },
+      "cost": 0.0041013,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.0040725,
+        "upstream_inference_cost": 0.0041013,
+        "upstream_inference_prompt_cost": 2.88e-05
+      },
+      "is_byok": false,
+      "prompt_tokens": 64,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 1874
+    }
+  },
+  "prompt_category": "personal_nonfiction",
+  "prompt_id": "personal_first_day_union_job",
+  "response_text": "The hard hat sat heavy on my head, not because of the weight of the plastic, but because of what it implied. I stood at the construction site gate at 6:47 a.m., clutching a thermos and a lunchbox I\u2019d bought specifically for this day\u2014stainless steel, the kind that clangs when you set it down. Behind me, I could hear the diesel engines of the lifts firing up, the pneumatic hiss of air brakes. I was twenty-three, and I had never been early to a job without feeling nauseous.\n\nBefore this, work had been a series of defensive maneuvers. I\u2019d folded shirts at a retail chain where managers circled the floor like sharks, where bathroom breaks required a verbal permission slip and the schedule changed via text message three hours before a shift started. I\u2019d washed dishes at a diner where the owner paid cash under the table and docked twenty dollars if he found a water spot on a wine glass. Work, as I understood it, was something you survived by making yourself small. You arrived grateful and left exhausted, and the space between those two points was a kind of holding your breath.\n\nThe steward met me at the trailer. His name was Mike, and he had the kind of mustache that suggested he\u2019d been born with it. He didn\u2019t shake my hand so much as grip it, looking me in the eye long enough that I had to resist the urge to apologize for existing.\n\n\u201cFirst thing,\u201d he said, handing me a clipboard with a safety checklist, \u201cyou\u2019re not an employee here. You\u2019re a member. That\u2019s different.\u201d\n\nI didn\u2019t understand the distinction until the safety meeting. We gathered in a circle\u2014twenty men and women in neon vests, the steam of our coffee rising in the cold morning air. The foreman, a wiry man named Carlos, read off the day\u2019s hazards: live electrical above the drop ceiling, silica dust in the south wing, a delivery truck backing through the gate at noon. Then he asked, \u201cAny stops?\u201d\n\nA woman named Gloria raised her hand. \u201cThat scissor lift by the HVAC unit,\u201d she said. \u201cThe guardrail wobbles. I tagged it yesterday, but it\u2019s still out there.\u201d\n\nCarlos nodded, made a note. \u201cRed tag it. Nobody touches it till maintenance clears it. Next?\u201d\n\nI waited for the retaliation. In my experience, pointing out a problem was an admission of weakness, a failure to \u201cbe a team player.\u201d But Carlos just moved to the next item. After the meeting, I watched Gloria walk over to the lift, attach a bright red tag that read \u201cDANGER\u2014DO NOT OPERATE,\u201d and then go get a cup of coffee. She didn\u2019t hurry. She didn\u2019t look over her shoulder.\n\nMy assignment was simple: haul conduit to the third floor. I worked with a journeyman electrician named Ray, who moved with the deliberate slowness of someone who knew exactly how long a day was. We didn\u2019t speak much, but at 9:30, he tapped his watch. \u201cBreak,\u201d he said.\n\nWe sat on a stack of plywood. Ray pulled out a sandwich wrapped in foil, and I opened my new lunchbox. Around us, other workers gathered in clusters. Someone had a portable radio playing classic rock. A carpenter was telling a story about his daughter\u2019s soccer game, and people listened\u2014not the performative listening of office small talk, but the real attention of people who had time to be human.\n\n\u201cYou\u2019re new,\u201d Ray said. It wasn\u2019t a question.\n\n\u201cFirst day.\u201d\n\nHe nodded, chewing. \u201cYou know why we take fifteen minutes?\u201d\n\n\u201cUnion rules?\u201d\n\n\u201cNah,\u201d he said. \u201cBecause if you don\u2019t rest your body, you make mistakes. And if you make mistakes with electricity, you don\u2019t get a second chance. The contract says we get a break because it\u2019s smart. Not because they\u2019re nice.\u201d\n\nThe words landed differently than I expected. I had spent years thinking of rules as obstacles, things management grudgingly allowed and workers secretly abused. But here, the rules felt like architecture\u2014something built to hold us up, not to fence us in.\n\nAt lunch, I sat with the other apprentices. One of them, a kid named Devon, explained the health plan to me\u2014how the union hall handled the paperwork, how the pension worked, how if I got hurt, there was a protocol that didn\u2019t involve begging for light duty or hiding the injury to keep the paycheck coming. He said it casually, between bites of an apple, but I felt something unclench in my chest that I hadn\u2019t known was clenched. It was the possibility that my body had value beyond its immediate utility.\n\nThe afternoon blurred into muscle memory: lift, carry, secure. My shoulders burned. But when 3:30 came\u2014the contractual quitting time\u2014something strange happened. The work stopped. Not gradually, not with the creeping overtime of my previous jobs where you stayed until the boss looked up from his phone, but all at once. Tools clicked into boxes. The lifts powered down. People moved toward the gate with the steady pace of those who knew the day was finished, not fleeing.\n\nI walked to my car, my hands raw, my back sore in a way that felt earned rather than exploited. I had done eight hours of labor, but I hadn\u2019t spent a single minute afraid. I hadn\u2019t checked my phone for schedule changes. I hadn\u2019t calculated whether I could afford to call in sick tomorrow. I had, for the first time, worked as part of something larger than my own desperation to survive.\n\nDriving home, I kept touching the hard hat on the passenger seat. It was still heavy, but now I understood that the weight was collective\u2014twenty thousand other members, decades of negotiations, the accumulated stubbornness of people who had decided that work didn\u2019t have to be a transaction of dignity for dollars. It could be a craft. It could be protected. It could be yours.\n\nThat night, I set my alarm for 6:00 a.m. When it went off, I didn\u2019t feel the usual dread. I felt the strange, unfamiliar sensation of looking forward to the gate, to the circle of steam and coffee, to the knowledge that when I arrived, I wouldn\u2019t be asking for permission to exist. I would be clocking in as a member.",
+  "run_name": "2026-03-07-openrouter-v0-1"
+}

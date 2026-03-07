@@ -1,0 +1,37 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.1",
+  "candidate_label": "MiniMax M2.5",
+  "candidate_model_id": "minimax/minimax-m2.5",
+  "created_at": "2026-03-07T15:16:36Z",
+  "metadata": {
+    "id": "gen-1772896557-D6G9IyVkCq4oydMx8CUV",
+    "usage": {
+      "completion_tokens": 500,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 183
+      },
+      "cost": 0.00082464,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.0008,
+        "upstream_inference_cost": 0.00082464,
+        "upstream_inference_prompt_cost": 2.464e-05
+      },
+      "is_byok": false,
+      "prompt_tokens": 67,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 6,
+        "video_tokens": 0
+      },
+      "total_tokens": 567
+    }
+  },
+  "prompt_category": "explain",
+  "prompt_id": "explain_property_tax",
+  "response_text": "# Understanding Your Property Tax Bill\n\n## The Basic Formula\n\nProperty tax isn't as complicated as it might seem. At its core, your tax bill comes from a simple multiplication:\n\n**Assessed Value \u00d7 Tax Rate = Your Property Tax**\n\nThat's it. Two numbers multiplied together. But both of those numbers can shift from year to year, which is why your bill changes.\n\n---\n\n## What Is \"Assessed Value\"?\n\nYour home's assessed value is the local tax assessor's estimate of what your property would sell for on the open market. This isn't the same as your home's actual market value or the price you paid\u2014though they're related.\n\n**How assessors determine this:** Tax assessors periodically visit properties (or use recent sales data, photos, and public records) to estimate values. They look at:\n\n- The size and condition of your home\n- Recent sales of similar homes in your neighborhood\n- Any improvements you've made (like adding a pool or finishing a basement)\n- Land value in your area\n\n**Important:** Assessors don't revalue every home every year. Some jurisdictions do annual reassessments; others do them every three, five, or even ten years. When yours does get reassessed, you might see a significant jump\u2014or drop\u2014depending on how the local market has changed.\n\n---\n\n## What Is the \"Tax Rate\"?\n\nThe tax rate (sometimes called a \"millage rate\" or \"mill rate\") is set by local government bodies\u2014city councils, county commissions, school boards, and special districts. It represents the amount you pay per $1,000 of assessed value.\n\nFor example, a tax rate of 20 mills means you pay $20 for every $1,000 of assessed value. On a home assessed",
+  "run_name": "2026-03-07-openrouter-v0-1"
+}

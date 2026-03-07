@@ -1,0 +1,37 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.1",
+  "candidate_label": "Gemini 3.1 Pro Preview",
+  "candidate_model_id": "google/gemini-3.1-pro-preview",
+  "created_at": "2026-03-07T15:02:45Z",
+  "metadata": {
+    "id": "gen-1772895759-PvnKwXKFbEVTnBLElPa8",
+    "usage": {
+      "completion_tokens": 496,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 479
+      },
+      "cost": 0.006082,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.005952,
+        "upstream_inference_cost": 0.006082,
+        "upstream_inference_prompt_cost": 0.00013
+      },
+      "is_byok": false,
+      "prompt_tokens": 65,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 561
+    }
+  },
+  "prompt_category": "memo",
+  "prompt_id": "memo_remote_work_policy",
+  "response_text": "**MEMORANDUM**\n\n**TO:** All Employees  \n**FROM:**",
+  "run_name": "2026-03-07-openrouter-v0-1"
+}

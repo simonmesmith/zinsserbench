@@ -1,0 +1,37 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.1",
+  "candidate_label": "GLM-5",
+  "candidate_model_id": "z-ai/glm-5",
+  "created_at": "2026-03-07T16:15:33Z",
+  "metadata": {
+    "id": "gen-1772900092-OwD137utYezxGyAoiKRK",
+    "usage": {
+      "completion_tokens": 1500,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 917
+      },
+      "cost": 0.004857,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.0048,
+        "upstream_inference_cost": 0.004857,
+        "upstream_inference_prompt_cost": 5.7e-05
+      },
+      "is_byok": false,
+      "prompt_tokens": 57,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 1557
+    }
+  },
+  "prompt_category": "explain",
+  "prompt_id": "explain_heat_pumps",
+  "response_text": "**The Two-in-One Home Comfort System**\n\nIf you are looking to replace your heating and cooling system, you have likely heard the buzz about heat pumps. While they once had a reputation for only working in mild climates, modern heat pumps are rapidly becoming the go-to choice for homeowners in all types of weather.\n\nHere is how they work and why they might be the right choice for your home.\n\n### How a Heat Pump Works\n\nThe easiest way to understand a heat pump is to stop thinking about \"creating\" heat and start thinking about \"moving\" it.\n\nA traditional gas furnace creates heat by burning fuel. A heat pump, conversely, works like a refrigerator or an air conditioner. It uses electricity and refrigerant to absorb heat energy from one place and transfer it to another.\n\n*   **In the summer:** It pulls heat from inside your home and dumps it outside, cooling your home.\n*   **In the winter:** It pulls heat energy from the outdoor air (even when it feels cold to you, there is still energy in the air) and compresses it to raise the temperature, then releases that warmth inside.\n\nBecause it moves heat rather than burning fuel to create it, a heat pump serves as both a heater and an air conditioner in a single unit.\n\n### Why Choose a Heat Pump Over a Gas Furnace?\n\nFor decades, the gas furnace was the standard for home heating. However, heat pumps offer several distinct advantages that are driving their popularity:\n\n**1. Superior Efficiency**\nThis is the biggest selling point. A high-efficiency gas furnace is about 95% efficient, meaning 95% of the energy in the gas becomes heat, and 5% is lost. A heat pump can be 300% to 400% efficient. This is because for every one unit of electricity it uses, it moves three to four units of heat. This often results in significantly lower monthly utility bills, depending on local electricity and gas rates.\n\n**2. Year-Round Comfort**\nWith a traditional setup, you need two separate systems: a furnace for winter and an air conditioner for summer. A heat pump handles both. This simplifies your home\u2019s mechanical footprint and means you only have one major appliance to maintain rather than two.\n\n**3. Better Indoor Air Quality and Safety**\nGas furnaces burn fossil fuels, which creates combustion byproducts like carbon monoxide. While furnaces are designed to vent these safely, there is always a small risk of leaks or backdrafting. Heat pumps run on electricity, eliminating combustion risks entirely. Additionally, heat pumps do not dry out the air as aggressively as gas furnaces, which can help maintain more comfortable humidity levels during the winter.\n\n**4. Consistent Temperatures**\nGas furnaces tend to blast hot air in short, intense bursts, which can lead to hot and cold spots or temperature swings. Heat pumps deliver a steadier, more consistent stream of warm air, keeping the temperature in your home more stable.\n\n### Is It Right for You?\n\nWhile heat pumps are highly efficient, the upfront installation cost can sometimes be higher than a basic furnace replacement. However, with potential tax credits and rebates for energy-efficient upgrades, the gap is narrowing",
+  "run_name": "2026-03-07-openrouter-v0-1"
+}

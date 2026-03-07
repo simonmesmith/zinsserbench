@@ -1,0 +1,47 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.1",
+  "candidate_model_id": "openai/gpt-5.4",
+  "created_at": "2026-03-07T16:56:34Z",
+  "judge_model_id": "openai/gpt-5.4",
+  "metadata": {
+    "id": "gen-1772902590-ZzW2WbvukwgWklYTh4Tk",
+    "raw_text": "{\"scores\":{\"clarity\":4,\"simplicity\":5,\"brevity_economy\":4,\"structure_flow\":3,\"specificity_precision\":4,\"humanity_voice\":3,\"overall\":4},\"rationale\":\"Clear, plain-language explainer with a logical compare/contrast and useful specifics like efficiency, cooling, emissions, and cold-climate performance. The main weakness is the abrupt cutoff at the end, which hurts flow and completeness; the tone is helpful but somewhat generic.\"}",
+    "usage": {
+      "completion_tokens": 208,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 100
+      },
+      "cost": 0.004905,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.00312,
+        "upstream_inference_cost": 0.004905,
+        "upstream_inference_prompt_cost": 0.001785
+      },
+      "is_byok": false,
+      "prompt_tokens": 714,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 922
+    }
+  },
+  "prompt_category": "explain",
+  "prompt_id": "explain_heat_pumps",
+  "rationale": "Clear, plain-language explainer with a logical compare/contrast and useful specifics like efficiency, cooling, emissions, and cold-climate performance. The main weakness is the abrupt cutoff at the end, which hurts flow and completeness; the tone is helpful but somewhat generic.",
+  "run_name": "2026-03-07-openrouter-v0-1",
+  "scores": {
+    "brevity_economy": 4,
+    "clarity": 4,
+    "humanity_voice": 3,
+    "overall": 4,
+    "simplicity": 5,
+    "specificity_precision": 4,
+    "structure_flow": 3
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.1",
+  "candidate_label": "GPT-5.3 Chat",
+  "candidate_model_id": "openai/gpt-5.3-chat",
+  "created_at": "2026-03-07T15:10:30Z",
+  "metadata": {
+    "id": "gen-1772896223-f2rJNot63zBLs2QtNtYQ",
+    "usage": {
+      "completion_tokens": 500,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 64
+      },
+      "cost": 0.0071085,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.007,
+        "upstream_inference_cost": 0.0071085,
+        "upstream_inference_prompt_cost": 0.0001085
+      },
+      "is_byok": false,
+      "prompt_tokens": 62,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 562
+    }
+  },
+  "prompt_category": "personal_nonfiction",
+  "prompt_id": "personal_first_day_union_job",
+  "response_text": ":::writing\nI remember the smell first: coffee that had been sitting on a burner too long, machine oil, and the faint dust of old concrete. It was still dark when I walked into the shop for my first day. The lights buzzed overhead like they were waking up reluctantly. I had a brand-new pair of work boots that squeaked when I walked, which felt like announcing to everyone that I didn\u2019t belong yet.\n\nI had worked before. Plenty of jobs. Grocery store stockroom, a landscaping crew that paid cash on Fridays, a warehouse where nobody knew anyone\u2019s last name. Those jobs had taught me something simple: show up, keep your head down, don\u2019t cause problems, and maybe you\u2019ll keep getting hours.\n\nSo that morning I expected more of the same.\n\nA big guy named Raul was the first person to talk to me. He had a gray beard tucked into his collar and a union patch sewn onto his jacket sleeve. He looked at my boots, my nervous posture, the way I kept my hands in my pockets like I didn\u2019t know what to do with them.\n\n\u201cFirst day?\u201d he said.\n\nI nodded.\n\nHe stuck out his hand. \u201cWelcome. I\u2019m your steward.\u201d\n\nI didn\u2019t know what that meant yet.\n\nThe shift started with a meeting. Not a manager lecture, not a warning about productivity, but a circle of workers talking about the day. Someone mentioned a machine guard that had been loose the day before. Someone else said a new schedule proposal was coming up for a vote. Raul introduced me, and a few people clapped lightly like I\u2019d just joined a team instead of taken a job.\n\nIt was strange. I kept waiting for the part where someone told us to hurry up and stop talking.\n\nLater that morning I was helping move a pallet when the forklift operator shut his machine off and waved me over.\n\n\u201cYou\u2019re new,\u201d he said. \u201cNobody showed you the lift zone lines yet, huh?\u201d\n\nI shook my head.\n\nInstead of yelling or telling me to figure it out",
+  "run_name": "2026-03-07-openrouter-v0-1"
+}

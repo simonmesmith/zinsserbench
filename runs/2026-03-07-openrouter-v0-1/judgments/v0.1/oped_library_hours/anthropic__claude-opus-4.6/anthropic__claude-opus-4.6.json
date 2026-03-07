@@ -1,0 +1,47 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.1",
+  "candidate_model_id": "anthropic/claude-opus-4.6",
+  "created_at": "2026-03-07T17:17:35Z",
+  "judge_model_id": "anthropic/claude-opus-4.6",
+  "metadata": {
+    "id": "gen-1772903847-1vmsCQQFLpKh3JIXBBGQ",
+    "raw_text": "{\"scores\": {\"clarity\": 5, \"simplicity\": 5, \"brevity_economy\": 5, \"structure_flow\": 5, \"specificity_precision\": 4, \"humanity_voice\": 5, \"overall\": 5}, \"rationale\": \"Exceptionally well-crafted opinion piece. The opening scene at 5:45 p.m. is vivid and immediately grounding. The argument builds logically: establish the problem, show who it hurts, then pivot to cost objections. Language is direct and muscular without being simplistic ('a relic of a bygone era' earns its place). The equity framing is sharp and specific \u2014 the student in a crowded apartment, the immigrant studying for citizenship \u2014 these are concrete, not generic. The bolded thesis statements land effectively. The one notable flaw is that the piece is cut off mid-sentence ('a $4.'), which truncates the cost-rebuttal argument and leaves the piece without a conclusion. However, judging what's on the page, everything written is excellent. Specificity loses a point because while the human examples are strong, some claims (like the 6 p.m. closing time, the $4 million figure) are invented specifics that feel plausible but unverifiable, and the cost argument never gets completed. Voice is outstanding \u2014 warm, urgent, and persuasive without being preachy.\"}",
+    "usage": {
+      "completion_tokens": 312,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 0
+      },
+      "cost": 0.011995,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.0078,
+        "upstream_inference_cost": 0.011995,
+        "upstream_inference_prompt_cost": 0.004195
+      },
+      "is_byok": false,
+      "prompt_tokens": 839,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 1151
+    }
+  },
+  "prompt_category": "persuasion_oped",
+  "prompt_id": "oped_library_hours",
+  "rationale": "Exceptionally well-crafted opinion piece. The opening scene at 5:45 p.m. is vivid and immediately grounding. The argument builds logically: establish the problem, show who it hurts, then pivot to cost objections. Language is direct and muscular without being simplistic ('a relic of a bygone era' earns its place). The equity framing is sharp and specific \u2014 the student in a crowded apartment, the immigrant studying for citizenship \u2014 these are concrete, not generic. The bolded thesis statements land effectively. The one notable flaw is that the piece is cut off mid-sentence ('a $4.'), which truncates the cost-rebuttal argument and leaves the piece without a conclusion. However, judging what's on the page, everything written is excellent. Specificity loses a point because while the human examples are strong, some claims (like the 6 p.m. closing time, the $4 million figure) are invented specifics that feel plausible but unverifiable, and the cost argument never gets completed. Voice is outstanding \u2014 warm, urgent, and persuasive without being preachy.",
+  "run_name": "2026-03-07-openrouter-v0-1",
+  "scores": {
+    "brevity_economy": 5,
+    "clarity": 5,
+    "humanity_voice": 5,
+    "overall": 5,
+    "simplicity": 5,
+    "specificity_precision": 4,
+    "structure_flow": 5
+  }
+}

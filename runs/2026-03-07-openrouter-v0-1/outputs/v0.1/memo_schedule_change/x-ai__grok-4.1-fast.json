@@ -1,0 +1,37 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.1",
+  "candidate_label": "Grok 4.1 Fast",
+  "candidate_model_id": "x-ai/grok-4.1-fast",
+  "created_at": "2026-03-07T15:16:42Z",
+  "metadata": {
+    "id": "gen-1772896596-yTikGP3L0oJmxYqXioW7",
+    "usage": {
+      "completion_tokens": 640,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 234
+      },
+      "cost": 0.00033785,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.00032,
+        "upstream_inference_cost": 0.00033785,
+        "upstream_inference_prompt_cost": 1.785e-05
+      },
+      "is_byok": false,
+      "prompt_tokens": 201,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 149,
+        "video_tokens": 0
+      },
+      "total_tokens": 841
+    }
+  },
+  "prompt_category": "memo",
+  "prompt_id": "memo_schedule_change",
+  "response_text": "**INTERNAL MEMO**\n\n**To:** All Warehouse Employees  \n**From:** John Ramirez, Warehouse Manager  \n**Date:** November 15, 2023  \n**Subject:** Shift Schedule Change Effective December 1st for Holiday Season  \n\nTeam,  \n\nAs we gear up for the busy holiday season, customer demand is expected to surge, requiring us to adjust our shift schedules to ensure we meet all order deadlines and maintain our top service levels. Thank you in advance for your flexibility and hard work during this peak period.  \n\n**Key Changes:**  \n- **Effective Date:** Saturday, December 1st, 2023, through Monday, January 5th, 2024.  \n- **New Shift Structure:**  \n  - Day Shift: 6:00 AM - 6:00 PM (12-hour shifts, Monday-Friday)  \n  - Night Shift: 6:00 PM - 6:00 AM (12-hour shifts, Monday-Friday)  \n  - Weekend Coverage: Rotating Saturday shifts (6:00 AM - 6:00 PM) assigned by team leads.  \n- **Breaks:** Two 30-minute paid breaks and one 1-hour unpaid lunch per shift.  \n- **Overtime:** All hours over 8 per day will be paid at 1.5x rate; double time for holidays (Dec 24, 25, 31, Jan 1).  \n\nYour current shift assignments will be posted on the warehouse bulletin board and in the employee portal by November 20th. If you have scheduling conflicts or need to swap shifts, please coordinate with your team lead by November 25th.  \n\nWe're all in this together to make the holidays smooth for our customers\u2014and rewarding for us. Extra incentives, including holiday bonuses and a post-season team event, will be announced soon.  \n\nQuestions? Contact me directly at ext. 215 or jr@xyzlogistics.com.  \n\nLet's crush this season!  \n\nJohn Ramirez  \nWarehouse Manager  \nXYZ Logistics",
+  "run_name": "2026-03-07-openrouter-v0-1"
+}

@@ -1,0 +1,37 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.1",
+  "candidate_label": "MiniMax M2.5",
+  "candidate_model_id": "minimax/minimax-m2.5",
+  "created_at": "2026-03-07T15:06:38Z",
+  "metadata": {
+    "id": "gen-1772895978-cxvw3INpTSjpou6HqfyJ",
+    "usage": {
+      "completion_tokens": 1374,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 158
+      },
+      "cost": 0.0016695,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.0016488,
+        "upstream_inference_cost": 0.0016695,
+        "upstream_inference_prompt_cost": 2.07e-05
+      },
+      "is_byok": false,
+      "prompt_tokens": 69,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 1443
+    }
+  },
+  "prompt_category": "profile",
+  "prompt_id": "profile_school_custodian",
+  "response_text": "# The Hallways Remember His Name\n\nEvery morning at 5:45 a.m., Earl Pemberton unlocks the side entrance of Roosevelt High School and walks the same route he's walked for nearly three decades. The fluorescent lights flicker on in sequence as he moves through the building\u2014past the auditorium, around the corner by the chemistry lab, down the long corridor lined with trophy cases. He knows which tiles are loose by the science wing, which lockers stick in February, which drinking fountain has the weakest pressure. Twenty-eight years of footsteps have worn a pattern into the linoleum that only he can see.\n\n\"Mr. Earl,\" the students say as they stream through the doors an hour later. \"Morning, Mr. Earl.\" He nods, offers a wave, calls them by name.\n\nEvery single one.\n\n---\n\nEarl Pemberton started working at Roosevelt in 1996, the same year the school added its second gymnasium and the same year the cafeteria switched from tray service to disposable trays\u2014a change he still grumbles about. He was twenty-seven then, fresh out of a job at a manufacturing plant that had closed unexpectedly. A cousin who worked in the district told him there was an opening for a night custodian. Earl took it. He figured he'd stay a year, maybe two, until something better came along.\n\nSomething better never came. Or rather, it did, but it looked like this: a building full of teenagers who needed someone to notice them.\n\n\"I started paying attention to names because I wanted to feel like I belonged here,\" Earl says, leaning on his mop handle during a quiet afternoon. He's sixty-one now, with close-cropped gray hair and the kind of calm that comes from having seen everything. \"Kids would walk past me every day, and I'd think, 'Who are you? What's your story?' So I started asking. Started remembering.\"\n\nThe remembering became a kind of mission. Earl keeps a small notebook in his pocket where he jots down names he's heard\u2014overheard, really, in hallways and classrooms, in the cafeteria and at after-school events. He reviews it on his breaks. He updates it when seniors graduate and new freshmen arrive. At any given time, he can call up the name of any student currently enrolled at Roosevelt, along with details about their schedule, their siblings, sometimes their home situation.\n\n---\n\nPrincipal Diane Okonkwo has worked at Roosevelt for eleven years. She still remembers the first time she realized the scope of Earl's memory.\n\n\"I was doing morning duty at the front entrance, and a student walked past without his ID,\" she recalls. \"I called out\u2014'Hey, you, come back!'\u2014and Earl, who was mopping nearby, just said, 'That's Marcus Jefferson, he's a junior, his ID is in his backpack, he forgot it this morning.' I looked at him, and he just shrugged. Like it was nothing.\"\n\nIt wasn't nothing. There are 1,847 students enrolled at Roosevelt High School. Earl knows all of them by name.\n\n---\n\nThe work itself is often invisible\u2014the kind of labor that disappears into the clean floors and stocked restrooms and trash cans emptied before first period. Earl mops. He scrubs. He fixes what breaks and replaces what can't be fixed. He arrives before dawn and leaves well after the last extracurricular event has ended. The pay, he admits, isn't much. The benefits are decent. The retirement plan is what kept him through the lean years when his own children were small and money was tight.\n\nBut the money was never really the point.\n\n\"Kids need to be seen,\" Earl says. \"They need someone to say their name. Someone to know they're there.\" He pauses, thinking of the thousands of young people who have passed through these hallways. \"I've seen kids who were failing everything turn around because someone in this building made them feel like they mattered. I'm not the counselor. I'm not the teacher. But I can be the person who says good morning. Who remembers their name.\"\n\n---\n\nThere are particular students Earl thinks about. The ones who came to him during hard times. The girl who used to eat her lunch in his supply closet because she didn't want anyone to see she had no friends. The twins whose mother worked nights, who would sometimes fall asleep in the library and Earl would make sure they got home safe. The boy who got in a fight sophomore year, who Earl talked down from the hallway railing when things felt too heavy.\n\nHe doesn't talk about these moments much. They belong to the kids, he says. He was just there.\n\n---\n\nOn the wall of the custodial office, there's a corkboard covered in photographs. Some are old, faded by years of sunlight. Some are recent. They're all students\u2014past and present\u2014who wanted to thank Earl, or to let him know they made it. A nurse. A electrician. A social worker. A mother of three who still stops by on her way to pick up her own kids from elementary school.\n\n\"She was one of the ones who ate lunch in the closet,\" Earl says, pointing to a photo from 2003. He's smiling, but there's something in his eyes. \"Now she's got her own family. She brings me cookies every year on my anniversary.\"\n\n---\n\nAt 2:30 p.m., the final bell rings and the hallways flood with students heading for the exits. Earl stands near the main entrance, mop in hand, nodding at the stream of faces.\n\n\"Have a good night, Jaylen.\"\n\n\"See you tomorrow, Destiny.\"\n\n\"Tell your mom I said hey, Marcus.\"\n\nThe names flow out of him like water, effortless and warm. Twenty-eight years of mornings. Twenty-eight years of names. Twenty-eight years of being the first person to say good morning and the last to say good night.\n\nThe building will empty. The lights will dim. And tomorrow, Earl Pemberton will unlock the side door again, walk his familiar route, and begin the work of remembering every single person who passes through.",
+  "run_name": "2026-03-07-openrouter-v0-1"
+}

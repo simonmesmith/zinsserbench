@@ -1,0 +1,47 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.1",
+  "candidate_model_id": "x-ai/grok-4.1-fast",
+  "created_at": "2026-03-07T17:34:40Z",
+  "judge_model_id": "anthropic/claude-opus-4.6",
+  "metadata": {
+    "id": "gen-1772904873-CoA1PUK9V0LbGXDkU7A0",
+    "raw_text": "{\"scores\": {\"clarity\": 4, \"simplicity\": 4, \"brevity_economy\": 4, \"structure_flow\": 4, \"specificity_precision\": 4, \"humanity_voice\": 4, \"overall\": 3}, \"rationale\": \"The writing that exists is strong: clear headers, plain language, concrete examples (Listeria in deli meats, peanuts in nut-free cookies), and a warm but informative tone ('Don't panic, but act fast'). The recall classification breakdown and resource links add genuine informational value. However, the response is truncated mid-sentence in the most critical section\u2014the action steps for a consumer who finds a recalled product. This is the core of the prompt, and the piece simply stops. Structure and flow are good up to the cutoff but the incompleteness undermines overall effectiveness significantly. Brevity is fine for what's present, though some bullet lists border on listicle filler. Voice is engaging without being cutesy.\"}",
+    "usage": {
+      "completion_tokens": 261,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 25
+      },
+      "cost": 0.01168,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.006525,
+        "upstream_inference_cost": 0.01168,
+        "upstream_inference_prompt_cost": 0.005155
+      },
+      "is_byok": false,
+      "prompt_tokens": 1031,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 1292
+    }
+  },
+  "prompt_category": "explain",
+  "prompt_id": "explain_food_recall",
+  "rationale": "The writing that exists is strong: clear headers, plain language, concrete examples (Listeria in deli meats, peanuts in nut-free cookies), and a warm but informative tone ('Don't panic, but act fast'). The recall classification breakdown and resource links add genuine informational value. However, the response is truncated mid-sentence in the most critical section\u2014the action steps for a consumer who finds a recalled product. This is the core of the prompt, and the piece simply stops. Structure and flow are good up to the cutoff but the incompleteness undermines overall effectiveness significantly. Brevity is fine for what's present, though some bullet lists border on listicle filler. Voice is engaging without being cutesy.",
+  "run_name": "2026-03-07-openrouter-v0-1",
+  "scores": {
+    "brevity_economy": 4,
+    "clarity": 4,
+    "humanity_voice": 4,
+    "overall": 3,
+    "simplicity": 4,
+    "specificity_precision": 4,
+    "structure_flow": 4
+  }
+}

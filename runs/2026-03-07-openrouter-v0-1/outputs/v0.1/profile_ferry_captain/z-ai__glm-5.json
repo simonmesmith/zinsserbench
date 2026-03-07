@@ -1,0 +1,37 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.1",
+  "candidate_label": "GLM-5",
+  "candidate_model_id": "z-ai/glm-5",
+  "created_at": "2026-03-07T15:06:55Z",
+  "metadata": {
+    "id": "gen-1772896008-whv7dJbq8S0eCsUyMr1o",
+    "usage": {
+      "completion_tokens": 500,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 204
+      },
+      "cost": 0.001656,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.0016,
+        "upstream_inference_cost": 0.001656,
+        "upstream_inference_prompt_cost": 5.6e-05
+      },
+      "is_byok": false,
+      "prompt_tokens": 56,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 556
+    }
+  },
+  "prompt_category": "profile",
+  "prompt_id": "profile_ferry_captain",
+  "response_text": "# The Captain of the Narrow Sea\n\nEvery morning at 5:45, Harold Pence walks down the wooden dock at Miller's Landing, his boots making the same sound they've made for thirty years\u2014a hollow thump that the gulls have learned to ignore. The ferry *Matilda* waits in the dark water, her white paint faded to the color of old bone, and Harold boards her the way a man climbs into his own skin.\n\nThe route between Miller's Landing and Cooper's Reach is not a journey that appears on most maps. Fourteen nautical miles across what the locals call the Narrow Sea, a bite of water that separates two towns that might have been one town if not for a stubborn argument about the post office in 1892. The crossing takes forty-seven minutes when the weather holds. Harold has made it 21,842 times, give or take.\n\n\"You don't get bored,\" he says, settling into the wheelhouse as the first light bleeds gray over the eastern shore. \"People ask me that. They say, same water, same towns, same boat. But it's never the same. The water's different every day. The light's different. The passengers are different, even when they're the same people.\"\n\nHe pulls the throttle back and *Matilda* shudders awake beneath him. At 6:00 exactly, she pulls away from the dock.\n\n---\n\nHarold is sixty-two now, with a face that has weathered in the pattern of men who work on water\u2014the deep lines around the eyes from squinting at horizons, the permanent flush in the cheeks from wind, the white stub",
+  "run_name": "2026-03-07-openrouter-v0-1"
+}

@@ -1,0 +1,47 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.1",
+  "candidate_model_id": "minimax/minimax-m2.5",
+  "created_at": "2026-03-07T17:05:59Z",
+  "judge_model_id": "openai/gpt-5.4",
+  "metadata": {
+    "id": "gen-1772903155-hKoIhrvHBZGFgFV7PiXL",
+    "raw_text": "{\"scores\":{\"clarity\":5,\"simplicity\":4,\"brevity_economy\":4,\"structure_flow\":5,\"specificity_precision\":5,\"humanity_voice\":5,\"overall\":5},\"rationale\":\"Clear, readable, and smoothly organized, with strong scene-setting and concrete details that make Earl vivid. The voice feels warm and human. It loses a little on simplicity and economy because some lines are lyrical or repetitive, but overall it is an effective, polished profile.\"}",
+    "usage": {
+      "completion_tokens": 238,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 130
+      },
+      "cost": 0.0075375,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.00357,
+        "upstream_inference_cost": 0.0075375,
+        "upstream_inference_prompt_cost": 0.0039675
+      },
+      "is_byok": false,
+      "prompt_tokens": 1587,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 1825
+    }
+  },
+  "prompt_category": "profile",
+  "prompt_id": "profile_school_custodian",
+  "rationale": "Clear, readable, and smoothly organized, with strong scene-setting and concrete details that make Earl vivid. The voice feels warm and human. It loses a little on simplicity and economy because some lines are lyrical or repetitive, but overall it is an effective, polished profile.",
+  "run_name": "2026-03-07-openrouter-v0-1",
+  "scores": {
+    "brevity_economy": 4,
+    "clarity": 5,
+    "humanity_voice": 5,
+    "overall": 5,
+    "simplicity": 4,
+    "specificity_precision": 5,
+    "structure_flow": 5
+  }
+}

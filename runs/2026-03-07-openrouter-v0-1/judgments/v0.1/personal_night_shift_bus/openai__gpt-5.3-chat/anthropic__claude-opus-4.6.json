@@ -1,0 +1,47 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.1",
+  "candidate_model_id": "openai/gpt-5.3-chat",
+  "created_at": "2026-03-07T17:45:51Z",
+  "judge_model_id": "anthropic/claude-opus-4.6",
+  "metadata": {
+    "id": "gen-1772905544-991SManHSCPZnLTD22Gp",
+    "raw_text": "{\"scores\": {\"clarity\": 5, \"simplicity\": 5, \"brevity_economy\": 5, \"structure_flow\": 5, \"specificity_precision\": 5, \"humanity_voice\": 5, \"overall\": 5}, \"rationale\": \"Exceptionally clear prose with no confusing passages. The language is plain and direct yet evocative\u2014'a bus stop lamp that hummed faintly like an insect trapped in glass' is precise without being overwrought. Every paragraph earns its place: the essay moves naturally from solitary inconvenience to communal warmth, with each character sketch (nurse, baker, driver) advancing that arc. Specificity is outstanding\u2014the purple water bottle, white boxes tied with twine, the smell of bread filling the aisle, the cracked sidewalk beside a closed pharmacy. These details are concrete and sensory without being decorative. The voice is genuinely human, warm, and reflective, with well-placed humor ('I laughed harder than the joke deserved'). The piece is cut off mid-sentence, which is the only flaw, but what exists is polished, economical personal nonfiction of high quality.\"}",
+    "usage": {
+      "completion_tokens": 264,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 0
+      },
+      "cost": 0.010995,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.0066,
+        "upstream_inference_cost": 0.010995,
+        "upstream_inference_prompt_cost": 0.004395
+      },
+      "is_byok": false,
+      "prompt_tokens": 879,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 1143
+    }
+  },
+  "prompt_category": "personal_nonfiction",
+  "prompt_id": "personal_night_shift_bus",
+  "rationale": "Exceptionally clear prose with no confusing passages. The language is plain and direct yet evocative\u2014'a bus stop lamp that hummed faintly like an insect trapped in glass' is precise without being overwrought. Every paragraph earns its place: the essay moves naturally from solitary inconvenience to communal warmth, with each character sketch (nurse, baker, driver) advancing that arc. Specificity is outstanding\u2014the purple water bottle, white boxes tied with twine, the smell of bread filling the aisle, the cracked sidewalk beside a closed pharmacy. These details are concrete and sensory without being decorative. The voice is genuinely human, warm, and reflective, with well-placed humor ('I laughed harder than the joke deserved'). The piece is cut off mid-sentence, which is the only flaw, but what exists is polished, economical personal nonfiction of high quality.",
+  "run_name": "2026-03-07-openrouter-v0-1",
+  "scores": {
+    "brevity_economy": 5,
+    "clarity": 5,
+    "humanity_voice": 5,
+    "overall": 5,
+    "simplicity": 5,
+    "specificity_precision": 5,
+    "structure_flow": 5
+  }
+}
