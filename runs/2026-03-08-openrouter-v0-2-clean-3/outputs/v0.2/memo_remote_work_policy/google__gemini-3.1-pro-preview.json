@@ -1,0 +1,56 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.2",
+  "candidate_label": "Gemini 3.1 Pro Preview",
+  "candidate_model_id": "google/gemini-3.1-pro-preview",
+  "created_at": "2026-03-08T11:55:02Z",
+  "metadata": {
+    "finish_reason": "stop",
+    "generation_attempt": 1,
+    "generation_settings": {
+      "max_output_tokens": 10000,
+      "reasoning_effort": "medium"
+    },
+    "id": "gen-1772970884-ZhMwJUgQNRKajCUnVwyi",
+    "quality_guard": {
+      "minimum_words": 100,
+      "reason": "",
+      "status": "ok",
+      "word_count": 548
+    },
+    "raw_response_text": "**MEMORANDUM**\n\n**TO:** All Employees  \n**FROM:** The Executive Leadership Team  \n**DATE:** October 24, 2023  \n**SUBJECT:** Announcement: New \"Flexible First\" Remote Work Policy  \n\nTeam,\n\nAs we recently crossed the milestone of 120 employees, the leadership team has been reflecting on how we work together, how we continue to build our culture, and how we can best support you. Over the past few months, we have gathered your feedback through surveys and one-on-one conversations. \n\nThe message was clear: you value the flexibility of remote work, but you also miss the collaborative energy of in-person whiteboarding sessions and team building. \n\nTo support the diverse needs of our growing team, we are excited to announce our new **\"Flexible First\" Remote Work Policy**, effective November 1st. \n\n**The Reason for the Change**\nOur previous policy was a temporary measure designed to navigate the rapid changes of the past couple of years. As a software company, we have proven that we can ship incredible products and support our clients from anywhere. However, a one-size-fits-all approach no longer suits our expanding workforce. We want to empower you to work in the environment where you feel most productive, while still providing structured opportunities for the cross-functional collaboration that drives our innovation.\n\n**The \"Flexible First\" Policy**\nUnder the new policy, employees will fall into one of three categories, chosen by you in coordination with your manager:\n\n1. **Fully Remote:** You will work from home (or another remote location) 100% of the time. You are only expected to travel to the office for quarterly all-hands weeks. \n2. **Hybrid:** You will work from the office 2\u20133 days a week and remotely for the remainder. Tuesdays and Thursdays will be designated as \"Anchor Days\" for the office, meaning these are the best days to schedule in-person meetings and team lunches.\n3. **Office-Based:** For those who prefer a dedicated desk and separation between home and work, you are welcome to work from the office 4\u20135 days a week. \n\n*Note: Core working hours for all employees, regardless of location, will remain 10:00 AM to 3:00 PM in your local time zone to ensure overlap for synchronous communication.*\n\n**What You Need to Do Next**\nTo ensure a smooth transition to this new model, please complete the following steps by **Friday, October 31st**:\n\n1. **Review the Full Policy:** Read the detailed guidelines, including information on home-office stipends and travel reimbursements, located on the company intranet [Link].\n2. **Consult Your Manager:** Schedule a brief 15-minute sync with your direct manager this week to discuss which of the three work styles makes the most sense for your role and personal preferences.\n3. **Submit Your Preference:** Fill out the \"Workplace Preference Form\" [Link] so our IT and Operations teams can allocate office space and distribute home-office equipment stipends accordingly. \n4. **Update Your Status:** Once your schedule is finalized, please update your Slack profile and Google Calendar working hours to reflect your standard availability and location.\n\nWe are incredibly proud of what this team has accomplished, and we believe this new policy will give you the autonomy and support you need to do your best work. If you have any immediate questions, please reach out to HR or drop them in the #ask-leadership Slack channel.\n\nThank you for your continued dedication and hard work. \n\nBest regards,\n\nThe Executive Leadership Team",
+    "sanitization": {
+      "changed": false,
+      "patterns": [],
+      "removed_chars": 0,
+      "removed_ratio": 0.0
+    },
+    "usage": {
+      "completion_tokens": 1431,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 667
+      },
+      "cost": 0.017302,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.017172,
+        "upstream_inference_cost": 0.017302,
+        "upstream_inference_prompt_cost": 0.00013
+      },
+      "is_byok": false,
+      "prompt_tokens": 65,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 1496
+    }
+  },
+  "prompt_category": "memo",
+  "prompt_id": "memo_remote_work_policy",
+  "response_text": "**MEMORANDUM**\n\n**TO:** All Employees  \n**FROM:** The Executive Leadership Team  \n**DATE:** October 24, 2023  \n**SUBJECT:** Announcement: New \"Flexible First\" Remote Work Policy  \n\nTeam,\n\nAs we recently crossed the milestone of 120 employees, the leadership team has been reflecting on how we work together, how we continue to build our culture, and how we can best support you. Over the past few months, we have gathered your feedback through surveys and one-on-one conversations. \n\nThe message was clear: you value the flexibility of remote work, but you also miss the collaborative energy of in-person whiteboarding sessions and team building. \n\nTo support the diverse needs of our growing team, we are excited to announce our new **\"Flexible First\" Remote Work Policy**, effective November 1st. \n\n**The Reason for the Change**\nOur previous policy was a temporary measure designed to navigate the rapid changes of the past couple of years. As a software company, we have proven that we can ship incredible products and support our clients from anywhere. However, a one-size-fits-all approach no longer suits our expanding workforce. We want to empower you to work in the environment where you feel most productive, while still providing structured opportunities for the cross-functional collaboration that drives our innovation.\n\n**The \"Flexible First\" Policy**\nUnder the new policy, employees will fall into one of three categories, chosen by you in coordination with your manager:\n\n1. **Fully Remote:** You will work from home (or another remote location) 100% of the time. You are only expected to travel to the office for quarterly all-hands weeks. \n2. **Hybrid:** You will work from the office 2\u20133 days a week and remotely for the remainder. Tuesdays and Thursdays will be designated as \"Anchor Days\" for the office, meaning these are the best days to schedule in-person meetings and team lunches.\n3. **Office-Based:** For those who prefer a dedicated desk and separation between home and work, you are welcome to work from the office 4\u20135 days a week. \n\n*Note: Core working hours for all employees, regardless of location, will remain 10:00 AM to 3:00 PM in your local time zone to ensure overlap for synchronous communication.*\n\n**What You Need to Do Next**\nTo ensure a smooth transition to this new model, please complete the following steps by **Friday, October 31st**:\n\n1. **Review the Full Policy:** Read the detailed guidelines, including information on home-office stipends and travel reimbursements, located on the company intranet [Link].\n2. **Consult Your Manager:** Schedule a brief 15-minute sync with your direct manager this week to discuss which of the three work styles makes the most sense for your role and personal preferences.\n3. **Submit Your Preference:** Fill out the \"Workplace Preference Form\" [Link] so our IT and Operations teams can allocate office space and distribute home-office equipment stipends accordingly. \n4. **Update Your Status:** Once your schedule is finalized, please update your Slack profile and Google Calendar working hours to reflect your standard availability and location.\n\nWe are incredibly proud of what this team has accomplished, and we believe this new policy will give you the autonomy and support you need to do your best work. If you have any immediate questions, please reach out to HR or drop them in the #ask-leadership Slack channel.\n\nThank you for your continued dedication and hard work. \n\nBest regards,\n\nThe Executive Leadership Team",
+  "run_name": "2026-03-08-openrouter-v0-2-clean-3"
+}

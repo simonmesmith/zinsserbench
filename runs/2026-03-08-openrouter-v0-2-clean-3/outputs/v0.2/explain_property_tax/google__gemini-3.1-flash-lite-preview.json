@@ -1,0 +1,56 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.2",
+  "candidate_label": "Gemini 3.1 Flash Lite Preview",
+  "candidate_model_id": "google/gemini-3.1-flash-lite-preview",
+  "created_at": "2026-03-08T12:24:03Z",
+  "metadata": {
+    "finish_reason": "stop",
+    "generation_attempt": 1,
+    "generation_settings": {
+      "max_output_tokens": 10000,
+      "reasoning_effort": "medium"
+    },
+    "id": "gen-1772972636-7lnLIE20JXEgqSRvmUJr",
+    "quality_guard": {
+      "minimum_words": 120,
+      "reason": "",
+      "status": "ok",
+      "word_count": 578
+    },
+    "raw_response_text": "Understanding your property tax bill can feel complicated, but it essentially comes down to a simple math equation. Your local government uses this formula to determine how much you owe:\n\n**Assessed Value \u00d7 Tax Rate = Your Property Tax Bill**\n\nHere is a breakdown of how those two numbers are determined and why they shift from year to year.\n\n### 1. The Assessed Value (What your home is worth)\nEvery year or two, a local government official called an \"assessor\" determines the value of your property for tax purposes. \n\n*   **How it\u2019s set:** The assessor looks at recent sales of similar homes in your area, the size of your property, and any improvements you\u2019ve made (like adding a deck or finishing a basement).\n*   **Why it changes:** If the real estate market in your neighborhood is hot and home prices are rising, your assessed value will likely go up. Conversely, if the market cools, your assessed value might stay flat or even decrease.\n\n### 2. The Tax Rate (What the government needs)\nThe tax rate is not a random number; it is determined by the budget needs of your local government.\n\n*   **How it\u2019s set:** Local governments (cities, counties, and school districts) calculate how much money they need to fund public services like schools, police, fire departments, road maintenance, and libraries. They then divide that total budget by the total value of all property in the area to set a tax rate.\n*   **Why it changes:** If your town decides to build a new school, hire more police officers, or upgrade infrastructure, they may need to increase the tax rate to cover those costs.\n\n### Why Your Bill Changes from Year to Year\nEven if you haven\u2019t changed anything about your home, your tax bill can fluctuate for several reasons:\n\n*   **Market Appreciation:** If your home\u2019s value is assessed higher because the neighborhood is becoming more desirable, your tax bill will likely rise, even if the tax rate stays the same.\n*   **Budget Increases:** If your local government increases its spending, they may raise the tax rate to bring in more revenue.\n*   **Voter-Approved Measures:** Sometimes, voters approve \"bonds\" or \"levies\" on the ballot to fund specific projects (like a new park or a library renovation). These measures often result in a temporary increase in your tax rate.\n*   **Loss of Exemptions:** Many states offer tax breaks, such as \"homestead exemptions\" for primary residences or discounts for seniors and veterans. If you lose one of these exemptions\u2014or if the rules regarding them change\u2014your bill will go up.\n\n### What Can You Do?\nIf you feel your property tax bill is unfair, you generally have two main options:\n\n1.  **Check for Exemptions:** Contact your local tax office to ensure you are receiving every tax break you qualify for. Many homeowners miss out on exemptions simply because they didn't know to apply for them.\n2.  **Appeal the Assessment:** If you believe your home\u2019s assessed value is significantly higher than what it would actually sell for on the open market, you have the right to appeal. You will usually need to provide evidence, such as recent sales data for similar homes in your neighborhood that sold for less than your assessed value.\n\n**The bottom line:** Your property tax bill is a reflection of both the value of your home and the cost of the services provided by your local community. When either of those numbers moves, your bill moves with them.",
+    "sanitization": {
+      "changed": false,
+      "patterns": [],
+      "removed_chars": 0,
+      "removed_ratio": 0.0
+    },
+    "usage": {
+      "completion_tokens": 1652,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 914
+      },
+      "cost": 0.0024915,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.002478,
+        "upstream_inference_cost": 0.0024915,
+        "upstream_inference_prompt_cost": 1.35e-05
+      },
+      "is_byok": false,
+      "prompt_tokens": 54,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 1706
+    }
+  },
+  "prompt_category": "explain",
+  "prompt_id": "explain_property_tax",
+  "response_text": "Understanding your property tax bill can feel complicated, but it essentially comes down to a simple math equation. Your local government uses this formula to determine how much you owe:\n\n**Assessed Value \u00d7 Tax Rate = Your Property Tax Bill**\n\nHere is a breakdown of how those two numbers are determined and why they shift from year to year.\n\n### 1. The Assessed Value (What your home is worth)\nEvery year or two, a local government official called an \"assessor\" determines the value of your property for tax purposes. \n\n*   **How it\u2019s set:** The assessor looks at recent sales of similar homes in your area, the size of your property, and any improvements you\u2019ve made (like adding a deck or finishing a basement).\n*   **Why it changes:** If the real estate market in your neighborhood is hot and home prices are rising, your assessed value will likely go up. Conversely, if the market cools, your assessed value might stay flat or even decrease.\n\n### 2. The Tax Rate (What the government needs)\nThe tax rate is not a random number; it is determined by the budget needs of your local government.\n\n*   **How it\u2019s set:** Local governments (cities, counties, and school districts) calculate how much money they need to fund public services like schools, police, fire departments, road maintenance, and libraries. They then divide that total budget by the total value of all property in the area to set a tax rate.\n*   **Why it changes:** If your town decides to build a new school, hire more police officers, or upgrade infrastructure, they may need to increase the tax rate to cover those costs.\n\n### Why Your Bill Changes from Year to Year\nEven if you haven\u2019t changed anything about your home, your tax bill can fluctuate for several reasons:\n\n*   **Market Appreciation:** If your home\u2019s value is assessed higher because the neighborhood is becoming more desirable, your tax bill will likely rise, even if the tax rate stays the same.\n*   **Budget Increases:** If your local government increases its spending, they may raise the tax rate to bring in more revenue.\n*   **Voter-Approved Measures:** Sometimes, voters approve \"bonds\" or \"levies\" on the ballot to fund specific projects (like a new park or a library renovation). These measures often result in a temporary increase in your tax rate.\n*   **Loss of Exemptions:** Many states offer tax breaks, such as \"homestead exemptions\" for primary residences or discounts for seniors and veterans. If you lose one of these exemptions\u2014or if the rules regarding them change\u2014your bill will go up.\n\n### What Can You Do?\nIf you feel your property tax bill is unfair, you generally have two main options:\n\n1.  **Check for Exemptions:** Contact your local tax office to ensure you are receiving every tax break you qualify for. Many homeowners miss out on exemptions simply because they didn't know to apply for them.\n2.  **Appeal the Assessment:** If you believe your home\u2019s assessed value is significantly higher than what it would actually sell for on the open market, you have the right to appeal. You will usually need to provide evidence, such as recent sales data for similar homes in your neighborhood that sold for less than your assessed value.\n\n**The bottom line:** Your property tax bill is a reflection of both the value of your home and the cost of the services provided by your local community. When either of those numbers moves, your bill moves with them.",
+  "run_name": "2026-03-08-openrouter-v0-2-clean-3"
+}

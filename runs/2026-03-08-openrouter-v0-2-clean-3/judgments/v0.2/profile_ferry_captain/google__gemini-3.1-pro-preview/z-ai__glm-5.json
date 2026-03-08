@@ -1,0 +1,47 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.2",
+  "candidate_model_id": "google/gemini-3.1-pro-preview",
+  "created_at": "2026-03-08T14:19:09Z",
+  "judge_model_id": "z-ai/glm-5",
+  "metadata": {
+    "id": "gen-1772979536-oewku4y8iMjJ7f4gBMPx",
+    "raw_text": "{\"scores\": {\"clarity\": 5, \"simplicity\": 5, \"brevity_economy\": 5, \"structure_flow\": 5, \"specificity_precision\": 5, \"humanity_voice\": 5, \"overall\": 5}, \"rationale\": \"An excellent profile that opens with vivid scene-setting and maintains momentum throughout. Specific details abound\u2014'four point two nautical miles,' '180,000 miles,' the 1998 nor'easter, the wedding dress\u2014grounding the piece in concrete reality. The structure moves naturally from present action to backstory to the route's significance to technical expertise, ending with a graceful docking scene. The captain's voice feels authentic, and the closing line ('an entirely new journey') elevates the piece thematically without sentimentality. No wasted words, no confusion, strong narrative arc.\"}",
+    "usage": {
+      "completion_tokens": 915,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 857
+      },
+      "cost": 0.003635,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.002928,
+        "upstream_inference_cost": 0.003635,
+        "upstream_inference_prompt_cost": 0.000707
+      },
+      "is_byok": false,
+      "prompt_tokens": 1379,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 1344,
+        "video_tokens": 0
+      },
+      "total_tokens": 2294
+    }
+  },
+  "prompt_category": "profile",
+  "prompt_id": "profile_ferry_captain",
+  "rationale": "An excellent profile that opens with vivid scene-setting and maintains momentum throughout. Specific details abound\u2014'four point two nautical miles,' '180,000 miles,' the 1998 nor'easter, the wedding dress\u2014grounding the piece in concrete reality. The structure moves naturally from present action to backstory to the route's significance to technical expertise, ending with a graceful docking scene. The captain's voice feels authentic, and the closing line ('an entirely new journey') elevates the piece thematically without sentimentality. No wasted words, no confusion, strong narrative arc.",
+  "run_name": "2026-03-08-openrouter-v0-2-clean-3",
+  "scores": {
+    "brevity_economy": 5,
+    "clarity": 5,
+    "humanity_voice": 5,
+    "overall": 5,
+    "simplicity": 5,
+    "specificity_precision": 5,
+    "structure_flow": 5
+  }
+}

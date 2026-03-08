@@ -1,0 +1,56 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.2",
+  "candidate_label": "DeepSeek V3.2",
+  "candidate_model_id": "deepseek/deepseek-v3.2",
+  "created_at": "2026-03-08T11:58:16Z",
+  "metadata": {
+    "finish_reason": "stop",
+    "generation_attempt": 1,
+    "generation_settings": {
+      "max_output_tokens": 10000,
+      "reasoning_effort": "medium"
+    },
+    "id": "gen-1772971033-oBOpxooD0RdVoCSExgHN",
+    "quality_guard": {
+      "minimum_words": 120,
+      "reason": "",
+      "status": "ok",
+      "word_count": 526
+    },
+    "raw_response_text": "## How Heat Pumps Work & Why You Might Choose One\n\n### The Simple Idea: Moving Heat, Not Making It\nThink of a heat pump as a reversible air conditioner. In the summer, it works like a standard AC: it **extracts heat from inside your home and releases it outside**, leaving you cool.\n\nIts magic happens in winter. It reverses the process, **extracting heat from the outside air (even when it's cold) and \"pumping\" it inside** to warm your home. It does this using a refrigerant that circulates between an outdoor unit and an indoor unit, absorbing and releasing heat through compression and expansion cycles.\n\n### Heat Pump vs. Gas Furnace: Key Differences\n*   **Heat Source:** A **heat pump moves existing heat** from one place to another. A **gas furnace creates heat** by burning natural gas (or propane) in a combustion chamber.\n*   **Efficiency:** This is the biggest difference. Heat pumps are extremely efficient because they transfer heat rather than generate it. For every unit of electricity they use, they can move **2-4 units of heat energy** into your home (200-400% efficiency). The most efficient gas furnaces convert about 95-98% of the gas's energy into heat.\n*   **Function:** Most modern heat pumps provide both **heating and cooling** in one system. A gas furnace only provides heat, requiring a separate air conditioner for summer cooling.\n\n### Why Choose a Heat Pump?\n1.  **Lower Operating Costs:** Due to their high efficiency, heat pumps can significantly reduce your heating bills compared to electric furnaces or baseboard heaters. Compared to a gas furnace, the savings depend on your local electricity and gas prices, but they are often competitive and more stable over time.\n2.  **All-in-One Comfort:** One system handles both your heating and cooling needs, simplifying maintenance and potentially saving on installation space.\n3.  **Safety & Air Quality:** With no on-site combustion, there's no risk of carbon monoxide leaks from the system itself. It doesn't produce fumes or require a gas line or chimney.\n4.  **Environmental Impact:** Heat pumps reduce your home's carbon footprint, especially if your electricity comes from renewable sources. They have no direct greenhouse gas emissions at your home.\n\n### Important Considerations\n*   **Climate:** Modern cold-climate heat pumps work efficiently in temperatures well below freezing. In regions with prolonged sub-zero (Fahrenheit) temperatures, a supplemental heat source (like electric strips) may be needed for peak cold, which can reduce efficiency advantages.\n*   **Upfront Cost:** The installation cost for a heat pump is typically higher than for a standard gas furnace, though comparable to installing both a new furnace *and* a new air conditioner.\n*   **Existing Infrastructure:** If you already have efficient gas lines and ducts, the economic case may differ. However, heat pumps are an excellent choice for homes without gas service or for those replacing both an old furnace and an old AC unit.\n\n**In short:** A heat pump is an efficient, all-electric system that provides year-round comfort by moving heat. It's a compelling choice for lower energy bills, simplified HVAC, and reducing reliance on fossil fuels, particularly in mild to cold climates (with the right model) and for homes seeking an integrated heating and cooling solution.",
+    "sanitization": {
+      "changed": false,
+      "patterns": [],
+      "removed_chars": 0,
+      "removed_ratio": 0.0
+    },
+    "usage": {
+      "completion_tokens": 839,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 216
+      },
+      "cost": 0.00039267,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.00037755,
+        "upstream_inference_cost": 0.00039267,
+        "upstream_inference_prompt_cost": 1.512e-05
+      },
+      "is_byok": false,
+      "prompt_tokens": 54,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 893
+    }
+  },
+  "prompt_category": "explain",
+  "prompt_id": "explain_heat_pumps",
+  "response_text": "## How Heat Pumps Work & Why You Might Choose One\n\n### The Simple Idea: Moving Heat, Not Making It\nThink of a heat pump as a reversible air conditioner. In the summer, it works like a standard AC: it **extracts heat from inside your home and releases it outside**, leaving you cool.\n\nIts magic happens in winter. It reverses the process, **extracting heat from the outside air (even when it's cold) and \"pumping\" it inside** to warm your home. It does this using a refrigerant that circulates between an outdoor unit and an indoor unit, absorbing and releasing heat through compression and expansion cycles.\n\n### Heat Pump vs. Gas Furnace: Key Differences\n*   **Heat Source:** A **heat pump moves existing heat** from one place to another. A **gas furnace creates heat** by burning natural gas (or propane) in a combustion chamber.\n*   **Efficiency:** This is the biggest difference. Heat pumps are extremely efficient because they transfer heat rather than generate it. For every unit of electricity they use, they can move **2-4 units of heat energy** into your home (200-400% efficiency). The most efficient gas furnaces convert about 95-98% of the gas's energy into heat.\n*   **Function:** Most modern heat pumps provide both **heating and cooling** in one system. A gas furnace only provides heat, requiring a separate air conditioner for summer cooling.\n\n### Why Choose a Heat Pump?\n1.  **Lower Operating Costs:** Due to their high efficiency, heat pumps can significantly reduce your heating bills compared to electric furnaces or baseboard heaters. Compared to a gas furnace, the savings depend on your local electricity and gas prices, but they are often competitive and more stable over time.\n2.  **All-in-One Comfort:** One system handles both your heating and cooling needs, simplifying maintenance and potentially saving on installation space.\n3.  **Safety & Air Quality:** With no on-site combustion, there's no risk of carbon monoxide leaks from the system itself. It doesn't produce fumes or require a gas line or chimney.\n4.  **Environmental Impact:** Heat pumps reduce your home's carbon footprint, especially if your electricity comes from renewable sources. They have no direct greenhouse gas emissions at your home.\n\n### Important Considerations\n*   **Climate:** Modern cold-climate heat pumps work efficiently in temperatures well below freezing. In regions with prolonged sub-zero (Fahrenheit) temperatures, a supplemental heat source (like electric strips) may be needed for peak cold, which can reduce efficiency advantages.\n*   **Upfront Cost:** The installation cost for a heat pump is typically higher than for a standard gas furnace, though comparable to installing both a new furnace *and* a new air conditioner.\n*   **Existing Infrastructure:** If you already have efficient gas lines and ducts, the economic case may differ. However, heat pumps are an excellent choice for homes without gas service or for those replacing both an old furnace and an old AC unit.\n\n**In short:** A heat pump is an efficient, all-electric system that provides year-round comfort by moving heat. It's a compelling choice for lower energy bills, simplified HVAC, and reducing reliance on fossil fuels, particularly in mild to cold climates (with the right model) and for homes seeking an integrated heating and cooling solution.",
+  "run_name": "2026-03-08-openrouter-v0-2-clean-3"
+}

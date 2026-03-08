@@ -1,0 +1,56 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.2",
+  "candidate_label": "DeepSeek V3.2",
+  "candidate_model_id": "deepseek/deepseek-v3.2",
+  "created_at": "2026-03-08T12:25:20Z",
+  "metadata": {
+    "finish_reason": "stop",
+    "generation_attempt": 1,
+    "generation_settings": {
+      "max_output_tokens": 10000,
+      "reasoning_effort": "medium"
+    },
+    "id": "gen-1772972687-v6cR8avqxv4aaG5080sC",
+    "quality_guard": {
+      "minimum_words": 120,
+      "reason": "",
+      "status": "ok",
+      "word_count": 543
+    },
+    "raw_response_text": "## Understanding Your Property Tax Bill: A Simple Guide\n\nFor most homeowners, property tax is a significant annual expense. It can feel confusing when the amount changes. Here\u2019s a straightforward breakdown of how it\u2019s determined and why it might go up or down.\n\n### How Your Property Tax Bill is Calculated\n\nThink of it as a simple two-part formula:\n\n1.  **Your Property's Assessed Value:** This isn't your market value or what you could sell it for. It\u2019s an official value assigned by your local **County Assessor's Office**. An assessor estimates your property\u2019s value, typically based on recent sales of similar homes in your area. This is often done annually or every few years.\n\n2.  **The Local Tax Rate (Mill Levy):** This is a percentage set by your local taxing authorities. It\u2019s the combined rate needed to fund budgets for your:\n    *   City or Town\n    *   County\n    *   School District\n    *   Fire District\n    *   Library, water, or other local services\n\n**The Calculation:**\n`Your Tax Bill = (Assessed Value of Your Home) x (Local Tax Rate)`\n\n**Example:** If your home is assessed at $300,000 and your combined local tax rate is 1.2%, your annual tax would be $3,600.\n\n---\n\n### Why Your Property Tax Can Change Each Year\n\nYour bill can change for one or both of the reasons in the formula above.\n\n**1. Changes in Your Property's Assessed Value (The most common reason)**\n*   **Local Market Goes Up:** If home sale prices in your neighborhood increase, the assessor will likely raise the assessed values for all similar homes in the area.\n*   **You Make Improvements:** Adding a deck, finishing a basement, or renovating a kitchen can increase your home\u2019s assessed value.\n*   **Local Market Goes Down:** In a declining market, assessed values may be lowered.\n*   **A Reassessment Error is Corrected:** Sometimes, an initial assessment might have been inaccurate and is later adjusted.\n\n**2. Changes in the Local Tax Rate**\n*   **Local Budget Needs:** If your city, school district, or county approves a larger budget to pay for more services, infrastructure, or staff, they may need to raise the tax rate to generate the necessary revenue.\n*   **Voter-Approved Measures:** New bonds for schools or parks, or special levies for services, can add to the tax rate if approved by voters.\n*   **Rate Decreases:** Conversely, if budgets are cut or other revenue (like state funding) increases, the rate might go down.\n\n### Important Things to Know\n\n*   **It's Not a National or State Rate:** Property taxes are hyper-local. Rates can vary dramatically between towns, even within the same county.\n*   **You Can Appeal:** If you believe your assessment is significantly higher than your home\u2019s actual value compared to neighbors, you have the right to appeal it with your assessor\u2019s office. There are usually specific deadlines.\n*   **Exemptions & Deductions:** Many areas offer reductions (like a \"homestead exemption\") for primary residences, seniors, veterans, or people with disabilities. Check with your local assessor to see if you qualify.\n\nIn short, your property tax is your share of funding your local community services. It changes when the official value of your home changes or when your local government\u2019s funding needs change. Checking your annual assessment notice and understanding local budget votes are the best ways to stay informed.",
+    "sanitization": {
+      "changed": false,
+      "patterns": [],
+      "removed_chars": 0,
+      "removed_ratio": 0.0
+    },
+    "usage": {
+      "completion_tokens": 860,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 122
+      },
+      "cost": 0.0003766,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.0003612,
+        "upstream_inference_cost": 0.0003766,
+        "upstream_inference_prompt_cost": 1.54e-05
+      },
+      "is_byok": false,
+      "prompt_tokens": 55,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 915
+    }
+  },
+  "prompt_category": "explain",
+  "prompt_id": "explain_property_tax",
+  "response_text": "## Understanding Your Property Tax Bill: A Simple Guide\n\nFor most homeowners, property tax is a significant annual expense. It can feel confusing when the amount changes. Here\u2019s a straightforward breakdown of how it\u2019s determined and why it might go up or down.\n\n### How Your Property Tax Bill is Calculated\n\nThink of it as a simple two-part formula:\n\n1.  **Your Property's Assessed Value:** This isn't your market value or what you could sell it for. It\u2019s an official value assigned by your local **County Assessor's Office**. An assessor estimates your property\u2019s value, typically based on recent sales of similar homes in your area. This is often done annually or every few years.\n\n2.  **The Local Tax Rate (Mill Levy):** This is a percentage set by your local taxing authorities. It\u2019s the combined rate needed to fund budgets for your:\n    *   City or Town\n    *   County\n    *   School District\n    *   Fire District\n    *   Library, water, or other local services\n\n**The Calculation:**\n`Your Tax Bill = (Assessed Value of Your Home) x (Local Tax Rate)`\n\n**Example:** If your home is assessed at $300,000 and your combined local tax rate is 1.2%, your annual tax would be $3,600.\n\n---\n\n### Why Your Property Tax Can Change Each Year\n\nYour bill can change for one or both of the reasons in the formula above.\n\n**1. Changes in Your Property's Assessed Value (The most common reason)**\n*   **Local Market Goes Up:** If home sale prices in your neighborhood increase, the assessor will likely raise the assessed values for all similar homes in the area.\n*   **You Make Improvements:** Adding a deck, finishing a basement, or renovating a kitchen can increase your home\u2019s assessed value.\n*   **Local Market Goes Down:** In a declining market, assessed values may be lowered.\n*   **A Reassessment Error is Corrected:** Sometimes, an initial assessment might have been inaccurate and is later adjusted.\n\n**2. Changes in the Local Tax Rate**\n*   **Local Budget Needs:** If your city, school district, or county approves a larger budget to pay for more services, infrastructure, or staff, they may need to raise the tax rate to generate the necessary revenue.\n*   **Voter-Approved Measures:** New bonds for schools or parks, or special levies for services, can add to the tax rate if approved by voters.\n*   **Rate Decreases:** Conversely, if budgets are cut or other revenue (like state funding) increases, the rate might go down.\n\n### Important Things to Know\n\n*   **It's Not a National or State Rate:** Property taxes are hyper-local. Rates can vary dramatically between towns, even within the same county.\n*   **You Can Appeal:** If you believe your assessment is significantly higher than your home\u2019s actual value compared to neighbors, you have the right to appeal it with your assessor\u2019s office. There are usually specific deadlines.\n*   **Exemptions & Deductions:** Many areas offer reductions (like a \"homestead exemption\") for primary residences, seniors, veterans, or people with disabilities. Check with your local assessor to see if you qualify.\n\nIn short, your property tax is your share of funding your local community services. It changes when the official value of your home changes or when your local government\u2019s funding needs change. Checking your annual assessment notice and understanding local budget votes are the best ways to stay informed.",
+  "run_name": "2026-03-08-openrouter-v0-2-clean-3"
+}

@@ -1,0 +1,47 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.2",
+  "candidate_model_id": "qwen/qwen3.5-35b-a3b",
+  "created_at": "2026-03-08T13:06:51Z",
+  "judge_model_id": "anthropic/claude-opus-4.6",
+  "metadata": {
+    "id": "gen-1772975203-tFIGT1uZEpX0il9rxuSh",
+    "raw_text": "{\"scores\": {\"clarity\": 4, \"simplicity\": 4, \"brevity_economy\": 1, \"structure_flow\": 3, \"specificity_precision\": 3, \"humanity_voice\": 3, \"overall\": 2}, \"rationale\": \"The essay has a strong opening and some vivid specific details (Mrs. Gable at the ticket booth, the green water, the deck hierarchy). The prose is generally clear and uses plain language effectively. However, the piece is severely undermined by its ending: the final six paragraphs are repetitive to the point of appearing copy-pasted, with the last two blocks being verbatim duplicates. Even before the literal repetition, the essay leans heavily on parallel constructions ('It showed us that we were...') that become formulaic rather than powerful. The metaphor of the pool as a 'map' of the town is promising but stays at the level of generality\u2014we get invisible walls and social hierarchy but few truly specific, surprising details that would distinguish this town from any other. The voice starts with genuine warmth and observation but drifts into a mechanical, incantatory mode that feels more like AI-generated prose than a real human essayist. The catastrophic repetition at the end drops brevity and structure scores significantly and drags down the overall quality.\"}",
+    "usage": {
+      "completion_tokens": 292,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 0
+      },
+      "cost": 0.016295,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.0073,
+        "upstream_inference_cost": 0.016295,
+        "upstream_inference_prompt_cost": 0.008995
+      },
+      "is_byok": false,
+      "prompt_tokens": 1799,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 2091
+    }
+  },
+  "prompt_category": "personal_nonfiction",
+  "prompt_id": "personal_public_pool",
+  "rationale": "The essay has a strong opening and some vivid specific details (Mrs. Gable at the ticket booth, the green water, the deck hierarchy). The prose is generally clear and uses plain language effectively. However, the piece is severely undermined by its ending: the final six paragraphs are repetitive to the point of appearing copy-pasted, with the last two blocks being verbatim duplicates. Even before the literal repetition, the essay leans heavily on parallel constructions ('It showed us that we were...') that become formulaic rather than powerful. The metaphor of the pool as a 'map' of the town is promising but stays at the level of generality\u2014we get invisible walls and social hierarchy but few truly specific, surprising details that would distinguish this town from any other. The voice starts with genuine warmth and observation but drifts into a mechanical, incantatory mode that feels more like AI-generated prose than a real human essayist. The catastrophic repetition at the end drops brevity and structure scores significantly and drags down the overall quality.",
+  "run_name": "2026-03-08-openrouter-v0-2-clean-3",
+  "scores": {
+    "brevity_economy": 1,
+    "clarity": 4,
+    "humanity_voice": 3,
+    "overall": 2,
+    "simplicity": 4,
+    "specificity_precision": 3,
+    "structure_flow": 3
+  }
+}

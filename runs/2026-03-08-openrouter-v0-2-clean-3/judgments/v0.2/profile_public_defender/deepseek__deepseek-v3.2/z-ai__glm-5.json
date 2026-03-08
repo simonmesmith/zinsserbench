@@ -1,0 +1,47 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.2",
+  "candidate_model_id": "deepseek/deepseek-v3.2",
+  "created_at": "2026-03-08T13:16:01Z",
+  "judge_model_id": "z-ai/glm-5",
+  "metadata": {
+    "id": "gen-1772975743-BJYNM9lQ3fsyUXCueUF1",
+    "raw_text": "```json\n{\n  \"scores\": {\n    \"clarity\": 5,\n    \"simplicity\": 4,\n    \"brevity_economy\": 4,\n    \"structure_flow\": 5,\n    \"specificity_precision\": 5,\n    \"humanity_voice\": 5,\n    \"overall\": 5\n  },\n  \"rationale\": \"A compelling, well-organized profile that follows a clear chronological structure from morning to evening. The writing is vivid and specific\u2014details like the 'third cup of coffee,' 'five minutes' with clients, and the 'single mother who stole formula' ground the piece in reality. The voice is human and engaged, capturing both the exhaustion and the moral purpose of the work. Slightly more metaphorical language ('drinking from a firehose,' 'throw sand in the gears') keeps it from full simplicity, but the prose remains direct and purposeful throughout.\"\n}\n```",
+    "usage": {
+      "completion_tokens": 368,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 182
+      },
+      "cost": 0.001868,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.00094208,
+        "upstream_inference_cost": 0.001868,
+        "upstream_inference_prompt_cost": 0.00092592
+      },
+      "is_byok": false,
+      "prompt_tokens": 1183,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 32,
+        "video_tokens": 0
+      },
+      "total_tokens": 1551
+    }
+  },
+  "prompt_category": "profile",
+  "prompt_id": "profile_public_defender",
+  "rationale": "A compelling, well-organized profile that follows a clear chronological structure from morning to evening. The writing is vivid and specific\u2014details like the 'third cup of coffee,' 'five minutes' with clients, and the 'single mother who stole formula' ground the piece in reality. The voice is human and engaged, capturing both the exhaustion and the moral purpose of the work. Slightly more metaphorical language ('drinking from a firehose,' 'throw sand in the gears') keeps it from full simplicity, but the prose remains direct and purposeful throughout.",
+  "run_name": "2026-03-08-openrouter-v0-2-clean-3",
+  "scores": {
+    "brevity_economy": 4,
+    "clarity": 5,
+    "humanity_voice": 5,
+    "overall": 5,
+    "simplicity": 4,
+    "specificity_precision": 5,
+    "structure_flow": 5
+  }
+}

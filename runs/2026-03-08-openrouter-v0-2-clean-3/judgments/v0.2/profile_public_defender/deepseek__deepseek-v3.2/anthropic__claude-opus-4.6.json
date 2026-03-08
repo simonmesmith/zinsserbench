@@ -1,0 +1,47 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.2",
+  "candidate_model_id": "deepseek/deepseek-v3.2",
+  "created_at": "2026-03-08T13:15:58Z",
+  "judge_model_id": "anthropic/claude-opus-4.6",
+  "metadata": {
+    "id": "gen-1772975751-FBjUv43EakHk5SCPP31Z",
+    "raw_text": "{\"scores\": {\"clarity\": 5, \"simplicity\": 4, \"brevity_economy\": 4, \"structure_flow\": 5, \"specificity_precision\": 3, \"humanity_voice\": 5, \"overall\": 4}, \"rationale\": \"The piece is exceptionally clear and well-structured, following a chronological arc through Maya's day that carries the reader effortlessly. The voice is warm, engaged, and literary without becoming overwrought. However, it leans on some familiar tropes and metaphors ('drinking from a firehose,' 'throw sand in the gears') and occasionally tips into sentimentality ('carrying those small, hard-won victories home'). The biggest weakness is specificity: Maya Chen and Riverton are fictional, and the piece reads more like a composite sketch or creative nonfiction exercise than a reported profile. There are no real statistics, no named courts or programs, no surprising or counterintuitive details that would come from actual reporting. The shoplifting-formula anecdote feels like a stock example. The language is mostly plain and direct but occasionally reaches for literary flourish ('a monument to managed chaos,' 'a cataclysm for the person living it') that borders on inflated. Still, as a writing exercise it's polished, emotionally resonant, and structurally sound.\"}",
+    "usage": {
+      "completion_tokens": 298,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 0
+      },
+      "cost": 0.0139,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.00745,
+        "upstream_inference_cost": 0.0139,
+        "upstream_inference_prompt_cost": 0.00645
+      },
+      "is_byok": false,
+      "prompt_tokens": 1290,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 1588
+    }
+  },
+  "prompt_category": "profile",
+  "prompt_id": "profile_public_defender",
+  "rationale": "The piece is exceptionally clear and well-structured, following a chronological arc through Maya's day that carries the reader effortlessly. The voice is warm, engaged, and literary without becoming overwrought. However, it leans on some familiar tropes and metaphors ('drinking from a firehose,' 'throw sand in the gears') and occasionally tips into sentimentality ('carrying those small, hard-won victories home'). The biggest weakness is specificity: Maya Chen and Riverton are fictional, and the piece reads more like a composite sketch or creative nonfiction exercise than a reported profile. There are no real statistics, no named courts or programs, no surprising or counterintuitive details that would come from actual reporting. The shoplifting-formula anecdote feels like a stock example. The language is mostly plain and direct but occasionally reaches for literary flourish ('a monument to managed chaos,' 'a cataclysm for the person living it') that borders on inflated. Still, as a writing exercise it's polished, emotionally resonant, and structurally sound.",
+  "run_name": "2026-03-08-openrouter-v0-2-clean-3",
+  "scores": {
+    "brevity_economy": 4,
+    "clarity": 5,
+    "humanity_voice": 5,
+    "overall": 4,
+    "simplicity": 4,
+    "specificity_precision": 3,
+    "structure_flow": 5
+  }
+}

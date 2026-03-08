@@ -1,0 +1,47 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.2",
+  "candidate_model_id": "x-ai/grok-4.1-fast",
+  "created_at": "2026-03-08T13:24:09Z",
+  "judge_model_id": "google/gemini-3.1-pro-preview",
+  "metadata": {
+    "id": "gen-1772976238-PHppyU5qT8FXIYHlLKDf",
+    "raw_text": "{\n  \"scores\": {\n    \"clarity\": 5,\n    \"simplicity\": 4,\n    \"brevity_economy\": 4,\n    \"structure_flow\": 5,\n    \"specificity_precision\": 5,\n    \"humanity_voice\": 5,\n    \"overall\": 5\n  },\n  \"rationale\": \"The piece is highly effective, well-structured, and persuasive. It uses concrete examples and data to support its claims, maintains an engaging human voice, and flows logically from point to point. The language is clear and mostly simple, with only minor reliance on standard essay transitions.\"\n}",
+    "usage": {
+      "completion_tokens": 503,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 362
+      },
+      "cost": 0.008456,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.006036,
+        "upstream_inference_cost": 0.008456,
+        "upstream_inference_prompt_cost": 0.00242
+      },
+      "is_byok": false,
+      "prompt_tokens": 1210,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 1713
+    }
+  },
+  "prompt_category": "persuasion_oped",
+  "prompt_id": "oped_corner_store",
+  "rationale": "The piece is highly effective, well-structured, and persuasive. It uses concrete examples and data to support its claims, maintains an engaging human voice, and flows logically from point to point. The language is clear and mostly simple, with only minor reliance on standard essay transitions.",
+  "run_name": "2026-03-08-openrouter-v0-2-clean-3",
+  "scores": {
+    "brevity_economy": 4,
+    "clarity": 5,
+    "humanity_voice": 5,
+    "overall": 5,
+    "simplicity": 4,
+    "specificity_precision": 5,
+    "structure_flow": 5
+  }
+}

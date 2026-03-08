@@ -1,0 +1,47 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.2",
+  "candidate_model_id": "openai/gpt-5.3-chat",
+  "created_at": "2026-03-08T12:44:15Z",
+  "judge_model_id": "z-ai/glm-5",
+  "metadata": {
+    "id": "gen-1772973824-595zGXINKPc1sk3dLtbN",
+    "raw_text": "{\"scores\": {\"clarity\": 5, \"simplicity\": 5, \"brevity_economy\": 5, \"structure_flow\": 5, \"specificity_precision\": 5, \"humanity_voice\": 5, \"overall\": 5}, \"rationale\": \"A quietly excellent profile that captures both the captain and his world through precise, unhurried detail. Specifics like the 'dented thermos,' the 'shoal that shifts after winter storms,' and passengers whose dogs 'insist on sitting beside the wheelhouse door' ground the piece in lived experience. The structure moves naturally from morning routine to professional knowledge to observed change to human connections, ending on a resonant image of the crossing as rhythm rather than story. The prose is clean, warm, and entirely free of excess.\"}",
+    "usage": {
+      "completion_tokens": 696,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 577
+      },
+      "cost": 0.0029932,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.0022272,
+        "upstream_inference_cost": 0.0029932,
+        "upstream_inference_prompt_cost": 0.000766
+      },
+      "is_byok": false,
+      "prompt_tokens": 766,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 1462
+    }
+  },
+  "prompt_category": "profile",
+  "prompt_id": "profile_ferry_captain",
+  "rationale": "A quietly excellent profile that captures both the captain and his world through precise, unhurried detail. Specifics like the 'dented thermos,' the 'shoal that shifts after winter storms,' and passengers whose dogs 'insist on sitting beside the wheelhouse door' ground the piece in lived experience. The structure moves naturally from morning routine to professional knowledge to observed change to human connections, ending on a resonant image of the crossing as rhythm rather than story. The prose is clean, warm, and entirely free of excess.",
+  "run_name": "2026-03-08-openrouter-v0-2-clean-3",
+  "scores": {
+    "brevity_economy": 5,
+    "clarity": 5,
+    "humanity_voice": 5,
+    "overall": 5,
+    "simplicity": 5,
+    "specificity_precision": 5,
+    "structure_flow": 5
+  }
+}

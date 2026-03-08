@@ -1,0 +1,47 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.2",
+  "candidate_model_id": "google/gemini-3.1-flash-lite-preview",
+  "created_at": "2026-03-08T12:34:43Z",
+  "judge_model_id": "anthropic/claude-opus-4.6",
+  "metadata": {
+    "id": "gen-1772973277-TQTqcNMJgIIMrROERSQX",
+    "raw_text": "{\"scores\": {\"clarity\": 5, \"simplicity\": 4, \"brevity_economy\": 4, \"structure_flow\": 5, \"specificity_precision\": 4, \"humanity_voice\": 4, \"overall\": 4}, \"rationale\": \"Very clear and well-organized explainer. The refrigerator analogy is effective, and the numbered benefits flow logically. Specificity is good\u2014citing 300-400% efficiency is concrete\u2014though the piece could mention cold-climate performance limitations or specific cost figures for fuller precision. Language is mostly plain, though phrases like 'contributing to a more sustainable energy future' and 'compelling choice for the modern homeowner' veer slightly into marketing boilerplate. The voice is warm and reader-aware but occasionally tips into a polished, slightly generic tone rather than feeling truly conversational. Brevity is solid; the bottom-line section slightly restates points already made but isn't egregious.\"}",
+    "usage": {
+      "completion_tokens": 213,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 0
+      },
+      "cost": 0.009885,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.005325,
+        "upstream_inference_cost": 0.009885,
+        "upstream_inference_prompt_cost": 0.00456
+      },
+      "is_byok": false,
+      "prompt_tokens": 912,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 1125
+    }
+  },
+  "prompt_category": "explain",
+  "prompt_id": "explain_heat_pumps",
+  "rationale": "Very clear and well-organized explainer. The refrigerator analogy is effective, and the numbered benefits flow logically. Specificity is good\u2014citing 300-400% efficiency is concrete\u2014though the piece could mention cold-climate performance limitations or specific cost figures for fuller precision. Language is mostly plain, though phrases like 'contributing to a more sustainable energy future' and 'compelling choice for the modern homeowner' veer slightly into marketing boilerplate. The voice is warm and reader-aware but occasionally tips into a polished, slightly generic tone rather than feeling truly conversational. Brevity is solid; the bottom-line section slightly restates points already made but isn't egregious.",
+  "run_name": "2026-03-08-openrouter-v0-2-clean-3",
+  "scores": {
+    "brevity_economy": 4,
+    "clarity": 5,
+    "humanity_voice": 4,
+    "overall": 4,
+    "simplicity": 4,
+    "specificity_precision": 4,
+    "structure_flow": 5
+  }
+}

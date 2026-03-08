@@ -1,0 +1,47 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.2",
+  "candidate_model_id": "google/gemini-3.1-pro-preview",
+  "created_at": "2026-03-08T12:34:38Z",
+  "judge_model_id": "z-ai/glm-5",
+  "metadata": {
+    "id": "gen-1772973274-639AL0GevePwuvgNdDYL",
+    "raw_text": "```json\n{\n  \"scores\": {\n    \"clarity\": 5,\n    \"simplicity\": 5,\n    \"brevity_economy\": 4,\n    \"structure_flow\": 5,\n    \"specificity_precision\": 5,\n    \"humanity_voice\": 5,\n    \"overall\": 5\n  },\n  \"rationale\": \"The piece is exceptionally clear, using the refrigerator analogy to make the mechanics intuitive. It is plainspoken and well-structured with logical headings. It provides specific, helpful details (e.g., 300% efficiency, -10\u00b0F capability) and maintains a warm, helpful voice throughout.\"\n}\n```",
+    "usage": {
+      "completion_tokens": 258,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 114
+      },
+      "cost": 0.001472,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.00066048,
+        "upstream_inference_cost": 0.001472,
+        "upstream_inference_prompt_cost": 0.00081152
+      },
+      "is_byok": false,
+      "prompt_tokens": 1040,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 32,
+        "video_tokens": 0
+      },
+      "total_tokens": 1298
+    }
+  },
+  "prompt_category": "explain",
+  "prompt_id": "explain_heat_pumps",
+  "rationale": "The piece is exceptionally clear, using the refrigerator analogy to make the mechanics intuitive. It is plainspoken and well-structured with logical headings. It provides specific, helpful details (e.g., 300% efficiency, -10\u00b0F capability) and maintains a warm, helpful voice throughout.",
+  "run_name": "2026-03-08-openrouter-v0-2-clean-3",
+  "scores": {
+    "brevity_economy": 4,
+    "clarity": 5,
+    "humanity_voice": 5,
+    "overall": 5,
+    "simplicity": 5,
+    "specificity_precision": 5,
+    "structure_flow": 5
+  }
+}

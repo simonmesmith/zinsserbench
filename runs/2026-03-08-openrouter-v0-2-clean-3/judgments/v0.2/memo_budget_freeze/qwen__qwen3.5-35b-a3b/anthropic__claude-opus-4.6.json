@@ -1,0 +1,47 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.2",
+  "candidate_model_id": "qwen/qwen3.5-35b-a3b",
+  "created_at": "2026-03-08T12:33:45Z",
+  "judge_model_id": "anthropic/claude-opus-4.6",
+  "metadata": {
+    "id": "gen-1772973209-IlVnr1SzJX8nqO3TQTkn",
+    "raw_text": "{\"scores\": {\"clarity\": 5, \"simplicity\": 4, \"brevity_economy\": 4, \"structure_flow\": 5, \"specificity_precision\": 4, \"humanity_voice\": 4, \"overall\": 5}, \"rationale\": \"Exceptionally well-structured memo. Clear headers and bullet points make it instantly scannable. Specifics like the $5,000 capital threshold, 90-day review window, November 10 meeting date, and extension number give it real operational weight. The freeze/exception split is clean and leaves little ambiguity. The four manager questions are pointed and actionable, not generic. Minor deductions: the stated cause ('fluctuations in reimbursement rates') is vague\u2014a sentence more on what's actually happening would strengthen trust. A few phrases ('long-term financial stability of the organization,' 'operational continuity') lean toward boilerplate corporate language. The closing is warm without being saccharine, though 'Thank you for your dedication' is a well-worn closer. Overall, this reads like a real, competent CFO memo that department heads could act on immediately.\"}",
+    "usage": {
+      "completion_tokens": 667,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 435
+      },
+      "cost": 0.02218,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.016675,
+        "upstream_inference_cost": 0.02218,
+        "upstream_inference_prompt_cost": 0.005505
+      },
+      "is_byok": false,
+      "prompt_tokens": 1101,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 1768
+    }
+  },
+  "prompt_category": "memo",
+  "prompt_id": "memo_budget_freeze",
+  "rationale": "Exceptionally well-structured memo. Clear headers and bullet points make it instantly scannable. Specifics like the $5,000 capital threshold, 90-day review window, November 10 meeting date, and extension number give it real operational weight. The freeze/exception split is clean and leaves little ambiguity. The four manager questions are pointed and actionable, not generic. Minor deductions: the stated cause ('fluctuations in reimbursement rates') is vague\u2014a sentence more on what's actually happening would strengthen trust. A few phrases ('long-term financial stability of the organization,' 'operational continuity') lean toward boilerplate corporate language. The closing is warm without being saccharine, though 'Thank you for your dedication' is a well-worn closer. Overall, this reads like a real, competent CFO memo that department heads could act on immediately.",
+  "run_name": "2026-03-08-openrouter-v0-2-clean-3",
+  "scores": {
+    "brevity_economy": 4,
+    "clarity": 5,
+    "humanity_voice": 4,
+    "overall": 5,
+    "simplicity": 4,
+    "specificity_precision": 4,
+    "structure_flow": 5
+  }
+}

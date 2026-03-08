@@ -1,0 +1,47 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.2",
+  "candidate_model_id": "openai/gpt-5.4",
+  "created_at": "2026-03-08T12:50:08Z",
+  "judge_model_id": "z-ai/glm-5",
+  "metadata": {
+    "id": "gen-1772974203-Sf6ubcZ0tmp4t3G1qIFg",
+    "raw_text": "```json\n{\n  \"scores\": {\n    \"clarity\": 5,\n    \"simplicity\": 5,\n    \"brevity_economy\": 4,\n    \"structure_flow\": 5,\n    \"specificity_precision\": 5,\n    \"humanity_voice\": 5,\n    \"overall\": 5\n  },\n  \"rationale\": \"Excellent practical guide. Clear, plain language throughout with logical progression from immediate safety to follow-up. Highly specific\u2014includes example scripts for reporting, concrete lists of what to document, and practical tips like putting a towel in a bucket to reduce splashing. The tone is helpful and human, not bureaucratic. Slightly longer than minimal, but the thoroughness serves the practical purpose well.\"\n}\n```",
+    "usage": {
+      "completion_tokens": 318,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 181
+      },
+      "cost": 0.0024352,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.00081408,
+        "upstream_inference_cost": 0.0024352,
+        "upstream_inference_prompt_cost": 0.00162112
+      },
+      "is_byok": false,
+      "prompt_tokens": 2052,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 32,
+        "video_tokens": 0
+      },
+      "total_tokens": 2370
+    }
+  },
+  "prompt_category": "service_howto",
+  "prompt_id": "howto_report_water_leak",
+  "rationale": "Excellent practical guide. Clear, plain language throughout with logical progression from immediate safety to follow-up. Highly specific\u2014includes example scripts for reporting, concrete lists of what to document, and practical tips like putting a towel in a bucket to reduce splashing. The tone is helpful and human, not bureaucratic. Slightly longer than minimal, but the thoroughness serves the practical purpose well.",
+  "run_name": "2026-03-08-openrouter-v0-2-clean-3",
+  "scores": {
+    "brevity_economy": 4,
+    "clarity": 5,
+    "humanity_voice": 5,
+    "overall": 5,
+    "simplicity": 5,
+    "specificity_precision": 5,
+    "structure_flow": 5
+  }
+}

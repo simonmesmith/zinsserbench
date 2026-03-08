@@ -1,0 +1,56 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.2",
+  "candidate_label": "MiniMax M2.5",
+  "candidate_model_id": "minimax/minimax-m2.5",
+  "created_at": "2026-03-08T11:55:32Z",
+  "metadata": {
+    "finish_reason": "stop",
+    "generation_attempt": 1,
+    "generation_settings": {
+      "max_output_tokens": 10000,
+      "reasoning_effort": "medium"
+    },
+    "id": "gen-1772970929-VAbiTwcTIcPGsPRqQthj",
+    "quality_guard": {
+      "minimum_words": 100,
+      "reason": "",
+      "status": "ok",
+      "word_count": 546
+    },
+    "raw_response_text": "# INTERNAL MEMO\n\n---\n\n**TO:** All Employees\n\n**FROM:** [CEO Name], Chief Executive Officer\n\n**DATE:** [Current Date]\n\n**RE:** New Remote Work Policy \u2013 Effective [Date]\n\n---\n\nI am pleased to announce that we are implementing a formal remote work policy to support our growing team and adapt to the way modern software companies operate. This memo outlines the policy, explains our reasoning, and details the next steps for all employees.\n\n---\n\n## The Policy\n\n**Hybrid Work Model**\nWe are adopting a flexible hybrid model that allows employees to work remotely up to three days per week, with a minimum of two days required in the office. Employees may choose which days to come in, in coordination with their teams.\n\n**Core Hours**\nAll employees must be available for synchronous collaboration between 10:00 AM and 3:00 PM local time, regardless of work location. Outside of core hours, employees may structure their schedules as needed.\n\n**Equipment & Workspace**\nThe company will provide a $1,000 home office stipend for eligible equipment (desk, chair, monitor, peripherals). Employees working remotely are responsible for maintaining a reliable internet connection (minimum 50 Mbps) and a secure, productive workspace.\n\n**Communication Expectations**\nEmployees should maintain responsiveness during core hours via Slack and email. Video should be on for team meetings. Managers may establish additional team-specific norms as needed.\n\n**Eligibility**\nAll full-time employees are eligible immediately. New hires may begin with remote-first schedules during their first 30 days with manager approval.\n\n---\n\n## Why We Are Making This Change\n\nThis policy reflects what we have learned over the past several years and responds to your feedback from recent surveys:\n\n- **Talent retention:** Competitive companies offer flexibility. We want to retain top performers who value work-life integration.\n- **Productivity:** Our internal data shows that remote work days are often our most productive. Engineers report deeper focus without commute interruptions.\n- **Employee wellbeing:** Reducing commute time improves satisfaction and gives employees more time for personal priorities.\n- **Talent acquisition:** Expanding our talent pool beyond commuting distance allows us to hire the best people, not just the closest ones.\n\nThis is not a cost-cutting measure. We remain committed to maintaining our office as a collaborative hub.\n\n---\n\n## What Employees Need to Do Next\n\n1. **Review the full policy document** on the company intranet by [date]. The complete policy includes details on equipment requests, expense reimbursement, and security requirements.\n\n2. **Discuss with your manager** how the policy applies to your role and team. Managers will hold 1:1 meetings over the next two weeks to establish team schedules.\n\n3. **Submit equipment requests** through the HR portal by [date] if you need to purchase home office items. Receipts are required for reimbursement.\n\n4. **Update your calendar** to reflect your in-office days by [date], so teammates can plan collaborative sessions.\n\n5. **Complete the acknowledgment form** confirming you have read and understood the policy. This is required by [date].\n\n---\n\n## Questions?\n\nIf you have questions about the policy, please reach out to your manager or the HR team at hr@[company].com. We will also host an all-hands Q&A session on [date] at [time] to address any concerns.\n\nThank you for your continued dedication. We believe this policy will help us build a more flexible, productive, and satisfied team.\n\n---\n\n*[Company Name] | [Address] | www.[company].com*",
+    "sanitization": {
+      "changed": false,
+      "patterns": [],
+      "removed_chars": 0,
+      "removed_ratio": 0.0
+    },
+    "usage": {
+      "completion_tokens": 850,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 175
+      },
+      "cost": 0.0010434,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.00102,
+        "upstream_inference_cost": 0.0010434,
+        "upstream_inference_prompt_cost": 2.34e-05
+      },
+      "is_byok": false,
+      "prompt_tokens": 78,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 928
+    }
+  },
+  "prompt_category": "memo",
+  "prompt_id": "memo_remote_work_policy",
+  "response_text": "# INTERNAL MEMO\n\n---\n\n**TO:** All Employees\n\n**FROM:** [CEO Name], Chief Executive Officer\n\n**DATE:** [Current Date]\n\n**RE:** New Remote Work Policy \u2013 Effective [Date]\n\n---\n\nI am pleased to announce that we are implementing a formal remote work policy to support our growing team and adapt to the way modern software companies operate. This memo outlines the policy, explains our reasoning, and details the next steps for all employees.\n\n---\n\n## The Policy\n\n**Hybrid Work Model**\nWe are adopting a flexible hybrid model that allows employees to work remotely up to three days per week, with a minimum of two days required in the office. Employees may choose which days to come in, in coordination with their teams.\n\n**Core Hours**\nAll employees must be available for synchronous collaboration between 10:00 AM and 3:00 PM local time, regardless of work location. Outside of core hours, employees may structure their schedules as needed.\n\n**Equipment & Workspace**\nThe company will provide a $1,000 home office stipend for eligible equipment (desk, chair, monitor, peripherals). Employees working remotely are responsible for maintaining a reliable internet connection (minimum 50 Mbps) and a secure, productive workspace.\n\n**Communication Expectations**\nEmployees should maintain responsiveness during core hours via Slack and email. Video should be on for team meetings. Managers may establish additional team-specific norms as needed.\n\n**Eligibility**\nAll full-time employees are eligible immediately. New hires may begin with remote-first schedules during their first 30 days with manager approval.\n\n---\n\n## Why We Are Making This Change\n\nThis policy reflects what we have learned over the past several years and responds to your feedback from recent surveys:\n\n- **Talent retention:** Competitive companies offer flexibility. We want to retain top performers who value work-life integration.\n- **Productivity:** Our internal data shows that remote work days are often our most productive. Engineers report deeper focus without commute interruptions.\n- **Employee wellbeing:** Reducing commute time improves satisfaction and gives employees more time for personal priorities.\n- **Talent acquisition:** Expanding our talent pool beyond commuting distance allows us to hire the best people, not just the closest ones.\n\nThis is not a cost-cutting measure. We remain committed to maintaining our office as a collaborative hub.\n\n---\n\n## What Employees Need to Do Next\n\n1. **Review the full policy document** on the company intranet by [date]. The complete policy includes details on equipment requests, expense reimbursement, and security requirements.\n\n2. **Discuss with your manager** how the policy applies to your role and team. Managers will hold 1:1 meetings over the next two weeks to establish team schedules.\n\n3. **Submit equipment requests** through the HR portal by [date] if you need to purchase home office items. Receipts are required for reimbursement.\n\n4. **Update your calendar** to reflect your in-office days by [date], so teammates can plan collaborative sessions.\n\n5. **Complete the acknowledgment form** confirming you have read and understood the policy. This is required by [date].\n\n---\n\n## Questions?\n\nIf you have questions about the policy, please reach out to your manager or the HR team at hr@[company].com. We will also host an all-hands Q&A session on [date] at [time] to address any concerns.\n\nThank you for your continued dedication. We believe this policy will help us build a more flexible, productive, and satisfied team.\n\n---\n\n*[Company Name] | [Address] | www.[company].com*",
+  "run_name": "2026-03-08-openrouter-v0-2-clean-3"
+}

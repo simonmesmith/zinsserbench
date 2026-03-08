@@ -1,0 +1,47 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.2",
+  "candidate_model_id": "minimax/minimax-m2.5",
+  "created_at": "2026-03-08T13:25:46Z",
+  "judge_model_id": "anthropic/claude-opus-4.6",
+  "metadata": {
+    "id": "gen-1772976338-ZXuViQe6eNVunVVTTY4c",
+    "raw_text": "{\"scores\": {\"clarity\": 5, \"simplicity\": 4, \"brevity_economy\": 4, \"structure_flow\": 5, \"specificity_precision\": 3, \"humanity_voice\": 4, \"overall\": 4}, \"rationale\": \"Clear, well-organized opinion piece that moves logically through convenience, environmental, economic, and social arguments before addressing counterarguments. The writing is accessible and engaging with a confident voice. Loses points on specificity: claims like 'research consistently shows' lack citations, the economic arguments are general rather than data-backed, and phrases like 'a few hundred square feet' feel approximate rather than precise. Some language edges toward the rhetorical/inflated ('at our peril,' 'quintessentially American,' 'collective sanity') and a few points overlap (convenience and walkability sections share territory). The counterargument section is honest but could be sharper with actual evidence. The closing tagline feels slightly performative. Overall a strong, persuasive piece that reads well but relies more on rhetorical momentum than concrete evidence.\"}",
+    "usage": {
+      "completion_tokens": 241,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 0
+      },
+      "cost": 0.01268,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.006025,
+        "upstream_inference_cost": 0.01268,
+        "upstream_inference_prompt_cost": 0.006655
+      },
+      "is_byok": false,
+      "prompt_tokens": 1331,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 1572
+    }
+  },
+  "prompt_category": "persuasion_oped",
+  "prompt_id": "oped_corner_store",
+  "rationale": "Clear, well-organized opinion piece that moves logically through convenience, environmental, economic, and social arguments before addressing counterarguments. The writing is accessible and engaging with a confident voice. Loses points on specificity: claims like 'research consistently shows' lack citations, the economic arguments are general rather than data-backed, and phrases like 'a few hundred square feet' feel approximate rather than precise. Some language edges toward the rhetorical/inflated ('at our peril,' 'quintessentially American,' 'collective sanity') and a few points overlap (convenience and walkability sections share territory). The counterargument section is honest but could be sharper with actual evidence. The closing tagline feels slightly performative. Overall a strong, persuasive piece that reads well but relies more on rhetorical momentum than concrete evidence.",
+  "run_name": "2026-03-08-openrouter-v0-2-clean-3",
+  "scores": {
+    "brevity_economy": 4,
+    "clarity": 5,
+    "humanity_voice": 4,
+    "overall": 4,
+    "simplicity": 4,
+    "specificity_precision": 3,
+    "structure_flow": 5
+  }
+}

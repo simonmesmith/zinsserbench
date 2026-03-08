@@ -6,42 +6,36 @@ ZinsserBench is a benchmark that tests how well language models write the kinds 
 
 ## Scores
 
-The most recent completed run (`2026-03-07-openrouter-v0-1-salvage-1`, benchmark version `v0.1`) tested 12 candidate models across 20 prompts. Scores are on a 1-to-5 scale. Higher is better.
+The most recent completed run (`2026-03-08-openrouter-v0-2-clean-3`, benchmark version `v0.2`) tested 12 candidate models across 20 prompts. Scores are on a 1-to-5 scale. Higher is better.
 
-![Overall scores](runs/2026-03-07-openrouter-v0-1-salvage-1/analysis/overall_scores.svg)
+![Overall scores](runs/2026-03-08-openrouter-v0-2-clean-3/analysis/overall_scores.svg)
 
 **Top three by overall writing quality:**
 
 | Rank | Model | Overall |
 | ---: | --- | ---: |
-| 1 | google/gemini-3.1-pro-preview | 4.92 |
-| 2 | google/gemini-3.1-flash-lite-preview | 4.65 |
-| 3 | openai/gpt-5.3-chat | 4.30 |
+| 1 | anthropic/claude-sonnet-4.6 | 5.00 |
+| 2 | moonshotai/kimi-k2.5 | 4.98 |
+| 3 | anthropic/claude-opus-4.6 | 4.97 |
 
-Full results are in the [detailed report](runs/2026-03-07-openrouter-v0-1-salvage-1/analysis/REPORT.md).
+Full results are in the [detailed report](runs/2026-03-08-openrouter-v0-2-clean-3/analysis/REPORT.md).
 
 ### Judge agreement
 
-ZinsserBench also measures how closely each judge matches the rest of the panel. In this run, `google/gemini-3.1-pro-preview` had the highest agreement, ahead of `openai/gpt-5.4` and `anthropic/claude-opus-4.6`.
+ZinsserBench also measures how closely each judge matches the rest of the panel. In this run, `z-ai/glm-5` had the highest agreement by a hair, essentially tied with `google/gemini-3.1-pro-preview`, ahead of `openai/gpt-5.4`.
 
-![Judge quality](runs/2026-03-07-openrouter-v0-1-salvage-1/analysis/judge_quality.svg)
+![Judge quality](runs/2026-03-08-openrouter-v0-2-clean-3/analysis/judge_quality.svg)
 
-### ⚠️ Preliminary results — do not treat as a reliable leaderboard
+### Notes on this run
 
-These scores are **preliminary**. During the salvage run, Gemini outputs were regenerated after the token cap was raised, while other models (notably Claude Opus, Claude Sonnet, and GPT-5.4) kept their earlier outputs generated under a lower cap. As a result, most non-Gemini models were truncated at ~500 tokens on nearly every output, while Gemini could write complete pieces. **Token truncation currently explains most — but not all — of the score differences.** Among outputs that were not truncated, model quality converges to a much narrower band. Until a clean run is done from scratch with a uniform, generous token budget, these rankings should not be cited as meaningful quality comparisons.
+This is the first clean `v0.2` run with a four-judge panel and same-company judgments excluded from scoring. It is much more reliable than the earlier salvage run, but it is still an early benchmark and should be treated as directional rather than definitive.
 
-Additionally, some models leaked internal reasoning traces into their output (Qwen) or included non-prose artifacts that inflated or deflated scores in ways unrelated to writing quality. These issues are being tracked and fixed before the next run.
-
-See the [detailed analysis](docs/2026-03-07-openrouter-v0-1-salvage-1/index.md) for the full breakdown.
-
-### Other caveats for this run
-
-This is an early `v0.1` run using OpenRouter with `--reasoning-effort medium`. Treat the results as directional, not definitive.
-
-- **Salvaged from the original run.** This leaderboard comes from `2026-03-07-openrouter-v0-1-salvage-1`, a repaired copy of the original OpenRouter run. The salvage run kept valid outputs, regenerated contaminated ones, removed judge identity leakage, and re-judged the full run under one consistent method.
-- **A few outputs are still excluded.** Three candidate outputs were quarantined because they were visibly cut off and too short to score fairly. A [response-length audit](runs/2026-03-07-openrouter-v0-1-salvage-1/analysis/response_lengths_by_model.csv) and [quarantine table](runs/2026-03-07-openrouter-v0-1-salvage-1/analysis/quarantined_outputs.csv) are available.
-- **Judge panel.** The panel is `openai/gpt-5.4`, `anthropic/claude-opus-4.6`, and `google/gemini-3.1-pro-preview`. Three judges is a starting point; future runs may expand the panel.
-- **Prompt count.** 20 prompts across 6 categories. Enough to see patterns, not enough to claim statistical precision.
+- **Clean run.** This leaderboard comes from a full fresh run at `max_output_tokens=10000`, not a repaired salvage copy.
+- **No outputs were excluded from scoring.** There were `0` quarantined outputs in the final analysis.
+- **Judge panel.** The panel is `openai/gpt-5.4`, `anthropic/claude-opus-4.6`, `google/gemini-3.1-pro-preview`, and `z-ai/glm-5`.
+- **Same-company judgments are skipped.** The analysis records `140` skipped same-company judgments, and no candidate/prompt item was excluded for insufficient remaining judges.
+- **A small amount of sanitization still happens.** `qwen/qwen3.5-35b-a3b` triggered `6` light sanitization warnings for leaked thinking prefixes. These were stripped before judging.
+- **Prompt count.** 20 prompts across 6 categories. Enough to show meaningful patterns, not enough to claim high statistical precision.
 
 ## Good nonfiction writing and William Zinsser
 

@@ -1,0 +1,47 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.2",
+  "candidate_model_id": "anthropic/claude-opus-4.6",
+  "created_at": "2026-03-08T12:43:13Z",
+  "judge_model_id": "z-ai/glm-5",
+  "metadata": {
+    "id": "gen-1772973788-PgGuTVVomVOkbCnzbqGP",
+    "raw_text": "{\"scores\": {\"clarity\": 5, \"simplicity\": 4, \"brevity_economy\": 4, \"structure_flow\": 5, \"specificity_precision\": 5, \"humanity_voice\": 5, \"overall\": 5}, \"rationale\": \"This is exceptional profile writing. The piece builds a complete portrait through accumulated detail\u2014the crack in the asphalt reported since 2014, the crooked glasses, the letter from Caleb Marsh's parents. The structure moves fluidly from scene to exposition to anecdote, with each section deepening the reader's understanding. The voice is warm without being sentimental, earning emotional moments through specific reporting rather than manipulation. Dialogue sounds natural. Minor deductions on simplicity and brevity only because some sentences could be slightly tighter, but the length serves the depth of characterization.\"}",
+    "usage": {
+      "completion_tokens": 350,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 202
+      },
+      "cost": 0.00458224,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.000896,
+        "upstream_inference_cost": 0.00458224,
+        "upstream_inference_prompt_cost": 0.00368624
+      },
+      "is_byok": false,
+      "prompt_tokens": 4659,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 64,
+        "video_tokens": 0
+      },
+      "total_tokens": 5009
+    }
+  },
+  "prompt_category": "profile",
+  "prompt_id": "profile_school_custodian",
+  "rationale": "This is exceptional profile writing. The piece builds a complete portrait through accumulated detail\u2014the crack in the asphalt reported since 2014, the crooked glasses, the letter from Caleb Marsh's parents. The structure moves fluidly from scene to exposition to anecdote, with each section deepening the reader's understanding. The voice is warm without being sentimental, earning emotional moments through specific reporting rather than manipulation. Dialogue sounds natural. Minor deductions on simplicity and brevity only because some sentences could be slightly tighter, but the length serves the depth of characterization.",
+  "run_name": "2026-03-08-openrouter-v0-2-clean-3",
+  "scores": {
+    "brevity_economy": 4,
+    "clarity": 5,
+    "humanity_voice": 5,
+    "overall": 5,
+    "simplicity": 4,
+    "specificity_precision": 5,
+    "structure_flow": 5
+  }
+}

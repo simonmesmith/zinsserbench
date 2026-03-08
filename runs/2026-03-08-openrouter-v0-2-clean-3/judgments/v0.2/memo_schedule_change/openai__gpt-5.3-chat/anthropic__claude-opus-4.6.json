@@ -1,0 +1,47 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.2",
+  "candidate_model_id": "openai/gpt-5.3-chat",
+  "created_at": "2026-03-08T13:35:10Z",
+  "judge_model_id": "anthropic/claude-opus-4.6",
+  "metadata": {
+    "id": "gen-1772976897-GyZk0meej1yPnrmUEzPJ",
+    "raw_text": "{\"scores\": {\"clarity\": 5, \"simplicity\": 4, \"brevity_economy\": 4, \"structure_flow\": 5, \"specificity_precision\": 2, \"humanity_voice\": 3, \"overall\": 3}, \"rationale\": \"The memo is clearly organized and easy to follow: context \u2192 changes \u2192 action \u2192 appreciation. Language is plain and direct with minimal jargon. Structure is textbook-good for an internal memo. However, it leans heavily on placeholders and vague generalities ('expanded shift coverage,' 'additional weekend hours,' 'some teams may see earlier start times'). A real memo of this kind should specify actual shift times, affected teams, or at least concrete examples. The voice is polite but reads as generic corporate boilerplate\u2014'maintaining safe and efficient operations,' 'your efforts help ensure orders are processed accurately'\u2014rather than sounding like a real person talking to coworkers. Competent template, but lacks the specificity and human touch that would make it genuinely effective.\"}",
+    "usage": {
+      "completion_tokens": 603,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 421
+      },
+      "cost": 0.01826,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.015075,
+        "upstream_inference_cost": 0.01826,
+        "upstream_inference_prompt_cost": 0.003185
+      },
+      "is_byok": false,
+      "prompt_tokens": 637,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 1240
+    }
+  },
+  "prompt_category": "memo",
+  "prompt_id": "memo_schedule_change",
+  "rationale": "The memo is clearly organized and easy to follow: context \u2192 changes \u2192 action \u2192 appreciation. Language is plain and direct with minimal jargon. Structure is textbook-good for an internal memo. However, it leans heavily on placeholders and vague generalities ('expanded shift coverage,' 'additional weekend hours,' 'some teams may see earlier start times'). A real memo of this kind should specify actual shift times, affected teams, or at least concrete examples. The voice is polite but reads as generic corporate boilerplate\u2014'maintaining safe and efficient operations,' 'your efforts help ensure orders are processed accurately'\u2014rather than sounding like a real person talking to coworkers. Competent template, but lacks the specificity and human touch that would make it genuinely effective.",
+  "run_name": "2026-03-08-openrouter-v0-2-clean-3",
+  "scores": {
+    "brevity_economy": 4,
+    "clarity": 5,
+    "humanity_voice": 3,
+    "overall": 3,
+    "simplicity": 4,
+    "specificity_precision": 2,
+    "structure_flow": 5
+  }
+}

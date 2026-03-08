@@ -1,0 +1,47 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.2",
+  "candidate_model_id": "moonshotai/kimi-k2.5",
+  "created_at": "2026-03-08T13:19:17Z",
+  "judge_model_id": "openai/gpt-5.4",
+  "metadata": {
+    "id": "gen-1772975953-JkTrtbd5IFkrynrlFElM",
+    "raw_text": "{\"scores\":{\"clarity\":5,\"simplicity\":4,\"brevity_economy\":3,\"structure_flow\":5,\"specificity_precision\":5,\"humanity_voice\":4,\"overall\":4},\"rationale\":\"Clear, well-organized, and highly practical, with strong concrete advice and actionable detail. It loses some points for simplicity and economy because the tone can feel a bit formal or consultant-like, and the guide is somewhat longer and denser than necessary for the task.\"}",
+    "usage": {
+      "completion_tokens": 240,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 132
+      },
+      "cost": 0.007955,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.0036,
+        "upstream_inference_cost": 0.007955,
+        "upstream_inference_prompt_cost": 0.004355
+      },
+      "is_byok": false,
+      "prompt_tokens": 1742,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 1982
+    }
+  },
+  "prompt_category": "service_howto",
+  "prompt_id": "howto_school_board_comment",
+  "rationale": "Clear, well-organized, and highly practical, with strong concrete advice and actionable detail. It loses some points for simplicity and economy because the tone can feel a bit formal or consultant-like, and the guide is somewhat longer and denser than necessary for the task.",
+  "run_name": "2026-03-08-openrouter-v0-2-clean-3",
+  "scores": {
+    "brevity_economy": 3,
+    "clarity": 5,
+    "humanity_voice": 4,
+    "overall": 4,
+    "simplicity": 4,
+    "specificity_precision": 5,
+    "structure_flow": 5
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.2",
+  "candidate_model_id": "openai/gpt-5.4",
+  "created_at": "2026-03-08T13:03:15Z",
+  "judge_model_id": "anthropic/claude-opus-4.6",
+  "metadata": {
+    "id": "gen-1772974986-OU6ASht4CcKYiantVqlc",
+    "raw_text": "{\"scores\": {\"clarity\": 5, \"simplicity\": 5, \"brevity_economy\": 4, \"structure_flow\": 5, \"specificity_precision\": 5, \"humanity_voice\": 5, \"overall\": 5}, \"rationale\": \"This is exceptional personal nonfiction. The clarity is flawless\u2014every sentence lands on first read. The language is plain and direct yet deeply evocative ('a damp fist and no lunch,' 'they looked mildly inconvenienced by public life,' 'the difficult art of being public together'). The specificity is outstanding: freezer-burned ice cream sandwiches, the girl reading a paperback under the counter, the dentist in floral trunks, the principal's sunburned bald head. These details do real work, revealing character and class without editorializing. The structure moves beautifully from sensory childhood memory outward to social observation, economic change, civic crisis, and philosophical reflection\u2014each section building naturally on the last. The voice is warm, intelligent, and genuinely human, with a narrator who earns her insights through observation rather than assertion. The only slight deduction is on brevity: at this length, a few passages (particularly the section on town contradictions about government, and some of the later catalog-style observations) could be tightened without loss. But even the longer passages earn their space through quality of thought. Lines like 'A splash pad is for passing through. A pool asks you to stay' and 'A town is not just what it builds for children. It is what it permits adults to need' are genuinely memorable. This reads like polished, publishable literary nonfiction.\"}",
+    "usage": {
+      "completion_tokens": 375,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 0
+      },
+      "cost": 0.02418,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.009375,
+        "upstream_inference_cost": 0.02418,
+        "upstream_inference_prompt_cost": 0.014805
+      },
+      "is_byok": false,
+      "prompt_tokens": 2961,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 3336
+    }
+  },
+  "prompt_category": "personal_nonfiction",
+  "prompt_id": "personal_public_pool",
+  "rationale": "This is exceptional personal nonfiction. The clarity is flawless\u2014every sentence lands on first read. The language is plain and direct yet deeply evocative ('a damp fist and no lunch,' 'they looked mildly inconvenienced by public life,' 'the difficult art of being public together'). The specificity is outstanding: freezer-burned ice cream sandwiches, the girl reading a paperback under the counter, the dentist in floral trunks, the principal's sunburned bald head. These details do real work, revealing character and class without editorializing. The structure moves beautifully from sensory childhood memory outward to social observation, economic change, civic crisis, and philosophical reflection\u2014each section building naturally on the last. The voice is warm, intelligent, and genuinely human, with a narrator who earns her insights through observation rather than assertion. The only slight deduction is on brevity: at this length, a few passages (particularly the section on town contradictions about government, and some of the later catalog-style observations) could be tightened without loss. But even the longer passages earn their space through quality of thought. Lines like 'A splash pad is for passing through. A pool asks you to stay' and 'A town is not just what it builds for children. It is what it permits adults to need' are genuinely memorable. This reads like polished, publishable literary nonfiction.",
+  "run_name": "2026-03-08-openrouter-v0-2-clean-3",
+  "scores": {
+    "brevity_economy": 4,
+    "clarity": 5,
+    "humanity_voice": 5,
+    "overall": 5,
+    "simplicity": 5,
+    "specificity_precision": 5,
+    "structure_flow": 5
+  }
+}

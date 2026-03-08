@@ -1,0 +1,47 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.2",
+  "candidate_model_id": "google/gemini-3.1-flash-lite-preview",
+  "created_at": "2026-03-08T13:17:33Z",
+  "judge_model_id": "z-ai/glm-5",
+  "metadata": {
+    "id": "gen-1772975841-rws3H684rTISjwmGWbml",
+    "raw_text": "{\"scores\": {\"clarity\": 5, \"simplicity\": 5, \"brevity_economy\": 5, \"structure_flow\": 5, \"specificity_precision\": 5, \"humanity_voice\": 5, \"overall\": 5}, \"rationale\": \"An excellent practical guide. The writing is clear and plain-spoken throughout, with no jargon or confusion. Each section is tight and purposeful\u2014no padding or repetition. The chronological structure (preparation through follow-up) is logical and easy to follow. Specific details abound: '24 hours in advance,' '2\u20133 minutes,' 'red light,' 'buzzer.' The tone is human and helpful, acknowledging that parents may be nervous or frustrated while staying practical. A model of effective instructional writing.\"}",
+    "usage": {
+      "completion_tokens": 624,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 547
+      },
+      "cost": 0.0032458,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.0019968,
+        "upstream_inference_cost": 0.0032458,
+        "upstream_inference_prompt_cost": 0.001249
+      },
+      "is_byok": false,
+      "prompt_tokens": 1249,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 1873
+    }
+  },
+  "prompt_category": "service_howto",
+  "prompt_id": "howto_school_board_comment",
+  "rationale": "An excellent practical guide. The writing is clear and plain-spoken throughout, with no jargon or confusion. Each section is tight and purposeful\u2014no padding or repetition. The chronological structure (preparation through follow-up) is logical and easy to follow. Specific details abound: '24 hours in advance,' '2\u20133 minutes,' 'red light,' 'buzzer.' The tone is human and helpful, acknowledging that parents may be nervous or frustrated while staying practical. A model of effective instructional writing.",
+  "run_name": "2026-03-08-openrouter-v0-2-clean-3",
+  "scores": {
+    "brevity_economy": 5,
+    "clarity": 5,
+    "humanity_voice": 5,
+    "overall": 5,
+    "simplicity": 5,
+    "specificity_precision": 5,
+    "structure_flow": 5
+  }
+}

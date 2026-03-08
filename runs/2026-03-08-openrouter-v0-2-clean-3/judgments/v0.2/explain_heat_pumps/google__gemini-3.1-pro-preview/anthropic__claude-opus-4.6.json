@@ -1,0 +1,47 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.2",
+  "candidate_model_id": "google/gemini-3.1-pro-preview",
+  "created_at": "2026-03-08T12:34:57Z",
+  "judge_model_id": "anthropic/claude-opus-4.6",
+  "metadata": {
+    "id": "gen-1772973289-4LgZcgq2VDsyOp3egS0X",
+    "raw_text": "{\"scores\": {\"clarity\": 5, \"simplicity\": 5, \"brevity_economy\": 4, \"structure_flow\": 5, \"specificity_precision\": 4, \"humanity_voice\": 4, \"overall\": 5}, \"rationale\": \"Exceptionally clear explainer that nails the refrigerator analogy and the 'moves heat rather than generates it' framing. Language is plain and accessible throughout. Structure is logical: how it works \u2192 why choose one \u2192 common objection \u2192 bottom line. Specificity is strong (300% efficiency, -10\u00b0F threshold, 95% gas furnace figure) though the safety/air quality section leans slightly on generalities ('tend to provide more consistent heat'). Brevity is good but not perfect\u2014the intro has mild throat-clearing ('you have probably heard the growing buzz') and a few phrases could be trimmed ('the hassle of maintaining and replacing two separate pieces of equipment'). Voice is warm and reader-directed without being overly chatty, though it occasionally drifts toward marketing copy ('unmatched,' 'increasingly smart investment'). Overall a polished, well-organized piece that serves the target audience effectively.\"}",
+    "usage": {
+      "completion_tokens": 265,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 0
+      },
+      "cost": 0.012435,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.006625,
+        "upstream_inference_cost": 0.012435,
+        "upstream_inference_prompt_cost": 0.00581
+      },
+      "is_byok": false,
+      "prompt_tokens": 1162,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 1427
+    }
+  },
+  "prompt_category": "explain",
+  "prompt_id": "explain_heat_pumps",
+  "rationale": "Exceptionally clear explainer that nails the refrigerator analogy and the 'moves heat rather than generates it' framing. Language is plain and accessible throughout. Structure is logical: how it works \u2192 why choose one \u2192 common objection \u2192 bottom line. Specificity is strong (300% efficiency, -10\u00b0F threshold, 95% gas furnace figure) though the safety/air quality section leans slightly on generalities ('tend to provide more consistent heat'). Brevity is good but not perfect\u2014the intro has mild throat-clearing ('you have probably heard the growing buzz') and a few phrases could be trimmed ('the hassle of maintaining and replacing two separate pieces of equipment'). Voice is warm and reader-directed without being overly chatty, though it occasionally drifts toward marketing copy ('unmatched,' 'increasingly smart investment'). Overall a polished, well-organized piece that serves the target audience effectively.",
+  "run_name": "2026-03-08-openrouter-v0-2-clean-3",
+  "scores": {
+    "brevity_economy": 4,
+    "clarity": 5,
+    "humanity_voice": 4,
+    "overall": 5,
+    "simplicity": 5,
+    "specificity_precision": 4,
+    "structure_flow": 5
+  }
+}

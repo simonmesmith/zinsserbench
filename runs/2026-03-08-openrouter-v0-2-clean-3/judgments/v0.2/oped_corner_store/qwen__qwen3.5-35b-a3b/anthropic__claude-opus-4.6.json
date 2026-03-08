@@ -1,0 +1,47 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.2",
+  "candidate_model_id": "qwen/qwen3.5-35b-a3b",
+  "created_at": "2026-03-08T13:25:31Z",
+  "judge_model_id": "anthropic/claude-opus-4.6",
+  "metadata": {
+    "id": "gen-1772976323-fsqmtK1RgPOsadvPGpNH",
+    "raw_text": "{\"scores\": {\"clarity\": 5, \"simplicity\": 4, \"brevity_economy\": 2, \"structure_flow\": 4, \"specificity_precision\": 3, \"humanity_voice\": 4, \"overall\": 3}, \"rationale\": \"The actual opinion piece is well-structured, clearly argued, and reads smoothly. However, the response is severely undermined by the inclusion of extensive brainstorming notes, outlines, and self-correction commentary before the piece itself\u2014this is pure throat-clearing that roughly doubles the length and should not be present. The piece itself occasionally leans on generalities rather than concrete specifics (no real neighborhood examples, no data on property values or crime stats, the Jane Jacobs reference is the only concrete citation). Some phrases feel slightly formulaic ('social fabric,' 'economic resilience,' 'eyes and ears of a community'). The contradiction 'we value community over convenience' is odd given that convenience was a central argument. The writing is clear and human-sounding within the piece, but the overall effectiveness is dragged down significantly by the unprofessional inclusion of process notes.\"}",
+    "usage": {
+      "completion_tokens": 251,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 0
+      },
+      "cost": 0.01806,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.006275,
+        "upstream_inference_cost": 0.01806,
+        "upstream_inference_prompt_cost": 0.011785
+      },
+      "is_byok": false,
+      "prompt_tokens": 2357,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 2608
+    }
+  },
+  "prompt_category": "persuasion_oped",
+  "prompt_id": "oped_corner_store",
+  "rationale": "The actual opinion piece is well-structured, clearly argued, and reads smoothly. However, the response is severely undermined by the inclusion of extensive brainstorming notes, outlines, and self-correction commentary before the piece itself\u2014this is pure throat-clearing that roughly doubles the length and should not be present. The piece itself occasionally leans on generalities rather than concrete specifics (no real neighborhood examples, no data on property values or crime stats, the Jane Jacobs reference is the only concrete citation). Some phrases feel slightly formulaic ('social fabric,' 'economic resilience,' 'eyes and ears of a community'). The contradiction 'we value community over convenience' is odd given that convenience was a central argument. The writing is clear and human-sounding within the piece, but the overall effectiveness is dragged down significantly by the unprofessional inclusion of process notes.",
+  "run_name": "2026-03-08-openrouter-v0-2-clean-3",
+  "scores": {
+    "brevity_economy": 2,
+    "clarity": 5,
+    "humanity_voice": 4,
+    "overall": 3,
+    "simplicity": 4,
+    "specificity_precision": 3,
+    "structure_flow": 4
+  }
+}

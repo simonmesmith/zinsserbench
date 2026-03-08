@@ -1,0 +1,47 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.2",
+  "candidate_model_id": "anthropic/claude-opus-4.6",
+  "created_at": "2026-03-08T13:17:58Z",
+  "judge_model_id": "google/gemini-3.1-pro-preview",
+  "metadata": {
+    "id": "gen-1772975870-M0m2qA0siWGcJnvr4Tj1",
+    "raw_text": "{\n  \"scores\": {\n    \"clarity\": 5,\n    \"simplicity\": 5,\n    \"brevity_economy\": 4,\n    \"structure_flow\": 5,\n    \"specificity_precision\": 5,\n    \"humanity_voice\": 5,\n    \"overall\": 5\n  },\n  \"rationale\": \"The guide is exceptionally clear, well-structured, and practical. It uses concrete examples, maintains an encouraging and empathetic tone, and logically guides the reader through the entire process. While slightly lengthy, the detail is necessary and well-organized.\"\n}",
+    "usage": {
+      "completion_tokens": 457,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 323
+      },
+      "cost": 0.012802,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.005484,
+        "upstream_inference_cost": 0.012802,
+        "upstream_inference_prompt_cost": 0.007318
+      },
+      "is_byok": false,
+      "prompt_tokens": 3659,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 4116
+    }
+  },
+  "prompt_category": "service_howto",
+  "prompt_id": "howto_school_board_comment",
+  "rationale": "The guide is exceptionally clear, well-structured, and practical. It uses concrete examples, maintains an encouraging and empathetic tone, and logically guides the reader through the entire process. While slightly lengthy, the detail is necessary and well-organized.",
+  "run_name": "2026-03-08-openrouter-v0-2-clean-3",
+  "scores": {
+    "brevity_economy": 4,
+    "clarity": 5,
+    "humanity_voice": 5,
+    "overall": 5,
+    "simplicity": 5,
+    "specificity_precision": 5,
+    "structure_flow": 5
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.2",
+  "candidate_model_id": "google/gemini-3.1-pro-preview",
+  "created_at": "2026-03-08T13:23:16Z",
+  "judge_model_id": "z-ai/glm-5",
+  "metadata": {
+    "id": "gen-1772976182-00vraL8kmvtOB7KHAJf2",
+    "raw_text": "{\"scores\": {\"clarity\": 5, \"simplicity\": 5, \"brevity_economy\": 5, \"structure_flow\": 5, \"specificity_precision\": 5, \"humanity_voice\": 5, \"overall\": 5}, \"rationale\": \"A polished, persuasive opinion piece. Opens with a vivid, relatable scenario; builds a logical case through walkability, social connection, and safety; anticipates counterarguments with specific zoning solutions. Language is plain yet engaging, transitions are smooth, and every paragraph earns its place. Exemplary nonfiction writing.\"}",
+    "usage": {
+      "completion_tokens": 762,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 635
+      },
+      "cost": 0.00263951,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.0024003,
+        "upstream_inference_cost": 0.00263951,
+        "upstream_inference_prompt_cost": 0.00023921
+      },
+      "is_byok": false,
+      "prompt_tokens": 1071,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 1024,
+        "video_tokens": 0
+      },
+      "total_tokens": 1833
+    }
+  },
+  "prompt_category": "persuasion_oped",
+  "prompt_id": "oped_corner_store",
+  "rationale": "A polished, persuasive opinion piece. Opens with a vivid, relatable scenario; builds a logical case through walkability, social connection, and safety; anticipates counterarguments with specific zoning solutions. Language is plain yet engaging, transitions are smooth, and every paragraph earns its place. Exemplary nonfiction writing.",
+  "run_name": "2026-03-08-openrouter-v0-2-clean-3",
+  "scores": {
+    "brevity_economy": 5,
+    "clarity": 5,
+    "humanity_voice": 5,
+    "overall": 5,
+    "simplicity": 5,
+    "specificity_precision": 5,
+    "structure_flow": 5
+  }
+}

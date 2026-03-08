@@ -1,0 +1,47 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.2",
+  "candidate_model_id": "moonshotai/kimi-k2.5",
+  "created_at": "2026-03-08T12:51:23Z",
+  "judge_model_id": "anthropic/claude-opus-4.6",
+  "metadata": {
+    "id": "gen-1772974268-dC3kRahtROMl8JVzdns6",
+    "raw_text": "{\"scores\": {\"clarity\": 5, \"simplicity\": 5, \"brevity_economy\": 4, \"structure_flow\": 5, \"specificity_precision\": 5, \"humanity_voice\": 5, \"overall\": 5}, \"rationale\": \"Exceptionally well-executed practical guide. The chronological structure with time estimates (30 seconds, 2 minutes, 5 minutes) is an inspired organizational choice that reinforces urgency. Specificity is outstanding throughout: scripted language for calling the landlord, naming exact leak sources (wax ring, shower pan), the $5 washing machine hose detail, and the 24-48 hour mold timeline. The puncture-the-bubble tip is genuinely useful and precisely described. Voice is confident and urgent without being alarmist ('speed matters more than perfection'). Only minor dings: slightly long for the task (the prevention checklist and red flags sections could be trimmed), and the 'upstairs neighbors' bullet awkwardly shifts audience mid-list. The closing priority hierarchy is a strong, memorable summation.\"}",
+    "usage": {
+      "completion_tokens": 697,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 416
+      },
+      "cost": 0.026275,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.017425,
+        "upstream_inference_cost": 0.026275,
+        "upstream_inference_prompt_cost": 0.00885
+      },
+      "is_byok": false,
+      "prompt_tokens": 1770,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 2467
+    }
+  },
+  "prompt_category": "service_howto",
+  "prompt_id": "howto_report_water_leak",
+  "rationale": "Exceptionally well-executed practical guide. The chronological structure with time estimates (30 seconds, 2 minutes, 5 minutes) is an inspired organizational choice that reinforces urgency. Specificity is outstanding throughout: scripted language for calling the landlord, naming exact leak sources (wax ring, shower pan), the $5 washing machine hose detail, and the 24-48 hour mold timeline. The puncture-the-bubble tip is genuinely useful and precisely described. Voice is confident and urgent without being alarmist ('speed matters more than perfection'). Only minor dings: slightly long for the task (the prevention checklist and red flags sections could be trimmed), and the 'upstairs neighbors' bullet awkwardly shifts audience mid-list. The closing priority hierarchy is a strong, memorable summation.",
+  "run_name": "2026-03-08-openrouter-v0-2-clean-3",
+  "scores": {
+    "brevity_economy": 4,
+    "clarity": 5,
+    "humanity_voice": 5,
+    "overall": 5,
+    "simplicity": 5,
+    "specificity_precision": 5,
+    "structure_flow": 5
+  }
+}

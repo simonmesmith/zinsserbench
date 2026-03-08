@@ -13,7 +13,7 @@ from zinsserbench.aggregate import aggregate_run
 from zinsserbench.backends import MockBackend, OpenRouterBackend, _extract_retry_after_seconds
 from zinsserbench.env import load_dotenv
 from zinsserbench.pipeline import generate_missing, judge_missing
-from zinsserbench.quality import detect_truncation, evaluate_output, sanitize_output
+from zinsserbench.quality import evaluate_output, sanitize_output
 from zinsserbench.report import generate_report
 from zinsserbench.specs import load_benchmark_version
 from zinsserbench.types import model_company
@@ -44,6 +44,14 @@ class ZinsserBenchTests(unittest.TestCase):
             [judge.model_id for judge in benchmark.judges],
         )
         self.assertEqual("memo", benchmark.prompts[0].category)
+
+    def test_v0_2_uses_four_judges(self) -> None:
+        benchmark = load_benchmark_version(self.temp_dir, "v0.2")
+        self.assertEqual(4, len(benchmark.judges))
+        self.assertEqual(
+            ["openai/gpt-5.4", "anthropic/claude-opus-4.6", "google/gemini-3.1-pro-preview", "z-ai/glm-5"],
+            [judge.model_id for judge in benchmark.judges],
+        )
 
     def test_incremental_generation_and_judging(self) -> None:
         first_generate = generate_missing(self.temp_dir, "fixture-run", "v0.1", self.backend, self.settings)
@@ -193,29 +201,32 @@ class ZinsserBenchTests(unittest.TestCase):
             {row["company"] for row in summary["skipped_same_company_judgments"]},
         )
 
+    def test_aggregate_excludes_items_missing_expected_non_conflicted_judges(self) -> None:
+        generate_missing(self.temp_dir, "fixture-run", "v0.2", self.backend, self.settings)
+        judge_missing(self.temp_dir, "fixture-run", "v0.2", self.backend, self.settings)
+
+        missing_judgment = (
+            self.temp_dir
+            / "runs"
+            / "fixture-run"
+            / "judgments"
+            / "v0.2"
+            / "memo_budget_freeze"
+            / "openai__gpt-5.3-chat"
+            / "anthropic__claude-opus-4.6.json"
+        )
+        missing_judgment.unlink()
+
+        summary = aggregate_run(self.temp_dir, "fixture-run")
+        self.assertEqual(1, len(summary["excluded_for_insufficient_judges"]))
+        self.assertEqual(2, summary["excluded_for_insufficient_judges"][0]["judge_count"])
+        self.assertEqual(3, summary["excluded_for_insufficient_judges"][0]["required_judges"])
+
     def test_sanitize_output_strips_reasoning_traces(self) -> None:
         result = sanitize_output("<think>plan</think>\n\nThinking Process: draft it\n\nActual prose.")
         self.assertEqual("Actual prose.", result.text)
         self.assertTrue(result.changed)
         self.assertIn("think_block", result.patterns)
-
-    def test_detect_truncation_flags_cap_hits_and_incomplete_endings(self) -> None:
-        result = detect_truncation(
-            "This response trails off in the middle",
-            {"finish_reason": "length", "usage": {"completion_tokens": 10000}},
-            10000,
-        )
-        self.assertTrue(result.is_truncated)
-        self.assertIn("finish_reason_length", result.reasons)
-        self.assertIn("completion_tokens_at_cap", result.reasons)
-
-    def test_detect_truncation_allows_clean_completed_text(self) -> None:
-        result = detect_truncation(
-            "This response finishes cleanly.",
-            {"finish_reason": "stop", "usage": {"completion_tokens": 400}},
-            10000,
-        )
-        self.assertFalse(result.is_truncated)
 
     def test_generation_retries_after_heavy_sanitization(self) -> None:
         calls = []
@@ -249,27 +260,32 @@ class ZinsserBenchTests(unittest.TestCase):
         self.assertEqual(2, payload["metadata"]["generation_attempt"])
         self.assertEqual("none", calls[1]["reasoning_effort"])
 
-    def test_generation_quarantines_truncated_output_after_retry(self) -> None:
-        class TruncatedBackend(MockBackend):
+    def test_generation_does_not_quarantine_outputs_based_on_truncation_heuristics(self) -> None:
+        class CapHitBackend(MockBackend):
             def generate(self, model, prompt, settings):
                 payload = super().generate(model, prompt, settings)
                 if model.model_id != "openai/gpt-5.4" or prompt.prompt_id != "memo_remote_work_policy":
                     return payload
                 return {
-                    "response_text": "This ends without closure",
+                    "response_text": (
+                        "This memo explains the policy shift, what teams should expect next, "
+                        "and how managers should handle scheduling questions while the company "
+                        "moves to the new remote-work setup "
+                    )
+                    * 12,
                     "metadata": {
                         "finish_reason": "length",
                         "usage": {"completion_tokens": settings["max_output_tokens"]},
                     },
                 }
 
-        generate_missing(self.temp_dir, "fixture-run", "v0.1", TruncatedBackend(), self.settings)
-        judge_result = judge_missing(self.temp_dir, "fixture-run", "v0.1", TruncatedBackend(), self.settings)
-        self.assertEqual(598, judge_result["scheduled"])
+        generate_missing(self.temp_dir, "fixture-run", "v0.1", CapHitBackend(), self.settings)
+        judge_result = judge_missing(self.temp_dir, "fixture-run", "v0.1", CapHitBackend(), self.settings)
+        self.assertEqual(600, judge_result["scheduled"])
 
         summary = aggregate_run(self.temp_dir, "fixture-run")
-        self.assertEqual(1, len(summary["quarantined_outputs"]))
-        self.assertEqual(1, len(summary["truncation_warnings"]))
+        self.assertEqual(0, len(summary["quarantined_outputs"]))
+        self.assertEqual(1, len(summary["exact_cap_hits"]))
 
     def test_model_company_uses_prefix_before_slash(self) -> None:
         self.assertEqual("openai", model_company("openai/gpt-5.4"))
@@ -500,6 +516,40 @@ class ZinsserBenchTests(unittest.TestCase):
         self.assertEqual(0, calls[1]["temperature"])
         self.assertEqual(1000, calls[1]["max_output_tokens"])
         self.assertEqual("ok", payload["rationale"])
+
+    def test_judge_can_parse_json_from_reasoning_when_content_is_null(self) -> None:
+        backend = OpenRouterBackend(api_key="test-key")
+        responses = [
+            {
+                "choices": [
+                    {
+                        "message": {
+                            "content": None,
+                            "reasoning": (
+                                '{"scores":{"clarity":5,"simplicity":4,"brevity_economy":4,'
+                                '"structure_flow":5,"specificity_precision":5,"humanity_voice":4,"overall":5},'
+                                '"rationale":"ok from reasoning"}'
+                            ),
+                        },
+                        "finish_reason": "stop",
+                    }
+                ],
+                "usage": {},
+            }
+        ]
+
+        def fake_chat_completion(model_id, messages, settings):
+            return responses[0]
+
+        backend._chat_completion = fake_chat_completion  # type: ignore[method-assign]
+        _, text, payload = backend._judge_completion_with_parse_fallback(
+            "z-ai/glm-5",
+            [{"role": "user", "content": "test"}],
+            {"reasoning_effort": "medium", "json_mode": True, "max_output_tokens": 700, "temperature": 0.2},
+        )
+
+        self.assertIn('"scores"', text)
+        self.assertEqual("ok from reasoning", payload["rationale"])
 
     def test_openrouter_request_requires_provider_parameters(self) -> None:
         backend = OpenRouterBackend(api_key="test-key")

@@ -1,0 +1,47 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.2",
+  "candidate_model_id": "google/gemini-3.1-pro-preview",
+  "created_at": "2026-03-08T13:14:22Z",
+  "judge_model_id": "anthropic/claude-opus-4.6",
+  "metadata": {
+    "id": "gen-1772975654-AlrGYnz8tj64UxA2be1x",
+    "raw_text": "{\"scores\": {\"clarity\": 5, \"simplicity\": 5, \"brevity_economy\": 5, \"structure_flow\": 5, \"specificity_precision\": 5, \"humanity_voice\": 5, \"overall\": 5}, \"rationale\": \"This is exceptional profile writing. The piece opens with a sensory, cinematic detail (the broken briefcase wheel) and sustains that specificity throughout\u2014187 active felonies, twelve minutes with Julian, two investigators for thirty attorneys. The chronological structure (8:15 a.m. through evening) gives it natural momentum and lets the reader feel the relentless pace. Dialogue is deployed perfectly: Julian's 'Aren't you supposed to fight for me?' crystallizes the central tension without the writer having to explain it. The language is clean and direct with no wasted sentences; every paragraph advances character, theme, or narrative. The metaphors (triage medic, jamming the gears of the machine) are vivid without being overwrought. The voice is warm, engaged, and literary without tipping into sentimentality. The ending lands with quiet force. If there's any quibble, it's that this is a fictional composite rather than a real profile, but the prompt invited that, and the execution is nearly flawless as a piece of narrative nonfiction craft.\"}",
+    "usage": {
+      "completion_tokens": 298,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 0
+      },
+      "cost": 0.01557,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.00745,
+        "upstream_inference_cost": 0.01557,
+        "upstream_inference_prompt_cost": 0.00812
+      },
+      "is_byok": false,
+      "prompt_tokens": 1624,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 1922
+    }
+  },
+  "prompt_category": "profile",
+  "prompt_id": "profile_public_defender",
+  "rationale": "This is exceptional profile writing. The piece opens with a sensory, cinematic detail (the broken briefcase wheel) and sustains that specificity throughout\u2014187 active felonies, twelve minutes with Julian, two investigators for thirty attorneys. The chronological structure (8:15 a.m. through evening) gives it natural momentum and lets the reader feel the relentless pace. Dialogue is deployed perfectly: Julian's 'Aren't you supposed to fight for me?' crystallizes the central tension without the writer having to explain it. The language is clean and direct with no wasted sentences; every paragraph advances character, theme, or narrative. The metaphors (triage medic, jamming the gears of the machine) are vivid without being overwrought. The voice is warm, engaged, and literary without tipping into sentimentality. The ending lands with quiet force. If there's any quibble, it's that this is a fictional composite rather than a real profile, but the prompt invited that, and the execution is nearly flawless as a piece of narrative nonfiction craft.",
+  "run_name": "2026-03-08-openrouter-v0-2-clean-3",
+  "scores": {
+    "brevity_economy": 5,
+    "clarity": 5,
+    "humanity_voice": 5,
+    "overall": 5,
+    "simplicity": 5,
+    "specificity_precision": 5,
+    "structure_flow": 5
+  }
+}

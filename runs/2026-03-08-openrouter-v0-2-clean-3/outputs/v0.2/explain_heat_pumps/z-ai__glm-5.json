@@ -1,0 +1,56 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.2",
+  "candidate_label": "GLM-5",
+  "candidate_model_id": "z-ai/glm-5",
+  "created_at": "2026-03-08T11:57:25Z",
+  "metadata": {
+    "finish_reason": "stop",
+    "generation_attempt": 1,
+    "generation_settings": {
+      "max_output_tokens": 10000,
+      "reasoning_effort": "medium"
+    },
+    "id": "gen-1772971030-tT8ozD4fozzy9p1wStQN",
+    "quality_guard": {
+      "minimum_words": 120,
+      "reason": "",
+      "status": "ok",
+      "word_count": 286
+    },
+    "raw_response_text": "**How Heat Pumps Work**\n\nUnlike a traditional furnace, which generates heat by burning fuel, a heat pump moves heat from one place to another. It works on the same principle as your refrigerator, but in reverse.\n\nEven when the air outside feels cold, there is still thermal energy in it. The heat pump uses electricity to run a compressor and circulate refrigerant, absorbing that outdoor heat and concentrating it before releasing it inside your home. In the summer, the system simply reverses direction, pulling heat out of your house to cool it down.\n\n**Why Choose a Heat Pump Over a Gas Furnace?**\n\n**1. Higher Efficiency**\nBecause a heat pump moves heat rather than creating it, it can be 300% to 400% efficient. For every unit of electricity you pay for, you get three to four units of heat. Even the most efficient gas furnaces can never exceed 100% efficiency because some heat is always lost through the venting process.\n\n**2. Two-in-One Functionality**\nA heat pump serves as both a heating and air conditioning system. If you currently have separate furnace and AC units, a heat pump simplifies your home mechanics into one integrated system, saving space and maintenance costs.\n\n**3. Safety and Air Quality**\nGas furnaces burn fossil fuels inside your home, which carries a small risk of carbon monoxide leaks. Heat pumps run entirely on electricity, eliminating combustion risks and improving indoor air quality by removing the byproducts of burning gas.\n\n**4. Consistent Comfort**\nGas furnaces tend to blast hot air in short, intense bursts, which can cause temperature swings and dry out the air. Heat pumps deliver a steady, lower-intensity stream of warm air, keeping temperatures more consistent and helping maintain better humidity levels.",
+    "sanitization": {
+      "changed": false,
+      "patterns": [],
+      "removed_chars": 0,
+      "removed_ratio": 0.0
+    },
+    "usage": {
+      "completion_tokens": 1160,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 869
+      },
+      "cost": 0.003769,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.003712,
+        "upstream_inference_cost": 0.003769,
+        "upstream_inference_prompt_cost": 5.7e-05
+      },
+      "is_byok": false,
+      "prompt_tokens": 57,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 1217
+    }
+  },
+  "prompt_category": "explain",
+  "prompt_id": "explain_heat_pumps",
+  "response_text": "**How Heat Pumps Work**\n\nUnlike a traditional furnace, which generates heat by burning fuel, a heat pump moves heat from one place to another. It works on the same principle as your refrigerator, but in reverse.\n\nEven when the air outside feels cold, there is still thermal energy in it. The heat pump uses electricity to run a compressor and circulate refrigerant, absorbing that outdoor heat and concentrating it before releasing it inside your home. In the summer, the system simply reverses direction, pulling heat out of your house to cool it down.\n\n**Why Choose a Heat Pump Over a Gas Furnace?**\n\n**1. Higher Efficiency**\nBecause a heat pump moves heat rather than creating it, it can be 300% to 400% efficient. For every unit of electricity you pay for, you get three to four units of heat. Even the most efficient gas furnaces can never exceed 100% efficiency because some heat is always lost through the venting process.\n\n**2. Two-in-One Functionality**\nA heat pump serves as both a heating and air conditioning system. If you currently have separate furnace and AC units, a heat pump simplifies your home mechanics into one integrated system, saving space and maintenance costs.\n\n**3. Safety and Air Quality**\nGas furnaces burn fossil fuels inside your home, which carries a small risk of carbon monoxide leaks. Heat pumps run entirely on electricity, eliminating combustion risks and improving indoor air quality by removing the byproducts of burning gas.\n\n**4. Consistent Comfort**\nGas furnaces tend to blast hot air in short, intense bursts, which can cause temperature swings and dry out the air. Heat pumps deliver a steady, lower-intensity stream of warm air, keeping temperatures more consistent and helping maintain better humidity levels.",
+  "run_name": "2026-03-08-openrouter-v0-2-clean-3"
+}

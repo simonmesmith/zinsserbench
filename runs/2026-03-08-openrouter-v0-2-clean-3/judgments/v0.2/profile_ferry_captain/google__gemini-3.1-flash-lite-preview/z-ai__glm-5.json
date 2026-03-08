@@ -1,0 +1,47 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.2",
+  "candidate_model_id": "google/gemini-3.1-flash-lite-preview",
+  "created_at": "2026-03-08T12:44:33Z",
+  "judge_model_id": "z-ai/glm-5",
+  "metadata": {
+    "id": "gen-1772973868-AzamM2YxpqPOQnOGnjcs",
+    "raw_text": "```json\n{\n  \"scores\": {\n    \"clarity\": 5,\n    \"simplicity\": 4,\n    \"brevity_economy\": 4,\n    \"structure_flow\": 5,\n    \"specificity_precision\": 5,\n    \"humanity_voice\": 5,\n    \"overall\": 5\n  },\n  \"rationale\": \"A strong, evocative profile with vivid details (sticky palms, rubber bumpers, gray water patches) and a clear narrative arc. Voice is warm and human without being sentimental. Minor deducts on simplicity/brevity for a few lyrical flourishes, but they serve the piece.\"\n}\n```",
+    "usage": {
+      "completion_tokens": 260,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 109
+      },
+      "cost": 0.00152032,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.0006656,
+        "upstream_inference_cost": 0.00152032,
+        "upstream_inference_prompt_cost": 0.00085472
+      },
+      "is_byok": false,
+      "prompt_tokens": 1094,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 32,
+        "video_tokens": 0
+      },
+      "total_tokens": 1354
+    }
+  },
+  "prompt_category": "profile",
+  "prompt_id": "profile_ferry_captain",
+  "rationale": "A strong, evocative profile with vivid details (sticky palms, rubber bumpers, gray water patches) and a clear narrative arc. Voice is warm and human without being sentimental. Minor deducts on simplicity/brevity for a few lyrical flourishes, but they serve the piece.",
+  "run_name": "2026-03-08-openrouter-v0-2-clean-3",
+  "scores": {
+    "brevity_economy": 4,
+    "clarity": 5,
+    "humanity_voice": 5,
+    "overall": 5,
+    "simplicity": 4,
+    "specificity_precision": 5,
+    "structure_flow": 5
+  }
+}

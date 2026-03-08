@@ -1,0 +1,56 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.2",
+  "candidate_label": "Grok 4.1 Fast",
+  "candidate_model_id": "x-ai/grok-4.1-fast",
+  "created_at": "2026-03-08T12:21:11Z",
+  "metadata": {
+    "finish_reason": "stop",
+    "generation_attempt": 1,
+    "generation_settings": {
+      "max_output_tokens": 10000,
+      "reasoning_effort": "medium"
+    },
+    "id": "gen-1772972455-wX341WfL2zV5azffaU2c",
+    "quality_guard": {
+      "minimum_words": 200,
+      "reason": "",
+      "status": "ok",
+      "word_count": 626
+    },
+    "raw_response_text": "# Corner Stores: Revitalizing Neighborhoods, One Block at a Time\n\nIn an era of sprawling suburbs and online grocery deliveries, the humble corner store\u2014 that unassuming neighborhood staple stocked with milk, bread, snacks, and sundries\u2014feels like a relic. Yet, in many residential areas, zoning laws ban these small-scale retailers outright, forcing residents to hop in cars for the simplest errands. It's time for neighborhoods to reconsider: allowing small corner stores in residential zones isn't just practical; it's essential for building vibrant, resilient communities. These mom-and-pop shops enhance convenience, foster social bonds, boost local economies, and promote sustainable living\u2014all while posing minimal downsides.\n\nFirst and foremost, corner stores deliver unmatched convenience. Imagine a parent rushing home with kids in tow, realizing they're out of diapers or cough syrup at 8 p.m. Or an elderly resident avoiding a trek to the supermarket during a rainstorm. In walkable neighborhoods, a corner store eliminates these hassles, saving time and reducing frustration. Studies from urban planning organizations like the Congress for the New Urbanism show that proximity to daily necessities cuts vehicle miles traveled by up to 30%, easing traffic congestion and lowering emissions. Why force families into cars for a quart of milk when a friendly store is steps away?\n\nBeyond convenience, these stores are social glue. In my own childhood neighborhood, the corner deli wasn't just a shop; it was a gathering spot where neighbors swapped stories, kids bought candy after school, and seniors lingered over coffee. Research from the American Planning Association highlights how mixed-use developments\u2014blending homes with light retail\u2014strengthen community ties and reduce isolation. In a post-pandemic world where loneliness is epidemic, we need more of these organic hubs, not fewer. Banning them in favor of sterile residential-only zones creates ghost-town streets after dark, eroding the very sense of place that makes neighborhoods feel like home.\n\nEconomically, corner stores are a boon. They provide entry-level jobs for locals, often hiring teens or immigrants starting out. A single store might employ 3-5 people, injecting wages back into the community. Small business owners keep profits local, unlike big-box chains. According to the Institute for Local Self-Reliance, neighborhoods with independent retailers see higher economic multipliers\u2014every dollar spent generates up to $1.60 in local activity. Zoning them out starves grassroots entrepreneurship, favoring distant megastores that siphon wealth away.\n\nCritics argue that corner stores bring noise, litter, and loitering, depressing property values. But let's debunk that. Modern zoning can mandate \"small-scale\" operations\u2014say, under 2,000 square feet\u2014with strict hours (e.g., closing by 10 p.m.), ample parking, and attractive designs that blend into residential architecture. Data from cities like Seattle and Portland, which have embraced corner stores through \"corner store overlays,\" shows no negative impact on home values; in fact, they often rise due to increased walkability. Litter and loitering? Proper enforcement and community ownership solve that\u2014happy residents police their own blocks.\n\nHealth and sustainability seal the deal. Encouraging walking to shops combats obesity and promotes mental well-being. The CDC links walkable neighborhoods to lower rates of chronic disease. Environmentally, fewer car trips mean less pollution; a study by the Urban Land Institute found mixed-use areas cut household carbon footprints by 20%. In climate-conscious times, clinging to car-dependent zoning is shortsighted.\n\nOpponents romanticize \"pure\" residential zones as pristine havens, but that's a luxury for the privileged. Working-class families thrive on accessibility, not isolation. Allowing small corner stores democratizes urban life, making neighborhoods equitable and lively.\n\nNeighborhood associations, it's time to evolve. Petition your city council for targeted zoning reforms: permit small stores in commercial-residential hybrids, with community input on locations. The result? Streets alive with foot traffic, stronger bonds, and thriving local economies. Corner stores aren't intrusions\u2014they're the heartbeat of what makes a neighborhood worth living in. Let's bring them back, block by block.",
+    "sanitization": {
+      "changed": false,
+      "patterns": [],
+      "removed_chars": 0,
+      "removed_ratio": 0.0
+    },
+    "usage": {
+      "completion_tokens": 1091,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 275
+      },
+      "cost": 0.00056285,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.0005455,
+        "upstream_inference_cost": 0.00056285,
+        "upstream_inference_prompt_cost": 1.735e-05
+      },
+      "is_byok": false,
+      "prompt_tokens": 200,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 151,
+        "video_tokens": 0
+      },
+      "total_tokens": 1291
+    }
+  },
+  "prompt_category": "persuasion_oped",
+  "prompt_id": "oped_corner_store",
+  "response_text": "# Corner Stores: Revitalizing Neighborhoods, One Block at a Time\n\nIn an era of sprawling suburbs and online grocery deliveries, the humble corner store\u2014 that unassuming neighborhood staple stocked with milk, bread, snacks, and sundries\u2014feels like a relic. Yet, in many residential areas, zoning laws ban these small-scale retailers outright, forcing residents to hop in cars for the simplest errands. It's time for neighborhoods to reconsider: allowing small corner stores in residential zones isn't just practical; it's essential for building vibrant, resilient communities. These mom-and-pop shops enhance convenience, foster social bonds, boost local economies, and promote sustainable living\u2014all while posing minimal downsides.\n\nFirst and foremost, corner stores deliver unmatched convenience. Imagine a parent rushing home with kids in tow, realizing they're out of diapers or cough syrup at 8 p.m. Or an elderly resident avoiding a trek to the supermarket during a rainstorm. In walkable neighborhoods, a corner store eliminates these hassles, saving time and reducing frustration. Studies from urban planning organizations like the Congress for the New Urbanism show that proximity to daily necessities cuts vehicle miles traveled by up to 30%, easing traffic congestion and lowering emissions. Why force families into cars for a quart of milk when a friendly store is steps away?\n\nBeyond convenience, these stores are social glue. In my own childhood neighborhood, the corner deli wasn't just a shop; it was a gathering spot where neighbors swapped stories, kids bought candy after school, and seniors lingered over coffee. Research from the American Planning Association highlights how mixed-use developments\u2014blending homes with light retail\u2014strengthen community ties and reduce isolation. In a post-pandemic world where loneliness is epidemic, we need more of these organic hubs, not fewer. Banning them in favor of sterile residential-only zones creates ghost-town streets after dark, eroding the very sense of place that makes neighborhoods feel like home.\n\nEconomically, corner stores are a boon. They provide entry-level jobs for locals, often hiring teens or immigrants starting out. A single store might employ 3-5 people, injecting wages back into the community. Small business owners keep profits local, unlike big-box chains. According to the Institute for Local Self-Reliance, neighborhoods with independent retailers see higher economic multipliers\u2014every dollar spent generates up to $1.60 in local activity. Zoning them out starves grassroots entrepreneurship, favoring distant megastores that siphon wealth away.\n\nCritics argue that corner stores bring noise, litter, and loitering, depressing property values. But let's debunk that. Modern zoning can mandate \"small-scale\" operations\u2014say, under 2,000 square feet\u2014with strict hours (e.g., closing by 10 p.m.), ample parking, and attractive designs that blend into residential architecture. Data from cities like Seattle and Portland, which have embraced corner stores through \"corner store overlays,\" shows no negative impact on home values; in fact, they often rise due to increased walkability. Litter and loitering? Proper enforcement and community ownership solve that\u2014happy residents police their own blocks.\n\nHealth and sustainability seal the deal. Encouraging walking to shops combats obesity and promotes mental well-being. The CDC links walkable neighborhoods to lower rates of chronic disease. Environmentally, fewer car trips mean less pollution; a study by the Urban Land Institute found mixed-use areas cut household carbon footprints by 20%. In climate-conscious times, clinging to car-dependent zoning is shortsighted.\n\nOpponents romanticize \"pure\" residential zones as pristine havens, but that's a luxury for the privileged. Working-class families thrive on accessibility, not isolation. Allowing small corner stores democratizes urban life, making neighborhoods equitable and lively.\n\nNeighborhood associations, it's time to evolve. Petition your city council for targeted zoning reforms: permit small stores in commercial-residential hybrids, with community input on locations. The result? Streets alive with foot traffic, stronger bonds, and thriving local economies. Corner stores aren't intrusions\u2014they're the heartbeat of what makes a neighborhood worth living in. Let's bring them back, block by block.",
+  "run_name": "2026-03-08-openrouter-v0-2-clean-3"
+}

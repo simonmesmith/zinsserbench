@@ -1,0 +1,47 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.2",
+  "candidate_model_id": "openai/gpt-5.3-chat",
+  "created_at": "2026-03-08T12:47:10Z",
+  "judge_model_id": "anthropic/claude-opus-4.6",
+  "metadata": {
+    "id": "gen-1772974022-WUDABkrnLPP2eaiHw2Cu",
+    "raw_text": "{\"scores\": {\"clarity\": 5, \"simplicity\": 5, \"brevity_economy\": 5, \"structure_flow\": 5, \"specificity_precision\": 5, \"humanity_voice\": 4, \"overall\": 5}, \"rationale\": \"Exceptionally clear numbered steps with no ambiguity. Language is plain and direct throughout\u2014no jargon or inflated phrasing. Nothing is wasted: each step earns its place, sub-bullets are tight, and the sample agenda with minute allocations is a strong concrete detail. The flow is logical (plan \u2192 invite \u2192 prepare \u2192 run \u2192 follow up) and each step naturally leads to the next. Specificity is high: exact examples of solutions (speed tables, traffic circles), outreach methods, materials to bring, and a timed agenda. Voice is warm and practical ('Let's discuss ways to make our street safer,' 'Avoid letting the meeting turn into general complaints') but stays slightly utilitarian\u2014it reads more like a polished template than a personally engaged piece, which keeps humanity/voice at 4 rather than 5.\"}",
+    "usage": {
+      "completion_tokens": 278,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 21
+      },
+      "cost": 0.012925,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.00695,
+        "upstream_inference_cost": 0.012925,
+        "upstream_inference_prompt_cost": 0.005975
+      },
+      "is_byok": false,
+      "prompt_tokens": 1195,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 1473
+    }
+  },
+  "prompt_category": "service_howto",
+  "prompt_id": "howto_neighborhood_meeting",
+  "rationale": "Exceptionally clear numbered steps with no ambiguity. Language is plain and direct throughout\u2014no jargon or inflated phrasing. Nothing is wasted: each step earns its place, sub-bullets are tight, and the sample agenda with minute allocations is a strong concrete detail. The flow is logical (plan \u2192 invite \u2192 prepare \u2192 run \u2192 follow up) and each step naturally leads to the next. Specificity is high: exact examples of solutions (speed tables, traffic circles), outreach methods, materials to bring, and a timed agenda. Voice is warm and practical ('Let's discuss ways to make our street safer,' 'Avoid letting the meeting turn into general complaints') but stays slightly utilitarian\u2014it reads more like a polished template than a personally engaged piece, which keeps humanity/voice at 4 rather than 5.",
+  "run_name": "2026-03-08-openrouter-v0-2-clean-3",
+  "scores": {
+    "brevity_economy": 5,
+    "clarity": 5,
+    "humanity_voice": 4,
+    "overall": 5,
+    "simplicity": 5,
+    "specificity_precision": 5,
+    "structure_flow": 5
+  }
+}

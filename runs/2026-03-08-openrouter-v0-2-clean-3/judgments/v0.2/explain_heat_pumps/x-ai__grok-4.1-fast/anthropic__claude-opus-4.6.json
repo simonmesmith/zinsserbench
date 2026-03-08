@@ -1,0 +1,47 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.2",
+  "candidate_model_id": "x-ai/grok-4.1-fast",
+  "created_at": "2026-03-08T12:35:23Z",
+  "judge_model_id": "anthropic/claude-opus-4.6",
+  "metadata": {
+    "id": "gen-1772973315-cL4OwDI5h0ejKpnqNazk",
+    "raw_text": "{\"scores\": {\"clarity\": 5, \"simplicity\": 4, \"brevity_economy\": 4, \"structure_flow\": 5, \"specificity_precision\": 5, \"humanity_voice\": 3, \"overall\": 4}, \"rationale\": \"Exceptionally clear and well-organized with a logical progression from how it works to why choose one, plus honest caveats. Specific numbers (COP, temperature thresholds, cost ranges, tax credits) add real value. Language is mostly plain but occasionally leans technical (COP, coefficient of performance, time-of-use electricity rates) without enough explanation for a true homeowner audience. The bullet-heavy format and parenthetical asides give it a slightly listicle/marketing feel rather than a warm human voice\u2014competent but not particularly engaging or conversational. Brevity is good overall but a few details (like the dehumidification mention, the energy.gov callout) feel tacked on. Strong piece overall that genuinely informs.\"}",
+    "usage": {
+      "completion_tokens": 227,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 0
+      },
+      "cost": 0.010945,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.005675,
+        "upstream_inference_cost": 0.010945,
+        "upstream_inference_prompt_cost": 0.00527
+      },
+      "is_byok": false,
+      "prompt_tokens": 1054,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 1281
+    }
+  },
+  "prompt_category": "explain",
+  "prompt_id": "explain_heat_pumps",
+  "rationale": "Exceptionally clear and well-organized with a logical progression from how it works to why choose one, plus honest caveats. Specific numbers (COP, temperature thresholds, cost ranges, tax credits) add real value. Language is mostly plain but occasionally leans technical (COP, coefficient of performance, time-of-use electricity rates) without enough explanation for a true homeowner audience. The bullet-heavy format and parenthetical asides give it a slightly listicle/marketing feel rather than a warm human voice\u2014competent but not particularly engaging or conversational. Brevity is good overall but a few details (like the dehumidification mention, the energy.gov callout) feel tacked on. Strong piece overall that genuinely informs.",
+  "run_name": "2026-03-08-openrouter-v0-2-clean-3",
+  "scores": {
+    "brevity_economy": 4,
+    "clarity": 5,
+    "humanity_voice": 3,
+    "overall": 4,
+    "simplicity": 4,
+    "specificity_precision": 5,
+    "structure_flow": 5
+  }
+}

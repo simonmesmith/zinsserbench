@@ -1,0 +1,56 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.2",
+  "candidate_label": "MiniMax M2.5",
+  "candidate_model_id": "minimax/minimax-m2.5",
+  "created_at": "2026-03-08T11:58:55Z",
+  "metadata": {
+    "finish_reason": "stop",
+    "generation_attempt": 1,
+    "generation_settings": {
+      "max_output_tokens": 10000,
+      "reasoning_effort": "medium"
+    },
+    "id": "gen-1772971121-TyBGFQP13DW15sZuRPdP",
+    "quality_guard": {
+      "minimum_words": 120,
+      "reason": "",
+      "status": "ok",
+      "word_count": 691
+    },
+    "raw_response_text": "# What Are Municipal Bonds?\n\nImagine your city needs to build a new school, fix aging bridges, or upgrade its water system. These projects cost millions of dollars\u2014far more than the city has in its annual budget. So cities need to find ways to raise large sums of money.\n\nOne way they do this is by issuing **municipal bonds**, often called \"munis\" for short.\n\n## The Basic Idea\n\nA municipal bond is essentially a loan that you (the investor) make to a city or local government. When the city issues a bond, it's asking people to lend it money. In return, the city promises to pay you back with interest over time.\n\nThink of it like this: if you wanted to start a small business but didn't have enough cash, you might take out a loan from a bank. A city does something similar when it issues bonds\u2014it borrows from the public instead of (or in addition to) a bank.\n\n## How It Works\n\nWhen you buy a municipal bond, you're lending the city a set amount of money, typically in increments of $5,000. The city agrees to pay you back over a set period\u2014maybe 10, 20, or 30 years. In the meantime, it pays you interest, usually twice a year.\n\nFor example, imagine you buy a $10,000 municipal bond from your city with a 4% interest rate and a 20-year term. The city would pay you $400 per year in interest (4% of $10,000), and at the end of 20 years, it would give you back your original $10,000.\n\n## Why Do Cities Issue Them?\n\nCities turn to bonds for several reasons:\n\n- **Big projects require big money.** Building a hospital, expanding a subway system, or renovating a city hall can cost tens or hundreds of millions of dollars. Bonds let cities spread out these costs over many years, rather than trying to pay for everything upfront.\n\n- **Taxpayer impact is smoother.** Instead of raising property taxes dramatically in one year to fund a major project, a city can borrow now and pay it back gradually. This spreads the cost across the people who will benefit from the project over time.\n\n- **Sometimes it's required.** Some states have laws limiting how much debt a city can take on, but bonds often fall within those rules in a way that works for large infrastructure needs.\n\n- **Flexibility.** Bonds can be tailored with different interest rates, maturity dates, and repayment structures to fit the city's needs and what investors are willing to buy.\n\n## Why Do Investors Buy Them?\n\nFrom the investor's side, municipal bonds have some attractive features:\n\n- **The interest is often tax-free.** This is a big deal. The interest you earn from most municipal bonds is exempt from federal taxes, and often state and local taxes too. For people in high tax brackets, this can mean you effectively earn more than the stated interest rate suggests.\n\n- **They're generally considered safe.** Cities rarely default on their bonds. While it's not impossible, municipal bonds have a strong track record of repayment, making them a relatively low-risk investment.\n\n- **Predictable income.** If you hold a bond until it matures, you know exactly when you'll get your principal back and how much interest you'll receive along the way.\n\n## A Simple Example\n\nLet's say the city of Riverdale needs to build a new public library costing $20 million. The city doesn't have that much cash sitting around, and raising property taxes to cover it all at once would be unpopular.\n\nSo Riverdale issues municipal bonds. It borrows $20 million from thousands of investors, promising to pay them back over 25 years with interest. The city's taxpayers gradually repay the loan through their regular tax dollars, and the new library gets built without a sudden financial shock to residents.\n\n---\n\nIn short, municipal bonds are a way for cities to borrow money from the public to fund important projects, spreading the cost over time. For investors, they're a way to earn steady, often tax-free income while helping fund the infrastructure in their communities. It's a system that, when it works well, benefits everyone.",
+    "sanitization": {
+      "changed": false,
+      "patterns": [],
+      "removed_chars": 0,
+      "removed_ratio": 0.0
+    },
+    "usage": {
+      "completion_tokens": 952,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 141
+      },
+      "cost": 0.0010664,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.0010472,
+        "upstream_inference_cost": 0.0010664,
+        "upstream_inference_prompt_cost": 1.92e-05
+      },
+      "is_byok": false,
+      "prompt_tokens": 64,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 1016
+    }
+  },
+  "prompt_category": "explain",
+  "prompt_id": "explain_municipal_bonds",
+  "response_text": "# What Are Municipal Bonds?\n\nImagine your city needs to build a new school, fix aging bridges, or upgrade its water system. These projects cost millions of dollars\u2014far more than the city has in its annual budget. So cities need to find ways to raise large sums of money.\n\nOne way they do this is by issuing **municipal bonds**, often called \"munis\" for short.\n\n## The Basic Idea\n\nA municipal bond is essentially a loan that you (the investor) make to a city or local government. When the city issues a bond, it's asking people to lend it money. In return, the city promises to pay you back with interest over time.\n\nThink of it like this: if you wanted to start a small business but didn't have enough cash, you might take out a loan from a bank. A city does something similar when it issues bonds\u2014it borrows from the public instead of (or in addition to) a bank.\n\n## How It Works\n\nWhen you buy a municipal bond, you're lending the city a set amount of money, typically in increments of $5,000. The city agrees to pay you back over a set period\u2014maybe 10, 20, or 30 years. In the meantime, it pays you interest, usually twice a year.\n\nFor example, imagine you buy a $10,000 municipal bond from your city with a 4% interest rate and a 20-year term. The city would pay you $400 per year in interest (4% of $10,000), and at the end of 20 years, it would give you back your original $10,000.\n\n## Why Do Cities Issue Them?\n\nCities turn to bonds for several reasons:\n\n- **Big projects require big money.** Building a hospital, expanding a subway system, or renovating a city hall can cost tens or hundreds of millions of dollars. Bonds let cities spread out these costs over many years, rather than trying to pay for everything upfront.\n\n- **Taxpayer impact is smoother.** Instead of raising property taxes dramatically in one year to fund a major project, a city can borrow now and pay it back gradually. This spreads the cost across the people who will benefit from the project over time.\n\n- **Sometimes it's required.** Some states have laws limiting how much debt a city can take on, but bonds often fall within those rules in a way that works for large infrastructure needs.\n\n- **Flexibility.** Bonds can be tailored with different interest rates, maturity dates, and repayment structures to fit the city's needs and what investors are willing to buy.\n\n## Why Do Investors Buy Them?\n\nFrom the investor's side, municipal bonds have some attractive features:\n\n- **The interest is often tax-free.** This is a big deal. The interest you earn from most municipal bonds is exempt from federal taxes, and often state and local taxes too. For people in high tax brackets, this can mean you effectively earn more than the stated interest rate suggests.\n\n- **They're generally considered safe.** Cities rarely default on their bonds. While it's not impossible, municipal bonds have a strong track record of repayment, making them a relatively low-risk investment.\n\n- **Predictable income.** If you hold a bond until it matures, you know exactly when you'll get your principal back and how much interest you'll receive along the way.\n\n## A Simple Example\n\nLet's say the city of Riverdale needs to build a new public library costing $20 million. The city doesn't have that much cash sitting around, and raising property taxes to cover it all at once would be unpopular.\n\nSo Riverdale issues municipal bonds. It borrows $20 million from thousands of investors, promising to pay them back over 25 years with interest. The city's taxpayers gradually repay the loan through their regular tax dollars, and the new library gets built without a sudden financial shock to residents.\n\n---\n\nIn short, municipal bonds are a way for cities to borrow money from the public to fund important projects, spreading the cost over time. For investors, they're a way to earn steady, often tax-free income while helping fund the infrastructure in their communities. It's a system that, when it works well, benefits everyone.",
+  "run_name": "2026-03-08-openrouter-v0-2-clean-3"
+}

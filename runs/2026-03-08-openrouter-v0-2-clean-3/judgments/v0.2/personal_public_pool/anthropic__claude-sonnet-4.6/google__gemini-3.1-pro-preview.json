@@ -1,0 +1,47 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.2",
+  "candidate_model_id": "anthropic/claude-sonnet-4.6",
+  "created_at": "2026-03-08T13:04:43Z",
+  "judge_model_id": "google/gemini-3.1-pro-preview",
+  "metadata": {
+    "id": "gen-1772975077-HzHRID2z6KhMG2tFN1IV",
+    "raw_text": "{\n  \"scores\": {\n    \"clarity\": 5,\n    \"simplicity\": 4,\n    \"brevity_economy\": 5,\n    \"structure_flow\": 5,\n    \"specificity_precision\": 5,\n    \"humanity_voice\": 5,\n    \"overall\": 5\n  },\n  \"rationale\": \"The essay is exceptionally well-written, using concrete details and a strong narrative structure to explore its theme. The voice is reflective, engaging, and deeply human, while the pacing and flow carry the reader effortlessly from start to finish.\"\n}",
+    "usage": {
+      "completion_tokens": 503,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 371
+      },
+      "cost": 0.0096,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.006036,
+        "upstream_inference_cost": 0.0096,
+        "upstream_inference_prompt_cost": 0.003564
+      },
+      "is_byok": false,
+      "prompt_tokens": 1782,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 2285
+    }
+  },
+  "prompt_category": "personal_nonfiction",
+  "prompt_id": "personal_public_pool",
+  "rationale": "The essay is exceptionally well-written, using concrete details and a strong narrative structure to explore its theme. The voice is reflective, engaging, and deeply human, while the pacing and flow carry the reader effortlessly from start to finish.",
+  "run_name": "2026-03-08-openrouter-v0-2-clean-3",
+  "scores": {
+    "brevity_economy": 5,
+    "clarity": 5,
+    "humanity_voice": 5,
+    "overall": 5,
+    "simplicity": 4,
+    "specificity_precision": 5,
+    "structure_flow": 5
+  }
+}

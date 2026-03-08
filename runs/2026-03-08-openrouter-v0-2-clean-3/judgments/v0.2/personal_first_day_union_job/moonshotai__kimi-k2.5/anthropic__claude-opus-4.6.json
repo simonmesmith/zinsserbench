@@ -1,0 +1,47 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.2",
+  "candidate_model_id": "moonshotai/kimi-k2.5",
+  "created_at": "2026-03-08T13:02:04Z",
+  "judge_model_id": "anthropic/claude-opus-4.6",
+  "metadata": {
+    "id": "gen-1772974916-gzpuV4pz2E0CYhUi7FRv",
+    "raw_text": "{\"scores\": {\"clarity\": 5, \"simplicity\": 4, \"brevity_economy\": 4, \"structure_flow\": 5, \"specificity_precision\": 5, \"humanity_voice\": 5, \"overall\": 5}, \"rationale\": \"Exceptionally well-crafted essay with a clear chronological arc from morning to evening, mirroring the transformation in the narrator's understanding of work. The specificity is outstanding\u2014the red stop button 'the size of a dinner plate,' Henderson's 'hands like twisted oak,' the protein bar 'already unwrapped in my pocket,' Article 14. The voice is deeply human and emotionally resonant without becoming sentimental. Rosa's line about extraction versus work is perfectly placed and earned. Minor dings: a few moments tip toward literary polish that slightly strains the 'simplicity' axis\u2014the coffin comparison in the opening, 'a language you thought was extinct'\u2014and the final paragraph accumulates metaphors a touch past necessity. But these are small costs for writing this vivid and structurally assured. The essay does exactly what the prompt asks: it dramatizes a single day and makes the reader feel the shift in understanding through scene rather than argument.\"}",
+    "usage": {
+      "completion_tokens": 271,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 0
+      },
+      "cost": 0.01701,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.006775,
+        "upstream_inference_cost": 0.01701,
+        "upstream_inference_prompt_cost": 0.010235
+      },
+      "is_byok": false,
+      "prompt_tokens": 2047,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 2318
+    }
+  },
+  "prompt_category": "personal_nonfiction",
+  "prompt_id": "personal_first_day_union_job",
+  "rationale": "Exceptionally well-crafted essay with a clear chronological arc from morning to evening, mirroring the transformation in the narrator's understanding of work. The specificity is outstanding\u2014the red stop button 'the size of a dinner plate,' Henderson's 'hands like twisted oak,' the protein bar 'already unwrapped in my pocket,' Article 14. The voice is deeply human and emotionally resonant without becoming sentimental. Rosa's line about extraction versus work is perfectly placed and earned. Minor dings: a few moments tip toward literary polish that slightly strains the 'simplicity' axis\u2014the coffin comparison in the opening, 'a language you thought was extinct'\u2014and the final paragraph accumulates metaphors a touch past necessity. But these are small costs for writing this vivid and structurally assured. The essay does exactly what the prompt asks: it dramatizes a single day and makes the reader feel the shift in understanding through scene rather than argument.",
+  "run_name": "2026-03-08-openrouter-v0-2-clean-3",
+  "scores": {
+    "brevity_economy": 4,
+    "clarity": 5,
+    "humanity_voice": 5,
+    "overall": 5,
+    "simplicity": 4,
+    "specificity_precision": 5,
+    "structure_flow": 5
+  }
+}

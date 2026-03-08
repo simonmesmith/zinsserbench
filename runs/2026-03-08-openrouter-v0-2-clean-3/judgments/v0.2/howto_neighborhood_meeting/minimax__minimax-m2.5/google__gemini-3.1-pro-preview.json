@@ -1,0 +1,47 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.2",
+  "candidate_model_id": "minimax/minimax-m2.5",
+  "created_at": "2026-03-08T12:49:24Z",
+  "judge_model_id": "google/gemini-3.1-pro-preview",
+  "metadata": {
+    "id": "gen-1772974159-kAMzkgnN2N9KLzz3fuzT",
+    "raw_text": "{\n  \"scores\": {\n    \"clarity\": 5,\n    \"simplicity\": 5,\n    \"brevity_economy\": 5,\n    \"structure_flow\": 5,\n    \"specificity_precision\": 5,\n    \"humanity_voice\": 5,\n    \"overall\": 5\n  },\n  \"rationale\": \"The guide is exceptionally well-organized, clear, and actionable. It uses formatting like bullet points and tables to enhance readability, maintains an encouraging and practical tone, and provides specific, concrete steps without any unnecessary fluff.\"\n}",
+    "usage": {
+      "completion_tokens": 402,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 273
+      },
+      "cost": 0.007264,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.004824,
+        "upstream_inference_cost": 0.007264,
+        "upstream_inference_prompt_cost": 0.00244
+      },
+      "is_byok": false,
+      "prompt_tokens": 1220,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 1622
+    }
+  },
+  "prompt_category": "service_howto",
+  "prompt_id": "howto_neighborhood_meeting",
+  "rationale": "The guide is exceptionally well-organized, clear, and actionable. It uses formatting like bullet points and tables to enhance readability, maintains an encouraging and practical tone, and provides specific, concrete steps without any unnecessary fluff.",
+  "run_name": "2026-03-08-openrouter-v0-2-clean-3",
+  "scores": {
+    "brevity_economy": 5,
+    "clarity": 5,
+    "humanity_voice": 5,
+    "overall": 5,
+    "simplicity": 5,
+    "specificity_precision": 5,
+    "structure_flow": 5
+  }
+}

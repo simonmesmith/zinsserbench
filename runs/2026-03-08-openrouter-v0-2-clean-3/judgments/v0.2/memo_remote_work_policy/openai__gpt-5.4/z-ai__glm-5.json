@@ -1,0 +1,47 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.2",
+  "candidate_model_id": "openai/gpt-5.4",
+  "created_at": "2026-03-08T14:19:32Z",
+  "judge_model_id": "z-ai/glm-5",
+  "metadata": {
+    "id": "gen-1772979568-gL5zQ5Cgkqvie6k9NFvs",
+    "raw_text": "{\"scores\": {\"clarity\": 5, \"simplicity\": 4, \"brevity_economy\": 3, \"structure_flow\": 5, \"specificity_precision\": 5, \"humanity_voice\": 4, \"overall\": 4}, \"rationale\": \"The memo is exceptionally clear and well-organized, with strong headings and logical flow. Specificity is excellent\u2014core hours (10 a.m.\u20133 p.m.), hybrid structure (2\u20133 days), and action items are concrete. Structure is strong throughout. The piece is somewhat long and could be more economical; some sections repeat concepts (e.g., expectations mentioned in multiple places). Language is mostly plain, though a few phrases feel slightly formal. Voice is professional and reasonably human, acknowledging impact on employees' lives. Overall: a thorough, effective memo that could be tightened.\"}",
+    "usage": {
+      "completion_tokens": 179,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 192
+      },
+      "cost": 0.00071376,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.00045824,
+        "upstream_inference_cost": 0.00071376,
+        "upstream_inference_prompt_cost": 0.00025552
+      },
+      "is_byok": false,
+      "prompt_tokens": 1497,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 1472,
+        "video_tokens": 0
+      },
+      "total_tokens": 1676
+    }
+  },
+  "prompt_category": "memo",
+  "prompt_id": "memo_remote_work_policy",
+  "rationale": "The memo is exceptionally clear and well-organized, with strong headings and logical flow. Specificity is excellent\u2014core hours (10 a.m.\u20133 p.m.), hybrid structure (2\u20133 days), and action items are concrete. Structure is strong throughout. The piece is somewhat long and could be more economical; some sections repeat concepts (e.g., expectations mentioned in multiple places). Language is mostly plain, though a few phrases feel slightly formal. Voice is professional and reasonably human, acknowledging impact on employees' lives. Overall: a thorough, effective memo that could be tightened.",
+  "run_name": "2026-03-08-openrouter-v0-2-clean-3",
+  "scores": {
+    "brevity_economy": 3,
+    "clarity": 5,
+    "humanity_voice": 4,
+    "overall": 4,
+    "simplicity": 4,
+    "specificity_precision": 5,
+    "structure_flow": 5
+  }
+}

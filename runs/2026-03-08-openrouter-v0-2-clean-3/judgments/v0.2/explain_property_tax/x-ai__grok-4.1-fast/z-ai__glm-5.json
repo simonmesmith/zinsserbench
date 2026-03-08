@@ -1,0 +1,47 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.2",
+  "candidate_model_id": "x-ai/grok-4.1-fast",
+  "created_at": "2026-03-08T13:33:39Z",
+  "judge_model_id": "z-ai/glm-5",
+  "metadata": {
+    "id": "gen-1772976803-nszQHrqfTmPl9d6miYDT",
+    "raw_text": "{\"scores\": {\"clarity\": 5, \"simplicity\": 5, \"brevity_economy\": 5, \"structure_flow\": 5, \"specificity_precision\": 5, \"humanity_voice\": 5, \"overall\": 5}, \"rationale\": \"Excellent explainer that breaks down a complex topic into digestible steps with clear headings, concrete examples (the $300K home calculation), and actionable advice. Plain language throughout\u2014terms like 'millage' are explained simply. The structure logically progresses from how taxes work to why they change to what homeowners can do. Voice is warm and helpful without being patronizing.\"}",
+    "usage": {
+      "completion_tokens": 649,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 512
+      },
+      "cost": 0.00323261,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.00204435,
+        "upstream_inference_cost": 0.00323261,
+        "upstream_inference_prompt_cost": 0.00118826
+      },
+      "is_byok": false,
+      "prompt_tokens": 1302,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 64,
+        "video_tokens": 0
+      },
+      "total_tokens": 1951
+    }
+  },
+  "prompt_category": "explain",
+  "prompt_id": "explain_property_tax",
+  "rationale": "Excellent explainer that breaks down a complex topic into digestible steps with clear headings, concrete examples (the $300K home calculation), and actionable advice. Plain language throughout\u2014terms like 'millage' are explained simply. The structure logically progresses from how taxes work to why they change to what homeowners can do. Voice is warm and helpful without being patronizing.",
+  "run_name": "2026-03-08-openrouter-v0-2-clean-3",
+  "scores": {
+    "brevity_economy": 5,
+    "clarity": 5,
+    "humanity_voice": 5,
+    "overall": 5,
+    "simplicity": 5,
+    "specificity_precision": 5,
+    "structure_flow": 5
+  }
+}

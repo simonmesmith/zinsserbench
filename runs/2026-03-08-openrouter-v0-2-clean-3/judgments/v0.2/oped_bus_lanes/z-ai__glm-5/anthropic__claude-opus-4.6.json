@@ -1,0 +1,47 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.2",
+  "candidate_model_id": "z-ai/glm-5",
+  "created_at": "2026-03-08T12:57:49Z",
+  "judge_model_id": "anthropic/claude-opus-4.6",
+  "metadata": {
+    "id": "gen-1772974661-rTqtbqTHnadjOyiWAG42",
+    "raw_text": "{\"scores\": {\"clarity\": 5, \"simplicity\": 5, \"brevity_economy\": 4, \"structure_flow\": 5, \"specificity_precision\": 4, \"humanity_voice\": 4, \"overall\": 5}, \"rationale\": \"Exceptionally clear and well-structured opinion piece. Each paragraph advances a distinct argument (math, reliability, equity, rebuttal) in logical sequence. The language is plain and direct without being dumbed down. The opening scene-setting is vivid and efficient. Minor deductions: some phrases lean slightly rhetorical/polished in a way that feels more crafted than genuinely human ('static river of steel,' 'burning fuel and patience'), and the specificity could be stronger\u2014the throughput numbers (600-1,000 cars, 4,000-8,000 people) are reasonable but unsourced, and the piece uses a generic 'Main Street' rather than a real corridor, which weakens the concreteness. The closing paragraph has a touch of repetitive flourish. But overall this is a highly effective, persuasive, well-organized piece that accomplishes its task with skill.\"}",
+    "usage": {
+      "completion_tokens": 259,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 0
+      },
+      "cost": 0.012165,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.006475,
+        "upstream_inference_cost": 0.012165,
+        "upstream_inference_prompt_cost": 0.00569
+      },
+      "is_byok": false,
+      "prompt_tokens": 1138,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 1397
+    }
+  },
+  "prompt_category": "persuasion_oped",
+  "prompt_id": "oped_bus_lanes",
+  "rationale": "Exceptionally clear and well-structured opinion piece. Each paragraph advances a distinct argument (math, reliability, equity, rebuttal) in logical sequence. The language is plain and direct without being dumbed down. The opening scene-setting is vivid and efficient. Minor deductions: some phrases lean slightly rhetorical/polished in a way that feels more crafted than genuinely human ('static river of steel,' 'burning fuel and patience'), and the specificity could be stronger\u2014the throughput numbers (600-1,000 cars, 4,000-8,000 people) are reasonable but unsourced, and the piece uses a generic 'Main Street' rather than a real corridor, which weakens the concreteness. The closing paragraph has a touch of repetitive flourish. But overall this is a highly effective, persuasive, well-organized piece that accomplishes its task with skill.",
+  "run_name": "2026-03-08-openrouter-v0-2-clean-3",
+  "scores": {
+    "brevity_economy": 4,
+    "clarity": 5,
+    "humanity_voice": 4,
+    "overall": 5,
+    "simplicity": 5,
+    "specificity_precision": 4,
+    "structure_flow": 5
+  }
+}

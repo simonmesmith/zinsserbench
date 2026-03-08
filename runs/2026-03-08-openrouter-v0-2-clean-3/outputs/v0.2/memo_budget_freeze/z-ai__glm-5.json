@@ -1,0 +1,56 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.2",
+  "candidate_label": "GLM-5",
+  "candidate_model_id": "z-ai/glm-5",
+  "created_at": "2026-03-08T11:56:27Z",
+  "metadata": {
+    "finish_reason": "stop",
+    "generation_attempt": 1,
+    "generation_settings": {
+      "max_output_tokens": 10000,
+      "reasoning_effort": "medium"
+    },
+    "id": "gen-1772970966-iPLtKt8aSi6C3VY3D7gd",
+    "quality_guard": {
+      "minimum_words": 100,
+      "reason": "",
+      "status": "ok",
+      "word_count": 467
+    },
+    "raw_response_text": "**MEMORANDUM**\n\n**TO:** All Department Heads\n**FROM:** Office of the Chief Financial Officer\n**DATE:** October 26, 2023\n**SUBJECT:** Implementation of Temporary Budget Freeze\n\n**Purpose**\n\nEffective immediately, Regional Medical Center is implementing a temporary freeze on discretionary spending. This measure is being taken to ensure we close the fiscal year within budget targets and maintain financial stability amidst current industry-wide pressures. We anticipate this freeze remaining in effect through the end of Q4, with a review scheduled for mid-December.\n\nWe understand this requires immediate adjustments to your operational planning. Our goal is to protect the hospital\u2019s long-term financial health while ensuring that patient care remains uncompromised.\n\n**Scope of the Freeze (What is Affected)**\n\nThe following expenditures are suspended until further notice, unless prior written approval is obtained from the CFO:\n\n*   **Non-Essential Travel & Education:** All conference travel, non-mandatory certification courses, and out-of-state training sessions are paused. Virtual training subscriptions may continue if pre-approved.\n*   **Discretionary Supplies:** Purchases of non-clinical office supplies, furniture, and aesthetic upgrades are frozen.\n*   **Capital Equipment:** Requisitions for non-urgent capital equipment (e.g., replacement computers, facility upgrades) are halted. Routine replacement of clinical life-safety equipment is exempt only if a critical failure occurs.\n*   **Hiring (Non-Clinical):** All open positions in administrative, support, and non-direct patient care roles are frozen. Existing offers extended prior to today will be honored, but start dates may be delayed.\n*   **Marketing & Events:** All non-essential promotional events, sponsorships, and paid advertising are paused.\n\n**Exemptions (What is Not Affected)**\n\nTo ensure continuity of care and safety, the following areas are exempt from the freeze and do not require special approval:\n\n*   **Clinical Supplies:** All medical/surgical supplies, pharmaceuticals, and laboratory materials necessary for direct patient care.\n*   **Staffing for Patient Care:** Overtime and agency staffing for nursing and clinical support staff required to maintain safe staffing ratios.\n*   **Essential Maintenance:** Repairs required for safety, regulatory compliance, or to prevent the failure of critical infrastructure (e.g., HVAC, generators, medical gas systems).\n*   **IT Security & Compliance:** Software updates, security patches, and compliance-related expenditures.\n*   **Existing Contracts:** Recurring costs for utilities, insurance, and existing vendor contracts.\n\n**Process for Exceptions**\n\nIf a department head believes a frozen expenditure is critical to operations or patient safety, a **Budget Variance Request Form** must be submitted to the Finance Department. Requests will be reviewed weekly by the Executive Committee. Please do not circumvent this process by splitting purchase orders or using alternative funding codes; such actions will be returned unpaid.\n\n**Questions and Communication**\n\nWe recognize that this directive creates operational challenges. Please direct all clarification questions to the Finance Department via email at finance@regionalmed.org.\n\nWe appreciate your cooperation and fiscal discipline during this period. Our priority remains delivering excellent care, and these steps are necessary to ensure we have the resources to do so in the coming year.",
+    "sanitization": {
+      "changed": false,
+      "patterns": [],
+      "removed_chars": 0,
+      "removed_ratio": 0.0
+    },
+    "usage": {
+      "completion_tokens": 1490,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 979
+      },
+      "cost": 0.00384832,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.0038144,
+        "upstream_inference_cost": 0.00384832,
+        "upstream_inference_prompt_cost": 3.392e-05
+      },
+      "is_byok": false,
+      "prompt_tokens": 68,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 32,
+        "video_tokens": 0
+      },
+      "total_tokens": 1558
+    }
+  },
+  "prompt_category": "memo",
+  "prompt_id": "memo_budget_freeze",
+  "response_text": "**MEMORANDUM**\n\n**TO:** All Department Heads\n**FROM:** Office of the Chief Financial Officer\n**DATE:** October 26, 2023\n**SUBJECT:** Implementation of Temporary Budget Freeze\n\n**Purpose**\n\nEffective immediately, Regional Medical Center is implementing a temporary freeze on discretionary spending. This measure is being taken to ensure we close the fiscal year within budget targets and maintain financial stability amidst current industry-wide pressures. We anticipate this freeze remaining in effect through the end of Q4, with a review scheduled for mid-December.\n\nWe understand this requires immediate adjustments to your operational planning. Our goal is to protect the hospital\u2019s long-term financial health while ensuring that patient care remains uncompromised.\n\n**Scope of the Freeze (What is Affected)**\n\nThe following expenditures are suspended until further notice, unless prior written approval is obtained from the CFO:\n\n*   **Non-Essential Travel & Education:** All conference travel, non-mandatory certification courses, and out-of-state training sessions are paused. Virtual training subscriptions may continue if pre-approved.\n*   **Discretionary Supplies:** Purchases of non-clinical office supplies, furniture, and aesthetic upgrades are frozen.\n*   **Capital Equipment:** Requisitions for non-urgent capital equipment (e.g., replacement computers, facility upgrades) are halted. Routine replacement of clinical life-safety equipment is exempt only if a critical failure occurs.\n*   **Hiring (Non-Clinical):** All open positions in administrative, support, and non-direct patient care roles are frozen. Existing offers extended prior to today will be honored, but start dates may be delayed.\n*   **Marketing & Events:** All non-essential promotional events, sponsorships, and paid advertising are paused.\n\n**Exemptions (What is Not Affected)**\n\nTo ensure continuity of care and safety, the following areas are exempt from the freeze and do not require special approval:\n\n*   **Clinical Supplies:** All medical/surgical supplies, pharmaceuticals, and laboratory materials necessary for direct patient care.\n*   **Staffing for Patient Care:** Overtime and agency staffing for nursing and clinical support staff required to maintain safe staffing ratios.\n*   **Essential Maintenance:** Repairs required for safety, regulatory compliance, or to prevent the failure of critical infrastructure (e.g., HVAC, generators, medical gas systems).\n*   **IT Security & Compliance:** Software updates, security patches, and compliance-related expenditures.\n*   **Existing Contracts:** Recurring costs for utilities, insurance, and existing vendor contracts.\n\n**Process for Exceptions**\n\nIf a department head believes a frozen expenditure is critical to operations or patient safety, a **Budget Variance Request Form** must be submitted to the Finance Department. Requests will be reviewed weekly by the Executive Committee. Please do not circumvent this process by splitting purchase orders or using alternative funding codes; such actions will be returned unpaid.\n\n**Questions and Communication**\n\nWe recognize that this directive creates operational challenges. Please direct all clarification questions to the Finance Department via email at finance@regionalmed.org.\n\nWe appreciate your cooperation and fiscal discipline during this period. Our priority remains delivering excellent care, and these steps are necessary to ensure we have the resources to do so in the coming year.",
+  "run_name": "2026-03-08-openrouter-v0-2-clean-3"
+}

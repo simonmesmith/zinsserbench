@@ -1,0 +1,47 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.2",
+  "candidate_model_id": "x-ai/grok-4.1-fast",
+  "created_at": "2026-03-08T12:58:11Z",
+  "judge_model_id": "z-ai/glm-5",
+  "metadata": {
+    "id": "gen-1772974670-y7GJWI4g5TQIIZPNy2lu",
+    "raw_text": "{\"scores\": {\"clarity\": 5, \"simplicity\": 4, \"brevity_economy\": 5, \"structure_flow\": 5, \"specificity_precision\": 5, \"humanity_voice\": 5, \"overall\": 5}, \"rationale\": \"A well-crafted opinion piece with strong organization: opens with a vivid problem, supports with concrete data (Bogot\u00e1's 32% time reduction, LA's 30% speed increase), addresses counterarguments directly, and closes with a clear call to action. Specific statistics and real-world examples throughout lend credibility. The voice is passionate and human without being shrill. Minor word choices like 'irrefutable' and 'hemorrhages' slightly elevate the diction, but the writing remains accessible and purposeful throughout.\"}",
+    "usage": {
+      "completion_tokens": 729,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 637
+      },
+      "cost": 0.0034748,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.0023328,
+        "upstream_inference_cost": 0.0034748,
+        "upstream_inference_prompt_cost": 0.001142
+      },
+      "is_byok": false,
+      "prompt_tokens": 1142,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 1871
+    }
+  },
+  "prompt_category": "persuasion_oped",
+  "prompt_id": "oped_bus_lanes",
+  "rationale": "A well-crafted opinion piece with strong organization: opens with a vivid problem, supports with concrete data (Bogot\u00e1's 32% time reduction, LA's 30% speed increase), addresses counterarguments directly, and closes with a clear call to action. Specific statistics and real-world examples throughout lend credibility. The voice is passionate and human without being shrill. Minor word choices like 'irrefutable' and 'hemorrhages' slightly elevate the diction, but the writing remains accessible and purposeful throughout.",
+  "run_name": "2026-03-08-openrouter-v0-2-clean-3",
+  "scores": {
+    "brevity_economy": 5,
+    "clarity": 5,
+    "humanity_voice": 5,
+    "overall": 5,
+    "simplicity": 4,
+    "specificity_precision": 5,
+    "structure_flow": 5
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.2",
+  "candidate_model_id": "minimax/minimax-m2.5",
+  "created_at": "2026-03-08T12:46:57Z",
+  "judge_model_id": "z-ai/glm-5",
+  "metadata": {
+    "id": "gen-1772974004-Ym6EUZBqG27xZQoDtSfi",
+    "raw_text": "```json\n{\n  \"scores\": {\n    \"clarity\": 5,\n    \"simplicity\": 5,\n    \"brevity_economy\": 5,\n    \"structure_flow\": 5,\n    \"specificity_precision\": 5,\n    \"humanity_voice\": 5,\n    \"overall\": 5\n  },\n  \"rationale\": \"Excellent profile writing. Clear and direct throughout\u2014no confusion on first read. Language is plain yet evocative ('weathered hands,' 'sun-leathered face'). Every detail earns its place; no throat-clearing. Structure moves logically from morning routine to route history to passengers to Ellis's choices to his future. Specifics are abundant and precise: 21,900 crossings, missed days in 1998 and 2014, Harold Perkins waiting at the dock, the coffee ritual. The voice is warm and human, capturing Ellis's quiet dignity without sentimentality. A thoroughly professional piece of nonfiction.\"\n}\n```",
+    "usage": {
+      "completion_tokens": 396,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 194
+      },
+      "cost": 0.0024056,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.00101376,
+        "upstream_inference_cost": 0.0024056,
+        "upstream_inference_prompt_cost": 0.00139184
+      },
+      "is_byok": false,
+      "prompt_tokens": 1791,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 64,
+        "video_tokens": 0
+      },
+      "total_tokens": 2187
+    }
+  },
+  "prompt_category": "profile",
+  "prompt_id": "profile_ferry_captain",
+  "rationale": "Excellent profile writing. Clear and direct throughout\u2014no confusion on first read. Language is plain yet evocative ('weathered hands,' 'sun-leathered face'). Every detail earns its place; no throat-clearing. Structure moves logically from morning routine to route history to passengers to Ellis's choices to his future. Specifics are abundant and precise: 21,900 crossings, missed days in 1998 and 2014, Harold Perkins waiting at the dock, the coffee ritual. The voice is warm and human, capturing Ellis's quiet dignity without sentimentality. A thoroughly professional piece of nonfiction.",
+  "run_name": "2026-03-08-openrouter-v0-2-clean-3",
+  "scores": {
+    "brevity_economy": 5,
+    "clarity": 5,
+    "humanity_voice": 5,
+    "overall": 5,
+    "simplicity": 5,
+    "specificity_precision": 5,
+    "structure_flow": 5
+  }
+}

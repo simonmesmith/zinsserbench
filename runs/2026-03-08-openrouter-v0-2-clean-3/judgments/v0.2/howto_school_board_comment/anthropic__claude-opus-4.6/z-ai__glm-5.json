@@ -1,0 +1,47 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.2",
+  "candidate_model_id": "anthropic/claude-opus-4.6",
+  "created_at": "2026-03-08T13:19:10Z",
+  "judge_model_id": "z-ai/glm-5",
+  "metadata": {
+    "id": "gen-1772975906-pHwCVg5OAfcrVvIQtJlW",
+    "raw_text": "{\"scores\": {\"clarity\": 5, \"simplicity\": 5, \"brevity_economy\": 4, \"structure_flow\": 5, \"specificity_precision\": 5, \"humanity_voice\": 5, \"overall\": 5}, \"rationale\": \"A thoroughly practical, well-organized guide with concrete examples (sample remarks, specific timeframes), clear action items, and an encouraging tone. The numbered steps progress logically from preparation through follow-up. Slightly long for the task, but the comprehensiveness serves the instructional purpose. Sample dialogue and specific details like '62 percent of students' and 'three minutes is the most common allotment' make the advice tangible and actionable.\"}",
+    "usage": {
+      "completion_tokens": 962,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 953
+      },
+      "cost": 0.0066424,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.0030784,
+        "upstream_inference_cost": 0.0066424,
+        "upstream_inference_prompt_cost": 0.003564
+      },
+      "is_byok": false,
+      "prompt_tokens": 3564,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 4526
+    }
+  },
+  "prompt_category": "service_howto",
+  "prompt_id": "howto_school_board_comment",
+  "rationale": "A thoroughly practical, well-organized guide with concrete examples (sample remarks, specific timeframes), clear action items, and an encouraging tone. The numbered steps progress logically from preparation through follow-up. Slightly long for the task, but the comprehensiveness serves the instructional purpose. Sample dialogue and specific details like '62 percent of students' and 'three minutes is the most common allotment' make the advice tangible and actionable.",
+  "run_name": "2026-03-08-openrouter-v0-2-clean-3",
+  "scores": {
+    "brevity_economy": 4,
+    "clarity": 5,
+    "humanity_voice": 5,
+    "overall": 5,
+    "simplicity": 5,
+    "specificity_precision": 5,
+    "structure_flow": 5
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.2",
+  "candidate_model_id": "moonshotai/kimi-k2.5",
+  "created_at": "2026-03-08T13:09:05Z",
+  "judge_model_id": "openai/gpt-5.4",
+  "metadata": {
+    "id": "gen-1772975342-GrVmGeY3lYjgzaQnPeJV",
+    "raw_text": "{\"scores\":{\"clarity\":5,\"simplicity\":4,\"brevity_economy\":4,\"structure_flow\":5,\"specificity_precision\":5,\"humanity_voice\":4,\"overall\":5},\"rationale\":\"Clear, well-organized memo that directly answers the prompt with a logical what happened / what we fixed / what\u2019s next structure. It is specific and credible, with useful timestamps and concrete actions. Language is mostly plain, though a few phrases are slightly formal or technical, and it could be a bit tighter. The closing acknowledgment adds some human tone without losing professionalism.\"}",
+    "usage": {
+      "completion_tokens": 198,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 70
+      },
+      "cost": 0.0050625,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.00297,
+        "upstream_inference_cost": 0.0050625,
+        "upstream_inference_prompt_cost": 0.0020925
+      },
+      "is_byok": false,
+      "prompt_tokens": 837,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 1035
+    }
+  },
+  "prompt_category": "memo",
+  "prompt_id": "memo_incident_response",
+  "rationale": "Clear, well-organized memo that directly answers the prompt with a logical what happened / what we fixed / what\u2019s next structure. It is specific and credible, with useful timestamps and concrete actions. Language is mostly plain, though a few phrases are slightly formal or technical, and it could be a bit tighter. The closing acknowledgment adds some human tone without losing professionalism.",
+  "run_name": "2026-03-08-openrouter-v0-2-clean-3",
+  "scores": {
+    "brevity_economy": 4,
+    "clarity": 5,
+    "humanity_voice": 4,
+    "overall": 5,
+    "simplicity": 4,
+    "specificity_precision": 5,
+    "structure_flow": 5
+  }
+}

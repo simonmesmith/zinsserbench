@@ -1,0 +1,56 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.2",
+  "candidate_label": "Gemini 3.1 Flash Lite Preview",
+  "candidate_model_id": "google/gemini-3.1-flash-lite-preview",
+  "created_at": "2026-03-08T12:09:33Z",
+  "metadata": {
+    "finish_reason": "stop",
+    "generation_attempt": 1,
+    "generation_settings": {
+      "max_output_tokens": 10000,
+      "reasoning_effort": "medium"
+    },
+    "id": "gen-1772971766-s42BOANYJIp42iClPLBs",
+    "quality_guard": {
+      "minimum_words": 200,
+      "reason": "",
+      "status": "ok",
+      "word_count": 642
+    },
+    "raw_response_text": "For most of my twenties, work was a transaction defined by precarity. I had spent years in retail and food service, where the unspoken rule was that you were a disposable asset. If you were late, you were gone. If you asked for a raise, you were \"not a team player.\" If you got sick, you were a liability. I had internalized this, walking into every new job with my shoulders hunched, waiting for the inevitable moment when the manager would decide I was no longer worth the minimum wage they were paying me.\n\nThen, at twenty-eight, I landed a job at a municipal distribution facility. It was a massive, cavernous warehouse that smelled of diesel and floor wax. On my first day, I walked through the sliding bay doors with the same familiar knot of anxiety in my stomach, expecting the usual orientation: a lecture on how to be invisible, how to work faster, and how to never, under any circumstances, talk back to the floor leads.\n\nThe orientation was different. It wasn\u2019t led by a manager in a pressed shirt, but by a man named Elias, a shop steward with grease-stained knuckles and a faded union pin on his cap. He didn't talk about \"synergy\" or \"maximizing output.\" He talked about the contract.\n\nHe handed me a thick, stapled packet. \"This is your shield,\" he said, not as a slogan, but as a matter of fact. \"If they ask you to do something unsafe, you point to page twelve. If they try to discipline you without cause, you call me. You aren't here to be a cog, kid. You\u2019re here to be a member.\"\n\nI spent the morning waiting for the other shoe to drop. I waited for the manager to scream at me for moving too slowly, or for a coworker to sabotage my station to get ahead. But the warehouse was eerily quiet in its efficiency. When I struggled with a pallet jack, a woman named Sarah didn't roll her eyes or report me to the supervisor; she walked over, showed me the trick to the hydraulic release, and told me to watch my back. \n\n\"Don't rush,\" she said. \"The pace is set by the contract, not by how much coffee the floor lead drank this morning.\"\n\nThat afternoon, during the lunch break, I sat in the breakroom and watched. There was no frantic hiding in the bathroom or eating at the desk. People were laughing, arguing about sports, and\u2014most shockingly\u2014openly criticizing the company\u2019s recent safety protocols. They weren't whispering. They were speaking with the casual, unbothered confidence of people who knew they couldn't be fired for having an opinion.\n\nIt was a radical shift in my internal geography. For years, I had viewed work as a hostile environment where I was the lone combatant against a faceless entity. I had viewed my coworkers as competitors for the boss\u2019s favor. But here, the power dynamic had been flattened. The union didn't just provide better pay or a pension; it provided a sense of belonging. It turned the workplace from a battlefield into a community.\n\nAs I clocked out that evening, I realized I wasn't exhausted in the way I usually was\u2014the bone-deep, soul-crushing exhaustion of someone who has spent eight hours defending their right to exist. I was physically tired, yes, but my mind was clear. \n\nI walked to my car, the sun dipping low over the loading docks, and I felt a strange, unfamiliar sensation: dignity. I realized that work didn't have to be a series of humiliations endured for a paycheck. It could be a contract between equals. It could be a place where you were protected, where your voice mattered, and where, for the first time in my life, I wasn't just an employee\u2014I was a worker. That distinction, small as it seemed, changed everything.",
+    "sanitization": {
+      "changed": false,
+      "patterns": [],
+      "removed_chars": 0,
+      "removed_ratio": 0.0
+    },
+    "usage": {
+      "completion_tokens": 1435,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 616
+      },
+      "cost": 0.00216625,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.0021525,
+        "upstream_inference_cost": 0.00216625,
+        "upstream_inference_prompt_cost": 1.375e-05
+      },
+      "is_byok": false,
+      "prompt_tokens": 55,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 1490
+    }
+  },
+  "prompt_category": "personal_nonfiction",
+  "prompt_id": "personal_first_day_union_job",
+  "response_text": "For most of my twenties, work was a transaction defined by precarity. I had spent years in retail and food service, where the unspoken rule was that you were a disposable asset. If you were late, you were gone. If you asked for a raise, you were \"not a team player.\" If you got sick, you were a liability. I had internalized this, walking into every new job with my shoulders hunched, waiting for the inevitable moment when the manager would decide I was no longer worth the minimum wage they were paying me.\n\nThen, at twenty-eight, I landed a job at a municipal distribution facility. It was a massive, cavernous warehouse that smelled of diesel and floor wax. On my first day, I walked through the sliding bay doors with the same familiar knot of anxiety in my stomach, expecting the usual orientation: a lecture on how to be invisible, how to work faster, and how to never, under any circumstances, talk back to the floor leads.\n\nThe orientation was different. It wasn\u2019t led by a manager in a pressed shirt, but by a man named Elias, a shop steward with grease-stained knuckles and a faded union pin on his cap. He didn't talk about \"synergy\" or \"maximizing output.\" He talked about the contract.\n\nHe handed me a thick, stapled packet. \"This is your shield,\" he said, not as a slogan, but as a matter of fact. \"If they ask you to do something unsafe, you point to page twelve. If they try to discipline you without cause, you call me. You aren't here to be a cog, kid. You\u2019re here to be a member.\"\n\nI spent the morning waiting for the other shoe to drop. I waited for the manager to scream at me for moving too slowly, or for a coworker to sabotage my station to get ahead. But the warehouse was eerily quiet in its efficiency. When I struggled with a pallet jack, a woman named Sarah didn't roll her eyes or report me to the supervisor; she walked over, showed me the trick to the hydraulic release, and told me to watch my back. \n\n\"Don't rush,\" she said. \"The pace is set by the contract, not by how much coffee the floor lead drank this morning.\"\n\nThat afternoon, during the lunch break, I sat in the breakroom and watched. There was no frantic hiding in the bathroom or eating at the desk. People were laughing, arguing about sports, and\u2014most shockingly\u2014openly criticizing the company\u2019s recent safety protocols. They weren't whispering. They were speaking with the casual, unbothered confidence of people who knew they couldn't be fired for having an opinion.\n\nIt was a radical shift in my internal geography. For years, I had viewed work as a hostile environment where I was the lone combatant against a faceless entity. I had viewed my coworkers as competitors for the boss\u2019s favor. But here, the power dynamic had been flattened. The union didn't just provide better pay or a pension; it provided a sense of belonging. It turned the workplace from a battlefield into a community.\n\nAs I clocked out that evening, I realized I wasn't exhausted in the way I usually was\u2014the bone-deep, soul-crushing exhaustion of someone who has spent eight hours defending their right to exist. I was physically tired, yes, but my mind was clear. \n\nI walked to my car, the sun dipping low over the loading docks, and I felt a strange, unfamiliar sensation: dignity. I realized that work didn't have to be a series of humiliations endured for a paycheck. It could be a contract between equals. It could be a place where you were protected, where your voice mattered, and where, for the first time in my life, I wasn't just an employee\u2014I was a worker. That distinction, small as it seemed, changed everything.",
+  "run_name": "2026-03-08-openrouter-v0-2-clean-3"
+}

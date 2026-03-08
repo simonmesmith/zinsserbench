@@ -1,0 +1,47 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.2",
+  "candidate_model_id": "openai/gpt-5.3-chat",
+  "created_at": "2026-03-08T12:40:35Z",
+  "judge_model_id": "anthropic/claude-opus-4.6",
+  "metadata": {
+    "id": "gen-1772973629-FTPQIOmL4p3Gh5OBohoN",
+    "raw_text": "{\"scores\": {\"clarity\": 5, \"simplicity\": 5, \"brevity_economy\": 5, \"structure_flow\": 5, \"specificity_precision\": 4, \"humanity_voice\": 5, \"overall\": 5}, \"rationale\": \"Exceptionally well-crafted profile. The writing is clean, direct, and never wastes a sentence. The structure moves naturally from morning routine to his relationship with students, his backstory, the daily grind, and graduation\u2014each section flowing logically into the next. The voice is warm and human without becoming sentimental. Concrete details (5:15 a.m., milk cartons, soap dispensers, the east hallway) ground the piece effectively. The opening and closing mirror each other beautifully. The only slight knock is on specificity: since this is a fictional profile, some details feel slightly generic (started in 1997, three blocks away, construction background)\u2014a real profile would have more idiosyncratic, surprising particulars. But for the prompt, this is about as good as it gets. The quotes sound natural, the pacing is excellent, and the final image is quietly powerful.\"}",
+    "usage": {
+      "completion_tokens": 259,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 0
+      },
+      "cost": 0.011675,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.006475,
+        "upstream_inference_cost": 0.011675,
+        "upstream_inference_prompt_cost": 0.0052
+      },
+      "is_byok": false,
+      "prompt_tokens": 1040,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 1299
+    }
+  },
+  "prompt_category": "profile",
+  "prompt_id": "profile_school_custodian",
+  "rationale": "Exceptionally well-crafted profile. The writing is clean, direct, and never wastes a sentence. The structure moves naturally from morning routine to his relationship with students, his backstory, the daily grind, and graduation\u2014each section flowing logically into the next. The voice is warm and human without becoming sentimental. Concrete details (5:15 a.m., milk cartons, soap dispensers, the east hallway) ground the piece effectively. The opening and closing mirror each other beautifully. The only slight knock is on specificity: since this is a fictional profile, some details feel slightly generic (started in 1997, three blocks away, construction background)\u2014a real profile would have more idiosyncratic, surprising particulars. But for the prompt, this is about as good as it gets. The quotes sound natural, the pacing is excellent, and the final image is quietly powerful.",
+  "run_name": "2026-03-08-openrouter-v0-2-clean-3",
+  "scores": {
+    "brevity_economy": 5,
+    "clarity": 5,
+    "humanity_voice": 5,
+    "overall": 5,
+    "simplicity": 5,
+    "specificity_precision": 4,
+    "structure_flow": 5
+  }
+}

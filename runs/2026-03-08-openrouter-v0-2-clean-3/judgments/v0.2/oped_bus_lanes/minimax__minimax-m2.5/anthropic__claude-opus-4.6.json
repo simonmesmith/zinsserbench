@@ -1,0 +1,47 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.2",
+  "candidate_model_id": "minimax/minimax-m2.5",
+  "created_at": "2026-03-08T12:59:07Z",
+  "judge_model_id": "anthropic/claude-opus-4.6",
+  "metadata": {
+    "id": "gen-1772974740-DPcfLB26kPkyD9WpYcXH",
+    "raw_text": "{\"scores\": {\"clarity\": 5, \"simplicity\": 4, \"brevity_economy\": 3, \"structure_flow\": 5, \"specificity_precision\": 3, \"humanity_voice\": 4, \"overall\": 4}, \"rationale\": \"The piece is immediately clear and logically structured, moving from problem to solution to counterarguments to urgency. The flow between paragraphs is smooth and well-signposted. However, it leans heavily on rhetorical flourish over substance\u2014the 'billions annually,' 'hundreds of millions per mile,' and city name-drops (Bogot\u00e1, Berlin, Boston) are gestured at without specific figures, studies, or concrete case outcomes. The closing paragraphs pile on emotional appeals (the senior, the parent) that feel somewhat formulaic. The language is mostly plain but occasionally tips into op-ed clich\u00e9 ('perfect is the enemy of good,' 'staring us in the face,' 'political will'). Brevity suffers from repetition: the core argument (more people on buses = fewer cars = less congestion) is restated multiple times, and the piece could be tightened by 20-30% without losing content. Voice is warm and reader-aware but occasionally feels like a template opinion piece rather than a distinctive perspective. Solid, competent advocacy writing that would benefit from more data and less repetition.\"}",
+    "usage": {
+      "completion_tokens": 310,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 0
+      },
+      "cost": 0.014285,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.00775,
+        "upstream_inference_cost": 0.014285,
+        "upstream_inference_prompt_cost": 0.006535
+      },
+      "is_byok": false,
+      "prompt_tokens": 1307,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 1617
+    }
+  },
+  "prompt_category": "persuasion_oped",
+  "prompt_id": "oped_bus_lanes",
+  "rationale": "The piece is immediately clear and logically structured, moving from problem to solution to counterarguments to urgency. The flow between paragraphs is smooth and well-signposted. However, it leans heavily on rhetorical flourish over substance\u2014the 'billions annually,' 'hundreds of millions per mile,' and city name-drops (Bogot\u00e1, Berlin, Boston) are gestured at without specific figures, studies, or concrete case outcomes. The closing paragraphs pile on emotional appeals (the senior, the parent) that feel somewhat formulaic. The language is mostly plain but occasionally tips into op-ed clich\u00e9 ('perfect is the enemy of good,' 'staring us in the face,' 'political will'). Brevity suffers from repetition: the core argument (more people on buses = fewer cars = less congestion) is restated multiple times, and the piece could be tightened by 20-30% without losing content. Voice is warm and reader-aware but occasionally feels like a template opinion piece rather than a distinctive perspective. Solid, competent advocacy writing that would benefit from more data and less repetition.",
+  "run_name": "2026-03-08-openrouter-v0-2-clean-3",
+  "scores": {
+    "brevity_economy": 3,
+    "clarity": 5,
+    "humanity_voice": 4,
+    "overall": 4,
+    "simplicity": 4,
+    "specificity_precision": 3,
+    "structure_flow": 5
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.2",
+  "candidate_label": "Qwen 3.5 35B A3B",
+  "candidate_model_id": "qwen/qwen3.5-35b-a3b",
+  "created_at": "2026-03-08T12:03:15Z",
+  "metadata": {
+    "finish_reason": "stop",
+    "generation_attempt": 1,
+    "generation_settings": {
+      "max_output_tokens": 10000,
+      "reasoning_effort": "medium"
+    },
+    "id": "gen-1772971380-PhzMZeCXc5Pev6hPS1FF",
+    "quality_guard": {
+      "minimum_words": 200,
+      "reason": "",
+      "status": "ok",
+      "word_count": 785
+    },
+    "raw_response_text": "**The Keeper of the Sound**\n\nAt 5:45 AM, the world is still grey, the kind of light that exists only between night and day. On the dock at Harrow\u2019s Point, the air smells of salt, diesel, and wet concrete. Arthur \"Art\" Vance is already there, his boots clicking on the metal grating, a thermos of black coffee in one hand and a flashlight in the other.\n\nHe is thirty years into his shift.\n\nThe ferry, the *MV Kestrel*, is a sturdy vessel of white and navy blue, built in the late seventies. It doesn\u2019t look like much to a tourist, but to the three hundred people who live between Harrow\u2019s Point and Marrow Bay, it is the only bridge that matters. There is no tunnel, no causeway. Just the water, the tide, and Art.\n\nFor three decades, Art has piloted the *Kestrel* across the Sound. He knows the rhythm of the channel better than he knows the rhythm of his own heart. He knows where the sandbars shift after a winter storm, where the current runs fastest near the old lighthouse, and exactly how the wind feels when it\u2019s going to turn.\n\n\"It\u2019s not just driving a boat,\" Art says, leaning against the wheelhouse railing as the morning sun begins to burn off the fog. \"It\u2019s reading the water. You can feel the swell before you see it. You know when the tide is turning by the way the hull sits.\"\n\nThe passengers begin to arrive at 6:30. They don\u2019t need tickets; they just need to be on time. There is Mrs. Higgins, who has been riding since 1995, now in a wheelchair, her grandson pushing her. There is the construction crew from Marrow Bay who need to get to the quarry at Harrow\u2019s. There are teenagers with backpacks, and retirees with fishing rods.\n\nArt knows them all. He knows who is getting married, who is moving away, and who is grieving.\n\n\"I remember when little Toby Miller was in the back seat,\" Art says, nodding toward the waiting area. \"Now he drives a truck. He stopped by last week to say hello. He said, 'Captain, you\u2019re the only thing that hasn\u2019t changed.' I told him, 'That\u2019s the job, son. I\u2019m the constant.'\"\n\nThe route is short, only twenty minutes, but the weight of those twenty minutes is heavy. In the wheelhouse, the instruments hum. The radio crackles with weather updates and harbor traffic. Art\u2019s hands rest on the wheel, calloused and steady. He has seen the sea turn angry. He remembers the gale of 2008, when the waves were high enough to wash over the bow. He remembers the fog of 2012, when visibility dropped to zero and he had to rely on the echo of the foghorn and the memory of the channel.\n\n\"We don\u2019t take risks,\" he says. \"Not with people. Not with families. If the weather says no, the boat stays in the dock. It doesn\u2019t matter if the passengers are late. It matters that they get home.\"\n\nThe towns themselves have changed over the last thirty years. Harrow\u2019s Point used to be a fishing village; now it\u2019s a mix of retirees and commuters. Marrow Bay has grown, new houses built on the cliffs where there were once only dunes. But the ferry remains the same. It is the thread that stitches the two communities together.\n\nArt\u2019s life has been measured in crossings. He has missed his daughter\u2019s high school graduation because the engine seized on the way back. He has missed his son\u2019s wedding because of a storm. But he has also been there for the funerals, the births, the quiet moments of transition. He has watched the coastline erode and the buildings rise.\n\nAt 6:50 AM, the *Kestrel* pulls away from the dock. The engine roars, a familiar sound that greets the town. Art checks the mirrors, watches the wake spread out behind the boat, and sets the course.\n\nThere is a silence in the wheelhouse that isn\u2019t empty. It\u2019s the silence of a man who has done the same thing every day for thirty years and still finds something new in it. He watches the water. He watches the sky. He watches the people.\n\nWhen the boat docks at Marrow Bay, the passengers disembark. They thank him. They wave. Art nods. He doesn\u2019t smile much, but his eyes do.\n\nHe walks back to the wheelhouse to prepare for the return trip. The coffee is cold, but he drinks it anyway. The sun is higher now. The water is blue. The route is the same.\n\n\"Ready for the next one,\" he says to no one in particular.\n\nHe turns the wheel. The *Kestrel* moves. And the day begins again.",
+    "sanitization": {
+      "changed": false,
+      "patterns": [],
+      "removed_chars": 0,
+      "removed_ratio": 0.0
+    },
+    "usage": {
+      "completion_tokens": 2016,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 978
+      },
+      "cost": 0.0026313625,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.004032,
+        "upstream_inference_cost": 0.00404825,
+        "upstream_inference_prompt_cost": 1.625e-05
+      },
+      "is_byok": false,
+      "prompt_tokens": 65,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 2081
+    }
+  },
+  "prompt_category": "profile",
+  "prompt_id": "profile_ferry_captain",
+  "response_text": "**The Keeper of the Sound**\n\nAt 5:45 AM, the world is still grey, the kind of light that exists only between night and day. On the dock at Harrow\u2019s Point, the air smells of salt, diesel, and wet concrete. Arthur \"Art\" Vance is already there, his boots clicking on the metal grating, a thermos of black coffee in one hand and a flashlight in the other.\n\nHe is thirty years into his shift.\n\nThe ferry, the *MV Kestrel*, is a sturdy vessel of white and navy blue, built in the late seventies. It doesn\u2019t look like much to a tourist, but to the three hundred people who live between Harrow\u2019s Point and Marrow Bay, it is the only bridge that matters. There is no tunnel, no causeway. Just the water, the tide, and Art.\n\nFor three decades, Art has piloted the *Kestrel* across the Sound. He knows the rhythm of the channel better than he knows the rhythm of his own heart. He knows where the sandbars shift after a winter storm, where the current runs fastest near the old lighthouse, and exactly how the wind feels when it\u2019s going to turn.\n\n\"It\u2019s not just driving a boat,\" Art says, leaning against the wheelhouse railing as the morning sun begins to burn off the fog. \"It\u2019s reading the water. You can feel the swell before you see it. You know when the tide is turning by the way the hull sits.\"\n\nThe passengers begin to arrive at 6:30. They don\u2019t need tickets; they just need to be on time. There is Mrs. Higgins, who has been riding since 1995, now in a wheelchair, her grandson pushing her. There is the construction crew from Marrow Bay who need to get to the quarry at Harrow\u2019s. There are teenagers with backpacks, and retirees with fishing rods.\n\nArt knows them all. He knows who is getting married, who is moving away, and who is grieving.\n\n\"I remember when little Toby Miller was in the back seat,\" Art says, nodding toward the waiting area. \"Now he drives a truck. He stopped by last week to say hello. He said, 'Captain, you\u2019re the only thing that hasn\u2019t changed.' I told him, 'That\u2019s the job, son. I\u2019m the constant.'\"\n\nThe route is short, only twenty minutes, but the weight of those twenty minutes is heavy. In the wheelhouse, the instruments hum. The radio crackles with weather updates and harbor traffic. Art\u2019s hands rest on the wheel, calloused and steady. He has seen the sea turn angry. He remembers the gale of 2008, when the waves were high enough to wash over the bow. He remembers the fog of 2012, when visibility dropped to zero and he had to rely on the echo of the foghorn and the memory of the channel.\n\n\"We don\u2019t take risks,\" he says. \"Not with people. Not with families. If the weather says no, the boat stays in the dock. It doesn\u2019t matter if the passengers are late. It matters that they get home.\"\n\nThe towns themselves have changed over the last thirty years. Harrow\u2019s Point used to be a fishing village; now it\u2019s a mix of retirees and commuters. Marrow Bay has grown, new houses built on the cliffs where there were once only dunes. But the ferry remains the same. It is the thread that stitches the two communities together.\n\nArt\u2019s life has been measured in crossings. He has missed his daughter\u2019s high school graduation because the engine seized on the way back. He has missed his son\u2019s wedding because of a storm. But he has also been there for the funerals, the births, the quiet moments of transition. He has watched the coastline erode and the buildings rise.\n\nAt 6:50 AM, the *Kestrel* pulls away from the dock. The engine roars, a familiar sound that greets the town. Art checks the mirrors, watches the wake spread out behind the boat, and sets the course.\n\nThere is a silence in the wheelhouse that isn\u2019t empty. It\u2019s the silence of a man who has done the same thing every day for thirty years and still finds something new in it. He watches the water. He watches the sky. He watches the people.\n\nWhen the boat docks at Marrow Bay, the passengers disembark. They thank him. They wave. Art nods. He doesn\u2019t smile much, but his eyes do.\n\nHe walks back to the wheelhouse to prepare for the return trip. The coffee is cold, but he drinks it anyway. The sun is higher now. The water is blue. The route is the same.\n\n\"Ready for the next one,\" he says to no one in particular.\n\nHe turns the wheel. The *Kestrel* moves. And the day begins again.",
+  "run_name": "2026-03-08-openrouter-v0-2-clean-3"
+}

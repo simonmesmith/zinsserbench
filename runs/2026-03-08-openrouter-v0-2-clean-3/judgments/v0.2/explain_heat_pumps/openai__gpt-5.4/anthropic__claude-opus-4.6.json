@@ -1,0 +1,47 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.2",
+  "candidate_model_id": "openai/gpt-5.4",
+  "created_at": "2026-03-08T12:34:10Z",
+  "judge_model_id": "anthropic/claude-opus-4.6",
+  "metadata": {
+    "id": "gen-1772973235-b1eW7doFlI3Wxl7DYgmQ",
+    "raw_text": "{\"scores\": {\"clarity\": 5, \"simplicity\": 5, \"brevity_economy\": 4, \"structure_flow\": 5, \"specificity_precision\": 4, \"humanity_voice\": 4, \"overall\": 5}, \"rationale\": \"The core concept\u2014moving heat vs. creating it\u2014is introduced immediately and never muddied. Language is plain and jargon-free throughout. Structure is textbook: how it works \u2192 comparison \u2192 reasons to choose \u2192 honest caveats \u2192 summary. The closing paragraph restates the 'moving vs. creating' distinction already established at the top, which is the only notable redundancy. Specificity is good but slightly general in places ('several units of heat' could cite a typical COP range; 'much lower temperatures' could name a threshold). Voice is warm and reader-aware but stays in a polished-content-marketing register rather than feeling distinctly human. Overall, this is an excellent homeowner-facing explainer.\"}",
+    "usage": {
+      "completion_tokens": 675,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 454
+      },
+      "cost": 0.02056,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.016875,
+        "upstream_inference_cost": 0.02056,
+        "upstream_inference_prompt_cost": 0.003685
+      },
+      "is_byok": false,
+      "prompt_tokens": 737,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 1412
+    }
+  },
+  "prompt_category": "explain",
+  "prompt_id": "explain_heat_pumps",
+  "rationale": "The core concept\u2014moving heat vs. creating it\u2014is introduced immediately and never muddied. Language is plain and jargon-free throughout. Structure is textbook: how it works \u2192 comparison \u2192 reasons to choose \u2192 honest caveats \u2192 summary. The closing paragraph restates the 'moving vs. creating' distinction already established at the top, which is the only notable redundancy. Specificity is good but slightly general in places ('several units of heat' could cite a typical COP range; 'much lower temperatures' could name a threshold). Voice is warm and reader-aware but stays in a polished-content-marketing register rather than feeling distinctly human. Overall, this is an excellent homeowner-facing explainer.",
+  "run_name": "2026-03-08-openrouter-v0-2-clean-3",
+  "scores": {
+    "brevity_economy": 4,
+    "clarity": 5,
+    "humanity_voice": 4,
+    "overall": 5,
+    "simplicity": 5,
+    "specificity_precision": 4,
+    "structure_flow": 5
+  }
+}

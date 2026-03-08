@@ -1,0 +1,56 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.2",
+  "candidate_label": "MiniMax M2.5",
+  "candidate_model_id": "minimax/minimax-m2.5",
+  "created_at": "2026-03-08T12:07:10Z",
+  "metadata": {
+    "finish_reason": "stop",
+    "generation_attempt": 1,
+    "generation_settings": {
+      "max_output_tokens": 10000,
+      "reasoning_effort": "medium"
+    },
+    "id": "gen-1772971595-KhLnfOVyjOtLz0HieBID",
+    "quality_guard": {
+      "minimum_words": 120,
+      "reason": "",
+      "status": "ok",
+      "word_count": 711
+    },
+    "raw_response_text": "# What to Do When You Discover a Water Leak in Your Ceiling\n\nDiscovering a water stain or active leak in your ceiling can be alarming, but acting quickly and methodically will minimize damage and ensure the problem gets resolved properly. Here's a practical step-by-step guide.\n\n---\n\n## 1. Contain the Water and Protect Your Belongings\n\n- **Place buckets or containers** under the leak to catch dripping water.\n- **Move furniture, electronics, and valuables** away from the affected area\u2014water can spread quickly.\n- **If water is pooling on the floor**, lay down towels or a plastic tarp to prevent slipping and further damage.\n- **Do not touch or probe** the ceiling if it's bulging\u2014this could cause it to collapse.\n\n---\n\n## 2. Turn Off Electricity (If Safe)\n\n- If the leak is near light fixtures, outlets, or electrical cords, **turn off the power to that room** at the breaker box.\n- **Do not attempt to unplug or touch electrical items** if they're in standing water.\n- If you smell burning or see sparks, leave immediately and call emergency services.\n\n---\n\n## 3. Document Everything\n\nTake photos and videos of:\n\n- The leak itself (including active dripping)\n- Water stains on the ceiling\n- Any damage to furniture, flooring, or personal belongings\n- The source of the leak if visible (e.g., from upstairs unit)\n\nThis documentation is essential for insurance purposes and for communicating with your landlord.\n\n---\n\n## 4. Report the Leak to Your Landlord Immediately\n\n- **Contact your landlord or property manager** as soon as possible\u2014call, text, and follow up with written communication (email or letter).\n- Provide specific details:\n  - Location of the leak\n  - When you first noticed it\n  - Apparent severity\n  - Any damage you've observed\n- **Keep a copy** of all correspondence for your records.\n\n---\n\n## 5. Contact Your Upstairs Neighbor (If Applicable)\n\nIf you suspect the leak is coming from the unit above you:\n\n- Knock on their door and let them know there's a leak affecting your unit.\n- They may be unaware of a problem (like a overflowing tub or a burst pipe).\n- If they're home, ask if they can stop the source of water (e.g., turn off their water).\n\n---\n\n## 6. Understand the Repair Process\n\nOnce reported, here's what typically happens:\n\n1. **Inspection**: Your landlord or a maintenance person will assess the leak to determine the source.\n2. **Source repair**: This could involve fixing a pipe, resealing a window, or addressing a roof issue.\n3. **Ceiling repair**: After the source is fixed, the damaged ceiling will need to be dried out, patched, and repainted.\n4. **Timeline**: Minor leaks may be fixed in a few days; major ones could take weeks if there's structural damage.\n\n---\n\n## 7. Know Your Rights\n\n- **Right to habitable conditions**: In most jurisdictions, landlords are required to maintain rental units in a livable condition, which includes addressing water leaks promptly.\n- **Withholding rent (in some areas)**: In certain states or cities, you may be allowed to withhold rent if the landlord fails to make necessary repairs after being properly notified. Check your local tenant laws.\n- **Renters insurance**: If your personal belongings were damaged, your renters insurance may cover the loss. Contact your insurance provider.\n- **Request temporary relocation**: If the damage is severe, you may have grounds to request alternative housing or a rent reduction during repairs.\n\n---\n\n## 8. Prevent Future Issues\n\n- **Report small stains immediately**\u2014they often indicate a slow leak that will worsen.\n- **Avoid overloading ceilings** with heavy items if you have a weak or damaged area.\n- **Know the location of your water shut-off valve** in case of emergencies.\n\n---\n\n## Quick Checklist\n\n- [ ] Contain water with buckets/towels\n- [ ] Move valuables to safety\n- [ ] Turn off electricity if needed\n- [ ] Document the damage with photos/video\n- [ ] Notify landlord in writing\n- [ ] Contact upstairs neighbor if relevant\n- [ ] Follow up until repairs are made\n- [ ] Review renters insurance if needed\n\n---\n\nA water leak in the ceiling is stressful, but by acting quickly, documenting thoroughly, and communicating clearly with your landlord, you can protect your home and ensure the issue gets fixed properly.",
+    "sanitization": {
+      "changed": false,
+      "patterns": [],
+      "removed_chars": 0,
+      "removed_ratio": 0.0
+    },
+    "usage": {
+      "completion_tokens": 1023,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 152
+      },
+      "cost": 0.0012468,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.0012276,
+        "upstream_inference_cost": 0.0012468,
+        "upstream_inference_prompt_cost": 1.92e-05
+      },
+      "is_byok": false,
+      "prompt_tokens": 64,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 1087
+    }
+  },
+  "prompt_category": "service_howto",
+  "prompt_id": "howto_report_water_leak",
+  "response_text": "# What to Do When You Discover a Water Leak in Your Ceiling\n\nDiscovering a water stain or active leak in your ceiling can be alarming, but acting quickly and methodically will minimize damage and ensure the problem gets resolved properly. Here's a practical step-by-step guide.\n\n---\n\n## 1. Contain the Water and Protect Your Belongings\n\n- **Place buckets or containers** under the leak to catch dripping water.\n- **Move furniture, electronics, and valuables** away from the affected area\u2014water can spread quickly.\n- **If water is pooling on the floor**, lay down towels or a plastic tarp to prevent slipping and further damage.\n- **Do not touch or probe** the ceiling if it's bulging\u2014this could cause it to collapse.\n\n---\n\n## 2. Turn Off Electricity (If Safe)\n\n- If the leak is near light fixtures, outlets, or electrical cords, **turn off the power to that room** at the breaker box.\n- **Do not attempt to unplug or touch electrical items** if they're in standing water.\n- If you smell burning or see sparks, leave immediately and call emergency services.\n\n---\n\n## 3. Document Everything\n\nTake photos and videos of:\n\n- The leak itself (including active dripping)\n- Water stains on the ceiling\n- Any damage to furniture, flooring, or personal belongings\n- The source of the leak if visible (e.g., from upstairs unit)\n\nThis documentation is essential for insurance purposes and for communicating with your landlord.\n\n---\n\n## 4. Report the Leak to Your Landlord Immediately\n\n- **Contact your landlord or property manager** as soon as possible\u2014call, text, and follow up with written communication (email or letter).\n- Provide specific details:\n  - Location of the leak\n  - When you first noticed it\n  - Apparent severity\n  - Any damage you've observed\n- **Keep a copy** of all correspondence for your records.\n\n---\n\n## 5. Contact Your Upstairs Neighbor (If Applicable)\n\nIf you suspect the leak is coming from the unit above you:\n\n- Knock on their door and let them know there's a leak affecting your unit.\n- They may be unaware of a problem (like a overflowing tub or a burst pipe).\n- If they're home, ask if they can stop the source of water (e.g., turn off their water).\n\n---\n\n## 6. Understand the Repair Process\n\nOnce reported, here's what typically happens:\n\n1. **Inspection**: Your landlord or a maintenance person will assess the leak to determine the source.\n2. **Source repair**: This could involve fixing a pipe, resealing a window, or addressing a roof issue.\n3. **Ceiling repair**: After the source is fixed, the damaged ceiling will need to be dried out, patched, and repainted.\n4. **Timeline**: Minor leaks may be fixed in a few days; major ones could take weeks if there's structural damage.\n\n---\n\n## 7. Know Your Rights\n\n- **Right to habitable conditions**: In most jurisdictions, landlords are required to maintain rental units in a livable condition, which includes addressing water leaks promptly.\n- **Withholding rent (in some areas)**: In certain states or cities, you may be allowed to withhold rent if the landlord fails to make necessary repairs after being properly notified. Check your local tenant laws.\n- **Renters insurance**: If your personal belongings were damaged, your renters insurance may cover the loss. Contact your insurance provider.\n- **Request temporary relocation**: If the damage is severe, you may have grounds to request alternative housing or a rent reduction during repairs.\n\n---\n\n## 8. Prevent Future Issues\n\n- **Report small stains immediately**\u2014they often indicate a slow leak that will worsen.\n- **Avoid overloading ceilings** with heavy items if you have a weak or damaged area.\n- **Know the location of your water shut-off valve** in case of emergencies.\n\n---\n\n## Quick Checklist\n\n- [ ] Contain water with buckets/towels\n- [ ] Move valuables to safety\n- [ ] Turn off electricity if needed\n- [ ] Document the damage with photos/video\n- [ ] Notify landlord in writing\n- [ ] Contact upstairs neighbor if relevant\n- [ ] Follow up until repairs are made\n- [ ] Review renters insurance if needed\n\n---\n\nA water leak in the ceiling is stressful, but by acting quickly, documenting thoroughly, and communicating clearly with your landlord, you can protect your home and ensure the issue gets fixed properly.",
+  "run_name": "2026-03-08-openrouter-v0-2-clean-3"
+}

@@ -1,0 +1,47 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.2",
+  "candidate_model_id": "z-ai/glm-5",
+  "created_at": "2026-03-08T13:29:10Z",
+  "judge_model_id": "anthropic/claude-opus-4.6",
+  "metadata": {
+    "id": "gen-1772976542-jXTW35viIALVN58UFtt4",
+    "raw_text": "{\"scores\": {\"clarity\": 5, \"simplicity\": 5, \"brevity_economy\": 4, \"structure_flow\": 5, \"specificity_precision\": 4, \"humanity_voice\": 5, \"overall\": 5}, \"rationale\": \"Exceptionally clear and readable throughout. The language is plain and direct without ever feeling flat\u2014metaphors like 'hearse, bedroom, and confessional' and the submarine image earn their place. The piece is economical, though a few lines ('a cocktail of damp wool, hydraulic fluid, and the fading ghost of the driver's lunch') border on overwriting, and the final paragraph restates the emotional thesis one beat too many times. Structure is excellent: chronological arc from winter to spring, framed by arrival and departure from the routine. Specificity is strong\u2014the nurse's shoes, the fried chicken bag, the fogged windows\u2014though some details feel slightly curated/literary rather than lived (the man never eating the chicken feels almost too symbolic). The voice is the essay's greatest strength: genuinely human, vulnerable without being maudlin, and the 'we are not really here' covenant line is perfectly pitched. A polished, affecting personal essay.\"}",
+    "usage": {
+      "completion_tokens": 273,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 0
+      },
+      "cost": 0.012955,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.006825,
+        "upstream_inference_cost": 0.012955,
+        "upstream_inference_prompt_cost": 0.00613
+      },
+      "is_byok": false,
+      "prompt_tokens": 1226,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 1499
+    }
+  },
+  "prompt_category": "personal_nonfiction",
+  "prompt_id": "personal_night_shift_bus",
+  "rationale": "Exceptionally clear and readable throughout. The language is plain and direct without ever feeling flat\u2014metaphors like 'hearse, bedroom, and confessional' and the submarine image earn their place. The piece is economical, though a few lines ('a cocktail of damp wool, hydraulic fluid, and the fading ghost of the driver's lunch') border on overwriting, and the final paragraph restates the emotional thesis one beat too many times. Structure is excellent: chronological arc from winter to spring, framed by arrival and departure from the routine. Specificity is strong\u2014the nurse's shoes, the fried chicken bag, the fogged windows\u2014though some details feel slightly curated/literary rather than lived (the man never eating the chicken feels almost too symbolic). The voice is the essay's greatest strength: genuinely human, vulnerable without being maudlin, and the 'we are not really here' covenant line is perfectly pitched. A polished, affecting personal essay.",
+  "run_name": "2026-03-08-openrouter-v0-2-clean-3",
+  "scores": {
+    "brevity_economy": 4,
+    "clarity": 5,
+    "humanity_voice": 5,
+    "overall": 5,
+    "simplicity": 5,
+    "specificity_precision": 4,
+    "structure_flow": 5
+  }
+}

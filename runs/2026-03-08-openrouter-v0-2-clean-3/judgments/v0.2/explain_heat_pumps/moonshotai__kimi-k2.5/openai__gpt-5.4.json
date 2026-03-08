@@ -1,0 +1,47 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.2",
+  "candidate_model_id": "moonshotai/kimi-k2.5",
+  "created_at": "2026-03-08T12:35:45Z",
+  "judge_model_id": "openai/gpt-5.4",
+  "metadata": {
+    "id": "gen-1772973341-gX7RBuhQPWxKmFcS8uJE",
+    "raw_text": "{\"scores\":{\"clarity\":5,\"simplicity\":4,\"brevity_economy\":4,\"structure_flow\":5,\"specificity_precision\":5,\"humanity_voice\":4,\"overall\":5},\"rationale\":\"Clear, well-organized explainer that answers both how heat pumps work and why a homeowner might choose one. It uses strong specifics (efficiency ranges, cold-weather performance, trade-off on upfront cost) and flows logically. Slightly more polished/technical than plainspoken in spots, with terms like refrigerant and carbon-neutral, and it runs a bit long for a very short explainer.\"}",
+    "usage": {
+      "completion_tokens": 257,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 123
+      },
+      "cost": 0.0056575,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.003855,
+        "upstream_inference_cost": 0.0056575,
+        "upstream_inference_prompt_cost": 0.0018025
+      },
+      "is_byok": false,
+      "prompt_tokens": 721,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 978
+    }
+  },
+  "prompt_category": "explain",
+  "prompt_id": "explain_heat_pumps",
+  "rationale": "Clear, well-organized explainer that answers both how heat pumps work and why a homeowner might choose one. It uses strong specifics (efficiency ranges, cold-weather performance, trade-off on upfront cost) and flows logically. Slightly more polished/technical than plainspoken in spots, with terms like refrigerant and carbon-neutral, and it runs a bit long for a very short explainer.",
+  "run_name": "2026-03-08-openrouter-v0-2-clean-3",
+  "scores": {
+    "brevity_economy": 4,
+    "clarity": 5,
+    "humanity_voice": 4,
+    "overall": 5,
+    "simplicity": 4,
+    "specificity_precision": 5,
+    "structure_flow": 5
+  }
+}

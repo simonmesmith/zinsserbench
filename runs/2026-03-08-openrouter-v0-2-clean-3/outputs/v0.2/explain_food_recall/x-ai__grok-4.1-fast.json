@@ -1,0 +1,56 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.2",
+  "candidate_label": "Grok 4.1 Fast",
+  "candidate_model_id": "x-ai/grok-4.1-fast",
+  "created_at": "2026-03-08T12:15:24Z",
+  "metadata": {
+    "finish_reason": "stop",
+    "generation_attempt": 1,
+    "generation_settings": {
+      "max_output_tokens": 10000,
+      "reasoning_effort": "medium"
+    },
+    "id": "gen-1772972113-Z0XO4M7uqgzuT106X3RX",
+    "quality_guard": {
+      "minimum_words": 120,
+      "reason": "",
+      "status": "ok",
+      "word_count": 581
+    },
+    "raw_response_text": "# Food Recalls: What They Mean and What to Do If You Have the Product\n\nFood recalls happen more often than you might think\u2014thousands each year in the U.S. alone. They're designed to protect public health by removing unsafe products from store shelves and homes. Here's a straightforward guide to understanding recalls and taking action if something in your kitchen is affected.\n\n## What Is a Food Recall?\nA **food recall** is an official action taken by a manufacturer, retailer, or government agency to remove a specific food product from the market because it poses a health or safety risk. It's voluntary in most cases (companies initiate it), but regulators like the FDA (for most foods) or USDA (for meat, poultry, and eggs) can mandate it.\n\n### Why Do Recalls Happen?\nCommon reasons include:\n- **Contamination**: Harmful bacteria (e.g., Salmonella, E. coli, Listeria), chemicals, or toxins.\n- **Allergens**: Undeclared ingredients like peanuts, milk, or shellfish that could trigger severe reactions.\n- **Physical hazards**: Glass, metal, plastic, or bones in the product.\n- **Mislabeling**: Wrong nutrition info, expiration dates, or \"best by\" dates.\n- **Other issues**: Spoilage, improper processing, or radiation.\n\nRecalls are classified by risk level (in the U.S.):\n- **Class I**: Highest risk\u2014could cause serious illness, hospitalization, or death (e.g., contaminated peanut butter).\n- **Class II**: Moderate risk\u2014temporary or reversible health effects (e.g., mild allergic reactions).\n- **Class III**: Lowest risk\u2014not likely to harm health but violates regulations (e.g., labeling errors).\n\nGovernments announce recalls publicly through websites (FDA.gov, USDA.gov, or HealthCanada.gc.ca), press releases, news alerts, and sometimes social media or store signage. Apps like the FDA's \"Recall Alerts\" or news aggregators can notify you in real-time.\n\n## What Should You Do If a Product in Your Kitchen Is Recalled?\nDon't panic, but act quickly. Here's a step-by-step guide:\n\n1. **Verify It's Your Product**:\n   - Check the exact brand, product name, size, lot/code numbers, \"use by\" or \"best by\" dates, and UPC barcode on the label.\n   - Compare it to the recall notice (search \"product name recall\" on FDA or USDA sites).\n\n2. **Stop Using It Immediately**:\n   - **Do not eat, cook, or freeze it**\u2014even if it looks/smells fine. Pathogens can be invisible.\n   - If you've already eaten it, monitor for symptoms like nausea, vomiting, diarrhea, fever, or allergic reactions. Seek medical help if symptoms appear, and tell your doctor about the recall.\n\n3. **Dispose of It Safely**:\n   - Throw it in a **secure trash can** (double-bag if needed) to prevent pets, wildlife, or others from accessing it.\n   - Alternatively, return it to the store for disposal\u2014they often handle it securely.\n\n4. **Get a Refund or Replacement**:\n   - Contact the manufacturer (details in the recall notice) or the store where you bought it.\n   - Many offer refunds, credits, or replacements\u2014no receipt required in most cases.\n\n5. **Stay Informed and Prevent Future Issues**:\n   - Sign up for email alerts from FDA, USDA, or apps like Flashfood or Recallr.\n   - Check your pantry/freezer regularly for lot codes.\n   - Wash hands, surfaces, and utensils thoroughly if the product was handled.\n\n## Quick Tips for Everyday Shoppers\n- Buy from reputable sources and check dates.\n- Freeze perishables promptly to extend safety.\n- Recalls are rare for well-stored home food, but they're why we have them\u2014to catch problems early.\n\nBy following these steps, you minimize risk and help keep the food supply safe. If in doubt, err on the side of caution\u2014your health comes first. For the latest recalls, visit [FDA Recalls](https://www.fda.gov/safety/recalls) or [USDA Recalls](https://www.fsis.usda.gov/recalls).",
+    "sanitization": {
+      "changed": false,
+      "patterns": [],
+      "removed_chars": 0,
+      "removed_ratio": 0.0
+    },
+    "usage": {
+      "completion_tokens": 1139,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 291
+      },
+      "cost": 0.00058875,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.0005695,
+        "upstream_inference_cost": 0.00058875,
+        "upstream_inference_prompt_cost": 1.925e-05
+      },
+      "is_byok": false,
+      "prompt_tokens": 208,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 149,
+        "video_tokens": 0
+      },
+      "total_tokens": 1347
+    }
+  },
+  "prompt_category": "explain",
+  "prompt_id": "explain_food_recall",
+  "response_text": "# Food Recalls: What They Mean and What to Do If You Have the Product\n\nFood recalls happen more often than you might think\u2014thousands each year in the U.S. alone. They're designed to protect public health by removing unsafe products from store shelves and homes. Here's a straightforward guide to understanding recalls and taking action if something in your kitchen is affected.\n\n## What Is a Food Recall?\nA **food recall** is an official action taken by a manufacturer, retailer, or government agency to remove a specific food product from the market because it poses a health or safety risk. It's voluntary in most cases (companies initiate it), but regulators like the FDA (for most foods) or USDA (for meat, poultry, and eggs) can mandate it.\n\n### Why Do Recalls Happen?\nCommon reasons include:\n- **Contamination**: Harmful bacteria (e.g., Salmonella, E. coli, Listeria), chemicals, or toxins.\n- **Allergens**: Undeclared ingredients like peanuts, milk, or shellfish that could trigger severe reactions.\n- **Physical hazards**: Glass, metal, plastic, or bones in the product.\n- **Mislabeling**: Wrong nutrition info, expiration dates, or \"best by\" dates.\n- **Other issues**: Spoilage, improper processing, or radiation.\n\nRecalls are classified by risk level (in the U.S.):\n- **Class I**: Highest risk\u2014could cause serious illness, hospitalization, or death (e.g., contaminated peanut butter).\n- **Class II**: Moderate risk\u2014temporary or reversible health effects (e.g., mild allergic reactions).\n- **Class III**: Lowest risk\u2014not likely to harm health but violates regulations (e.g., labeling errors).\n\nGovernments announce recalls publicly through websites (FDA.gov, USDA.gov, or HealthCanada.gc.ca), press releases, news alerts, and sometimes social media or store signage. Apps like the FDA's \"Recall Alerts\" or news aggregators can notify you in real-time.\n\n## What Should You Do If a Product in Your Kitchen Is Recalled?\nDon't panic, but act quickly. Here's a step-by-step guide:\n\n1. **Verify It's Your Product**:\n   - Check the exact brand, product name, size, lot/code numbers, \"use by\" or \"best by\" dates, and UPC barcode on the label.\n   - Compare it to the recall notice (search \"product name recall\" on FDA or USDA sites).\n\n2. **Stop Using It Immediately**:\n   - **Do not eat, cook, or freeze it**\u2014even if it looks/smells fine. Pathogens can be invisible.\n   - If you've already eaten it, monitor for symptoms like nausea, vomiting, diarrhea, fever, or allergic reactions. Seek medical help if symptoms appear, and tell your doctor about the recall.\n\n3. **Dispose of It Safely**:\n   - Throw it in a **secure trash can** (double-bag if needed) to prevent pets, wildlife, or others from accessing it.\n   - Alternatively, return it to the store for disposal\u2014they often handle it securely.\n\n4. **Get a Refund or Replacement**:\n   - Contact the manufacturer (details in the recall notice) or the store where you bought it.\n   - Many offer refunds, credits, or replacements\u2014no receipt required in most cases.\n\n5. **Stay Informed and Prevent Future Issues**:\n   - Sign up for email alerts from FDA, USDA, or apps like Flashfood or Recallr.\n   - Check your pantry/freezer regularly for lot codes.\n   - Wash hands, surfaces, and utensils thoroughly if the product was handled.\n\n## Quick Tips for Everyday Shoppers\n- Buy from reputable sources and check dates.\n- Freeze perishables promptly to extend safety.\n- Recalls are rare for well-stored home food, but they're why we have them\u2014to catch problems early.\n\nBy following these steps, you minimize risk and help keep the food supply safe. If in doubt, err on the side of caution\u2014your health comes first. For the latest recalls, visit [FDA Recalls](https://www.fda.gov/safety/recalls) or [USDA Recalls](https://www.fsis.usda.gov/recalls).",
+  "run_name": "2026-03-08-openrouter-v0-2-clean-3"
+}

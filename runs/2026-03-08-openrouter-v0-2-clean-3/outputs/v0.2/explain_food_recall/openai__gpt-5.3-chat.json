@@ -1,0 +1,56 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.2",
+  "candidate_label": "GPT-5.3 Chat",
+  "candidate_model_id": "openai/gpt-5.3-chat",
+  "created_at": "2026-03-08T12:14:50Z",
+  "metadata": {
+    "finish_reason": "stop",
+    "generation_attempt": 1,
+    "generation_settings": {
+      "max_output_tokens": 10000,
+      "reasoning_effort": "medium"
+    },
+    "id": "gen-1772972083-fLKuDfd3yrA8dfolOa1h",
+    "quality_guard": {
+      "minimum_words": 120,
+      "reason": "",
+      "status": "ok",
+      "word_count": 431
+    },
+    "raw_response_text": "A food recall happens when a company or a government food safety agency asks that a product be removed from stores and homes because it may be unsafe to eat. Recalls usually occur when there is a risk of contamination (such as bacteria like Salmonella, Listeria, or E. coli), the presence of an undeclared allergen (like peanuts or milk), foreign objects in the food, or a labeling mistake that could affect health.\n\nRecalls can be voluntary, when the manufacturer identifies a problem and alerts authorities, or mandatory, when regulators order the product off the market. In the United States, recalls are often announced by the Food and Drug Administration (FDA) or the U.S. Department of Agriculture (USDA). Grocery stores may also post notices or contact customers who bought the item through loyalty programs.\n\nIf you hear about a food recall, the first step is to check whether you actually have the affected product. Recall notices usually list specific details such as the brand name, product description, package size, lot number, \u201cbest by\u201d or expiration date, and sometimes the location where it was sold. Compare those details with the packaging in your kitchen. Often only certain batches are affected.\n\nIf you do have the recalled item, do not eat it. Follow the instructions in the recall notice. Typically you should either:\n- Throw the product away in a sealed bag so people or animals cannot consume it, or  \n- Return it to the store where you bought it for a refund.\n\nIf the recalled food may have contaminated surfaces in your kitchen, it\u2019s a good idea to clean and sanitize anything that touched it. Wash your hands, utensils, cutting boards, and refrigerator shelves with hot, soapy water. For bacteria-related recalls, disinfecting surfaces can further reduce risk.\n\nIf you or someone in your household has already eaten the product, watch for symptoms associated with the issue listed in the recall notice. Many recalls involve bacteria that can cause stomach cramps, diarrhea, fever, or vomiting. People in higher\u2011risk groups\u2014such as older adults, young children, pregnant people, and those with weakened immune systems\u2014should be especially cautious. If symptoms develop or you are concerned, contact a healthcare provider.\n\nYou can stay informed about recalls by checking government food safety websites, signing up for recall alerts, or paying attention to store notifications. While recalls can sound alarming, they are also a sign that monitoring systems are working to identify and remove potentially unsafe food from the market. Taking a moment to verify products and follow recall instructions can significantly reduce the risk to you and your household.",
+    "sanitization": {
+      "changed": false,
+      "patterns": [],
+      "removed_chars": 0,
+      "removed_ratio": 0.0
+    },
+    "usage": {
+      "completion_tokens": 521,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 0
+      },
+      "cost": 0.0074025,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.007294,
+        "upstream_inference_cost": 0.0074025,
+        "upstream_inference_prompt_cost": 0.0001085
+      },
+      "is_byok": false,
+      "prompt_tokens": 62,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 583
+    }
+  },
+  "prompt_category": "explain",
+  "prompt_id": "explain_food_recall",
+  "response_text": "A food recall happens when a company or a government food safety agency asks that a product be removed from stores and homes because it may be unsafe to eat. Recalls usually occur when there is a risk of contamination (such as bacteria like Salmonella, Listeria, or E. coli), the presence of an undeclared allergen (like peanuts or milk), foreign objects in the food, or a labeling mistake that could affect health.\n\nRecalls can be voluntary, when the manufacturer identifies a problem and alerts authorities, or mandatory, when regulators order the product off the market. In the United States, recalls are often announced by the Food and Drug Administration (FDA) or the U.S. Department of Agriculture (USDA). Grocery stores may also post notices or contact customers who bought the item through loyalty programs.\n\nIf you hear about a food recall, the first step is to check whether you actually have the affected product. Recall notices usually list specific details such as the brand name, product description, package size, lot number, \u201cbest by\u201d or expiration date, and sometimes the location where it was sold. Compare those details with the packaging in your kitchen. Often only certain batches are affected.\n\nIf you do have the recalled item, do not eat it. Follow the instructions in the recall notice. Typically you should either:\n- Throw the product away in a sealed bag so people or animals cannot consume it, or  \n- Return it to the store where you bought it for a refund.\n\nIf the recalled food may have contaminated surfaces in your kitchen, it\u2019s a good idea to clean and sanitize anything that touched it. Wash your hands, utensils, cutting boards, and refrigerator shelves with hot, soapy water. For bacteria-related recalls, disinfecting surfaces can further reduce risk.\n\nIf you or someone in your household has already eaten the product, watch for symptoms associated with the issue listed in the recall notice. Many recalls involve bacteria that can cause stomach cramps, diarrhea, fever, or vomiting. People in higher\u2011risk groups\u2014such as older adults, young children, pregnant people, and those with weakened immune systems\u2014should be especially cautious. If symptoms develop or you are concerned, contact a healthcare provider.\n\nYou can stay informed about recalls by checking government food safety websites, signing up for recall alerts, or paying attention to store notifications. While recalls can sound alarming, they are also a sign that monitoring systems are working to identify and remove potentially unsafe food from the market. Taking a moment to verify products and follow recall instructions can significantly reduce the risk to you and your household.",
+  "run_name": "2026-03-08-openrouter-v0-2-clean-3"
+}

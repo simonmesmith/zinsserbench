@@ -1,0 +1,47 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.2",
+  "candidate_model_id": "moonshotai/kimi-k2.5",
+  "created_at": "2026-03-08T12:30:04Z",
+  "judge_model_id": "z-ai/glm-5",
+  "metadata": {
+    "id": "gen-1772972991-C6dPHRMqVeclXtRxBGIM",
+    "raw_text": "{\"scores\": {\"clarity\": 5, \"simplicity\": 5, \"brevity_economy\": 5, \"structure_flow\": 5, \"specificity_precision\": 5, \"humanity_voice\": 5, \"overall\": 5}, \"rationale\": \"A polished, professional memo that excels on every axis. The three policy options are clearly defined with specific details (core hours, in-office days, trial periods). Rationale includes concrete data (15% faster shipping, satisfaction scores). Next steps are actionable with clear deadlines. The tone balances professionalism with warmth ('Most importantly, we trust our team'). Structure is logical with helpful headers, and every sentence earns its place.\"}",
+    "usage": {
+      "completion_tokens": 664,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 592
+      },
+      "cost": 0.0031688,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.0021248,
+        "upstream_inference_cost": 0.0031688,
+        "upstream_inference_prompt_cost": 0.001044
+      },
+      "is_byok": false,
+      "prompt_tokens": 1044,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 1708
+    }
+  },
+  "prompt_category": "memo",
+  "prompt_id": "memo_remote_work_policy",
+  "rationale": "A polished, professional memo that excels on every axis. The three policy options are clearly defined with specific details (core hours, in-office days, trial periods). Rationale includes concrete data (15% faster shipping, satisfaction scores). Next steps are actionable with clear deadlines. The tone balances professionalism with warmth ('Most importantly, we trust our team'). Structure is logical with helpful headers, and every sentence earns its place.",
+  "run_name": "2026-03-08-openrouter-v0-2-clean-3",
+  "scores": {
+    "brevity_economy": 5,
+    "clarity": 5,
+    "humanity_voice": 5,
+    "overall": 5,
+    "simplicity": 5,
+    "specificity_precision": 5,
+    "structure_flow": 5
+  }
+}

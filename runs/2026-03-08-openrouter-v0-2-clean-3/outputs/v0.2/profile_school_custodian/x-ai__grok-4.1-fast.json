@@ -1,0 +1,56 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.2",
+  "candidate_label": "Grok 4.1 Fast",
+  "candidate_model_id": "x-ai/grok-4.1-fast",
+  "created_at": "2026-03-08T11:59:40Z",
+  "metadata": {
+    "finish_reason": "stop",
+    "generation_attempt": 1,
+    "generation_settings": {
+      "max_output_tokens": 10000,
+      "reasoning_effort": "medium"
+    },
+    "id": "gen-1772971164-x7CveEjFBPgTQyPUWFTs",
+    "quality_guard": {
+      "minimum_words": 200,
+      "reason": "",
+      "status": "ok",
+      "word_count": 594
+    },
+    "raw_response_text": "# The Unsung Guardian of Lincoln High\n\nIn the bustling corridors of Lincoln High School, where lockers slam and laughter echoes off cinderblock walls, Joe Harlan moves like a quiet force of nature. For 28 years, this 62-year-old custodian has swept, mopped, fixed leaks, and unlocked doors before dawn, ensuring the 1,800-student public high school in this mid-sized Midwestern town runs like clockwork. But Joe's legacy isn't measured in square footage cleaned\u2014it's in the thousands of names etched in his memory. He knows every student by name, from freshmen fumbling with combinations to seniors striding toward graduation.\n\nJoe started at Lincoln in 1996, fresh off a stint in the auto factory that shuttered during the last recession. \"I needed steady work, and they had an opening,\" he recalls, leaning on his mop handle during a rare break in the boiler room. Divorced with two grown kids, Joe saw the job as a paycheck. But high school life hooked him early. \"Kids are honest,\" he says with a grin. \"They'll tell you straight if the bathroom's a mess or if the gym floor's sticky from last night's dance.\"\n\nHis routine begins at 5 a.m. By 6:30, when the first buses rumble in, the building gleams. Joe patrols hallways, empties trash, and tackles the endless parade of spills\u2014soda on the cafeteria floor, paint from art class, mystery puddles in the science wing. Winters mean snow-shoveled walks; summers, waxing floors under fluorescent lights. He's replaced more toilet seats than he can count and once jury-rigged a busted PA system mid-assembly with duct tape and sheer will.\n\nWhat sets Joe apart is his encyclopedic recall. With 1,800 students cycling through every four years, that's over 30,000 kids in nearly three decades. \"It's not magic,\" he insists. \"I listen.\" Mornings, he greets arrivals at the doors: \"Morning, Mia\u2014good luck on that bio test.\" In the lunch rush, he'll spot a quiet kid: \"Hey, Jamal, how's soccer practice?\" After school, as clubs wrap up, it's \"See ya, Elena\u2014don't forget your backpack.\" Students light up; teachers marvel.\n\nHow does he do it? Observation and repetition. Joe charts the social web: who runs with the band kids, the jocks, the theater crowd. Freshmen get extra attention\u2014their wide eyes and name tags help. He quizzes himself during solo shifts, mentally listing homeroom rosters. Social media? Nah, Joe's old-school; it's all face-to-face. \"I see 'em every day. Names stick like gum on a desk.\"\n\nThe stories pile up like cafeteria trays. In 2005, he noticed sophomore Tyler skipping lunch, looking gaunt. A gentle nudge led to Tyler opening up about family troubles; Joe connected him with the counselor. Tyler graduated and now teaches math nearby. During the 2020 pandemic shutdown, Joe single-handedly deep-cleaned the empty building, then delivered care packages to staff. Last year, he surprised valedictorian Sofia with a handmade \"Lincoln Legend\" plaque at graduation, her name spelled perfectly.\n\nStudents call him \"Papa Joe.\" Graffiti artists spare his cart; vandals think twice. Principal Maria Gonzalez says, \"Joe's the heartbeat here. Kids confide in him because he sees them\u2014really sees them.\"\n\nAt 28 years, Joe's eyeing retirement, maybe fishing more. But Lincoln won't be the same. \"This place raised me as much as I kept it running,\" he says, wiping down a window streaked by spring rain. As the final bell rings and kids stream out\u2014 \"Bye, Joe!\" \"Thanks, Mr. Harlan!\" \u2014he waves them off, names on his lips, a living archive of Lincoln High's spirit. In a world of faceless institutions, Joe Harlan proves one person, mop in hand, can know them all.",
+    "sanitization": {
+      "changed": false,
+      "patterns": [],
+      "removed_chars": 0,
+      "removed_ratio": 0.0
+    },
+    "usage": {
+      "completion_tokens": 1091,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 277
+      },
+      "cost": 0.00056495,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.0005455,
+        "upstream_inference_cost": 0.00056495,
+        "upstream_inference_prompt_cost": 1.945e-05
+      },
+      "is_byok": false,
+      "prompt_tokens": 209,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 149,
+        "video_tokens": 0
+      },
+      "total_tokens": 1300
+    }
+  },
+  "prompt_category": "profile",
+  "prompt_id": "profile_school_custodian",
+  "response_text": "# The Unsung Guardian of Lincoln High\n\nIn the bustling corridors of Lincoln High School, where lockers slam and laughter echoes off cinderblock walls, Joe Harlan moves like a quiet force of nature. For 28 years, this 62-year-old custodian has swept, mopped, fixed leaks, and unlocked doors before dawn, ensuring the 1,800-student public high school in this mid-sized Midwestern town runs like clockwork. But Joe's legacy isn't measured in square footage cleaned\u2014it's in the thousands of names etched in his memory. He knows every student by name, from freshmen fumbling with combinations to seniors striding toward graduation.\n\nJoe started at Lincoln in 1996, fresh off a stint in the auto factory that shuttered during the last recession. \"I needed steady work, and they had an opening,\" he recalls, leaning on his mop handle during a rare break in the boiler room. Divorced with two grown kids, Joe saw the job as a paycheck. But high school life hooked him early. \"Kids are honest,\" he says with a grin. \"They'll tell you straight if the bathroom's a mess or if the gym floor's sticky from last night's dance.\"\n\nHis routine begins at 5 a.m. By 6:30, when the first buses rumble in, the building gleams. Joe patrols hallways, empties trash, and tackles the endless parade of spills\u2014soda on the cafeteria floor, paint from art class, mystery puddles in the science wing. Winters mean snow-shoveled walks; summers, waxing floors under fluorescent lights. He's replaced more toilet seats than he can count and once jury-rigged a busted PA system mid-assembly with duct tape and sheer will.\n\nWhat sets Joe apart is his encyclopedic recall. With 1,800 students cycling through every four years, that's over 30,000 kids in nearly three decades. \"It's not magic,\" he insists. \"I listen.\" Mornings, he greets arrivals at the doors: \"Morning, Mia\u2014good luck on that bio test.\" In the lunch rush, he'll spot a quiet kid: \"Hey, Jamal, how's soccer practice?\" After school, as clubs wrap up, it's \"See ya, Elena\u2014don't forget your backpack.\" Students light up; teachers marvel.\n\nHow does he do it? Observation and repetition. Joe charts the social web: who runs with the band kids, the jocks, the theater crowd. Freshmen get extra attention\u2014their wide eyes and name tags help. He quizzes himself during solo shifts, mentally listing homeroom rosters. Social media? Nah, Joe's old-school; it's all face-to-face. \"I see 'em every day. Names stick like gum on a desk.\"\n\nThe stories pile up like cafeteria trays. In 2005, he noticed sophomore Tyler skipping lunch, looking gaunt. A gentle nudge led to Tyler opening up about family troubles; Joe connected him with the counselor. Tyler graduated and now teaches math nearby. During the 2020 pandemic shutdown, Joe single-handedly deep-cleaned the empty building, then delivered care packages to staff. Last year, he surprised valedictorian Sofia with a handmade \"Lincoln Legend\" plaque at graduation, her name spelled perfectly.\n\nStudents call him \"Papa Joe.\" Graffiti artists spare his cart; vandals think twice. Principal Maria Gonzalez says, \"Joe's the heartbeat here. Kids confide in him because he sees them\u2014really sees them.\"\n\nAt 28 years, Joe's eyeing retirement, maybe fishing more. But Lincoln won't be the same. \"This place raised me as much as I kept it running,\" he says, wiping down a window streaked by spring rain. As the final bell rings and kids stream out\u2014 \"Bye, Joe!\" \"Thanks, Mr. Harlan!\" \u2014he waves them off, names on his lips, a living archive of Lincoln High's spirit. In a world of faceless institutions, Joe Harlan proves one person, mop in hand, can know them all.",
+  "run_name": "2026-03-08-openrouter-v0-2-clean-3"
+}

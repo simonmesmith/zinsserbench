@@ -1,0 +1,47 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.2",
+  "candidate_model_id": "google/gemini-3.1-pro-preview",
+  "created_at": "2026-03-08T13:23:12Z",
+  "judge_model_id": "anthropic/claude-opus-4.6",
+  "metadata": {
+    "id": "gen-1772976183-DA0d8AmtmeKNN9kaBoc8",
+    "raw_text": "{\"scores\": {\"clarity\": 5, \"simplicity\": 4, \"brevity_economy\": 4, \"structure_flow\": 5, \"specificity_precision\": 4, \"humanity_voice\": 4, \"overall\": 4}, \"rationale\": \"The piece is immediately clear and well-organized, moving logically from a relatable hook through environmental, social, and safety arguments before addressing counterarguments with specific policy solutions. The butter anecdote is effective and concrete. Language is mostly plain and direct, though it occasionally leans on slightly inflated phrasing ('anachronistic approach,' 'monolithic supermarket,' 'deeply connected neighborhoods we all deserve') and familiar op-ed cadences that feel a touch formulaic. The Jane Jacobs reference and specific zoning suggestions (hours, square footage, design standards) add credibility and precision, though more local data or a real-world example of a successful corner-store neighborhood would strengthen specificity further. The voice is warm and engaging but reads as polished template rather than distinctly personal. Overall, a strong, competent opinion piece that hits all the expected beats cleanly without quite surprising the reader.\"}",
+    "usage": {
+      "completion_tokens": 256,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 0
+      },
+      "cost": 0.012305,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.0064,
+        "upstream_inference_cost": 0.012305,
+        "upstream_inference_prompt_cost": 0.005905
+      },
+      "is_byok": false,
+      "prompt_tokens": 1181,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 1437
+    }
+  },
+  "prompt_category": "persuasion_oped",
+  "prompt_id": "oped_corner_store",
+  "rationale": "The piece is immediately clear and well-organized, moving logically from a relatable hook through environmental, social, and safety arguments before addressing counterarguments with specific policy solutions. The butter anecdote is effective and concrete. Language is mostly plain and direct, though it occasionally leans on slightly inflated phrasing ('anachronistic approach,' 'monolithic supermarket,' 'deeply connected neighborhoods we all deserve') and familiar op-ed cadences that feel a touch formulaic. The Jane Jacobs reference and specific zoning suggestions (hours, square footage, design standards) add credibility and precision, though more local data or a real-world example of a successful corner-store neighborhood would strengthen specificity further. The voice is warm and engaging but reads as polished template rather than distinctly personal. Overall, a strong, competent opinion piece that hits all the expected beats cleanly without quite surprising the reader.",
+  "run_name": "2026-03-08-openrouter-v0-2-clean-3",
+  "scores": {
+    "brevity_economy": 4,
+    "clarity": 5,
+    "humanity_voice": 4,
+    "overall": 4,
+    "simplicity": 4,
+    "specificity_precision": 4,
+    "structure_flow": 5
+  }
+}

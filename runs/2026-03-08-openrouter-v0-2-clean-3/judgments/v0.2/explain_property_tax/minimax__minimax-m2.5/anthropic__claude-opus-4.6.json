@@ -1,0 +1,47 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.2",
+  "candidate_model_id": "minimax/minimax-m2.5",
+  "created_at": "2026-03-08T13:34:57Z",
+  "judge_model_id": "anthropic/claude-opus-4.6",
+  "metadata": {
+    "id": "gen-1772976877-GlCZ27jXEVNpKpJWaT8x",
+    "raw_text": "{\"scores\": {\"clarity\": 5, \"simplicity\": 5, \"brevity_economy\": 4, \"structure_flow\": 5, \"specificity_precision\": 5, \"humanity_voice\": 4, \"overall\": 5}, \"rationale\": \"Exceptionally clear explainer. The formula-first approach immediately orients the reader, and each component is unpacked in logical order. Technical terms (mill rate, assessed value, assessment ratio) are introduced and defined on the spot. Two concrete numerical examples anchor the math, and the 'Why Do Property Taxes Change' section covers the right causes with concise explanations. Minor deductions: the closing paragraph and the second worked example add modest redundancy, and the tone, while warm and reader-directed, stays slightly on the polished-template side rather than truly conversational. Overall, this is about as good as a homeowner-facing tax explainer gets.\"}",
+    "usage": {
+      "completion_tokens": 524,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 303
+      },
+      "cost": 0.02106,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.0131,
+        "upstream_inference_cost": 0.02106,
+        "upstream_inference_prompt_cost": 0.00796
+      },
+      "is_byok": false,
+      "prompt_tokens": 1592,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 2116
+    }
+  },
+  "prompt_category": "explain",
+  "prompt_id": "explain_property_tax",
+  "rationale": "Exceptionally clear explainer. The formula-first approach immediately orients the reader, and each component is unpacked in logical order. Technical terms (mill rate, assessed value, assessment ratio) are introduced and defined on the spot. Two concrete numerical examples anchor the math, and the 'Why Do Property Taxes Change' section covers the right causes with concise explanations. Minor deductions: the closing paragraph and the second worked example add modest redundancy, and the tone, while warm and reader-directed, stays slightly on the polished-template side rather than truly conversational. Overall, this is about as good as a homeowner-facing tax explainer gets.",
+  "run_name": "2026-03-08-openrouter-v0-2-clean-3",
+  "scores": {
+    "brevity_economy": 4,
+    "clarity": 5,
+    "humanity_voice": 4,
+    "overall": 5,
+    "simplicity": 5,
+    "specificity_precision": 5,
+    "structure_flow": 5
+  }
+}

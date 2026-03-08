@@ -1,0 +1,47 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.2",
+  "candidate_model_id": "qwen/qwen3.5-35b-a3b",
+  "created_at": "2026-03-08T12:46:30Z",
+  "judge_model_id": "anthropic/claude-opus-4.6",
+  "metadata": {
+    "id": "gen-1772973981-K7dNXorPxwumO9v10wjL",
+    "raw_text": "{\"scores\": {\"clarity\": 5, \"simplicity\": 5, \"brevity_economy\": 4, \"structure_flow\": 5, \"specificity_precision\": 4, \"humanity_voice\": 5, \"overall\": 5}, \"rationale\": \"Exceptionally well-crafted profile that reads with the rhythm and confidence of literary journalism. The writing is clear and direct throughout, with plain language that still achieves real beauty ('the silence of a man who has done the same thing every day for thirty years and still finds something new in it'). Structure follows a single morning crossing, which elegantly mirrors the routine it describes. Specificity is strong\u2014the gale of 2008, Mrs. Higgins since 1995, the echo of the foghorn in 2012\u2014though since this is fictional, some details feel slightly constructed rather than observed (the too-neat town names Harrow's Point/Marrow Bay). Minor ding on brevity: a few passages repeat the same emotional note about constancy and routine, and the missed-milestones paragraph (graduation, wedding) feels slightly formulaic. But the voice is genuinely human and warm without being sentimental, and the ending lands perfectly. Art's quotes feel natural and earned. The piece knows exactly what it wants to be and executes it with discipline.\"}",
+    "usage": {
+      "completion_tokens": 294,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 0
+      },
+      "cost": 0.01468,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.00735,
+        "upstream_inference_cost": 0.01468,
+        "upstream_inference_prompt_cost": 0.00733
+      },
+      "is_byok": false,
+      "prompt_tokens": 1466,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 1760
+    }
+  },
+  "prompt_category": "profile",
+  "prompt_id": "profile_ferry_captain",
+  "rationale": "Exceptionally well-crafted profile that reads with the rhythm and confidence of literary journalism. The writing is clear and direct throughout, with plain language that still achieves real beauty ('the silence of a man who has done the same thing every day for thirty years and still finds something new in it'). Structure follows a single morning crossing, which elegantly mirrors the routine it describes. Specificity is strong\u2014the gale of 2008, Mrs. Higgins since 1995, the echo of the foghorn in 2012\u2014though since this is fictional, some details feel slightly constructed rather than observed (the too-neat town names Harrow's Point/Marrow Bay). Minor ding on brevity: a few passages repeat the same emotional note about constancy and routine, and the missed-milestones paragraph (graduation, wedding) feels slightly formulaic. But the voice is genuinely human and warm without being sentimental, and the ending lands perfectly. Art's quotes feel natural and earned. The piece knows exactly what it wants to be and executes it with discipline.",
+  "run_name": "2026-03-08-openrouter-v0-2-clean-3",
+  "scores": {
+    "brevity_economy": 4,
+    "clarity": 5,
+    "humanity_voice": 5,
+    "overall": 5,
+    "simplicity": 5,
+    "specificity_precision": 4,
+    "structure_flow": 5
+  }
+}

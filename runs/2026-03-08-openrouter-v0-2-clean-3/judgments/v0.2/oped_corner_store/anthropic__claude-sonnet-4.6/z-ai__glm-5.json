@@ -1,0 +1,47 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.2",
+  "candidate_model_id": "anthropic/claude-sonnet-4.6",
+  "created_at": "2026-03-08T13:24:00Z",
+  "judge_model_id": "z-ai/glm-5",
+  "metadata": {
+    "id": "gen-1772976192-EMdJ3SrOtboe8AU1BnR4",
+    "raw_text": "{\"scores\": {\"clarity\": 5, \"simplicity\": 5, \"brevity_economy\": 5, \"structure_flow\": 5, \"specificity_precision\": 5, \"humanity_voice\": 5, \"overall\": 5}, \"rationale\": \"A polished, persuasive opinion piece. Opens with a relatable hook, states thesis clearly, then systematically addresses practical benefits, counters objections with evidence, makes a social case, and offers concrete safeguards. Uses specific references (Jane Jacobs, Robert Putnam, Minneapolis) and vivid details. Voice is engaging and human throughout\u2014'this is not a hypothetical inconvenience \u2014 it is Tuesday'\u2014without being performative. No wasted words; each section earns its place. Transitions smoothly between points. Exemplary nonfiction writing.\"}",
+    "usage": {
+      "completion_tokens": 672,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 601
+      },
+      "cost": 0.004158,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.002352,
+        "upstream_inference_cost": 0.004158,
+        "upstream_inference_prompt_cost": 0.001806
+      },
+      "is_byok": false,
+      "prompt_tokens": 1505,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 2177
+    }
+  },
+  "prompt_category": "persuasion_oped",
+  "prompt_id": "oped_corner_store",
+  "rationale": "A polished, persuasive opinion piece. Opens with a relatable hook, states thesis clearly, then systematically addresses practical benefits, counters objections with evidence, makes a social case, and offers concrete safeguards. Uses specific references (Jane Jacobs, Robert Putnam, Minneapolis) and vivid details. Voice is engaging and human throughout\u2014'this is not a hypothetical inconvenience \u2014 it is Tuesday'\u2014without being performative. No wasted words; each section earns its place. Transitions smoothly between points. Exemplary nonfiction writing.",
+  "run_name": "2026-03-08-openrouter-v0-2-clean-3",
+  "scores": {
+    "brevity_economy": 5,
+    "clarity": 5,
+    "humanity_voice": 5,
+    "overall": 5,
+    "simplicity": 5,
+    "specificity_precision": 5,
+    "structure_flow": 5
+  }
+}

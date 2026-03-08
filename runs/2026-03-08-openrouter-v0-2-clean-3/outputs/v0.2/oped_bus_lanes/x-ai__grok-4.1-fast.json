@@ -1,0 +1,56 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.2",
+  "candidate_label": "Grok 4.1 Fast",
+  "candidate_model_id": "x-ai/grok-4.1-fast",
+  "created_at": "2026-03-08T12:08:57Z",
+  "metadata": {
+    "finish_reason": "stop",
+    "generation_attempt": 1,
+    "generation_settings": {
+      "max_output_tokens": 10000,
+      "reasoning_effort": "medium"
+    },
+    "id": "gen-1772971723-YhgxXnyq7bwguPr4aOEv",
+    "quality_guard": {
+      "minimum_words": 200,
+      "reason": "",
+      "status": "ok",
+      "word_count": 575
+    },
+    "raw_response_text": "# Clear the Road for Progress: Dedicated Bus Lanes Are Essential for Taming Urban Gridlock\n\nIn the heart of our sprawling cities, a familiar nightmare unfolds every rush hour: endless lines of single-occupancy cars crawling along choked arteries like the fictional Elm Street Corridor\u2014a 10-mile stretch that's emblematic of urban congestion nationwide. Drivers fume, engines idle, and productivity evaporates. The solution isn't wider roads or magical flying cars; it's dedicated bus lanes. By carving out space exclusively for high-capacity buses, we can slash congestion, boost transit ridership, and reclaim our cities for people, not just vehicles.\n\nThe math is irrefutable. A single bus can replace 40 to 60 cars, ferrying hundreds of commuters per hour. Yet on corridors like Elm Street, buses are routinely delayed by selfish lane-weaving and gridlock, turning a 20-minute trip into an hour-long ordeal. Dedicated lanes change that equation. Cities like Bogot\u00e1, Colombia, transformed their gridlocked TransMilenio corridor with bus rapid transit (BRT) lanes, moving 2.4 million passengers daily while cutting travel times by 32%. Closer to home, Los Angeles's Metro Bus lanes on Wilshire Boulevard have increased bus speeds by 30% and ridership by 20%, proving that prioritizing buses doesn't just move more people\u2014it moves them *faster*.\n\nSkeptics cry foul: \"What about cars? Won't buses steal lanes and worsen delays?\" Not so. Studies from the Institute of Transportation Engineers show that converting one general lane to a bus lane on high-volume corridors reduces overall delay by 10-20% because buses clear the road more efficiently. In Minneapolis, the dedicated lanes on I-35W shaved average commute times by 4 minutes during peak hours, even as car volumes held steady. The key is capacity: buses turn a lane's worth of asphalt into a river of mobility, freeing up space indirectly as fewer people drive alone.\n\nBeyond efficiency, dedicated lanes deliver environmental and equity wins that cars can't match. Urban congestion pumps out greenhouse gases equivalent to millions of cars idling pointlessly. BRT systems, per the World Resources Institute, cut CO2 emissions by up to 40% per passenger-mile compared to private vehicles. On Elm Street, where air quality alerts are routine, bus lanes would mean cleaner air and fewer asthma attacks in nearby neighborhoods.\n\nAnd let's talk fairness. Public transit riders\u2014often low-income workers, students, and service employees\u2014bear the brunt of delays. A 2023 UCLA study found that bus-dependent Angelenos lose 100 hours annually to traffic, costing them $1,500 in wages. Dedicated lanes level the playing field, making transit reliable enough to compete with cars. In a city where 25% of households lack vehicles, this isn't a luxury; it's justice.\n\nOpponents point to upfront costs\u2014repainting lanes, signals, and enforcement run $1-5 million per mile. But that's a bargain compared to the $160 billion Americans lose yearly to congestion, per INRIX data. Elm Street alone likely hemorrhages millions in lost productivity, fuel waste, and health costs. Maintenance is minimal: buses don't pothole roads like heavy trucks. Long-term, higher ridership funds expansions through fares and reduced subsidies.\n\nWe've dithered long enough with half-measures like bus bulbs or paint-only lanes, which drivers ignore. Full dedication\u2014curbside or median, enforced by cameras and transit police\u2014is non-negotiable. Pair it with frequent service, real-time apps, and bike/pedestrian integrations for a multimodal win.\n\nCity leaders, it's time to act. Paint those lanes on Elm Street today. The result? Faster buses, flowing traffic, breathable air, and cities that work for everyone. Gridlock isn't inevitable; it's a choice. Choose progress. Demand dedicated bus lanes now.",
+    "sanitization": {
+      "changed": false,
+      "patterns": [],
+      "removed_chars": 0,
+      "removed_ratio": 0.0
+    },
+    "usage": {
+      "completion_tokens": 1062,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 284
+      },
+      "cost": 0.00054825,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.000531,
+        "upstream_inference_cost": 0.00054825,
+        "upstream_inference_prompt_cost": 1.725e-05
+      },
+      "is_byok": false,
+      "prompt_tokens": 198,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 149,
+        "video_tokens": 0
+      },
+      "total_tokens": 1260
+    }
+  },
+  "prompt_category": "persuasion_oped",
+  "prompt_id": "oped_bus_lanes",
+  "response_text": "# Clear the Road for Progress: Dedicated Bus Lanes Are Essential for Taming Urban Gridlock\n\nIn the heart of our sprawling cities, a familiar nightmare unfolds every rush hour: endless lines of single-occupancy cars crawling along choked arteries like the fictional Elm Street Corridor\u2014a 10-mile stretch that's emblematic of urban congestion nationwide. Drivers fume, engines idle, and productivity evaporates. The solution isn't wider roads or magical flying cars; it's dedicated bus lanes. By carving out space exclusively for high-capacity buses, we can slash congestion, boost transit ridership, and reclaim our cities for people, not just vehicles.\n\nThe math is irrefutable. A single bus can replace 40 to 60 cars, ferrying hundreds of commuters per hour. Yet on corridors like Elm Street, buses are routinely delayed by selfish lane-weaving and gridlock, turning a 20-minute trip into an hour-long ordeal. Dedicated lanes change that equation. Cities like Bogot\u00e1, Colombia, transformed their gridlocked TransMilenio corridor with bus rapid transit (BRT) lanes, moving 2.4 million passengers daily while cutting travel times by 32%. Closer to home, Los Angeles's Metro Bus lanes on Wilshire Boulevard have increased bus speeds by 30% and ridership by 20%, proving that prioritizing buses doesn't just move more people\u2014it moves them *faster*.\n\nSkeptics cry foul: \"What about cars? Won't buses steal lanes and worsen delays?\" Not so. Studies from the Institute of Transportation Engineers show that converting one general lane to a bus lane on high-volume corridors reduces overall delay by 10-20% because buses clear the road more efficiently. In Minneapolis, the dedicated lanes on I-35W shaved average commute times by 4 minutes during peak hours, even as car volumes held steady. The key is capacity: buses turn a lane's worth of asphalt into a river of mobility, freeing up space indirectly as fewer people drive alone.\n\nBeyond efficiency, dedicated lanes deliver environmental and equity wins that cars can't match. Urban congestion pumps out greenhouse gases equivalent to millions of cars idling pointlessly. BRT systems, per the World Resources Institute, cut CO2 emissions by up to 40% per passenger-mile compared to private vehicles. On Elm Street, where air quality alerts are routine, bus lanes would mean cleaner air and fewer asthma attacks in nearby neighborhoods.\n\nAnd let's talk fairness. Public transit riders\u2014often low-income workers, students, and service employees\u2014bear the brunt of delays. A 2023 UCLA study found that bus-dependent Angelenos lose 100 hours annually to traffic, costing them $1,500 in wages. Dedicated lanes level the playing field, making transit reliable enough to compete with cars. In a city where 25% of households lack vehicles, this isn't a luxury; it's justice.\n\nOpponents point to upfront costs\u2014repainting lanes, signals, and enforcement run $1-5 million per mile. But that's a bargain compared to the $160 billion Americans lose yearly to congestion, per INRIX data. Elm Street alone likely hemorrhages millions in lost productivity, fuel waste, and health costs. Maintenance is minimal: buses don't pothole roads like heavy trucks. Long-term, higher ridership funds expansions through fares and reduced subsidies.\n\nWe've dithered long enough with half-measures like bus bulbs or paint-only lanes, which drivers ignore. Full dedication\u2014curbside or median, enforced by cameras and transit police\u2014is non-negotiable. Pair it with frequent service, real-time apps, and bike/pedestrian integrations for a multimodal win.\n\nCity leaders, it's time to act. Paint those lanes on Elm Street today. The result? Faster buses, flowing traffic, breathable air, and cities that work for everyone. Gridlock isn't inevitable; it's a choice. Choose progress. Demand dedicated bus lanes now.",
+  "run_name": "2026-03-08-openrouter-v0-2-clean-3"
+}

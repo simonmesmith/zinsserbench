@@ -1,0 +1,47 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.2",
+  "candidate_model_id": "qwen/qwen3.5-35b-a3b",
+  "created_at": "2026-03-08T13:13:53Z",
+  "judge_model_id": "z-ai/glm-5",
+  "metadata": {
+    "id": "gen-1772975578-HxOpATtid6HZrT9uWrQY",
+    "raw_text": "{\"scores\": {\"clarity\": 5, \"simplicity\": 5, \"brevity_economy\": 5, \"structure_flow\": 5, \"specificity_precision\": 5, \"humanity_voice\": 5, \"overall\": 5}, \"rationale\": \"An excellent consumer explainer that delivers exactly what the prompt asks. The writing is clear and accessible, using plain language while explaining technical terms. Structure is logical: definition \u2192 causes \u2192 numbered action steps \u2192 resources \u2192 conclusion. Specific details abound (FDA/USDA jurisdictions, specific pathogens, exact websites, concrete symptoms). The tone is reassuring and helpful ('Do not panic') without being condescending. No wasted words or padding\u2014every section earns its place. A model example of consumer-facing nonfiction.\"}",
+    "usage": {
+      "completion_tokens": 775,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 722
+      },
+      "cost": 0.003799,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.00248,
+        "upstream_inference_cost": 0.003799,
+        "upstream_inference_prompt_cost": 0.001319
+      },
+      "is_byok": false,
+      "prompt_tokens": 1319,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 2094
+    }
+  },
+  "prompt_category": "explain",
+  "prompt_id": "explain_food_recall",
+  "rationale": "An excellent consumer explainer that delivers exactly what the prompt asks. The writing is clear and accessible, using plain language while explaining technical terms. Structure is logical: definition \u2192 causes \u2192 numbered action steps \u2192 resources \u2192 conclusion. Specific details abound (FDA/USDA jurisdictions, specific pathogens, exact websites, concrete symptoms). The tone is reassuring and helpful ('Do not panic') without being condescending. No wasted words or padding\u2014every section earns its place. A model example of consumer-facing nonfiction.",
+  "run_name": "2026-03-08-openrouter-v0-2-clean-3",
+  "scores": {
+    "brevity_economy": 5,
+    "clarity": 5,
+    "humanity_voice": 5,
+    "overall": 5,
+    "simplicity": 5,
+    "specificity_precision": 5,
+    "structure_flow": 5
+  }
+}

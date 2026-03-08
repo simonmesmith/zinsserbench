@@ -1,0 +1,47 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.2",
+  "candidate_model_id": "anthropic/claude-sonnet-4.6",
+  "created_at": "2026-03-08T12:57:19Z",
+  "judge_model_id": "z-ai/glm-5",
+  "metadata": {
+    "id": "gen-1772974628-AtHz0CnzSYi2KRBik5tG",
+    "raw_text": "{\"scores\": {\"clarity\": 5, \"simplicity\": 5, \"brevity_economy\": 5, \"structure_flow\": 5, \"specificity_precision\": 5, \"humanity_voice\": 5, \"overall\": 5}, \"rationale\": \"A masterfully executed opinion piece. Opens with a vivid, relatable scene; states the thesis clearly; systematically addresses counterarguments with specific data (passenger capacity numbers, travel time reductions, named cities). The structure is logical and progressive\u2014from problem to solution to objections to equity to practical concerns to call to action. Language is plain but not flat, with memorable phrases like 'ritual humiliation' and 'count the people, not the vehicles.' No wasted sentences, no throat-clearing. The voice is human, engaged, and morally serious without being preachy.\"}",
+    "usage": {
+      "completion_tokens": 730,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 649
+      },
+      "cost": 0.00359,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.002336,
+        "upstream_inference_cost": 0.00359,
+        "upstream_inference_prompt_cost": 0.001254
+      },
+      "is_byok": false,
+      "prompt_tokens": 1254,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 1984
+    }
+  },
+  "prompt_category": "persuasion_oped",
+  "prompt_id": "oped_bus_lanes",
+  "rationale": "A masterfully executed opinion piece. Opens with a vivid, relatable scene; states the thesis clearly; systematically addresses counterarguments with specific data (passenger capacity numbers, travel time reductions, named cities). The structure is logical and progressive\u2014from problem to solution to objections to equity to practical concerns to call to action. Language is plain but not flat, with memorable phrases like 'ritual humiliation' and 'count the people, not the vehicles.' No wasted sentences, no throat-clearing. The voice is human, engaged, and morally serious without being preachy.",
+  "run_name": "2026-03-08-openrouter-v0-2-clean-3",
+  "scores": {
+    "brevity_economy": 5,
+    "clarity": 5,
+    "humanity_voice": 5,
+    "overall": 5,
+    "simplicity": 5,
+    "specificity_precision": 5,
+    "structure_flow": 5
+  }
+}

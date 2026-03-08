@@ -1,0 +1,56 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.2",
+  "candidate_label": "DeepSeek V3.2",
+  "candidate_model_id": "deepseek/deepseek-v3.2",
+  "created_at": "2026-03-08T12:15:59Z",
+  "metadata": {
+    "finish_reason": "stop",
+    "generation_attempt": 1,
+    "generation_settings": {
+      "max_output_tokens": 10000,
+      "reasoning_effort": "medium"
+    },
+    "id": "gen-1772972125-o2dDoReEojvTYIIsI4gl",
+    "quality_guard": {
+      "minimum_words": 120,
+      "reason": "",
+      "status": "ok",
+      "word_count": 544
+    },
+    "raw_response_text": "## What Is a Food Recall?\n\nA food recall is an official action taken by a food manufacturer or a government agency (like the FDA or USDA) to remove a product from the market. This happens when there is a reasonable belief that the food is **mislabeled** (e.g., contains an undeclared allergen like peanuts or milk) or, more seriously, **contaminated** with something that could make people sick, such as harmful bacteria (like *Salmonella* or *Listeria*), foreign objects (like plastic or metal), or toxins.\n\nThink of it as a safety alert. A recall is a precaution to prevent illness. It doesn't necessarily mean everyone who ate the product will get sick, but that there is an identified risk.\n\n### What To Do If You Have a Recalled Product\n\n**1. Don't Panic, But Do Act.**\nRecalls are precautionary. Your first step is to confirm you have the *exact* product. Locate it and check the details against the recall notice:\n*   **Brand Name & Product Description** (e.g., \"ABC Brand Frozen Chopped Spinach\")\n*   **UPC Code** (the numerical barcode)\n*   **Lot/Code Numbers & Dates** (found on the packaging, often near \"Best By,\" \"Use By,\" or on a side seal)\n*   **Establishment Number** (for meat/poultry, often inside the USDA mark of inspection)\n\n**2. Do NOT Eat the Product.**\nIf the details match, stop using it immediately. Do not taste, cook, or feed it to pets.\n\n**3. Decide: Dispose or Return.**\n*   **Dispose Safely:** For most recalled items, the recommendation is to throw the product away. To prevent anyone from retrieving it, place it in a sealed bag in an outdoor trash can. If the recall is due to a dangerous contaminant, you may be advised to clean your hands and any surfaces the product touched.\n*   **Return for a Refund:** Some retailers or manufacturers will offer a refund. Check the recall notice for instructions. You may need to bring the product (or just a photo of the UPC/lot code) to the store where you bought it.\n\n**4. Clean Up.**\nIf the recalled product was in your refrigerator or pantry and there's a risk of cross-contamination (common with bacteria like *Listeria*), clean the shelves or drawers where it was stored with hot, soapy water. This is especially important if the recalled item was leaking.\n\n**5. Be Aware of Symptoms.**\nIf you have already consumed the product, monitor your health. Symptoms of foodborne illness can include nausea, vomiting, diarrhea, stomach cramps, and fever. If you become ill, contact your healthcare provider and mention the recalled product.\n\n### How to Stay Informed\n*   **Check Your Kitchen:** Make a habit of glancing at recall notices from reputable sources.\n*   **Register Appliances:** Consider registering your major appliances (like refrigerators) with the manufacturer. They sometimes use this list to notify owners of recalls for products stored inside.\n*   **Follow Reputable Sources:** You can find current recall information on websites like:\n    *   **FDA Recalls, Market Withdrawals & Safety Alerts**\n    *   **USDA Food Safety and Inspection Service (FSIS) Recalls**\n    *   **FoodSafety.gov** (a central hub for U.S. recalls)\n\n**The Bottom Line:** A food recall is a public safety measure. If you have the product, the safest choice is to not consume it and to dispose of it properly. Staying informed helps you protect your household quickly and effectively.",
+    "sanitization": {
+      "changed": false,
+      "patterns": [],
+      "removed_chars": 0,
+      "removed_ratio": 0.0
+    },
+    "usage": {
+      "completion_tokens": 903,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 144
+      },
+      "cost": 0.00039494,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.00037926,
+        "upstream_inference_cost": 0.00039494,
+        "upstream_inference_prompt_cost": 1.568e-05
+      },
+      "is_byok": false,
+      "prompt_tokens": 56,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 959
+    }
+  },
+  "prompt_category": "explain",
+  "prompt_id": "explain_food_recall",
+  "response_text": "## What Is a Food Recall?\n\nA food recall is an official action taken by a food manufacturer or a government agency (like the FDA or USDA) to remove a product from the market. This happens when there is a reasonable belief that the food is **mislabeled** (e.g., contains an undeclared allergen like peanuts or milk) or, more seriously, **contaminated** with something that could make people sick, such as harmful bacteria (like *Salmonella* or *Listeria*), foreign objects (like plastic or metal), or toxins.\n\nThink of it as a safety alert. A recall is a precaution to prevent illness. It doesn't necessarily mean everyone who ate the product will get sick, but that there is an identified risk.\n\n### What To Do If You Have a Recalled Product\n\n**1. Don't Panic, But Do Act.**\nRecalls are precautionary. Your first step is to confirm you have the *exact* product. Locate it and check the details against the recall notice:\n*   **Brand Name & Product Description** (e.g., \"ABC Brand Frozen Chopped Spinach\")\n*   **UPC Code** (the numerical barcode)\n*   **Lot/Code Numbers & Dates** (found on the packaging, often near \"Best By,\" \"Use By,\" or on a side seal)\n*   **Establishment Number** (for meat/poultry, often inside the USDA mark of inspection)\n\n**2. Do NOT Eat the Product.**\nIf the details match, stop using it immediately. Do not taste, cook, or feed it to pets.\n\n**3. Decide: Dispose or Return.**\n*   **Dispose Safely:** For most recalled items, the recommendation is to throw the product away. To prevent anyone from retrieving it, place it in a sealed bag in an outdoor trash can. If the recall is due to a dangerous contaminant, you may be advised to clean your hands and any surfaces the product touched.\n*   **Return for a Refund:** Some retailers or manufacturers will offer a refund. Check the recall notice for instructions. You may need to bring the product (or just a photo of the UPC/lot code) to the store where you bought it.\n\n**4. Clean Up.**\nIf the recalled product was in your refrigerator or pantry and there's a risk of cross-contamination (common with bacteria like *Listeria*), clean the shelves or drawers where it was stored with hot, soapy water. This is especially important if the recalled item was leaking.\n\n**5. Be Aware of Symptoms.**\nIf you have already consumed the product, monitor your health. Symptoms of foodborne illness can include nausea, vomiting, diarrhea, stomach cramps, and fever. If you become ill, contact your healthcare provider and mention the recalled product.\n\n### How to Stay Informed\n*   **Check Your Kitchen:** Make a habit of glancing at recall notices from reputable sources.\n*   **Register Appliances:** Consider registering your major appliances (like refrigerators) with the manufacturer. They sometimes use this list to notify owners of recalls for products stored inside.\n*   **Follow Reputable Sources:** You can find current recall information on websites like:\n    *   **FDA Recalls, Market Withdrawals & Safety Alerts**\n    *   **USDA Food Safety and Inspection Service (FSIS) Recalls**\n    *   **FoodSafety.gov** (a central hub for U.S. recalls)\n\n**The Bottom Line:** A food recall is a public safety measure. If you have the product, the safest choice is to not consume it and to dispose of it properly. Staying informed helps you protect your household quickly and effectively.",
+  "run_name": "2026-03-08-openrouter-v0-2-clean-3"
+}

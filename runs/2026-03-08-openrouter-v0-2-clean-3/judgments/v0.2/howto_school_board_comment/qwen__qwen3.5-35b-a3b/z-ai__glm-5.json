@@ -1,0 +1,47 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.2",
+  "candidate_model_id": "qwen/qwen3.5-35b-a3b",
+  "created_at": "2026-03-08T13:21:54Z",
+  "judge_model_id": "z-ai/glm-5",
+  "metadata": {
+    "id": "gen-1772976072-9fmQPFaAx0VZv4736oDR",
+    "raw_text": "{\"scores\": {\"clarity\": 5, \"simplicity\": 5, \"brevity_economy\": 5, \"structure_flow\": 5, \"specificity_precision\": 5, \"humanity_voice\": 5, \"overall\": 5}, \"rationale\": \"The guide is exceptionally clear and practical, using a logical chronological structure to walk the reader through the process. It excels in specificity, offering concrete details like word counts, arrival times, and specific phrasing examples rather than vague advice. The tone is supportive and professional, effectively empowering the target audience without unnecessary fluff.\"}",
+    "usage": {
+      "completion_tokens": 937,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 962
+      },
+      "cost": 0.0057074,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.0029984,
+        "upstream_inference_cost": 0.0057074,
+        "upstream_inference_prompt_cost": 0.002709
+      },
+      "is_byok": false,
+      "prompt_tokens": 2709,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 3646
+    }
+  },
+  "prompt_category": "service_howto",
+  "prompt_id": "howto_school_board_comment",
+  "rationale": "The guide is exceptionally clear and practical, using a logical chronological structure to walk the reader through the process. It excels in specificity, offering concrete details like word counts, arrival times, and specific phrasing examples rather than vague advice. The tone is supportive and professional, effectively empowering the target audience without unnecessary fluff.",
+  "run_name": "2026-03-08-openrouter-v0-2-clean-3",
+  "scores": {
+    "brevity_economy": 5,
+    "clarity": 5,
+    "humanity_voice": 5,
+    "overall": 5,
+    "simplicity": 5,
+    "specificity_precision": 5,
+    "structure_flow": 5
+  }
+}

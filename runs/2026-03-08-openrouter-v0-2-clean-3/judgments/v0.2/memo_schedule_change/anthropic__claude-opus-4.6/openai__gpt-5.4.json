@@ -1,0 +1,47 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.2",
+  "candidate_model_id": "anthropic/claude-opus-4.6",
+  "created_at": "2026-03-08T13:35:45Z",
+  "judge_model_id": "openai/gpt-5.4",
+  "metadata": {
+    "id": "gen-1772976940-zR9mVdLrwQAGwUnnmFGF",
+    "raw_text": "{\"scores\":{\"clarity\":5,\"simplicity\":4,\"brevity_economy\":4,\"structure_flow\":5,\"specificity_precision\":5,\"humanity_voice\":4,\"overall\":5},\"rationale\":\"Clear, well-organized memo that covers the schedule change with concrete dates, times, expectations, and next steps. The language is mostly plain and easy to scan, though a few phrases feel slightly formal or corporate, and it could be trimmed a bit.\"}",
+    "usage": {
+      "completion_tokens": 226,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 120
+      },
+      "cost": 0.0056425,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.00339,
+        "upstream_inference_cost": 0.0056425,
+        "upstream_inference_prompt_cost": 0.0022525
+      },
+      "is_byok": false,
+      "prompt_tokens": 901,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 1127
+    }
+  },
+  "prompt_category": "memo",
+  "prompt_id": "memo_schedule_change",
+  "rationale": "Clear, well-organized memo that covers the schedule change with concrete dates, times, expectations, and next steps. The language is mostly plain and easy to scan, though a few phrases feel slightly formal or corporate, and it could be trimmed a bit.",
+  "run_name": "2026-03-08-openrouter-v0-2-clean-3",
+  "scores": {
+    "brevity_economy": 4,
+    "clarity": 5,
+    "humanity_voice": 4,
+    "overall": 5,
+    "simplicity": 4,
+    "specificity_precision": 5,
+    "structure_flow": 5
+  }
+}

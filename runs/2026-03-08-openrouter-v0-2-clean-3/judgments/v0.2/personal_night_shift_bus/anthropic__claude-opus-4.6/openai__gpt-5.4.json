@@ -1,0 +1,47 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.2",
+  "candidate_model_id": "anthropic/claude-opus-4.6",
+  "created_at": "2026-03-08T13:27:48Z",
+  "judge_model_id": "openai/gpt-5.4",
+  "metadata": {
+    "id": "gen-1772976463-bBFjR5OMZJsNha5SzdvW",
+    "raw_text": "{\"scores\":{\"clarity\":5,\"simplicity\":4,\"brevity_economy\":4,\"structure_flow\":5,\"specificity_precision\":5,\"humanity_voice\":5,\"overall\":5},\"rationale\":\"Clear, vivid, and well-shaped personal nonfiction. The essay moves smoothly from routine to reflection, uses precise concrete details (the flickering light, penlight, worn bus step), and has a warm, observant voice. It loses a little on simplicity and economy because some phrasing is more lyrical than plain and a few reflections revisit the same idea, but the writing stays controlled and effective throughout.\"}",
+    "usage": {
+      "completion_tokens": 278,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 143
+      },
+      "cost": 0.0101875,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.00417,
+        "upstream_inference_cost": 0.0101875,
+        "upstream_inference_prompt_cost": 0.0060175
+      },
+      "is_byok": false,
+      "prompt_tokens": 2407,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 2685
+    }
+  },
+  "prompt_category": "personal_nonfiction",
+  "prompt_id": "personal_night_shift_bus",
+  "rationale": "Clear, vivid, and well-shaped personal nonfiction. The essay moves smoothly from routine to reflection, uses precise concrete details (the flickering light, penlight, worn bus step), and has a warm, observant voice. It loses a little on simplicity and economy because some phrasing is more lyrical than plain and a few reflections revisit the same idea, but the writing stays controlled and effective throughout.",
+  "run_name": "2026-03-08-openrouter-v0-2-clean-3",
+  "scores": {
+    "brevity_economy": 4,
+    "clarity": 5,
+    "humanity_voice": 5,
+    "overall": 5,
+    "simplicity": 4,
+    "specificity_precision": 5,
+    "structure_flow": 5
+  }
+}

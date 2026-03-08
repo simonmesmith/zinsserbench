@@ -1,0 +1,47 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.2",
+  "candidate_model_id": "moonshotai/kimi-k2.5",
+  "created_at": "2026-03-08T12:46:55Z",
+  "judge_model_id": "z-ai/glm-5",
+  "metadata": {
+    "id": "gen-1772973979-5BpTUe6CiBONCXsgR6Po",
+    "raw_text": "{\"scores\": {\"clarity\": 5, \"simplicity\": 5, \"brevity_economy\": 5, \"structure_flow\": 5, \"specificity_precision\": 5, \"humanity_voice\": 5, \"overall\": 5}, \"rationale\": \"A masterfully crafted profile that opens with precise scene-setting (5:47 a.m., three groans of metal rungs) and closes with a satisfying circular structure. Details are exact and evocative\u2014'the ink faded to lavender,' 'the color of bruised plums.' The writing captures both the texture of repetition and the captain's accumulated wisdom without sentimentality. Every sentence earns its place; the prose is plain yet lyrical, bureaucratic-free, and deeply human.\"}",
+    "usage": {
+      "completion_tokens": 755,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 676
+      },
+      "cost": 0.003695,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.002416,
+        "upstream_inference_cost": 0.003695,
+        "upstream_inference_prompt_cost": 0.001279
+      },
+      "is_byok": false,
+      "prompt_tokens": 1279,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 1216,
+        "video_tokens": 0
+      },
+      "total_tokens": 2034
+    }
+  },
+  "prompt_category": "profile",
+  "prompt_id": "profile_ferry_captain",
+  "rationale": "A masterfully crafted profile that opens with precise scene-setting (5:47 a.m., three groans of metal rungs) and closes with a satisfying circular structure. Details are exact and evocative\u2014'the ink faded to lavender,' 'the color of bruised plums.' The writing captures both the texture of repetition and the captain's accumulated wisdom without sentimentality. Every sentence earns its place; the prose is plain yet lyrical, bureaucratic-free, and deeply human.",
+  "run_name": "2026-03-08-openrouter-v0-2-clean-3",
+  "scores": {
+    "brevity_economy": 5,
+    "clarity": 5,
+    "humanity_voice": 5,
+    "overall": 5,
+    "simplicity": 5,
+    "specificity_precision": 5,
+    "structure_flow": 5
+  }
+}

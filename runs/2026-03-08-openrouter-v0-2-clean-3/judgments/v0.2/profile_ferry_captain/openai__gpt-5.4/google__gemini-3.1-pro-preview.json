@@ -1,0 +1,47 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.2",
+  "candidate_model_id": "openai/gpt-5.4",
+  "created_at": "2026-03-08T12:43:23Z",
+  "judge_model_id": "google/gemini-3.1-pro-preview",
+  "metadata": {
+    "id": "gen-1772973794-CcTxYPpweLPstNJLA0G8",
+    "raw_text": "{\n  \"scores\": {\n    \"clarity\": 5,\n    \"simplicity\": 4,\n    \"brevity_economy\": 4,\n    \"structure_flow\": 5,\n    \"specificity_precision\": 5,\n    \"humanity_voice\": 5,\n    \"overall\": 5\n  },\n  \"rationale\": \"The profile is beautifully written, featuring vivid, specific details and a warm, empathetic voice. The structure flows logically from the captain's daily routine to his history and the broader changes in the towns. While slightly expansive in its thematic reflections, the prose remains clear, engaging, and highly effective.\"\n}",
+    "usage": {
+      "completion_tokens": 557,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 412
+      },
+      "cost": 0.012768,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.006684,
+        "upstream_inference_cost": 0.012768,
+        "upstream_inference_prompt_cost": 0.006084
+      },
+      "is_byok": false,
+      "prompt_tokens": 3042,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 3599
+    }
+  },
+  "prompt_category": "profile",
+  "prompt_id": "profile_ferry_captain",
+  "rationale": "The profile is beautifully written, featuring vivid, specific details and a warm, empathetic voice. The structure flows logically from the captain's daily routine to his history and the broader changes in the towns. While slightly expansive in its thematic reflections, the prose remains clear, engaging, and highly effective.",
+  "run_name": "2026-03-08-openrouter-v0-2-clean-3",
+  "scores": {
+    "brevity_economy": 4,
+    "clarity": 5,
+    "humanity_voice": 5,
+    "overall": 5,
+    "simplicity": 4,
+    "specificity_precision": 5,
+    "structure_flow": 5
+  }
+}

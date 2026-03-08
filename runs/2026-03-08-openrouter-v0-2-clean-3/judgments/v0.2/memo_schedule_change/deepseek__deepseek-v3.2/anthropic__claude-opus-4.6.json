@@ -1,0 +1,47 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.2",
+  "candidate_model_id": "deepseek/deepseek-v3.2",
+  "created_at": "2026-03-08T13:36:27Z",
+  "judge_model_id": "anthropic/claude-opus-4.6",
+  "metadata": {
+    "id": "gen-1772976971-gGp3eWJDXGF7ME6fi7so",
+    "raw_text": "{\"scores\": {\"clarity\": 5, \"simplicity\": 4, \"brevity_economy\": 4, \"structure_flow\": 5, \"specificity_precision\": 5, \"humanity_voice\": 4, \"overall\": 5}, \"rationale\": \"Exceptionally well-organized memo with specific dates, times, deadlines, and clear action items. The shift table with the '(No change)' and '(previously 3:00 PM)' annotations is a strong detail. Structure is textbook: context \u2192 changes \u2192 details \u2192 escalation path \u2192 close. Minor dings for simplicity and brevity due to a few corporate-speak phrases ('maximize our operational efficiency during this critical period,' 'vital to our collective success') and a slightly redundant second paragraph that restates what the first already implied. Humanity is solid\u2014acknowledging disruption and offering a conflict resolution path shows reader awareness\u2014but a few stock phrases keep it from feeling fully natural. Overall, this is a near-ideal example of the genre.\"}",
+    "usage": {
+      "completion_tokens": 646,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 477
+      },
+      "cost": 0.020475,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.01615,
+        "upstream_inference_cost": 0.020475,
+        "upstream_inference_prompt_cost": 0.004325
+      },
+      "is_byok": false,
+      "prompt_tokens": 865,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 1511
+    }
+  },
+  "prompt_category": "memo",
+  "prompt_id": "memo_schedule_change",
+  "rationale": "Exceptionally well-organized memo with specific dates, times, deadlines, and clear action items. The shift table with the '(No change)' and '(previously 3:00 PM)' annotations is a strong detail. Structure is textbook: context \u2192 changes \u2192 details \u2192 escalation path \u2192 close. Minor dings for simplicity and brevity due to a few corporate-speak phrases ('maximize our operational efficiency during this critical period,' 'vital to our collective success') and a slightly redundant second paragraph that restates what the first already implied. Humanity is solid\u2014acknowledging disruption and offering a conflict resolution path shows reader awareness\u2014but a few stock phrases keep it from feeling fully natural. Overall, this is a near-ideal example of the genre.",
+  "run_name": "2026-03-08-openrouter-v0-2-clean-3",
+  "scores": {
+    "brevity_economy": 4,
+    "clarity": 5,
+    "humanity_voice": 4,
+    "overall": 5,
+    "simplicity": 4,
+    "specificity_precision": 5,
+    "structure_flow": 5
+  }
+}

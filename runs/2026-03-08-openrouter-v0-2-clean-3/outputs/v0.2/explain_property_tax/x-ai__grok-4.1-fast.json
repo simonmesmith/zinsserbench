@@ -1,0 +1,56 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.2",
+  "candidate_label": "Grok 4.1 Fast",
+  "candidate_model_id": "x-ai/grok-4.1-fast",
+  "created_at": "2026-03-08T12:24:50Z",
+  "metadata": {
+    "finish_reason": "stop",
+    "generation_attempt": 1,
+    "generation_settings": {
+      "max_output_tokens": 10000,
+      "reasoning_effort": "medium"
+    },
+    "id": "gen-1772972673-U9Xx1qRQa8dnUIHFaaK6",
+    "quality_guard": {
+      "minimum_words": 120,
+      "reason": "",
+      "status": "ok",
+      "word_count": 643
+    },
+    "raw_response_text": "### Understanding Property Taxes: How They're Set and Why They Change\n\nProperty taxes are a big part of owning a home\u2014they help fund local services like schools, roads, police, and fire departments. If you're a homeowner, your annual tax bill might feel like a mystery, especially when it jumps unexpectedly. Here's a straightforward breakdown of how these taxes are calculated and what causes year-to-year changes.\n\n#### Step 1: Figuring Out Your Home's Value (The Assessed Value)\nLocal government assessors (usually from your county or city) estimate your home's worth, called the **assessed value**. This isn't always the exact sale price\u2014it's based on:\n- Recent sales of similar homes nearby.\n- Your home's size, condition, age, and features (like a pool or renovated kitchen).\n- Land value.\n\nAssessors aim to keep values close to **market value** (what your home could sell for today). They do this through:\n- **Annual reviews**: Spot checks or data updates.\n- **Revaluations**: Full updates every 1\u20135 years (varies by state), often using computer models or on-site inspections.\n\n**Pro tip**: If you think your assessment is too high (e.g., after checking comps on Zillow), you can usually appeal it\u2014deadlines are short, so check your tax notice.\n\n#### Step 2: Applying the Tax Rate (The Millage or Levy Rate)\nOnce your home's value is set, local governments (school boards, counties, cities) decide the **tax rate**. This is like an interest rate\u2014expressed as a percentage or \"mills\" (1 mill = $1 per $1,000 of assessed value).\n\n- Rates are set to match budgets. For example, if schools need $10 million and there are $1 billion in total assessed values, the rate might be 10 mills ($10 per $1,000).\n- Your total rate combines bites from multiple entities: say, 20 mills for schools + 10 for county + 5 for city = 35 mills total.\n\n**Your tax bill formula (simplified)**:  \n`(Assessed Value \u00d7 Tax Rate) - Exemptions = Taxes Owed`\n\nMany places offer **exemptions** to lower your bill, like:\n- Homestead exemption (reduces value for primary residents).\n- Senior, veteran, or disability breaks.\n\n#### Why Your Taxes Change Every Year\nTaxes aren't frozen\u2014they fluctuate with local needs and your home's situation. Common reasons:\n\n1. **Reassessment or Market Shifts**: Home values rise with hot markets (e.g., post-pandemic boom), so your assessed value jumps. Even if values drop, it might take a revaluation cycle to reflect it.\n\n2. **Tax Rate Changes**: Governments tweak rates for:\n   - Bigger budgets (inflation, new hires).\n   - Voter-approved bonds (for schools or infrastructure).\n   - Cuts from state aid or efficiencies.\n\n3. **Your Property Changes**: Additions like a deck or finished basement increase value. New neighbors' developments can boost area values too.\n\n4. **Exemption or Law Updates**: You might qualify for a new break (yay!) or lose one. State laws capping increases (like California's Prop 13) limit shocks in some places.\n\n5. **Payment Timing**: Bills are often based on the prior year's value, so changes lag behind reality.\n\n**Example**: Say your home was assessed at $300,000 last year (taxes: $3,000 at 1% rate). This year, values rise 10% to $330,000, and the rate ticks up to 1.05% for school needs. New bill: ~$3,465. A 10% homestead exemption softens it to ~$3,118.\n\n#### What Can You Do About It?\n- **Review your bill**: It breaks down value, rate, and exemptions. Questions? Call your assessor's office.\n- **Appeal if needed**: Gather evidence like appraisals or photos of issues (e.g., roof damage).\n- **Stay informed**: Sign up for local tax alerts or check sites like your county assessor's page.\n- **Budget smart**: Taxes average 1\u20132% of home value yearly\u2014factor them into mortgage \"PITI\" (principal, interest, taxes, insurance).\n\nProperty taxes keep your community running, but understanding the process empowers you to manage surprises. If rates spike, it's often a sign of growth\u2014your home's value is rising too! For specifics, search \"[your county] property tax assessor.\"",
+    "sanitization": {
+      "changed": false,
+      "patterns": [],
+      "removed_chars": 0,
+      "removed_ratio": 0.0
+    },
+    "usage": {
+      "completion_tokens": 1257,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 334
+      },
+      "cost": 0.00064305,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.0006285,
+        "upstream_inference_cost": 0.00064305,
+        "upstream_inference_prompt_cost": 1.455e-05
+      },
+      "is_byok": false,
+      "prompt_tokens": 207,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 179,
+        "video_tokens": 0
+      },
+      "total_tokens": 1464
+    }
+  },
+  "prompt_category": "explain",
+  "prompt_id": "explain_property_tax",
+  "response_text": "### Understanding Property Taxes: How They're Set and Why They Change\n\nProperty taxes are a big part of owning a home\u2014they help fund local services like schools, roads, police, and fire departments. If you're a homeowner, your annual tax bill might feel like a mystery, especially when it jumps unexpectedly. Here's a straightforward breakdown of how these taxes are calculated and what causes year-to-year changes.\n\n#### Step 1: Figuring Out Your Home's Value (The Assessed Value)\nLocal government assessors (usually from your county or city) estimate your home's worth, called the **assessed value**. This isn't always the exact sale price\u2014it's based on:\n- Recent sales of similar homes nearby.\n- Your home's size, condition, age, and features (like a pool or renovated kitchen).\n- Land value.\n\nAssessors aim to keep values close to **market value** (what your home could sell for today). They do this through:\n- **Annual reviews**: Spot checks or data updates.\n- **Revaluations**: Full updates every 1\u20135 years (varies by state), often using computer models or on-site inspections.\n\n**Pro tip**: If you think your assessment is too high (e.g., after checking comps on Zillow), you can usually appeal it\u2014deadlines are short, so check your tax notice.\n\n#### Step 2: Applying the Tax Rate (The Millage or Levy Rate)\nOnce your home's value is set, local governments (school boards, counties, cities) decide the **tax rate**. This is like an interest rate\u2014expressed as a percentage or \"mills\" (1 mill = $1 per $1,000 of assessed value).\n\n- Rates are set to match budgets. For example, if schools need $10 million and there are $1 billion in total assessed values, the rate might be 10 mills ($10 per $1,000).\n- Your total rate combines bites from multiple entities: say, 20 mills for schools + 10 for county + 5 for city = 35 mills total.\n\n**Your tax bill formula (simplified)**:  \n`(Assessed Value \u00d7 Tax Rate) - Exemptions = Taxes Owed`\n\nMany places offer **exemptions** to lower your bill, like:\n- Homestead exemption (reduces value for primary residents).\n- Senior, veteran, or disability breaks.\n\n#### Why Your Taxes Change Every Year\nTaxes aren't frozen\u2014they fluctuate with local needs and your home's situation. Common reasons:\n\n1. **Reassessment or Market Shifts**: Home values rise with hot markets (e.g., post-pandemic boom), so your assessed value jumps. Even if values drop, it might take a revaluation cycle to reflect it.\n\n2. **Tax Rate Changes**: Governments tweak rates for:\n   - Bigger budgets (inflation, new hires).\n   - Voter-approved bonds (for schools or infrastructure).\n   - Cuts from state aid or efficiencies.\n\n3. **Your Property Changes**: Additions like a deck or finished basement increase value. New neighbors' developments can boost area values too.\n\n4. **Exemption or Law Updates**: You might qualify for a new break (yay!) or lose one. State laws capping increases (like California's Prop 13) limit shocks in some places.\n\n5. **Payment Timing**: Bills are often based on the prior year's value, so changes lag behind reality.\n\n**Example**: Say your home was assessed at $300,000 last year (taxes: $3,000 at 1% rate). This year, values rise 10% to $330,000, and the rate ticks up to 1.05% for school needs. New bill: ~$3,465. A 10% homestead exemption softens it to ~$3,118.\n\n#### What Can You Do About It?\n- **Review your bill**: It breaks down value, rate, and exemptions. Questions? Call your assessor's office.\n- **Appeal if needed**: Gather evidence like appraisals or photos of issues (e.g., roof damage).\n- **Stay informed**: Sign up for local tax alerts or check sites like your county assessor's page.\n- **Budget smart**: Taxes average 1\u20132% of home value yearly\u2014factor them into mortgage \"PITI\" (principal, interest, taxes, insurance).\n\nProperty taxes keep your community running, but understanding the process empowers you to manage surprises. If rates spike, it's often a sign of growth\u2014your home's value is rising too! For specifics, search \"[your county] property tax assessor.\"",
+  "run_name": "2026-03-08-openrouter-v0-2-clean-3"
+}

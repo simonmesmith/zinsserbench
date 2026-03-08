@@ -1,0 +1,47 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.2",
+  "candidate_model_id": "qwen/qwen3.5-35b-a3b",
+  "created_at": "2026-03-08T13:06:51Z",
+  "judge_model_id": "google/gemini-3.1-pro-preview",
+  "metadata": {
+    "id": "gen-1772975204-4BFhm0ZzYn4WRMd2Z3tL",
+    "raw_text": "{\n  \"scores\": {\n    \"clarity\": 5,\n    \"simplicity\": 4,\n    \"brevity_economy\": 2,\n    \"structure_flow\": 3,\n    \"specificity_precision\": 4,\n    \"humanity_voice\": 4,\n    \"overall\": 3\n  },\n  \"rationale\": \"The essay begins beautifully with evocative details, a strong personal voice, and a clear thematic focus on class divides. However, the final four paragraphs are exact duplicates of the preceding four, which severely damages the piece's brevity, economy, and overall structural integrity.\"\n}",
+    "usage": {
+      "completion_tokens": 483,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 345
+      },
+      "cost": 0.00927,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.005796,
+        "upstream_inference_cost": 0.00927,
+        "upstream_inference_prompt_cost": 0.003474
+      },
+      "is_byok": false,
+      "prompt_tokens": 1737,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 2220
+    }
+  },
+  "prompt_category": "personal_nonfiction",
+  "prompt_id": "personal_public_pool",
+  "rationale": "The essay begins beautifully with evocative details, a strong personal voice, and a clear thematic focus on class divides. However, the final four paragraphs are exact duplicates of the preceding four, which severely damages the piece's brevity, economy, and overall structural integrity.",
+  "run_name": "2026-03-08-openrouter-v0-2-clean-3",
+  "scores": {
+    "brevity_economy": 2,
+    "clarity": 5,
+    "humanity_voice": 4,
+    "overall": 3,
+    "simplicity": 4,
+    "specificity_precision": 4,
+    "structure_flow": 3
+  }
+}

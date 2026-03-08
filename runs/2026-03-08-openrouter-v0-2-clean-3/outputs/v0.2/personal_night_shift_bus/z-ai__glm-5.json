@@ -1,0 +1,56 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.2",
+  "candidate_label": "GLM-5",
+  "candidate_model_id": "z-ai/glm-5",
+  "created_at": "2026-03-08T12:23:47Z",
+  "metadata": {
+    "finish_reason": "stop",
+    "generation_attempt": 1,
+    "generation_settings": {
+      "max_output_tokens": 10000,
+      "reasoning_effort": "medium"
+    },
+    "id": "gen-1772972573-Mh464SYvc7oK57Sci03p",
+    "quality_guard": {
+      "minimum_words": 200,
+      "reason": "",
+      "status": "ok",
+      "word_count": 672
+    },
+    "raw_response_text": "The 11:48 from downtown had a specific smell, a cocktail of damp wool, hydraulic fluid, and the fading ghost of the driver\u2019s lunch. It was a smell I grew to associate with the strange, suspended animation of my life between the hours of eleven at night and twelve in the morning.\n\nFor exactly one year, I lived my life in the gap between the bus schedule and my own exhaustion. I was working a job that required me to stay until the building emptied out, a role that left me feeling like a ghost haunting my own career. The bus was my hearse, my bedroom, and my confessional.\n\nThe cast of characters on the late-night route is different from the morning crowd. In the morning, everyone is armored in their purpose; they are going *to* something. At night, everyone is retreating. We were all stripped of our professional masks, reduced to tired eyes and rumpled clothes.\n\nThere was the woman who sat three rows back on the left. I never learned her name, but I knew she was a nurse by the sensible shoes she wore and the way she fell asleep instantly, her head bobbing gently against the window, trusting the motion of the vehicle to keep her safe. There was the man in the construction jacket who always carried a paper bag that smelled faintly of fried chicken, though he never ate any on the bus. He just held it on his lap like a talisman. And there was the driver, a man with a gray beard who spoke only to announce the stops, his voice a low rumble that vibrated through the floorboards.\n\nWe never spoke to one another. To speak would be to break the fragile covenant of the night bus: *we are not really here.* We were just cargo, being shipped back to our lives.\n\nI remember the winter months most vividly. The windows would fog up with the collective breath of twenty tired people. I would sit in the back, the engine\u2019s heat rising through the metal seat, and use my finger to draw lines in the condensation. Outside, the city was a blur of neon and streetlights, smeared by the rain or snow. It felt like being inside a submarine, drifting through a dark ocean. I spent those hours untangling the knots of my day, replaying conversations, drafting emails I would never send, and wondering if I was the only one who felt like they were failing at being an adult.\n\nThere is a specific kind of loneliness that comes from being awake when the rest of the world sleeps, but there is also a specific kind of comfort in it. On that bus, I was invisible. No one expected anything from me. I didn't have to be smart, or capable, or polite. I just had to sit.\n\nSpring arrived slowly. The condensation faded. The woman in the sensible shoes started wearing lighter colors. The man with the chicken bag switched to a plastic sack. The air on the bus changed from heavy and stale to something slightly more breathable.\n\nI stopped taking the bus a year later when I changed jobs. I moved to a day shift, joining the ranks of the morning commuters with their coffee cups and their determined strides. But sometimes, when I\u2019m driving home in the early evening, I see the bus pulling away from a stop, its interior lights glowing yellow against the twilight. I look for the woman in the third row, or the man with his dinner.\n\nI don't miss the exhaustion, and I don't miss the feeling that my life was on hold. But I miss the stillness. I miss that forty-five minutes where the only responsibility I had was to stay on the vehicle until it reached my stop. For a year, that bus was the only place where I didn't have to pretend I had it all figured out. It was a moving room where I could just be tired, and that was enough.",
+    "sanitization": {
+      "changed": false,
+      "patterns": [],
+      "removed_chars": 0,
+      "removed_ratio": 0.0
+    },
+    "usage": {
+      "completion_tokens": 1808,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 1052
+      },
+      "cost": 0.0058376,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.0057856,
+        "upstream_inference_cost": 0.0058376,
+        "upstream_inference_prompt_cost": 5.2e-05
+      },
+      "is_byok": false,
+      "prompt_tokens": 52,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 1860
+    }
+  },
+  "prompt_category": "personal_nonfiction",
+  "prompt_id": "personal_night_shift_bus",
+  "response_text": "The 11:48 from downtown had a specific smell, a cocktail of damp wool, hydraulic fluid, and the fading ghost of the driver\u2019s lunch. It was a smell I grew to associate with the strange, suspended animation of my life between the hours of eleven at night and twelve in the morning.\n\nFor exactly one year, I lived my life in the gap between the bus schedule and my own exhaustion. I was working a job that required me to stay until the building emptied out, a role that left me feeling like a ghost haunting my own career. The bus was my hearse, my bedroom, and my confessional.\n\nThe cast of characters on the late-night route is different from the morning crowd. In the morning, everyone is armored in their purpose; they are going *to* something. At night, everyone is retreating. We were all stripped of our professional masks, reduced to tired eyes and rumpled clothes.\n\nThere was the woman who sat three rows back on the left. I never learned her name, but I knew she was a nurse by the sensible shoes she wore and the way she fell asleep instantly, her head bobbing gently against the window, trusting the motion of the vehicle to keep her safe. There was the man in the construction jacket who always carried a paper bag that smelled faintly of fried chicken, though he never ate any on the bus. He just held it on his lap like a talisman. And there was the driver, a man with a gray beard who spoke only to announce the stops, his voice a low rumble that vibrated through the floorboards.\n\nWe never spoke to one another. To speak would be to break the fragile covenant of the night bus: *we are not really here.* We were just cargo, being shipped back to our lives.\n\nI remember the winter months most vividly. The windows would fog up with the collective breath of twenty tired people. I would sit in the back, the engine\u2019s heat rising through the metal seat, and use my finger to draw lines in the condensation. Outside, the city was a blur of neon and streetlights, smeared by the rain or snow. It felt like being inside a submarine, drifting through a dark ocean. I spent those hours untangling the knots of my day, replaying conversations, drafting emails I would never send, and wondering if I was the only one who felt like they were failing at being an adult.\n\nThere is a specific kind of loneliness that comes from being awake when the rest of the world sleeps, but there is also a specific kind of comfort in it. On that bus, I was invisible. No one expected anything from me. I didn't have to be smart, or capable, or polite. I just had to sit.\n\nSpring arrived slowly. The condensation faded. The woman in the sensible shoes started wearing lighter colors. The man with the chicken bag switched to a plastic sack. The air on the bus changed from heavy and stale to something slightly more breathable.\n\nI stopped taking the bus a year later when I changed jobs. I moved to a day shift, joining the ranks of the morning commuters with their coffee cups and their determined strides. But sometimes, when I\u2019m driving home in the early evening, I see the bus pulling away from a stop, its interior lights glowing yellow against the twilight. I look for the woman in the third row, or the man with his dinner.\n\nI don't miss the exhaustion, and I don't miss the feeling that my life was on hold. But I miss the stillness. I miss that forty-five minutes where the only responsibility I had was to stay on the vehicle until it reached my stop. For a year, that bus was the only place where I didn't have to pretend I had it all figured out. It was a moving room where I could just be tired, and that was enough.",
+  "run_name": "2026-03-08-openrouter-v0-2-clean-3"
+}

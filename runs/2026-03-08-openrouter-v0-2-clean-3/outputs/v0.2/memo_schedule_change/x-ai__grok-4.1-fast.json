@@ -1,0 +1,56 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.2",
+  "candidate_label": "Grok 4.1 Fast",
+  "candidate_model_id": "x-ai/grok-4.1-fast",
+  "created_at": "2026-03-08T12:25:58Z",
+  "metadata": {
+    "finish_reason": "stop",
+    "generation_attempt": 1,
+    "generation_settings": {
+      "max_output_tokens": 10000,
+      "reasoning_effort": "medium"
+    },
+    "id": "gen-1772972748-s58X5Z7GjMB9tMtIH4xN",
+    "quality_guard": {
+      "minimum_words": 100,
+      "reason": "",
+      "status": "ok",
+      "word_count": 245
+    },
+    "raw_response_text": "**INTERNAL MEMO**\n\n**To:** All Warehouse Employees  \n**From:** Maria Gonzalez, Warehouse Operations Manager  \n**Date:** November 15, 2023  \n**Subject:** Shift Schedule Changes Effective December 1, 2023 \u2013 Preparing for Holiday Peak Season  \n\nDear Warehouse Team,  \n\nAs we gear up for the busy holiday season, our order volumes are projected to increase by 40% compared to last year. To ensure we meet customer demands and maintain our high service standards, we are implementing temporary shift schedule changes starting **December 1, 2023, through January 5, 2024**.  \n\n**Key Changes:**  \n- **Day Shift (A & B Crews):** 6:00 AM \u2013 5:00 PM (10-hour shifts, Monday\u2013Saturday)  \n- **Evening Shift (C Crew):** 4:00 PM \u2013 2:00 AM (10-hour shifts, Monday\u2013Saturday)  \n- **Night Shift (D Crew):** 10:00 PM \u2013 8:00 AM (10-hour shifts, Tuesday\u2013Sunday)  \n- All employees will rotate crews weekly to balance workload.  \n- Overtime pay at 1.5x will apply for hours over 40 per week; double time for Sundays/holidays.  \n\nYour hard work during this period is crucial to our success, and we appreciate your flexibility. Seniority will be considered for shift preferences where possible\u2014submit requests to your supervisor by November 25.  \n\nIf you have questions or need accommodations, please contact your shift supervisor or HR at ext. 212 immediately. Full details and the rotation calendar are posted on the warehouse bulletin board and employee portal.  \n\nThank you for your dedication\u2014let's make this holiday season our best yet!  \n\nBest regards,  \nMaria Gonzalez  \nWarehouse Operations Manager  \nABC Distribution Center  \nPhone: (555) 123-4567  \nEmail: mgonzalez@abcdist.com",
+    "sanitization": {
+      "changed": false,
+      "patterns": [],
+      "removed_chars": 0,
+      "removed_ratio": 0.0
+    },
+    "usage": {
+      "completion_tokens": 746,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 355
+      },
+      "cost": 0.00039085,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.000373,
+        "upstream_inference_cost": 0.00039085,
+        "upstream_inference_prompt_cost": 1.785e-05
+      },
+      "is_byok": false,
+      "prompt_tokens": 201,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 149,
+        "video_tokens": 0
+      },
+      "total_tokens": 947
+    }
+  },
+  "prompt_category": "memo",
+  "prompt_id": "memo_schedule_change",
+  "response_text": "**INTERNAL MEMO**\n\n**To:** All Warehouse Employees  \n**From:** Maria Gonzalez, Warehouse Operations Manager  \n**Date:** November 15, 2023  \n**Subject:** Shift Schedule Changes Effective December 1, 2023 \u2013 Preparing for Holiday Peak Season  \n\nDear Warehouse Team,  \n\nAs we gear up for the busy holiday season, our order volumes are projected to increase by 40% compared to last year. To ensure we meet customer demands and maintain our high service standards, we are implementing temporary shift schedule changes starting **December 1, 2023, through January 5, 2024**.  \n\n**Key Changes:**  \n- **Day Shift (A & B Crews):** 6:00 AM \u2013 5:00 PM (10-hour shifts, Monday\u2013Saturday)  \n- **Evening Shift (C Crew):** 4:00 PM \u2013 2:00 AM (10-hour shifts, Monday\u2013Saturday)  \n- **Night Shift (D Crew):** 10:00 PM \u2013 8:00 AM (10-hour shifts, Tuesday\u2013Sunday)  \n- All employees will rotate crews weekly to balance workload.  \n- Overtime pay at 1.5x will apply for hours over 40 per week; double time for Sundays/holidays.  \n\nYour hard work during this period is crucial to our success, and we appreciate your flexibility. Seniority will be considered for shift preferences where possible\u2014submit requests to your supervisor by November 25.  \n\nIf you have questions or need accommodations, please contact your shift supervisor or HR at ext. 212 immediately. Full details and the rotation calendar are posted on the warehouse bulletin board and employee portal.  \n\nThank you for your dedication\u2014let's make this holiday season our best yet!  \n\nBest regards,  \nMaria Gonzalez  \nWarehouse Operations Manager  \nABC Distribution Center  \nPhone: (555) 123-4567  \nEmail: mgonzalez@abcdist.com",
+  "run_name": "2026-03-08-openrouter-v0-2-clean-3"
+}

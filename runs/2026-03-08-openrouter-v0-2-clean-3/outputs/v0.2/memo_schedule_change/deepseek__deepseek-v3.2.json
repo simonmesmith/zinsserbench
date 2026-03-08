@@ -1,0 +1,56 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.2",
+  "candidate_label": "DeepSeek V3.2",
+  "candidate_model_id": "deepseek/deepseek-v3.2",
+  "created_at": "2026-03-08T12:27:04Z",
+  "metadata": {
+    "finish_reason": "stop",
+    "generation_attempt": 1,
+    "generation_settings": {
+      "max_output_tokens": 10000,
+      "reasoning_effort": "medium"
+    },
+    "id": "gen-1772972756-BuxjJj43on2EsMZQPZmW",
+    "quality_guard": {
+      "minimum_words": 100,
+      "reason": "",
+      "status": "ok",
+      "word_count": 290
+    },
+    "raw_response_text": "**MEMORANDUM**\n\n**TO:** All Warehouse Employees  \n**FROM:** Warehouse Management  \n**DATE:** October 26, 2023  \n**SUBJECT:** Updated Shift Schedules for the 2023 Holiday Season  \n\nAs we approach the busy holiday season, we are implementing temporary adjustments to our shift schedules to accommodate the anticipated increase in order volume and ensure we meet our customer delivery commitments. These changes will be in effect from **Monday, November 20, 2023, through Friday, January 5, 2024**.\n\nThe primary goal is to maximize our operational efficiency during this critical period. We sincerely appreciate your flexibility and dedication, which are vital to our collective success.\n\n**New Temporary Shift Schedule:**\n\n*   **Shift A:** 6:00 AM \u2013 2:30 PM (No change)\n*   **Shift B:** 2:00 PM \u2013 10:30 PM (New start time, previously 3:00 PM)\n*   **Shift C (New Overnight Shift):** 10:00 PM \u2013 6:30 AM\n\n**Key Details:**\n\n1.  **Shift Assignments:** Your individual shift assignment for this period will be communicated directly by your shift supervisor by **Friday, November 3**. Every effort has been made to consider existing preferences and seniority.\n2.  **Overtime & Premium Pay:** Approved overtime opportunities will be available. All work performed on recognized holidays will be compensated at the premium rate as outlined in the employee handbook.\n3.  **Breaks and Meals:** All standard break and meal period policies remain unchanged for each shift.\n\nWe understand that schedule changes can be disruptive. If you have a significant, pre-existing conflict with your assigned temporary schedule, please discuss it with your direct supervisor **no later than November 10** so we can explore possible solutions.\n\nThank you for your hard work and adaptability. Your efforts are what make our holiday season operations run smoothly. Please direct any immediate questions to your shift supervisor.\n\nLet's have a safe, productive, and successful season.",
+    "sanitization": {
+      "changed": false,
+      "patterns": [],
+      "removed_chars": 0,
+      "removed_ratio": 0.0
+    },
+    "usage": {
+      "completion_tokens": 582,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 217
+      },
+      "cost": 0.00023182,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.00022116,
+        "upstream_inference_cost": 0.00023182,
+        "upstream_inference_prompt_cost": 1.066e-05
+      },
+      "is_byok": false,
+      "prompt_tokens": 49,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 16,
+        "video_tokens": 0
+      },
+      "total_tokens": 631
+    }
+  },
+  "prompt_category": "memo",
+  "prompt_id": "memo_schedule_change",
+  "response_text": "**MEMORANDUM**\n\n**TO:** All Warehouse Employees  \n**FROM:** Warehouse Management  \n**DATE:** October 26, 2023  \n**SUBJECT:** Updated Shift Schedules for the 2023 Holiday Season  \n\nAs we approach the busy holiday season, we are implementing temporary adjustments to our shift schedules to accommodate the anticipated increase in order volume and ensure we meet our customer delivery commitments. These changes will be in effect from **Monday, November 20, 2023, through Friday, January 5, 2024**.\n\nThe primary goal is to maximize our operational efficiency during this critical period. We sincerely appreciate your flexibility and dedication, which are vital to our collective success.\n\n**New Temporary Shift Schedule:**\n\n*   **Shift A:** 6:00 AM \u2013 2:30 PM (No change)\n*   **Shift B:** 2:00 PM \u2013 10:30 PM (New start time, previously 3:00 PM)\n*   **Shift C (New Overnight Shift):** 10:00 PM \u2013 6:30 AM\n\n**Key Details:**\n\n1.  **Shift Assignments:** Your individual shift assignment for this period will be communicated directly by your shift supervisor by **Friday, November 3**. Every effort has been made to consider existing preferences and seniority.\n2.  **Overtime & Premium Pay:** Approved overtime opportunities will be available. All work performed on recognized holidays will be compensated at the premium rate as outlined in the employee handbook.\n3.  **Breaks and Meals:** All standard break and meal period policies remain unchanged for each shift.\n\nWe understand that schedule changes can be disruptive. If you have a significant, pre-existing conflict with your assigned temporary schedule, please discuss it with your direct supervisor **no later than November 10** so we can explore possible solutions.\n\nThank you for your hard work and adaptability. Your efforts are what make our holiday season operations run smoothly. Please direct any immediate questions to your shift supervisor.\n\nLet's have a safe, productive, and successful season.",
+  "run_name": "2026-03-08-openrouter-v0-2-clean-3"
+}

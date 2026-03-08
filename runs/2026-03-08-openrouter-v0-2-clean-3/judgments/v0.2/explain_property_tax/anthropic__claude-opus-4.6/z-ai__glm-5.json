@@ -1,0 +1,47 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.2",
+  "candidate_model_id": "anthropic/claude-opus-4.6",
+  "created_at": "2026-03-08T13:34:32Z",
+  "judge_model_id": "z-ai/glm-5",
+  "metadata": {
+    "id": "gen-1772976855-BMp6TSAWaHxwubwBask1",
+    "raw_text": "```json\n{\n  \"scores\": {\n    \"clarity\": 5,\n    \"simplicity\": 5,\n    \"brevity_economy\": 4,\n    \"structure_flow\": 5,\n    \"specificity_precision\": 5,\n    \"humanity_voice\": 5,\n    \"overall\": 5\n  },\n  \"rationale\": \"Excellent plain-English explainer. The two-ingredient framework (assessed value \u00d7 tax rate) is intuitive and well-executed. Concrete examples ($300,000 home, $200,000 calculation) ground abstract concepts. The piece anticipates reader questions\u2014why bills change, how to appeal\u2014and answers them with specific, actionable detail. Headings and subheadings make navigation easy. Tone is helpful and human without being condescending. Slightly long for some contexts, but the length serves the comprehensive purpose.\"\n}\n```",
+    "usage": {
+      "completion_tokens": 348,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 172
+      },
+      "cost": 0.00281712,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.00089088,
+        "upstream_inference_cost": 0.00281712,
+        "upstream_inference_prompt_cost": 0.00192624
+      },
+      "is_byok": false,
+      "prompt_tokens": 2459,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 64,
+        "video_tokens": 0
+      },
+      "total_tokens": 2807
+    }
+  },
+  "prompt_category": "explain",
+  "prompt_id": "explain_property_tax",
+  "rationale": "Excellent plain-English explainer. The two-ingredient framework (assessed value \u00d7 tax rate) is intuitive and well-executed. Concrete examples ($300,000 home, $200,000 calculation) ground abstract concepts. The piece anticipates reader questions\u2014why bills change, how to appeal\u2014and answers them with specific, actionable detail. Headings and subheadings make navigation easy. Tone is helpful and human without being condescending. Slightly long for some contexts, but the length serves the comprehensive purpose.",
+  "run_name": "2026-03-08-openrouter-v0-2-clean-3",
+  "scores": {
+    "brevity_economy": 4,
+    "clarity": 5,
+    "humanity_voice": 5,
+    "overall": 5,
+    "simplicity": 5,
+    "specificity_precision": 5,
+    "structure_flow": 5
+  }
+}

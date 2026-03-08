@@ -1,0 +1,47 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.2",
+  "candidate_model_id": "google/gemini-3.1-pro-preview",
+  "created_at": "2026-03-08T12:47:38Z",
+  "judge_model_id": "anthropic/claude-opus-4.6",
+  "metadata": {
+    "id": "gen-1772974043-HWBISzUvKxTRQ1Q8bLuz",
+    "raw_text": "{\"scores\": {\"clarity\": 5, \"simplicity\": 5, \"brevity_economy\": 4, \"structure_flow\": 5, \"specificity_precision\": 5, \"humanity_voice\": 4, \"overall\": 5}, \"rationale\": \"Exceptionally clear step-by-step structure with logical progression from problem definition through follow-up. Language is plain and direct throughout. Highly specific: includes a sample agenda with minute-by-minute allocations, concrete example data ('I counted 40 cars speeding past the stop sign between 8 and 9 AM'), named platforms (Nextdoor, Zoom), and actionable follow-up options like requesting a traffic study. Minor dings: the opening paragraph has a touch of motivational throat-clearing ('reclaiming your street'), and the closing is slightly platitude-heavy ('catalyst for meaningful change'). Voice is warm and reader-aware but not notably distinctive. Overall, this is a model practical guide\u2014comprehensive, concrete, and immediately usable.\"}",
+    "usage": {
+      "completion_tokens": 611,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 389
+      },
+      "cost": 0.022815,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.015275,
+        "upstream_inference_cost": 0.022815,
+        "upstream_inference_prompt_cost": 0.00754
+      },
+      "is_byok": false,
+      "prompt_tokens": 1508,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 2119
+    }
+  },
+  "prompt_category": "service_howto",
+  "prompt_id": "howto_neighborhood_meeting",
+  "rationale": "Exceptionally clear step-by-step structure with logical progression from problem definition through follow-up. Language is plain and direct throughout. Highly specific: includes a sample agenda with minute-by-minute allocations, concrete example data ('I counted 40 cars speeding past the stop sign between 8 and 9 AM'), named platforms (Nextdoor, Zoom), and actionable follow-up options like requesting a traffic study. Minor dings: the opening paragraph has a touch of motivational throat-clearing ('reclaiming your street'), and the closing is slightly platitude-heavy ('catalyst for meaningful change'). Voice is warm and reader-aware but not notably distinctive. Overall, this is a model practical guide\u2014comprehensive, concrete, and immediately usable.",
+  "run_name": "2026-03-08-openrouter-v0-2-clean-3",
+  "scores": {
+    "brevity_economy": 4,
+    "clarity": 5,
+    "humanity_voice": 4,
+    "overall": 5,
+    "simplicity": 5,
+    "specificity_precision": 5,
+    "structure_flow": 5
+  }
+}

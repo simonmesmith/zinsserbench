@@ -1,0 +1,47 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.2",
+  "candidate_model_id": "anthropic/claude-sonnet-4.6",
+  "created_at": "2026-03-08T13:11:19Z",
+  "judge_model_id": "z-ai/glm-5",
+  "metadata": {
+    "id": "gen-1772975462-Rag0tGmLrF5dgJTKj5qf",
+    "raw_text": "{\"scores\": {\"clarity\": 5, \"simplicity\": 5, \"brevity_economy\": 5, \"structure_flow\": 5, \"specificity_precision\": 5, \"humanity_voice\": 5, \"overall\": 5}, \"rationale\": \"Excellent consumer explainer that opens with a relatable scenario, then systematically covers what recalls are, how to identify affected products, and concrete steps to take. Uses plain language throughout while providing specific details like agency URLs, exact bleach-to-water ratios for cleaning, and clear definitions of recall classes. The structure guides readers logically from understanding to action, with a helpful clarification about 'voluntary' recalls and a concise bottom-line summary.\"}",
+    "usage": {
+      "completion_tokens": 676,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 638
+      },
+      "cost": 0.0036142,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.0021632,
+        "upstream_inference_cost": 0.0036142,
+        "upstream_inference_prompt_cost": 0.001451
+      },
+      "is_byok": false,
+      "prompt_tokens": 1451,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 2127
+    }
+  },
+  "prompt_category": "explain",
+  "prompt_id": "explain_food_recall",
+  "rationale": "Excellent consumer explainer that opens with a relatable scenario, then systematically covers what recalls are, how to identify affected products, and concrete steps to take. Uses plain language throughout while providing specific details like agency URLs, exact bleach-to-water ratios for cleaning, and clear definitions of recall classes. The structure guides readers logically from understanding to action, with a helpful clarification about 'voluntary' recalls and a concise bottom-line summary.",
+  "run_name": "2026-03-08-openrouter-v0-2-clean-3",
+  "scores": {
+    "brevity_economy": 5,
+    "clarity": 5,
+    "humanity_voice": 5,
+    "overall": 5,
+    "simplicity": 5,
+    "specificity_precision": 5,
+    "structure_flow": 5
+  }
+}

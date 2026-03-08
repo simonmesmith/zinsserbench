@@ -1,0 +1,56 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.2",
+  "candidate_label": "Grok 4.1 Fast",
+  "candidate_model_id": "x-ai/grok-4.1-fast",
+  "created_at": "2026-03-08T11:57:23Z",
+  "metadata": {
+    "finish_reason": "stop",
+    "generation_attempt": 1,
+    "generation_settings": {
+      "max_output_tokens": 10000,
+      "reasoning_effort": "medium"
+    },
+    "id": "gen-1772971030-KRfNsXsinX5AzHUNUgOB",
+    "quality_guard": {
+      "minimum_words": 120,
+      "reason": "",
+      "status": "ok",
+      "word_count": 379
+    },
+    "raw_response_text": "### Heat Pumps 101: How They Work and Why Choose One Over a Gas Furnace\n\n**How Heat Pumps Work**  \nUnlike traditional furnaces that burn fuel to create heat, heat pumps **move heat** from one place to another using electricity\u2014much like a refrigerator in reverse. Here's the simple breakdown:\n\n1. **Outdoor Unit**: Contains a fan and coils with refrigerant (a special fluid that absorbs and releases heat easily). In heating mode, it pulls low-temperature heat from outside air\u2014even on chilly days down to -15\u00b0F for modern models.\n\n2. **Heat Transfer**: The refrigerant evaporates in the outdoor coils, absorbing outdoor heat, then gets compressed to raise its temperature. This hot refrigerant flows indoors.\n\n3. **Indoor Unit**: The hot refrigerant releases its heat through indoor coils (like a radiator), warming your home. A fan blows air over the coils to distribute the heat.\n\n4. **Reversing for Cooling**: In summer, the process flips: heat is pulled from inside and dumped outside, making it an air conditioner too.\n\nMost homes use **air-source heat pumps** (cheapest and easiest to install). Ground-source (geothermal) versions tap stable underground heat but cost more upfront.\n\n**Why Choose a Heat Pump Over a Gas Furnace?**  \n- **Efficiency and Savings**: Heat pumps deliver 2\u20134 units of heat per unit of electricity (called COP, or coefficient of performance), vs. a gas furnace's ~0.95 efficiency. Expect 30\u201350% lower energy bills, especially with rising gas prices or time-of-use electricity rates.\n  \n- **Eco-Friendly**: No fossil fuel combustion means zero direct emissions. Pair with solar or renewables for near-zero carbon heating. Gas furnaces release CO\u2082 and pollutants.\n\n- **All-in-One System**: Heats, cools, and often dehumidifies\u2014no separate AC needed. Simpler maintenance and longer life (15\u201320 years).\n\n- **Safety and Comfort**: No gas leaks, carbon monoxide risks, or combustion odors. They provide steady, even heat without the temperature swings of furnaces.\n\n- **Incentives**: U.S. Inflation Reduction Act offers up to $2,000 tax credits + rebates (up to $8,000 via utilities). Payback in 5\u201310 years.\n\n**Caveats**: In extreme cold (< -15\u00b0F), efficiency drops, so pair with a backup or choose cold-climate models. Installation costs $4,000\u2013$8,000 (less than gas + AC), but get quotes from certified pros.\n\nHeat pumps are a reliable, future-proof upgrade\u2014perfect if you're remodeling, going electric, or cutting costs. Check energy.gov or your utility for local rebates!",
+    "sanitization": {
+      "changed": false,
+      "patterns": [],
+      "removed_chars": 0,
+      "removed_ratio": 0.0
+    },
+    "usage": {
+      "completion_tokens": 848,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 303
+      },
+      "cost": 0.00044285,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.000424,
+        "upstream_inference_cost": 0.00044285,
+        "upstream_inference_prompt_cost": 1.885e-05
+      },
+      "is_byok": false,
+      "prompt_tokens": 206,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 149,
+        "video_tokens": 0
+      },
+      "total_tokens": 1054
+    }
+  },
+  "prompt_category": "explain",
+  "prompt_id": "explain_heat_pumps",
+  "response_text": "### Heat Pumps 101: How They Work and Why Choose One Over a Gas Furnace\n\n**How Heat Pumps Work**  \nUnlike traditional furnaces that burn fuel to create heat, heat pumps **move heat** from one place to another using electricity\u2014much like a refrigerator in reverse. Here's the simple breakdown:\n\n1. **Outdoor Unit**: Contains a fan and coils with refrigerant (a special fluid that absorbs and releases heat easily). In heating mode, it pulls low-temperature heat from outside air\u2014even on chilly days down to -15\u00b0F for modern models.\n\n2. **Heat Transfer**: The refrigerant evaporates in the outdoor coils, absorbing outdoor heat, then gets compressed to raise its temperature. This hot refrigerant flows indoors.\n\n3. **Indoor Unit**: The hot refrigerant releases its heat through indoor coils (like a radiator), warming your home. A fan blows air over the coils to distribute the heat.\n\n4. **Reversing for Cooling**: In summer, the process flips: heat is pulled from inside and dumped outside, making it an air conditioner too.\n\nMost homes use **air-source heat pumps** (cheapest and easiest to install). Ground-source (geothermal) versions tap stable underground heat but cost more upfront.\n\n**Why Choose a Heat Pump Over a Gas Furnace?**  \n- **Efficiency and Savings**: Heat pumps deliver 2\u20134 units of heat per unit of electricity (called COP, or coefficient of performance), vs. a gas furnace's ~0.95 efficiency. Expect 30\u201350% lower energy bills, especially with rising gas prices or time-of-use electricity rates.\n  \n- **Eco-Friendly**: No fossil fuel combustion means zero direct emissions. Pair with solar or renewables for near-zero carbon heating. Gas furnaces release CO\u2082 and pollutants.\n\n- **All-in-One System**: Heats, cools, and often dehumidifies\u2014no separate AC needed. Simpler maintenance and longer life (15\u201320 years).\n\n- **Safety and Comfort**: No gas leaks, carbon monoxide risks, or combustion odors. They provide steady, even heat without the temperature swings of furnaces.\n\n- **Incentives**: U.S. Inflation Reduction Act offers up to $2,000 tax credits + rebates (up to $8,000 via utilities). Payback in 5\u201310 years.\n\n**Caveats**: In extreme cold (< -15\u00b0F), efficiency drops, so pair with a backup or choose cold-climate models. Installation costs $4,000\u2013$8,000 (less than gas + AC), but get quotes from certified pros.\n\nHeat pumps are a reliable, future-proof upgrade\u2014perfect if you're remodeling, going electric, or cutting costs. Check energy.gov or your utility for local rebates!",
+  "run_name": "2026-03-08-openrouter-v0-2-clean-3"
+}

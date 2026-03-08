@@ -1,0 +1,47 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.2",
+  "candidate_model_id": "minimax/minimax-m2.5",
+  "created_at": "2026-03-08T13:17:01Z",
+  "judge_model_id": "anthropic/claude-opus-4.6",
+  "metadata": {
+    "id": "gen-1772975812-Pf6WhuhMfxSIQWkK1j58",
+    "raw_text": "{\"scores\": {\"clarity\": 5, \"simplicity\": 5, \"brevity_economy\": 3, \"structure_flow\": 5, \"specificity_precision\": 4, \"humanity_voice\": 5, \"overall\": 4}, \"rationale\": \"Exceptionally clear and readable prose with a strong narrative voice. The writing is direct and plain without being flat\u2014sentences like 'The walls are the color of old teeth' show craft without inflation. Structure is excellent: the day unfolds chronologically with well-placed contextual breaks that weave in systemic issues naturally. Specificity is strong with concrete details (438 cases, $58,000 salary, 2:15 a.m. arrest), though since this is a fictional composite rather than real reporting, some details feel manufactured to serve the narrative rather than discovered through journalism. The main weakness is economy: the piece is notably repetitive\u2014the cold coffee motif appears three times, the exhaustion/tiredness theme is hammered repeatedly, and the ending stretches across two sections that say essentially the same thing. The final paragraphs pile on emotional beats (tired in a way that goes beyond sleep, still fighting, she always is) that dilute rather than strengthen the close. The daughter subplot feels like a convenient narrative device. The humanity and voice are the piece's greatest strength\u2014it reads like a skilled magazine profile, with genuine empathy that avoids sentimentality for the most part, though it tips into it at the end.\"}",
+    "usage": {
+      "completion_tokens": 326,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 0
+      },
+      "cost": 0.02023,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.00815,
+        "upstream_inference_cost": 0.02023,
+        "upstream_inference_prompt_cost": 0.01208
+      },
+      "is_byok": false,
+      "prompt_tokens": 2416,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 2742
+    }
+  },
+  "prompt_category": "profile",
+  "prompt_id": "profile_public_defender",
+  "rationale": "Exceptionally clear and readable prose with a strong narrative voice. The writing is direct and plain without being flat\u2014sentences like 'The walls are the color of old teeth' show craft without inflation. Structure is excellent: the day unfolds chronologically with well-placed contextual breaks that weave in systemic issues naturally. Specificity is strong with concrete details (438 cases, $58,000 salary, 2:15 a.m. arrest), though since this is a fictional composite rather than real reporting, some details feel manufactured to serve the narrative rather than discovered through journalism. The main weakness is economy: the piece is notably repetitive\u2014the cold coffee motif appears three times, the exhaustion/tiredness theme is hammered repeatedly, and the ending stretches across two sections that say essentially the same thing. The final paragraphs pile on emotional beats (tired in a way that goes beyond sleep, still fighting, she always is) that dilute rather than strengthen the close. The daughter subplot feels like a convenient narrative device. The humanity and voice are the piece's greatest strength\u2014it reads like a skilled magazine profile, with genuine empathy that avoids sentimentality for the most part, though it tips into it at the end.",
+  "run_name": "2026-03-08-openrouter-v0-2-clean-3",
+  "scores": {
+    "brevity_economy": 3,
+    "clarity": 5,
+    "humanity_voice": 5,
+    "overall": 4,
+    "simplicity": 5,
+    "specificity_precision": 4,
+    "structure_flow": 5
+  }
+}

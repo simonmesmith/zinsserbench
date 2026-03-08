@@ -1,0 +1,47 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.2",
+  "candidate_model_id": "minimax/minimax-m2.5",
+  "created_at": "2026-03-08T13:22:09Z",
+  "judge_model_id": "z-ai/glm-5",
+  "metadata": {
+    "id": "gen-1772976113-qkCpUIvAB6J9XD7ZaV7c",
+    "raw_text": "{\"scores\": {\"clarity\": 5, \"simplicity\": 5, \"brevity_economy\": 4, \"structure_flow\": 5, \"specificity_precision\": 5, \"humanity_voice\": 5, \"overall\": 5}, \"rationale\": \"Excellent practical guide with clear sections, plain language, and concrete details (2-5 minutes, 300-500 words, arrive 20-30 minutes early). The organization is logical and progressive. Tone is warm and encouraging\u2014acknowledging nerves, reminding readers that board members are parents too\u2014without being patronizing. Slightly comprehensive where it could be more concise, but the thoroughness serves the practical purpose well.\"}",
+    "usage": {
+      "completion_tokens": 473,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 354
+      },
+      "cost": 0.00142624,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.00121088,
+        "upstream_inference_cost": 0.00142624,
+        "upstream_inference_prompt_cost": 0.00021536
+      },
+      "is_byok": false,
+      "prompt_tokens": 1242,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 1216,
+        "video_tokens": 0
+      },
+      "total_tokens": 1715
+    }
+  },
+  "prompt_category": "service_howto",
+  "prompt_id": "howto_school_board_comment",
+  "rationale": "Excellent practical guide with clear sections, plain language, and concrete details (2-5 minutes, 300-500 words, arrive 20-30 minutes early). The organization is logical and progressive. Tone is warm and encouraging\u2014acknowledging nerves, reminding readers that board members are parents too\u2014without being patronizing. Slightly comprehensive where it could be more concise, but the thoroughness serves the practical purpose well.",
+  "run_name": "2026-03-08-openrouter-v0-2-clean-3",
+  "scores": {
+    "brevity_economy": 4,
+    "clarity": 5,
+    "humanity_voice": 5,
+    "overall": 5,
+    "simplicity": 5,
+    "specificity_precision": 5,
+    "structure_flow": 5
+  }
+}

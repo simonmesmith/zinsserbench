@@ -1,0 +1,47 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.2",
+  "candidate_model_id": "qwen/qwen3.5-35b-a3b",
+  "created_at": "2026-03-08T12:49:18Z",
+  "judge_model_id": "anthropic/claude-opus-4.6",
+  "metadata": {
+    "id": "gen-1772974142-3rvABOTDEPXLJDfaVKlo",
+    "raw_text": "{\"scores\": {\"clarity\": 5, \"simplicity\": 5, \"brevity_economy\": 4, \"structure_flow\": 5, \"specificity_precision\": 5, \"humanity_voice\": 4, \"overall\": 5}, \"rationale\": \"Exceptionally clear and well-organized guide. The five-phase structure mirrors a natural chronological workflow, making it intuitive. Specificity is a standout strength: concrete time windows (6-8 PM), minute-by-minute agenda breakdowns, named venue types, and named official roles (traffic engineer, community policing officer). Language is plain and direct throughout\u2014no jargon or filler. Brevity loses a half-point only because a few transitional sentences (e.g., the last paragraph) edge toward motivational boilerplate. Voice is warm and reader-aware ('Vague complaints are easily dismissed; documented concerns demand attention' is sharp), though its polished template format slightly dampens a sense of personal engagement. The 'Pro Tips' section adds genuine tactical value (budget cycle awareness, framing around safety not blame). Overall, this is a near-ideal response to the prompt.\"}",
+    "usage": {
+      "completion_tokens": 647,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 399
+      },
+      "cost": 0.025195,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.016175,
+        "upstream_inference_cost": 0.025195,
+        "upstream_inference_prompt_cost": 0.00902
+      },
+      "is_byok": false,
+      "prompt_tokens": 1804,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 2451
+    }
+  },
+  "prompt_category": "service_howto",
+  "prompt_id": "howto_neighborhood_meeting",
+  "rationale": "Exceptionally clear and well-organized guide. The five-phase structure mirrors a natural chronological workflow, making it intuitive. Specificity is a standout strength: concrete time windows (6-8 PM), minute-by-minute agenda breakdowns, named venue types, and named official roles (traffic engineer, community policing officer). Language is plain and direct throughout\u2014no jargon or filler. Brevity loses a half-point only because a few transitional sentences (e.g., the last paragraph) edge toward motivational boilerplate. Voice is warm and reader-aware ('Vague complaints are easily dismissed; documented concerns demand attention' is sharp), though its polished template format slightly dampens a sense of personal engagement. The 'Pro Tips' section adds genuine tactical value (budget cycle awareness, framing around safety not blame). Overall, this is a near-ideal response to the prompt.",
+  "run_name": "2026-03-08-openrouter-v0-2-clean-3",
+  "scores": {
+    "brevity_economy": 4,
+    "clarity": 5,
+    "humanity_voice": 4,
+    "overall": 5,
+    "simplicity": 5,
+    "specificity_precision": 5,
+    "structure_flow": 5
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.2",
+  "candidate_model_id": "x-ai/grok-4.1-fast",
+  "created_at": "2026-03-08T13:11:41Z",
+  "judge_model_id": "z-ai/glm-5",
+  "metadata": {
+    "id": "gen-1772975488-hlALsyNAg0fyL1V0oLeR",
+    "raw_text": "{\"scores\": {\"clarity\": 5, \"simplicity\": 5, \"brevity_economy\": 4, \"structure_flow\": 5, \"specificity_precision\": 5, \"humanity_voice\": 4, \"overall\": 5}, \"rationale\": \"A well-crafted consumer explainer that clearly defines food recalls, explains risk classifications, and provides actionable step-by-step guidance. Uses plain language, specific examples (Salmonella, lot codes, UPC barcodes), and logical organization with helpful headers. Slightly thorough for quick reference but appropriately comprehensive for the topic. Tone is helpful and reassuring without being patronizing.\"}",
+    "usage": {
+      "completion_tokens": 675,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 538
+      },
+      "cost": 0.00328145,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.00212625,
+        "upstream_inference_cost": 0.00328145,
+        "upstream_inference_prompt_cost": 0.0011552
+      },
+      "is_byok": false,
+      "prompt_tokens": 1216,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 1891
+    }
+  },
+  "prompt_category": "explain",
+  "prompt_id": "explain_food_recall",
+  "rationale": "A well-crafted consumer explainer that clearly defines food recalls, explains risk classifications, and provides actionable step-by-step guidance. Uses plain language, specific examples (Salmonella, lot codes, UPC barcodes), and logical organization with helpful headers. Slightly thorough for quick reference but appropriately comprehensive for the topic. Tone is helpful and reassuring without being patronizing.",
+  "run_name": "2026-03-08-openrouter-v0-2-clean-3",
+  "scores": {
+    "brevity_economy": 4,
+    "clarity": 5,
+    "humanity_voice": 4,
+    "overall": 5,
+    "simplicity": 5,
+    "specificity_precision": 5,
+    "structure_flow": 5
+  }
+}

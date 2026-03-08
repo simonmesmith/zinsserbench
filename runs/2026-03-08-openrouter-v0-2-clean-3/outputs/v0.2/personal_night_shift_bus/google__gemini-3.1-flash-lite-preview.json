@@ -1,0 +1,56 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.2",
+  "candidate_label": "Gemini 3.1 Flash Lite Preview",
+  "candidate_model_id": "google/gemini-3.1-flash-lite-preview",
+  "created_at": "2026-03-08T12:22:07Z",
+  "metadata": {
+    "finish_reason": "stop",
+    "generation_attempt": 1,
+    "generation_settings": {
+      "max_output_tokens": 10000,
+      "reasoning_effort": "medium"
+    },
+    "id": "gen-1772972519-uaEOkZqcsr3fJtB6PKG4",
+    "quality_guard": {
+      "minimum_words": 200,
+      "reason": "",
+      "status": "ok",
+      "word_count": 728
+    },
+    "raw_response_text": "The 12:45 a.m. bus does not arrive; it manifests. It emerges from the dark, wet throat of the city, its headlights cutting through the gloom like two pale, unblinking eyes. For a year, this bus has been my decompression chamber, the liminal space between the person I am expected to be and the person I am allowed to be when I finally turn the key in my own front door.\n\nThere is a specific, heavy silence that defines the late-night commute. It is not the silence of a library or a church, but the silence of exhaustion. When I step onto the bus, the air is always a few degrees warmer than the street, smelling faintly of ozone, damp wool, and the lingering, metallic tang of the brakes. \n\nI have become a regular, a ghost in the machine. I know the rhythm of the driver, a man whose name I don\u2019t know but whose steady, rhythmic tapping on the steering wheel has become the metronome of my nights. I know the regulars, too. There is the woman in the blue scrubs who sits in the third row, her head lolling against the window, her eyes closed in a sleep so profound it looks like a surrender. There is the man with the oversized guitar case who always sits at the very back, staring at his reflection in the dark glass, his fingers tracing the edge of the case as if he\u2019s afraid to let go.\n\nWe are a tribe of the tired. We share an unspoken pact: we acknowledge each other\u2019s existence only by the distance we maintain. We are all protecting our own small, fragile bubbles of solitude. To speak would be to break the spell, to force us back into the social contract of the daylight world. So, we sit in our assigned seats, watching the city blur past us\u2014a smear of amber streetlights, shuttered storefronts, and the occasional neon sign flickering in the rain.\n\nOver the course of a year, the bus has become a mirror for the seasons. In the winter, the windows were perpetually fogged, and we were huddled shapes in heavy coats, our breath blooming in the cold air. In the spring, the bus felt like a greenhouse, humid and smelling of wet pavement and budding trees. By summer, the air conditioning hummed a low, aggressive tune, fighting the heat that radiated off the asphalt. \n\nI have watched the city change from this seat. I\u2019ve seen construction sites rise from skeletal steel frames to glass-clad towers. I\u2019ve seen the same homeless man sleeping on the same bench for three months, then disappearing, then reappearing again. I have felt my own life change, too. I have carried the weight of bad days and the quiet hum of good ones onto this bus, and every time, the motion of the vehicle has smoothed the edges of my mood. There is something about the steady, forward momentum of the bus that makes the problems of the day feel smaller, more manageable.\n\nNow, my year of riding the 12:45 is coming to an end. I am moving to a different part of the city, a place where the bus doesn't run. \n\nOn my final night, I find myself looking at the other passengers with a sudden, sharp pang of nostalgia. I wonder where the woman in the scrubs goes when she finally gets off. I wonder if the man with the guitar ever plays it, or if it\u2019s just a vessel for his dreams. I realize that while we never exchanged a word, we have been witnesses to each other\u2019s lives. We have shared the quietest, most vulnerable hours of the day.\n\nWhen the bus pulls up to my stop, the air brakes hiss\u2014a sound that has become the soundtrack of my year. I stand up, my legs stiff, and walk toward the doors. I don't look back, but I feel the weight of the bus behind me, a warm, glowing vessel carrying its cargo of tired souls into the dark. I step out onto the sidewalk, the cold air hitting my face, and for a moment, I am just a person standing on a street corner. The bus pulls away, its red taillights fading into the distance, leaving me to walk the final block home, alone, but somehow, for the last time, perfectly at peace.",
+    "sanitization": {
+      "changed": false,
+      "patterns": [],
+      "removed_chars": 0,
+      "removed_ratio": 0.0
+    },
+    "usage": {
+      "completion_tokens": 1532,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 637
+      },
+      "cost": 0.00230975,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.002298,
+        "upstream_inference_cost": 0.00230975,
+        "upstream_inference_prompt_cost": 1.175e-05
+      },
+      "is_byok": false,
+      "prompt_tokens": 47,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 1579
+    }
+  },
+  "prompt_category": "personal_nonfiction",
+  "prompt_id": "personal_night_shift_bus",
+  "response_text": "The 12:45 a.m. bus does not arrive; it manifests. It emerges from the dark, wet throat of the city, its headlights cutting through the gloom like two pale, unblinking eyes. For a year, this bus has been my decompression chamber, the liminal space between the person I am expected to be and the person I am allowed to be when I finally turn the key in my own front door.\n\nThere is a specific, heavy silence that defines the late-night commute. It is not the silence of a library or a church, but the silence of exhaustion. When I step onto the bus, the air is always a few degrees warmer than the street, smelling faintly of ozone, damp wool, and the lingering, metallic tang of the brakes. \n\nI have become a regular, a ghost in the machine. I know the rhythm of the driver, a man whose name I don\u2019t know but whose steady, rhythmic tapping on the steering wheel has become the metronome of my nights. I know the regulars, too. There is the woman in the blue scrubs who sits in the third row, her head lolling against the window, her eyes closed in a sleep so profound it looks like a surrender. There is the man with the oversized guitar case who always sits at the very back, staring at his reflection in the dark glass, his fingers tracing the edge of the case as if he\u2019s afraid to let go.\n\nWe are a tribe of the tired. We share an unspoken pact: we acknowledge each other\u2019s existence only by the distance we maintain. We are all protecting our own small, fragile bubbles of solitude. To speak would be to break the spell, to force us back into the social contract of the daylight world. So, we sit in our assigned seats, watching the city blur past us\u2014a smear of amber streetlights, shuttered storefronts, and the occasional neon sign flickering in the rain.\n\nOver the course of a year, the bus has become a mirror for the seasons. In the winter, the windows were perpetually fogged, and we were huddled shapes in heavy coats, our breath blooming in the cold air. In the spring, the bus felt like a greenhouse, humid and smelling of wet pavement and budding trees. By summer, the air conditioning hummed a low, aggressive tune, fighting the heat that radiated off the asphalt. \n\nI have watched the city change from this seat. I\u2019ve seen construction sites rise from skeletal steel frames to glass-clad towers. I\u2019ve seen the same homeless man sleeping on the same bench for three months, then disappearing, then reappearing again. I have felt my own life change, too. I have carried the weight of bad days and the quiet hum of good ones onto this bus, and every time, the motion of the vehicle has smoothed the edges of my mood. There is something about the steady, forward momentum of the bus that makes the problems of the day feel smaller, more manageable.\n\nNow, my year of riding the 12:45 is coming to an end. I am moving to a different part of the city, a place where the bus doesn't run. \n\nOn my final night, I find myself looking at the other passengers with a sudden, sharp pang of nostalgia. I wonder where the woman in the scrubs goes when she finally gets off. I wonder if the man with the guitar ever plays it, or if it\u2019s just a vessel for his dreams. I realize that while we never exchanged a word, we have been witnesses to each other\u2019s lives. We have shared the quietest, most vulnerable hours of the day.\n\nWhen the bus pulls up to my stop, the air brakes hiss\u2014a sound that has become the soundtrack of my year. I stand up, my legs stiff, and walk toward the doors. I don't look back, but I feel the weight of the bus behind me, a warm, glowing vessel carrying its cargo of tired souls into the dark. I step out onto the sidewalk, the cold air hitting my face, and for a moment, I am just a person standing on a street corner. The bus pulls away, its red taillights fading into the distance, leaving me to walk the final block home, alone, but somehow, for the last time, perfectly at peace.",
+  "run_name": "2026-03-08-openrouter-v0-2-clean-3"
+}

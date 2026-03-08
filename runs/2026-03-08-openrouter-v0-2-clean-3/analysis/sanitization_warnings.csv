@@ -1,0 +1,7 @@
+candidate_model_id,prompt_id,removed_ratio,patterns,generation_attempt
+qwen/qwen3.5-35b-a3b,explain_heat_pumps,0.0025,thinking_prefix,1
+qwen/qwen3.5-35b-a3b,howto_school_board_comment,0.0018,thinking_prefix,1
+qwen/qwen3.5-35b-a3b,memo_incident_response,0.0034,thinking_prefix,1
+qwen/qwen3.5-35b-a3b,memo_remote_work_policy,0.0022,thinking_prefix,1
+qwen/qwen3.5-35b-a3b,oped_corner_store,0.0023,thinking_prefix,1
+qwen/qwen3.5-35b-a3b,personal_night_shift_bus,0.0021,thinking_prefix,1

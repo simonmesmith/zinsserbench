@@ -1,0 +1,56 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.2",
+  "candidate_label": "MiniMax M2.5",
+  "candidate_model_id": "minimax/minimax-m2.5",
+  "created_at": "2026-03-08T12:20:45Z",
+  "metadata": {
+    "finish_reason": "stop",
+    "generation_attempt": 1,
+    "generation_settings": {
+      "max_output_tokens": 10000,
+      "reasoning_effort": "medium"
+    },
+    "id": "gen-1772972427-C6mOaLZK3gzXghvqrTFF",
+    "quality_guard": {
+      "minimum_words": 140,
+      "reason": "",
+      "status": "ok",
+      "word_count": 711
+    },
+    "raw_response_text": "# Practical Guide: Speaking at a School Board Meeting\n\n## Understanding What You're Walking Into\n\nSchool board meetings follow a predictable structure. Most begin with procedural matters, move into public comment periods, then discussion of agenda items, and finally decisions. The public comment section\u2014where you'll speak\u2014typically allows each speaker 2-5 minutes. Check your district's specific rules, as they vary.\n\nArrive early enough to sign up to speak, if required, and to get a feel for the room's atmosphere.\n\n---\n\n## Before the Meeting\n\n### Research the Agenda and Context\n\n- Obtain a copy of the meeting agenda from the school district website\n- Review minutes from previous meetings if your topic has been discussed before\n- Understand the current policy or situation you're addressing\n- Know whether the board has already taken a position or if the matter is still under discussion\n\n### Know Your Audience\n\nSchool board members are community members who volunteer their time. They want what's best for students but may have different perspectives on how to achieve that. Your goal is to present your viewpoint as one parent's experience while respecting their role.\n\n### Clarify Your Message\n\nAsk yourself:\n\n- What specific outcome am I hoping for?\n- Is this an informational statement, a request for action, or a question?\n- What's the one thing I want them to remember after I sit down?\n\n### Gather Supporting Information\n\n- Collect facts, dates, and specific examples\n- If addressing a problem, consider proposing solutions\n- Bring written copies of key points for board members, if appropriate\n- If representing a group, coordinate to avoid repeating the same points\n\n---\n\n## Crafting Your Statement\n\n### Structure It Simply\n\n1. **Opening**: State your name, your connection to the school, and your topic clearly\n2. **Body**: Share your perspective, experience, or concerns with 2-3 specific points\n3. **Closing**: Restate what you're asking the board to consider\n\n### Keep It Concise\n\nWith 2-5 minutes, aim for 300-500 words. Practice reading it aloud to check your timing.\n\n### Use What Works\n\n- Personal stories that illustrate your point\n- Specific examples rather than general complaints\n- Respectful language, even if you're frustrated\n- \"I\" statements (\"I am concerned about...\" rather than \"You should...\")\n\n### Avoid\n\n- Accusations or personal attacks on staff or board members\n- Speaking about topics not on the agenda (unless the public comment period is open-ended)\n- Reading an endless list of statistics or a lengthy document\n\n---\n\n## Practical Logistics\n\n- **Register to speak** if the meeting requires sign-up in advance\n- **Arrive 20-30 minutes early** to find parking, get seated, and calm your nerves\n- **Bring water** in case your throat gets dry\n- **Dress comfortably but appropriately**\u2014business casual is standard\n- **Know where you'll be sitting** and how you'll approach the podium\n\n---\n\n## The Day of the Meeting\n\n### Practice Your Delivery\n\n- Rehearse your statement 2-3 times\n- Practice in front of a mirror or with a supportive family member\n- Time yourself to ensure you fit within the limit\n\n### Manage Nerves\n\n- Take several deep breaths before you speak\n- Remember that board members are parents too\u2014they understand public speaking anxiety\n- Speak slowly; nerves often make us rush\n- It's perfectly acceptable to pause and collect your thoughts\n\n### During Public Comment\n\n- Wait for the chair to call your name\n- Approach the podium confidently\n- Begin with your name and your connection to the school\n- Deliver your statement, then return to your seat\n- Some meetings allow brief responses to questions; keep answers brief\n\n---\n\n## After the Meeting\n\n- **Follow up** with a written summary of your key points via email, especially if you referenced specific data\n- **Stay engaged** if the issue matters to you\u2014attend future meetings to show continued interest\n- **Accept that change takes time**; one speech may not resolve the matter, but it plants a seed\n\n---\n\n## Final Thoughts\n\nSpeaking at a school board meeting is an act of civic participation that matters. Board members hear from parents and community members, and your voice contributes to decisions affecting children's education. Preparation reduces anxiety and increases your effectiveness. Trust that your perspective as a parent has value, and speak confidently from that place.",
+    "sanitization": {
+      "changed": false,
+      "patterns": [],
+      "removed_chars": 0,
+      "removed_ratio": 0.0
+    },
+    "usage": {
+      "completion_tokens": 1011,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 18
+      },
+      "cost": 0.0012315,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.0012132,
+        "upstream_inference_cost": 0.0012315,
+        "upstream_inference_prompt_cost": 1.83e-05
+      },
+      "is_byok": false,
+      "prompt_tokens": 61,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 1072
+    }
+  },
+  "prompt_category": "service_howto",
+  "prompt_id": "howto_school_board_comment",
+  "response_text": "# Practical Guide: Speaking at a School Board Meeting\n\n## Understanding What You're Walking Into\n\nSchool board meetings follow a predictable structure. Most begin with procedural matters, move into public comment periods, then discussion of agenda items, and finally decisions. The public comment section\u2014where you'll speak\u2014typically allows each speaker 2-5 minutes. Check your district's specific rules, as they vary.\n\nArrive early enough to sign up to speak, if required, and to get a feel for the room's atmosphere.\n\n---\n\n## Before the Meeting\n\n### Research the Agenda and Context\n\n- Obtain a copy of the meeting agenda from the school district website\n- Review minutes from previous meetings if your topic has been discussed before\n- Understand the current policy or situation you're addressing\n- Know whether the board has already taken a position or if the matter is still under discussion\n\n### Know Your Audience\n\nSchool board members are community members who volunteer their time. They want what's best for students but may have different perspectives on how to achieve that. Your goal is to present your viewpoint as one parent's experience while respecting their role.\n\n### Clarify Your Message\n\nAsk yourself:\n\n- What specific outcome am I hoping for?\n- Is this an informational statement, a request for action, or a question?\n- What's the one thing I want them to remember after I sit down?\n\n### Gather Supporting Information\n\n- Collect facts, dates, and specific examples\n- If addressing a problem, consider proposing solutions\n- Bring written copies of key points for board members, if appropriate\n- If representing a group, coordinate to avoid repeating the same points\n\n---\n\n## Crafting Your Statement\n\n### Structure It Simply\n\n1. **Opening**: State your name, your connection to the school, and your topic clearly\n2. **Body**: Share your perspective, experience, or concerns with 2-3 specific points\n3. **Closing**: Restate what you're asking the board to consider\n\n### Keep It Concise\n\nWith 2-5 minutes, aim for 300-500 words. Practice reading it aloud to check your timing.\n\n### Use What Works\n\n- Personal stories that illustrate your point\n- Specific examples rather than general complaints\n- Respectful language, even if you're frustrated\n- \"I\" statements (\"I am concerned about...\" rather than \"You should...\")\n\n### Avoid\n\n- Accusations or personal attacks on staff or board members\n- Speaking about topics not on the agenda (unless the public comment period is open-ended)\n- Reading an endless list of statistics or a lengthy document\n\n---\n\n## Practical Logistics\n\n- **Register to speak** if the meeting requires sign-up in advance\n- **Arrive 20-30 minutes early** to find parking, get seated, and calm your nerves\n- **Bring water** in case your throat gets dry\n- **Dress comfortably but appropriately**\u2014business casual is standard\n- **Know where you'll be sitting** and how you'll approach the podium\n\n---\n\n## The Day of the Meeting\n\n### Practice Your Delivery\n\n- Rehearse your statement 2-3 times\n- Practice in front of a mirror or with a supportive family member\n- Time yourself to ensure you fit within the limit\n\n### Manage Nerves\n\n- Take several deep breaths before you speak\n- Remember that board members are parents too\u2014they understand public speaking anxiety\n- Speak slowly; nerves often make us rush\n- It's perfectly acceptable to pause and collect your thoughts\n\n### During Public Comment\n\n- Wait for the chair to call your name\n- Approach the podium confidently\n- Begin with your name and your connection to the school\n- Deliver your statement, then return to your seat\n- Some meetings allow brief responses to questions; keep answers brief\n\n---\n\n## After the Meeting\n\n- **Follow up** with a written summary of your key points via email, especially if you referenced specific data\n- **Stay engaged** if the issue matters to you\u2014attend future meetings to show continued interest\n- **Accept that change takes time**; one speech may not resolve the matter, but it plants a seed\n\n---\n\n## Final Thoughts\n\nSpeaking at a school board meeting is an act of civic participation that matters. Board members hear from parents and community members, and your voice contributes to decisions affecting children's education. Preparation reduces anxiety and increases your effectiveness. Trust that your perspective as a parent has value, and speak confidently from that place.",
+  "run_name": "2026-03-08-openrouter-v0-2-clean-3"
+}

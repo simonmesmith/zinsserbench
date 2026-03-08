@@ -1,0 +1,47 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.2",
+  "candidate_model_id": "openai/gpt-5.4",
+  "created_at": "2026-03-08T12:47:22Z",
+  "judge_model_id": "anthropic/claude-opus-4.6",
+  "metadata": {
+    "id": "gen-1772974034-jpeTC5bRcUyAriiBD8at",
+    "raw_text": "{\"scores\": {\"clarity\": 5, \"simplicity\": 5, \"brevity_economy\": 3, \"structure_flow\": 5, \"specificity_precision\": 5, \"humanity_voice\": 4, \"overall\": 4}, \"rationale\": \"Exceptionally clear and well-organized with logical progression from planning through execution to follow-up. Language is plain and direct throughout. Specificity is a major strength\u2014sample emails, agenda timings, invitation wording, and concrete examples like 'install a marked crosswalk at Oak and 5th' give readers immediately usable material. However, the piece is significantly longer than it needs to be. Eighteen numbered sections with substantial overlap (e.g., walk audits discussed in sections 3, 11, and 14; evidence gathering repeated across sections 2, 7, and 12) create redundancy. The checklist in section 17 essentially recaps the entire guide. A tighter version could deliver the same value in roughly 60% of the space. Voice is warm and encouraging without being patronizing, though the sheer length and list-heavy format occasionally feels more like a reference manual than a guide someone reads start to finish. Overall, an excellent practical resource that would benefit from editing for economy.\"}",
+    "usage": {
+      "completion_tokens": 280,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 0
+      },
+      "cost": 0.026585,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.007,
+        "upstream_inference_cost": 0.026585,
+        "upstream_inference_prompt_cost": 0.019585
+      },
+      "is_byok": false,
+      "prompt_tokens": 3917,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 4197
+    }
+  },
+  "prompt_category": "service_howto",
+  "prompt_id": "howto_neighborhood_meeting",
+  "rationale": "Exceptionally clear and well-organized with logical progression from planning through execution to follow-up. Language is plain and direct throughout. Specificity is a major strength\u2014sample emails, agenda timings, invitation wording, and concrete examples like 'install a marked crosswalk at Oak and 5th' give readers immediately usable material. However, the piece is significantly longer than it needs to be. Eighteen numbered sections with substantial overlap (e.g., walk audits discussed in sections 3, 11, and 14; evidence gathering repeated across sections 2, 7, and 12) create redundancy. The checklist in section 17 essentially recaps the entire guide. A tighter version could deliver the same value in roughly 60% of the space. Voice is warm and encouraging without being patronizing, though the sheer length and list-heavy format occasionally feels more like a reference manual than a guide someone reads start to finish. Overall, an excellent practical resource that would benefit from editing for economy.",
+  "run_name": "2026-03-08-openrouter-v0-2-clean-3",
+  "scores": {
+    "brevity_economy": 3,
+    "clarity": 5,
+    "humanity_voice": 4,
+    "overall": 4,
+    "simplicity": 5,
+    "specificity_precision": 5,
+    "structure_flow": 5
+  }
+}

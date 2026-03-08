@@ -1,0 +1,56 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.2",
+  "candidate_label": "Qwen 3.5 35B A3B",
+  "candidate_model_id": "qwen/qwen3.5-35b-a3b",
+  "created_at": "2026-03-08T12:25:28Z",
+  "metadata": {
+    "finish_reason": "stop",
+    "generation_attempt": 1,
+    "generation_settings": {
+      "max_output_tokens": 10000,
+      "reasoning_effort": "medium"
+    },
+    "id": "gen-1772972712-ZGdsSaMtQrhpF7f1ghOc",
+    "quality_guard": {
+      "minimum_words": 120,
+      "reason": "",
+      "status": "ok",
+      "word_count": 832
+    },
+    "raw_response_text": "# Understanding Your Property Tax Bill: A Simple Guide\n\nIf you own a home, you know the drill: every year or two, you get a bill for property taxes. It\u2019s often a significant expense, and it can be confusing when the amount changes from one year to the next.\n\nYou might wonder: *Did I do something wrong? Did the government just decide to charge me more?*\n\nThe answer is usually no. Property taxes are calculated using a specific formula, and changes happen for predictable reasons. Here is a plain-English breakdown of how the system works and why your bill might go up or down.\n\n### The Basic Formula\n\nThink of your property tax bill as the result of a simple math equation. While the exact terms vary by location, the logic is almost always the same:\n\n**Your Home\u2019s Value \u00d7 The Tax Rate = Your Tax Bill**\n\nTo understand your bill, you need to understand the two parts of that equation.\n\n#### 1. Your Home\u2019s Value (Assessed Value)\nThis is not necessarily the price you paid for your house, nor is it exactly what you could sell it for today. It is the value assigned to your property by a government official called an **assessor**.\n\nThe assessor looks at your home\u2019s size, condition, location, and recent sales of similar homes in your neighborhood to determine this number. This is called the **assessed value**.\n\n#### 2. The Tax Rate (Millage)\nThis is the percentage of your home\u2019s value that the local government collects. It is set by local officials, such as the city council, county board, or school district.\n\nThis rate is often expressed in \"mills\" (one mill is one-tenth of one percent), but for simplicity, you can think of it as a percentage. If the rate is 1%, and your home is valued at $200,000, your tax bill is $2,000.\n\n### Why Does the Bill Change?\n\nIf your bill is different this year than last year, it is usually because one of the two numbers in the equation above has changed.\n\n#### Reason 1: Your Home\u2019s Value Changed\nThis is the most common reason for an increase. If home prices in your neighborhood have gone up, the assessor will likely raise your assessed value to match the market.\n\n*   **Example:** Last year, your home was assessed at $200,000. This year, because similar homes nearby sold for more, the assessor raises your assessment to $220,000. Even if the tax rate stays the same, your bill will go up because the value on which the tax is calculated is higher.\n\n#### Reason 2: The Tax Rate Changed\nSometimes, your home\u2019s value stays the same, but the government raises the rate. Local governments need money to fund schools, police, fire departments, road repairs, and libraries.\n\n*   **Example:** If the local school district needs more funding for new teachers, the school board might vote to increase the tax rate. Even if your home value doesn't change, a higher rate means a higher bill.\n\n#### Reason 3: Changes in Exemptions\nMany homeowners qualify for tax breaks, known as **exemptions**. These reduce the value of your home before the tax is calculated. Common exemptions include those for seniors, veterans, or disabled persons.\n\n*   **Example:** If you moved into a new house, you might not have transferred your senior exemption yet. Or, if you sold your previous home and bought a new one, you might have lost a specific relief program. Losing an exemption will increase your bill, even if your home value hasn't changed.\n\n### Can You Do Anything About It?\n\nIf you believe your bill is wrong, you have options. You don't have to just accept the number.\n\n1.  **Check Your Assessment:** Look at the details on your tax bill. Does the square footage match your home? Does the condition (e.g., \"good\" vs. \"poor\") match reality? If the assessor made a mistake about the size or condition of your house, you can file an appeal.\n2.  **Compare Neighbors:** If your home value went up significantly but your neighbors' values stayed the same, there might be an error.\n3.  **Apply for Exemptions:** If you are eligible for a senior, veteran, or homestead exemption, make sure you have applied for it. These can save you hundreds of dollars a year.\n4.  **Attend Public Meetings:** If you think the tax rate is too high, attend your local city council or school board meetings. You can voice your concerns about the budget before the rate is set.\n\n### The Bottom Line\n\nProperty taxes are the primary way local communities pay for essential services. While the bill can feel unpredictable, the changes are usually based on market trends or budget decisions, not random choices.\n\nBy understanding the two parts of the equation\u2014your home's value and the tax rate\u2014you can better anticipate your costs and know when to question the numbers. If you receive a bill that seems too high, don't ignore it. Check the details, and if necessary, ask for a review.",
+    "sanitization": {
+      "changed": false,
+      "patterns": [],
+      "removed_chars": 0,
+      "removed_ratio": 0.0
+    },
+    "usage": {
+      "completion_tokens": 2087,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 991
+      },
+      "cost": 0.00272415,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.004174,
+        "upstream_inference_cost": 0.004191,
+        "upstream_inference_prompt_cost": 1.7e-05
+      },
+      "is_byok": false,
+      "prompt_tokens": 68,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 2155
+    }
+  },
+  "prompt_category": "explain",
+  "prompt_id": "explain_property_tax",
+  "response_text": "# Understanding Your Property Tax Bill: A Simple Guide\n\nIf you own a home, you know the drill: every year or two, you get a bill for property taxes. It\u2019s often a significant expense, and it can be confusing when the amount changes from one year to the next.\n\nYou might wonder: *Did I do something wrong? Did the government just decide to charge me more?*\n\nThe answer is usually no. Property taxes are calculated using a specific formula, and changes happen for predictable reasons. Here is a plain-English breakdown of how the system works and why your bill might go up or down.\n\n### The Basic Formula\n\nThink of your property tax bill as the result of a simple math equation. While the exact terms vary by location, the logic is almost always the same:\n\n**Your Home\u2019s Value \u00d7 The Tax Rate = Your Tax Bill**\n\nTo understand your bill, you need to understand the two parts of that equation.\n\n#### 1. Your Home\u2019s Value (Assessed Value)\nThis is not necessarily the price you paid for your house, nor is it exactly what you could sell it for today. It is the value assigned to your property by a government official called an **assessor**.\n\nThe assessor looks at your home\u2019s size, condition, location, and recent sales of similar homes in your neighborhood to determine this number. This is called the **assessed value**.\n\n#### 2. The Tax Rate (Millage)\nThis is the percentage of your home\u2019s value that the local government collects. It is set by local officials, such as the city council, county board, or school district.\n\nThis rate is often expressed in \"mills\" (one mill is one-tenth of one percent), but for simplicity, you can think of it as a percentage. If the rate is 1%, and your home is valued at $200,000, your tax bill is $2,000.\n\n### Why Does the Bill Change?\n\nIf your bill is different this year than last year, it is usually because one of the two numbers in the equation above has changed.\n\n#### Reason 1: Your Home\u2019s Value Changed\nThis is the most common reason for an increase. If home prices in your neighborhood have gone up, the assessor will likely raise your assessed value to match the market.\n\n*   **Example:** Last year, your home was assessed at $200,000. This year, because similar homes nearby sold for more, the assessor raises your assessment to $220,000. Even if the tax rate stays the same, your bill will go up because the value on which the tax is calculated is higher.\n\n#### Reason 2: The Tax Rate Changed\nSometimes, your home\u2019s value stays the same, but the government raises the rate. Local governments need money to fund schools, police, fire departments, road repairs, and libraries.\n\n*   **Example:** If the local school district needs more funding for new teachers, the school board might vote to increase the tax rate. Even if your home value doesn't change, a higher rate means a higher bill.\n\n#### Reason 3: Changes in Exemptions\nMany homeowners qualify for tax breaks, known as **exemptions**. These reduce the value of your home before the tax is calculated. Common exemptions include those for seniors, veterans, or disabled persons.\n\n*   **Example:** If you moved into a new house, you might not have transferred your senior exemption yet. Or, if you sold your previous home and bought a new one, you might have lost a specific relief program. Losing an exemption will increase your bill, even if your home value hasn't changed.\n\n### Can You Do Anything About It?\n\nIf you believe your bill is wrong, you have options. You don't have to just accept the number.\n\n1.  **Check Your Assessment:** Look at the details on your tax bill. Does the square footage match your home? Does the condition (e.g., \"good\" vs. \"poor\") match reality? If the assessor made a mistake about the size or condition of your house, you can file an appeal.\n2.  **Compare Neighbors:** If your home value went up significantly but your neighbors' values stayed the same, there might be an error.\n3.  **Apply for Exemptions:** If you are eligible for a senior, veteran, or homestead exemption, make sure you have applied for it. These can save you hundreds of dollars a year.\n4.  **Attend Public Meetings:** If you think the tax rate is too high, attend your local city council or school board meetings. You can voice your concerns about the budget before the rate is set.\n\n### The Bottom Line\n\nProperty taxes are the primary way local communities pay for essential services. While the bill can feel unpredictable, the changes are usually based on market trends or budget decisions, not random choices.\n\nBy understanding the two parts of the equation\u2014your home's value and the tax rate\u2014you can better anticipate your costs and know when to question the numbers. If you receive a bill that seems too high, don't ignore it. Check the details, and if necessary, ask for a review.",
+  "run_name": "2026-03-08-openrouter-v0-2-clean-3"
+}

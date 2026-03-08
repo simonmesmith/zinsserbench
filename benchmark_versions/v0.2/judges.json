@@ -1,0 +1,6 @@
+[
+  "openai/gpt-5.4",
+  "anthropic/claude-opus-4.6",
+  "google/gemini-3.1-pro-preview",
+  "z-ai/glm-5"
+]

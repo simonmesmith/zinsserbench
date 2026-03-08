@@ -1,0 +1,47 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.2",
+  "candidate_model_id": "openai/gpt-5.3-chat",
+  "created_at": "2026-03-08T13:35:40Z",
+  "judge_model_id": "z-ai/glm-5",
+  "metadata": {
+    "id": "gen-1772976910-hNAYnFPbpG7rP8eAxOAH",
+    "raw_text": "{\"scores\": {\"clarity\": 5, \"simplicity\": 5, \"brevity_economy\": 5, \"structure_flow\": 5, \"specificity_precision\": 3, \"humanity_voice\": 4, \"overall\": 4}, \"rationale\": \"A well-crafted memo that is clear, concise, and logically organized. Plain language throughout with no unnecessary words. Loses some points on specificity due to placeholder dates and vague descriptions of schedule changes (e.g., 'expanded shift coverage' lacks concrete details). The acknowledgment of personal impact and expression of appreciation adds appropriate warmth without being effusive.\"}",
+    "usage": {
+      "completion_tokens": 602,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 522
+      },
+      "cost": 0.0024874,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.0019264,
+        "upstream_inference_cost": 0.0024874,
+        "upstream_inference_prompt_cost": 0.000561
+      },
+      "is_byok": false,
+      "prompt_tokens": 561,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 1163
+    }
+  },
+  "prompt_category": "memo",
+  "prompt_id": "memo_schedule_change",
+  "rationale": "A well-crafted memo that is clear, concise, and logically organized. Plain language throughout with no unnecessary words. Loses some points on specificity due to placeholder dates and vague descriptions of schedule changes (e.g., 'expanded shift coverage' lacks concrete details). The acknowledgment of personal impact and expression of appreciation adds appropriate warmth without being effusive.",
+  "run_name": "2026-03-08-openrouter-v0-2-clean-3",
+  "scores": {
+    "brevity_economy": 5,
+    "clarity": 5,
+    "humanity_voice": 4,
+    "overall": 4,
+    "simplicity": 5,
+    "specificity_precision": 3,
+    "structure_flow": 5
+  }
+}

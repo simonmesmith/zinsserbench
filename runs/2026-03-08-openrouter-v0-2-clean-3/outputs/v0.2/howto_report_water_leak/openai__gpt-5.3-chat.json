@@ -1,0 +1,56 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.2",
+  "candidate_label": "GPT-5.3 Chat",
+  "candidate_model_id": "openai/gpt-5.3-chat",
+  "created_at": "2026-03-08T12:05:24Z",
+  "metadata": {
+    "finish_reason": "stop",
+    "generation_attempt": 1,
+    "generation_settings": {
+      "max_output_tokens": 10000,
+      "reasoning_effort": "medium"
+    },
+    "id": "gen-1772971517-zoIJlMSzMgzk2i5cUX6U",
+    "quality_guard": {
+      "minimum_words": 120,
+      "reason": "",
+      "status": "ok",
+      "word_count": 422
+    },
+    "raw_response_text": "A water leak from the ceiling can cause serious damage if it isn\u2019t handled quickly. Here\u2019s what apartment tenants should do as soon as they notice a leak.\n\n1. Stay safe first  \nIf water is dripping near light fixtures, outlets, or appliances, keep your distance. Water and electricity are dangerous together. Turn off nearby lights and unplug electronics if it\u2019s safe to do so.\n\n2. Contain the water  \nPlace buckets, bowls, or pots under the leak to catch dripping water. If the leak is spreading, use towels or a mop to keep the floor from becoming slippery. Move furniture, rugs, and electronics away from the area if possible.\n\n3. Reduce ceiling pressure if needed  \nIf the ceiling is bulging or sagging with trapped water, it may collapse. Some tenants carefully puncture the lowest point of the bulge with a small screwdriver to release the water into a bucket. Only do this if you feel safe doing so and can control where the water will fall.\n\n4. Document the damage  \nTake clear photos or videos of the leak, the ceiling, and any damaged belongings. This documentation may be important for maintenance records, insurance claims, or disputes.\n\n5. Notify building management immediately  \nContact your landlord, property manager, or maintenance line right away. Most apartment buildings have an emergency maintenance number for issues like water leaks. Provide details about where the leak is, when it started, and how severe it is.\n\n6. Check the apartment above if appropriate  \nIf you know the neighbor above you and feel comfortable, you can knock and let them know about the leak. Sometimes the cause is something simple like an overflowing sink or a running bath.\n\n7. Protect your belongings  \nMove valuable items, documents, and electronics away from the affected area. If water continues leaking, consider covering items with plastic bags or tarps.\n\n8. Keep monitoring the situation  \nWatch for spreading water, ceiling cracks, or increasing sagging. If the ceiling looks like it might collapse, leave the area and report the urgency to building management.\n\n9. Follow up with management  \nAfter reporting the issue, ask when maintenance will inspect and repair the leak. Keep records of your communication.\n\n10. Check for mold later  \nIn the days after the leak is fixed, watch for musty smells, stains, or discoloration on the ceiling or walls. Report these signs promptly so the building can address possible mold or hidden moisture.\n\nActing quickly can reduce damage to both the apartment and your belongings, and clear documentation helps ensure the problem gets resolved properly.",
+    "sanitization": {
+      "changed": false,
+      "patterns": [],
+      "removed_chars": 0,
+      "removed_ratio": 0.0
+    },
+    "usage": {
+      "completion_tokens": 515,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 0
+      },
+      "cost": 0.0073115,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.00721,
+        "upstream_inference_cost": 0.0073115,
+        "upstream_inference_prompt_cost": 0.0001015
+      },
+      "is_byok": false,
+      "prompt_tokens": 58,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 573
+    }
+  },
+  "prompt_category": "service_howto",
+  "prompt_id": "howto_report_water_leak",
+  "response_text": "A water leak from the ceiling can cause serious damage if it isn\u2019t handled quickly. Here\u2019s what apartment tenants should do as soon as they notice a leak.\n\n1. Stay safe first  \nIf water is dripping near light fixtures, outlets, or appliances, keep your distance. Water and electricity are dangerous together. Turn off nearby lights and unplug electronics if it\u2019s safe to do so.\n\n2. Contain the water  \nPlace buckets, bowls, or pots under the leak to catch dripping water. If the leak is spreading, use towels or a mop to keep the floor from becoming slippery. Move furniture, rugs, and electronics away from the area if possible.\n\n3. Reduce ceiling pressure if needed  \nIf the ceiling is bulging or sagging with trapped water, it may collapse. Some tenants carefully puncture the lowest point of the bulge with a small screwdriver to release the water into a bucket. Only do this if you feel safe doing so and can control where the water will fall.\n\n4. Document the damage  \nTake clear photos or videos of the leak, the ceiling, and any damaged belongings. This documentation may be important for maintenance records, insurance claims, or disputes.\n\n5. Notify building management immediately  \nContact your landlord, property manager, or maintenance line right away. Most apartment buildings have an emergency maintenance number for issues like water leaks. Provide details about where the leak is, when it started, and how severe it is.\n\n6. Check the apartment above if appropriate  \nIf you know the neighbor above you and feel comfortable, you can knock and let them know about the leak. Sometimes the cause is something simple like an overflowing sink or a running bath.\n\n7. Protect your belongings  \nMove valuable items, documents, and electronics away from the affected area. If water continues leaking, consider covering items with plastic bags or tarps.\n\n8. Keep monitoring the situation  \nWatch for spreading water, ceiling cracks, or increasing sagging. If the ceiling looks like it might collapse, leave the area and report the urgency to building management.\n\n9. Follow up with management  \nAfter reporting the issue, ask when maintenance will inspect and repair the leak. Keep records of your communication.\n\n10. Check for mold later  \nIn the days after the leak is fixed, watch for musty smells, stains, or discoloration on the ceiling or walls. Report these signs promptly so the building can address possible mold or hidden moisture.\n\nActing quickly can reduce damage to both the apartment and your belongings, and clear documentation helps ensure the problem gets resolved properly.",
+  "run_name": "2026-03-08-openrouter-v0-2-clean-3"
+}

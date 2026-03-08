@@ -1,0 +1,47 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.2",
+  "candidate_model_id": "qwen/qwen3.5-35b-a3b",
+  "created_at": "2026-03-08T13:02:19Z",
+  "judge_model_id": "anthropic/claude-opus-4.6",
+  "metadata": {
+    "id": "gen-1772974931-gdDFxGAi8Jxn9GIyJwwE",
+    "raw_text": "{\"scores\": {\"clarity\": 5, \"simplicity\": 4, \"brevity_economy\": 3, \"structure_flow\": 4, \"specificity_precision\": 4, \"humanity_voice\": 4, \"overall\": 4}, \"rationale\": \"The essay is immediately clear and readable, with a strong narrative arc from dread to belonging. Specific details (Elias's steel-wool beard, the plastic union card, the coffee pot, the blue shirts with patches) ground the piece well. However, it over-explains its thesis\u2014the final three paragraphs all say essentially the same thing about dignity, belonging, and the social contract of labor, which weakens brevity. Some lines tip into sentimentality or feel slightly constructed rather than lived ('It felt like a key,' 'if I fell, someone would be there to catch me'). The dialogue, while effective, reads a touch too perfectly crafted\u2014Sarah's speech about dignity feels like a thesis statement placed in a character's mouth. The simplicity is mostly strong but occasionally lapses into inflated phrasing ('the exchange of trust for security'). Structure is solid: chronological first-day narrative with a clear turning point at lunch. Overall a competent, engaging personal essay that slightly overworks its message.\"}",
+    "usage": {
+      "completion_tokens": 281,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 0
+      },
+      "cost": 0.01524,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.007025,
+        "upstream_inference_cost": 0.01524,
+        "upstream_inference_prompt_cost": 0.008215
+      },
+      "is_byok": false,
+      "prompt_tokens": 1643,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 1924
+    }
+  },
+  "prompt_category": "personal_nonfiction",
+  "prompt_id": "personal_first_day_union_job",
+  "rationale": "The essay is immediately clear and readable, with a strong narrative arc from dread to belonging. Specific details (Elias's steel-wool beard, the plastic union card, the coffee pot, the blue shirts with patches) ground the piece well. However, it over-explains its thesis\u2014the final three paragraphs all say essentially the same thing about dignity, belonging, and the social contract of labor, which weakens brevity. Some lines tip into sentimentality or feel slightly constructed rather than lived ('It felt like a key,' 'if I fell, someone would be there to catch me'). The dialogue, while effective, reads a touch too perfectly crafted\u2014Sarah's speech about dignity feels like a thesis statement placed in a character's mouth. The simplicity is mostly strong but occasionally lapses into inflated phrasing ('the exchange of trust for security'). Structure is solid: chronological first-day narrative with a clear turning point at lunch. Overall a competent, engaging personal essay that slightly overworks its message.",
+  "run_name": "2026-03-08-openrouter-v0-2-clean-3",
+  "scores": {
+    "brevity_economy": 3,
+    "clarity": 5,
+    "humanity_voice": 4,
+    "overall": 4,
+    "simplicity": 4,
+    "specificity_precision": 4,
+    "structure_flow": 4
+  }
+}

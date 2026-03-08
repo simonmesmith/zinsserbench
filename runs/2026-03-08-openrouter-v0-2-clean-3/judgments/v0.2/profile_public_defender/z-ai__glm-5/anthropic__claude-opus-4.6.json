@@ -1,0 +1,47 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.2",
+  "candidate_model_id": "z-ai/glm-5",
+  "created_at": "2026-03-08T13:15:49Z",
+  "judge_model_id": "anthropic/claude-opus-4.6",
+  "metadata": {
+    "id": "gen-1772975742-loDG1ObKdQozENVD5hlr",
+    "raw_text": "{\"scores\": {\"clarity\": 5, \"simplicity\": 5, \"brevity_economy\": 4, \"structure_flow\": 5, \"specificity_precision\": 5, \"humanity_voice\": 5, \"overall\": 5}, \"rationale\": \"Exceptionally well-crafted profile that reads like a polished magazine feature. The chronological structure (8 a.m. to evening) provides a natural, propulsive framework. Concrete details\u2014142 active felonies, seven minutes with Davion, the two-page police report, the fifty-yard-away witness\u2014ground every claim in specificity. The prose is clean and direct with no jargon or inflation. Voice is distinctive and human throughout, with sharp observations ('converting legal jargon into survival instructions,' 'the luxury of pragmatism'). The closing image of the former client shouting at a streetlamp is devastating and earned. Minor ding on brevity: a few metaphors feel slightly overworked ('thick enough to choke a mailbox,' 'the learning curve is vertical,' 'a theater of rapid-fire efficiency') and the piece occasionally editorializes where the details already speak for themselves ('This is the invisible weight of the public defender'). But these are small blemishes in an otherwise outstanding piece.\"}",
+    "usage": {
+      "completion_tokens": 291,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 0
+      },
+      "cost": 0.015875,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.007275,
+        "upstream_inference_cost": 0.015875,
+        "upstream_inference_prompt_cost": 0.0086
+      },
+      "is_byok": false,
+      "prompt_tokens": 1720,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 2011
+    }
+  },
+  "prompt_category": "profile",
+  "prompt_id": "profile_public_defender",
+  "rationale": "Exceptionally well-crafted profile that reads like a polished magazine feature. The chronological structure (8 a.m. to evening) provides a natural, propulsive framework. Concrete details\u2014142 active felonies, seven minutes with Davion, the two-page police report, the fifty-yard-away witness\u2014ground every claim in specificity. The prose is clean and direct with no jargon or inflation. Voice is distinctive and human throughout, with sharp observations ('converting legal jargon into survival instructions,' 'the luxury of pragmatism'). The closing image of the former client shouting at a streetlamp is devastating and earned. Minor ding on brevity: a few metaphors feel slightly overworked ('thick enough to choke a mailbox,' 'the learning curve is vertical,' 'a theater of rapid-fire efficiency') and the piece occasionally editorializes where the details already speak for themselves ('This is the invisible weight of the public defender'). But these are small blemishes in an otherwise outstanding piece.",
+  "run_name": "2026-03-08-openrouter-v0-2-clean-3",
+  "scores": {
+    "brevity_economy": 4,
+    "clarity": 5,
+    "humanity_voice": 5,
+    "overall": 5,
+    "simplicity": 5,
+    "specificity_precision": 5,
+    "structure_flow": 5
+  }
+}

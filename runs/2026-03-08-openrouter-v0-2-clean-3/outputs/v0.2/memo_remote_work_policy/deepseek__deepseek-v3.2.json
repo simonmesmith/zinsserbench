@@ -1,0 +1,56 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.2",
+  "candidate_label": "DeepSeek V3.2",
+  "candidate_model_id": "deepseek/deepseek-v3.2",
+  "created_at": "2026-03-08T11:55:52Z",
+  "metadata": {
+    "finish_reason": "stop",
+    "generation_attempt": 1,
+    "generation_settings": {
+      "max_output_tokens": 10000,
+      "reasoning_effort": "medium"
+    },
+    "id": "gen-1772970916-RQ8wOMcM0YBmSHvoGWy9",
+    "quality_guard": {
+      "minimum_words": 100,
+      "reason": "",
+      "status": "ok",
+      "word_count": 590
+    },
+    "raw_response_text": "**MEMORANDUM**\n\n**TO:** All Employees\n**FROM:** [Your Name/Leadership Team], [Your Title]\n**DATE:** [Date]\n**SUBJECT:** Introduction of New Flexible & Remote Work Policy\n\nWe are excited to announce the formalization of a new Flexible and Remote Work Policy, effective **[Effective Date, e.g., October 1, 2023]**. This policy is designed to modernize our approach to work, support your productivity and well-being, and position [Company Name] as a leader in flexible work environments.\n\n**The New Policy: \"Flexible by Default\"**\n\nThis policy moves us to a \"flexible by default\" model. Key components include:\n*   **Work Location Flexibility:** Employees in eligible roles (primarily individual contributors and managers in our software, product, and support teams) may choose to work remotely, from our office ([Office Address]), or in a hybrid arrangement. Some roles with specific onsite requirements (e.g., certain office operations staff) will be reviewed individually.\n*   **Core Collaboration Hours:** To ensure effective teamwork across time zones and schedules, we are establishing **Core Collaboration Hours from 10:00 AM to 3:00 PM [Your Local Time Zone].** During this window, all employees are expected to be available for meetings, Slack/Teams messages, and collaborative work.\n*   **\"Anchor Days\":** To preserve our valued in-person culture, we encourage teams to coordinate on **one shared \"Anchor Day\" per week** (e.g., Wednesdays) where team members are encouraged to work from the office for meetings, brainstorming, and social connection. This is encouraged but not mandatory.\n*   **Home Office Stipend:** The company will provide a one-time $500 stipend to all full-time remote and hybrid employees to assist in setting up a productive and ergonomic home workspace.\n\n**Why We're Making This Change**\n\nThis shift is driven by several key factors:\n1.  **Trust & Autonomy:** We trust you to manage your time and deliver exceptional work, regardless of location. This policy formalizes that trust.\n2.  **Productivity & Talent:** Our experience over the past years has confirmed that our team can be highly productive remotely. This policy also enhances our ability to attract and retain top talent globally.\n3.  **Employee Well-being:** We recognize the importance of work-life integration. Flexibility allows you to better manage personal commitments, reduce commute stress, and design a workday that maximizes your energy and focus.\n\n**What You Need to Do Next**\n\n1.  **Review the Full Policy:** Please carefully read the complete **[Flexible Work Policy]** document, which will be available on the company intranet ([Link]) by **[Date]**. It contains important details on eligibility, equipment, security, and expectations.\n2.  **Discuss with Your Manager:** By **[Date, e.g., September 22]**, please have a conversation with your direct manager to discuss your intended work arrangement (remote, hybrid, or in-office) and formalize a mutually agreed-upon schedule. Managers will receive separate guidance on these discussions.\n3.  **Submit Your Work Arrangement Agreement:** Following the discussion with your manager, all employees must submit a formal **[Work Arrangement Agreement Form]** on the HR portal by **[Date, e.g., September 29]**.\n4.  **Plan for Anchor Days:** Coordinate with your team to determine your preferred weekly Anchor Day.\n\nOur office will remain open and available as a hub for collaboration, focus work, and social connection. We will continue to invest in our office space and remote collaboration tools to ensure all employees have the resources they need to succeed.\n\nWe believe this policy strikes the right balance between flexibility, collaboration, and sustaining our strong company culture. We are confident it will empower you to do your best work.\n\nThank you for your contributions and your flexibility as we implement this new model. Please direct any questions to your manager or to **[HR Contact/Email]**.\n\nBest regards,\n\n[Your Name/Leadership Team Signature]",
+    "sanitization": {
+      "changed": false,
+      "patterns": [],
+      "removed_chars": 0,
+      "removed_ratio": 0.0
+    },
+    "usage": {
+      "completion_tokens": 1000,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 175
+      },
+      "cost": 0.00043848,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.00042,
+        "upstream_inference_cost": 0.00043848,
+        "upstream_inference_prompt_cost": 1.848e-05
+      },
+      "is_byok": false,
+      "prompt_tokens": 66,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 1066
+    }
+  },
+  "prompt_category": "memo",
+  "prompt_id": "memo_remote_work_policy",
+  "response_text": "**MEMORANDUM**\n\n**TO:** All Employees\n**FROM:** [Your Name/Leadership Team], [Your Title]\n**DATE:** [Date]\n**SUBJECT:** Introduction of New Flexible & Remote Work Policy\n\nWe are excited to announce the formalization of a new Flexible and Remote Work Policy, effective **[Effective Date, e.g., October 1, 2023]**. This policy is designed to modernize our approach to work, support your productivity and well-being, and position [Company Name] as a leader in flexible work environments.\n\n**The New Policy: \"Flexible by Default\"**\n\nThis policy moves us to a \"flexible by default\" model. Key components include:\n*   **Work Location Flexibility:** Employees in eligible roles (primarily individual contributors and managers in our software, product, and support teams) may choose to work remotely, from our office ([Office Address]), or in a hybrid arrangement. Some roles with specific onsite requirements (e.g., certain office operations staff) will be reviewed individually.\n*   **Core Collaboration Hours:** To ensure effective teamwork across time zones and schedules, we are establishing **Core Collaboration Hours from 10:00 AM to 3:00 PM [Your Local Time Zone].** During this window, all employees are expected to be available for meetings, Slack/Teams messages, and collaborative work.\n*   **\"Anchor Days\":** To preserve our valued in-person culture, we encourage teams to coordinate on **one shared \"Anchor Day\" per week** (e.g., Wednesdays) where team members are encouraged to work from the office for meetings, brainstorming, and social connection. This is encouraged but not mandatory.\n*   **Home Office Stipend:** The company will provide a one-time $500 stipend to all full-time remote and hybrid employees to assist in setting up a productive and ergonomic home workspace.\n\n**Why We're Making This Change**\n\nThis shift is driven by several key factors:\n1.  **Trust & Autonomy:** We trust you to manage your time and deliver exceptional work, regardless of location. This policy formalizes that trust.\n2.  **Productivity & Talent:** Our experience over the past years has confirmed that our team can be highly productive remotely. This policy also enhances our ability to attract and retain top talent globally.\n3.  **Employee Well-being:** We recognize the importance of work-life integration. Flexibility allows you to better manage personal commitments, reduce commute stress, and design a workday that maximizes your energy and focus.\n\n**What You Need to Do Next**\n\n1.  **Review the Full Policy:** Please carefully read the complete **[Flexible Work Policy]** document, which will be available on the company intranet ([Link]) by **[Date]**. It contains important details on eligibility, equipment, security, and expectations.\n2.  **Discuss with Your Manager:** By **[Date, e.g., September 22]**, please have a conversation with your direct manager to discuss your intended work arrangement (remote, hybrid, or in-office) and formalize a mutually agreed-upon schedule. Managers will receive separate guidance on these discussions.\n3.  **Submit Your Work Arrangement Agreement:** Following the discussion with your manager, all employees must submit a formal **[Work Arrangement Agreement Form]** on the HR portal by **[Date, e.g., September 29]**.\n4.  **Plan for Anchor Days:** Coordinate with your team to determine your preferred weekly Anchor Day.\n\nOur office will remain open and available as a hub for collaboration, focus work, and social connection. We will continue to invest in our office space and remote collaboration tools to ensure all employees have the resources they need to succeed.\n\nWe believe this policy strikes the right balance between flexibility, collaboration, and sustaining our strong company culture. We are confident it will empower you to do your best work.\n\nThank you for your contributions and your flexibility as we implement this new model. Please direct any questions to your manager or to **[HR Contact/Email]**.\n\nBest regards,\n\n[Your Name/Leadership Team Signature]",
+  "run_name": "2026-03-08-openrouter-v0-2-clean-3"
+}

@@ -1,0 +1,5 @@
+judge_model_id,agreement_overall,agreement_clarity,agreement_simplicity,agreement_brevity_economy,agreement_structure_flow,agreement_specificity_precision,agreement_humanity_voice
+anthropic/claude-opus-4.6,0.744,0.9646,0.7477,0.639,0.9434,0.6579,0.6656
+google/gemini-3.1-pro-preview,0.8086,0.9677,0.7156,0.6048,0.9608,0.7407,0.6893
+openai/gpt-5.4,0.7828,0.9524,0.5462,0.6104,0.9419,0.7722,0.7225
+z-ai/glm-5,0.8088,0.9677,0.7025,0.6346,0.9558,0.771,0.7445

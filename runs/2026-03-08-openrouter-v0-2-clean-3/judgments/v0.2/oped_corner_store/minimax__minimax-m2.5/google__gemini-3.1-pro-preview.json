@@ -1,0 +1,47 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.2",
+  "candidate_model_id": "minimax/minimax-m2.5",
+  "created_at": "2026-03-08T13:25:37Z",
+  "judge_model_id": "google/gemini-3.1-pro-preview",
+  "metadata": {
+    "id": "gen-1772976331-JGjbqx6JYwm5j09qNkpx",
+    "raw_text": "{\n  \"scores\": {\n    \"clarity\": 5,\n    \"simplicity\": 5,\n    \"brevity_economy\": 5,\n    \"structure_flow\": 5,\n    \"specificity_precision\": 5,\n    \"humanity_voice\": 5,\n    \"overall\": 5\n  },\n  \"rationale\": \"The piece is exceptionally well-written, employing a clear, persuasive, and human voice. It uses concrete examples to support its arguments, flows logically through well-organized sections, and addresses counterarguments effectively without wasting words.\"\n}",
+    "usage": {
+      "completion_tokens": 437,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 307
+      },
+      "cost": 0.007796,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.005244,
+        "upstream_inference_cost": 0.007796,
+        "upstream_inference_prompt_cost": 0.002552
+      },
+      "is_byok": false,
+      "prompt_tokens": 1276,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 1713
+    }
+  },
+  "prompt_category": "persuasion_oped",
+  "prompt_id": "oped_corner_store",
+  "rationale": "The piece is exceptionally well-written, employing a clear, persuasive, and human voice. It uses concrete examples to support its arguments, flows logically through well-organized sections, and addresses counterarguments effectively without wasting words.",
+  "run_name": "2026-03-08-openrouter-v0-2-clean-3",
+  "scores": {
+    "brevity_economy": 5,
+    "clarity": 5,
+    "humanity_voice": 5,
+    "overall": 5,
+    "simplicity": 5,
+    "specificity_precision": 5,
+    "structure_flow": 5
+  }
+}

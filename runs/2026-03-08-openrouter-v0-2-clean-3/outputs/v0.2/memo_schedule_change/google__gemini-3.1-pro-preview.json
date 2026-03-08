@@ -1,0 +1,56 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.2",
+  "candidate_label": "Gemini 3.1 Pro Preview",
+  "candidate_model_id": "google/gemini-3.1-pro-preview",
+  "created_at": "2026-03-08T12:25:55Z",
+  "metadata": {
+    "finish_reason": "stop",
+    "generation_attempt": 1,
+    "generation_settings": {
+      "max_output_tokens": 10000,
+      "reasoning_effort": "medium"
+    },
+    "id": "gen-1772972732-8AEPnIkMy9B5QKOI16Op",
+    "quality_guard": {
+      "minimum_words": 100,
+      "reason": "",
+      "status": "ok",
+      "word_count": 376
+    },
+    "raw_response_text": "**MEMORANDUM**\n\n**TO:** All Warehouse Employees  \n**FROM:** Warehouse Operations Management  \n**DATE:** October 24, 2023  \n**SUBJECT:** Important: Shift Schedule Changes for the Upcoming Holiday Season  \n\nAs we approach our busiest time of the year, we want to first thank you for your continued hard work and dedication. The upcoming holiday season brings a significant increase in order volume, and to ensure we meet our delivery commitments to our customers, we will be implementing a temporary change to our warehouse shift schedule. \n\n**Effective Monday, November 13th through Saturday, December 23rd**, we will transition from our standard 8-hour shifts to a 10-hour shift model, and we will be introducing a rotating weekend schedule. \n\n**New Shift Hours:**\n*   **1st Shift:** 6:00 AM \u2013 4:30 PM (includes a 30-minute unpaid lunch and two 15-minute paid breaks)\n*   **2nd Shift:** 4:00 PM \u2013 2:30 AM (includes a 30-minute unpaid lunch and two 15-minute paid breaks)\n\n**Weekend Rotation:**\nTo maintain continuous operations, all employees will be assigned to work two mandatory Saturday shifts during this six-week period. Your direct supervisor will provide you with your specific weekend assignments by Friday, October 27th. \n\n**Compensation and Support:**\nWe recognize that these longer hours require extra effort and time away from your families. Please note the following:\n*   **Overtime Pay:** All hours worked over 40 hours in a single workweek will be paid at the standard time-and-a-half overtime rate. \n*   **Holiday Meals:** To show our appreciation, management will be providing catered meals for all shifts every Friday throughout the peak season. \n*   **Breakroom Stock:** We will be keeping the breakrooms fully stocked with complimentary coffee, energy drinks, and snacks.\n\n**Scheduling Conflicts:**\nWe understand that adjusting to a new schedule can be challenging. If you have a pre-existing conflict (such as childcare arrangements or medical appointments) that prevents you from accommodating these new hours, please speak with your Shift Supervisor or HR representative no later than **Wednesday, November 1st**. We will do our best to work with you to find a reasonable solution. \n\nThank you again for your flexibility and commitment. Our warehouse team is the backbone of this company, and our success during the holiday season relies entirely on your hard work. \n\nIf you have any immediate questions regarding this memo, please reach out to Human Resources.",
+    "sanitization": {
+      "changed": false,
+      "patterns": [],
+      "removed_chars": 0,
+      "removed_ratio": 0.0
+    },
+    "usage": {
+      "completion_tokens": 1229,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 670
+      },
+      "cost": 0.014842,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.014748,
+        "upstream_inference_cost": 0.014842,
+        "upstream_inference_prompt_cost": 9.4e-05
+      },
+      "is_byok": false,
+      "prompt_tokens": 47,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 1276
+    }
+  },
+  "prompt_category": "memo",
+  "prompt_id": "memo_schedule_change",
+  "response_text": "**MEMORANDUM**\n\n**TO:** All Warehouse Employees  \n**FROM:** Warehouse Operations Management  \n**DATE:** October 24, 2023  \n**SUBJECT:** Important: Shift Schedule Changes for the Upcoming Holiday Season  \n\nAs we approach our busiest time of the year, we want to first thank you for your continued hard work and dedication. The upcoming holiday season brings a significant increase in order volume, and to ensure we meet our delivery commitments to our customers, we will be implementing a temporary change to our warehouse shift schedule. \n\n**Effective Monday, November 13th through Saturday, December 23rd**, we will transition from our standard 8-hour shifts to a 10-hour shift model, and we will be introducing a rotating weekend schedule. \n\n**New Shift Hours:**\n*   **1st Shift:** 6:00 AM \u2013 4:30 PM (includes a 30-minute unpaid lunch and two 15-minute paid breaks)\n*   **2nd Shift:** 4:00 PM \u2013 2:30 AM (includes a 30-minute unpaid lunch and two 15-minute paid breaks)\n\n**Weekend Rotation:**\nTo maintain continuous operations, all employees will be assigned to work two mandatory Saturday shifts during this six-week period. Your direct supervisor will provide you with your specific weekend assignments by Friday, October 27th. \n\n**Compensation and Support:**\nWe recognize that these longer hours require extra effort and time away from your families. Please note the following:\n*   **Overtime Pay:** All hours worked over 40 hours in a single workweek will be paid at the standard time-and-a-half overtime rate. \n*   **Holiday Meals:** To show our appreciation, management will be providing catered meals for all shifts every Friday throughout the peak season. \n*   **Breakroom Stock:** We will be keeping the breakrooms fully stocked with complimentary coffee, energy drinks, and snacks.\n\n**Scheduling Conflicts:**\nWe understand that adjusting to a new schedule can be challenging. If you have a pre-existing conflict (such as childcare arrangements or medical appointments) that prevents you from accommodating these new hours, please speak with your Shift Supervisor or HR representative no later than **Wednesday, November 1st**. We will do our best to work with you to find a reasonable solution. \n\nThank you again for your flexibility and commitment. Our warehouse team is the backbone of this company, and our success during the holiday season relies entirely on your hard work. \n\nIf you have any immediate questions regarding this memo, please reach out to Human Resources.",
+  "run_name": "2026-03-08-openrouter-v0-2-clean-3"
+}

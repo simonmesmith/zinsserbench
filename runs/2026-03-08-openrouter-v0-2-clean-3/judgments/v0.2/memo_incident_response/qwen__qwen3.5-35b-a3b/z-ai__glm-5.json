@@ -1,0 +1,47 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.2",
+  "candidate_model_id": "qwen/qwen3.5-35b-a3b",
+  "created_at": "2026-03-08T14:22:34Z",
+  "judge_model_id": "z-ai/glm-5",
+  "metadata": {
+    "id": "gen-1772979705-9FC5tLUAEFccMtjVjJZ8",
+    "raw_text": "{\"scores\": {\"clarity\": 4, \"simplicity\": 4, \"brevity_economy\": 2, \"structure_flow\": 3, \"specificity_precision\": 5, \"humanity_voice\": 4, \"overall\": 3}, \"rationale\": \"The candidate included a lengthy planning section before the actual memo, violating the instruction to answer the task directly. This unnecessary preamble severely hurts brevity and structure. However, the memo itself is strong: it is specific regarding times and technical details, clear in its explanations, and professional in tone.\"}",
+    "usage": {
+      "completion_tokens": 1610,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 1487
+      },
+      "cost": 0.006544,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.0050715,
+        "upstream_inference_cost": 0.006544,
+        "upstream_inference_prompt_cost": 0.0014725
+      },
+      "is_byok": false,
+      "prompt_tokens": 1550,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 3160
+    }
+  },
+  "prompt_category": "memo",
+  "prompt_id": "memo_incident_response",
+  "rationale": "The candidate included a lengthy planning section before the actual memo, violating the instruction to answer the task directly. This unnecessary preamble severely hurts brevity and structure. However, the memo itself is strong: it is specific regarding times and technical details, clear in its explanations, and professional in tone.",
+  "run_name": "2026-03-08-openrouter-v0-2-clean-3",
+  "scores": {
+    "brevity_economy": 2,
+    "clarity": 4,
+    "humanity_voice": 4,
+    "overall": 3,
+    "simplicity": 4,
+    "specificity_precision": 5,
+    "structure_flow": 3
+  }
+}

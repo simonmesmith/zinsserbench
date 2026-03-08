@@ -1,0 +1,47 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.2",
+  "candidate_model_id": "google/gemini-3.1-pro-preview",
+  "created_at": "2026-03-08T13:11:42Z",
+  "judge_model_id": "z-ai/glm-5",
+  "metadata": {
+    "id": "gen-1772975483-dWYn59fiyhHstJ8cuTXx",
+    "raw_text": "{\"scores\": {\"clarity\": 5, \"simplicity\": 5, \"brevity_economy\": 5, \"structure_flow\": 5, \"specificity_precision\": 5, \"humanity_voice\": 5, \"overall\": 5}, \"rationale\": \"An excellent consumer explainer that opens with a relatable scenario, then systematically covers definitions, verification steps, action items, and what-if scenarios. Uses plain language throughout, provides specific details (UPC codes, lot numbers, specific pathogens, exact cleaning instructions), and maintains a warm, reassuring tone. The logical structure anticipates reader questions in the order they'd naturally arise.\"}",
+    "usage": {
+      "completion_tokens": 724,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 676
+      },
+      "cost": 0.0036708,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.0023168,
+        "upstream_inference_cost": 0.0036708,
+        "upstream_inference_prompt_cost": 0.001354
+      },
+      "is_byok": false,
+      "prompt_tokens": 1354,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 2078
+    }
+  },
+  "prompt_category": "explain",
+  "prompt_id": "explain_food_recall",
+  "rationale": "An excellent consumer explainer that opens with a relatable scenario, then systematically covers definitions, verification steps, action items, and what-if scenarios. Uses plain language throughout, provides specific details (UPC codes, lot numbers, specific pathogens, exact cleaning instructions), and maintains a warm, reassuring tone. The logical structure anticipates reader questions in the order they'd naturally arise.",
+  "run_name": "2026-03-08-openrouter-v0-2-clean-3",
+  "scores": {
+    "brevity_economy": 5,
+    "clarity": 5,
+    "humanity_voice": 5,
+    "overall": 5,
+    "simplicity": 5,
+    "specificity_precision": 5,
+    "structure_flow": 5
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.2",
+  "candidate_model_id": "minimax/minimax-m2.5",
+  "created_at": "2026-03-08T13:06:55Z",
+  "judge_model_id": "openai/gpt-5.4",
+  "metadata": {
+    "id": "gen-1772975211-hEoocKtJleHHQ00hb0Wx",
+    "raw_text": "{\"scores\":{\"clarity\":5,\"simplicity\":3,\"brevity_economy\":3,\"structure_flow\":5,\"specificity_precision\":5,\"humanity_voice\":5,\"overall\":5},\"rationale\":\"Vivid, controlled essay with a clear central insight: the pool as a map of class and belonging in the town. Organization is smooth, moving from childhood memory to adult understanding and ending on a resonant personal note. Details are concrete and memorable throughout. The main weakness is style control: the prose is often lush and metaphor-heavy, with some repeated ideas and a few inflated lines that reduce simplicity and economy.\"}",
+    "usage": {
+      "completion_tokens": 195,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 58
+      },
+      "cost": 0.0076975,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.002925,
+        "upstream_inference_cost": 0.0076975,
+        "upstream_inference_prompt_cost": 0.0047725
+      },
+      "is_byok": false,
+      "prompt_tokens": 1909,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 2104
+    }
+  },
+  "prompt_category": "personal_nonfiction",
+  "prompt_id": "personal_public_pool",
+  "rationale": "Vivid, controlled essay with a clear central insight: the pool as a map of class and belonging in the town. Organization is smooth, moving from childhood memory to adult understanding and ending on a resonant personal note. Details are concrete and memorable throughout. The main weakness is style control: the prose is often lush and metaphor-heavy, with some repeated ideas and a few inflated lines that reduce simplicity and economy.",
+  "run_name": "2026-03-08-openrouter-v0-2-clean-3",
+  "scores": {
+    "brevity_economy": 3,
+    "clarity": 5,
+    "humanity_voice": 5,
+    "overall": 5,
+    "simplicity": 3,
+    "specificity_precision": 5,
+    "structure_flow": 5
+  }
+}

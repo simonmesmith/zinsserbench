@@ -1,0 +1,47 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.2",
+  "candidate_model_id": "x-ai/grok-4.1-fast",
+  "created_at": "2026-03-08T13:05:22Z",
+  "judge_model_id": "anthropic/claude-opus-4.6",
+  "metadata": {
+    "id": "gen-1772975113-AQAtpjffNGPyYee7qK9R",
+    "raw_text": "{\"scores\": {\"clarity\": 5, \"simplicity\": 4, \"brevity_economy\": 3, \"structure_flow\": 5, \"specificity_precision\": 4, \"humanity_voice\": 4, \"overall\": 4}, \"rationale\": \"The essay is clearly written and well-organized, moving chronologically from childhood through adulthood with the pool as a consistent lens on the town's evolution. The structure is excellent\u2014each paragraph advances the timeline and deepens the thematic argument. Specificity is strong with named characters (Eddie Ruiz, Mrs. Hargrove, Jamal, Tommy Kowalski, LaToya Jenkins), dates, and concrete details like the dollar admission and the 102-degree summer. However, the piece overreaches at times with figurative language that feels crafted rather than natural\u2014'like a drunk uncle,' 'like beached seals,' 'peeling like old skin'\u2014and some metaphors are heavy-handed ('drowned our worst impulses and buoyed our best'). The voice is warm and engaged but occasionally tips into literary performance, with lines like 'North Star' and 'throbbed with the heartbeat of the town' feeling slightly inflated. On brevity, the essay runs long and some passages (the potluck description, the demographic cataloguing) could be tightened. The piece also reads as almost too neatly constructed\u2014every detail serves the thesis so perfectly that it occasionally feels more like fiction than personal nonfiction. Still, it's a strong, effective essay that accomplishes its task with skill.\"}",
+    "usage": {
+      "completion_tokens": 353,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 0
+      },
+      "cost": 0.01924,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.008825,
+        "upstream_inference_cost": 0.01924,
+        "upstream_inference_prompt_cost": 0.010415
+      },
+      "is_byok": false,
+      "prompt_tokens": 2083,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 2436
+    }
+  },
+  "prompt_category": "personal_nonfiction",
+  "prompt_id": "personal_public_pool",
+  "rationale": "The essay is clearly written and well-organized, moving chronologically from childhood through adulthood with the pool as a consistent lens on the town's evolution. The structure is excellent\u2014each paragraph advances the timeline and deepens the thematic argument. Specificity is strong with named characters (Eddie Ruiz, Mrs. Hargrove, Jamal, Tommy Kowalski, LaToya Jenkins), dates, and concrete details like the dollar admission and the 102-degree summer. However, the piece overreaches at times with figurative language that feels crafted rather than natural\u2014'like a drunk uncle,' 'like beached seals,' 'peeling like old skin'\u2014and some metaphors are heavy-handed ('drowned our worst impulses and buoyed our best'). The voice is warm and engaged but occasionally tips into literary performance, with lines like 'North Star' and 'throbbed with the heartbeat of the town' feeling slightly inflated. On brevity, the essay runs long and some passages (the potluck description, the demographic cataloguing) could be tightened. The piece also reads as almost too neatly constructed\u2014every detail serves the thesis so perfectly that it occasionally feels more like fiction than personal nonfiction. Still, it's a strong, effective essay that accomplishes its task with skill.",
+  "run_name": "2026-03-08-openrouter-v0-2-clean-3",
+  "scores": {
+    "brevity_economy": 3,
+    "clarity": 5,
+    "humanity_voice": 4,
+    "overall": 4,
+    "simplicity": 4,
+    "specificity_precision": 4,
+    "structure_flow": 5
+  }
+}

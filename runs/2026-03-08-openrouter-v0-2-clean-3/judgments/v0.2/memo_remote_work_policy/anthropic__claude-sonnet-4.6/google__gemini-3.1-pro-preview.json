@@ -1,0 +1,47 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.2",
+  "candidate_model_id": "anthropic/claude-sonnet-4.6",
+  "created_at": "2026-03-08T12:28:39Z",
+  "judge_model_id": "google/gemini-3.1-pro-preview",
+  "metadata": {
+    "id": "gen-1772972912-kCMDUMu8F7RK6uEJSa3L",
+    "raw_text": "{\n  \"scores\": {\n    \"clarity\": 5,\n    \"simplicity\": 5,\n    \"brevity_economy\": 5,\n    \"structure_flow\": 5,\n    \"specificity_precision\": 5,\n    \"humanity_voice\": 5,\n    \"overall\": 5\n  },\n  \"rationale\": \"The memo is exceptionally well-written. It is highly clear, logically structured with excellent use of formatting, and provides precise details like dates and dollar amounts. The tone is empathetic, transparent, and human, successfully avoiding bureaucratic jargon while delivering a comprehensive policy update.\"\n}",
+    "usage": {
+      "completion_tokens": 457,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 319
+      },
+      "cost": 0.009356,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.005484,
+        "upstream_inference_cost": 0.009356,
+        "upstream_inference_prompt_cost": 0.003872
+      },
+      "is_byok": false,
+      "prompt_tokens": 1936,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 2393
+    }
+  },
+  "prompt_category": "memo",
+  "prompt_id": "memo_remote_work_policy",
+  "rationale": "The memo is exceptionally well-written. It is highly clear, logically structured with excellent use of formatting, and provides precise details like dates and dollar amounts. The tone is empathetic, transparent, and human, successfully avoiding bureaucratic jargon while delivering a comprehensive policy update.",
+  "run_name": "2026-03-08-openrouter-v0-2-clean-3",
+  "scores": {
+    "brevity_economy": 5,
+    "clarity": 5,
+    "humanity_voice": 5,
+    "overall": 5,
+    "simplicity": 5,
+    "specificity_precision": 5,
+    "structure_flow": 5
+  }
+}

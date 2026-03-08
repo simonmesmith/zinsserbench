@@ -5,7 +5,7 @@ from pathlib import Path
 from typing import Callable, Dict, List, Sequence, Tuple
 
 from .backends import ModelBackend
-from .quality import detect_truncation, evaluate_output, sanitize_output
+from .quality import evaluate_output, sanitize_output
 from .specs import load_benchmark_version
 from .storage import RunStorage
 from .types import GenerationRecord, JudgmentRecord, RunManifest, model_company, validate_axis_scores, utc_now_iso
@@ -133,9 +133,6 @@ def _generate_one(
     if not guard.is_valid:
         status = "quarantined"
         reason = guard.reason
-    elif metadata.get("truncation", {}).get("is_truncated"):
-        status = "quarantined"
-        reason = "truncated"
     metadata["quality_guard"] = {
         "status": status,
         "reason": reason,
@@ -224,19 +221,13 @@ def _generate_with_post_processing(backend, model, prompt, settings):
             "removed_ratio": round(sanitized.removed_ratio, 4),
             "patterns": sanitized.patterns,
         }
-        truncation = detect_truncation(
-            sanitized.text,
-            metadata,
-            int(attempt_settings.get("max_output_tokens", base_max_tokens)),
-        )
-        metadata["truncation"] = {"is_truncated": truncation.is_truncated, "reasons": truncation.reasons}
 
         last_payload = payload
         last_text = sanitized.text
         last_metadata = metadata
 
         heavy_sanitization = sanitized.removed_ratio > 0.10
-        if not heavy_sanitization and not truncation.is_truncated:
+        if not heavy_sanitization:
             break
 
     return last_payload, last_text, last_metadata

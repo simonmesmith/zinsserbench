@@ -1,0 +1,56 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.2",
+  "candidate_label": "GLM-5",
+  "candidate_model_id": "z-ai/glm-5",
+  "created_at": "2026-03-08T12:26:25Z",
+  "metadata": {
+    "finish_reason": "stop",
+    "generation_attempt": 1,
+    "generation_settings": {
+      "max_output_tokens": 10000,
+      "reasoning_effort": "medium"
+    },
+    "id": "gen-1772972752-FKNzwxONr3xxzR75jSSP",
+    "quality_guard": {
+      "minimum_words": 100,
+      "reason": "",
+      "status": "ok",
+      "word_count": 362
+    },
+    "raw_response_text": "**MEMORANDUM**\n\n**TO:** All Warehouse Staff\n**FROM:** Warehouse Management\n**DATE:** October 26, 2023\n**SUBJECT:** Upcoming Holiday Season Shift Schedule Changes\n\n**Introduction**\nAs we approach the upcoming holiday season, we anticipate a significant increase in order volume and shipment activity. To ensure we meet our delivery commitments and maintain efficient operations during this peak period, we will be implementing a temporary adjusted shift schedule.\n\n**Effective Date**\nThese changes will go into effect on **Monday, November 13th**, and will remain in place through **Friday, December 22nd**. We will return to our standard operating schedule on Monday, December 25th.\n\n**New Shift Times**\nTo accommodate increased receiving and shipping windows, we are introducing overlapping shifts. The new temporary schedule is as follows:\n\n*   **Shift A (Early Bird):** 6:00 AM \u2013 2:30 PM\n*   **Shift B (Standard):** 10:00 AM \u2013 6:30 PM\n*   **Shift C (Evening):** 2:00 PM \u2013 10:30 PM\n\nPlease note that Shift B and Shift C will overlap between 2:00 PM and 6:30 PM to facilitate a smoother handover process and to manage the afternoon dispatch rush.\n\n**Schedule Availability**\nIndividual shift assignments have been posted on the bulletin board in the break room and are also available through the employee portal. We have done our best to accommodate previously submitted availability requests; however, some adjustments were necessary to balance team coverage.\n\n**Compensation and Incentives**\nWe understand that this season requires extra effort from everyone. To show our appreciation:\n*   All hours worked in excess of 40 hours per week will be paid at time-and-a-half.\n*   Employees working the Evening Shift (Shift C) will receive a $2.00 per hour shift differential.\n*   Complimentary hot meals will be provided in the break room for all shifts on Saturdays and Sundays throughout December.\n\n**Next Steps**\nPlease review the new schedule immediately. If you have a conflict that prevents you from working your assigned shift, you must submit a shift swap request via the portal or speak with your direct supervisor no later than November 3rd.\n\nWe rely on your dedication and hard work to make this holiday season a success for our customers and our team. Thank you for your flexibility and continued commitment.\n\nSincerely,\n\nWarehouse Management Team",
+    "sanitization": {
+      "changed": false,
+      "patterns": [],
+      "removed_chars": 0,
+      "removed_ratio": 0.0
+    },
+    "usage": {
+      "completion_tokens": 1277,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 837
+      },
+      "cost": 0.0041384,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.0040864,
+        "upstream_inference_cost": 0.0041384,
+        "upstream_inference_prompt_cost": 5.2e-05
+      },
+      "is_byok": false,
+      "prompt_tokens": 52,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 1329
+    }
+  },
+  "prompt_category": "memo",
+  "prompt_id": "memo_schedule_change",
+  "response_text": "**MEMORANDUM**\n\n**TO:** All Warehouse Staff\n**FROM:** Warehouse Management\n**DATE:** October 26, 2023\n**SUBJECT:** Upcoming Holiday Season Shift Schedule Changes\n\n**Introduction**\nAs we approach the upcoming holiday season, we anticipate a significant increase in order volume and shipment activity. To ensure we meet our delivery commitments and maintain efficient operations during this peak period, we will be implementing a temporary adjusted shift schedule.\n\n**Effective Date**\nThese changes will go into effect on **Monday, November 13th**, and will remain in place through **Friday, December 22nd**. We will return to our standard operating schedule on Monday, December 25th.\n\n**New Shift Times**\nTo accommodate increased receiving and shipping windows, we are introducing overlapping shifts. The new temporary schedule is as follows:\n\n*   **Shift A (Early Bird):** 6:00 AM \u2013 2:30 PM\n*   **Shift B (Standard):** 10:00 AM \u2013 6:30 PM\n*   **Shift C (Evening):** 2:00 PM \u2013 10:30 PM\n\nPlease note that Shift B and Shift C will overlap between 2:00 PM and 6:30 PM to facilitate a smoother handover process and to manage the afternoon dispatch rush.\n\n**Schedule Availability**\nIndividual shift assignments have been posted on the bulletin board in the break room and are also available through the employee portal. We have done our best to accommodate previously submitted availability requests; however, some adjustments were necessary to balance team coverage.\n\n**Compensation and Incentives**\nWe understand that this season requires extra effort from everyone. To show our appreciation:\n*   All hours worked in excess of 40 hours per week will be paid at time-and-a-half.\n*   Employees working the Evening Shift (Shift C) will receive a $2.00 per hour shift differential.\n*   Complimentary hot meals will be provided in the break room for all shifts on Saturdays and Sundays throughout December.\n\n**Next Steps**\nPlease review the new schedule immediately. If you have a conflict that prevents you from working your assigned shift, you must submit a shift swap request via the portal or speak with your direct supervisor no later than November 3rd.\n\nWe rely on your dedication and hard work to make this holiday season a success for our customers and our team. Thank you for your flexibility and continued commitment.\n\nSincerely,\n\nWarehouse Management Team",
+  "run_name": "2026-03-08-openrouter-v0-2-clean-3"
+}

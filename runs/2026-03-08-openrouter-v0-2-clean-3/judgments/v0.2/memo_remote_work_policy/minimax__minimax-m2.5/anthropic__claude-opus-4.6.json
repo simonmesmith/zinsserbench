@@ -1,0 +1,47 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.2",
+  "candidate_model_id": "minimax/minimax-m2.5",
+  "created_at": "2026-03-08T12:30:47Z",
+  "judge_model_id": "anthropic/claude-opus-4.6",
+  "metadata": {
+    "id": "gen-1772973038-eqcxcgzpXM4a0u6rhSIe",
+    "raw_text": "{\"scores\": {\"clarity\": 5, \"simplicity\": 5, \"brevity_economy\": 4, \"structure_flow\": 5, \"specificity_precision\": 5, \"humanity_voice\": 4, \"overall\": 5}, \"rationale\": \"Exceptionally clear and well-organized memo. Every section answers a distinct question (what, why, what next), making it easy to scan and act on. The language is plain and direct throughout\u2014no jargon or inflated phrasing. Specificity is strong: concrete numbers ($1,000 stipend, 50 Mbps, 10-3 core hours, 2-day minimum), numbered action steps with deadlines, and clear eligibility criteria. Slightly docked on brevity because a few points could be tightened (e.g., the 'Why' section has some overlap between retention and acquisition bullets, and the closing line is a touch boilerplate). Humanity is good\u2014the tone is warm and respectful without being saccharine\u2014but it reads slightly templated in places ('I am pleased to announce,' 'Thank you for your continued dedication'), keeping it from a 5. Overall, this is a near-ideal internal memo: actionable, well-structured, and specific.\"}",
+    "usage": {
+      "completion_tokens": 284,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 0
+      },
+      "cost": 0.01313,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.0071,
+        "upstream_inference_cost": 0.01313,
+        "upstream_inference_prompt_cost": 0.00603
+      },
+      "is_byok": false,
+      "prompt_tokens": 1206,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 1490
+    }
+  },
+  "prompt_category": "memo",
+  "prompt_id": "memo_remote_work_policy",
+  "rationale": "Exceptionally clear and well-organized memo. Every section answers a distinct question (what, why, what next), making it easy to scan and act on. The language is plain and direct throughout\u2014no jargon or inflated phrasing. Specificity is strong: concrete numbers ($1,000 stipend, 50 Mbps, 10-3 core hours, 2-day minimum), numbered action steps with deadlines, and clear eligibility criteria. Slightly docked on brevity because a few points could be tightened (e.g., the 'Why' section has some overlap between retention and acquisition bullets, and the closing line is a touch boilerplate). Humanity is good\u2014the tone is warm and respectful without being saccharine\u2014but it reads slightly templated in places ('I am pleased to announce,' 'Thank you for your continued dedication'), keeping it from a 5. Overall, this is a near-ideal internal memo: actionable, well-structured, and specific.",
+  "run_name": "2026-03-08-openrouter-v0-2-clean-3",
+  "scores": {
+    "brevity_economy": 4,
+    "clarity": 5,
+    "humanity_voice": 4,
+    "overall": 5,
+    "simplicity": 5,
+    "specificity_precision": 5,
+    "structure_flow": 5
+  }
+}

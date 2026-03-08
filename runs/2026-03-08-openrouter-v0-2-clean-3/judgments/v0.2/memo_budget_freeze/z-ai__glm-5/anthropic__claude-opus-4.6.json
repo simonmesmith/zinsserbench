@@ -1,0 +1,47 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.2",
+  "candidate_model_id": "z-ai/glm-5",
+  "created_at": "2026-03-08T12:33:09Z",
+  "judge_model_id": "anthropic/claude-opus-4.6",
+  "metadata": {
+    "id": "gen-1772973180-ZKiH9nmvXnmCn3sYrGfy",
+    "raw_text": "{\"scores\": {\"clarity\": 5, \"simplicity\": 4, \"brevity_economy\": 4, \"structure_flow\": 5, \"specificity_precision\": 5, \"humanity_voice\": 4, \"overall\": 5}, \"rationale\": \"Exceptionally well-structured memo with clear section headers that immediately orient the reader. The affected/exempt distinction is precise and uses concrete examples (HVAC, generators, medical gas systems; replacement computers). The exception process is specific and includes a smart warning against splitting POs. Minor dings: some phrases lean slightly corporate ('fiscal discipline,' 'amidst current industry-wide pressures,' 'ensure continuity of care') and the prompt asked what questions managers should bring forward, which is only partially addressed\u2014it gives a contact email but doesn't enumerate the kinds of questions worth raising. Still, this is a highly effective, professional memo that would serve its purpose well in a real hospital setting.\"}",
+    "usage": {
+      "completion_tokens": 210,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 0
+      },
+      "cost": 0.010855,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.00525,
+        "upstream_inference_cost": 0.010855,
+        "upstream_inference_prompt_cost": 0.005605
+      },
+      "is_byok": false,
+      "prompt_tokens": 1121,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 1331
+    }
+  },
+  "prompt_category": "memo",
+  "prompt_id": "memo_budget_freeze",
+  "rationale": "Exceptionally well-structured memo with clear section headers that immediately orient the reader. The affected/exempt distinction is precise and uses concrete examples (HVAC, generators, medical gas systems; replacement computers). The exception process is specific and includes a smart warning against splitting POs. Minor dings: some phrases lean slightly corporate ('fiscal discipline,' 'amidst current industry-wide pressures,' 'ensure continuity of care') and the prompt asked what questions managers should bring forward, which is only partially addressed\u2014it gives a contact email but doesn't enumerate the kinds of questions worth raising. Still, this is a highly effective, professional memo that would serve its purpose well in a real hospital setting.",
+  "run_name": "2026-03-08-openrouter-v0-2-clean-3",
+  "scores": {
+    "brevity_economy": 4,
+    "clarity": 5,
+    "humanity_voice": 4,
+    "overall": 5,
+    "simplicity": 4,
+    "specificity_precision": 5,
+    "structure_flow": 5
+  }
+}

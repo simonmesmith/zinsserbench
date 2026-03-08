@@ -1,0 +1,56 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.2",
+  "candidate_label": "DeepSeek V3.2",
+  "candidate_model_id": "deepseek/deepseek-v3.2",
+  "created_at": "2026-03-08T11:59:53Z",
+  "metadata": {
+    "finish_reason": "stop",
+    "generation_attempt": 1,
+    "generation_settings": {
+      "max_output_tokens": 10000,
+      "reasoning_effort": "medium"
+    },
+    "id": "gen-1772971181-H8GMAL422XsxHqDHPwkN",
+    "quality_guard": {
+      "minimum_words": 200,
+      "reason": "",
+      "status": "ok",
+      "word_count": 603
+    },
+    "raw_response_text": "**The Keeper of the Halls: Mr. James and the Heart of Jefferson High**\n\nFor twenty-eight years, the rhythm of Jefferson High School has been set not only by bells and schedules but by the steady, familiar cadence of Mr. Elijah James\u2019s footsteps. As the head custodian, he moves through the corridors with a quiet authority, a master of his domain of linoleum, lockers, and learning. But his true legacy isn\u2019t measured in polished floors or emptied trash cans; it\u2019s etched in the memory of thousands of names and the gentle, watchful presence that has made him a foundational pillar of the community.\n\nMr. James, now in his early sixties, started at Jefferson when the current seniors\u2019 parents were students. He has seen fashions cycle, technology transform, and educational trends come and go. Through it all, his constant has been the students. He makes a point of learning every name. Not just the star athletes or the valedictorians, but the quiet artist in the back corner, the anxious freshman who gets lost between periods, and the boisterous debate team captain.\n\nHis method is simple but profound. He listens. He observes. In the first chaotic weeks of each school year, he studies faces, matches them to class schedules taped on lockers, and greets each student by name as they fumble with their combinations. \u201cGood morning, Maya. Locker 322 sticking again?\u201d or \u201cWelcome back, Carlos. Saw your team won last night.\u201d The effect is immediate\u2014a startled smile, a stand-straighter posture, the powerful feeling of being *seen*.\n\nTo the students, Mr. James is a unique hybrid of guardian, historian, and unofficial counselor. He\u2019s the one who discreetly hands a spare pad or tampon to a flustered girl, who finds a lost calculus notebook and delivers it to the right classroom before the bell, and who offers a steadying, \u201cYou\u2019ve got this, Mr. Thompson,\u201d to a nervous kid outside the principal\u2019s office. He knows who is struggling at home, who is celebrating a college acceptance, and which friend groups are feuding. He carries these stories not as gossip, but as a map of the school\u2019s emotional landscape, allowing him to offer kindness where it\u2019s needed most.\n\nThe staff relies on him equally. New teachers learn quickly that Mr. James is the repository of institutional knowledge\u2014the only one who knows which window leaks in a nor\u2019easter, the history of the mural in the old gym, and the trick to getting the projector in Room 205 to work. He fixes more than broken desks; he often mends frayed nerves with a cup of coffee and a listening ear in the break room.\n\nWhen asked about his tenure, Mr. James, a man of few boastful words, simply says, \u201cThis is my school. These are my kids.\u201d He doesn\u2019t see his role as merely custodial, but as custodial in the oldest sense: he is a keeper, a guardian. He believes a clean, functioning school shows respect for the people in it, and knowing a name is the first step in showing that respect.\n\nAs another graduation approaches, he will stand at the edge of the auditorium stage, his work-worn hands clasped. He will listen as the principal reads the names of the graduating class, and for each one, a specific memory will flicker\u2014a dropped lunch tray, a triumphant science fair project, a whispered thank you. They will leave, but a part of them remains with him, woven into the fabric of the building he maintains. And in the fall, he will begin again, learning a new set of names, quietly ensuring that the heart of Jefferson High beats strong, clean, and remembered.",
+    "sanitization": {
+      "changed": false,
+      "patterns": [],
+      "removed_chars": 0,
+      "removed_ratio": 0.0
+    },
+    "usage": {
+      "completion_tokens": 960,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 225
+      },
+      "cost": 0.001469,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.00144,
+        "upstream_inference_cost": 0.001469,
+        "upstream_inference_prompt_cost": 2.9e-05
+      },
+      "is_byok": false,
+      "prompt_tokens": 58,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 1018
+    }
+  },
+  "prompt_category": "profile",
+  "prompt_id": "profile_school_custodian",
+  "response_text": "**The Keeper of the Halls: Mr. James and the Heart of Jefferson High**\n\nFor twenty-eight years, the rhythm of Jefferson High School has been set not only by bells and schedules but by the steady, familiar cadence of Mr. Elijah James\u2019s footsteps. As the head custodian, he moves through the corridors with a quiet authority, a master of his domain of linoleum, lockers, and learning. But his true legacy isn\u2019t measured in polished floors or emptied trash cans; it\u2019s etched in the memory of thousands of names and the gentle, watchful presence that has made him a foundational pillar of the community.\n\nMr. James, now in his early sixties, started at Jefferson when the current seniors\u2019 parents were students. He has seen fashions cycle, technology transform, and educational trends come and go. Through it all, his constant has been the students. He makes a point of learning every name. Not just the star athletes or the valedictorians, but the quiet artist in the back corner, the anxious freshman who gets lost between periods, and the boisterous debate team captain.\n\nHis method is simple but profound. He listens. He observes. In the first chaotic weeks of each school year, he studies faces, matches them to class schedules taped on lockers, and greets each student by name as they fumble with their combinations. \u201cGood morning, Maya. Locker 322 sticking again?\u201d or \u201cWelcome back, Carlos. Saw your team won last night.\u201d The effect is immediate\u2014a startled smile, a stand-straighter posture, the powerful feeling of being *seen*.\n\nTo the students, Mr. James is a unique hybrid of guardian, historian, and unofficial counselor. He\u2019s the one who discreetly hands a spare pad or tampon to a flustered girl, who finds a lost calculus notebook and delivers it to the right classroom before the bell, and who offers a steadying, \u201cYou\u2019ve got this, Mr. Thompson,\u201d to a nervous kid outside the principal\u2019s office. He knows who is struggling at home, who is celebrating a college acceptance, and which friend groups are feuding. He carries these stories not as gossip, but as a map of the school\u2019s emotional landscape, allowing him to offer kindness where it\u2019s needed most.\n\nThe staff relies on him equally. New teachers learn quickly that Mr. James is the repository of institutional knowledge\u2014the only one who knows which window leaks in a nor\u2019easter, the history of the mural in the old gym, and the trick to getting the projector in Room 205 to work. He fixes more than broken desks; he often mends frayed nerves with a cup of coffee and a listening ear in the break room.\n\nWhen asked about his tenure, Mr. James, a man of few boastful words, simply says, \u201cThis is my school. These are my kids.\u201d He doesn\u2019t see his role as merely custodial, but as custodial in the oldest sense: he is a keeper, a guardian. He believes a clean, functioning school shows respect for the people in it, and knowing a name is the first step in showing that respect.\n\nAs another graduation approaches, he will stand at the edge of the auditorium stage, his work-worn hands clasped. He will listen as the principal reads the names of the graduating class, and for each one, a specific memory will flicker\u2014a dropped lunch tray, a triumphant science fair project, a whispered thank you. They will leave, but a part of them remains with him, woven into the fabric of the building he maintains. And in the fall, he will begin again, learning a new set of names, quietly ensuring that the heart of Jefferson High beats strong, clean, and remembered.",
+  "run_name": "2026-03-08-openrouter-v0-2-clean-3"
+}

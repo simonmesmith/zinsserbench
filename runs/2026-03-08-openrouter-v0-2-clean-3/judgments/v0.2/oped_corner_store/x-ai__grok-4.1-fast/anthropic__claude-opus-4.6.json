@@ -1,0 +1,47 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.2",
+  "candidate_model_id": "x-ai/grok-4.1-fast",
+  "created_at": "2026-03-08T13:23:57Z",
+  "judge_model_id": "anthropic/claude-opus-4.6",
+  "metadata": {
+    "id": "gen-1772976229-W9ejFIIYq9nuhIU0pBkG",
+    "raw_text": "{\"scores\": {\"clarity\": 5, \"simplicity\": 4, \"brevity_economy\": 3, \"structure_flow\": 5, \"specificity_precision\": 4, \"humanity_voice\": 4, \"overall\": 4}, \"rationale\": \"Clear, well-organized opinion piece with a logical progression from convenience to social bonds to economics to counterarguments to health/sustainability. The structure is textbook-strong with smooth transitions. Specificity is good\u2014cites concrete figures (2,000 sq ft, $1.60 multiplier, 30% vehicle miles reduction), though some citations feel loosely attributed and possibly fabricated, which slightly undermines precision. Language is mostly direct but occasionally tips into inflated rhetoric ('social glue,' 'heartbeat of what makes a neighborhood worth living in,' 'ghost-town streets') and the piece leans on exclamation-style rhetorical questions a bit heavily. Brevity suffers from some redundancy\u2014the opening paragraph essentially previews every argument, then each is restated, and the conclusion re-summarizes again. The voice is engaged and human, with the childhood deli anecdote adding warmth, though the overall tone sometimes reads like a polished template rather than a genuinely personal voice. Solid op-ed writing but somewhat formulaic.\"}",
+    "usage": {
+      "completion_tokens": 292,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 0
+      },
+      "cost": 0.01396,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.0073,
+        "upstream_inference_cost": 0.01396,
+        "upstream_inference_prompt_cost": 0.00666
+      },
+      "is_byok": false,
+      "prompt_tokens": 1332,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 1624
+    }
+  },
+  "prompt_category": "persuasion_oped",
+  "prompt_id": "oped_corner_store",
+  "rationale": "Clear, well-organized opinion piece with a logical progression from convenience to social bonds to economics to counterarguments to health/sustainability. The structure is textbook-strong with smooth transitions. Specificity is good\u2014cites concrete figures (2,000 sq ft, $1.60 multiplier, 30% vehicle miles reduction), though some citations feel loosely attributed and possibly fabricated, which slightly undermines precision. Language is mostly direct but occasionally tips into inflated rhetoric ('social glue,' 'heartbeat of what makes a neighborhood worth living in,' 'ghost-town streets') and the piece leans on exclamation-style rhetorical questions a bit heavily. Brevity suffers from some redundancy\u2014the opening paragraph essentially previews every argument, then each is restated, and the conclusion re-summarizes again. The voice is engaged and human, with the childhood deli anecdote adding warmth, though the overall tone sometimes reads like a polished template rather than a genuinely personal voice. Solid op-ed writing but somewhat formulaic.",
+  "run_name": "2026-03-08-openrouter-v0-2-clean-3",
+  "scores": {
+    "brevity_economy": 3,
+    "clarity": 5,
+    "humanity_voice": 4,
+    "overall": 4,
+    "simplicity": 4,
+    "specificity_precision": 4,
+    "structure_flow": 5
+  }
+}

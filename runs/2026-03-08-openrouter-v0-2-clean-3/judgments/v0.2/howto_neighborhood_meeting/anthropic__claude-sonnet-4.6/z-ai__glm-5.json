@@ -1,0 +1,47 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.2",
+  "candidate_model_id": "anthropic/claude-sonnet-4.6",
+  "created_at": "2026-03-08T14:01:57Z",
+  "judge_model_id": "z-ai/glm-5",
+  "metadata": {
+    "id": "gen-1772978491-u9NTamq13lSFakEpkyAp",
+    "raw_text": "{\"scores\": {\"clarity\": 5, \"simplicity\": 5, \"brevity_economy\": 5, \"structure_flow\": 5, \"specificity_precision\": 5, \"humanity_voice\": 5, \"overall\": 5}, \"rationale\": \"An exceptionally well-crafted practical guide. Each step is clearly defined with actionable details\u2014specific timeframes, concrete solution examples, and a precise meeting agenda. The structure progresses logically from preparation through follow-up. Language is plain and direct throughout, with no jargon or padding. The tone is encouraging and solution-focused, acknowledging real-world challenges like officials who don't attend or neighbors who disagree. A resident could follow this guide exactly and succeed.\"}",
+    "usage": {
+      "completion_tokens": 679,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 618
+      },
+      "cost": 0.0042828,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.0021728,
+        "upstream_inference_cost": 0.0042828,
+        "upstream_inference_prompt_cost": 0.00211
+      },
+      "is_byok": false,
+      "prompt_tokens": 2110,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 2789
+    }
+  },
+  "prompt_category": "service_howto",
+  "prompt_id": "howto_neighborhood_meeting",
+  "rationale": "An exceptionally well-crafted practical guide. Each step is clearly defined with actionable details\u2014specific timeframes, concrete solution examples, and a precise meeting agenda. The structure progresses logically from preparation through follow-up. Language is plain and direct throughout, with no jargon or padding. The tone is encouraging and solution-focused, acknowledging real-world challenges like officials who don't attend or neighbors who disagree. A resident could follow this guide exactly and succeed.",
+  "run_name": "2026-03-08-openrouter-v0-2-clean-3",
+  "scores": {
+    "brevity_economy": 5,
+    "clarity": 5,
+    "humanity_voice": 5,
+    "overall": 5,
+    "simplicity": 5,
+    "specificity_precision": 5,
+    "structure_flow": 5
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.2",
+  "candidate_model_id": "openai/gpt-5.4",
+  "created_at": "2026-03-08T12:40:20Z",
+  "judge_model_id": "anthropic/claude-opus-4.6",
+  "metadata": {
+    "id": "gen-1772973611-YDbairRQimUbvhVKJSei",
+    "raw_text": "{\"scores\": {\"clarity\": 5, \"simplicity\": 5, \"brevity_economy\": 4, \"structure_flow\": 5, \"specificity_precision\": 5, \"humanity_voice\": 5, \"overall\": 5}, \"rationale\": \"This is exceptional magazine-quality profile writing. The clarity is flawless\u2014every sentence lands on first read. The language is plain and direct without ever feeling flat; sentences like 'like somebody had taken the heart out and left the body' earn their metaphors. Specificity is outstanding: the flickering bulb in the science wing, the cowboy boots on Fridays, the chemistry cart that overturned, the 1,460 students, the lockers painted blue that showed fingerprints. The structure moves beautifully from pre-dawn routine to morning greetings to backstory to the hallway scene to evening close, with a resonant final section. The voice is warm, observant, and restrained\u2014it trusts the details rather than editorializing. The only slight weakness is length: at roughly 2,000 words, a few passages (the paragraph about what teachers say he does, the section on his system for learning names) could be tightened without losing anything essential. But the repetition is minimal and the pacing rarely drags. The closing paragraphs are genuinely moving without being sentimental, which mirrors Bennett himself. This reads like a polished feature from a top newspaper or magazine.\"}",
+    "usage": {
+      "completion_tokens": 326,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 0
+      },
+      "cost": 0.02158,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.00815,
+        "upstream_inference_cost": 0.02158,
+        "upstream_inference_prompt_cost": 0.01343
+      },
+      "is_byok": false,
+      "prompt_tokens": 2686,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 3012
+    }
+  },
+  "prompt_category": "profile",
+  "prompt_id": "profile_school_custodian",
+  "rationale": "This is exceptional magazine-quality profile writing. The clarity is flawless\u2014every sentence lands on first read. The language is plain and direct without ever feeling flat; sentences like 'like somebody had taken the heart out and left the body' earn their metaphors. Specificity is outstanding: the flickering bulb in the science wing, the cowboy boots on Fridays, the chemistry cart that overturned, the 1,460 students, the lockers painted blue that showed fingerprints. The structure moves beautifully from pre-dawn routine to morning greetings to backstory to the hallway scene to evening close, with a resonant final section. The voice is warm, observant, and restrained\u2014it trusts the details rather than editorializing. The only slight weakness is length: at roughly 2,000 words, a few passages (the paragraph about what teachers say he does, the section on his system for learning names) could be tightened without losing anything essential. But the repetition is minimal and the pacing rarely drags. The closing paragraphs are genuinely moving without being sentimental, which mirrors Bennett himself. This reads like a polished feature from a top newspaper or magazine.",
+  "run_name": "2026-03-08-openrouter-v0-2-clean-3",
+  "scores": {
+    "brevity_economy": 4,
+    "clarity": 5,
+    "humanity_voice": 5,
+    "overall": 5,
+    "simplicity": 5,
+    "specificity_precision": 5,
+    "structure_flow": 5
+  }
+}

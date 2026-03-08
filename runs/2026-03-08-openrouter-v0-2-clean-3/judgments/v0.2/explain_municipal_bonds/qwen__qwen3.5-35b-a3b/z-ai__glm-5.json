@@ -1,0 +1,47 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.2",
+  "candidate_model_id": "qwen/qwen3.5-35b-a3b",
+  "created_at": "2026-03-08T12:40:25Z",
+  "judge_model_id": "z-ai/glm-5",
+  "metadata": {
+    "id": "gen-1772973602-zeLMRN5Yfsyf2CoWr0Ir",
+    "raw_text": "{\"scores\": {\"clarity\": 5, \"simplicity\": 5, \"brevity_economy\": 5, \"structure_flow\": 5, \"specificity_precision\": 5, \"humanity_voice\": 5, \"overall\": 5}, \"rationale\": \"An exemplary plain-English explainer. Opens with a concrete, relatable scenario ($50M library), uses clear analogies (mortgage comparison), and organizes logically from definition to mechanics to rationale to risks. Specific numbers (3% interest, 10-30 year maturities) ground abstract concepts. The conversational tone directly addresses readers without condescension. Every section earns its place with no filler.\"}",
+    "usage": {
+      "completion_tokens": 820,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 758
+      },
+      "cost": 0.003827,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.002624,
+        "upstream_inference_cost": 0.003827,
+        "upstream_inference_prompt_cost": 0.001203
+      },
+      "is_byok": false,
+      "prompt_tokens": 1203,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 2023
+    }
+  },
+  "prompt_category": "explain",
+  "prompt_id": "explain_municipal_bonds",
+  "rationale": "An exemplary plain-English explainer. Opens with a concrete, relatable scenario ($50M library), uses clear analogies (mortgage comparison), and organizes logically from definition to mechanics to rationale to risks. Specific numbers (3% interest, 10-30 year maturities) ground abstract concepts. The conversational tone directly addresses readers without condescension. Every section earns its place with no filler.",
+  "run_name": "2026-03-08-openrouter-v0-2-clean-3",
+  "scores": {
+    "brevity_economy": 5,
+    "clarity": 5,
+    "humanity_voice": 5,
+    "overall": 5,
+    "simplicity": 5,
+    "specificity_precision": 5,
+    "structure_flow": 5
+  }
+}

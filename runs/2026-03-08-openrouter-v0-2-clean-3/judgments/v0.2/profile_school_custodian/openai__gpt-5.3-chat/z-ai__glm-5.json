@@ -1,0 +1,47 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.2",
+  "candidate_model_id": "openai/gpt-5.3-chat",
+  "created_at": "2026-03-08T12:40:38Z",
+  "judge_model_id": "z-ai/glm-5",
+  "metadata": {
+    "id": "gen-1772973634-cnaqSxfeGmXukOQ3m6yq",
+    "raw_text": "```json\n{\"scores\": {\"clarity\": 5, \"simplicity\": 5, \"brevity_economy\": 5, \"structure_flow\": 5, \"specificity_precision\": 5, \"humanity_voice\": 5, \"overall\": 5}, \"rationale\": \"Excellent profile writing. Opens with a vivid scene, uses specific details (names, dialogue, concrete actions), and follows a logical arc from daily routine to background to graduation. The voice is warm and human without sentimentality. Every sentence earns its place.\"}\n```",
+    "usage": {
+      "completion_tokens": 234,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 117
+      },
+      "cost": 0.00133776,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.00059904,
+        "upstream_inference_cost": 0.00133776,
+        "upstream_inference_prompt_cost": 0.00073872
+      },
+      "is_byok": false,
+      "prompt_tokens": 949,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 32,
+        "video_tokens": 0
+      },
+      "total_tokens": 1183
+    }
+  },
+  "prompt_category": "profile",
+  "prompt_id": "profile_school_custodian",
+  "rationale": "Excellent profile writing. Opens with a vivid scene, uses specific details (names, dialogue, concrete actions), and follows a logical arc from daily routine to background to graduation. The voice is warm and human without sentimentality. Every sentence earns its place.",
+  "run_name": "2026-03-08-openrouter-v0-2-clean-3",
+  "scores": {
+    "brevity_economy": 5,
+    "clarity": 5,
+    "humanity_voice": 5,
+    "overall": 5,
+    "simplicity": 5,
+    "specificity_precision": 5,
+    "structure_flow": 5
+  }
+}

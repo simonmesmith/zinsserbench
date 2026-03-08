@@ -218,14 +218,15 @@ def _build_per_item_records(
                 }
             )
 
+        required_judges = max(1, len(judge_ids) - len(same_company_judges))
         judge_count = len(next(iter(bucket["scores"].values())))
-        if judge_count < 2:
+        if judge_count < required_judges:
             excluded_for_insufficient_judges.append(
                 {
                     "candidate_model_id": bucket["candidate_model_id"],
                     "prompt_id": bucket["prompt_id"],
                     "judge_count": judge_count,
-                    "required_judges": 2,
+                    "required_judges": required_judges,
                     "candidate_response_text": output_record.response_text if output_record else "",
                 }
             )

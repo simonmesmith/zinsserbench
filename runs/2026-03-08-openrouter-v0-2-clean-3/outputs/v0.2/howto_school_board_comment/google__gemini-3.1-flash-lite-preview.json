@@ -1,0 +1,56 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.2",
+  "candidate_label": "Gemini 3.1 Flash Lite Preview",
+  "candidate_model_id": "google/gemini-3.1-flash-lite-preview",
+  "created_at": "2026-03-08T12:18:40Z",
+  "metadata": {
+    "finish_reason": "stop",
+    "generation_attempt": 1,
+    "generation_settings": {
+      "max_output_tokens": 10000,
+      "reasoning_effort": "medium"
+    },
+    "id": "gen-1772972312-Yf8qyXoHNsO1kYOZEwiW",
+    "quality_guard": {
+      "minimum_words": 140,
+      "reason": "",
+      "status": "ok",
+      "word_count": 704
+    },
+    "raw_response_text": "Speaking at a school board meeting is one of the most effective ways to advocate for your child and influence district policy. Because these meetings are formal public proceedings, preparation is the key to ensuring your message is heard and taken seriously.\n\nHere is a practical guide to preparing for your testimony.\n\n### 1. Do Your Homework\nBefore you write a single word, understand the environment you are entering.\n*   **Check the District Website:** Look for the \"Board of Education\" page. Find the policy on public comment. This will tell you how to sign up (some require online registration 24 hours in advance), how much time you are allotted (usually 2\u20133 minutes), and whether you can speak on any topic or only items on the current agenda.\n*   **Review the Agenda:** If you are speaking about a specific issue, ensure you know when it will be discussed. \n*   **Observe First:** If possible, watch a recording of a previous meeting online. This will help you understand the tone, the seating arrangement, and how the board interacts with the public.\n\n### 2. Craft Your Message\nBoard members are busy and often tired. To be effective, your speech must be concise and focused.\n*   **The \"Three-Part\" Structure:**\n    *   **The Hook:** State who you are (e.g., \"I am a parent of a student at Lincoln Elementary\") and why you are there.\n    *   **The Problem:** Clearly define the issue. Use a mix of personal anecdote and, if possible, objective data. A story about your child is powerful, but connecting it to a broader trend makes it a policy issue.\n    *   **The Ask:** Be specific about what you want the board to do. Do you want them to vote \"no\" on a budget item? Do you want them to form a committee? Do you want a policy change?\n*   **Keep it Brief:** Most speakers are limited to three minutes. Write your speech, read it aloud at a moderate pace, and time yourself. If it takes longer than two and a half minutes, cut it down.\n\n### 3. Refine Your Tone\nSchool board meetings can be high-tension environments. You will be most effective if you remain the calmest person in the room.\n*   **Avoid Personal Attacks:** Attacking board members or staff personally will cause them to tune you out. Focus on the policy, the curriculum, or the budget\u2014not the people.\n*   **Be Professional:** You are representing your child and your community. Use respectful language, even if you are frustrated.\n*   **Prepare for the \"Buzzer\":** Most boards use a timer. When the light turns red or the buzzer sounds, stop speaking. Continuing to talk after your time is up is considered disrespectful and will likely result in your microphone being cut.\n\n### 4. Practice\n*   **Read Aloud:** Practice your speech in front of a mirror or a friend. This helps you identify tongue-twisters or awkward phrasing.\n*   **Anticipate Questions:** While most boards do not engage in a back-and-forth dialogue during public comment, they may take notes. Be prepared to provide a written copy of your statement to the board secretary if requested.\n\n### 5. The Night of the Meeting\n*   **Arrive Early:** Sign in as soon as you arrive. If there is a sign-up sheet, get your name on it early to ensure you get a spot.\n*   **Bring a Written Copy:** Bring a printed copy of your remarks. If you get nervous, you can read from the paper. If you have supporting documents (data charts, articles), bring copies for the board members.\n*   **Body Language:** When it is your turn, stand at the podium, speak clearly into the microphone, and make eye contact with the board members. \n\n### 6. The Follow-Up\nYour work shouldn't end when you sit down.\n*   **Email the Board:** After the meeting, send a follow-up email to the board members and the superintendent. Thank them for their time, reiterate your \"ask,\" and attach your written statement.\n*   **Build a Coalition:** If you are advocating for a significant change, you will need more than one voice. Encourage other parents who share your concerns to sign up and speak as well. A board is much more likely to act when they hear the same concern from multiple, diverse voices.",
+    "sanitization": {
+      "changed": false,
+      "patterns": [],
+      "removed_chars": 0,
+      "removed_ratio": 0.0
+    },
+    "usage": {
+      "completion_tokens": 1717,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 780
+      },
+      "cost": 0.00258675,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.0025755,
+        "upstream_inference_cost": 0.00258675,
+        "upstream_inference_prompt_cost": 1.125e-05
+      },
+      "is_byok": false,
+      "prompt_tokens": 45,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 1762
+    }
+  },
+  "prompt_category": "service_howto",
+  "prompt_id": "howto_school_board_comment",
+  "response_text": "Speaking at a school board meeting is one of the most effective ways to advocate for your child and influence district policy. Because these meetings are formal public proceedings, preparation is the key to ensuring your message is heard and taken seriously.\n\nHere is a practical guide to preparing for your testimony.\n\n### 1. Do Your Homework\nBefore you write a single word, understand the environment you are entering.\n*   **Check the District Website:** Look for the \"Board of Education\" page. Find the policy on public comment. This will tell you how to sign up (some require online registration 24 hours in advance), how much time you are allotted (usually 2\u20133 minutes), and whether you can speak on any topic or only items on the current agenda.\n*   **Review the Agenda:** If you are speaking about a specific issue, ensure you know when it will be discussed. \n*   **Observe First:** If possible, watch a recording of a previous meeting online. This will help you understand the tone, the seating arrangement, and how the board interacts with the public.\n\n### 2. Craft Your Message\nBoard members are busy and often tired. To be effective, your speech must be concise and focused.\n*   **The \"Three-Part\" Structure:**\n    *   **The Hook:** State who you are (e.g., \"I am a parent of a student at Lincoln Elementary\") and why you are there.\n    *   **The Problem:** Clearly define the issue. Use a mix of personal anecdote and, if possible, objective data. A story about your child is powerful, but connecting it to a broader trend makes it a policy issue.\n    *   **The Ask:** Be specific about what you want the board to do. Do you want them to vote \"no\" on a budget item? Do you want them to form a committee? Do you want a policy change?\n*   **Keep it Brief:** Most speakers are limited to three minutes. Write your speech, read it aloud at a moderate pace, and time yourself. If it takes longer than two and a half minutes, cut it down.\n\n### 3. Refine Your Tone\nSchool board meetings can be high-tension environments. You will be most effective if you remain the calmest person in the room.\n*   **Avoid Personal Attacks:** Attacking board members or staff personally will cause them to tune you out. Focus on the policy, the curriculum, or the budget\u2014not the people.\n*   **Be Professional:** You are representing your child and your community. Use respectful language, even if you are frustrated.\n*   **Prepare for the \"Buzzer\":** Most boards use a timer. When the light turns red or the buzzer sounds, stop speaking. Continuing to talk after your time is up is considered disrespectful and will likely result in your microphone being cut.\n\n### 4. Practice\n*   **Read Aloud:** Practice your speech in front of a mirror or a friend. This helps you identify tongue-twisters or awkward phrasing.\n*   **Anticipate Questions:** While most boards do not engage in a back-and-forth dialogue during public comment, they may take notes. Be prepared to provide a written copy of your statement to the board secretary if requested.\n\n### 5. The Night of the Meeting\n*   **Arrive Early:** Sign in as soon as you arrive. If there is a sign-up sheet, get your name on it early to ensure you get a spot.\n*   **Bring a Written Copy:** Bring a printed copy of your remarks. If you get nervous, you can read from the paper. If you have supporting documents (data charts, articles), bring copies for the board members.\n*   **Body Language:** When it is your turn, stand at the podium, speak clearly into the microphone, and make eye contact with the board members. \n\n### 6. The Follow-Up\nYour work shouldn't end when you sit down.\n*   **Email the Board:** After the meeting, send a follow-up email to the board members and the superintendent. Thank them for their time, reiterate your \"ask,\" and attach your written statement.\n*   **Build a Coalition:** If you are advocating for a significant change, you will need more than one voice. Encourage other parents who share your concerns to sign up and speak as well. A board is much more likely to act when they hear the same concern from multiple, diverse voices.",
+  "run_name": "2026-03-08-openrouter-v0-2-clean-3"
+}

@@ -1,0 +1,47 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.2",
+  "candidate_model_id": "openai/gpt-5.4",
+  "created_at": "2026-03-08T13:04:19Z",
+  "judge_model_id": "z-ai/glm-5",
+  "metadata": {
+    "id": "gen-1772975050-BvnDg4aASVVRTZ7E6ZEU",
+    "raw_text": "{\"scores\": {\"clarity\": 5, \"simplicity\": 5, \"brevity_economy\": 5, \"structure_flow\": 5, \"specificity_precision\": 5, \"humanity_voice\": 5, \"overall\": 5}, \"rationale\": \"A masterful personal essay that uses the public pool as a lens to examine class, race, civic values, and community. The writing is clear, specific, and economically constructed\u2014every detail earns its place. Strong voice throughout, with concrete imagery ('admission fee pinned into a damp fist,' 'girls who slapped the water flat') that grounds abstract observations in lived experience. The structure moves naturally from sensory memory to social analysis to deeper reflection, culminating in the insight that 'a town is not just what it builds for children. It is what it permits adults to need.' Excellent work.\"}",
+    "usage": {
+      "completion_tokens": 720,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 667
+      },
+      "cost": 0.005048,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.002304,
+        "upstream_inference_cost": 0.005048,
+        "upstream_inference_prompt_cost": 0.002744
+      },
+      "is_byok": false,
+      "prompt_tokens": 2744,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 3464
+    }
+  },
+  "prompt_category": "personal_nonfiction",
+  "prompt_id": "personal_public_pool",
+  "rationale": "A masterful personal essay that uses the public pool as a lens to examine class, race, civic values, and community. The writing is clear, specific, and economically constructed\u2014every detail earns its place. Strong voice throughout, with concrete imagery ('admission fee pinned into a damp fist,' 'girls who slapped the water flat') that grounds abstract observations in lived experience. The structure moves naturally from sensory memory to social analysis to deeper reflection, culminating in the insight that 'a town is not just what it builds for children. It is what it permits adults to need.' Excellent work.",
+  "run_name": "2026-03-08-openrouter-v0-2-clean-3",
+  "scores": {
+    "brevity_economy": 5,
+    "clarity": 5,
+    "humanity_voice": 5,
+    "overall": 5,
+    "simplicity": 5,
+    "specificity_precision": 5,
+    "structure_flow": 5
+  }
+}

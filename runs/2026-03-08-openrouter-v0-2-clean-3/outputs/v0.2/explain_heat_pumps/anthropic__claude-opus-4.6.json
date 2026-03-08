@@ -1,0 +1,56 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.2",
+  "candidate_label": "Claude Opus 4.6",
+  "candidate_model_id": "anthropic/claude-opus-4.6",
+  "created_at": "2026-03-08T11:57:10Z",
+  "metadata": {
+    "finish_reason": "stop",
+    "generation_attempt": 1,
+    "generation_settings": {
+      "max_output_tokens": 10000,
+      "reasoning_effort": "medium"
+    },
+    "id": "gen-1772971016-5EtWDi5JMeH5hinxUoUP",
+    "quality_guard": {
+      "minimum_words": 120,
+      "reason": "",
+      "status": "ok",
+      "word_count": 398
+    },
+    "raw_response_text": "# Heat Pumps: A Homeowner's Guide\n\n## How They Work\n\nA heat pump might sound complicated, but the basic idea is surprisingly simple. Rather than *generating* heat by burning fuel, a heat pump *moves* heat from one place to another using a refrigerant \u2014 the same principle that makes your refrigerator work.\n\nIn winter, a heat pump extracts heat from the outdoor air (yes, even cold air contains usable heat energy) and transfers it inside your home. In summer, the process reverses: the system pulls heat out of your home and sends it outdoors, acting as an air conditioner.\n\nThis means one system handles both heating and cooling, replacing both your furnace and your AC unit.\n\n## Why Choose a Heat Pump Over a Gas Furnace?\n\n**Energy efficiency.** Because heat pumps move heat rather than create it, they can deliver two to three times more heating energy than the electrical energy they consume. A gas furnace, even a high-efficiency model, tops out at around 98 percent efficiency.\n\n**Lower operating costs.** Depending on local electricity and gas prices, many homeowners see reduced utility bills \u2014 especially in moderate climates.\n\n**One system, two jobs.** A heat pump heats and cools, simplifying your setup and potentially reducing maintenance.\n\n**No combustion in your home.** Heat pumps run on electricity. There's no gas line, no carbon monoxide risk, and no onsite emissions.\n\n**Electrification-ready.** If you have or plan to install solar panels, a heat pump lets you heat your home with energy you produce yourself.\n\n## A Few Things to Keep in Mind\n\n- **Cold climate performance.** Older heat pump models struggled in extreme cold. Modern \"cold climate\" heat pumps work effectively well below zero degrees Fahrenheit, but it's worth choosing the right model for your region.\n- **Upfront cost.** Installation can be more expensive than a gas furnace, though federal tax credits and local rebates can significantly offset the price.\n- **Your electrical panel.** Some homes may need an electrical panel upgrade to support a heat pump, which adds to initial costs.\n\n## The Bottom Line\n\nHeat pumps aren't new technology, but recent improvements have made them a practical and efficient option for most climates. If your furnace or AC is nearing the end of its life, it's worth getting a quote for a heat pump alongside traditional replacements. For many homeowners, the long-term savings and comfort make it a smart investment.",
+    "sanitization": {
+      "changed": false,
+      "patterns": [],
+      "removed_chars": 0,
+      "removed_ratio": 0.0
+    },
+    "usage": {
+      "completion_tokens": 597,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 35
+      },
+      "cost": 0.01533,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.014925,
+        "upstream_inference_cost": 0.01533,
+        "upstream_inference_prompt_cost": 0.000405
+      },
+      "is_byok": false,
+      "prompt_tokens": 81,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 678
+    }
+  },
+  "prompt_category": "explain",
+  "prompt_id": "explain_heat_pumps",
+  "response_text": "# Heat Pumps: A Homeowner's Guide\n\n## How They Work\n\nA heat pump might sound complicated, but the basic idea is surprisingly simple. Rather than *generating* heat by burning fuel, a heat pump *moves* heat from one place to another using a refrigerant \u2014 the same principle that makes your refrigerator work.\n\nIn winter, a heat pump extracts heat from the outdoor air (yes, even cold air contains usable heat energy) and transfers it inside your home. In summer, the process reverses: the system pulls heat out of your home and sends it outdoors, acting as an air conditioner.\n\nThis means one system handles both heating and cooling, replacing both your furnace and your AC unit.\n\n## Why Choose a Heat Pump Over a Gas Furnace?\n\n**Energy efficiency.** Because heat pumps move heat rather than create it, they can deliver two to three times more heating energy than the electrical energy they consume. A gas furnace, even a high-efficiency model, tops out at around 98 percent efficiency.\n\n**Lower operating costs.** Depending on local electricity and gas prices, many homeowners see reduced utility bills \u2014 especially in moderate climates.\n\n**One system, two jobs.** A heat pump heats and cools, simplifying your setup and potentially reducing maintenance.\n\n**No combustion in your home.** Heat pumps run on electricity. There's no gas line, no carbon monoxide risk, and no onsite emissions.\n\n**Electrification-ready.** If you have or plan to install solar panels, a heat pump lets you heat your home with energy you produce yourself.\n\n## A Few Things to Keep in Mind\n\n- **Cold climate performance.** Older heat pump models struggled in extreme cold. Modern \"cold climate\" heat pumps work effectively well below zero degrees Fahrenheit, but it's worth choosing the right model for your region.\n- **Upfront cost.** Installation can be more expensive than a gas furnace, though federal tax credits and local rebates can significantly offset the price.\n- **Your electrical panel.** Some homes may need an electrical panel upgrade to support a heat pump, which adds to initial costs.\n\n## The Bottom Line\n\nHeat pumps aren't new technology, but recent improvements have made them a practical and efficient option for most climates. If your furnace or AC is nearing the end of its life, it's worth getting a quote for a heat pump alongside traditional replacements. For many homeowners, the long-term savings and comfort make it a smart investment.",
+  "run_name": "2026-03-08-openrouter-v0-2-clean-3"
+}

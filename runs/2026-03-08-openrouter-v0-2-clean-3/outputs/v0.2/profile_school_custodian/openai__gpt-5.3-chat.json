@@ -1,0 +1,56 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.2",
+  "candidate_label": "GPT-5.3 Chat",
+  "candidate_model_id": "openai/gpt-5.3-chat",
+  "created_at": "2026-03-08T11:58:59Z",
+  "metadata": {
+    "finish_reason": "stop",
+    "generation_attempt": 1,
+    "generation_settings": {
+      "max_output_tokens": 10000,
+      "reasoning_effort": "medium"
+    },
+    "id": "gen-1772971129-WQC1InUwYXWooPxw7IHL",
+    "quality_guard": {
+      "minimum_words": 200,
+      "reason": "",
+      "status": "ok",
+      "word_count": 474
+    },
+    "raw_response_text": ":::writing\nEvery morning before the buses arrive, the lights are already on in the east hallway of Jefferson High. They\u2019ve been on since about 5:15 a.m., when Carl Mendoza unlocks the side door, clocks in, and starts his slow circuit of the building. Twenty\u2011eight years into the job, he walks the halls the way some people walk their own homes\u2014without looking, without thinking, turning corners automatically, noticing every small thing that\u2019s out of place.\n\nMendoza is the school\u2019s head custodian, though most students just call him \u201cMr. Carl.\u201d He keeps the place running: boilers in winter, air conditioning in September heat waves, the endless tide of lockers, spills, gum, broken desks, and science lab accidents. But what students talk about more than the clean floors is the way he greets them. \u201cMorning, Kayla.\u201d \u201cYou good today, Marcus?\u201d \u201cDon\u2019t be late again, Trevor.\u201d He says their names without hesitation, thousands of them over the years, each one stored somewhere in his memory.\n\nTeachers say he knows the student body better than the administration does. Part of it comes from time. Mendoza started in 1997, when the current seniors\u2019 parents were teenagers themselves. But part of it is attention. As he sweeps or fixes a hinge, he watches the flow of students between classes. He notices who\u2019s walking slower than usual, who\u2019s suddenly hanging around a different crowd, who\u2019s trying very hard not to cry. When a freshman looks lost during the first week of school, Mendoza is often the first adult to help them find the right staircase.\n\nHe grew up three blocks from the school and graduated from Jefferson himself. After a few years working construction, he took a temporary custodial job there, planning to stay a year. He never left. \u201cI figured if I\u2019m going to spend my life working somewhere,\u201d he says, \u201cit might as well be somewhere that matters.\u201d\n\nStudents test that patience daily. There are the graffiti artists, the kids who think milk cartons belong on the floor, the mysterious disappearance of bathroom soap dispensers every spring. Mendoza shakes his head, cleans it up, and keeps moving. \u201cThey\u2019re kids,\u201d he says. \u201cYou were a kid once too.\u201d\n\nOn graduation day, he stands near the gym doors as seniors line up in their caps and gowns. Nearly every one of them stops when they see him. Some give a quick handshake. Some hug him. Many look surprised when he says their name one last time.\n\nThe building will empty out in June, quiet and echoing, but Mendoza will still be there in the mornings, flipping on the lights and making his rounds. By late August the halls will fill again with new freshmen, nervous and unsure of where they\u2019re going. Somewhere near the lockers, a custodian with a ring of keys will look up, smile, and start learning their names.\n:::",
+    "sanitization": {
+      "changed": false,
+      "patterns": [],
+      "removed_chars": 0,
+      "removed_ratio": 0.0
+    },
+    "usage": {
+      "completion_tokens": 631,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 0
+      },
+      "cost": 0.008946,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.008834,
+        "upstream_inference_cost": 0.008946,
+        "upstream_inference_prompt_cost": 0.000112
+      },
+      "is_byok": false,
+      "prompt_tokens": 64,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 695
+    }
+  },
+  "prompt_category": "profile",
+  "prompt_id": "profile_school_custodian",
+  "response_text": ":::writing\nEvery morning before the buses arrive, the lights are already on in the east hallway of Jefferson High. They\u2019ve been on since about 5:15 a.m., when Carl Mendoza unlocks the side door, clocks in, and starts his slow circuit of the building. Twenty\u2011eight years into the job, he walks the halls the way some people walk their own homes\u2014without looking, without thinking, turning corners automatically, noticing every small thing that\u2019s out of place.\n\nMendoza is the school\u2019s head custodian, though most students just call him \u201cMr. Carl.\u201d He keeps the place running: boilers in winter, air conditioning in September heat waves, the endless tide of lockers, spills, gum, broken desks, and science lab accidents. But what students talk about more than the clean floors is the way he greets them. \u201cMorning, Kayla.\u201d \u201cYou good today, Marcus?\u201d \u201cDon\u2019t be late again, Trevor.\u201d He says their names without hesitation, thousands of them over the years, each one stored somewhere in his memory.\n\nTeachers say he knows the student body better than the administration does. Part of it comes from time. Mendoza started in 1997, when the current seniors\u2019 parents were teenagers themselves. But part of it is attention. As he sweeps or fixes a hinge, he watches the flow of students between classes. He notices who\u2019s walking slower than usual, who\u2019s suddenly hanging around a different crowd, who\u2019s trying very hard not to cry. When a freshman looks lost during the first week of school, Mendoza is often the first adult to help them find the right staircase.\n\nHe grew up three blocks from the school and graduated from Jefferson himself. After a few years working construction, he took a temporary custodial job there, planning to stay a year. He never left. \u201cI figured if I\u2019m going to spend my life working somewhere,\u201d he says, \u201cit might as well be somewhere that matters.\u201d\n\nStudents test that patience daily. There are the graffiti artists, the kids who think milk cartons belong on the floor, the mysterious disappearance of bathroom soap dispensers every spring. Mendoza shakes his head, cleans it up, and keeps moving. \u201cThey\u2019re kids,\u201d he says. \u201cYou were a kid once too.\u201d\n\nOn graduation day, he stands near the gym doors as seniors line up in their caps and gowns. Nearly every one of them stops when they see him. Some give a quick handshake. Some hug him. Many look surprised when he says their name one last time.\n\nThe building will empty out in June, quiet and echoing, but Mendoza will still be there in the mornings, flipping on the lights and making his rounds. By late August the halls will fill again with new freshmen, nervous and unsure of where they\u2019re going. Somewhere near the lockers, a custodian with a ring of keys will look up, smile, and start learning their names.\n:::",
+  "run_name": "2026-03-08-openrouter-v0-2-clean-3"
+}

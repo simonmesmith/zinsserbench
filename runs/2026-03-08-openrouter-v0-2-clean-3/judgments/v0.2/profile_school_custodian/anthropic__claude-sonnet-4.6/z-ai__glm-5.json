@@ -1,0 +1,47 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.2",
+  "candidate_model_id": "anthropic/claude-sonnet-4.6",
+  "created_at": "2026-03-08T12:41:13Z",
+  "judge_model_id": "z-ai/glm-5",
+  "metadata": {
+    "id": "gen-1772973668-j4lUVFf1PvJ5IipyJpSn",
+    "raw_text": "{\"scores\": {\"clarity\": 5, \"simplicity\": 5, \"brevity_economy\": 5, \"structure_flow\": 5, \"specificity_precision\": 5, \"humanity_voice\": 5, \"overall\": 5}, \"rationale\": \"Exceptional profile writing. Opens with a strong lede and vivid scene-setting (5:47 a.m., specific facility details). Builds character through concrete, earned details\u2014the photo of his daughter, the radiator that knocks at 6:15, the projector cart anecdote. Structure moves smoothly from routine to institutional knowledge to student relationships to personal sacrifice, closing with a small resonant moment. Prose is clean and direct with no wasted words. The writer shows rather than tells, letting quotes and actions reveal character. The final scene with the freshman is understated and emotionally effective without manipulation.\"}",
+    "usage": {
+      "completion_tokens": 375,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 215
+      },
+      "cost": 0.00249904,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.00096,
+        "upstream_inference_cost": 0.00249904,
+        "upstream_inference_prompt_cost": 0.00153904
+      },
+      "is_byok": false,
+      "prompt_tokens": 1975,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 64,
+        "video_tokens": 0
+      },
+      "total_tokens": 2350
+    }
+  },
+  "prompt_category": "profile",
+  "prompt_id": "profile_school_custodian",
+  "rationale": "Exceptional profile writing. Opens with a strong lede and vivid scene-setting (5:47 a.m., specific facility details). Builds character through concrete, earned details\u2014the photo of his daughter, the radiator that knocks at 6:15, the projector cart anecdote. Structure moves smoothly from routine to institutional knowledge to student relationships to personal sacrifice, closing with a small resonant moment. Prose is clean and direct with no wasted words. The writer shows rather than tells, letting quotes and actions reveal character. The final scene with the freshman is understated and emotionally effective without manipulation.",
+  "run_name": "2026-03-08-openrouter-v0-2-clean-3",
+  "scores": {
+    "brevity_economy": 5,
+    "clarity": 5,
+    "humanity_voice": 5,
+    "overall": 5,
+    "simplicity": 5,
+    "specificity_precision": 5,
+    "structure_flow": 5
+  }
+}

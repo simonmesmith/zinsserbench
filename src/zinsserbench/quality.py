@@ -19,6 +19,7 @@ _WORD_END_RE = re.compile(r"[A-Za-z]{3,}$")
 _SENTENCE_END_RE = re.compile(r"[.!?][\"')\]]?\s*$")
 _BULLET_LINE_RE = re.compile(r"(?m)^\s*(?:[-*]|\d+\.)\s+\S.*$")
 _DANGLING_END_RE = re.compile(r"(?s)(?:[:;,]\s*$|(?:^|\n)\s*(?:[-*]|\d+\.)\s*$|```[^`]*$|[#*`_]+$)")
+_SIGNATURE_LINE_RE = re.compile(r"^\s*(?:[-\u2013\u2014]\s*)?[A-Z][A-Za-z.'-]*(?:\s+[A-Z][A-Za-z.'-]*){0,2}\s*$")
 
 
 @dataclass(frozen=True)
@@ -97,8 +98,10 @@ def detect_truncation(response_text: str, metadata: Dict[str, object], max_outpu
     if text:
         if _DANGLING_END_RE.search(text):
             reasons.append("dangling_ending")
-        elif not _SENTENCE_END_RE.search(text):
-            last_line = text.splitlines()[-1].strip()
+        else:
+            last_line = _terminal_line_for_truncation(text)
+            if _SENTENCE_END_RE.search(last_line):
+                return TruncationCheckResult(is_truncated=bool(reasons), reasons=reasons)
             if _BULLET_LINE_RE.match(last_line):
                 reasons.append("dangling_bullet")
             elif _WORD_END_RE.search(last_line):
@@ -121,3 +124,12 @@ def _target_length_lower_bound(target_length: str) -> int | None:
     if not match:
         return None
     return int(match.group(1))
+
+
+def _terminal_line_for_truncation(text: str) -> str:
+    lines = [line.strip() for line in text.splitlines() if line.strip()]
+    if not lines:
+        return ""
+    if len(lines) >= 2 and _SIGNATURE_LINE_RE.match(lines[-1]) and _SENTENCE_END_RE.search(lines[-2]):
+        return lines[-2]
+    return lines[-1]

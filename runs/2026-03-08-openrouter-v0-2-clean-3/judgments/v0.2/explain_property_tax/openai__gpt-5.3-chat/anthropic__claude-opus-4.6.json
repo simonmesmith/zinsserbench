@@ -1,0 +1,47 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.2",
+  "candidate_model_id": "openai/gpt-5.3-chat",
+  "created_at": "2026-03-08T13:31:43Z",
+  "judge_model_id": "anthropic/claude-opus-4.6",
+  "metadata": {
+    "id": "gen-1772976685-Rhh9SZYq0nm8ktXANvOO",
+    "raw_text": "{\"scores\": {\"clarity\": 5, \"simplicity\": 5, \"brevity_economy\": 4, \"structure_flow\": 5, \"specificity_precision\": 4, \"humanity_voice\": 3, \"overall\": 4}, \"rationale\": \"Very clear, well-organized explainer. The two-component framework (assessed value \u00d7 tax rate) is immediately understandable, and the bullet list of reasons taxes change is efficient and concrete (e.g., finishing a basement, senior exemptions, voter-approved bonds). Language is consistently plain and jargon-free. Minor dings: the closing 'In short' line slightly restates what's already clear; a brief numerical example (e.g., '$200,000 assessed value \u00d7 1.5% rate = $3,000') would add precision; and the voice, while reader-addressed and warm, reads more like a competent template than a piece with distinctive personality or engagement.\"}",
+    "usage": {
+      "completion_tokens": 623,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 410
+      },
+      "cost": 0.020105,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.015575,
+        "upstream_inference_cost": 0.020105,
+        "upstream_inference_prompt_cost": 0.00453
+      },
+      "is_byok": false,
+      "prompt_tokens": 906,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 1529
+    }
+  },
+  "prompt_category": "explain",
+  "prompt_id": "explain_property_tax",
+  "rationale": "Very clear, well-organized explainer. The two-component framework (assessed value \u00d7 tax rate) is immediately understandable, and the bullet list of reasons taxes change is efficient and concrete (e.g., finishing a basement, senior exemptions, voter-approved bonds). Language is consistently plain and jargon-free. Minor dings: the closing 'In short' line slightly restates what's already clear; a brief numerical example (e.g., '$200,000 assessed value \u00d7 1.5% rate = $3,000') would add precision; and the voice, while reader-addressed and warm, reads more like a competent template than a piece with distinctive personality or engagement.",
+  "run_name": "2026-03-08-openrouter-v0-2-clean-3",
+  "scores": {
+    "brevity_economy": 4,
+    "clarity": 5,
+    "humanity_voice": 3,
+    "overall": 4,
+    "simplicity": 5,
+    "specificity_precision": 4,
+    "structure_flow": 5
+  }
+}

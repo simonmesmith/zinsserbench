@@ -1,0 +1,47 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.2",
+  "candidate_model_id": "deepseek/deepseek-v3.2",
+  "created_at": "2026-03-08T12:48:23Z",
+  "judge_model_id": "openai/gpt-5.4",
+  "metadata": {
+    "id": "gen-1772974099-RdDcQfX9SQSQveunIIMZ",
+    "raw_text": "{\"scores\":{\"clarity\":5,\"simplicity\":5,\"brevity_economy\":4,\"structure_flow\":5,\"specificity_precision\":5,\"humanity_voice\":3,\"overall\":5},\"rationale\":\"Clear, practical, and easy to follow, with strong step-by-step structure and concrete details like timelines, roles, agenda lengths, and outreach methods. The language is plain and direct. It runs a bit long for the task, and the tone is somewhat formulaic/mechanical rather than especially human or vivid.\"}",
+    "usage": {
+      "completion_tokens": 214,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 97
+      },
+      "cost": 0.0063725,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.00321,
+        "upstream_inference_cost": 0.0063725,
+        "upstream_inference_prompt_cost": 0.0031625
+      },
+      "is_byok": false,
+      "prompt_tokens": 1265,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 1479
+    }
+  },
+  "prompt_category": "service_howto",
+  "prompt_id": "howto_neighborhood_meeting",
+  "rationale": "Clear, practical, and easy to follow, with strong step-by-step structure and concrete details like timelines, roles, agenda lengths, and outreach methods. The language is plain and direct. It runs a bit long for the task, and the tone is somewhat formulaic/mechanical rather than especially human or vivid.",
+  "run_name": "2026-03-08-openrouter-v0-2-clean-3",
+  "scores": {
+    "brevity_economy": 4,
+    "clarity": 5,
+    "humanity_voice": 3,
+    "overall": 5,
+    "simplicity": 5,
+    "specificity_precision": 5,
+    "structure_flow": 5
+  }
+}

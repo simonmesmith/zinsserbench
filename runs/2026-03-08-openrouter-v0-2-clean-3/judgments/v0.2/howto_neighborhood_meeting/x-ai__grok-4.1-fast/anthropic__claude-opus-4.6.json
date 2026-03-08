@@ -1,0 +1,47 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.2",
+  "candidate_model_id": "x-ai/grok-4.1-fast",
+  "created_at": "2026-03-08T12:48:13Z",
+  "judge_model_id": "anthropic/claude-opus-4.6",
+  "metadata": {
+    "id": "gen-1772974077-ie58vors48pZMVpr18zR",
+    "raw_text": "{\"scores\": {\"clarity\": 5, \"simplicity\": 4, \"brevity_economy\": 4, \"structure_flow\": 5, \"specificity_precision\": 5, \"humanity_voice\": 4, \"overall\": 5}, \"rationale\": \"Exceptionally well-organized with a clear chronological structure and time estimates for each phase. Specificity is the standout strength: concrete examples like '40 mph on a 25 mph street,' a sample agenda with minute allocations, a budget breakdown, an email script, and an action-item table with columns. Language is plain and direct ('you don't need special skills\u2014just persistence and planning'), though occasionally the density of bullet points and sub-items pushes toward information overload. The tone is warm and encouraging without being saccharine ('you've got this!'). Minor brevity ding: a few points recur across steps (surveys mentioned in Steps 1 and 3), and the final tips section partially overlaps with earlier advice. But nearly everything earns its space through actionable detail.\"}",
+    "usage": {
+      "completion_tokens": 653,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 415
+      },
+      "cost": 0.025155,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.016325,
+        "upstream_inference_cost": 0.025155,
+        "upstream_inference_prompt_cost": 0.00883
+      },
+      "is_byok": false,
+      "prompt_tokens": 1766,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 2419
+    }
+  },
+  "prompt_category": "service_howto",
+  "prompt_id": "howto_neighborhood_meeting",
+  "rationale": "Exceptionally well-organized with a clear chronological structure and time estimates for each phase. Specificity is the standout strength: concrete examples like '40 mph on a 25 mph street,' a sample agenda with minute allocations, a budget breakdown, an email script, and an action-item table with columns. Language is plain and direct ('you don't need special skills\u2014just persistence and planning'), though occasionally the density of bullet points and sub-items pushes toward information overload. The tone is warm and encouraging without being saccharine ('you've got this!'). Minor brevity ding: a few points recur across steps (surveys mentioned in Steps 1 and 3), and the final tips section partially overlaps with earlier advice. But nearly everything earns its space through actionable detail.",
+  "run_name": "2026-03-08-openrouter-v0-2-clean-3",
+  "scores": {
+    "brevity_economy": 4,
+    "clarity": 5,
+    "humanity_voice": 4,
+    "overall": 5,
+    "simplicity": 4,
+    "specificity_precision": 5,
+    "structure_flow": 5
+  }
+}

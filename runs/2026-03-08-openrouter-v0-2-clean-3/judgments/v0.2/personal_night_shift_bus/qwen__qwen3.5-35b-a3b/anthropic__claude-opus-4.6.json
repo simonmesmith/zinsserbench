@@ -1,0 +1,47 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.2",
+  "candidate_model_id": "qwen/qwen3.5-35b-a3b",
+  "created_at": "2026-03-08T13:30:14Z",
+  "judge_model_id": "anthropic/claude-opus-4.6",
+  "metadata": {
+    "id": "gen-1772976605-TBgrk0d9VlYuH84zKiHy",
+    "raw_text": "{\"scores\": {\"clarity\": 4, \"simplicity\": 3, \"brevity_economy\": 2, \"structure_flow\": 4, \"specificity_precision\": 3, \"humanity_voice\": 3, \"overall\": 3}, \"rationale\": \"The essay is clearly written and follows a logical chronological arc through the year, which works well structurally. However, the piece is significantly undermined by the inclusion of the entire planning/outlining process (points 1-9) before the essay itself\u2014this is pure throat-clearing that should never appear. The essay proper has some strong specific details (the heater vent in the third row, Elias checking mirrors, the bakery on the corner) but also leans heavily on stock imagery and familiar tropes: the crying nurse, the guitar-case guy who disappears, the 'liminal space' language. Phrases like 'capsule,' 'ghosts in the machine,' 'the bones of the streets,' and 'alone in a crowd' feel borrowed rather than discovered. The voice is competent but reads as workshopped and slightly literary-generic rather than genuinely personal\u2014it tells us about intimacy and connection more than it earns those feelings through lived texture. The ending overexplains the theme ('connection doesn't always require conversation') rather than trusting the reader. Simplicity suffers from occasional inflation ('the specific, metallic tang of brake pads,' 'the routine had calcified'). Overall a serviceable essay with real structural sense but lacking the surprise and authentic grit of strong personal nonfiction.\"}",
+    "usage": {
+      "completion_tokens": 352,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 0
+      },
+      "cost": 0.02235,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.0088,
+        "upstream_inference_cost": 0.02235,
+        "upstream_inference_prompt_cost": 0.01355
+      },
+      "is_byok": false,
+      "prompt_tokens": 2710,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 3062
+    }
+  },
+  "prompt_category": "personal_nonfiction",
+  "prompt_id": "personal_night_shift_bus",
+  "rationale": "The essay is clearly written and follows a logical chronological arc through the year, which works well structurally. However, the piece is significantly undermined by the inclusion of the entire planning/outlining process (points 1-9) before the essay itself\u2014this is pure throat-clearing that should never appear. The essay proper has some strong specific details (the heater vent in the third row, Elias checking mirrors, the bakery on the corner) but also leans heavily on stock imagery and familiar tropes: the crying nurse, the guitar-case guy who disappears, the 'liminal space' language. Phrases like 'capsule,' 'ghosts in the machine,' 'the bones of the streets,' and 'alone in a crowd' feel borrowed rather than discovered. The voice is competent but reads as workshopped and slightly literary-generic rather than genuinely personal\u2014it tells us about intimacy and connection more than it earns those feelings through lived texture. The ending overexplains the theme ('connection doesn't always require conversation') rather than trusting the reader. Simplicity suffers from occasional inflation ('the specific, metallic tang of brake pads,' 'the routine had calcified'). Overall a serviceable essay with real structural sense but lacking the surprise and authentic grit of strong personal nonfiction.",
+  "run_name": "2026-03-08-openrouter-v0-2-clean-3",
+  "scores": {
+    "brevity_economy": 2,
+    "clarity": 4,
+    "humanity_voice": 3,
+    "overall": 3,
+    "simplicity": 3,
+    "specificity_precision": 3,
+    "structure_flow": 4
+  }
+}

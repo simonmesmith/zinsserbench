@@ -1,0 +1,47 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.2",
+  "candidate_model_id": "google/gemini-3.1-flash-lite-preview",
+  "created_at": "2026-03-08T12:56:17Z",
+  "judge_model_id": "z-ai/glm-5",
+  "metadata": {
+    "id": "gen-1772974568-Wc563e7PsajMghkQsDeD",
+    "raw_text": "{\"scores\": {\"clarity\": 5, \"simplicity\": 5, \"brevity_economy\": 5, \"structure_flow\": 5, \"specificity_precision\": 4, \"humanity_voice\": 5, \"overall\": 5}, \"rationale\": \"A well-crafted opinion piece with strong structure: opens with a vivid scene, states thesis clearly, addresses counterarguments, builds case through efficiency and equity angles, and ends with a compelling call to action. Language is direct and accessible. The only weakness is a lack of hard data\u2014specific ridership numbers, commute time comparisons, or named corridors would strengthen the argument. Voice is confident and human without being strident.\"}",
+    "usage": {
+      "completion_tokens": 634,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 566
+      },
+      "cost": 0.0030218,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.0020288,
+        "upstream_inference_cost": 0.0030218,
+        "upstream_inference_prompt_cost": 0.000993
+      },
+      "is_byok": false,
+      "prompt_tokens": 993,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 1627
+    }
+  },
+  "prompt_category": "persuasion_oped",
+  "prompt_id": "oped_bus_lanes",
+  "rationale": "A well-crafted opinion piece with strong structure: opens with a vivid scene, states thesis clearly, addresses counterarguments, builds case through efficiency and equity angles, and ends with a compelling call to action. Language is direct and accessible. The only weakness is a lack of hard data\u2014specific ridership numbers, commute time comparisons, or named corridors would strengthen the argument. Voice is confident and human without being strident.",
+  "run_name": "2026-03-08-openrouter-v0-2-clean-3",
+  "scores": {
+    "brevity_economy": 5,
+    "clarity": 5,
+    "humanity_voice": 5,
+    "overall": 5,
+    "simplicity": 5,
+    "specificity_precision": 4,
+    "structure_flow": 5
+  }
+}

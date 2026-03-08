@@ -1,0 +1,47 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.2",
+  "candidate_model_id": "google/gemini-3.1-pro-preview",
+  "created_at": "2026-03-08T12:28:47Z",
+  "judge_model_id": "anthropic/claude-opus-4.6",
+  "metadata": {
+    "id": "gen-1772972920-3PpQI9TRWy8AWUHZXqKh",
+    "raw_text": "{\"scores\": {\"clarity\": 5, \"simplicity\": 4, \"brevity_economy\": 4, \"structure_flow\": 5, \"specificity_precision\": 5, \"humanity_voice\": 4, \"overall\": 5}, \"rationale\": \"Exceptionally well-structured memo that hits all three required elements (policy, reason, next steps) with clear headers and logical flow. Specificity is a standout strength: three concrete work categories, named anchor days, core hours, a deadline, four numbered action items with links, and a Slack channel for questions. Language is mostly plain and direct, though it occasionally dips into corporate warmth ('we are incredibly proud,' 'ship incredible products') that borders on filler. The opening context-setting paragraph about surveys and feedback adds useful justification without being excessive. The core hours note is a smart, precise detail. Minor dings: 'Flexible First' branding feels slightly corporate-buzzy, and a few phrases like 'collaborative energy of in-person whiteboarding sessions' are a touch inflated. Overall, this is a near-ideal internal memo\u2014clear, actionable, and well-organized.\"}",
+    "usage": {
+      "completion_tokens": 259,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 0
+      },
+      "cost": 0.01243,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.006475,
+        "upstream_inference_cost": 0.01243,
+        "upstream_inference_prompt_cost": 0.005955
+      },
+      "is_byok": false,
+      "prompt_tokens": 1191,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 1450
+    }
+  },
+  "prompt_category": "memo",
+  "prompt_id": "memo_remote_work_policy",
+  "rationale": "Exceptionally well-structured memo that hits all three required elements (policy, reason, next steps) with clear headers and logical flow. Specificity is a standout strength: three concrete work categories, named anchor days, core hours, a deadline, four numbered action items with links, and a Slack channel for questions. Language is mostly plain and direct, though it occasionally dips into corporate warmth ('we are incredibly proud,' 'ship incredible products') that borders on filler. The opening context-setting paragraph about surveys and feedback adds useful justification without being excessive. The core hours note is a smart, precise detail. Minor dings: 'Flexible First' branding feels slightly corporate-buzzy, and a few phrases like 'collaborative energy of in-person whiteboarding sessions' are a touch inflated. Overall, this is a near-ideal internal memo\u2014clear, actionable, and well-organized.",
+  "run_name": "2026-03-08-openrouter-v0-2-clean-3",
+  "scores": {
+    "brevity_economy": 4,
+    "clarity": 5,
+    "humanity_voice": 4,
+    "overall": 5,
+    "simplicity": 4,
+    "specificity_precision": 5,
+    "structure_flow": 5
+  }
+}

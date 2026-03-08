@@ -1,0 +1,47 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.2",
+  "candidate_model_id": "z-ai/glm-5",
+  "created_at": "2026-03-08T12:29:33Z",
+  "judge_model_id": "anthropic/claude-opus-4.6",
+  "metadata": {
+    "id": "gen-1772972967-cfzUiqqTs9lSsdJxhb9d",
+    "raw_text": "{\"scores\": {\"clarity\": 5, \"simplicity\": 4, \"brevity_economy\": 4, \"structure_flow\": 5, \"specificity_precision\": 5, \"humanity_voice\": 4, \"overall\": 5}, \"rationale\": \"Exceptionally well-structured memo that hits every requirement of the prompt. The policy is crystal clear (specific days, specific model name), the rationale is concrete and tied to real software-company concerns (sprint planning, engineering culture, development cycles), and the action items include specific deadlines and steps. Minor dings: some phrases lean slightly corporate ('fostering a culture that balances individual flexibility with the collaborative spirit') and the rationale section, while well-reasoned, could be tighter\u2014each point slightly overlaps (collaboration vs. cohesion). But overall this is a polished, professional, and genuinely useful internal memo that an employee could read once and know exactly what's changing, why, and what to do.\"}",
+    "usage": {
+      "completion_tokens": 217,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 0
+      },
+      "cost": 0.010905,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.005425,
+        "upstream_inference_cost": 0.010905,
+        "upstream_inference_prompt_cost": 0.00548
+      },
+      "is_byok": false,
+      "prompt_tokens": 1096,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 1313
+    }
+  },
+  "prompt_category": "memo",
+  "prompt_id": "memo_remote_work_policy",
+  "rationale": "Exceptionally well-structured memo that hits every requirement of the prompt. The policy is crystal clear (specific days, specific model name), the rationale is concrete and tied to real software-company concerns (sprint planning, engineering culture, development cycles), and the action items include specific deadlines and steps. Minor dings: some phrases lean slightly corporate ('fostering a culture that balances individual flexibility with the collaborative spirit') and the rationale section, while well-reasoned, could be tighter\u2014each point slightly overlaps (collaboration vs. cohesion). But overall this is a polished, professional, and genuinely useful internal memo that an employee could read once and know exactly what's changing, why, and what to do.",
+  "run_name": "2026-03-08-openrouter-v0-2-clean-3",
+  "scores": {
+    "brevity_economy": 4,
+    "clarity": 5,
+    "humanity_voice": 4,
+    "overall": 5,
+    "simplicity": 4,
+    "specificity_precision": 5,
+    "structure_flow": 5
+  }
+}

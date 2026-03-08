@@ -1,0 +1,47 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.2",
+  "candidate_model_id": "google/gemini-3.1-flash-lite-preview",
+  "created_at": "2026-03-08T13:27:13Z",
+  "judge_model_id": "anthropic/claude-opus-4.6",
+  "metadata": {
+    "id": "gen-1772976425-3Do0s17DIHubHmSq0UU4",
+    "raw_text": "{\"scores\": {\"clarity\": 5, \"simplicity\": 3, \"brevity_economy\": 3, \"structure_flow\": 5, \"specificity_precision\": 4, \"humanity_voice\": 4, \"overall\": 4}, \"rationale\": \"The essay is immediately clear and well-structured, moving chronologically from introduction to farewell with smooth transitions. The specificity is strong in places\u2014the woman in blue scrubs, the guitar case, the driver's tapping\u2014though some details feel invented-literary rather than lived (the bus 'manifesting' from the 'dark, wet throat of the city'). The main weakness is overwriting: the prose leans heavily on figurative language ('decompression chamber,' 'liminal space,' 'ghost in the machine,' 'tribe of the tired,' 'vessel for his dreams') that inflates what should be a grounded personal essay. Nearly every observation is poeticized rather than plainly stated, which undercuts both simplicity and the sense of authentic voice. The piece also repeats its emotional thesis\u2014the bus as transitional comfort zone\u2014several times without adding new insight. The humanity is present but slightly performative; it reads more like a polished creative writing exercise than a genuinely personal essay. Still, it's competent, evocative, and structurally sound.\"}",
+    "usage": {
+      "completion_tokens": 297,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 0
+      },
+      "cost": 0.01411,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.007425,
+        "upstream_inference_cost": 0.01411,
+        "upstream_inference_prompt_cost": 0.006685
+      },
+      "is_byok": false,
+      "prompt_tokens": 1337,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 1634
+    }
+  },
+  "prompt_category": "personal_nonfiction",
+  "prompt_id": "personal_night_shift_bus",
+  "rationale": "The essay is immediately clear and well-structured, moving chronologically from introduction to farewell with smooth transitions. The specificity is strong in places\u2014the woman in blue scrubs, the guitar case, the driver's tapping\u2014though some details feel invented-literary rather than lived (the bus 'manifesting' from the 'dark, wet throat of the city'). The main weakness is overwriting: the prose leans heavily on figurative language ('decompression chamber,' 'liminal space,' 'ghost in the machine,' 'tribe of the tired,' 'vessel for his dreams') that inflates what should be a grounded personal essay. Nearly every observation is poeticized rather than plainly stated, which undercuts both simplicity and the sense of authentic voice. The piece also repeats its emotional thesis\u2014the bus as transitional comfort zone\u2014several times without adding new insight. The humanity is present but slightly performative; it reads more like a polished creative writing exercise than a genuinely personal essay. Still, it's competent, evocative, and structurally sound.",
+  "run_name": "2026-03-08-openrouter-v0-2-clean-3",
+  "scores": {
+    "brevity_economy": 3,
+    "clarity": 5,
+    "humanity_voice": 4,
+    "overall": 4,
+    "simplicity": 3,
+    "specificity_precision": 4,
+    "structure_flow": 5
+  }
+}

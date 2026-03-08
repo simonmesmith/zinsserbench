@@ -1,0 +1,56 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.2",
+  "candidate_label": "DeepSeek V3.2",
+  "candidate_model_id": "deepseek/deepseek-v3.2",
+  "created_at": "2026-03-08T12:18:05Z",
+  "metadata": {
+    "finish_reason": "stop",
+    "generation_attempt": 1,
+    "generation_settings": {
+      "max_output_tokens": 10000,
+      "reasoning_effort": "medium"
+    },
+    "id": "gen-1772972252-LWXLIkiMNqfWnq4nHuKH",
+    "quality_guard": {
+      "minimum_words": 200,
+      "reason": "",
+      "status": "ok",
+      "word_count": 659
+    },
+    "raw_response_text": "**The Weight of the City: A Day in the Life of Public Defender Maya Chen**\n\nBy 7:15 AM, the third cup of coffee is already cooling on Maya Chen\u2019s desk, steam curling into the stale office air. Her workspace is a monument to managed chaos: towers of manila folders threaten to topple, each one a life, a crisis, a set of facts she must absorb and defend. As a public defender in the midsize city of Riverton, Maya represents over a hundred active clients at any given time. She is not just an attorney; she is a crisis manager, a social worker, a translator of legalese, and often, the only person in the entire justice system who is unequivocally on her client\u2019s side.\n\nHer day begins not in court, but in triage. Before the courthouse doors even open, she\u2019s scanning emails\u2014a new arrest report, a plea offer from a prosecutor, a desperate message from a client\u2019s mother. The caseload is a constant, crushing presence. \u201cIt\u2019s like drinking from a firehose,\u201d she says, her eyes already tired behind her glasses. \u201cYou have to decide which cases are on fire *right now*, and hope you can get to the others before they ignite.\u201d\n\nBy 9:00 AM, she\u2019s in Riverton\u2019s bustling courthouse, a worn leather satchel slung over her shoulder. The morning is a blur of \u201cfirst appearances\u201d\u2014short hearings where indigent defendants meet her for the first time, often shell-shocked and still in jail scrubs. In a cramped, windowless conference room, she has five minutes to explain the charges, the process, and to ask the most important question: \u201cTell me what happened.\u201d She listens, takes frantic notes, and makes a promise she fiercely intends to keep: \u201cI will be your lawyer. I will see you again soon.\u201d\n\nThe afternoon brings the deeper work: the investigations, the motions, the plea negotiations. Back at the office, she\u2019s on the phone with a prosecutor, arguing that her client, a veteran struggling with homelessness and addiction, needs treatment, not a prison cell. She pores over police reports, looking for inconsistencies. She meets with a terrified 19-year-old charged with a robbery he insists he didn\u2019t commit, assuring him they will fight it. The emotional labor is as exhausting as the legal work. She carries her clients\u2019 fear, their frustration, their shattered hopes.\n\nThe system itself is her adversary as much as any prosecutor. Budgets are tight, resources are thinner. Expert witnesses are a luxury she can rarely afford. Investigators are stretched just as thin. The pressure to resolve cases quickly\u2014through plea deals\u2014is immense, a conveyor belt of justice that rarely stops for nuance. \u201cMy job,\u201d Maya explains, \u201cis to throw sand in the gears of that conveyor belt for each client. To force the system to see the person, not just the docket number.\u201d\n\nBy 6:30 PM, the courthouse is quiet. Maya is still at her desk, the glow of her computer screen illuminating the fatigue on her face. She\u2019s preparing for tomorrow\u2019s trial, a simple shoplifting case that isn\u2019t simple at all\u2014her client is a single mother who stole formula. This is the heart of the work: the understanding that every case, however minor it seems to the world, is a cataclysm for the person living it.\n\nShe finally packs up, the weight of the day a physical sensation. The files will be there tomorrow, and so will the clients, and so will Maya. In a city of 300,000, she is one of a small band of defenders standing in the gap, armed with little more than a law degree, a relentless work ethic, and a stubborn belief that justice should not depend on wealth. Her victory is rarely an acquittal; more often, it\u2019s a slightly shorter sentence, a drug program instead of prison, a moment of dignity for someone the world has already judged. She turns off the light, carrying those small, hard-won victories home with her, ready to do it all again at dawn.",
+    "sanitization": {
+      "changed": false,
+      "patterns": [],
+      "removed_chars": 0,
+      "removed_ratio": 0.0
+    },
+    "usage": {
+      "completion_tokens": 1032,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 173
+      },
+      "cost": 0.00040516,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.00039216,
+        "upstream_inference_cost": 0.00040516,
+        "upstream_inference_prompt_cost": 1.3e-05
+      },
+      "is_byok": false,
+      "prompt_tokens": 50,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 1082
+    }
+  },
+  "prompt_category": "profile",
+  "prompt_id": "profile_public_defender",
+  "response_text": "**The Weight of the City: A Day in the Life of Public Defender Maya Chen**\n\nBy 7:15 AM, the third cup of coffee is already cooling on Maya Chen\u2019s desk, steam curling into the stale office air. Her workspace is a monument to managed chaos: towers of manila folders threaten to topple, each one a life, a crisis, a set of facts she must absorb and defend. As a public defender in the midsize city of Riverton, Maya represents over a hundred active clients at any given time. She is not just an attorney; she is a crisis manager, a social worker, a translator of legalese, and often, the only person in the entire justice system who is unequivocally on her client\u2019s side.\n\nHer day begins not in court, but in triage. Before the courthouse doors even open, she\u2019s scanning emails\u2014a new arrest report, a plea offer from a prosecutor, a desperate message from a client\u2019s mother. The caseload is a constant, crushing presence. \u201cIt\u2019s like drinking from a firehose,\u201d she says, her eyes already tired behind her glasses. \u201cYou have to decide which cases are on fire *right now*, and hope you can get to the others before they ignite.\u201d\n\nBy 9:00 AM, she\u2019s in Riverton\u2019s bustling courthouse, a worn leather satchel slung over her shoulder. The morning is a blur of \u201cfirst appearances\u201d\u2014short hearings where indigent defendants meet her for the first time, often shell-shocked and still in jail scrubs. In a cramped, windowless conference room, she has five minutes to explain the charges, the process, and to ask the most important question: \u201cTell me what happened.\u201d She listens, takes frantic notes, and makes a promise she fiercely intends to keep: \u201cI will be your lawyer. I will see you again soon.\u201d\n\nThe afternoon brings the deeper work: the investigations, the motions, the plea negotiations. Back at the office, she\u2019s on the phone with a prosecutor, arguing that her client, a veteran struggling with homelessness and addiction, needs treatment, not a prison cell. She pores over police reports, looking for inconsistencies. She meets with a terrified 19-year-old charged with a robbery he insists he didn\u2019t commit, assuring him they will fight it. The emotional labor is as exhausting as the legal work. She carries her clients\u2019 fear, their frustration, their shattered hopes.\n\nThe system itself is her adversary as much as any prosecutor. Budgets are tight, resources are thinner. Expert witnesses are a luxury she can rarely afford. Investigators are stretched just as thin. The pressure to resolve cases quickly\u2014through plea deals\u2014is immense, a conveyor belt of justice that rarely stops for nuance. \u201cMy job,\u201d Maya explains, \u201cis to throw sand in the gears of that conveyor belt for each client. To force the system to see the person, not just the docket number.\u201d\n\nBy 6:30 PM, the courthouse is quiet. Maya is still at her desk, the glow of her computer screen illuminating the fatigue on her face. She\u2019s preparing for tomorrow\u2019s trial, a simple shoplifting case that isn\u2019t simple at all\u2014her client is a single mother who stole formula. This is the heart of the work: the understanding that every case, however minor it seems to the world, is a cataclysm for the person living it.\n\nShe finally packs up, the weight of the day a physical sensation. The files will be there tomorrow, and so will the clients, and so will Maya. In a city of 300,000, she is one of a small band of defenders standing in the gap, armed with little more than a law degree, a relentless work ethic, and a stubborn belief that justice should not depend on wealth. Her victory is rarely an acquittal; more often, it\u2019s a slightly shorter sentence, a drug program instead of prison, a moment of dignity for someone the world has already judged. She turns off the light, carrying those small, hard-won victories home with her, ready to do it all again at dawn.",
+  "run_name": "2026-03-08-openrouter-v0-2-clean-3"
+}

@@ -1,0 +1,56 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.2",
+  "candidate_label": "DeepSeek V3.2",
+  "candidate_model_id": "deepseek/deepseek-v3.2",
+  "created_at": "2026-03-08T12:06:35Z",
+  "metadata": {
+    "finish_reason": "stop",
+    "generation_attempt": 1,
+    "generation_settings": {
+      "max_output_tokens": 10000,
+      "reasoning_effort": "medium"
+    },
+    "id": "gen-1772971559-AkzS6ihlbIAyAj3zQ14V",
+    "quality_guard": {
+      "minimum_words": 120,
+      "reason": "",
+      "status": "ok",
+      "word_count": 699
+    },
+    "raw_response_text": "## **Apartment Tenant's Guide: Immediate Steps for a Ceiling Water Leak**\n\nA water leak from the ceiling is urgent. Acting quickly can prevent major damage to your belongings and the building. Follow these steps in order.\n\n### **Step 1: Immediate Action & Safety First**\n*   **Move Belongings:** Immediately move furniture, rugs, electronics, and other valuables out from under the leak. Water damage happens fast.\n*   **Contain the Water:** Place buckets, trash cans, or large pots directly under the leak. If the water is spreading, use old towels and blankets to create a soak barrier.\n*   **Address Electricity:** **If water is near light fixtures, electrical outlets, or switches, or if you see sparks, DO NOT TOUCH THE WATER.** Turn off the electricity to the affected room at your circuit breaker panel if it is safe to do so. If in doubt, avoid the area.\n*   **Puncture for Pressure Relief (If Safe):** If a large water-filled bulge (a \"bubble\") forms in the ceiling, it could collapse. **Only if you can safely reach it**, use a screwdriver or pencil to poke a small hole in the lowest point of the bulge. Hold a bucket directly underneath to catch the rush of water. This relieves pressure and can prevent a larger collapse.\n\n### **Step 2: Document Everything**\n*   **Take Photos & Video:** Thoroughly document the leak, the source (if visible), the damage to the ceiling, any damaged belongings, and your containment efforts. Get clear, time-stamped photos and videos.\n*   **Start a Log:** Note the date and time you discovered the leak. Keep a simple log of all your actions and communications.\n\n### **Step 3: Notify the Right People (Immediately)**\n*   **Contact Your Landlord/Property Manager:** This is your **first call**. Use the designated emergency number if provided. Clearly state: \"I have an active water leak coming from the ceiling in [your apartment number]. It is causing damage. Please send maintenance immediately.\"\n*   **Notify Your Downstairs Neighbor (If Applicable):** If you live in a multi-story building, the leak may originate from an apartment above you. Inform your landlord, who should contact them. You can also politely alert your upstairs neighbor directly if you have their contact info, as they may be unaware of a leak in their unit.\n*   **Contact the Building Superintendent/On-Site Staff:** If your building has them, notify them in person or by phone in addition to your landlord.\n\n### **Step 4: Mitigate Damage & Follow Up**\n*   **Continue Containment:** Empty buckets as needed to prevent overflow.\n*   **Promote Airflow:** After the leak stops, open windows and use fans to circulate air and begin drying the area. This helps prevent mold.\n*   **Get a Repair Timeline:** Ask your landlord for an expected timeline for both the emergency stop of the leak and the permanent repair/restoration of your ceiling.\n*   **Follow Up in Writing:** After the initial call, send a summary email to your landlord/property manager. Include your photos, reiterate the problem, and note the time you reported it. This creates a paper trail.\n\n### **Step 5: Know Your Rights & Next Steps**\n*   **Understand Responsibility:** Generally, the landlord is responsible for repairing the building structure (ceiling, pipes) and any damage caused by it. **You are typically responsible for your personal belongings.**\n*   **Contact Renter's Insurance:** If your personal property is damaged, contact your renter's insurance provider to file a claim. They will guide you through the process and may cover temporary lodging if the unit is uninhabitable.\n*   **Mold Prevention:** Ensure the landlord properly dries and repairs the area. Lingering moisture can lead to mold. If you see or smell mold later, report it immediately in writing.\n*   **Repair Expectations:** A proper repair should address the *source* of the leak, not just the ceiling stain. This may require work in the unit above you.\n\n### **What NOT To Do**\n*   Do not ignore the leak, even if it's small.\n*   Do not attempt major repairs yourself (like cutting into the ceiling).\n*   Do not delay notifying your landlord.\n*   Do not withhold rent without explicit legal advice, as this could violate your lease.\n\nBy staying calm and following this guide, you\u2019ll protect your home, your belongings, and ensure the issue is resolved correctly.",
+    "sanitization": {
+      "changed": false,
+      "patterns": [],
+      "removed_chars": 0,
+      "removed_ratio": 0.0
+    },
+    "usage": {
+      "completion_tokens": 1146,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 272
+      },
+      "cost": 0.0019544,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.00192528,
+        "upstream_inference_cost": 0.0019544,
+        "upstream_inference_prompt_cost": 2.912e-05
+      },
+      "is_byok": false,
+      "prompt_tokens": 52,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 1198
+    }
+  },
+  "prompt_category": "service_howto",
+  "prompt_id": "howto_report_water_leak",
+  "response_text": "## **Apartment Tenant's Guide: Immediate Steps for a Ceiling Water Leak**\n\nA water leak from the ceiling is urgent. Acting quickly can prevent major damage to your belongings and the building. Follow these steps in order.\n\n### **Step 1: Immediate Action & Safety First**\n*   **Move Belongings:** Immediately move furniture, rugs, electronics, and other valuables out from under the leak. Water damage happens fast.\n*   **Contain the Water:** Place buckets, trash cans, or large pots directly under the leak. If the water is spreading, use old towels and blankets to create a soak barrier.\n*   **Address Electricity:** **If water is near light fixtures, electrical outlets, or switches, or if you see sparks, DO NOT TOUCH THE WATER.** Turn off the electricity to the affected room at your circuit breaker panel if it is safe to do so. If in doubt, avoid the area.\n*   **Puncture for Pressure Relief (If Safe):** If a large water-filled bulge (a \"bubble\") forms in the ceiling, it could collapse. **Only if you can safely reach it**, use a screwdriver or pencil to poke a small hole in the lowest point of the bulge. Hold a bucket directly underneath to catch the rush of water. This relieves pressure and can prevent a larger collapse.\n\n### **Step 2: Document Everything**\n*   **Take Photos & Video:** Thoroughly document the leak, the source (if visible), the damage to the ceiling, any damaged belongings, and your containment efforts. Get clear, time-stamped photos and videos.\n*   **Start a Log:** Note the date and time you discovered the leak. Keep a simple log of all your actions and communications.\n\n### **Step 3: Notify the Right People (Immediately)**\n*   **Contact Your Landlord/Property Manager:** This is your **first call**. Use the designated emergency number if provided. Clearly state: \"I have an active water leak coming from the ceiling in [your apartment number]. It is causing damage. Please send maintenance immediately.\"\n*   **Notify Your Downstairs Neighbor (If Applicable):** If you live in a multi-story building, the leak may originate from an apartment above you. Inform your landlord, who should contact them. You can also politely alert your upstairs neighbor directly if you have their contact info, as they may be unaware of a leak in their unit.\n*   **Contact the Building Superintendent/On-Site Staff:** If your building has them, notify them in person or by phone in addition to your landlord.\n\n### **Step 4: Mitigate Damage & Follow Up**\n*   **Continue Containment:** Empty buckets as needed to prevent overflow.\n*   **Promote Airflow:** After the leak stops, open windows and use fans to circulate air and begin drying the area. This helps prevent mold.\n*   **Get a Repair Timeline:** Ask your landlord for an expected timeline for both the emergency stop of the leak and the permanent repair/restoration of your ceiling.\n*   **Follow Up in Writing:** After the initial call, send a summary email to your landlord/property manager. Include your photos, reiterate the problem, and note the time you reported it. This creates a paper trail.\n\n### **Step 5: Know Your Rights & Next Steps**\n*   **Understand Responsibility:** Generally, the landlord is responsible for repairing the building structure (ceiling, pipes) and any damage caused by it. **You are typically responsible for your personal belongings.**\n*   **Contact Renter's Insurance:** If your personal property is damaged, contact your renter's insurance provider to file a claim. They will guide you through the process and may cover temporary lodging if the unit is uninhabitable.\n*   **Mold Prevention:** Ensure the landlord properly dries and repairs the area. Lingering moisture can lead to mold. If you see or smell mold later, report it immediately in writing.\n*   **Repair Expectations:** A proper repair should address the *source* of the leak, not just the ceiling stain. This may require work in the unit above you.\n\n### **What NOT To Do**\n*   Do not ignore the leak, even if it's small.\n*   Do not attempt major repairs yourself (like cutting into the ceiling).\n*   Do not delay notifying your landlord.\n*   Do not withhold rent without explicit legal advice, as this could violate your lease.\n\nBy staying calm and following this guide, you\u2019ll protect your home, your belongings, and ensure the issue is resolved correctly.",
+  "run_name": "2026-03-08-openrouter-v0-2-clean-3"
+}

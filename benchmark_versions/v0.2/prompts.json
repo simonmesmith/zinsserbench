@@ -1,0 +1,162 @@
+[
+  {
+    "prompt_id": "memo_remote_work_policy",
+    "category": "memo",
+    "title": "Remote work memo",
+    "task": "Write an internal memo announcing a new remote work policy for a 120-person software company. Explain the policy, the reason for it, and what employees need to do next.",
+    "topic_tags": ["workplace", "policy"],
+    "target_length": "250-400 words"
+  },
+  {
+    "prompt_id": "memo_budget_freeze",
+    "category": "memo",
+    "title": "Budget freeze memo",
+    "task": "Write an internal memo explaining a temporary budget freeze to department heads at a regional hospital. State what is affected, what is not, and what questions managers should bring forward.",
+    "topic_tags": ["finance", "operations"],
+    "target_length": "250-400 words"
+  },
+  {
+    "prompt_id": "explain_heat_pumps",
+    "category": "explain",
+    "title": "Heat pump explainer",
+    "task": "Write a short explainer for homeowners about how heat pumps work and why someone might choose one over a gas furnace.",
+    "topic_tags": ["energy", "home"],
+    "target_length": "300-450 words"
+  },
+  {
+    "prompt_id": "explain_municipal_bonds",
+    "category": "explain",
+    "title": "Municipal bonds explainer",
+    "task": "Write a plain-English explainer for a general audience about what municipal bonds are and why cities issue them.",
+    "topic_tags": ["finance", "civics"],
+    "target_length": "300-450 words"
+  },
+  {
+    "prompt_id": "profile_school_custodian",
+    "category": "profile",
+    "title": "Custodian profile",
+    "task": "Write a profile of a public high school custodian who has worked in the building for 28 years and knows every student by name.",
+    "topic_tags": ["people", "education"],
+    "target_length": "500-700 words"
+  },
+  {
+    "prompt_id": "profile_ferry_captain",
+    "category": "profile",
+    "title": "Ferry captain profile",
+    "task": "Write a profile of a ferry captain who has spent three decades running the same route between two small coastal towns.",
+    "topic_tags": ["people", "transportation"],
+    "target_length": "500-700 words"
+  },
+  {
+    "prompt_id": "howto_neighborhood_meeting",
+    "category": "service_howto",
+    "title": "Neighborhood meeting guide",
+    "task": "Write a practical guide explaining how a resident can organize a neighborhood meeting about traffic safety on a busy street.",
+    "topic_tags": ["civics", "community"],
+    "target_length": "350-500 words"
+  },
+  {
+    "prompt_id": "howto_report_water_leak",
+    "category": "service_howto",
+    "title": "Water leak guide",
+    "task": "Write a practical guide for apartment tenants on what to do when they discover a water leak in the ceiling.",
+    "topic_tags": ["housing", "safety"],
+    "target_length": "300-450 words"
+  },
+  {
+    "prompt_id": "oped_library_hours",
+    "category": "persuasion_oped",
+    "title": "Library hours op-ed",
+    "task": "Write an opinion piece arguing that a city library system should stay open later in the evening.",
+    "topic_tags": ["civics", "education"],
+    "target_length": "500-700 words"
+  },
+  {
+    "prompt_id": "oped_bus_lanes",
+    "category": "persuasion_oped",
+    "title": "Bus lanes op-ed",
+    "task": "Write an opinion piece arguing for dedicated bus lanes on a congested urban corridor.",
+    "topic_tags": ["transportation", "policy"],
+    "target_length": "500-700 words"
+  },
+  {
+    "prompt_id": "personal_first_day_union_job",
+    "category": "personal_nonfiction",
+    "title": "First union job essay",
+    "task": "Write a personal nonfiction essay about the first day at a union job that changed the writer's idea of what work could be.",
+    "topic_tags": ["work", "memory"],
+    "target_length": "500-700 words"
+  },
+  {
+    "prompt_id": "personal_public_pool",
+    "category": "personal_nonfiction",
+    "title": "Public pool essay",
+    "task": "Write a personal nonfiction essay about a neighborhood public pool and what it revealed about a town.",
+    "topic_tags": ["memory", "place"],
+    "target_length": "500-700 words"
+  },
+  {
+    "prompt_id": "memo_incident_response",
+    "category": "memo",
+    "title": "Incident response memo",
+    "task": "Write an internal memo after a company-wide outage. Explain what happened, what the team has fixed, and what employees should expect next.",
+    "topic_tags": ["technology", "operations"],
+    "target_length": "250-400 words"
+  },
+  {
+    "prompt_id": "explain_food_recall",
+    "category": "explain",
+    "title": "Food recall explainer",
+    "task": "Write a consumer explainer about what a food recall means and what people should do if a product in their kitchen is recalled.",
+    "topic_tags": ["health", "consumer"],
+    "target_length": "300-450 words"
+  },
+  {
+    "prompt_id": "profile_public_defender",
+    "category": "profile",
+    "title": "Public defender profile",
+    "task": "Write a profile of a public defender handling a heavy caseload in a midsize city.",
+    "topic_tags": ["law", "people"],
+    "target_length": "500-700 words"
+  },
+  {
+    "prompt_id": "howto_school_board_comment",
+    "category": "service_howto",
+    "title": "School board comment guide",
+    "task": "Write a practical guide explaining how a parent can prepare to speak at a school board meeting.",
+    "topic_tags": ["education", "civics"],
+    "target_length": "350-500 words"
+  },
+  {
+    "prompt_id": "oped_corner_store",
+    "category": "persuasion_oped",
+    "title": "Corner store zoning op-ed",
+    "task": "Write an opinion piece arguing that a neighborhood should allow small corner stores in residential areas.",
+    "topic_tags": ["urbanism", "community"],
+    "target_length": "500-700 words"
+  },
+  {
+    "prompt_id": "personal_night_shift_bus",
+    "category": "personal_nonfiction",
+    "title": "Night shift bus essay",
+    "task": "Write a personal nonfiction essay about riding the same late-night bus home for a year.",
+    "topic_tags": ["memory", "transportation"],
+    "target_length": "500-700 words"
+  },
+  {
+    "prompt_id": "explain_property_tax",
+    "category": "explain",
+    "title": "Property tax explainer",
+    "task": "Write a plain-English explainer for homeowners about how property taxes are set and why they can change from year to year.",
+    "topic_tags": ["civics", "finance"],
+    "target_length": "300-450 words"
+  },
+  {
+    "prompt_id": "memo_schedule_change",
+    "category": "memo",
+    "title": "Schedule change memo",
+    "task": "Write an internal memo to warehouse employees announcing a shift schedule change ahead of the holiday season.",
+    "topic_tags": ["operations", "workplace"],
+    "target_length": "250-400 words"
+  }
+]

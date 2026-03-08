@@ -1,0 +1,47 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.2",
+  "candidate_model_id": "moonshotai/kimi-k2.5",
+  "created_at": "2026-03-08T12:38:59Z",
+  "judge_model_id": "openai/gpt-5.4",
+  "metadata": {
+    "id": "gen-1772973536-E19TSGyKTu1w4XchPiSy",
+    "raw_text": "{\"scores\":{\"clarity\":5,\"simplicity\":4,\"brevity_economy\":4,\"structure_flow\":5,\"specificity_precision\":5,\"humanity_voice\":5,\"overall\":5},\"rationale\":\"Clear, engaging explainer with a strong opening analogy, logical progression, and concrete examples. It defines key terms well and explains why cities borrow in plain English. Minor dings for simplicity/economy: a few phrases are slightly polished or jargon-heavy for a general audience, and one claim is a bit too absolute (revenue bonds are not simply 'cheaper for the city').\"}",
+    "usage": {
+      "completion_tokens": 192,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 60
+      },
+      "cost": 0.00528,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.00288,
+        "upstream_inference_cost": 0.00528,
+        "upstream_inference_prompt_cost": 0.0024
+      },
+      "is_byok": false,
+      "prompt_tokens": 960,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 1152
+    }
+  },
+  "prompt_category": "explain",
+  "prompt_id": "explain_municipal_bonds",
+  "rationale": "Clear, engaging explainer with a strong opening analogy, logical progression, and concrete examples. It defines key terms well and explains why cities borrow in plain English. Minor dings for simplicity/economy: a few phrases are slightly polished or jargon-heavy for a general audience, and one claim is a bit too absolute (revenue bonds are not simply 'cheaper for the city').",
+  "run_name": "2026-03-08-openrouter-v0-2-clean-3",
+  "scores": {
+    "brevity_economy": 4,
+    "clarity": 5,
+    "humanity_voice": 5,
+    "overall": 5,
+    "simplicity": 4,
+    "specificity_precision": 5,
+    "structure_flow": 5
+  }
+}

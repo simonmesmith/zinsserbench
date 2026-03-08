@@ -1,0 +1,47 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.2",
+  "candidate_model_id": "anthropic/claude-opus-4.6",
+  "created_at": "2026-03-08T12:31:58Z",
+  "judge_model_id": "google/gemini-3.1-pro-preview",
+  "metadata": {
+    "id": "gen-1772973112-Ci2xyeTxdkiMQNRval04",
+    "raw_text": "{\n  \"scores\": {\n    \"clarity\": 5,\n    \"simplicity\": 5,\n    \"brevity_economy\": 5,\n    \"structure_flow\": 5,\n    \"specificity_precision\": 5,\n    \"humanity_voice\": 5,\n    \"overall\": 5\n  },\n  \"rationale\": \"The memo is exceptionally well-written, highly specific, and logically structured. It strikes a perfect balance between professional authority and empathetic communication, directly addressing all prompt requirements with concrete details and clear formatting.\"\n}",
+    "usage": {
+      "completion_tokens": 443,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 318
+      },
+      "cost": 0.00855,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.005316,
+        "upstream_inference_cost": 0.00855,
+        "upstream_inference_prompt_cost": 0.003234
+      },
+      "is_byok": false,
+      "prompt_tokens": 1617,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 2060
+    }
+  },
+  "prompt_category": "memo",
+  "prompt_id": "memo_budget_freeze",
+  "rationale": "The memo is exceptionally well-written, highly specific, and logically structured. It strikes a perfect balance between professional authority and empathetic communication, directly addressing all prompt requirements with concrete details and clear formatting.",
+  "run_name": "2026-03-08-openrouter-v0-2-clean-3",
+  "scores": {
+    "brevity_economy": 5,
+    "clarity": 5,
+    "humanity_voice": 5,
+    "overall": 5,
+    "simplicity": 5,
+    "specificity_precision": 5,
+    "structure_flow": 5
+  }
+}

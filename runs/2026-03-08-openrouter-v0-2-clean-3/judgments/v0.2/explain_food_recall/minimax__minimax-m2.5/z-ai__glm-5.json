@@ -1,0 +1,47 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.2",
+  "candidate_model_id": "minimax/minimax-m2.5",
+  "created_at": "2026-03-08T13:13:14Z",
+  "judge_model_id": "z-ai/glm-5",
+  "metadata": {
+    "id": "gen-1772975575-AiBs5v5dfpwOZ1r1m9AZ",
+    "raw_text": "{\"scores\": {\"clarity\": 5, \"simplicity\": 5, \"brevity_economy\": 5, \"structure_flow\": 5, \"specificity_precision\": 5, \"humanity_voice\": 5, \"overall\": 5}, \"rationale\": \"An excellent consumer explainer that defines recalls clearly, explains the three classification levels, lists specific causes, and provides numbered actionable steps. The writing is plain, efficient, and well-organized with a logical progression from understanding to action. Specific details like naming bacteria types, agencies (FDA, USDA), and concrete instructions (double-bag, wash surfaces with warm soapy water) add real value. The tone is helpful and reassuring without being condescending.\"}",
+    "usage": {
+      "completion_tokens": 648,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 574
+      },
+      "cost": 0.0031546,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.0020736,
+        "upstream_inference_cost": 0.0031546,
+        "upstream_inference_prompt_cost": 0.001081
+      },
+      "is_byok": false,
+      "prompt_tokens": 1081,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 1729
+    }
+  },
+  "prompt_category": "explain",
+  "prompt_id": "explain_food_recall",
+  "rationale": "An excellent consumer explainer that defines recalls clearly, explains the three classification levels, lists specific causes, and provides numbered actionable steps. The writing is plain, efficient, and well-organized with a logical progression from understanding to action. Specific details like naming bacteria types, agencies (FDA, USDA), and concrete instructions (double-bag, wash surfaces with warm soapy water) add real value. The tone is helpful and reassuring without being condescending.",
+  "run_name": "2026-03-08-openrouter-v0-2-clean-3",
+  "scores": {
+    "brevity_economy": 5,
+    "clarity": 5,
+    "humanity_voice": 5,
+    "overall": 5,
+    "simplicity": 5,
+    "specificity_precision": 5,
+    "structure_flow": 5
+  }
+}

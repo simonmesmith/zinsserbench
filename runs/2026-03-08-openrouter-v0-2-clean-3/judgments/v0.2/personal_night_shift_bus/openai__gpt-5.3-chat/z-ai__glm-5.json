@@ -1,0 +1,47 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.2",
+  "candidate_model_id": "openai/gpt-5.3-chat",
+  "created_at": "2026-03-08T13:27:29Z",
+  "judge_model_id": "z-ai/glm-5",
+  "metadata": {
+    "id": "gen-1772976429-dL7mGFShURJ4FfjH0kjg",
+    "raw_text": "{\"scores\": {\"clarity\": 5, \"simplicity\": 5, \"brevity_economy\": 5, \"structure_flow\": 5, \"specificity_precision\": 5, \"humanity_voice\": 5, \"overall\": 5}, \"rationale\": \"A quietly excellent essay. Clear, direct prose with no padding or pretension. Specific details anchor each scene\u2014the peeling lawyer ad, the paint-speckled pants, the blue glow of televisions. The structure moves naturally from practical routine to observed passengers to seasonal shifts to earned reflection. The voice is observant and human without being sentimental. Each paragraph earns its place, and the closing line resonates.\"}",
+    "usage": {
+      "completion_tokens": 705,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 650
+      },
+      "cost": 0.003728,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.002256,
+        "upstream_inference_cost": 0.003728,
+        "upstream_inference_prompt_cost": 0.001472
+      },
+      "is_byok": false,
+      "prompt_tokens": 1472,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 2177
+    }
+  },
+  "prompt_category": "personal_nonfiction",
+  "prompt_id": "personal_night_shift_bus",
+  "rationale": "A quietly excellent essay. Clear, direct prose with no padding or pretension. Specific details anchor each scene\u2014the peeling lawyer ad, the paint-speckled pants, the blue glow of televisions. The structure moves naturally from practical routine to observed passengers to seasonal shifts to earned reflection. The voice is observant and human without being sentimental. Each paragraph earns its place, and the closing line resonates.",
+  "run_name": "2026-03-08-openrouter-v0-2-clean-3",
+  "scores": {
+    "brevity_economy": 5,
+    "clarity": 5,
+    "humanity_voice": 5,
+    "overall": 5,
+    "simplicity": 5,
+    "specificity_precision": 5,
+    "structure_flow": 5
+  }
+}

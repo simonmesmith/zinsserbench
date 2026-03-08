@@ -1,0 +1,47 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.2",
+  "candidate_model_id": "qwen/qwen3.5-35b-a3b",
+  "created_at": "2026-03-08T12:39:46Z",
+  "judge_model_id": "anthropic/claude-opus-4.6",
+  "metadata": {
+    "id": "gen-1772973578-33Bpudv4MoMMTRtBx0vf",
+    "raw_text": "{\"scores\": {\"clarity\": 5, \"simplicity\": 5, \"brevity_economy\": 4, \"structure_flow\": 5, \"specificity_precision\": 4, \"humanity_voice\": 4, \"overall\": 5}, \"rationale\": \"Exceptionally clear and well-organized explainer. The mortgage analogy and library opening example ground abstract concepts immediately. The three-step 'How It Works' section and the three reasons for issuing bonds are logically sequenced and easy to follow. Language is genuinely plain throughout\u2014no jargon left unexplained. Minor dings: slightly long for the content (the 'Who Buys Them' section adds little), and the voice, while warm and reader-friendly, occasionally reads a touch formulaic (e.g., 'The Bottom Line' wrap-up). Specificity is good\u2014concrete dollar figures, percentages, timeframes\u2014though it could mention a real-world example (e.g., a notable muni bond issuance) for extra precision. Overall, this is a near-ideal general-audience explainer.\"}",
+    "usage": {
+      "completion_tokens": 247,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 0
+      },
+      "cost": 0.01265,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.006175,
+        "upstream_inference_cost": 0.01265,
+        "upstream_inference_prompt_cost": 0.006475
+      },
+      "is_byok": false,
+      "prompt_tokens": 1295,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 1542
+    }
+  },
+  "prompt_category": "explain",
+  "prompt_id": "explain_municipal_bonds",
+  "rationale": "Exceptionally clear and well-organized explainer. The mortgage analogy and library opening example ground abstract concepts immediately. The three-step 'How It Works' section and the three reasons for issuing bonds are logically sequenced and easy to follow. Language is genuinely plain throughout\u2014no jargon left unexplained. Minor dings: slightly long for the content (the 'Who Buys Them' section adds little), and the voice, while warm and reader-friendly, occasionally reads a touch formulaic (e.g., 'The Bottom Line' wrap-up). Specificity is good\u2014concrete dollar figures, percentages, timeframes\u2014though it could mention a real-world example (e.g., a notable muni bond issuance) for extra precision. Overall, this is a near-ideal general-audience explainer.",
+  "run_name": "2026-03-08-openrouter-v0-2-clean-3",
+  "scores": {
+    "brevity_economy": 4,
+    "clarity": 5,
+    "humanity_voice": 4,
+    "overall": 5,
+    "simplicity": 5,
+    "specificity_precision": 4,
+    "structure_flow": 5
+  }
+}

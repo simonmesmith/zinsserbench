@@ -1,0 +1,47 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.2",
+  "candidate_model_id": "anthropic/claude-sonnet-4.6",
+  "created_at": "2026-03-08T12:50:22Z",
+  "judge_model_id": "z-ai/glm-5",
+  "metadata": {
+    "id": "gen-1772974217-IsvXtVZoATmNSyMFkfKZ",
+    "raw_text": "```json\n{\n  \"scores\": {\n    \"clarity\": 5,\n    \"simplicity\": 5,\n    \"brevity_economy\": 4,\n    \"structure_flow\": 5,\n    \"specificity_precision\": 5,\n    \"humanity_voice\": 5,\n    \"overall\": 5\n  },\n  \"rationale\": \"This is an excellent practical guide. The steps are logically ordered from immediate safety concerns through documentation and follow-up. Each section contains specific, actionable advice (e.g., sample notification language, breaker guidance, mold timelines). The tone is calm and authoritative without being bureaucratic. The quick-reference table and priority ordering add utility. Minor throat-clearing in the introduction keeps brevity from a perfect score, but overall this is a model of clear, useful nonfiction writing.\"\n}\n```",
+    "usage": {
+      "completion_tokens": 328,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 173
+      },
+      "cost": 0.00257312,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.00083968,
+        "upstream_inference_cost": 0.00257312,
+        "upstream_inference_prompt_cost": 0.00173344
+      },
+      "is_byok": false,
+      "prompt_tokens": 2218,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 64,
+        "video_tokens": 0
+      },
+      "total_tokens": 2546
+    }
+  },
+  "prompt_category": "service_howto",
+  "prompt_id": "howto_report_water_leak",
+  "rationale": "This is an excellent practical guide. The steps are logically ordered from immediate safety concerns through documentation and follow-up. Each section contains specific, actionable advice (e.g., sample notification language, breaker guidance, mold timelines). The tone is calm and authoritative without being bureaucratic. The quick-reference table and priority ordering add utility. Minor throat-clearing in the introduction keeps brevity from a perfect score, but overall this is a model of clear, useful nonfiction writing.",
+  "run_name": "2026-03-08-openrouter-v0-2-clean-3",
+  "scores": {
+    "brevity_economy": 4,
+    "clarity": 5,
+    "humanity_voice": 5,
+    "overall": 5,
+    "simplicity": 5,
+    "specificity_precision": 5,
+    "structure_flow": 5
+  }
+}

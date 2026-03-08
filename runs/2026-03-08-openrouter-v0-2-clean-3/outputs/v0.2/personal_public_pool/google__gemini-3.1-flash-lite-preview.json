@@ -1,0 +1,56 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.2",
+  "candidate_label": "Gemini 3.1 Flash Lite Preview",
+  "candidate_model_id": "google/gemini-3.1-flash-lite-preview",
+  "created_at": "2026-03-08T12:11:36Z",
+  "metadata": {
+    "finish_reason": "stop",
+    "generation_attempt": 1,
+    "generation_settings": {
+      "max_output_tokens": 10000,
+      "reasoning_effort": "medium"
+    },
+    "id": "gen-1772971889-lQj2tcK0MPuSGUCTHUab",
+    "quality_guard": {
+      "minimum_words": 200,
+      "reason": "",
+      "status": "ok",
+      "word_count": 667
+    },
+    "raw_response_text": "The smell of the municipal pool was not merely chlorine; it was a sharp, metallic cocktail of bleach, overheated concrete, and the faint, sweet rot of grass clippings from the adjacent park. To a child, it was the scent of freedom. To an adult, looking back, it was the scent of the town\u2019s own nervous system.\n\nOur town was a place that prided itself on being \"quiet,\" a euphemism for a community that had stopped growing and started holding its breath. The municipal pool, a sprawling, L-shaped basin of cracked blue paint and rusted ladders, was the only place where that breath was finally released.\n\nIf you wanted to understand the town, you didn't go to the town hall meetings or the high school football games. You went to the pool on a Tuesday in July.\n\nThe pool was a great equalizer, but it was also a mirror. In the shallow end, where the water was perpetually clouded by sunscreen and the frantic splashing of toddlers, you saw the town\u2019s demographic shifts. Over the years, the faces changed\u2014from the homogenous, sun-reddened skin of the families who had lived there for generations to a more vibrant, chaotic mix of new arrivals. The pool was the first place these groups intersected. It was where the town\u2019s unspoken boundaries were tested. You\u2019d see the older residents, who treated the pool like a private club, eyeing the newcomers with a mixture of curiosity and territorial defensiveness. The pool forced a proximity that the rest of the town\u2019s geography\u2014with its sprawling lawns and fenced-in backyards\u2014managed to avoid.\n\nThe physical state of the pool revealed even more. The town\u2019s budget was a perennial source of local friction, and the pool was the primary casualty. Every spring, there was a debate about whether to patch the leaks or finally shut the gates for good. The peeling paint on the diving board, the rusted chain-link fence, and the outdated filtration system were physical manifestations of a town that was unsure of its own future. We were a community that loved the idea of public space but was increasingly reluctant to pay for the maintenance of it. The pool was a relic of a more optimistic era, a time when we believed that a shared space could hold a community together.\n\nYet, despite the decay, the pool remained the town\u2019s heartbeat. It was where the teenagers, bored and restless, practiced the art of being seen. It was where the elderly swam laps in the early morning, their bodies moving with a slow, rhythmic grace that defied the town\u2019s general stagnation. It was where the lifeguards\u2014the town\u2019s own children\u2014learned the heavy burden of responsibility, watching over the chaos with whistles gripped between their teeth.\n\nWhat the pool revealed, ultimately, was that our town was a place of fragile connections. We were a collection of people who lived side-by-side but rarely interacted, except when we were stripped down to our swimsuits, vulnerable and exposed in the heat. In the water, the social hierarchies of the high school hallways and the country club memberships dissolved. A kid from the subsidized housing complex and a kid from the hillside estates were just two bodies trying to stay afloat.\n\nWhen the pool closed for the season, usually in late August, the town felt different. The silence that descended on the neighborhood was heavier, more isolating. Without the pool, the town retreated into its private silos. The public square vanished, and we became strangers again, passing each other in cars with the windows rolled up.\n\nThe pool was never just a place to swim. It was a litmus test for our collective empathy. It showed us that we were capable of sharing a space, of tolerating one another\u2019s noise, and of finding joy in the same blue water. It revealed that while we were a town defined by our divisions, we were also a town that desperately needed a place to be together, even if that place was slowly crumbling around us.",
+    "sanitization": {
+      "changed": false,
+      "patterns": [],
+      "removed_chars": 0,
+      "removed_ratio": 0.0
+    },
+    "usage": {
+      "completion_tokens": 1365,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 550
+      },
+      "cost": 0.00205925,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.0020475,
+        "upstream_inference_cost": 0.00205925,
+        "upstream_inference_prompt_cost": 1.175e-05
+      },
+      "is_byok": false,
+      "prompt_tokens": 47,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 1412
+    }
+  },
+  "prompt_category": "personal_nonfiction",
+  "prompt_id": "personal_public_pool",
+  "response_text": "The smell of the municipal pool was not merely chlorine; it was a sharp, metallic cocktail of bleach, overheated concrete, and the faint, sweet rot of grass clippings from the adjacent park. To a child, it was the scent of freedom. To an adult, looking back, it was the scent of the town\u2019s own nervous system.\n\nOur town was a place that prided itself on being \"quiet,\" a euphemism for a community that had stopped growing and started holding its breath. The municipal pool, a sprawling, L-shaped basin of cracked blue paint and rusted ladders, was the only place where that breath was finally released.\n\nIf you wanted to understand the town, you didn't go to the town hall meetings or the high school football games. You went to the pool on a Tuesday in July.\n\nThe pool was a great equalizer, but it was also a mirror. In the shallow end, where the water was perpetually clouded by sunscreen and the frantic splashing of toddlers, you saw the town\u2019s demographic shifts. Over the years, the faces changed\u2014from the homogenous, sun-reddened skin of the families who had lived there for generations to a more vibrant, chaotic mix of new arrivals. The pool was the first place these groups intersected. It was where the town\u2019s unspoken boundaries were tested. You\u2019d see the older residents, who treated the pool like a private club, eyeing the newcomers with a mixture of curiosity and territorial defensiveness. The pool forced a proximity that the rest of the town\u2019s geography\u2014with its sprawling lawns and fenced-in backyards\u2014managed to avoid.\n\nThe physical state of the pool revealed even more. The town\u2019s budget was a perennial source of local friction, and the pool was the primary casualty. Every spring, there was a debate about whether to patch the leaks or finally shut the gates for good. The peeling paint on the diving board, the rusted chain-link fence, and the outdated filtration system were physical manifestations of a town that was unsure of its own future. We were a community that loved the idea of public space but was increasingly reluctant to pay for the maintenance of it. The pool was a relic of a more optimistic era, a time when we believed that a shared space could hold a community together.\n\nYet, despite the decay, the pool remained the town\u2019s heartbeat. It was where the teenagers, bored and restless, practiced the art of being seen. It was where the elderly swam laps in the early morning, their bodies moving with a slow, rhythmic grace that defied the town\u2019s general stagnation. It was where the lifeguards\u2014the town\u2019s own children\u2014learned the heavy burden of responsibility, watching over the chaos with whistles gripped between their teeth.\n\nWhat the pool revealed, ultimately, was that our town was a place of fragile connections. We were a collection of people who lived side-by-side but rarely interacted, except when we were stripped down to our swimsuits, vulnerable and exposed in the heat. In the water, the social hierarchies of the high school hallways and the country club memberships dissolved. A kid from the subsidized housing complex and a kid from the hillside estates were just two bodies trying to stay afloat.\n\nWhen the pool closed for the season, usually in late August, the town felt different. The silence that descended on the neighborhood was heavier, more isolating. Without the pool, the town retreated into its private silos. The public square vanished, and we became strangers again, passing each other in cars with the windows rolled up.\n\nThe pool was never just a place to swim. It was a litmus test for our collective empathy. It showed us that we were capable of sharing a space, of tolerating one another\u2019s noise, and of finding joy in the same blue water. It revealed that while we were a town defined by our divisions, we were also a town that desperately needed a place to be together, even if that place was slowly crumbling around us.",
+  "run_name": "2026-03-08-openrouter-v0-2-clean-3"
+}

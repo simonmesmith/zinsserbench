@@ -1,0 +1,47 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.2",
+  "candidate_model_id": "minimax/minimax-m2.5",
+  "created_at": "2026-03-08T13:26:07Z",
+  "judge_model_id": "z-ai/glm-5",
+  "metadata": {
+    "id": "gen-1772976346-zgHmjpwP931I9y0q3vyb",
+    "raw_text": "{\"scores\": {\"clarity\": 5, \"simplicity\": 4, \"brevity_economy\": 5, \"structure_flow\": 5, \"specificity_precision\": 3, \"humanity_voice\": 5, \"overall\": 4}, \"rationale\": \"A well-crafted opinion piece with strong organization, clear arguments, and an engaging voice. Headings guide readers through logical points, and counterarguments are addressed directly. Loses some points on specificity\u2014claims like 'research consistently shows' lack citations, and some arguments rely on generalities rather than concrete evidence. Otherwise polished and persuasive.\"}",
+    "usage": {
+      "completion_tokens": 607,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 568
+      },
+      "cost": 0.0031784,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.0019424,
+        "upstream_inference_cost": 0.0031784,
+        "upstream_inference_prompt_cost": 0.001236
+      },
+      "is_byok": false,
+      "prompt_tokens": 1236,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 1843
+    }
+  },
+  "prompt_category": "persuasion_oped",
+  "prompt_id": "oped_corner_store",
+  "rationale": "A well-crafted opinion piece with strong organization, clear arguments, and an engaging voice. Headings guide readers through logical points, and counterarguments are addressed directly. Loses some points on specificity\u2014claims like 'research consistently shows' lack citations, and some arguments rely on generalities rather than concrete evidence. Otherwise polished and persuasive.",
+  "run_name": "2026-03-08-openrouter-v0-2-clean-3",
+  "scores": {
+    "brevity_economy": 5,
+    "clarity": 5,
+    "humanity_voice": 5,
+    "overall": 4,
+    "simplicity": 4,
+    "specificity_precision": 3,
+    "structure_flow": 5
+  }
+}

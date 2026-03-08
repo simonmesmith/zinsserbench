@@ -1,0 +1,47 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.2",
+  "candidate_model_id": "google/gemini-3.1-pro-preview",
+  "created_at": "2026-03-08T12:44:47Z",
+  "judge_model_id": "anthropic/claude-opus-4.6",
+  "metadata": {
+    "id": "gen-1772973880-3e9btRmDUIQxzVelmuv5",
+    "raw_text": "{\"scores\": {\"clarity\": 5, \"simplicity\": 4, \"brevity_economy\": 4, \"structure_flow\": 5, \"specificity_precision\": 5, \"humanity_voice\": 5, \"overall\": 5}, \"rationale\": \"Exceptionally well-crafted profile that reads like polished magazine journalism. The writing is vivid and precise\u2014specific details like '4.2 nautical miles,' the 180,000-mile arithmetic, the laboring mother in the 1998 nor'easter returning as a bride\u2014ground the piece in concrete reality. The structure follows a single crossing from departure to arrival, giving it natural narrative momentum. Voice is warm and literary without becoming overwrought. A few moments tip slightly toward the ornamental ('thick enough to chew,' 'reading the ripples like braille,' the closing line about an 'entirely new journey') that nudge simplicity and brevity down slightly\u2014these are recognizable profile-writing flourishes rather than plain language. But these are minor quibbles in a piece that is engaging, well-paced, and emotionally resonant throughout.\"}",
+    "usage": {
+      "completion_tokens": 251,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 0
+      },
+      "cost": 0.01399,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.006275,
+        "upstream_inference_cost": 0.01399,
+        "upstream_inference_prompt_cost": 0.007715
+      },
+      "is_byok": false,
+      "prompt_tokens": 1543,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 1794
+    }
+  },
+  "prompt_category": "profile",
+  "prompt_id": "profile_ferry_captain",
+  "rationale": "Exceptionally well-crafted profile that reads like polished magazine journalism. The writing is vivid and precise\u2014specific details like '4.2 nautical miles,' the 180,000-mile arithmetic, the laboring mother in the 1998 nor'easter returning as a bride\u2014ground the piece in concrete reality. The structure follows a single crossing from departure to arrival, giving it natural narrative momentum. Voice is warm and literary without becoming overwrought. A few moments tip slightly toward the ornamental ('thick enough to chew,' 'reading the ripples like braille,' the closing line about an 'entirely new journey') that nudge simplicity and brevity down slightly\u2014these are recognizable profile-writing flourishes rather than plain language. But these are minor quibbles in a piece that is engaging, well-paced, and emotionally resonant throughout.",
+  "run_name": "2026-03-08-openrouter-v0-2-clean-3",
+  "scores": {
+    "brevity_economy": 4,
+    "clarity": 5,
+    "humanity_voice": 5,
+    "overall": 5,
+    "simplicity": 4,
+    "specificity_precision": 5,
+    "structure_flow": 5
+  }
+}

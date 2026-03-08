@@ -1,0 +1,56 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.2",
+  "candidate_label": "Gemini 3.1 Flash Lite Preview",
+  "candidate_model_id": "google/gemini-3.1-flash-lite-preview",
+  "created_at": "2026-03-08T12:16:29Z",
+  "metadata": {
+    "finish_reason": "stop",
+    "generation_attempt": 1,
+    "generation_settings": {
+      "max_output_tokens": 10000,
+      "reasoning_effort": "medium"
+    },
+    "id": "gen-1772972181-pFIk0VJUgPOs1iJBnQ9G",
+    "quality_guard": {
+      "minimum_words": 200,
+      "reason": "",
+      "status": "ok",
+      "word_count": 745
+    },
+    "raw_response_text": "The fluorescent lights of the Riverton County Courthouse hum with a low-frequency buzz that seems to vibrate in Elena Vance\u2019s teeth. It is 8:15 a.m., and her desk is a topographical map of human misfortune. There are three stacks of manila folders, each one representing a life currently suspended in the amber of the criminal justice system.\n\nElena is a public defender, a role that in popular culture is often portrayed as a crusading hero or a cynical burnout. In reality, she is a triage nurse for the Constitution.\n\nShe has ninety-two active cases. In a midsize city like Riverton, the caseload is not a measure of complexity; it is a measure of attrition. Most of her clients are charged with low-level offenses\u2014petty theft, drug possession, probation violations\u2014the kind of crimes that don\u2019t make headlines but do make for a lifetime of systemic entanglement.\n\n\"Elena, you\u2019re up in Courtroom 4B,\" a colleague calls out, not looking up from his own mountain of paperwork. \n\nShe grabs a heavy accordion folder, its elastic band stretched to the point of snapping, and heads toward the elevators. Her day is a series of frantic, whispered negotiations. In the hallway outside the courtroom, she meets Marcus, a nineteen-year-old charged with shoplifting. He is nervous, his hands shoved deep into the pockets of a hoodie that is too thin for the October chill.\n\n\"The prosecutor is offering time served and six months probation,\" Elena says, her voice low and rapid. She doesn't have time for a long conversation about the philosophy of the law. She has three minutes before the judge takes the bench. \"If we go to trial, you\u2019re looking at a potential six months in county. You have a job interview on Thursday. If you take this, you\u2019re out today. You can make that interview.\"\n\nThis is the \"assembly line\" justice that haunts her. She knows Marcus is innocent of the intent the state claims, but she also knows that the risk of a trial\u2014the lost wages, the potential jail time, the sheer uncertainty\u2014is a luxury he cannot afford. She is not fighting for a grand acquittal; she is fighting for his survival.\n\n\"Okay,\" Marcus whispers. \"I\u2019ll take it.\"\n\nInside the courtroom, the air is stale. The judge moves through the docket with the rhythmic indifference of a metronome. Elena stands at the podium, her voice steady, reciting the terms of the plea. She has done this thousands of times. She knows the judge\u2019s preferences, the prosecutor\u2019s weaknesses, and the exact moment the court reporter\u2019s eyes glaze over.\n\nBy noon, she has handled six cases. She has not eaten. She has not had a moment to think about the deeper implications of the law. She has simply moved bodies and files from one side of the ledger to the other.\n\nThe burnout is not a sudden explosion; it is a slow erosion. Elena remembers when she started, twelve years ago, believing that every case was a battle for the soul of the city. Now, she understands that the system is designed to process, not to solve. The heavy caseload is a feature, not a bug\u2014a mechanism to ensure that the vast majority of cases end in a plea, keeping the gears of the courthouse turning without the friction of a jury trial.\n\nYet, she stays. She stays because she knows that if she leaves, the files don't disappear. They are simply handed to someone else, or worse, left to languish in the hands of an overworked attorney who might not notice the discrepancy in the police report or the mitigating factor in a client\u2019s history. \n\nAt 6:00 p.m., the courthouse is finally quiet. The hallways are empty, save for the janitorial staff. Elena sits back at her desk, the fluorescent lights still humming. She pulls a new file from the bottom of the stack. It\u2019s a new client, a woman charged with trespassing. \n\nShe opens the folder, pulls out a yellow legal pad, and uncaps her pen. She reads the first page, her brow furrowing as she spots a detail the police report glossed over. For a brief moment, the exhaustion recedes. She begins to write, not because she expects to change the world, but because this one person, in this one file, deserves to have someone actually look at the facts.\n\nShe works until the building grows cold, a single light burning in the window of a midsize city, holding the line against the weight of the stack.",
+    "sanitization": {
+      "changed": false,
+      "patterns": [],
+      "removed_chars": 0,
+      "removed_ratio": 0.0
+    },
+    "usage": {
+      "completion_tokens": 1572,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 619
+      },
+      "cost": 0.0023695,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.002358,
+        "upstream_inference_cost": 0.0023695,
+        "upstream_inference_prompt_cost": 1.15e-05
+      },
+      "is_byok": false,
+      "prompt_tokens": 46,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 1618
+    }
+  },
+  "prompt_category": "profile",
+  "prompt_id": "profile_public_defender",
+  "response_text": "The fluorescent lights of the Riverton County Courthouse hum with a low-frequency buzz that seems to vibrate in Elena Vance\u2019s teeth. It is 8:15 a.m., and her desk is a topographical map of human misfortune. There are three stacks of manila folders, each one representing a life currently suspended in the amber of the criminal justice system.\n\nElena is a public defender, a role that in popular culture is often portrayed as a crusading hero or a cynical burnout. In reality, she is a triage nurse for the Constitution.\n\nShe has ninety-two active cases. In a midsize city like Riverton, the caseload is not a measure of complexity; it is a measure of attrition. Most of her clients are charged with low-level offenses\u2014petty theft, drug possession, probation violations\u2014the kind of crimes that don\u2019t make headlines but do make for a lifetime of systemic entanglement.\n\n\"Elena, you\u2019re up in Courtroom 4B,\" a colleague calls out, not looking up from his own mountain of paperwork. \n\nShe grabs a heavy accordion folder, its elastic band stretched to the point of snapping, and heads toward the elevators. Her day is a series of frantic, whispered negotiations. In the hallway outside the courtroom, she meets Marcus, a nineteen-year-old charged with shoplifting. He is nervous, his hands shoved deep into the pockets of a hoodie that is too thin for the October chill.\n\n\"The prosecutor is offering time served and six months probation,\" Elena says, her voice low and rapid. She doesn't have time for a long conversation about the philosophy of the law. She has three minutes before the judge takes the bench. \"If we go to trial, you\u2019re looking at a potential six months in county. You have a job interview on Thursday. If you take this, you\u2019re out today. You can make that interview.\"\n\nThis is the \"assembly line\" justice that haunts her. She knows Marcus is innocent of the intent the state claims, but she also knows that the risk of a trial\u2014the lost wages, the potential jail time, the sheer uncertainty\u2014is a luxury he cannot afford. She is not fighting for a grand acquittal; she is fighting for his survival.\n\n\"Okay,\" Marcus whispers. \"I\u2019ll take it.\"\n\nInside the courtroom, the air is stale. The judge moves through the docket with the rhythmic indifference of a metronome. Elena stands at the podium, her voice steady, reciting the terms of the plea. She has done this thousands of times. She knows the judge\u2019s preferences, the prosecutor\u2019s weaknesses, and the exact moment the court reporter\u2019s eyes glaze over.\n\nBy noon, she has handled six cases. She has not eaten. She has not had a moment to think about the deeper implications of the law. She has simply moved bodies and files from one side of the ledger to the other.\n\nThe burnout is not a sudden explosion; it is a slow erosion. Elena remembers when she started, twelve years ago, believing that every case was a battle for the soul of the city. Now, she understands that the system is designed to process, not to solve. The heavy caseload is a feature, not a bug\u2014a mechanism to ensure that the vast majority of cases end in a plea, keeping the gears of the courthouse turning without the friction of a jury trial.\n\nYet, she stays. She stays because she knows that if she leaves, the files don't disappear. They are simply handed to someone else, or worse, left to languish in the hands of an overworked attorney who might not notice the discrepancy in the police report or the mitigating factor in a client\u2019s history. \n\nAt 6:00 p.m., the courthouse is finally quiet. The hallways are empty, save for the janitorial staff. Elena sits back at her desk, the fluorescent lights still humming. She pulls a new file from the bottom of the stack. It\u2019s a new client, a woman charged with trespassing. \n\nShe opens the folder, pulls out a yellow legal pad, and uncaps her pen. She reads the first page, her brow furrowing as she spots a detail the police report glossed over. For a brief moment, the exhaustion recedes. She begins to write, not because she expects to change the world, but because this one person, in this one file, deserves to have someone actually look at the facts.\n\nShe works until the building grows cold, a single light burning in the window of a midsize city, holding the line against the weight of the stack.",
+  "run_name": "2026-03-08-openrouter-v0-2-clean-3"
+}

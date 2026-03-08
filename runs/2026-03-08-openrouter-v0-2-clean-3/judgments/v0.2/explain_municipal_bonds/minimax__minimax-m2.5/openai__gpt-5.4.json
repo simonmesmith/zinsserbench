@@ -1,0 +1,47 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.2",
+  "candidate_model_id": "minimax/minimax-m2.5",
+  "created_at": "2026-03-08T12:39:38Z",
+  "judge_model_id": "openai/gpt-5.4",
+  "metadata": {
+    "id": "gen-1772973572-Fy8W0aU95M6npSYetv6F",
+    "raw_text": "{\"scores\":{\"clarity\":5,\"simplicity\":5,\"brevity_economy\":4,\"structure_flow\":5,\"specificity_precision\":4,\"humanity_voice\":5,\"overall\":5},\"rationale\":\"Clear, friendly, and well organized, with concrete examples that make the concept easy to grasp. It\u2019s slightly longer than necessary and simplifies a few details about bond types, tax treatment, and risk, but it strongly fits the prompt for a general audience.\"}",
+    "usage": {
+      "completion_tokens": 344,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 238
+      },
+      "cost": 0.00813,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.00516,
+        "upstream_inference_cost": 0.00813,
+        "upstream_inference_prompt_cost": 0.00297
+      },
+      "is_byok": false,
+      "prompt_tokens": 1188,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 1532
+    }
+  },
+  "prompt_category": "explain",
+  "prompt_id": "explain_municipal_bonds",
+  "rationale": "Clear, friendly, and well organized, with concrete examples that make the concept easy to grasp. It\u2019s slightly longer than necessary and simplifies a few details about bond types, tax treatment, and risk, but it strongly fits the prompt for a general audience.",
+  "run_name": "2026-03-08-openrouter-v0-2-clean-3",
+  "scores": {
+    "brevity_economy": 4,
+    "clarity": 5,
+    "humanity_voice": 5,
+    "overall": 5,
+    "simplicity": 5,
+    "specificity_precision": 4,
+    "structure_flow": 5
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.2",
+  "candidate_model_id": "minimax/minimax-m2.5",
+  "created_at": "2026-03-08T12:47:02Z",
+  "judge_model_id": "anthropic/claude-opus-4.6",
+  "metadata": {
+    "id": "gen-1772974015-BMtptTNRrG3mONBPmFxv",
+    "raw_text": "{\"scores\": {\"clarity\": 5, \"simplicity\": 5, \"brevity_economy\": 4, \"structure_flow\": 5, \"specificity_precision\": 5, \"humanity_voice\": 5, \"overall\": 5}, \"rationale\": \"Exceptionally well-crafted profile with vivid, concrete details (78-foot ferry, 21,900 crossings, eleven days missed in 1998, Harold Perkins waiting on the dock). The language is clean and direct without being flat\u2014sentences like 'The bigger dreams faded into the soft grey of the morning water' are earned rather than ornamental. The structure moves naturally through time and theme, using section breaks effectively. The voice is warm and literary without tipping into sentimentality. Minor ding on brevity: a few passages accumulate similar emotional beats (the catalog of what he's seen on the ferry runs slightly long, and the ending section restates the attachment theme already well-established). But overall this is magazine-quality profile writing with genuine human texture. The quotes feel natural and the specific details\u2014canvas shopping bags, the Thermos ritual, the fishing fleet shrinking from thirty to eight\u2014ground the piece beautifully.\"}",
+    "usage": {
+      "completion_tokens": 267,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 0
+      },
+      "cost": 0.016335,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.006675,
+        "upstream_inference_cost": 0.016335,
+        "upstream_inference_prompt_cost": 0.00966
+      },
+      "is_byok": false,
+      "prompt_tokens": 1932,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 2199
+    }
+  },
+  "prompt_category": "profile",
+  "prompt_id": "profile_ferry_captain",
+  "rationale": "Exceptionally well-crafted profile with vivid, concrete details (78-foot ferry, 21,900 crossings, eleven days missed in 1998, Harold Perkins waiting on the dock). The language is clean and direct without being flat\u2014sentences like 'The bigger dreams faded into the soft grey of the morning water' are earned rather than ornamental. The structure moves naturally through time and theme, using section breaks effectively. The voice is warm and literary without tipping into sentimentality. Minor ding on brevity: a few passages accumulate similar emotional beats (the catalog of what he's seen on the ferry runs slightly long, and the ending section restates the attachment theme already well-established). But overall this is magazine-quality profile writing with genuine human texture. The quotes feel natural and the specific details\u2014canvas shopping bags, the Thermos ritual, the fishing fleet shrinking from thirty to eight\u2014ground the piece beautifully.",
+  "run_name": "2026-03-08-openrouter-v0-2-clean-3",
+  "scores": {
+    "brevity_economy": 4,
+    "clarity": 5,
+    "humanity_voice": 5,
+    "overall": 5,
+    "simplicity": 5,
+    "specificity_precision": 5,
+    "structure_flow": 5
+  }
+}

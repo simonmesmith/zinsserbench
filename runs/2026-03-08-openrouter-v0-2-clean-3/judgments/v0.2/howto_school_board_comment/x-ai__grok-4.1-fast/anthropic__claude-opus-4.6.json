@@ -1,0 +1,47 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.2",
+  "candidate_model_id": "x-ai/grok-4.1-fast",
+  "created_at": "2026-03-08T13:18:27Z",
+  "judge_model_id": "anthropic/claude-opus-4.6",
+  "metadata": {
+    "id": "gen-1772975900-2w4lsPI3Ph8P6Ewdjnqy",
+    "raw_text": "{\"scores\": {\"clarity\": 5, \"simplicity\": 5, \"brevity_economy\": 4, \"structure_flow\": 5, \"specificity_precision\": 5, \"humanity_voice\": 4, \"overall\": 5}, \"rationale\": \"Exceptionally clear and well-organized guide that walks a parent through every stage from research to follow-up. Concrete examples throughout (sample openings, specific time estimates, word counts, resource names) make it genuinely actionable. Language is plain and direct. Structure is logical with numbered steps, sub-bullets, and pro tips that aid scanning. Minor dings: slightly long for the task\u2014some sections like logistics and delivery overlap or could be trimmed; the final encouragement paragraph name-drops politically polarizing organizations (Moms for Liberty/Parents Defending Education) without noting their partisan nature, which feels slightly off for a neutral practical guide. Voice is warm and encouraging without being saccharine. Overall, this is a high-quality, practical piece of nonfiction writing.\"}",
+    "usage": {
+      "completion_tokens": 229,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 0
+      },
+      "cost": 0.01403,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.005725,
+        "upstream_inference_cost": 0.01403,
+        "upstream_inference_prompt_cost": 0.008305
+      },
+      "is_byok": false,
+      "prompt_tokens": 1661,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 1890
+    }
+  },
+  "prompt_category": "service_howto",
+  "prompt_id": "howto_school_board_comment",
+  "rationale": "Exceptionally clear and well-organized guide that walks a parent through every stage from research to follow-up. Concrete examples throughout (sample openings, specific time estimates, word counts, resource names) make it genuinely actionable. Language is plain and direct. Structure is logical with numbered steps, sub-bullets, and pro tips that aid scanning. Minor dings: slightly long for the task\u2014some sections like logistics and delivery overlap or could be trimmed; the final encouragement paragraph name-drops politically polarizing organizations (Moms for Liberty/Parents Defending Education) without noting their partisan nature, which feels slightly off for a neutral practical guide. Voice is warm and encouraging without being saccharine. Overall, this is a high-quality, practical piece of nonfiction writing.",
+  "run_name": "2026-03-08-openrouter-v0-2-clean-3",
+  "scores": {
+    "brevity_economy": 4,
+    "clarity": 5,
+    "humanity_voice": 4,
+    "overall": 5,
+    "simplicity": 5,
+    "specificity_precision": 5,
+    "structure_flow": 5
+  }
+}

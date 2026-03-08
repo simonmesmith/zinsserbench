@@ -1,0 +1,47 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.2",
+  "candidate_model_id": "anthropic/claude-sonnet-4.6",
+  "created_at": "2026-03-08T12:39:52Z",
+  "judge_model_id": "z-ai/glm-5",
+  "metadata": {
+    "id": "gen-1772973559-hXIxIvuxbpVNrX4IlMp9",
+    "raw_text": "{\"scores\": {\"clarity\": 5, \"simplicity\": 5, \"brevity_economy\": 5, \"structure_flow\": 5, \"specificity_precision\": 5, \"humanity_voice\": 5, \"overall\": 5}, \"rationale\": \"An exemplary explainer that opens with a concrete scenario ($50M bridge), defines the concept in plain terms, and progresses logically through types, tax benefits, risks, and buyers. Uses specific examples throughout (Detroit, Puerto Rico, 37% tax bracket). Voice is conversational without being cute. No wasted words, no jargon unexplained. Achieves the task completely for a general audience.\"}",
+    "usage": {
+      "completion_tokens": 817,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 767
+      },
+      "cost": 0.0040104,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.0026144000000000002,
+        "upstream_inference_cost": 0.0040104,
+        "upstream_inference_prompt_cost": 0.001396
+      },
+      "is_byok": false,
+      "prompt_tokens": 1396,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 2213
+    }
+  },
+  "prompt_category": "explain",
+  "prompt_id": "explain_municipal_bonds",
+  "rationale": "An exemplary explainer that opens with a concrete scenario ($50M bridge), defines the concept in plain terms, and progresses logically through types, tax benefits, risks, and buyers. Uses specific examples throughout (Detroit, Puerto Rico, 37% tax bracket). Voice is conversational without being cute. No wasted words, no jargon unexplained. Achieves the task completely for a general audience.",
+  "run_name": "2026-03-08-openrouter-v0-2-clean-3",
+  "scores": {
+    "brevity_economy": 5,
+    "clarity": 5,
+    "humanity_voice": 5,
+    "overall": 5,
+    "simplicity": 5,
+    "specificity_precision": 5,
+    "structure_flow": 5
+  }
+}

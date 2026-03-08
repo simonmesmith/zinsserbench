@@ -1,0 +1,56 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.2",
+  "candidate_label": "Gemini 3.1 Flash Lite Preview",
+  "candidate_model_id": "google/gemini-3.1-flash-lite-preview",
+  "created_at": "2026-03-08T12:01:40Z",
+  "metadata": {
+    "finish_reason": "stop",
+    "generation_attempt": 1,
+    "generation_settings": {
+      "max_output_tokens": 10000,
+      "reasoning_effort": "medium"
+    },
+    "id": "gen-1772971293-TTR85jZVg5gjkkAYL5L8",
+    "quality_guard": {
+      "minimum_words": 200,
+      "reason": "",
+      "status": "ok",
+      "word_count": 609
+    },
+    "raw_response_text": "The *MV Osprey* does not so much dock at the pier in Oakhaven as it does settle into a long-standing conversation with the pilings. At 6:15 a.m., the engine\u2019s low, rhythmic thrum is the first heartbeat of the town, a sound that has signaled the start of the day for three decades.\n\nIn the pilothouse, Captain Elias Thorne stands with his hands resting lightly on the wheel, his posture as fixed as the horizon. He is sixty-two, his face a map of sun-weathered lines that seem to trace the very currents he navigates. For thirty years, he has run the four-mile stretch between Oakhaven and the island village of Salt-Spray Point. It is a commute that takes twenty-two minutes in fair weather and forty in a gale, a distance so short that the mainland and the island are visible to one another, yet so distinct that they feel like separate worlds.\n\n\"People ask if I get bored,\" Elias says, his voice gravelly, barely rising above the hum of the diesel. He doesn't look away from the water. \"They think because the route is the same, the trip is the same. But the water is never the same twice. You\u2019ve got the tide, the wind, the fog, the way the light hits the swells. You don't drive this boat; you negotiate with it.\"\n\nElias knows the route with a cellular intimacy. He knows the exact patch of gray water where the current kicks up a chop during an outgoing tide, and he knows the precise moment to throttle back so the *Osprey* slides into the slip with a gentle, almost imperceptible kiss against the rubber bumpers. \n\nOver thirty years, he has become the silent witness to the life cycle of two towns. He remembers the toddlers who once pressed their sticky palms against the cabin windows, now the same adults who drive their own trucks onto his deck, their faces etched with the same anxieties and ambitions he saw in their parents. He has carried wedding parties in white lace and funeral processions in black wool. He has ferried the town\u2019s first responders during midnight emergencies and brought home the high school basketball team after a championship win.\n\n\"You see them grow up, and then you see them grow old,\" he says. \"You see the ones who leave and the ones who come back. You see the ones who never leave at all.\"\n\nThere is a profound, quiet dignity in his consistency. In an era defined by rapid turnover and the constant pursuit of the \"next thing,\" Elias has found his purpose in the repetition. He is the bridge between the two shores, a steady hand in a world that feels increasingly frantic. He doesn't seek the open ocean; he prefers the intimacy of the passage. He likes knowing the names of the gulls that follow the wake and the specific way the fog clings to the pines on the Salt-Spray side.\n\nAs the ramp lowers with a heavy, metallic groan, the morning commuters begin to file off. Elias watches them go, a faint, knowing smile touching his lips. He doesn't need to be thanked; the routine itself is the gratitude. He checks his watch, glances at the tide charts, and prepares for the return trip. \n\nThe *Osprey* is already idling, ready to pull away. For Elias Thorne, the journey is not about getting from one side to the other. It is about the act of crossing, the steady maintenance of a connection, and the quiet satisfaction of knowing that, no matter how much the world changes, the boat will be there, waiting at the dock, exactly when it\u2019s needed.",
+    "sanitization": {
+      "changed": false,
+      "patterns": [],
+      "removed_chars": 0,
+      "removed_ratio": 0.0
+    },
+    "usage": {
+      "completion_tokens": 1328,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 566
+      },
+      "cost": 0.00200475,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.001992,
+        "upstream_inference_cost": 0.00200475,
+        "upstream_inference_prompt_cost": 1.275e-05
+      },
+      "is_byok": false,
+      "prompt_tokens": 51,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 1379
+    }
+  },
+  "prompt_category": "profile",
+  "prompt_id": "profile_ferry_captain",
+  "response_text": "The *MV Osprey* does not so much dock at the pier in Oakhaven as it does settle into a long-standing conversation with the pilings. At 6:15 a.m., the engine\u2019s low, rhythmic thrum is the first heartbeat of the town, a sound that has signaled the start of the day for three decades.\n\nIn the pilothouse, Captain Elias Thorne stands with his hands resting lightly on the wheel, his posture as fixed as the horizon. He is sixty-two, his face a map of sun-weathered lines that seem to trace the very currents he navigates. For thirty years, he has run the four-mile stretch between Oakhaven and the island village of Salt-Spray Point. It is a commute that takes twenty-two minutes in fair weather and forty in a gale, a distance so short that the mainland and the island are visible to one another, yet so distinct that they feel like separate worlds.\n\n\"People ask if I get bored,\" Elias says, his voice gravelly, barely rising above the hum of the diesel. He doesn't look away from the water. \"They think because the route is the same, the trip is the same. But the water is never the same twice. You\u2019ve got the tide, the wind, the fog, the way the light hits the swells. You don't drive this boat; you negotiate with it.\"\n\nElias knows the route with a cellular intimacy. He knows the exact patch of gray water where the current kicks up a chop during an outgoing tide, and he knows the precise moment to throttle back so the *Osprey* slides into the slip with a gentle, almost imperceptible kiss against the rubber bumpers. \n\nOver thirty years, he has become the silent witness to the life cycle of two towns. He remembers the toddlers who once pressed their sticky palms against the cabin windows, now the same adults who drive their own trucks onto his deck, their faces etched with the same anxieties and ambitions he saw in their parents. He has carried wedding parties in white lace and funeral processions in black wool. He has ferried the town\u2019s first responders during midnight emergencies and brought home the high school basketball team after a championship win.\n\n\"You see them grow up, and then you see them grow old,\" he says. \"You see the ones who leave and the ones who come back. You see the ones who never leave at all.\"\n\nThere is a profound, quiet dignity in his consistency. In an era defined by rapid turnover and the constant pursuit of the \"next thing,\" Elias has found his purpose in the repetition. He is the bridge between the two shores, a steady hand in a world that feels increasingly frantic. He doesn't seek the open ocean; he prefers the intimacy of the passage. He likes knowing the names of the gulls that follow the wake and the specific way the fog clings to the pines on the Salt-Spray side.\n\nAs the ramp lowers with a heavy, metallic groan, the morning commuters begin to file off. Elias watches them go, a faint, knowing smile touching his lips. He doesn't need to be thanked; the routine itself is the gratitude. He checks his watch, glances at the tide charts, and prepares for the return trip. \n\nThe *Osprey* is already idling, ready to pull away. For Elias Thorne, the journey is not about getting from one side to the other. It is about the act of crossing, the steady maintenance of a connection, and the quiet satisfaction of knowing that, no matter how much the world changes, the boat will be there, waiting at the dock, exactly when it\u2019s needed.",
+  "run_name": "2026-03-08-openrouter-v0-2-clean-3"
+}

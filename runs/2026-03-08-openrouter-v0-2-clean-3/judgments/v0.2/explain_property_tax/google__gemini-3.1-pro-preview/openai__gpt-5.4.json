@@ -1,0 +1,47 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.2",
+  "candidate_model_id": "google/gemini-3.1-pro-preview",
+  "created_at": "2026-03-08T13:32:26Z",
+  "judge_model_id": "openai/gpt-5.4",
+  "metadata": {
+    "id": "gen-1772976741-87q0SaMnbqWT7LMHNC25",
+    "raw_text": "{\"scores\":{\"clarity\":5,\"simplicity\":4,\"brevity_economy\":4,\"structure_flow\":5,\"specificity_precision\":4,\"humanity_voice\":4,\"overall\":5},\"rationale\":\"Clear, well-organized explainer with a strong formula-and-reasons structure and useful homeowner advice. It stays mostly plain-English, though the opening is a bit padded and a few terms/examples add slight complexity. Specific and practical overall, with an approachable tone.\"}",
+    "usage": {
+      "completion_tokens": 269,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 162
+      },
+      "cost": 0.007265,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.004035,
+        "upstream_inference_cost": 0.007265,
+        "upstream_inference_prompt_cost": 0.00323
+      },
+      "is_byok": false,
+      "prompt_tokens": 1292,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 1561
+    }
+  },
+  "prompt_category": "explain",
+  "prompt_id": "explain_property_tax",
+  "rationale": "Clear, well-organized explainer with a strong formula-and-reasons structure and useful homeowner advice. It stays mostly plain-English, though the opening is a bit padded and a few terms/examples add slight complexity. Specific and practical overall, with an approachable tone.",
+  "run_name": "2026-03-08-openrouter-v0-2-clean-3",
+  "scores": {
+    "brevity_economy": 4,
+    "clarity": 5,
+    "humanity_voice": 4,
+    "overall": 5,
+    "simplicity": 4,
+    "specificity_precision": 4,
+    "structure_flow": 5
+  }
+}

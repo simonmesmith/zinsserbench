@@ -1,0 +1,47 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.2",
+  "candidate_model_id": "x-ai/grok-4.1-fast",
+  "created_at": "2026-03-08T12:53:41Z",
+  "judge_model_id": "google/gemini-3.1-pro-preview",
+  "metadata": {
+    "id": "gen-1772974415-tCs1SUSSeHkd0S3zdG0N",
+    "raw_text": "{\n  \"scores\": {\n    \"clarity\": 5,\n    \"simplicity\": 4,\n    \"brevity_economy\": 5,\n    \"structure_flow\": 5,\n    \"specificity_precision\": 5,\n    \"humanity_voice\": 5,\n    \"overall\": 5\n  },\n  \"rationale\": \"The piece is highly effective, well-structured, and persuasive. It uses concrete examples, statistics, and specific city comparisons to support its arguments. The voice is passionate and engaging, and the flow is logical, moving smoothly from different user groups to counterarguments. The language is mostly direct, with just a few minor rhetorical flourishes.\"\n}",
+    "usage": {
+      "completion_tokens": 477,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 325
+      },
+      "cost": 0.007972,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.005724,
+        "upstream_inference_cost": 0.007972,
+        "upstream_inference_prompt_cost": 0.002248
+      },
+      "is_byok": false,
+      "prompt_tokens": 1124,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 1601
+    }
+  },
+  "prompt_category": "persuasion_oped",
+  "prompt_id": "oped_library_hours",
+  "rationale": "The piece is highly effective, well-structured, and persuasive. It uses concrete examples, statistics, and specific city comparisons to support its arguments. The voice is passionate and engaging, and the flow is logical, moving smoothly from different user groups to counterarguments. The language is mostly direct, with just a few minor rhetorical flourishes.",
+  "run_name": "2026-03-08-openrouter-v0-2-clean-3",
+  "scores": {
+    "brevity_economy": 5,
+    "clarity": 5,
+    "humanity_voice": 5,
+    "overall": 5,
+    "simplicity": 4,
+    "specificity_precision": 5,
+    "structure_flow": 5
+  }
+}

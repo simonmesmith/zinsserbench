@@ -1,0 +1,56 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.2",
+  "candidate_label": "Qwen 3.5 35B A3B",
+  "candidate_model_id": "qwen/qwen3.5-35b-a3b",
+  "created_at": "2026-03-08T12:16:21Z",
+  "metadata": {
+    "finish_reason": "stop",
+    "generation_attempt": 1,
+    "generation_settings": {
+      "max_output_tokens": 10000,
+      "reasoning_effort": "medium"
+    },
+    "id": "gen-1772972159-SUnWn0yCJx4gjjZA7kPX",
+    "quality_guard": {
+      "minimum_words": 120,
+      "reason": "",
+      "status": "ok",
+      "word_count": 757
+    },
+    "raw_response_text": "# Understanding Food Recalls: A Guide for Consumers\n\nSeeing a headline about a food recall can be alarming. It often brings to mind images of illness, contamination, or spoiled goods. However, a food recall is actually a sign that the safety system is working. It is a voluntary or mandatory action taken by a manufacturer or distributor to remove a potentially unsafe product from store shelves and consumer homes.\n\nHere is what a food recall means, why they happen, and the specific steps you should take if you find a recalled item in your kitchen.\n\n## What Does a Food Recall Mean?\n\nA food recall occurs when a product is found to be unsafe for consumption or mislabeled. It is not always an indication that the food is immediately toxic, but it does mean there is a risk to health.\n\nRecalls are typically initiated by the company itself, though they can be requested by government agencies like the U.S. Food and Drug Administration (FDA) or the U.S. Department of Agriculture (USDA). The USDA oversees meat, poultry, and egg products, while the FDA regulates most other foods, including produce, dairy, and seafood.\n\nCommon reasons for recalls include:\n*   **Pathogen Contamination:** Presence of bacteria like *Salmonella*, *Listeria*, or *E. coli*.\n*   **Undeclared Allergens:** The presence of peanuts, milk, soy, or other allergens not listed on the label, which can cause severe reactions.\n*   **Foreign Objects:** Glass, metal, or plastic fragments found in the food.\n*   **Labeling Errors:** Incorrect nutritional information or expiration dates.\n\n## What to Do If You Have a Recalled Product\n\nIf you see a recall notice for a product you own, follow these steps to ensure your safety and the safety of your household.\n\n### 1. Stop and Check\nDo not panic, but do stop using the product immediately. Locate the item in your pantry, refrigerator, or freezer. Check the packaging carefully. Recalls usually apply to specific **lot numbers**, **expiration dates**, or **production codes**, not necessarily the entire brand. If your product does not match the specific codes listed in the recall notice, it is likely safe.\n\n### 2. Isolate the Product\nIf your product matches the recall details, remove it from your food storage area immediately. Place it in a sealed bag or container to prevent leakage or cross-contamination. Do not give the product to anyone else, including friends, family, or neighbors. Do not feed it to pets, as they can also become ill.\n\n### 3. Dispose of It Safely\nThe method of disposal depends on the reason for the recall.\n*   **For Bacterial Contamination:** Do not compost the food. Wrap it securely in plastic or place it in a sealed trash bag before putting it in the garbage to prevent animals or people from accessing it.\n*   **For Allergens or Foreign Objects:** You may return the product to the store or dispose of it in the trash, depending on the manufacturer's instructions.\n\n### 4. Clean the Area\nIf the recalled food was stored in a container (like a Tupperware or a jar), wash the container thoroughly with hot, soapy water before using it again. If the food leaked onto shelves or drawers, wipe those surfaces down with a disinfectant.\n\n### 5. Seek a Refund\nMost recalls include instructions on how to return the product for a refund. Check the recall notice for a website, phone number, or store location. Keep your receipt if you have it, though many companies will refund you without one if you can prove purchase.\n\n### 6. Monitor Your Health\nIf you have already consumed the recalled product, monitor yourself for symptoms. Common signs of foodborne illness include nausea, vomiting, diarrhea, fever, or stomach cramps. If you experience these symptoms, contact your healthcare provider. Be sure to tell them you may have consumed a recalled product.\n\n## Where to Find Recall Information\n\nTo stay informed, rely on official sources rather than social media rumors.\n*   **FDA.gov:** Search the \"Recalls, Market Withdrawals, & Safety Alerts\" section.\n*   **USDA.gov:** Look for the \"Food Safety and Inspection Service\" recall page.\n*   **Recalls.gov:** A centralized portal for federal recalls.\n*   **Company Websites:** Major food brands often post recall notices on their own sites.\n\n## The Bottom Line\n\nFood recalls are a critical part of the food safety infrastructure. While they can be inconvenient, they exist to protect public health. By staying informed, checking lot numbers, and following disposal guidelines, you can navigate a recall safely and confidently. If you are ever unsure about a product, the safest choice is always to throw it out.",
+    "sanitization": {
+      "changed": false,
+      "patterns": [],
+      "removed_chars": 0,
+      "removed_ratio": 0.0
+    },
+    "usage": {
+      "completion_tokens": 1968,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 966
+      },
+      "cost": 0.0035577,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.0035424,
+        "upstream_inference_cost": 0.0035577,
+        "upstream_inference_prompt_cost": 1.53e-05
+      },
+      "is_byok": false,
+      "prompt_tokens": 68,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 2036
+    }
+  },
+  "prompt_category": "explain",
+  "prompt_id": "explain_food_recall",
+  "response_text": "# Understanding Food Recalls: A Guide for Consumers\n\nSeeing a headline about a food recall can be alarming. It often brings to mind images of illness, contamination, or spoiled goods. However, a food recall is actually a sign that the safety system is working. It is a voluntary or mandatory action taken by a manufacturer or distributor to remove a potentially unsafe product from store shelves and consumer homes.\n\nHere is what a food recall means, why they happen, and the specific steps you should take if you find a recalled item in your kitchen.\n\n## What Does a Food Recall Mean?\n\nA food recall occurs when a product is found to be unsafe for consumption or mislabeled. It is not always an indication that the food is immediately toxic, but it does mean there is a risk to health.\n\nRecalls are typically initiated by the company itself, though they can be requested by government agencies like the U.S. Food and Drug Administration (FDA) or the U.S. Department of Agriculture (USDA). The USDA oversees meat, poultry, and egg products, while the FDA regulates most other foods, including produce, dairy, and seafood.\n\nCommon reasons for recalls include:\n*   **Pathogen Contamination:** Presence of bacteria like *Salmonella*, *Listeria*, or *E. coli*.\n*   **Undeclared Allergens:** The presence of peanuts, milk, soy, or other allergens not listed on the label, which can cause severe reactions.\n*   **Foreign Objects:** Glass, metal, or plastic fragments found in the food.\n*   **Labeling Errors:** Incorrect nutritional information or expiration dates.\n\n## What to Do If You Have a Recalled Product\n\nIf you see a recall notice for a product you own, follow these steps to ensure your safety and the safety of your household.\n\n### 1. Stop and Check\nDo not panic, but do stop using the product immediately. Locate the item in your pantry, refrigerator, or freezer. Check the packaging carefully. Recalls usually apply to specific **lot numbers**, **expiration dates**, or **production codes**, not necessarily the entire brand. If your product does not match the specific codes listed in the recall notice, it is likely safe.\n\n### 2. Isolate the Product\nIf your product matches the recall details, remove it from your food storage area immediately. Place it in a sealed bag or container to prevent leakage or cross-contamination. Do not give the product to anyone else, including friends, family, or neighbors. Do not feed it to pets, as they can also become ill.\n\n### 3. Dispose of It Safely\nThe method of disposal depends on the reason for the recall.\n*   **For Bacterial Contamination:** Do not compost the food. Wrap it securely in plastic or place it in a sealed trash bag before putting it in the garbage to prevent animals or people from accessing it.\n*   **For Allergens or Foreign Objects:** You may return the product to the store or dispose of it in the trash, depending on the manufacturer's instructions.\n\n### 4. Clean the Area\nIf the recalled food was stored in a container (like a Tupperware or a jar), wash the container thoroughly with hot, soapy water before using it again. If the food leaked onto shelves or drawers, wipe those surfaces down with a disinfectant.\n\n### 5. Seek a Refund\nMost recalls include instructions on how to return the product for a refund. Check the recall notice for a website, phone number, or store location. Keep your receipt if you have it, though many companies will refund you without one if you can prove purchase.\n\n### 6. Monitor Your Health\nIf you have already consumed the recalled product, monitor yourself for symptoms. Common signs of foodborne illness include nausea, vomiting, diarrhea, fever, or stomach cramps. If you experience these symptoms, contact your healthcare provider. Be sure to tell them you may have consumed a recalled product.\n\n## Where to Find Recall Information\n\nTo stay informed, rely on official sources rather than social media rumors.\n*   **FDA.gov:** Search the \"Recalls, Market Withdrawals, & Safety Alerts\" section.\n*   **USDA.gov:** Look for the \"Food Safety and Inspection Service\" recall page.\n*   **Recalls.gov:** A centralized portal for federal recalls.\n*   **Company Websites:** Major food brands often post recall notices on their own sites.\n\n## The Bottom Line\n\nFood recalls are a critical part of the food safety infrastructure. While they can be inconvenient, they exist to protect public health. By staying informed, checking lot numbers, and following disposal guidelines, you can navigate a recall safely and confidently. If you are ever unsure about a product, the safest choice is always to throw it out.",
+  "run_name": "2026-03-08-openrouter-v0-2-clean-3"
+}

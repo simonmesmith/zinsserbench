@@ -1,0 +1,47 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.2",
+  "candidate_model_id": "deepseek/deepseek-v3.2",
+  "created_at": "2026-03-08T13:10:02Z",
+  "judge_model_id": "z-ai/glm-5",
+  "metadata": {
+    "id": "gen-1772975384-waTdf9C9hsLvhIbB07zd",
+    "raw_text": "{\"scores\": {\"clarity\": 5, \"simplicity\": 5, \"brevity_economy\": 5, \"structure_flow\": 5, \"specificity_precision\": 5, \"humanity_voice\": 4, \"overall\": 5}, \"rationale\": \"A well-crafted professional memo that excels across all dimensions. Uses precise details (exact times, specific systems affected, concrete timelines for next steps). Structure is logical with clear headers matching the prompt's requirements. Language is plain and efficient without padding. The tone is appropriately apologetic and human, though slightly formal\u2014fitting for an IT leadership communication but not exceptionally warm.\"}",
+    "usage": {
+      "completion_tokens": 622,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 548
+      },
+      "cost": 0.0030602,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.002177,
+        "upstream_inference_cost": 0.0030602,
+        "upstream_inference_prompt_cost": 0.0008832
+      },
+      "is_byok": false,
+      "prompt_tokens": 736,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 1358
+    }
+  },
+  "prompt_category": "memo",
+  "prompt_id": "memo_incident_response",
+  "rationale": "A well-crafted professional memo that excels across all dimensions. Uses precise details (exact times, specific systems affected, concrete timelines for next steps). Structure is logical with clear headers matching the prompt's requirements. Language is plain and efficient without padding. The tone is appropriately apologetic and human, though slightly formal\u2014fitting for an IT leadership communication but not exceptionally warm.",
+  "run_name": "2026-03-08-openrouter-v0-2-clean-3",
+  "scores": {
+    "brevity_economy": 5,
+    "clarity": 5,
+    "humanity_voice": 4,
+    "overall": 5,
+    "simplicity": 5,
+    "specificity_precision": 5,
+    "structure_flow": 5
+  }
+}

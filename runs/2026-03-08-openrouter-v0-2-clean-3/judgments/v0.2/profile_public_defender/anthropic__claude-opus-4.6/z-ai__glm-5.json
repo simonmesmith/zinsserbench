@@ -1,0 +1,47 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.2",
+  "candidate_model_id": "anthropic/claude-opus-4.6",
+  "created_at": "2026-03-08T14:06:32Z",
+  "judge_model_id": "z-ai/glm-5",
+  "metadata": {
+    "id": "gen-1772978773-ygt8psknL5Ch30h1q9SL",
+    "raw_text": "{\"scores\": {\"clarity\": 5, \"simplicity\": 5, \"brevity_economy\": 5, \"structure_flow\": 5, \"specificity_precision\": 5, \"humanity_voice\": 5, \"overall\": 5}, \"rationale\": \"A masterfully constructed profile that earns every word. Opens with vivid scene-setting, weaves in biography, systemic context, and a specific case study without losing momentum. Details are precise and cumulative\u2014consignment shop blazer, booster seat in the Honda, arroz con pollo Tuesdays. Sandoval's voice feels authentic, the reporting substantive. The closing image of the flickering lights echoes the opening, giving the piece satisfying shape. Professional-grade narrative nonfiction.\"}",
+    "usage": {
+      "completion_tokens": 837,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 678
+      },
+      "cost": 0.00596345,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.00263655,
+        "upstream_inference_cost": 0.00596345,
+        "upstream_inference_prompt_cost": 0.0033269
+      },
+      "is_byok": false,
+      "prompt_tokens": 3502,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 4339
+    }
+  },
+  "prompt_category": "profile",
+  "prompt_id": "profile_public_defender",
+  "rationale": "A masterfully constructed profile that earns every word. Opens with vivid scene-setting, weaves in biography, systemic context, and a specific case study without losing momentum. Details are precise and cumulative\u2014consignment shop blazer, booster seat in the Honda, arroz con pollo Tuesdays. Sandoval's voice feels authentic, the reporting substantive. The closing image of the flickering lights echoes the opening, giving the piece satisfying shape. Professional-grade narrative nonfiction.",
+  "run_name": "2026-03-08-openrouter-v0-2-clean-3",
+  "scores": {
+    "brevity_economy": 5,
+    "clarity": 5,
+    "humanity_voice": 5,
+    "overall": 5,
+    "simplicity": 5,
+    "specificity_precision": 5,
+    "structure_flow": 5
+  }
+}

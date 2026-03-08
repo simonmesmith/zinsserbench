@@ -1,0 +1,56 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.2",
+  "candidate_label": "Claude Opus 4.6",
+  "candidate_model_id": "anthropic/claude-opus-4.6",
+  "created_at": "2026-03-08T11:58:31Z",
+  "metadata": {
+    "finish_reason": "stop",
+    "generation_attempt": 1,
+    "generation_settings": {
+      "max_output_tokens": 10000,
+      "reasoning_effort": "medium"
+    },
+    "id": "gen-1772971084-ppNCapNPWLkrSZLn0wfw",
+    "quality_guard": {
+      "minimum_words": 120,
+      "reason": "",
+      "status": "ok",
+      "word_count": 807
+    },
+    "raw_response_text": "# Municipal Bonds: How Cities Borrow Money to Build Things\n\n## The Basic Idea\n\nImagine your city needs a new bridge. It costs $200 million. The city doesn't have that kind of cash sitting in a bank account, just like most people don't have the full price of a house in their checking account. So the city does something similar to what a homebuyer does: it borrows the money and pays it back over time.\n\nA municipal bond is essentially an IOU issued by a local government. When you buy a municipal bond, you are lending money to a city, county, school district, or state. In return, that government promises to pay you back the full amount on a specific future date, and in the meantime, it sends you regular interest payments \u2014 usually every six months.\n\n## Why Cities Issue Them\n\nLocal governments issue bonds for one straightforward reason: they need to pay for expensive projects right now but will collect the tax revenue to cover the cost gradually over many years.\n\nThink about the kinds of things a city is responsible for. Roads, schools, water treatment plants, public hospitals, parks, airports. These projects cost enormous sums of money, and it would be impractical \u2014 sometimes impossible \u2014 to save up the full amount in advance. A crumbling water main can't wait fifteen years while a city stockpiles funds.\n\nBonds let cities spread the cost of long-lived infrastructure over the useful life of that infrastructure. This also has a fairness logic behind it. A bridge built today will serve residents for decades. Bonds allow future taxpayers who will use that bridge to share in the cost, rather than forcing today's taxpayers to foot the entire bill.\n\n## How It Works in Practice\n\nLet's walk through a simple example. Say your school district needs $50 million for a new high school.\n\n1. **The district gets approval.** In many places, voters must approve the bond issue through a ballot measure. You may have seen these on your local ballot as \"bond measures\" asking for a yes or no vote.\n\n2. **The bonds are sold.** The district works with financial advisors and investment banks to sell bonds to investors \u2014 individuals, mutual funds, insurance companies, and others. Each bond has a face value (say $5,000), an interest rate (say 3%), and a maturity date (say 20 years from now).\n\n3. **The district gets its money.** With the proceeds, the district builds the school.\n\n4. **Investors get paid back.** Over the next 20 years, the district makes regular interest payments to bondholders, funded by tax revenue. When the bonds mature, it repays the principal.\n\n## Why Investors Buy Them\n\nHere's the part that makes municipal bonds especially popular: in most cases, the interest you earn is exempt from federal income tax, and often from state and local taxes too if you live in the state where the bond was issued. This tax advantage makes municipal bonds particularly attractive to people in higher tax brackets.\n\nThey're also considered relatively safe investments. Defaults \u2014 when a government fails to pay \u2014 are rare compared to corporate bonds. Cities have the power to raise taxes, which gives bondholders a degree of confidence they'll be repaid.\n\n## The Two Main Types\n\n**General obligation bonds** are backed by the full taxing power of the government issuing them. If a city issues these bonds, it is pledging to use whatever revenue it has \u2014 primarily taxes \u2014 to pay bondholders back.\n\n**Revenue bonds** are tied to a specific project and paid back from the income that project generates. A toll road, for example, might be funded by revenue bonds that are repaid using the tolls collected from drivers. If the project doesn't generate enough revenue, bondholders bear more risk.\n\n## The Tradeoffs\n\nBonds aren't free money. They come with interest costs, which means the total price tag of that $50 million school might end up being $70 or $80 million after two decades of interest payments. Critics sometimes argue that cities take on too much debt or use bonds to push costs onto future generations rather than making tough budget choices today.\n\nOn the other hand, proponents point out that waiting to build critical infrastructure has its own costs \u2014 in deteriorating public safety, lost economic activity, and declining quality of life.\n\n## The Bottom Line\n\nMunicipal bonds are one of the primary tools local governments use to invest in the physical foundations of daily life. Every time you drive over a bridge, send a child to a public school, or turn on a faucet, there's a good chance a municipal bond helped make it possible. They represent a deal between governments that need capital today and investors who want a steady, tax-friendly return \u2014 with the public, ideally, benefiting from both sides of that exchange.",
+    "sanitization": {
+      "changed": false,
+      "patterns": [],
+      "removed_chars": 0,
+      "removed_ratio": 0.0
+    },
+    "usage": {
+      "completion_tokens": 1079,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 36
+      },
+      "cost": 0.02736,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.026975,
+        "upstream_inference_cost": 0.02736,
+        "upstream_inference_prompt_cost": 0.000385
+      },
+      "is_byok": false,
+      "prompt_tokens": 77,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 1156
+    }
+  },
+  "prompt_category": "explain",
+  "prompt_id": "explain_municipal_bonds",
+  "response_text": "# Municipal Bonds: How Cities Borrow Money to Build Things\n\n## The Basic Idea\n\nImagine your city needs a new bridge. It costs $200 million. The city doesn't have that kind of cash sitting in a bank account, just like most people don't have the full price of a house in their checking account. So the city does something similar to what a homebuyer does: it borrows the money and pays it back over time.\n\nA municipal bond is essentially an IOU issued by a local government. When you buy a municipal bond, you are lending money to a city, county, school district, or state. In return, that government promises to pay you back the full amount on a specific future date, and in the meantime, it sends you regular interest payments \u2014 usually every six months.\n\n## Why Cities Issue Them\n\nLocal governments issue bonds for one straightforward reason: they need to pay for expensive projects right now but will collect the tax revenue to cover the cost gradually over many years.\n\nThink about the kinds of things a city is responsible for. Roads, schools, water treatment plants, public hospitals, parks, airports. These projects cost enormous sums of money, and it would be impractical \u2014 sometimes impossible \u2014 to save up the full amount in advance. A crumbling water main can't wait fifteen years while a city stockpiles funds.\n\nBonds let cities spread the cost of long-lived infrastructure over the useful life of that infrastructure. This also has a fairness logic behind it. A bridge built today will serve residents for decades. Bonds allow future taxpayers who will use that bridge to share in the cost, rather than forcing today's taxpayers to foot the entire bill.\n\n## How It Works in Practice\n\nLet's walk through a simple example. Say your school district needs $50 million for a new high school.\n\n1. **The district gets approval.** In many places, voters must approve the bond issue through a ballot measure. You may have seen these on your local ballot as \"bond measures\" asking for a yes or no vote.\n\n2. **The bonds are sold.** The district works with financial advisors and investment banks to sell bonds to investors \u2014 individuals, mutual funds, insurance companies, and others. Each bond has a face value (say $5,000), an interest rate (say 3%), and a maturity date (say 20 years from now).\n\n3. **The district gets its money.** With the proceeds, the district builds the school.\n\n4. **Investors get paid back.** Over the next 20 years, the district makes regular interest payments to bondholders, funded by tax revenue. When the bonds mature, it repays the principal.\n\n## Why Investors Buy Them\n\nHere's the part that makes municipal bonds especially popular: in most cases, the interest you earn is exempt from federal income tax, and often from state and local taxes too if you live in the state where the bond was issued. This tax advantage makes municipal bonds particularly attractive to people in higher tax brackets.\n\nThey're also considered relatively safe investments. Defaults \u2014 when a government fails to pay \u2014 are rare compared to corporate bonds. Cities have the power to raise taxes, which gives bondholders a degree of confidence they'll be repaid.\n\n## The Two Main Types\n\n**General obligation bonds** are backed by the full taxing power of the government issuing them. If a city issues these bonds, it is pledging to use whatever revenue it has \u2014 primarily taxes \u2014 to pay bondholders back.\n\n**Revenue bonds** are tied to a specific project and paid back from the income that project generates. A toll road, for example, might be funded by revenue bonds that are repaid using the tolls collected from drivers. If the project doesn't generate enough revenue, bondholders bear more risk.\n\n## The Tradeoffs\n\nBonds aren't free money. They come with interest costs, which means the total price tag of that $50 million school might end up being $70 or $80 million after two decades of interest payments. Critics sometimes argue that cities take on too much debt or use bonds to push costs onto future generations rather than making tough budget choices today.\n\nOn the other hand, proponents point out that waiting to build critical infrastructure has its own costs \u2014 in deteriorating public safety, lost economic activity, and declining quality of life.\n\n## The Bottom Line\n\nMunicipal bonds are one of the primary tools local governments use to invest in the physical foundations of daily life. Every time you drive over a bridge, send a child to a public school, or turn on a faucet, there's a good chance a municipal bond helped make it possible. They represent a deal between governments that need capital today and investors who want a steady, tax-friendly return \u2014 with the public, ideally, benefiting from both sides of that exchange.",
+  "run_name": "2026-03-08-openrouter-v0-2-clean-3"
+}

@@ -1,0 +1,47 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.2",
+  "candidate_model_id": "minimax/minimax-m2.5",
+  "created_at": "2026-03-08T13:10:14Z",
+  "judge_model_id": "z-ai/glm-5",
+  "metadata": {
+    "id": "gen-1772975394-qRPlLqtp2P802yPbmGFw",
+    "raw_text": "{\"scores\": {\"clarity\": 5, \"simplicity\": 5, \"brevity_economy\": 5, \"structure_flow\": 5, \"specificity_precision\": 5, \"humanity_voice\": 4, \"overall\": 5}, \"rationale\": \"A well-crafted incident memo that excels across all dimensions. The timeline and technical explanation are precise without being overwhelming. Clear section headers guide the reader logically through cause, resolution, and next steps. Bullet points efficiently communicate fixes. The tone strikes an appropriate balance\u2014professional yet acknowledging disruption and expressing genuine appreciation. Minor placeholders like [Executive Name] are expected in a template. An exemplary piece of corporate communication.\"}",
+    "usage": {
+      "completion_tokens": 651,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 586
+      },
+      "cost": 0.0028582,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.0020832,
+        "upstream_inference_cost": 0.0028582,
+        "upstream_inference_prompt_cost": 0.000775
+      },
+      "is_byok": false,
+      "prompt_tokens": 775,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 1426
+    }
+  },
+  "prompt_category": "memo",
+  "prompt_id": "memo_incident_response",
+  "rationale": "A well-crafted incident memo that excels across all dimensions. The timeline and technical explanation are precise without being overwhelming. Clear section headers guide the reader logically through cause, resolution, and next steps. Bullet points efficiently communicate fixes. The tone strikes an appropriate balance\u2014professional yet acknowledging disruption and expressing genuine appreciation. Minor placeholders like [Executive Name] are expected in a template. An exemplary piece of corporate communication.",
+  "run_name": "2026-03-08-openrouter-v0-2-clean-3",
+  "scores": {
+    "brevity_economy": 5,
+    "clarity": 5,
+    "humanity_voice": 4,
+    "overall": 5,
+    "simplicity": 5,
+    "specificity_precision": 5,
+    "structure_flow": 5
+  }
+}

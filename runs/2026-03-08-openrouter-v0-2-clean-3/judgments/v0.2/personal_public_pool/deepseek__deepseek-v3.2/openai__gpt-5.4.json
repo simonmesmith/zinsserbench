@@ -1,0 +1,47 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.2",
+  "candidate_model_id": "deepseek/deepseek-v3.2",
+  "created_at": "2026-03-08T13:05:44Z",
+  "judge_model_id": "openai/gpt-5.4",
+  "metadata": {
+    "id": "gen-1772975140-DvNImdvJ1otUQlT41Io5",
+    "raw_text": "{\"scores\":{\"clarity\":5,\"simplicity\":3,\"brevity_economy\":4,\"structure_flow\":5,\"specificity_precision\":4,\"humanity_voice\":5,\"overall\":5},\"rationale\":\"Vivid, well-shaped essay with a clear throughline: the pool as a miniature of the town. Concrete details like adult swim, the fence shade, and overheard talk make it feel observed and lived-in. The main weakness is simplicity: the prose leans heavily on metaphor and lyrical phrasing, which occasionally feels a bit polished or inflated rather than plainspoken.\"}",
+    "usage": {
+      "completion_tokens": 242,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 113
+      },
+      "cost": 0.0064975,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.00363,
+        "upstream_inference_cost": 0.0064975,
+        "upstream_inference_prompt_cost": 0.0028675
+      },
+      "is_byok": false,
+      "prompt_tokens": 1147,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 1389
+    }
+  },
+  "prompt_category": "personal_nonfiction",
+  "prompt_id": "personal_public_pool",
+  "rationale": "Vivid, well-shaped essay with a clear throughline: the pool as a miniature of the town. Concrete details like adult swim, the fence shade, and overheard talk make it feel observed and lived-in. The main weakness is simplicity: the prose leans heavily on metaphor and lyrical phrasing, which occasionally feels a bit polished or inflated rather than plainspoken.",
+  "run_name": "2026-03-08-openrouter-v0-2-clean-3",
+  "scores": {
+    "brevity_economy": 4,
+    "clarity": 5,
+    "humanity_voice": 5,
+    "overall": 5,
+    "simplicity": 3,
+    "specificity_precision": 4,
+    "structure_flow": 5
+  }
+}

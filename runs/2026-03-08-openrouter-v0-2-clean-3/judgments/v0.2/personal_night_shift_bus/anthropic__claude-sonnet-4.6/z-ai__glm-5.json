@@ -1,0 +1,47 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.2",
+  "candidate_model_id": "anthropic/claude-sonnet-4.6",
+  "created_at": "2026-03-08T14:24:02Z",
+  "judge_model_id": "z-ai/glm-5",
+  "metadata": {
+    "id": "gen-1772979835-tMjKwk7cRXxM0tecqsLG",
+    "raw_text": "{\"scores\": {\"clarity\": 5, \"simplicity\": 4, \"brevity_economy\": 4, \"structure_flow\": 5, \"specificity_precision\": 5, \"humanity_voice\": 5, \"overall\": 5}, \"rationale\": \"A beautifully observed personal essay with precise, concrete details (the L-shaped rip in the seat, the wet dog smell, the Judge's bent paperbacks) that accumulate into genuine emotional resonance. The structure moves gracefully through seasons, creating a satisfying arc without forcing one. The voice is intimate and reflective without being precious. Minor deductions: a few phrases could be trimmed ('postponing the loneliness of going home' is slightly overwrought), and some sentences are more elaborate than necessary. But these are small quibbles for a piece that captures the particular intimacy of public transit and the quiet processing of heartbreak.\"}",
+    "usage": {
+      "completion_tokens": 186,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 207
+      },
+      "cost": 0.0008568,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.00047616,
+        "upstream_inference_cost": 0.0008568,
+        "upstream_inference_prompt_cost": 0.00038064
+      },
+      "is_byok": false,
+      "prompt_tokens": 2319,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 2304,
+        "video_tokens": 0
+      },
+      "total_tokens": 2505
+    }
+  },
+  "prompt_category": "personal_nonfiction",
+  "prompt_id": "personal_night_shift_bus",
+  "rationale": "A beautifully observed personal essay with precise, concrete details (the L-shaped rip in the seat, the wet dog smell, the Judge's bent paperbacks) that accumulate into genuine emotional resonance. The structure moves gracefully through seasons, creating a satisfying arc without forcing one. The voice is intimate and reflective without being precious. Minor deductions: a few phrases could be trimmed ('postponing the loneliness of going home' is slightly overwrought), and some sentences are more elaborate than necessary. But these are small quibbles for a piece that captures the particular intimacy of public transit and the quiet processing of heartbreak.",
+  "run_name": "2026-03-08-openrouter-v0-2-clean-3",
+  "scores": {
+    "brevity_economy": 4,
+    "clarity": 5,
+    "humanity_voice": 5,
+    "overall": 5,
+    "simplicity": 4,
+    "specificity_precision": 5,
+    "structure_flow": 5
+  }
+}

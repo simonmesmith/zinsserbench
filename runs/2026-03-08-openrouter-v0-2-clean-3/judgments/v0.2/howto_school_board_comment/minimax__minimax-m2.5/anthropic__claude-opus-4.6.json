@@ -1,0 +1,47 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.2",
+  "candidate_model_id": "minimax/minimax-m2.5",
+  "created_at": "2026-03-08T13:20:58Z",
+  "judge_model_id": "anthropic/claude-opus-4.6",
+  "metadata": {
+    "id": "gen-1772976043-Q19QNP3kV6fn4Pq6ONgE",
+    "raw_text": "{\"scores\": {\"clarity\": 5, \"simplicity\": 5, \"brevity_economy\": 4, \"structure_flow\": 5, \"specificity_precision\": 4, \"humanity_voice\": 4, \"overall\": 5}, \"rationale\": \"Exceptionally clear and well-organized guide that follows a natural chronological flow (before, during, after). Language is plain and direct throughout. Concrete details like '2-5 minutes,' '300-500 words,' and 'arrive 20-30 minutes early' ground the advice in practical reality. The 'Final Thoughts' section slightly rehashes what's already been implied, and there are a few minor redundancies (e.g., 'state your name' appears twice), keeping brevity at 4. Specificity is strong but could occasionally go further\u2014e.g., what kinds of solutions to propose, or examples of effective openings. The voice is warm and reader-aware ('Trust that your perspective as a parent has value') without being condescending, though it stays in a fairly safe, templated register that stops just short of truly distinctive voice. Overall, this is a polished, actionable, and genuinely useful piece of practical writing.\"}",
+    "usage": {
+      "completion_tokens": 694,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 397
+      },
+      "cost": 0.024215,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.01735,
+        "upstream_inference_cost": 0.024215,
+        "upstream_inference_prompt_cost": 0.006865
+      },
+      "is_byok": false,
+      "prompt_tokens": 1373,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 2067
+    }
+  },
+  "prompt_category": "service_howto",
+  "prompt_id": "howto_school_board_comment",
+  "rationale": "Exceptionally clear and well-organized guide that follows a natural chronological flow (before, during, after). Language is plain and direct throughout. Concrete details like '2-5 minutes,' '300-500 words,' and 'arrive 20-30 minutes early' ground the advice in practical reality. The 'Final Thoughts' section slightly rehashes what's already been implied, and there are a few minor redundancies (e.g., 'state your name' appears twice), keeping brevity at 4. Specificity is strong but could occasionally go further\u2014e.g., what kinds of solutions to propose, or examples of effective openings. The voice is warm and reader-aware ('Trust that your perspective as a parent has value') without being condescending, though it stays in a fairly safe, templated register that stops just short of truly distinctive voice. Overall, this is a polished, actionable, and genuinely useful piece of practical writing.",
+  "run_name": "2026-03-08-openrouter-v0-2-clean-3",
+  "scores": {
+    "brevity_economy": 4,
+    "clarity": 5,
+    "humanity_voice": 4,
+    "overall": 5,
+    "simplicity": 5,
+    "specificity_precision": 4,
+    "structure_flow": 5
+  }
+}

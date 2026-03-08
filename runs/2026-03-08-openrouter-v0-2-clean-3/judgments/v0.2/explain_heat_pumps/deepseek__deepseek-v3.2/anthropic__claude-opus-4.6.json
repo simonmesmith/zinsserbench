@@ -1,0 +1,47 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.2",
+  "candidate_model_id": "deepseek/deepseek-v3.2",
+  "created_at": "2026-03-08T12:35:43Z",
+  "judge_model_id": "anthropic/claude-opus-4.6",
+  "metadata": {
+    "id": "gen-1772973326-z3BuTcN2EC4edfxsYyNc",
+    "raw_text": "{\"scores\": {\"clarity\": 5, \"simplicity\": 4, \"brevity_economy\": 3, \"structure_flow\": 5, \"specificity_precision\": 4, \"humanity_voice\": 3, \"overall\": 4}, \"rationale\": \"Clarity is excellent\u2014the 'reversible air conditioner' analogy lands immediately and the bold highlights guide the reader. Structure is textbook: mechanism \u2192 comparison \u2192 benefits \u2192 caveats \u2192 summary. Specificity is solid (2-4x efficiency, 95-98% furnace figure, carbon monoxide mention). Language is mostly plain, though 'compression and expansion cycles' and 'combustion chamber' add slight technical weight. Main weaknesses: the closing summary paragraph largely restates what the headers already covered, and for a 'short explainer' it runs long; trimming repetition (e.g., the all-in-one point appears twice) would tighten it. Voice is competent and reader-friendly ('Its magic happens in winter') but reads more like a well-polished template than a piece with distinctive personality.\"}",
+    "usage": {
+      "completion_tokens": 683,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 500
+      },
+      "cost": 0.022875,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.017075,
+        "upstream_inference_cost": 0.022875,
+        "upstream_inference_prompt_cost": 0.0058
+      },
+      "is_byok": false,
+      "prompt_tokens": 1160,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 1843
+    }
+  },
+  "prompt_category": "explain",
+  "prompt_id": "explain_heat_pumps",
+  "rationale": "Clarity is excellent\u2014the 'reversible air conditioner' analogy lands immediately and the bold highlights guide the reader. Structure is textbook: mechanism \u2192 comparison \u2192 benefits \u2192 caveats \u2192 summary. Specificity is solid (2-4x efficiency, 95-98% furnace figure, carbon monoxide mention). Language is mostly plain, though 'compression and expansion cycles' and 'combustion chamber' add slight technical weight. Main weaknesses: the closing summary paragraph largely restates what the headers already covered, and for a 'short explainer' it runs long; trimming repetition (e.g., the all-in-one point appears twice) would tighten it. Voice is competent and reader-friendly ('Its magic happens in winter') but reads more like a well-polished template than a piece with distinctive personality.",
+  "run_name": "2026-03-08-openrouter-v0-2-clean-3",
+  "scores": {
+    "brevity_economy": 3,
+    "clarity": 5,
+    "humanity_voice": 3,
+    "overall": 4,
+    "simplicity": 4,
+    "specificity_precision": 4,
+    "structure_flow": 5
+  }
+}

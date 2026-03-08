@@ -1,0 +1,47 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.2",
+  "candidate_model_id": "anthropic/claude-sonnet-4.6",
+  "created_at": "2026-03-08T13:08:12Z",
+  "judge_model_id": "google/gemini-3.1-pro-preview",
+  "metadata": {
+    "id": "gen-1772975284-WjlvKrsdmWRNy7IZfWKY",
+    "raw_text": "{\n  \"scores\": {\n    \"clarity\": 5,\n    \"simplicity\": 5,\n    \"brevity_economy\": 5,\n    \"structure_flow\": 5,\n    \"specificity_precision\": 5,\n    \"humanity_voice\": 5,\n    \"overall\": 5\n  },\n  \"rationale\": \"The memo is exceptionally well-written. It clearly and simply explains a technical issue without relying on heavy jargon, uses a logical structure with clear headings, provides specific details and timelines, and adopts a highly professional, accountable, and human tone.\"\n}",
+    "usage": {
+      "completion_tokens": 435,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 301
+      },
+      "cost": 0.007696,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.00522,
+        "upstream_inference_cost": 0.007696,
+        "upstream_inference_prompt_cost": 0.002476
+      },
+      "is_byok": false,
+      "prompt_tokens": 1238,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 1673
+    }
+  },
+  "prompt_category": "memo",
+  "prompt_id": "memo_incident_response",
+  "rationale": "The memo is exceptionally well-written. It clearly and simply explains a technical issue without relying on heavy jargon, uses a logical structure with clear headings, provides specific details and timelines, and adopts a highly professional, accountable, and human tone.",
+  "run_name": "2026-03-08-openrouter-v0-2-clean-3",
+  "scores": {
+    "brevity_economy": 5,
+    "clarity": 5,
+    "humanity_voice": 5,
+    "overall": 5,
+    "simplicity": 5,
+    "specificity_precision": 5,
+    "structure_flow": 5
+  }
+}

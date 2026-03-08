@@ -1,0 +1,47 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.2",
+  "candidate_model_id": "moonshotai/kimi-k2.5",
+  "created_at": "2026-03-08T12:46:12Z",
+  "judge_model_id": "anthropic/claude-opus-4.6",
+  "metadata": {
+    "id": "gen-1772973964-1YTeSKVVvcngXed0xUAf",
+    "raw_text": "{\"scores\": {\"clarity\": 5, \"simplicity\": 5, \"brevity_economy\": 5, \"structure_flow\": 5, \"specificity_precision\": 5, \"humanity_voice\": 5, \"overall\": 5}, \"rationale\": \"This is exceptional nonfiction writing. Every sentence earns its place. The specificity is remarkable\u20145:47 a.m., three groans of the rungs, ink faded to lavender, the vanilla scent of aging electrical tape\u2014all grounding the piece in lived reality. The structure follows a natural arc from dawn to dusk, mirroring a single day while weaving in thirty years of accumulated detail. The prose is clean and direct without ever feeling flat; metaphors like 'stitching the two towns together' and knowing the route 'the way a pianist knows a score' are precise and unforced. The humanity comes through in observed details\u2014marriages dissolving on the car deck, the baby now a deckhand waving from a crab boat, the empty coolers signaling the failed salmon run. The voice is warm but restrained, never sentimental. Economy is near-perfect: no throat-clearing, no redundancy, every paragraph advancing the portrait. If there's any quibble, the 130,000 crossings figure seems high for the math, but this is a minor detail in an otherwise masterful piece.\"}",
+    "usage": {
+      "completion_tokens": 312,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 0
+      },
+      "cost": 0.01494,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.0078,
+        "upstream_inference_cost": 0.01494,
+        "upstream_inference_prompt_cost": 0.00714
+      },
+      "is_byok": false,
+      "prompt_tokens": 1428,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 1740
+    }
+  },
+  "prompt_category": "profile",
+  "prompt_id": "profile_ferry_captain",
+  "rationale": "This is exceptional nonfiction writing. Every sentence earns its place. The specificity is remarkable\u20145:47 a.m., three groans of the rungs, ink faded to lavender, the vanilla scent of aging electrical tape\u2014all grounding the piece in lived reality. The structure follows a natural arc from dawn to dusk, mirroring a single day while weaving in thirty years of accumulated detail. The prose is clean and direct without ever feeling flat; metaphors like 'stitching the two towns together' and knowing the route 'the way a pianist knows a score' are precise and unforced. The humanity comes through in observed details\u2014marriages dissolving on the car deck, the baby now a deckhand waving from a crab boat, the empty coolers signaling the failed salmon run. The voice is warm but restrained, never sentimental. Economy is near-perfect: no throat-clearing, no redundancy, every paragraph advancing the portrait. If there's any quibble, the 130,000 crossings figure seems high for the math, but this is a minor detail in an otherwise masterful piece.",
+  "run_name": "2026-03-08-openrouter-v0-2-clean-3",
+  "scores": {
+    "brevity_economy": 5,
+    "clarity": 5,
+    "humanity_voice": 5,
+    "overall": 5,
+    "simplicity": 5,
+    "specificity_precision": 5,
+    "structure_flow": 5
+  }
+}

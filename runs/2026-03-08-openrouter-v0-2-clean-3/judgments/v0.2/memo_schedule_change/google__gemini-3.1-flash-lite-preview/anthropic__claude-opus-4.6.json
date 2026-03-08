@@ -1,0 +1,47 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.2",
+  "candidate_model_id": "google/gemini-3.1-flash-lite-preview",
+  "created_at": "2026-03-08T13:35:27Z",
+  "judge_model_id": "anthropic/claude-opus-4.6",
+  "metadata": {
+    "id": "gen-1772976915-85e96fFLNnqJGisREwmF",
+    "raw_text": "{\"scores\": {\"clarity\": 5, \"simplicity\": 4, \"brevity_economy\": 4, \"structure_flow\": 5, \"specificity_precision\": 5, \"humanity_voice\": 4, \"overall\": 5}, \"rationale\": \"Exceptionally clear and well-organized memo. Bold headers and bullet points make it highly scannable. Specifics are strong: exact dates, shift times, overtime rate, deadlines for supervisor communication. Structure flows logically from context \u2192 changes \u2192 compensation \u2192 acknowledgment \u2192 next steps. Minor dings: some corporate boilerplate ('Your hard work and dedication are the foundation of our success,' 'most successful holiday season yet') feels formulaic rather than genuinely human, and the closing could be trimmed slightly. But for the genre\u2014an internal operational memo\u2014this is near-ideal, balancing professionalism with empathy and giving employees exactly the information they need.\"}",
+    "usage": {
+      "completion_tokens": 551,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 271
+      },
+      "cost": 0.01801,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.013775,
+        "upstream_inference_cost": 0.01801,
+        "upstream_inference_prompt_cost": 0.004235
+      },
+      "is_byok": false,
+      "prompt_tokens": 847,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 1398
+    }
+  },
+  "prompt_category": "memo",
+  "prompt_id": "memo_schedule_change",
+  "rationale": "Exceptionally clear and well-organized memo. Bold headers and bullet points make it highly scannable. Specifics are strong: exact dates, shift times, overtime rate, deadlines for supervisor communication. Structure flows logically from context \u2192 changes \u2192 compensation \u2192 acknowledgment \u2192 next steps. Minor dings: some corporate boilerplate ('Your hard work and dedication are the foundation of our success,' 'most successful holiday season yet') feels formulaic rather than genuinely human, and the closing could be trimmed slightly. But for the genre\u2014an internal operational memo\u2014this is near-ideal, balancing professionalism with empathy and giving employees exactly the information they need.",
+  "run_name": "2026-03-08-openrouter-v0-2-clean-3",
+  "scores": {
+    "brevity_economy": 4,
+    "clarity": 5,
+    "humanity_voice": 4,
+    "overall": 5,
+    "simplicity": 4,
+    "specificity_precision": 5,
+    "structure_flow": 5
+  }
+}

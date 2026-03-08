@@ -1,0 +1,47 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.2",
+  "candidate_model_id": "deepseek/deepseek-v3.2",
+  "created_at": "2026-03-08T12:51:15Z",
+  "judge_model_id": "anthropic/claude-opus-4.6",
+  "metadata": {
+    "id": "gen-1772974260-b5dM92z0FByJAv7NTLpy",
+    "raw_text": "{\"scores\": {\"clarity\": 5, \"simplicity\": 4, \"brevity_economy\": 4, \"structure_flow\": 5, \"specificity_precision\": 5, \"humanity_voice\": 4, \"overall\": 5}, \"rationale\": \"Exceptionally well-organized guide with a logical progression from immediate safety to long-term follow-up. Specificity is a standout strength: the scripted landlord call, the ceiling-bubble puncture tip, and the mention of circuit breaker panels all give the reader concrete, actionable detail. Language is mostly plain and direct, though a few spots ('soak barrier,' 'Promote Airflow') are slightly stiff. The 'What NOT To Do' section mildly restates earlier points (e.g., don't delay notifying landlord), costing a point on brevity. Voice is appropriate for the format\u2014urgent and helpful\u2014but leans instructional rather than warmly conversational. Overall, this is a highly effective, reader-aware piece of practical nonfiction.\"}",
+    "usage": {
+      "completion_tokens": 700,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 433
+      },
+      "cost": 0.024705,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.0175,
+        "upstream_inference_cost": 0.024705,
+        "upstream_inference_prompt_cost": 0.007205
+      },
+      "is_byok": false,
+      "prompt_tokens": 1441,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 2141
+    }
+  },
+  "prompt_category": "service_howto",
+  "prompt_id": "howto_report_water_leak",
+  "rationale": "Exceptionally well-organized guide with a logical progression from immediate safety to long-term follow-up. Specificity is a standout strength: the scripted landlord call, the ceiling-bubble puncture tip, and the mention of circuit breaker panels all give the reader concrete, actionable detail. Language is mostly plain and direct, though a few spots ('soak barrier,' 'Promote Airflow') are slightly stiff. The 'What NOT To Do' section mildly restates earlier points (e.g., don't delay notifying landlord), costing a point on brevity. Voice is appropriate for the format\u2014urgent and helpful\u2014but leans instructional rather than warmly conversational. Overall, this is a highly effective, reader-aware piece of practical nonfiction.",
+  "run_name": "2026-03-08-openrouter-v0-2-clean-3",
+  "scores": {
+    "brevity_economy": 4,
+    "clarity": 5,
+    "humanity_voice": 4,
+    "overall": 5,
+    "simplicity": 4,
+    "specificity_precision": 5,
+    "structure_flow": 5
+  }
+}

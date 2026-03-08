@@ -1,0 +1,47 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.2",
+  "candidate_model_id": "qwen/qwen3.5-35b-a3b",
+  "created_at": "2026-03-08T12:42:59Z",
+  "judge_model_id": "z-ai/glm-5",
+  "metadata": {
+    "id": "gen-1772973774-VgDAPWI8bVZ6P2isO1pS",
+    "raw_text": "{\"scores\": {\"clarity\": 5, \"simplicity\": 4, \"brevity_economy\": 4, \"structure_flow\": 5, \"specificity_precision\": 5, \"humanity_voice\": 5, \"overall\": 5}, \"rationale\": \"This is a strong profile piece. The writing is clear and easy to follow, with a logical structure that moves from morning to evening, giving the piece a satisfying narrative arc. Specific details\u2014the 6:15 a.m. start time, the 2008 Ford truck, the specific student names and interactions\u2014make the story concrete and believable. The voice is warm and human, capturing the dignity of the subject's work without sentimentality. The piece is economical; it doesn't over-explain or repeat itself. A few phrases ('fluorescent lights... hum with a low, electric buzz that sounds like a sleeping insect') are slightly ornate, but overall the language is direct and purposeful.\"}",
+    "usage": {
+      "completion_tokens": 407,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 210
+      },
+      "cost": 0.00223216,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.00104192,
+        "upstream_inference_cost": 0.00223216,
+        "upstream_inference_prompt_cost": 0.00119024
+      },
+      "is_byok": false,
+      "prompt_tokens": 1539,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 64,
+        "video_tokens": 0
+      },
+      "total_tokens": 1946
+    }
+  },
+  "prompt_category": "profile",
+  "prompt_id": "profile_school_custodian",
+  "rationale": "This is a strong profile piece. The writing is clear and easy to follow, with a logical structure that moves from morning to evening, giving the piece a satisfying narrative arc. Specific details\u2014the 6:15 a.m. start time, the 2008 Ford truck, the specific student names and interactions\u2014make the story concrete and believable. The voice is warm and human, capturing the dignity of the subject's work without sentimentality. The piece is economical; it doesn't over-explain or repeat itself. A few phrases ('fluorescent lights... hum with a low, electric buzz that sounds like a sleeping insect') are slightly ornate, but overall the language is direct and purposeful.",
+  "run_name": "2026-03-08-openrouter-v0-2-clean-3",
+  "scores": {
+    "brevity_economy": 4,
+    "clarity": 5,
+    "humanity_voice": 5,
+    "overall": 5,
+    "simplicity": 4,
+    "specificity_precision": 5,
+    "structure_flow": 5
+  }
+}

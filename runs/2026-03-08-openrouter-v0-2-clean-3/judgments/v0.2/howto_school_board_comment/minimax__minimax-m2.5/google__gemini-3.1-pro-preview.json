@@ -1,0 +1,47 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.2",
+  "candidate_model_id": "minimax/minimax-m2.5",
+  "created_at": "2026-03-08T13:21:05Z",
+  "judge_model_id": "google/gemini-3.1-pro-preview",
+  "metadata": {
+    "id": "gen-1772976058-QspAC5IVjACoR47k4aap",
+    "raw_text": "{\n  \"scores\": {\n    \"clarity\": 5,\n    \"simplicity\": 5,\n    \"brevity_economy\": 5,\n    \"structure_flow\": 5,\n    \"specificity_precision\": 5,\n    \"humanity_voice\": 5,\n    \"overall\": 5\n  },\n  \"rationale\": \"The guide is exceptionally well-structured, using chronological sections and bullet points to make the information highly accessible. The language is clear, simple, and direct, offering precise advice such as specific word counts and phrasing examples. The tone is encouraging and empathetic, making it highly effective for its intended audience.\"\n}",
+    "usage": {
+      "completion_tokens": 459,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 314
+      },
+      "cost": 0.008082,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.005508,
+        "upstream_inference_cost": 0.008082,
+        "upstream_inference_prompt_cost": 0.002574
+      },
+      "is_byok": false,
+      "prompt_tokens": 1287,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 1746
+    }
+  },
+  "prompt_category": "service_howto",
+  "prompt_id": "howto_school_board_comment",
+  "rationale": "The guide is exceptionally well-structured, using chronological sections and bullet points to make the information highly accessible. The language is clear, simple, and direct, offering precise advice such as specific word counts and phrasing examples. The tone is encouraging and empathetic, making it highly effective for its intended audience.",
+  "run_name": "2026-03-08-openrouter-v0-2-clean-3",
+  "scores": {
+    "brevity_economy": 5,
+    "clarity": 5,
+    "humanity_voice": 5,
+    "overall": 5,
+    "simplicity": 5,
+    "specificity_precision": 5,
+    "structure_flow": 5
+  }
+}

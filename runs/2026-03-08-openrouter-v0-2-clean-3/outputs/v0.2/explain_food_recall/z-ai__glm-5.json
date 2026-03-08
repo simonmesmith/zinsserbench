@@ -1,0 +1,56 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.2",
+  "candidate_label": "GLM-5",
+  "candidate_model_id": "z-ai/glm-5",
+  "created_at": "2026-03-08T12:16:00Z",
+  "metadata": {
+    "finish_reason": "stop",
+    "generation_attempt": 1,
+    "generation_settings": {
+      "max_output_tokens": 10000,
+      "reasoning_effort": "medium"
+    },
+    "id": "gen-1772972118-QLsloFhaxPTVd8D1ueEF",
+    "quality_guard": {
+      "minimum_words": 120,
+      "reason": "",
+      "status": "ok",
+      "word_count": 715
+    },
+    "raw_response_text": "**Food Recalls 101: What They Mean and What to Do**\n\nSeeing a headline about a food recall can be alarming. One day, a product is on the shelf at your local grocery store; the next, the government is urging you to get it out of your kitchen immediately.\n\nHowever, a recall doesn't have to cause panic. It is actually a safety measure designed to protect you. Here is a breakdown of what a food recall actually means and a step-by-step guide on how to handle it if you find a recalled item in your home.\n\n### What Is a Food Recall?\n\nA food recall is a voluntary action taken by a food manufacturer or distributor to remove a product from the market. While the government (specifically the Food and Drug Administration [FDA] or the Department of Agriculture [USDA]) can request a recall, companies usually initiate the process themselves once they discover a problem.\n\nThe goal is to get the product out of consumers' hands before it causes illness or injury. Recalls generally happen for three main reasons:\n\n1.  **Pathogens:** The discovery of harmful bacteria like *Salmonella*, *E. coli*, or *Listeria*.\n2.  **Allergens:** The product contains a major food allergen (like milk, nuts, or wheat) that isn\u2019t listed on the label. This is dangerous for people with severe allergies.\n3.  **Foreign Objects:** The food may be contaminated with physical hazards like plastic, glass, or metal fragments.\n\n### What to Do If You Have a Recalled Product\n\nIf you hear about a recall and suspect you have the item in your pantry or fridge, follow these steps immediately.\n\n**1. Verify the Details**\nDo not rely on the brand name alone. Large manufacturers produce products under many different labels, and recalls are often specific to certain \"Best By\" dates, lot codes, or manufacturing plants.\n*   Locate the product in your home.\n*   Compare the lot number, UPC code, and \"use by\" date on your package against the specific details listed in the recall notice (usually available on the FDA website or the manufacturer's website).\n\n**2. Do Not Eat or Open the Product**\nEven if the food looks and smells fine, do not taste it. Pathogens like *Listeria* or *E. coli* are invisible and do not change the taste or appearance of food. If the recall is due to an undeclared allergen, tasting it could cause a severe reaction.\n\n**3. Check Your Freezer**\nMany recalled items are frozen goods. Because frozen food lasts a long time, it is easy to forget about a bag of vegetables or a frozen dinner purchased months ago. Check your freezer carefully against the recall dates.\n\n**4. Dispose of It Safely or Return It**\nYou generally have two options:\n*   **Return it:** You can usually return the product to the store where you bought it for a full refund, even without a receipt.\n*   **Throw it away:** If you cannot return it, throw it away immediately. To prevent others (including pets or people scavenging through trash) from eating it, the FDA recommends washing the product down the sink or cutting it into pieces before discarding it, or sealing it in a bag clearly marked \"Do Not Eat.\"\n\n**5. Sanitize Your Kitchen**\nIf the recalled product was recalled due to bacteria (like *Salmonella* or *E. coli*), it may have contaminated your kitchen surfaces.\n*   Wash any counters, cutting boards, or refrigerator shelves where the product was stored with hot, soapy water.\n*   If you stored the item in a reusable container, wash that container thoroughly in the dishwasher or with hot, soapy water.\n\n**6. Monitor Your Health**\nIf you have already consumed the product, monitor yourself and your family for symptoms. Symptoms of food poisoning can include nausea, vomiting, diarrhea, abdominal cramps, and fever. If the recall involves an allergen and you have an allergy, watch for reactions. If you feel unwell, contact a healthcare provider and mention that you consumed a recalled product.\n\n### The Bottom Line\n\nFinding a recalled product in your kitchen is an inconvenience, but it is a manageable one. The system is designed to catch errors before they become widespread health crises. By checking the codes, discarding the item safely, and cleaning your kitchen, you can ensure that a recall notice remains just a headline rather than a health emergency.",
+    "sanitization": {
+      "changed": false,
+      "patterns": [],
+      "removed_chars": 0,
+      "removed_ratio": 0.0
+    },
+    "usage": {
+      "completion_tokens": 1962,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 1099
+      },
+      "cost": 0.0063374,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.0062784,
+        "upstream_inference_cost": 0.0063374,
+        "upstream_inference_prompt_cost": 5.9e-05
+      },
+      "is_byok": false,
+      "prompt_tokens": 59,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 2021
+    }
+  },
+  "prompt_category": "explain",
+  "prompt_id": "explain_food_recall",
+  "response_text": "**Food Recalls 101: What They Mean and What to Do**\n\nSeeing a headline about a food recall can be alarming. One day, a product is on the shelf at your local grocery store; the next, the government is urging you to get it out of your kitchen immediately.\n\nHowever, a recall doesn't have to cause panic. It is actually a safety measure designed to protect you. Here is a breakdown of what a food recall actually means and a step-by-step guide on how to handle it if you find a recalled item in your home.\n\n### What Is a Food Recall?\n\nA food recall is a voluntary action taken by a food manufacturer or distributor to remove a product from the market. While the government (specifically the Food and Drug Administration [FDA] or the Department of Agriculture [USDA]) can request a recall, companies usually initiate the process themselves once they discover a problem.\n\nThe goal is to get the product out of consumers' hands before it causes illness or injury. Recalls generally happen for three main reasons:\n\n1.  **Pathogens:** The discovery of harmful bacteria like *Salmonella*, *E. coli*, or *Listeria*.\n2.  **Allergens:** The product contains a major food allergen (like milk, nuts, or wheat) that isn\u2019t listed on the label. This is dangerous for people with severe allergies.\n3.  **Foreign Objects:** The food may be contaminated with physical hazards like plastic, glass, or metal fragments.\n\n### What to Do If You Have a Recalled Product\n\nIf you hear about a recall and suspect you have the item in your pantry or fridge, follow these steps immediately.\n\n**1. Verify the Details**\nDo not rely on the brand name alone. Large manufacturers produce products under many different labels, and recalls are often specific to certain \"Best By\" dates, lot codes, or manufacturing plants.\n*   Locate the product in your home.\n*   Compare the lot number, UPC code, and \"use by\" date on your package against the specific details listed in the recall notice (usually available on the FDA website or the manufacturer's website).\n\n**2. Do Not Eat or Open the Product**\nEven if the food looks and smells fine, do not taste it. Pathogens like *Listeria* or *E. coli* are invisible and do not change the taste or appearance of food. If the recall is due to an undeclared allergen, tasting it could cause a severe reaction.\n\n**3. Check Your Freezer**\nMany recalled items are frozen goods. Because frozen food lasts a long time, it is easy to forget about a bag of vegetables or a frozen dinner purchased months ago. Check your freezer carefully against the recall dates.\n\n**4. Dispose of It Safely or Return It**\nYou generally have two options:\n*   **Return it:** You can usually return the product to the store where you bought it for a full refund, even without a receipt.\n*   **Throw it away:** If you cannot return it, throw it away immediately. To prevent others (including pets or people scavenging through trash) from eating it, the FDA recommends washing the product down the sink or cutting it into pieces before discarding it, or sealing it in a bag clearly marked \"Do Not Eat.\"\n\n**5. Sanitize Your Kitchen**\nIf the recalled product was recalled due to bacteria (like *Salmonella* or *E. coli*), it may have contaminated your kitchen surfaces.\n*   Wash any counters, cutting boards, or refrigerator shelves where the product was stored with hot, soapy water.\n*   If you stored the item in a reusable container, wash that container thoroughly in the dishwasher or with hot, soapy water.\n\n**6. Monitor Your Health**\nIf you have already consumed the product, monitor yourself and your family for symptoms. Symptoms of food poisoning can include nausea, vomiting, diarrhea, abdominal cramps, and fever. If the recall involves an allergen and you have an allergy, watch for reactions. If you feel unwell, contact a healthcare provider and mention that you consumed a recalled product.\n\n### The Bottom Line\n\nFinding a recalled product in your kitchen is an inconvenience, but it is a manageable one. The system is designed to catch errors before they become widespread health crises. By checking the codes, discarding the item safely, and cleaning your kitchen, you can ensure that a recall notice remains just a headline rather than a health emergency.",
+  "run_name": "2026-03-08-openrouter-v0-2-clean-3"
+}

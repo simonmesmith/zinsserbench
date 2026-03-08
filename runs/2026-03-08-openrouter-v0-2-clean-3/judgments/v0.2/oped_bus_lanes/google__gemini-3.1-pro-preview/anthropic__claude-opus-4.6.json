@@ -1,0 +1,47 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.2",
+  "candidate_model_id": "google/gemini-3.1-pro-preview",
+  "created_at": "2026-03-08T12:56:52Z",
+  "judge_model_id": "anthropic/claude-opus-4.6",
+  "metadata": {
+    "id": "gen-1772974603-fmpPE7gVPA8HxBvjU2Pg",
+    "raw_text": "{\"scores\": {\"clarity\": 5, \"simplicity\": 4, \"brevity_economy\": 4, \"structure_flow\": 5, \"specificity_precision\": 3, \"humanity_voice\": 5, \"overall\": 4}, \"rationale\": \"Exceptionally clear and well-structured opinion piece that flows logically from problem to math to counterargument to equity to environment to call-to-action. The voice is strong and engaging\u2014the opening image of the bus trapped behind 40 cars is vivid and effective. The closing paragraph lands well. Simplicity is strong but occasionally tips into rhetorical flourish ('soul-crushing,' 'failure of geometry, failure of policy, failure of imagination') that borders on overwriting. Brevity is good but the piece could be tightened\u2014some points are restated (e.g., the efficiency argument is made twice in slightly different ways). The biggest weakness is specificity: the piece references 'our city' and 'our main corridor' without naming anything concrete, the 8,000 people/hour figure is stated without sourcing or context (BRT? what frequency?), and the 'induced demand' claim is asserted rather than illustrated with a real example. No city case studies, no cost estimates, no named corridor. This generic quality weakens the persuasive force. Still, as a template opinion piece, it's polished and effective.\"}",
+    "usage": {
+      "completion_tokens": 313,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 0
+      },
+      "cost": 0.01437,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.007825,
+        "upstream_inference_cost": 0.01437,
+        "upstream_inference_prompt_cost": 0.006545
+      },
+      "is_byok": false,
+      "prompt_tokens": 1309,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 1622
+    }
+  },
+  "prompt_category": "persuasion_oped",
+  "prompt_id": "oped_bus_lanes",
+  "rationale": "Exceptionally clear and well-structured opinion piece that flows logically from problem to math to counterargument to equity to environment to call-to-action. The voice is strong and engaging\u2014the opening image of the bus trapped behind 40 cars is vivid and effective. The closing paragraph lands well. Simplicity is strong but occasionally tips into rhetorical flourish ('soul-crushing,' 'failure of geometry, failure of policy, failure of imagination') that borders on overwriting. Brevity is good but the piece could be tightened\u2014some points are restated (e.g., the efficiency argument is made twice in slightly different ways). The biggest weakness is specificity: the piece references 'our city' and 'our main corridor' without naming anything concrete, the 8,000 people/hour figure is stated without sourcing or context (BRT? what frequency?), and the 'induced demand' claim is asserted rather than illustrated with a real example. No city case studies, no cost estimates, no named corridor. This generic quality weakens the persuasive force. Still, as a template opinion piece, it's polished and effective.",
+  "run_name": "2026-03-08-openrouter-v0-2-clean-3",
+  "scores": {
+    "brevity_economy": 4,
+    "clarity": 5,
+    "humanity_voice": 5,
+    "overall": 4,
+    "simplicity": 4,
+    "specificity_precision": 3,
+    "structure_flow": 5
+  }
+}

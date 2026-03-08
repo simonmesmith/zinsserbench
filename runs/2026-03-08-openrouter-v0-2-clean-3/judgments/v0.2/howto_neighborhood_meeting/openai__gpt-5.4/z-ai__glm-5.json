@@ -1,0 +1,47 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.2",
+  "candidate_model_id": "openai/gpt-5.4",
+  "created_at": "2026-03-08T12:47:13Z",
+  "judge_model_id": "z-ai/glm-5",
+  "metadata": {
+    "id": "gen-1772974027-TKb1B5IsWYqZD1UsLlm6",
+    "raw_text": "```json\n{\n  \"scores\": {\n    \"clarity\": 5,\n    \"simplicity\": 5,\n    \"brevity_economy\": 4,\n    \"structure_flow\": 5,\n    \"specificity_precision\": 5,\n    \"humanity_voice\": 5,\n    \"overall\": 5\n  },\n  \"rationale\": \"This is an exceptionally well-organized, practical guide. The structure is logical with numbered sections and clear subheadings. Language is plain and direct throughout. Specific examples (sample invitation wording, agenda templates, email templates) make the advice actionable. The tone is encouraging and human, acknowledging frustration while staying constructive. Minor quibble: the piece is thorough but could be slightly more concise in some sections\u2014hence the 4 on brevity. Overall, an excellent piece of practical nonfiction writing.\"\n}\n```",
+    "usage": {
+      "completion_tokens": 344,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 178
+      },
+      "cost": 0.00369136,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.00088064,
+        "upstream_inference_cost": 0.00369136,
+        "upstream_inference_prompt_cost": 0.00281072
+      },
+      "is_byok": false,
+      "prompt_tokens": 3539,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 32,
+        "video_tokens": 0
+      },
+      "total_tokens": 3883
+    }
+  },
+  "prompt_category": "service_howto",
+  "prompt_id": "howto_neighborhood_meeting",
+  "rationale": "This is an exceptionally well-organized, practical guide. The structure is logical with numbered sections and clear subheadings. Language is plain and direct throughout. Specific examples (sample invitation wording, agenda templates, email templates) make the advice actionable. The tone is encouraging and human, acknowledging frustration while staying constructive. Minor quibble: the piece is thorough but could be slightly more concise in some sections\u2014hence the 4 on brevity. Overall, an excellent piece of practical nonfiction writing.",
+  "run_name": "2026-03-08-openrouter-v0-2-clean-3",
+  "scores": {
+    "brevity_economy": 4,
+    "clarity": 5,
+    "humanity_voice": 5,
+    "overall": 5,
+    "simplicity": 5,
+    "specificity_precision": 5,
+    "structure_flow": 5
+  }
+}

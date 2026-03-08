@@ -1,0 +1,47 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.2",
+  "candidate_model_id": "qwen/qwen3.5-35b-a3b",
+  "created_at": "2026-03-08T12:39:20Z",
+  "judge_model_id": "openai/gpt-5.4",
+  "metadata": {
+    "id": "gen-1772973558-NV0QTeF14m6VIE6zLJIy",
+    "raw_text": "{\"scores\":{\"clarity\":5,\"simplicity\":5,\"brevity_economy\":4,\"structure_flow\":5,\"specificity_precision\":4,\"humanity_voice\":4,\"overall\":5},\"rationale\":\"Clear, accessible explainer with a strong opening example, logical sectioning, and plain language throughout. It answers both what municipal bonds are and why cities issue them, with useful concrete details on interest, maturity, taxes, and risk. Slightly long and a bit simplified in places, but overall highly effective for a general audience.\"}",
+    "usage": {
+      "completion_tokens": 190,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 69
+      },
+      "cost": 0.00585,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.00285,
+        "upstream_inference_cost": 0.00585,
+        "upstream_inference_prompt_cost": 0.003
+      },
+      "is_byok": false,
+      "prompt_tokens": 1200,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 1390
+    }
+  },
+  "prompt_category": "explain",
+  "prompt_id": "explain_municipal_bonds",
+  "rationale": "Clear, accessible explainer with a strong opening example, logical sectioning, and plain language throughout. It answers both what municipal bonds are and why cities issue them, with useful concrete details on interest, maturity, taxes, and risk. Slightly long and a bit simplified in places, but overall highly effective for a general audience.",
+  "run_name": "2026-03-08-openrouter-v0-2-clean-3",
+  "scores": {
+    "brevity_economy": 4,
+    "clarity": 5,
+    "humanity_voice": 4,
+    "overall": 5,
+    "simplicity": 5,
+    "specificity_precision": 4,
+    "structure_flow": 5
+  }
+}

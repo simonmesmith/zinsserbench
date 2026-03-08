@@ -1,0 +1,47 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.2",
+  "candidate_model_id": "minimax/minimax-m2.5",
+  "created_at": "2026-03-08T12:51:44Z",
+  "judge_model_id": "anthropic/claude-opus-4.6",
+  "metadata": {
+    "id": "gen-1772974290-U3HvxGoW0x9CyXkPSbec",
+    "raw_text": "{\"scores\": {\"clarity\": 5, \"simplicity\": 5, \"brevity_economy\": 4, \"structure_flow\": 5, \"specificity_precision\": 4, \"humanity_voice\": 4, \"overall\": 5}, \"rationale\": \"Exceptionally clear and well-organized guide. Steps follow a logical sequence from immediate containment to long-term prevention. Language is plain and direct throughout, with concrete examples (buckets, breaker box, overflowing tub) grounding each instruction. Minor dings: the closing checklist largely restates what was already covered, and the final sentence is mild throat-clearing. The 'Know Your Rights' section is necessarily general due to jurisdictional variation but handles this with appropriate caveats. Voice is reassuring without being patronizing\u2014appropriate for the genre. One tiny grammar error ('a overflowing'). Overall an excellent practical guide that covers the topic thoroughly and accessibly.\"}",
+    "usage": {
+      "completion_tokens": 627,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 363
+      },
+      "cost": 0.0229,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.015675,
+        "upstream_inference_cost": 0.0229,
+        "upstream_inference_prompt_cost": 0.007225
+      },
+      "is_byok": false,
+      "prompt_tokens": 1445,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 2072
+    }
+  },
+  "prompt_category": "service_howto",
+  "prompt_id": "howto_report_water_leak",
+  "rationale": "Exceptionally clear and well-organized guide. Steps follow a logical sequence from immediate containment to long-term prevention. Language is plain and direct throughout, with concrete examples (buckets, breaker box, overflowing tub) grounding each instruction. Minor dings: the closing checklist largely restates what was already covered, and the final sentence is mild throat-clearing. The 'Know Your Rights' section is necessarily general due to jurisdictional variation but handles this with appropriate caveats. Voice is reassuring without being patronizing\u2014appropriate for the genre. One tiny grammar error ('a overflowing'). Overall an excellent practical guide that covers the topic thoroughly and accessibly.",
+  "run_name": "2026-03-08-openrouter-v0-2-clean-3",
+  "scores": {
+    "brevity_economy": 4,
+    "clarity": 5,
+    "humanity_voice": 4,
+    "overall": 5,
+    "simplicity": 5,
+    "specificity_precision": 4,
+    "structure_flow": 5
+  }
+}

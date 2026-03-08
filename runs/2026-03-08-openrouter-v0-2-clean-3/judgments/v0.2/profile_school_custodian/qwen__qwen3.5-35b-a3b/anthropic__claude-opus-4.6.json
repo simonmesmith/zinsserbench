@@ -1,0 +1,47 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.2",
+  "candidate_model_id": "qwen/qwen3.5-35b-a3b",
+  "created_at": "2026-03-08T12:42:53Z",
+  "judge_model_id": "anthropic/claude-opus-4.6",
+  "metadata": {
+    "id": "gen-1772973765-AZtCKrodo3R33S4NcvPI",
+    "raw_text": "{\"scores\": {\"clarity\": 5, \"simplicity\": 4, \"brevity_economy\": 3, \"structure_flow\": 4, \"specificity_precision\": 3, \"humanity_voice\": 4, \"overall\": 4}, \"rationale\": \"Clear, well-organized profile that reads smoothly and conveys Art's character effectively. The opening scene-setting is strong and the hallway exchanges bring him to life. However, the piece leans heavily on repetition\u2014the 'he knows their names' motif is hammered at least five or six times, and the parallel constructions ('He remembers... He remembers...', 'He will be the one... He will be the one...') become formulaic. Some details feel invented-generic rather than specific (the 2008 Ford with a dent, 'raspy from years of inhaling floor wax')\u2014they gesture at specificity without earning it. The philosophical declarations ('someone has to keep the place clean... someone has to make sure the kids feel like they belong') are a touch overwrought and tell rather than show. The voice is warm and human but occasionally tips into sentimentality, particularly the closing paragraphs. Trimming 20% and trusting the scenes more would strengthen it considerably.\"}",
+    "usage": {
+      "completion_tokens": 283,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 0
+      },
+      "cost": 0.015435,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.007075,
+        "upstream_inference_cost": 0.015435,
+        "upstream_inference_prompt_cost": 0.00836
+      },
+      "is_byok": false,
+      "prompt_tokens": 1672,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 1955
+    }
+  },
+  "prompt_category": "profile",
+  "prompt_id": "profile_school_custodian",
+  "rationale": "Clear, well-organized profile that reads smoothly and conveys Art's character effectively. The opening scene-setting is strong and the hallway exchanges bring him to life. However, the piece leans heavily on repetition\u2014the 'he knows their names' motif is hammered at least five or six times, and the parallel constructions ('He remembers... He remembers...', 'He will be the one... He will be the one...') become formulaic. Some details feel invented-generic rather than specific (the 2008 Ford with a dent, 'raspy from years of inhaling floor wax')\u2014they gesture at specificity without earning it. The philosophical declarations ('someone has to keep the place clean... someone has to make sure the kids feel like they belong') are a touch overwrought and tell rather than show. The voice is warm and human but occasionally tips into sentimentality, particularly the closing paragraphs. Trimming 20% and trusting the scenes more would strengthen it considerably.",
+  "run_name": "2026-03-08-openrouter-v0-2-clean-3",
+  "scores": {
+    "brevity_economy": 3,
+    "clarity": 5,
+    "humanity_voice": 4,
+    "overall": 4,
+    "simplicity": 4,
+    "specificity_precision": 3,
+    "structure_flow": 4
+  }
+}

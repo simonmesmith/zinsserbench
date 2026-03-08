@@ -1,0 +1,47 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.2",
+  "candidate_model_id": "google/gemini-3.1-flash-lite-preview",
+  "created_at": "2026-03-08T13:32:50Z",
+  "judge_model_id": "z-ai/glm-5",
+  "metadata": {
+    "id": "gen-1772976757-VIltptR6Fr3wVp6aZQwy",
+    "raw_text": "```json\n{\n  \"scores\": {\n    \"clarity\": 5,\n    \"simplicity\": 5,\n    \"brevity_economy\": 4,\n    \"structure_flow\": 5,\n    \"specificity_precision\": 5,\n    \"humanity_voice\": 4,\n    \"overall\": 5\n  },\n  \"rationale\": \"The piece is exceptionally clear, breaking down a complex topic into a simple formula and digestible sections. It uses plain language throughout ('hot market,' 'bottom line') and avoids jargon. The structure is logical, moving from the core equation to the two main variables, then to reasons for changes, and finally actionable steps. It is specific, citing examples like 'homestead exemptions' and 'adding a deck.' The tone is helpful and direct, though the final section on appeals is slightly procedural compared to the rest.\"\n}\n```",
+    "usage": {
+      "completion_tokens": 363,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 200
+      },
+      "cost": 0.00110304,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.00092928,
+        "upstream_inference_cost": 0.00110304,
+        "upstream_inference_prompt_cost": 0.00017376
+      },
+      "is_byok": false,
+      "prompt_tokens": 1062,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 1056,
+        "video_tokens": 0
+      },
+      "total_tokens": 1425
+    }
+  },
+  "prompt_category": "explain",
+  "prompt_id": "explain_property_tax",
+  "rationale": "The piece is exceptionally clear, breaking down a complex topic into a simple formula and digestible sections. It uses plain language throughout ('hot market,' 'bottom line') and avoids jargon. The structure is logical, moving from the core equation to the two main variables, then to reasons for changes, and finally actionable steps. It is specific, citing examples like 'homestead exemptions' and 'adding a deck.' The tone is helpful and direct, though the final section on appeals is slightly procedural compared to the rest.",
+  "run_name": "2026-03-08-openrouter-v0-2-clean-3",
+  "scores": {
+    "brevity_economy": 4,
+    "clarity": 5,
+    "humanity_voice": 4,
+    "overall": 5,
+    "simplicity": 5,
+    "specificity_precision": 5,
+    "structure_flow": 5
+  }
+}

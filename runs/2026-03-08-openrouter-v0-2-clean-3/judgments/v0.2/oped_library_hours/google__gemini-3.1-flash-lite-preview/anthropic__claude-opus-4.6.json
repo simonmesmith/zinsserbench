@@ -1,0 +1,47 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.2",
+  "candidate_model_id": "google/gemini-3.1-flash-lite-preview",
+  "created_at": "2026-03-08T12:52:43Z",
+  "judge_model_id": "anthropic/claude-opus-4.6",
+  "metadata": {
+    "id": "gen-1772974356-7qNaLvQR0qzhXd3FkVs6",
+    "raw_text": "{\"scores\": {\"clarity\": 5, \"simplicity\": 4, \"brevity_economy\": 4, \"structure_flow\": 5, \"specificity_precision\": 3, \"humanity_voice\": 5, \"overall\": 4}, \"rationale\": \"The piece is exceptionally clear and well-structured, moving logically from problem statement to specific affected populations to counterarguments. The voice is strong and engaging\u2014the fire department analogy and 'living room' metaphor are memorable. However, it leans on rhetorical flourish at times ('bastions of true democracy,' 'closing its mind') that slightly inflate the language beyond plain directness. The biggest weakness is specificity: it references no actual city, no budget figures, no data on digital divide statistics, no named examples of cities with successful late-night hours. The arguments are sound but remain at the level of plausible generality rather than concrete evidence. Some mild repetition exists (the locked-door/closed-sign imagery appears in slightly different forms). Overall, it's a polished, persuasive op-ed that reads as genuinely human, though it would be stronger with harder evidence.\"}",
+    "usage": {
+      "completion_tokens": 257,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 0
+      },
+      "cost": 0.012185,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.006425,
+        "upstream_inference_cost": 0.012185,
+        "upstream_inference_prompt_cost": 0.00576
+      },
+      "is_byok": false,
+      "prompt_tokens": 1152,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 1409
+    }
+  },
+  "prompt_category": "persuasion_oped",
+  "prompt_id": "oped_library_hours",
+  "rationale": "The piece is exceptionally clear and well-structured, moving logically from problem statement to specific affected populations to counterarguments. The voice is strong and engaging\u2014the fire department analogy and 'living room' metaphor are memorable. However, it leans on rhetorical flourish at times ('bastions of true democracy,' 'closing its mind') that slightly inflate the language beyond plain directness. The biggest weakness is specificity: it references no actual city, no budget figures, no data on digital divide statistics, no named examples of cities with successful late-night hours. The arguments are sound but remain at the level of plausible generality rather than concrete evidence. Some mild repetition exists (the locked-door/closed-sign imagery appears in slightly different forms). Overall, it's a polished, persuasive op-ed that reads as genuinely human, though it would be stronger with harder evidence.",
+  "run_name": "2026-03-08-openrouter-v0-2-clean-3",
+  "scores": {
+    "brevity_economy": 4,
+    "clarity": 5,
+    "humanity_voice": 5,
+    "overall": 4,
+    "simplicity": 4,
+    "specificity_precision": 3,
+    "structure_flow": 5
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.2",
+  "candidate_model_id": "moonshotai/kimi-k2.5",
+  "created_at": "2026-03-08T12:42:14Z",
+  "judge_model_id": "openai/gpt-5.4",
+  "metadata": {
+    "id": "gen-1772973726-iWWAY6suBvJ6bIBRXd5a",
+    "raw_text": "{\"scores\":{\"clarity\":5,\"simplicity\":3,\"brevity_economy\":4,\"structure_flow\":5,\"specificity_precision\":5,\"humanity_voice\":5,\"overall\":5},\"rationale\":\"Vivid, clear profile with a strong day-in-the-life structure and excellent concrete detail. The piece feels warm, observant, and specific, especially in how it shows Miguel knowing students by name. It loses some simplicity and economy because the prose is often quite literary and occasionally overwrought for straightforward nonfiction.\"}",
+    "usage": {
+      "completion_tokens": 375,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 259
+      },
+      "cost": 0.0092475,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.005625,
+        "upstream_inference_cost": 0.0092475,
+        "upstream_inference_prompt_cost": 0.0036225
+      },
+      "is_byok": false,
+      "prompt_tokens": 1449,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 1824
+    }
+  },
+  "prompt_category": "profile",
+  "prompt_id": "profile_school_custodian",
+  "rationale": "Vivid, clear profile with a strong day-in-the-life structure and excellent concrete detail. The piece feels warm, observant, and specific, especially in how it shows Miguel knowing students by name. It loses some simplicity and economy because the prose is often quite literary and occasionally overwrought for straightforward nonfiction.",
+  "run_name": "2026-03-08-openrouter-v0-2-clean-3",
+  "scores": {
+    "brevity_economy": 4,
+    "clarity": 5,
+    "humanity_voice": 5,
+    "overall": 5,
+    "simplicity": 3,
+    "specificity_precision": 5,
+    "structure_flow": 5
+  }
+}

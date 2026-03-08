@@ -1,0 +1,47 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.2",
+  "candidate_model_id": "minimax/minimax-m2.5",
+  "created_at": "2026-03-08T12:43:31Z",
+  "judge_model_id": "anthropic/claude-opus-4.6",
+  "metadata": {
+    "id": "gen-1772973789-0Y2ZoN0gs5MPfKr3yN08",
+    "raw_text": "{\"scores\": {\"clarity\": 5, \"simplicity\": 5, \"brevity_economy\": 3, \"structure_flow\": 5, \"specificity_precision\": 4, \"humanity_voice\": 5, \"overall\": 4}, \"rationale\": \"Beautifully written profile with a warm, authentic voice and excellent structural pacing through section breaks. The clarity is impeccable and the language is plain and direct throughout. The humanity shines\u2014Earl feels real, the quotes feel natural, and the emotional beats land without sentimentality. However, the piece is notably long and repetitive: the theme of knowing names is restated many times, the morning/afternoon bookend structure is effective but the middle sections belabor similar points (noticing students, remembering details, generations passing through). The notebook detail and the specific student quotes are strong specificity, though some details feel slightly generic for a profile (the fashion cycle paragraph reads like filler). The piece could lose 30% of its length and be stronger. A few moments tip toward the sentimental\u2014'the silence is different from the morning silence\u2014heavier, somehow'\u2014but mostly the writing earns its emotion. Strong work that would benefit from tighter editing.\"}",
+    "usage": {
+      "completion_tokens": 269,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 0
+      },
+      "cost": 0.019535,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.006725,
+        "upstream_inference_cost": 0.019535,
+        "upstream_inference_prompt_cost": 0.01281
+      },
+      "is_byok": false,
+      "prompt_tokens": 2562,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 2831
+    }
+  },
+  "prompt_category": "profile",
+  "prompt_id": "profile_school_custodian",
+  "rationale": "Beautifully written profile with a warm, authentic voice and excellent structural pacing through section breaks. The clarity is impeccable and the language is plain and direct throughout. The humanity shines\u2014Earl feels real, the quotes feel natural, and the emotional beats land without sentimentality. However, the piece is notably long and repetitive: the theme of knowing names is restated many times, the morning/afternoon bookend structure is effective but the middle sections belabor similar points (noticing students, remembering details, generations passing through). The notebook detail and the specific student quotes are strong specificity, though some details feel slightly generic for a profile (the fashion cycle paragraph reads like filler). The piece could lose 30% of its length and be stronger. A few moments tip toward the sentimental\u2014'the silence is different from the morning silence\u2014heavier, somehow'\u2014but mostly the writing earns its emotion. Strong work that would benefit from tighter editing.",
+  "run_name": "2026-03-08-openrouter-v0-2-clean-3",
+  "scores": {
+    "brevity_economy": 3,
+    "clarity": 5,
+    "humanity_voice": 5,
+    "overall": 4,
+    "simplicity": 5,
+    "specificity_precision": 4,
+    "structure_flow": 5
+  }
+}

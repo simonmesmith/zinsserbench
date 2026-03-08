@@ -155,7 +155,7 @@ class OpenRouterBackend(ModelBackend):
         self, model_id: str, messages: List[Dict[str, str]], settings: Dict[str, object]
     ) -> tuple[Dict[str, object], str, Dict[str, object]]:
         data = self._chat_completion_with_reasoning_fallback(model_id, messages, settings)
-        text = _extract_text(data)
+        text = _extract_text(data, prefer_reasoning=settings.get("json_mode", False))
         try:
             payload = _extract_json_object(text)
             return data, text, payload
@@ -165,7 +165,7 @@ class OpenRouterBackend(ModelBackend):
             retry_settings["temperature"] = 0
             retry_settings["max_output_tokens"] = max(int(settings.get("max_output_tokens", 500)) * 2, 1000)
             data = self._chat_completion_with_reasoning_fallback(model_id, messages, retry_settings)
-            text = _extract_text(data)
+            text = _extract_text(data, prefer_reasoning=retry_settings.get("json_mode", False))
             payload = _extract_json_object(text)
             return data, text, payload
 
@@ -233,7 +233,7 @@ def _stable_int(seed: str, modulo: int) -> int:
     return int(digest[:8], 16) % modulo
 
 
-def _extract_text(payload: Dict[str, object]) -> str:
+def _extract_text(payload: Dict[str, object], prefer_reasoning: bool = False) -> str:
     choices = payload.get("choices", [])
     if not choices:
         raise RuntimeError(f"No choices returned: {payload}")
@@ -247,6 +247,10 @@ def _extract_text(payload: Dict[str, object]) -> str:
             if isinstance(item, dict) and item.get("type") == "text":
                 parts.append(item.get("text", ""))
         return "\n".join(part for part in parts if part).strip()
+    if prefer_reasoning:
+        reasoning_text = _extract_reasoning_text(message)
+        if reasoning_text:
+            return reasoning_text
     raise RuntimeError(f"Unsupported OpenRouter response format: {payload}")
 
 
@@ -321,3 +325,19 @@ def _extract_json_object(text: str) -> Dict[str, object]:
     if start == -1 or end == -1 or end < start:
         raise RuntimeError(f"Could not find JSON object in response: {text}")
     return json.loads(text[start : end + 1])
+
+
+def _extract_reasoning_text(message: Dict[str, object]) -> str:
+    reasoning = message.get("reasoning")
+    if isinstance(reasoning, str) and reasoning.strip():
+        return reasoning.strip()
+    details = message.get("reasoning_details")
+    if not isinstance(details, list):
+        return ""
+    parts = []
+    for item in details:
+        if isinstance(item, dict):
+            text = item.get("text")
+            if isinstance(text, str) and text.strip():
+                parts.append(text.strip())
+    return "\n".join(parts).strip()

@@ -1,0 +1,56 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.2",
+  "candidate_label": "Qwen 3.5 35B A3B",
+  "candidate_model_id": "qwen/qwen3.5-35b-a3b",
+  "created_at": "2026-03-08T11:58:51Z",
+  "metadata": {
+    "finish_reason": "stop",
+    "generation_attempt": 1,
+    "generation_settings": {
+      "max_output_tokens": 10000,
+      "reasoning_effort": "medium"
+    },
+    "id": "gen-1772971111-MLzFgRvNW6tnnnSh07I6",
+    "quality_guard": {
+      "minimum_words": 120,
+      "reason": "",
+      "status": "ok",
+      "word_count": 711
+    },
+    "raw_response_text": "# How Cities Borrow Money: A Simple Guide to Municipal Bonds\n\nImagine your city wants to build a new public library. The project costs $50 million. However, the city\u2019s annual budget only has $5 million in surplus cash. They can\u2019t just write a check for the whole amount.\n\nSo, they need to borrow the money. But instead of going to a bank for a single loan, they ask thousands of people to lend them small amounts. This is where **municipal bonds** come in.\n\n### What Is a Municipal Bond?\n\nA municipal bond (often called a \"muni\") is simply a loan you make to a local government.\n\nWhen a city, county, or state needs a large sum of money for a public project, they issue bonds. You, as an investor, buy one of these bonds. In exchange, the government promises to pay you back the original amount you lent them (the principal) at a specific date in the future, plus regular interest payments along the way.\n\nThink of it like a mortgage for a house, but instead of a bank lending you money to buy a home, you are lending money to a city to build a road or a school.\n\n### How It Works\n\n1.  **The Issue:** The city announces it needs $100 million to fix its water system. They sell $100 million worth of bonds to investors.\n2.  **The Interest:** If you buy a bond with a 3% interest rate, the city pays you that percentage every year until the bond expires.\n3.  **The Maturity:** The bond has an end date, often 10, 20, or 30 years away. On that date, the city pays you back your original investment.\n\n### Why Do Cities Issue Bonds?\n\nYou might wonder why cities don't just raise taxes to pay for these projects. There are three main reasons they prefer bonds:\n\n**1. Big Projects Cost More Than Annual Revenue**\nCities collect taxes throughout the year to pay for daily operations like police, trash collection, and schools. Building a bridge or a hospital costs far more than a single year\u2019s tax revenue. Bonds allow them to access a large pool of capital immediately.\n\n**2. Spreading the Cost Over Time**\nInfrastructure lasts for decades. If a city builds a new school today, it will be used by children for the next 50 years. It makes sense for the people who use the school over that time to pay for it. Bonds allow the city to spread the cost of the project over 20 or 30 years, so current taxpayers don't have to bear the full burden all at once.\n\n**3. Tax Advantages**\nThis is a major reason why individuals buy municipal bonds. In the United States, the interest you earn from most municipal bonds is free from federal income tax. If you live in the state where the bond was issued, it is often free from state and local taxes, too. This makes them attractive to people in higher tax brackets.\n\n### Who Buys Them?\n\nWhile banks and large investment funds buy many bonds, individual investors can buy them too. You can purchase them through a brokerage account, much like you would buy stocks.\n\n### Are They Safe?\n\nGenerally, municipal bonds are considered safer than stocks. Governments are less likely to go out of business than a company. However, they are not risk-free.\n\n*   **Credit Risk:** If a city runs out of money and cannot pay its debts, it might default on the bond. This is rare for large cities but can happen with smaller towns.\n*   **Interest Rate Risk:** If interest rates in the economy go up, the value of existing bonds might go down.\n\nTo help investors know how safe a bond is, rating agencies give cities a score (like a credit score for a person). A high score means the city is likely to pay you back; a low score means there is more risk.\n\n### The Bottom Line\n\nMunicipal bonds are a tool that allows communities to grow. They let cities build the roads, schools, and hospitals that make daily life better without draining the budget all at once. For investors, they offer a way to support their community while earning steady income, often with a tax break to sweeten the deal.",
+    "sanitization": {
+      "changed": false,
+      "patterns": [],
+      "removed_chars": 0,
+      "removed_ratio": 0.0
+    },
+    "usage": {
+      "completion_tokens": 1957,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 1056
+      },
+      "cost": 0.003537225,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.0035226,
+        "upstream_inference_cost": 0.003537225,
+        "upstream_inference_prompt_cost": 1.4625e-05
+      },
+      "is_byok": false,
+      "prompt_tokens": 65,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 2022
+    }
+  },
+  "prompt_category": "explain",
+  "prompt_id": "explain_municipal_bonds",
+  "response_text": "# How Cities Borrow Money: A Simple Guide to Municipal Bonds\n\nImagine your city wants to build a new public library. The project costs $50 million. However, the city\u2019s annual budget only has $5 million in surplus cash. They can\u2019t just write a check for the whole amount.\n\nSo, they need to borrow the money. But instead of going to a bank for a single loan, they ask thousands of people to lend them small amounts. This is where **municipal bonds** come in.\n\n### What Is a Municipal Bond?\n\nA municipal bond (often called a \"muni\") is simply a loan you make to a local government.\n\nWhen a city, county, or state needs a large sum of money for a public project, they issue bonds. You, as an investor, buy one of these bonds. In exchange, the government promises to pay you back the original amount you lent them (the principal) at a specific date in the future, plus regular interest payments along the way.\n\nThink of it like a mortgage for a house, but instead of a bank lending you money to buy a home, you are lending money to a city to build a road or a school.\n\n### How It Works\n\n1.  **The Issue:** The city announces it needs $100 million to fix its water system. They sell $100 million worth of bonds to investors.\n2.  **The Interest:** If you buy a bond with a 3% interest rate, the city pays you that percentage every year until the bond expires.\n3.  **The Maturity:** The bond has an end date, often 10, 20, or 30 years away. On that date, the city pays you back your original investment.\n\n### Why Do Cities Issue Bonds?\n\nYou might wonder why cities don't just raise taxes to pay for these projects. There are three main reasons they prefer bonds:\n\n**1. Big Projects Cost More Than Annual Revenue**\nCities collect taxes throughout the year to pay for daily operations like police, trash collection, and schools. Building a bridge or a hospital costs far more than a single year\u2019s tax revenue. Bonds allow them to access a large pool of capital immediately.\n\n**2. Spreading the Cost Over Time**\nInfrastructure lasts for decades. If a city builds a new school today, it will be used by children for the next 50 years. It makes sense for the people who use the school over that time to pay for it. Bonds allow the city to spread the cost of the project over 20 or 30 years, so current taxpayers don't have to bear the full burden all at once.\n\n**3. Tax Advantages**\nThis is a major reason why individuals buy municipal bonds. In the United States, the interest you earn from most municipal bonds is free from federal income tax. If you live in the state where the bond was issued, it is often free from state and local taxes, too. This makes them attractive to people in higher tax brackets.\n\n### Who Buys Them?\n\nWhile banks and large investment funds buy many bonds, individual investors can buy them too. You can purchase them through a brokerage account, much like you would buy stocks.\n\n### Are They Safe?\n\nGenerally, municipal bonds are considered safer than stocks. Governments are less likely to go out of business than a company. However, they are not risk-free.\n\n*   **Credit Risk:** If a city runs out of money and cannot pay its debts, it might default on the bond. This is rare for large cities but can happen with smaller towns.\n*   **Interest Rate Risk:** If interest rates in the economy go up, the value of existing bonds might go down.\n\nTo help investors know how safe a bond is, rating agencies give cities a score (like a credit score for a person). A high score means the city is likely to pay you back; a low score means there is more risk.\n\n### The Bottom Line\n\nMunicipal bonds are a tool that allows communities to grow. They let cities build the roads, schools, and hospitals that make daily life better without draining the budget all at once. For investors, they offer a way to support their community while earning steady income, often with a tax break to sweeten the deal.",
+  "run_name": "2026-03-08-openrouter-v0-2-clean-3"
+}

@@ -1,0 +1,56 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.2",
+  "candidate_label": "Kimi K2.5",
+  "candidate_model_id": "moonshotai/kimi-k2.5",
+  "created_at": "2026-03-08T12:26:53Z",
+  "metadata": {
+    "finish_reason": "stop",
+    "generation_attempt": 1,
+    "generation_settings": {
+      "max_output_tokens": 10000,
+      "reasoning_effort": "medium"
+    },
+    "id": "gen-1772972759-8xM0KpVLdPqTBRwoRkze",
+    "quality_guard": {
+      "minimum_words": 100,
+      "reason": "",
+      "status": "ok",
+      "word_count": 387
+    },
+    "raw_response_text": "**TO:** All Warehouse Operations Staff  \n**FROM:** Sarah Chen, Director of Warehouse Operations  \n**DATE:** October 15, 2024  \n**RE:** Temporary Schedule Adjustments for Peak Season \u2013 Effective November 4  \n\nAs we prepare for the upcoming holiday surge, I want to first thank each of you for the hard work that has positioned us to handle the 40% increase in volume expected over the next eight weeks. To ensure we meet our delivery commitments while maintaining safety standards, we will be implementing temporary schedule adjustments beginning Monday, November 4.\n\n**NEW SCHEDULE STRUCTURE**\n\n**November 4 \u2013 December 27, 2024:**\n\n- **Day Shift:** 6:00 AM \u2013 4:30 PM (Monday\u2013Thursday)  \n  *Previously 7:00 AM \u2013 3:30 PM*\n  \n- **Night Shift:** 5:00 PM \u2013 3:30 AM (Monday\u2013Thursday)  \n  *Previously 11:00 PM \u2013 7:00 AM*\n\n- **Weekend Shift Added:** Friday\u2013Sunday, 7:00 AM \u2013 7:00 PM (voluntary sign-up basis)\n\n**KEY DETAILS**\n\n- **Four-day workweeks:** All full-time staff will move to four 10-hour shifts with three consecutive days off. This reduces weekly commute time while ensuring coverage during our highest-volume periods.\n  \n- **Mandatory overtime:** Up to 8 hours per week may be required based on daily volume forecasts. You will receive 48-hour notice when possible.\n\n- **Holiday pay:** Thanksgiving (Nov 28) and Christmas Day (Dec 25) will pay 2.5x base rate for scheduled shifts. December 24 and 31 will operate on skeleton crews with volunteer priority.\n\n**SUPPORT MEASURES**\n\n- Complimentary hot meals will be provided for all shifts November 25\u2013December 2 and December 23\u201326.\n- Extended break rooms will open 30 minutes early for shift changes.\n- The Employee Assistance Program has expanded counseling hours for stress management during this period.\n\n**ACTION REQUIRED**\n\nPlease confirm your shift preference (Day/Night/Weekend) and any holiday blackout date requests by **October 25** through the HR portal or by speaking with your shift supervisor. We will accommodate requests where operational needs allow.\n\nI recognize this represents a significant adjustment to your routines and family time. These changes are temporary, and we will return to standard schedules on **January 6, 2025**. Your flexibility during our busiest season directly impacts our ability to serve our customers and secure year-end bonuses for the entire team.\n\nQuestions? Contact me directly at schen@company.com or stop by the operations office between 8 AM and 6 PM daily.\n\nThank you for your dedication and flexibility.\n\nSarah Chen  \nDirector of Warehouse Operations",
+    "sanitization": {
+      "changed": false,
+      "patterns": [],
+      "removed_chars": 0,
+      "removed_ratio": 0.0
+    },
+    "usage": {
+      "completion_tokens": 989,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 526
+      },
+      "cost": 0.0037515,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.00370875,
+        "upstream_inference_cost": 0.0037515,
+        "upstream_inference_prompt_cost": 4.275e-05
+      },
+      "is_byok": false,
+      "prompt_tokens": 57,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 1046
+    }
+  },
+  "prompt_category": "memo",
+  "prompt_id": "memo_schedule_change",
+  "response_text": "**TO:** All Warehouse Operations Staff  \n**FROM:** Sarah Chen, Director of Warehouse Operations  \n**DATE:** October 15, 2024  \n**RE:** Temporary Schedule Adjustments for Peak Season \u2013 Effective November 4  \n\nAs we prepare for the upcoming holiday surge, I want to first thank each of you for the hard work that has positioned us to handle the 40% increase in volume expected over the next eight weeks. To ensure we meet our delivery commitments while maintaining safety standards, we will be implementing temporary schedule adjustments beginning Monday, November 4.\n\n**NEW SCHEDULE STRUCTURE**\n\n**November 4 \u2013 December 27, 2024:**\n\n- **Day Shift:** 6:00 AM \u2013 4:30 PM (Monday\u2013Thursday)  \n  *Previously 7:00 AM \u2013 3:30 PM*\n  \n- **Night Shift:** 5:00 PM \u2013 3:30 AM (Monday\u2013Thursday)  \n  *Previously 11:00 PM \u2013 7:00 AM*\n\n- **Weekend Shift Added:** Friday\u2013Sunday, 7:00 AM \u2013 7:00 PM (voluntary sign-up basis)\n\n**KEY DETAILS**\n\n- **Four-day workweeks:** All full-time staff will move to four 10-hour shifts with three consecutive days off. This reduces weekly commute time while ensuring coverage during our highest-volume periods.\n  \n- **Mandatory overtime:** Up to 8 hours per week may be required based on daily volume forecasts. You will receive 48-hour notice when possible.\n\n- **Holiday pay:** Thanksgiving (Nov 28) and Christmas Day (Dec 25) will pay 2.5x base rate for scheduled shifts. December 24 and 31 will operate on skeleton crews with volunteer priority.\n\n**SUPPORT MEASURES**\n\n- Complimentary hot meals will be provided for all shifts November 25\u2013December 2 and December 23\u201326.\n- Extended break rooms will open 30 minutes early for shift changes.\n- The Employee Assistance Program has expanded counseling hours for stress management during this period.\n\n**ACTION REQUIRED**\n\nPlease confirm your shift preference (Day/Night/Weekend) and any holiday blackout date requests by **October 25** through the HR portal or by speaking with your shift supervisor. We will accommodate requests where operational needs allow.\n\nI recognize this represents a significant adjustment to your routines and family time. These changes are temporary, and we will return to standard schedules on **January 6, 2025**. Your flexibility during our busiest season directly impacts our ability to serve our customers and secure year-end bonuses for the entire team.\n\nQuestions? Contact me directly at schen@company.com or stop by the operations office between 8 AM and 6 PM daily.\n\nThank you for your dedication and flexibility.\n\nSarah Chen  \nDirector of Warehouse Operations",
+  "run_name": "2026-03-08-openrouter-v0-2-clean-3"
+}

@@ -1,0 +1,56 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.2",
+  "candidate_label": "DeepSeek V3.2",
+  "candidate_model_id": "deepseek/deepseek-v3.2",
+  "created_at": "2026-03-08T12:23:48Z",
+  "metadata": {
+    "finish_reason": "stop",
+    "generation_attempt": 1,
+    "generation_settings": {
+      "max_output_tokens": 10000,
+      "reasoning_effort": "medium"
+    },
+    "id": "gen-1772972589-h8HOuO1h0OQ1Flz6r0p3",
+    "quality_guard": {
+      "minimum_words": 200,
+      "reason": "",
+      "status": "ok",
+      "word_count": 626
+    },
+    "raw_response_text": "It always smelled the same: stale air, faint diesel, and the ghost of a thousand forgotten dinners carried in brown paper bags. The 10:45 pm bus, the last one that could get me home without a second transfer. For a year, it was my chariot through the quieting city, a fluorescent-lit capsule suspended between the exhaustion of my day job and the silent apartment that waited.\n\nI came to recognize the others, not by name, but by silhouette and habit. There was the woman with the security guard uniform, her polished shoes resting against her duffel bag, already half-asleep before we left downtown. The young man with headphones so large they seemed to swallow his head, his eyes closed, fingers tapping an endless rhythm on his knee. The elderly man who always sat directly behind the driver, having a murmured, one-sided conversation that the driver, Mike, would answer with a patient, \u201cYeah, I hear you, Frank.\u201d\n\nWe were a tribe of the tired, the clock-punchers, the night owls, and the just-getting-bys. The bus was our shared, temporary limbo. No one made eye contact; that was the first rule. The second was the respectful distance\u2014an empty seat between strangers was a sacred thing. Our communion was in the shared sigh when the bus lurched forward, the collective rustle when someone fumbled for their transfer pass, the unspoken understanding when someone\u2019s head would nod and then jerk back awake.\n\nI watched the city transform through the smudged window. The bustling storefronts gave way to darkened offices, then to residential streets where only the blue flicker of televisions lit living rooms. I knew the exact sequence of traffic lights on Grand Avenue, which ones would catch us and which ones would stay green. I knew the pothole near Seventh Street that would jolt us all into a moment of clumsy alertness. The route became a familiar song, the stops its verses.\n\nOne night in February, a sleety rain was painting the windows in blurry streaks. The woman in the security guard uniform got on, her shoulders soaked. Without a word, the man with the headphones reached into his bag, pulled out a clean, dry handkerchief, and offered it to her. She stared for a second, then took it with a small, tired smile, wiping her face. Not a word was exchanged. He went back to his music, she to her window. It was the most intimate transaction I\u2019d ever witnessed, built entirely on the silent familiarity of our shared journey.\n\nThat was the magic of it. For twenty-five minutes a night, we weren\u2019t alone in our fatigue. Our isolation was communal. The bus was a rolling testament to the fact that everyone, everyone, is fighting a hard battle you know nothing about, and they\u2019re just trying to get home, too.\n\nThe year ended. My job changed, my schedule shifted, and I no longer needed the 10:45. On my last ride, I felt a strange sense of ceremony. I noticed the way Mike had a little wave for Frank. I saw the security guard woman had a new, smaller duffel bag. I wondered, briefly, if they\u2019d notice I was gone, or if my empty seat would simply be filled by another weary soul, learning the rules of our quiet club.\n\nI still sometimes drive that route late at night. And when I see the 10:45 rumble past, its interior a cube of warm light in the dark, I feel a pang. Not of nostalgia for the tiredness, but for that peculiar, mobile sanctuary. It was never just a bus. It was a year of my life, measured in stops and starts, in silent companions and sleeping streets, all carrying me, night after night, back to where I needed to be.",
+    "sanitization": {
+      "changed": false,
+      "patterns": [],
+      "removed_chars": 0,
+      "removed_ratio": 0.0
+    },
+    "usage": {
+      "completion_tokens": 984,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 196
+      },
+      "cost": 0.00042672,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.00041328,
+        "upstream_inference_cost": 0.00042672,
+        "upstream_inference_prompt_cost": 1.344e-05
+      },
+      "is_byok": false,
+      "prompt_tokens": 48,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 1032
+    }
+  },
+  "prompt_category": "personal_nonfiction",
+  "prompt_id": "personal_night_shift_bus",
+  "response_text": "It always smelled the same: stale air, faint diesel, and the ghost of a thousand forgotten dinners carried in brown paper bags. The 10:45 pm bus, the last one that could get me home without a second transfer. For a year, it was my chariot through the quieting city, a fluorescent-lit capsule suspended between the exhaustion of my day job and the silent apartment that waited.\n\nI came to recognize the others, not by name, but by silhouette and habit. There was the woman with the security guard uniform, her polished shoes resting against her duffel bag, already half-asleep before we left downtown. The young man with headphones so large they seemed to swallow his head, his eyes closed, fingers tapping an endless rhythm on his knee. The elderly man who always sat directly behind the driver, having a murmured, one-sided conversation that the driver, Mike, would answer with a patient, \u201cYeah, I hear you, Frank.\u201d\n\nWe were a tribe of the tired, the clock-punchers, the night owls, and the just-getting-bys. The bus was our shared, temporary limbo. No one made eye contact; that was the first rule. The second was the respectful distance\u2014an empty seat between strangers was a sacred thing. Our communion was in the shared sigh when the bus lurched forward, the collective rustle when someone fumbled for their transfer pass, the unspoken understanding when someone\u2019s head would nod and then jerk back awake.\n\nI watched the city transform through the smudged window. The bustling storefronts gave way to darkened offices, then to residential streets where only the blue flicker of televisions lit living rooms. I knew the exact sequence of traffic lights on Grand Avenue, which ones would catch us and which ones would stay green. I knew the pothole near Seventh Street that would jolt us all into a moment of clumsy alertness. The route became a familiar song, the stops its verses.\n\nOne night in February, a sleety rain was painting the windows in blurry streaks. The woman in the security guard uniform got on, her shoulders soaked. Without a word, the man with the headphones reached into his bag, pulled out a clean, dry handkerchief, and offered it to her. She stared for a second, then took it with a small, tired smile, wiping her face. Not a word was exchanged. He went back to his music, she to her window. It was the most intimate transaction I\u2019d ever witnessed, built entirely on the silent familiarity of our shared journey.\n\nThat was the magic of it. For twenty-five minutes a night, we weren\u2019t alone in our fatigue. Our isolation was communal. The bus was a rolling testament to the fact that everyone, everyone, is fighting a hard battle you know nothing about, and they\u2019re just trying to get home, too.\n\nThe year ended. My job changed, my schedule shifted, and I no longer needed the 10:45. On my last ride, I felt a strange sense of ceremony. I noticed the way Mike had a little wave for Frank. I saw the security guard woman had a new, smaller duffel bag. I wondered, briefly, if they\u2019d notice I was gone, or if my empty seat would simply be filled by another weary soul, learning the rules of our quiet club.\n\nI still sometimes drive that route late at night. And when I see the 10:45 rumble past, its interior a cube of warm light in the dark, I feel a pang. Not of nostalgia for the tiredness, but for that peculiar, mobile sanctuary. It was never just a bus. It was a year of my life, measured in stops and starts, in silent companions and sleeping streets, all carrying me, night after night, back to where I needed to be.",
+  "run_name": "2026-03-08-openrouter-v0-2-clean-3"
+}

@@ -1,0 +1,47 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.2",
+  "candidate_model_id": "google/gemini-3.1-pro-preview",
+  "created_at": "2026-03-08T13:28:28Z",
+  "judge_model_id": "z-ai/glm-5",
+  "metadata": {
+    "id": "gen-1772976479-NpLByKy8sW9kP5QzLj5g",
+    "raw_text": "{\"scores\": {\"clarity\": 5, \"simplicity\": 4, \"brevity_economy\": 5, \"structure_flow\": 5, \"specificity_precision\": 5, \"humanity_voice\": 5, \"overall\": 5}, \"rationale\": \"A polished personal essay with vivid sensory details (damp wool, stale coffee, ozone), strong narrative arc, and authentic voice. The structure moves smoothly from establishing routine to introducing characters to marking seasonal passage to a poignant conclusion. Literary flourishes like 'fluorescent-lit terrarium' slightly complicate simplicity but serve the reflective tone. Every paragraph earns its place; no throat-clearing or repetition.\"}",
+    "usage": {
+      "completion_tokens": 1042,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 1017
+      },
+      "cost": 0.0046444,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.0033344,
+        "upstream_inference_cost": 0.0046444,
+        "upstream_inference_prompt_cost": 0.00131
+      },
+      "is_byok": false,
+      "prompt_tokens": 1310,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 1280,
+        "video_tokens": 0
+      },
+      "total_tokens": 2352
+    }
+  },
+  "prompt_category": "personal_nonfiction",
+  "prompt_id": "personal_night_shift_bus",
+  "rationale": "A polished personal essay with vivid sensory details (damp wool, stale coffee, ozone), strong narrative arc, and authentic voice. The structure moves smoothly from establishing routine to introducing characters to marking seasonal passage to a poignant conclusion. Literary flourishes like 'fluorescent-lit terrarium' slightly complicate simplicity but serve the reflective tone. Every paragraph earns its place; no throat-clearing or repetition.",
+  "run_name": "2026-03-08-openrouter-v0-2-clean-3",
+  "scores": {
+    "brevity_economy": 5,
+    "clarity": 5,
+    "humanity_voice": 5,
+    "overall": 5,
+    "simplicity": 4,
+    "specificity_precision": 5,
+    "structure_flow": 5
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.2",
+  "candidate_model_id": "minimax/minimax-m2.5",
+  "created_at": "2026-03-08T12:34:04Z",
+  "judge_model_id": "z-ai/glm-5",
+  "metadata": {
+    "id": "gen-1772973233-mF0MXYm5GzrQPB9uESrl",
+    "raw_text": "{\"scores\": {\"clarity\": 5, \"simplicity\": 5, \"brevity_economy\": 4, \"structure_flow\": 5, \"specificity_precision\": 5, \"humanity_voice\": 4, \"overall\": 5}, \"rationale\": \"A well-crafted memo that fulfills all prompt requirements. The structure is exemplary\u2014clear sections with bold headings make it scannable. Specificity is strong: concrete categories like 'per-diem staffing' and 'cybersecurity updates' leave little ambiguity. The tone balances professionalism with humanity ('We recognize this is a significant operational change'). Slightly deducts for brevity as some list items could be consolidated, but overall this is an effective, actionable communication.\"}",
+    "usage": {
+      "completion_tokens": 657,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 498
+      },
+      "cost": 0.00332355,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.00206955,
+        "upstream_inference_cost": 0.00332355,
+        "upstream_inference_prompt_cost": 0.001254
+      },
+      "is_byok": false,
+      "prompt_tokens": 1320,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 1977
+    }
+  },
+  "prompt_category": "memo",
+  "prompt_id": "memo_budget_freeze",
+  "rationale": "A well-crafted memo that fulfills all prompt requirements. The structure is exemplary\u2014clear sections with bold headings make it scannable. Specificity is strong: concrete categories like 'per-diem staffing' and 'cybersecurity updates' leave little ambiguity. The tone balances professionalism with humanity ('We recognize this is a significant operational change'). Slightly deducts for brevity as some list items could be consolidated, but overall this is an effective, actionable communication.",
+  "run_name": "2026-03-08-openrouter-v0-2-clean-3",
+  "scores": {
+    "brevity_economy": 4,
+    "clarity": 5,
+    "humanity_voice": 4,
+    "overall": 5,
+    "simplicity": 5,
+    "specificity_precision": 5,
+    "structure_flow": 5
+  }
+}

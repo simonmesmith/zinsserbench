@@ -1,0 +1,47 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.2",
+  "candidate_model_id": "google/gemini-3.1-pro-preview",
+  "created_at": "2026-03-08T13:11:04Z",
+  "judge_model_id": "anthropic/claude-opus-4.6",
+  "metadata": {
+    "id": "gen-1772975456-1pUWzIEcII237RvkTxOm",
+    "raw_text": "{\"scores\": {\"clarity\": 5, \"simplicity\": 5, \"brevity_economy\": 4, \"structure_flow\": 5, \"specificity_precision\": 5, \"humanity_voice\": 5, \"overall\": 5}, \"rationale\": \"Exceptionally well-crafted consumer explainer. The opening scenario immediately grounds the reader, and the piece flows logically from 'what is it' to 'how to check' to 'what to do' to 'what if you already ate it.' Language is plain and direct throughout without ever feeling dumbed down. Specificity is strong: it names the two agencies and their jurisdictions, lists three concrete identifiers to check on packaging, names specific pathogens, and gives practical details like sealing discarded food in a plastic bag. The pet advice and kitchen sanitization steps add genuine value beyond boilerplate. Voice is warm and reassuring without being patronizing ('take a deep breath'). The only minor ding is on brevity\u2014a few phrases like 'Here is everything you need to know' and the slightly redundant framing in the intro could be trimmed\u2014but nothing feels padded. Overall, this is a near-ideal example of the genre.\"}",
+    "usage": {
+      "completion_tokens": 272,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 0
+      },
+      "cost": 0.01424,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.0068,
+        "upstream_inference_cost": 0.01424,
+        "upstream_inference_prompt_cost": 0.00744
+      },
+      "is_byok": false,
+      "prompt_tokens": 1488,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 1760
+    }
+  },
+  "prompt_category": "explain",
+  "prompt_id": "explain_food_recall",
+  "rationale": "Exceptionally well-crafted consumer explainer. The opening scenario immediately grounds the reader, and the piece flows logically from 'what is it' to 'how to check' to 'what to do' to 'what if you already ate it.' Language is plain and direct throughout without ever feeling dumbed down. Specificity is strong: it names the two agencies and their jurisdictions, lists three concrete identifiers to check on packaging, names specific pathogens, and gives practical details like sealing discarded food in a plastic bag. The pet advice and kitchen sanitization steps add genuine value beyond boilerplate. Voice is warm and reassuring without being patronizing ('take a deep breath'). The only minor ding is on brevity\u2014a few phrases like 'Here is everything you need to know' and the slightly redundant framing in the intro could be trimmed\u2014but nothing feels padded. Overall, this is a near-ideal example of the genre.",
+  "run_name": "2026-03-08-openrouter-v0-2-clean-3",
+  "scores": {
+    "brevity_economy": 4,
+    "clarity": 5,
+    "humanity_voice": 5,
+    "overall": 5,
+    "simplicity": 5,
+    "specificity_precision": 5,
+    "structure_flow": 5
+  }
+}

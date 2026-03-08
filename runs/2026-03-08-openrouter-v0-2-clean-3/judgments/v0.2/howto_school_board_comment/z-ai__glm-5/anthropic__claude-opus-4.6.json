@@ -1,0 +1,47 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.2",
+  "candidate_model_id": "z-ai/glm-5",
+  "created_at": "2026-03-08T13:19:08Z",
+  "judge_model_id": "anthropic/claude-opus-4.6",
+  "metadata": {
+    "id": "gen-1772975942-fzHLwAiDjxAZnw8y9RaP",
+    "raw_text": "{\"scores\": {\"clarity\": 5, \"simplicity\": 5, \"brevity_economy\": 4, \"structure_flow\": 5, \"specificity_precision\": 5, \"humanity_voice\": 4, \"overall\": 5}, \"rationale\": \"Exceptionally clear and well-organized guide with a logical six-phase structure that mirrors the chronological experience. The specificity is outstanding\u2014concrete time breakdowns for the speech (15 seconds for the hook, 45 for the problem), the Bus Route 42 example, the tip about large font and double spacing for shaky hands. Language is plain and direct throughout. Minor dings: slightly over-explains in places (the opening paragraph and closing paragraph are somewhat redundant), and the voice, while competent and reader-aware, occasionally tips into a slightly instructional/authoritative tone ('You cannot wing a three-minute speech') rather than feeling warmly human. But these are minor issues in what is an excellent practical guide.\"}",
+    "usage": {
+      "completion_tokens": 219,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 0
+      },
+      "cost": 0.014255,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.005475,
+        "upstream_inference_cost": 0.014255,
+        "upstream_inference_prompt_cost": 0.00878
+      },
+      "is_byok": false,
+      "prompt_tokens": 1756,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 1975
+    }
+  },
+  "prompt_category": "service_howto",
+  "prompt_id": "howto_school_board_comment",
+  "rationale": "Exceptionally clear and well-organized guide with a logical six-phase structure that mirrors the chronological experience. The specificity is outstanding\u2014concrete time breakdowns for the speech (15 seconds for the hook, 45 for the problem), the Bus Route 42 example, the tip about large font and double spacing for shaky hands. Language is plain and direct throughout. Minor dings: slightly over-explains in places (the opening paragraph and closing paragraph are somewhat redundant), and the voice, while competent and reader-aware, occasionally tips into a slightly instructional/authoritative tone ('You cannot wing a three-minute speech') rather than feeling warmly human. But these are minor issues in what is an excellent practical guide.",
+  "run_name": "2026-03-08-openrouter-v0-2-clean-3",
+  "scores": {
+    "brevity_economy": 4,
+    "clarity": 5,
+    "humanity_voice": 4,
+    "overall": 5,
+    "simplicity": 5,
+    "specificity_precision": 5,
+    "structure_flow": 5
+  }
+}

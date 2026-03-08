@@ -1,0 +1,56 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.2",
+  "candidate_label": "GPT-5.3 Chat",
+  "candidate_model_id": "openai/gpt-5.3-chat",
+  "created_at": "2026-03-08T12:23:55Z",
+  "metadata": {
+    "finish_reason": "stop",
+    "generation_attempt": 1,
+    "generation_settings": {
+      "max_output_tokens": 10000,
+      "reasoning_effort": "medium"
+    },
+    "id": "gen-1772972629-Mrfcomk6Y1JCwKoWPmG2",
+    "quality_guard": {
+      "minimum_words": 120,
+      "reason": "",
+      "status": "ok",
+      "word_count": 402
+    },
+    "raw_response_text": "Property taxes are a major source of funding for local services like public schools, police and fire departments, roads, parks, and libraries. If you own a home, the amount you pay is usually based on two main things: the value of your property and the tax rate set by local governments.\n\nFirst, the value of your property is estimated by a local assessor. The assessor looks at factors such as the size of your home, its location, the condition of the property, recent sales of similar homes nearby, and any improvements you\u2019ve made (like adding a room or finishing a basement). This estimate is called the assessed value. In many places the assessment is updated every year or every few years.\n\nSecond, local governments set a tax rate. Cities, counties, school districts, and sometimes special districts (like water or fire districts) each decide how much money they need to run their services. They then set tax rates to raise that amount. Your property tax bill is usually the assessed value of your home multiplied by the combined tax rates of these local entities.\n\nProperty taxes can change from year to year for several reasons:\n\n- Changes in your home\u2019s assessed value. If home prices in your area rise, your assessed value may go up, which can increase your tax bill. If values fall, your bill may decrease.\n- Changes to local tax rates. Local governments may raise or lower tax rates depending on their budgets and spending needs.\n- Improvements to your property. Renovations, additions, or major upgrades can increase the assessed value.\n- Expiring exemptions or tax breaks. Some homeowners receive exemptions (for example, for seniors, veterans, or primary residences). If those change or expire, your taxes may increase.\n- Voter-approved measures. Sometimes voters approve bonds or levies to fund schools, infrastructure, or other projects, which can affect property tax rates.\n\nEven if your home\u2019s value rises, your taxes might not increase by the same percentage because tax rates can also change. In some areas, laws limit how much property taxes can rise each year.\n\nIf you believe your assessment is too high, most places allow homeowners to review the assessment details and file an appeal. Checking your property record and comparing it with similar homes nearby can help you decide whether to challenge it.\n\nIn short, property taxes change because both property values and local government budgets change over time.",
+    "sanitization": {
+      "changed": false,
+      "patterns": [],
+      "removed_chars": 0,
+      "removed_ratio": 0.0
+    },
+    "usage": {
+      "completion_tokens": 477,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 0
+      },
+      "cost": 0.00678475,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.006678,
+        "upstream_inference_cost": 0.00678475,
+        "upstream_inference_prompt_cost": 0.00010675
+      },
+      "is_byok": false,
+      "prompt_tokens": 61,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 538
+    }
+  },
+  "prompt_category": "explain",
+  "prompt_id": "explain_property_tax",
+  "response_text": "Property taxes are a major source of funding for local services like public schools, police and fire departments, roads, parks, and libraries. If you own a home, the amount you pay is usually based on two main things: the value of your property and the tax rate set by local governments.\n\nFirst, the value of your property is estimated by a local assessor. The assessor looks at factors such as the size of your home, its location, the condition of the property, recent sales of similar homes nearby, and any improvements you\u2019ve made (like adding a room or finishing a basement). This estimate is called the assessed value. In many places the assessment is updated every year or every few years.\n\nSecond, local governments set a tax rate. Cities, counties, school districts, and sometimes special districts (like water or fire districts) each decide how much money they need to run their services. They then set tax rates to raise that amount. Your property tax bill is usually the assessed value of your home multiplied by the combined tax rates of these local entities.\n\nProperty taxes can change from year to year for several reasons:\n\n- Changes in your home\u2019s assessed value. If home prices in your area rise, your assessed value may go up, which can increase your tax bill. If values fall, your bill may decrease.\n- Changes to local tax rates. Local governments may raise or lower tax rates depending on their budgets and spending needs.\n- Improvements to your property. Renovations, additions, or major upgrades can increase the assessed value.\n- Expiring exemptions or tax breaks. Some homeowners receive exemptions (for example, for seniors, veterans, or primary residences). If those change or expire, your taxes may increase.\n- Voter-approved measures. Sometimes voters approve bonds or levies to fund schools, infrastructure, or other projects, which can affect property tax rates.\n\nEven if your home\u2019s value rises, your taxes might not increase by the same percentage because tax rates can also change. In some areas, laws limit how much property taxes can rise each year.\n\nIf you believe your assessment is too high, most places allow homeowners to review the assessment details and file an appeal. Checking your property record and comparing it with similar homes nearby can help you decide whether to challenge it.\n\nIn short, property taxes change because both property values and local government budgets change over time.",
+  "run_name": "2026-03-08-openrouter-v0-2-clean-3"
+}

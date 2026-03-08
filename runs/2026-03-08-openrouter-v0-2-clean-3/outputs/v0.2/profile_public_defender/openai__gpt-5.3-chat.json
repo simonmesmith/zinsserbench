@@ -1,0 +1,56 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.2",
+  "candidate_label": "GPT-5.3 Chat",
+  "candidate_model_id": "openai/gpt-5.3-chat",
+  "created_at": "2026-03-08T12:16:30Z",
+  "metadata": {
+    "finish_reason": "stop",
+    "generation_attempt": 1,
+    "generation_settings": {
+      "max_output_tokens": 10000,
+      "reasoning_effort": "medium"
+    },
+    "id": "gen-1772972178-s05WXeNWyj30Lh9qT28L",
+    "quality_guard": {
+      "minimum_words": 200,
+      "reason": "",
+      "status": "ok",
+      "word_count": 640
+    },
+    "raw_response_text": ":::writing\nBy 8:15 a.m., Elena Ruiz has already scanned 47 unread emails, two police reports, and a text from a client who spent the night in county jail wondering if anyone remembered him. Ruiz, a public defender in the midsize city of Riverton, sets her coffee down beside a stack of files thick enough to bow the metal shelf above her desk. She has 112 open cases. Today she will appear in court for nine of them.\n\nThis is not an unusual morning.\n\nRiverton\u2019s public defender office sits on the fourth floor of a concrete municipal building across from the courthouse. The hallway smells faintly of copier toner and burnt coffee. Ruiz\u2019s office is barely wider than her desk. Case files are stacked in uneven towers: assault, probation violations, drug possession, retail theft, domestic disputes. She flips through them quickly, leaving sticky notes like breadcrumbs.\n\nMost of her clients met her for the first time in a holding cell.\n\n\u201cPeople imagine big speeches in court,\u201d Ruiz says. \u201cMostly it\u2019s triage.\u201d\n\nRuiz is 36, with a calm voice that carries easily in noisy courtrooms. She grew up in a nearby town where her mother worked nights as a nurse. After law school she briefly considered private practice but took a public defender job instead. \u201cI liked the idea that the Constitution meant something real,\u201d she says.\n\nThe reality, she admits, is messier.\n\nHer morning docket begins with arraignments. Defendants shuffle forward in county-issued clothes while Ruiz stands beside them, whispering quick explanations: the charge, the bail amount, what happens next. Some are frightened. Some are angry. Some are exhausted in the flat way of people who have spent a night under fluorescent lights.\n\nBetween hearings she scribbles notes: call investigator, request body-cam footage, track down pharmacy records for a client claiming a prescription mix-up.\n\nEvery case contains a small universe of details that rarely make it into the official record. One client lost his job after missing a shift during arrest. Another is caring for a disabled parent. A third insists the police searched the wrong car.\n\n\u201cThe law is one story,\u201d Ruiz says. \u201cPeople\u2019s lives are another.\u201d\n\nBy lunchtime she has negotiated two plea deals, scheduled three trials, and convinced a judge to lower bail for a man accused of shoplifting diapers and formula. She eats a granola bar at her desk while listening to voicemail. One caller cries. Another hangs up mid-sentence.\n\nHeavy caseloads are the quiet backdrop of public defense nationwide. Professional guidelines recommend far fewer cases per attorney than Ruiz currently carries. In Riverton, budget debates often circle back to the same question: how much defense is enough.\n\nRuiz shrugs at the numbers. \u201cIf someone\u2019s freedom is on the line, that case matters to them more than anything in the world,\u201d she says. \u201cSo you try to treat it that way.\u201d\n\nIn the afternoon she meets a new client in a small interview room at the jail. The man sits across from her in an orange uniform, hands folded, trying to explain what happened during a chaotic night outside a bar. Ruiz listens carefully, occasionally stopping him to clarify timelines or names.\n\nBy the end of the meeting she has a rough plan: subpoena security footage, interview a bartender, check whether the arresting officer\u2019s report matches the timeline.\n\nIt is nearly 6 p.m. when Ruiz returns to the office. The courthouse has emptied, but her email has not. She opens another file, reads a police narrative, and begins drafting a motion to suppress evidence.\n\nTomorrow morning the stack on her desk will still be there. There will also be new files, new clients, new urgent messages.\n\nBefore shutting down her computer, Ruiz sends a short reply to the man who texted from jail the night before.\n\n\u201cI\u2019m your lawyer,\u201d it reads. \u201cI\u2019m working on your case.\u201d\n:::",
+    "sanitization": {
+      "changed": false,
+      "patterns": [],
+      "removed_chars": 0,
+      "removed_ratio": 0.0
+    },
+    "usage": {
+      "completion_tokens": 833,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 0
+      },
+      "cost": 0.01175825,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.011662,
+        "upstream_inference_cost": 0.01175825,
+        "upstream_inference_prompt_cost": 9.625e-05
+      },
+      "is_byok": false,
+      "prompt_tokens": 55,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 888
+    }
+  },
+  "prompt_category": "profile",
+  "prompt_id": "profile_public_defender",
+  "response_text": ":::writing\nBy 8:15 a.m., Elena Ruiz has already scanned 47 unread emails, two police reports, and a text from a client who spent the night in county jail wondering if anyone remembered him. Ruiz, a public defender in the midsize city of Riverton, sets her coffee down beside a stack of files thick enough to bow the metal shelf above her desk. She has 112 open cases. Today she will appear in court for nine of them.\n\nThis is not an unusual morning.\n\nRiverton\u2019s public defender office sits on the fourth floor of a concrete municipal building across from the courthouse. The hallway smells faintly of copier toner and burnt coffee. Ruiz\u2019s office is barely wider than her desk. Case files are stacked in uneven towers: assault, probation violations, drug possession, retail theft, domestic disputes. She flips through them quickly, leaving sticky notes like breadcrumbs.\n\nMost of her clients met her for the first time in a holding cell.\n\n\u201cPeople imagine big speeches in court,\u201d Ruiz says. \u201cMostly it\u2019s triage.\u201d\n\nRuiz is 36, with a calm voice that carries easily in noisy courtrooms. She grew up in a nearby town where her mother worked nights as a nurse. After law school she briefly considered private practice but took a public defender job instead. \u201cI liked the idea that the Constitution meant something real,\u201d she says.\n\nThe reality, she admits, is messier.\n\nHer morning docket begins with arraignments. Defendants shuffle forward in county-issued clothes while Ruiz stands beside them, whispering quick explanations: the charge, the bail amount, what happens next. Some are frightened. Some are angry. Some are exhausted in the flat way of people who have spent a night under fluorescent lights.\n\nBetween hearings she scribbles notes: call investigator, request body-cam footage, track down pharmacy records for a client claiming a prescription mix-up.\n\nEvery case contains a small universe of details that rarely make it into the official record. One client lost his job after missing a shift during arrest. Another is caring for a disabled parent. A third insists the police searched the wrong car.\n\n\u201cThe law is one story,\u201d Ruiz says. \u201cPeople\u2019s lives are another.\u201d\n\nBy lunchtime she has negotiated two plea deals, scheduled three trials, and convinced a judge to lower bail for a man accused of shoplifting diapers and formula. She eats a granola bar at her desk while listening to voicemail. One caller cries. Another hangs up mid-sentence.\n\nHeavy caseloads are the quiet backdrop of public defense nationwide. Professional guidelines recommend far fewer cases per attorney than Ruiz currently carries. In Riverton, budget debates often circle back to the same question: how much defense is enough.\n\nRuiz shrugs at the numbers. \u201cIf someone\u2019s freedom is on the line, that case matters to them more than anything in the world,\u201d she says. \u201cSo you try to treat it that way.\u201d\n\nIn the afternoon she meets a new client in a small interview room at the jail. The man sits across from her in an orange uniform, hands folded, trying to explain what happened during a chaotic night outside a bar. Ruiz listens carefully, occasionally stopping him to clarify timelines or names.\n\nBy the end of the meeting she has a rough plan: subpoena security footage, interview a bartender, check whether the arresting officer\u2019s report matches the timeline.\n\nIt is nearly 6 p.m. when Ruiz returns to the office. The courthouse has emptied, but her email has not. She opens another file, reads a police narrative, and begins drafting a motion to suppress evidence.\n\nTomorrow morning the stack on her desk will still be there. There will also be new files, new clients, new urgent messages.\n\nBefore shutting down her computer, Ruiz sends a short reply to the man who texted from jail the night before.\n\n\u201cI\u2019m your lawyer,\u201d it reads. \u201cI\u2019m working on your case.\u201d\n:::",
+  "run_name": "2026-03-08-openrouter-v0-2-clean-3"
+}

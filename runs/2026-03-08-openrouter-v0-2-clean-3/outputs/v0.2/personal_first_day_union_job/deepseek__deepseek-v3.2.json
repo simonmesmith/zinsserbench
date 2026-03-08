@@ -1,0 +1,56 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.2",
+  "candidate_label": "DeepSeek V3.2",
+  "candidate_model_id": "deepseek/deepseek-v3.2",
+  "created_at": "2026-03-08T12:10:54Z",
+  "metadata": {
+    "finish_reason": "stop",
+    "generation_attempt": 1,
+    "generation_settings": {
+      "max_output_tokens": 10000,
+      "reasoning_effort": "medium"
+    },
+    "id": "gen-1772971816-qHJywuGF9UlyI3etDHD4",
+    "quality_guard": {
+      "minimum_words": 200,
+      "reason": "",
+      "status": "ok",
+      "word_count": 774
+    },
+    "raw_response_text": "The alarm screamed at 4:30 AM, a sound that had always felt like a sentence. For years, my jobs had been a series of transactions: my time and energy in exchange for just enough money to reset the countdown clock until the next shift. Work was a necessary erosion. That\u2019s what I believed as I drove through the pre-dawn darkness toward the sprawling, lit-up factory, my new union card a flimsy, unfamiliar weight in my wallet.\n\nMy previous life had been in the world of \u201cat-will.\u201d I\u2019d been a barista whose manager cut my hours because I couldn\u2019t afford the non-slip shoes he recommended fast enough. I\u2019d stocked shelves in a big-box store where we were told not to speak to each other, lest we \u201cslow productivity.\u201d Work was solitary, precarious, and silent. You kept your head down, you took what you were given, and you were grateful to have it.\n\nThe first shock was the noise. Not the machinery\u2014I expected that\u2014but the human noise. The locker room buzzed with conversations, laughter, the clang of metal doors. Men and women called out to each other by name, asking about kids, weekends, sore knees. There was no frantic, solitary suiting up. It was a communal ritual. My trainer, a woman named Maria with silver-streaked hair and eyes that missed nothing, found me staring blankly at a timecard. \u201cFirst day?\u201d she asked, not unkindly. When I nodded, she simply said, \u201cFollow me. And breathe. You\u2019re not alone here.\u201d\n\nAlone was all I knew how to be. Maria showed me the line, the rhythms of the machine I\u2019d be tending. But she also pointed out other things. \u201cSee that red button? That\u2019s your stop button. If something\u2019s wrong, you hit it. You don\u2019t ask permission. You hit it.\u201d The power of that simple statement felt subversive. In my old world, stopping the line without a manager\u2019s nod was a fireable offense.\n\nThe second shock came at 9:15 AM. A bell rang, and the line ground to a halt. Not a slowdown, a full stop. \u201cBreak time,\u201d Maria said, leading me to a bright, clean cafeteria. Not a cramped back room with a broken chair, but a real room with tables, microwaves, and coffee that wasn\u2019t locked away. People sat together, talking, playing cards. For fifteen minutes, the work ceased to exist. It was a scheduled, sacred pause, paid for and non-negotiable. I sat with my brown-bag sandwich, watching, and felt a strange, unfamiliar sensation: I was not stealing this time. It was mine.\n\nThe real change, however, crystallized in the afternoon. A union steward, a guy named Leo with forearms like knotted rope, came by. He wasn\u2019t management. He worked the line two stations over. He handed me a thick booklet. \u201cYour contract,\u201d he said. \u201cEverything is in here. Your pay scales, your break times, the grievance procedure, your healthcare, your pension. If anyone tells you to do something that isn\u2019t in here, you come find me.\u201d He said it plainly, like he was telling me where the restrooms were.\n\nI held the booklet. A *contract*. Not a list of rules I had to obey, but a list of promises the company had to keep. To *me*. It outlined how I could challenge unfairness, how my pay would grow, how my body would be protected. Work had always been a one-way street; this was a negotiated agreement. The weight in my hands wasn\u2019t flimsy anymore. It was substantial.\n\nAt the end of the shift, bone-tired but cleanly tired, Maria walked me out. An older worker named Frank was arguing softly with a floor supervisor by the time clock. I braced for the familiar scene: the bowed head, the swallowed complaint. But Frank stood straight, his voice low but firm. He cited a clause, a safety protocol. The supervisor\u2019s posture changed from imposition to negotiation. They talked, not as master and servant, but as parties to a shared accord. Frank clocked out, giving us a slight nod.\n\nWalking to my car in the evening light, the fatigue felt different. It was the honest ache of effort, not the hollow exhaustion of powerlessness. For the first time, I understood that work didn\u2019t have to be something done *to* you. It could be something you did, with rights, with dignity, and with others. The union card in my pocket wasn\u2019t just a pass to a job. It was a key to a different idea of work itself\u2014not as a daily surrender, but as a collective, respected endeavor. The alarm would go off again tomorrow, but for the first time, it didn\u2019t sound like a sentence. It sounded like a call.",
+    "sanitization": {
+      "changed": false,
+      "patterns": [],
+      "removed_chars": 0,
+      "removed_ratio": 0.0
+    },
+    "usage": {
+      "completion_tokens": 1212,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 176
+      },
+      "cost": 0.0004988,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.0004848,
+        "upstream_inference_cost": 0.0004988,
+        "upstream_inference_prompt_cost": 1.4e-05
+      },
+      "is_byok": false,
+      "prompt_tokens": 56,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 1268
+    }
+  },
+  "prompt_category": "personal_nonfiction",
+  "prompt_id": "personal_first_day_union_job",
+  "response_text": "The alarm screamed at 4:30 AM, a sound that had always felt like a sentence. For years, my jobs had been a series of transactions: my time and energy in exchange for just enough money to reset the countdown clock until the next shift. Work was a necessary erosion. That\u2019s what I believed as I drove through the pre-dawn darkness toward the sprawling, lit-up factory, my new union card a flimsy, unfamiliar weight in my wallet.\n\nMy previous life had been in the world of \u201cat-will.\u201d I\u2019d been a barista whose manager cut my hours because I couldn\u2019t afford the non-slip shoes he recommended fast enough. I\u2019d stocked shelves in a big-box store where we were told not to speak to each other, lest we \u201cslow productivity.\u201d Work was solitary, precarious, and silent. You kept your head down, you took what you were given, and you were grateful to have it.\n\nThe first shock was the noise. Not the machinery\u2014I expected that\u2014but the human noise. The locker room buzzed with conversations, laughter, the clang of metal doors. Men and women called out to each other by name, asking about kids, weekends, sore knees. There was no frantic, solitary suiting up. It was a communal ritual. My trainer, a woman named Maria with silver-streaked hair and eyes that missed nothing, found me staring blankly at a timecard. \u201cFirst day?\u201d she asked, not unkindly. When I nodded, she simply said, \u201cFollow me. And breathe. You\u2019re not alone here.\u201d\n\nAlone was all I knew how to be. Maria showed me the line, the rhythms of the machine I\u2019d be tending. But she also pointed out other things. \u201cSee that red button? That\u2019s your stop button. If something\u2019s wrong, you hit it. You don\u2019t ask permission. You hit it.\u201d The power of that simple statement felt subversive. In my old world, stopping the line without a manager\u2019s nod was a fireable offense.\n\nThe second shock came at 9:15 AM. A bell rang, and the line ground to a halt. Not a slowdown, a full stop. \u201cBreak time,\u201d Maria said, leading me to a bright, clean cafeteria. Not a cramped back room with a broken chair, but a real room with tables, microwaves, and coffee that wasn\u2019t locked away. People sat together, talking, playing cards. For fifteen minutes, the work ceased to exist. It was a scheduled, sacred pause, paid for and non-negotiable. I sat with my brown-bag sandwich, watching, and felt a strange, unfamiliar sensation: I was not stealing this time. It was mine.\n\nThe real change, however, crystallized in the afternoon. A union steward, a guy named Leo with forearms like knotted rope, came by. He wasn\u2019t management. He worked the line two stations over. He handed me a thick booklet. \u201cYour contract,\u201d he said. \u201cEverything is in here. Your pay scales, your break times, the grievance procedure, your healthcare, your pension. If anyone tells you to do something that isn\u2019t in here, you come find me.\u201d He said it plainly, like he was telling me where the restrooms were.\n\nI held the booklet. A *contract*. Not a list of rules I had to obey, but a list of promises the company had to keep. To *me*. It outlined how I could challenge unfairness, how my pay would grow, how my body would be protected. Work had always been a one-way street; this was a negotiated agreement. The weight in my hands wasn\u2019t flimsy anymore. It was substantial.\n\nAt the end of the shift, bone-tired but cleanly tired, Maria walked me out. An older worker named Frank was arguing softly with a floor supervisor by the time clock. I braced for the familiar scene: the bowed head, the swallowed complaint. But Frank stood straight, his voice low but firm. He cited a clause, a safety protocol. The supervisor\u2019s posture changed from imposition to negotiation. They talked, not as master and servant, but as parties to a shared accord. Frank clocked out, giving us a slight nod.\n\nWalking to my car in the evening light, the fatigue felt different. It was the honest ache of effort, not the hollow exhaustion of powerlessness. For the first time, I understood that work didn\u2019t have to be something done *to* you. It could be something you did, with rights, with dignity, and with others. The union card in my pocket wasn\u2019t just a pass to a job. It was a key to a different idea of work itself\u2014not as a daily surrender, but as a collective, respected endeavor. The alarm would go off again tomorrow, but for the first time, it didn\u2019t sound like a sentence. It sounded like a call.",
+  "run_name": "2026-03-08-openrouter-v0-2-clean-3"
+}

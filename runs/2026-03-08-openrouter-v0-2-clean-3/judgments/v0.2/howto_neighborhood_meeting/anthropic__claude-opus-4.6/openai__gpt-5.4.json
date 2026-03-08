@@ -1,0 +1,47 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.2",
+  "candidate_model_id": "anthropic/claude-opus-4.6",
+  "created_at": "2026-03-08T12:47:44Z",
+  "judge_model_id": "openai/gpt-5.4",
+  "metadata": {
+    "id": "gen-1772974060-3pBaCFL9bBmKlX6TC7rq",
+    "raw_text": "{\"scores\":{\"clarity\":5,\"simplicity\":4,\"brevity_economy\":3,\"structure_flow\":5,\"specificity_precision\":5,\"humanity_voice\":5,\"overall\":5},\"rationale\":\"Clear, highly organized, and very practical. The step-by-step structure, concrete examples, sample agenda, and follow-up advice make it easy to use. The main weakness is length: it repeats points and adds motivational framing that could be trimmed. Language is mostly plain, with a few slightly inflated or rhetorical passages.\"}",
+    "usage": {
+      "completion_tokens": 303,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 185
+      },
+      "cost": 0.0134425,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.004545,
+        "upstream_inference_cost": 0.0134425,
+        "upstream_inference_prompt_cost": 0.0088975
+      },
+      "is_byok": false,
+      "prompt_tokens": 3559,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 3862
+    }
+  },
+  "prompt_category": "service_howto",
+  "prompt_id": "howto_neighborhood_meeting",
+  "rationale": "Clear, highly organized, and very practical. The step-by-step structure, concrete examples, sample agenda, and follow-up advice make it easy to use. The main weakness is length: it repeats points and adds motivational framing that could be trimmed. Language is mostly plain, with a few slightly inflated or rhetorical passages.",
+  "run_name": "2026-03-08-openrouter-v0-2-clean-3",
+  "scores": {
+    "brevity_economy": 3,
+    "clarity": 5,
+    "humanity_voice": 5,
+    "overall": 5,
+    "simplicity": 4,
+    "specificity_precision": 5,
+    "structure_flow": 5
+  }
+}

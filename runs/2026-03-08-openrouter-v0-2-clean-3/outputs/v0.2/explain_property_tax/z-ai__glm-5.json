@@ -1,0 +1,56 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.2",
+  "candidate_label": "GLM-5",
+  "candidate_model_id": "z-ai/glm-5",
+  "created_at": "2026-03-08T12:25:32Z",
+  "metadata": {
+    "finish_reason": "stop",
+    "generation_attempt": 1,
+    "generation_settings": {
+      "max_output_tokens": 10000,
+      "reasoning_effort": "medium"
+    },
+    "id": "gen-1772972680-422vdqjobt2V0cw9dZPh",
+    "quality_guard": {
+      "minimum_words": 120,
+      "reason": "",
+      "status": "ok",
+      "word_count": 795
+    },
+    "raw_response_text": "Most homeowners know that property taxes are a bill that comes once a year, but few understand exactly how the math works or why the amount due seems to creep up even when you haven\u2019t made any major changes to your house.\n\nHere is a plain-English breakdown of how property taxes are calculated and why they fluctuate.\n\n### The Basic Formula\nTo understand your tax bill, you only need to know one simple equation:\n\n**Your Tax Bill = Your Home\u2019s Value \u00d7 Your Local Tax Rate**\n\nIt sounds simple, but the complexity lies in how \"value\" and \"rate\" are determined.\n\n### Part 1: How Your Home\u2019s Value Is Set\nYou might assume your home\u2019s value is whatever you could sell it for today (its market value). However, for tax purposes, the government uses an official figure called the **Assessed Value**.\n\nAn official known as the **County Assessor** determines this value. Their job is to estimate what your home is worth based on recent sales of similar homes nearby, the size of your lot, the square footage of your house, and any improvements you\u2019ve made (like adding a garage or finishing a basement).\n\n**Key Point:** Assessors don't visit every home every year. Instead, they rely on data and mass appraisals. Depending on where you live, they may reassess your home every year, every few years, or only when the property is sold.\n\n### Part 2: How the Tax Rate Is Set\nOnce the value is set, the local government applies a tax rate (sometimes called a \"millage rate\"). This rate is not pulled out of thin air; it is determined by a simple math problem based on the local budget.\n\nHere is how it works:\n1.  **The Budget:** Your city, school district, and county figure out how much money they need to operate for the year. This covers police, fire departments, road repairs, public schools, and parks.\n2.  **The Pot:** They look at the total assessed value of *all* homes and businesses in the area.\n3.  **The Rate:** They calculate the rate needed to generate that budget amount from that pot.\n\n### Why Your Taxes Change From Year to Year\nYour tax bill can change for three main reasons. Usually, it\u2019s a combination of all three.\n\n#### 1. Your Home\u2019s Value Increased\nThis is the most common reason for a higher bill. If the real estate market in your neighborhood is hot and homes are selling for higher prices, the Assessor will increase the assessed value of your home.\n\nIf your value goes up and the tax rate stays the same, your bill goes up.\n\n#### 2. Your Local Government Needs More Money\nEven if your home\u2019s value stays exactly the same, your taxes can go up if the local government raises the tax rate.\n\nThis often happens when a school district needs to build a new school, or the city needs to hire more police officers. If the voters approve a new levy or the city council raises the rate to cover budget shortfalls, your bill will increase.\n\n#### 3. You Lost an Exemption\nMany states offer \"exemptions\" that lower your taxable value.\n*   **Homestead Exemption:** A discount for living in the home as your primary residence rather than using it as a rental or vacation home.\n*   **Senior/Disability Exemptions:** Reductions for older adults or those with disabilities.\n\nIf you move out and rent the home, or if you forget to reapply for a senior exemption, you lose that discount. This can cause a sudden, sharp spike in your tax bill.\n\n### Common Myths Debunked\n\n**Myth: \"If my neighbor sells their house for a huge profit, my taxes will skyrocket immediately.\"**\n**Reality:** While a neighbor's high sale price does provide data that suggests your neighborhood is worth more, assessors look at averages over time. One high sale won't double your taxes, but it does signal to the assessor that values in the area are rising.\n\n**Myth: \"The government can raise my taxes whenever they want.\"**\n**Reality:** Many states have laws that limit how much assessed values can rise annually (for example, a cap that says your assessed value can\u2019t rise more than 3% a year as long as you own the home). However, these caps usually \"reset\" to the full market value the moment you sell the home to a new buyer.\n\n### What You Can Do\nIf you receive your assessment notice and believe the value is too high, you have the right to **appeal**. This usually involves providing evidence that similar homes in your neighborhood are selling for less than what the assessor claims your home is worth. There is typically a short window of time (often 30 days) to file this appeal, so it is important to read your assessment notices carefully.",
+    "sanitization": {
+      "changed": false,
+      "patterns": [],
+      "removed_chars": 0,
+      "removed_ratio": 0.0
+    },
+    "usage": {
+      "completion_tokens": 2086,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 1139
+      },
+      "cost": 0.00536688,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.00534016,
+        "upstream_inference_cost": 0.00536688,
+        "upstream_inference_prompt_cost": 2.672e-05
+      },
+      "is_byok": false,
+      "prompt_tokens": 59,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 32,
+        "video_tokens": 0
+      },
+      "total_tokens": 2145
+    }
+  },
+  "prompt_category": "explain",
+  "prompt_id": "explain_property_tax",
+  "response_text": "Most homeowners know that property taxes are a bill that comes once a year, but few understand exactly how the math works or why the amount due seems to creep up even when you haven\u2019t made any major changes to your house.\n\nHere is a plain-English breakdown of how property taxes are calculated and why they fluctuate.\n\n### The Basic Formula\nTo understand your tax bill, you only need to know one simple equation:\n\n**Your Tax Bill = Your Home\u2019s Value \u00d7 Your Local Tax Rate**\n\nIt sounds simple, but the complexity lies in how \"value\" and \"rate\" are determined.\n\n### Part 1: How Your Home\u2019s Value Is Set\nYou might assume your home\u2019s value is whatever you could sell it for today (its market value). However, for tax purposes, the government uses an official figure called the **Assessed Value**.\n\nAn official known as the **County Assessor** determines this value. Their job is to estimate what your home is worth based on recent sales of similar homes nearby, the size of your lot, the square footage of your house, and any improvements you\u2019ve made (like adding a garage or finishing a basement).\n\n**Key Point:** Assessors don't visit every home every year. Instead, they rely on data and mass appraisals. Depending on where you live, they may reassess your home every year, every few years, or only when the property is sold.\n\n### Part 2: How the Tax Rate Is Set\nOnce the value is set, the local government applies a tax rate (sometimes called a \"millage rate\"). This rate is not pulled out of thin air; it is determined by a simple math problem based on the local budget.\n\nHere is how it works:\n1.  **The Budget:** Your city, school district, and county figure out how much money they need to operate for the year. This covers police, fire departments, road repairs, public schools, and parks.\n2.  **The Pot:** They look at the total assessed value of *all* homes and businesses in the area.\n3.  **The Rate:** They calculate the rate needed to generate that budget amount from that pot.\n\n### Why Your Taxes Change From Year to Year\nYour tax bill can change for three main reasons. Usually, it\u2019s a combination of all three.\n\n#### 1. Your Home\u2019s Value Increased\nThis is the most common reason for a higher bill. If the real estate market in your neighborhood is hot and homes are selling for higher prices, the Assessor will increase the assessed value of your home.\n\nIf your value goes up and the tax rate stays the same, your bill goes up.\n\n#### 2. Your Local Government Needs More Money\nEven if your home\u2019s value stays exactly the same, your taxes can go up if the local government raises the tax rate.\n\nThis often happens when a school district needs to build a new school, or the city needs to hire more police officers. If the voters approve a new levy or the city council raises the rate to cover budget shortfalls, your bill will increase.\n\n#### 3. You Lost an Exemption\nMany states offer \"exemptions\" that lower your taxable value.\n*   **Homestead Exemption:** A discount for living in the home as your primary residence rather than using it as a rental or vacation home.\n*   **Senior/Disability Exemptions:** Reductions for older adults or those with disabilities.\n\nIf you move out and rent the home, or if you forget to reapply for a senior exemption, you lose that discount. This can cause a sudden, sharp spike in your tax bill.\n\n### Common Myths Debunked\n\n**Myth: \"If my neighbor sells their house for a huge profit, my taxes will skyrocket immediately.\"**\n**Reality:** While a neighbor's high sale price does provide data that suggests your neighborhood is worth more, assessors look at averages over time. One high sale won't double your taxes, but it does signal to the assessor that values in the area are rising.\n\n**Myth: \"The government can raise my taxes whenever they want.\"**\n**Reality:** Many states have laws that limit how much assessed values can rise annually (for example, a cap that says your assessed value can\u2019t rise more than 3% a year as long as you own the home). However, these caps usually \"reset\" to the full market value the moment you sell the home to a new buyer.\n\n### What You Can Do\nIf you receive your assessment notice and believe the value is too high, you have the right to **appeal**. This usually involves providing evidence that similar homes in your neighborhood are selling for less than what the assessor claims your home is worth. There is typically a short window of time (often 30 days) to file this appeal, so it is important to read your assessment notices carefully.",
+  "run_name": "2026-03-08-openrouter-v0-2-clean-3"
+}

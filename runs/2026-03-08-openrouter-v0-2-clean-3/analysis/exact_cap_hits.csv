@@ -1,0 +1,2 @@
+candidate_model_id,prompt_id,completion_tokens,max_output_tokens
+qwen/qwen3.5-35b-a3b,personal_public_pool,29943,10000

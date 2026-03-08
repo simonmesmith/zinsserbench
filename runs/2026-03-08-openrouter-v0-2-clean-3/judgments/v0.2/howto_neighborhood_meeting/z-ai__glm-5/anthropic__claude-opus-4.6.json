@@ -1,0 +1,47 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.2",
+  "candidate_model_id": "z-ai/glm-5",
+  "created_at": "2026-03-08T12:48:19Z",
+  "judge_model_id": "anthropic/claude-opus-4.6",
+  "metadata": {
+    "id": "gen-1772974092-8rkA9WWQDY4l1vx5lKka",
+    "raw_text": "{\"scores\": {\"clarity\": 5, \"simplicity\": 5, \"brevity_economy\": 4, \"structure_flow\": 5, \"specificity_precision\": 5, \"humanity_voice\": 4, \"overall\": 5}, \"rationale\": \"Exceptionally clear and logically structured across four phases that mirror a real-world timeline. Specific, actionable details (e.g., doorknob flyers, the mailbox legality note, a sample agenda with time allotments, 48-hour follow-up window) elevate it well beyond generic advice. Language is plain and direct throughout. Minor dings: a few sentences lean slightly instructional-manual ('You must act as a facilitator') and the opening paragraph has a touch of throat-clearing before getting to the substance. Voice is confident and reader-aware but occasionally veers toward textbook tone rather than conversational warmth. Overall, this is a polished, genuinely useful guide.\"}",
+    "usage": {
+      "completion_tokens": 248,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 21
+      },
+      "cost": 0.014025,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.0062,
+        "upstream_inference_cost": 0.014025,
+        "upstream_inference_prompt_cost": 0.007825
+      },
+      "is_byok": false,
+      "prompt_tokens": 1565,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 1813
+    }
+  },
+  "prompt_category": "service_howto",
+  "prompt_id": "howto_neighborhood_meeting",
+  "rationale": "Exceptionally clear and logically structured across four phases that mirror a real-world timeline. Specific, actionable details (e.g., doorknob flyers, the mailbox legality note, a sample agenda with time allotments, 48-hour follow-up window) elevate it well beyond generic advice. Language is plain and direct throughout. Minor dings: a few sentences lean slightly instructional-manual ('You must act as a facilitator') and the opening paragraph has a touch of throat-clearing before getting to the substance. Voice is confident and reader-aware but occasionally veers toward textbook tone rather than conversational warmth. Overall, this is a polished, genuinely useful guide.",
+  "run_name": "2026-03-08-openrouter-v0-2-clean-3",
+  "scores": {
+    "brevity_economy": 4,
+    "clarity": 5,
+    "humanity_voice": 4,
+    "overall": 5,
+    "simplicity": 5,
+    "specificity_precision": 5,
+    "structure_flow": 5
+  }
+}

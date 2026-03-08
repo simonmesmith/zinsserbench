@@ -1,0 +1,56 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.2",
+  "candidate_label": "Claude Sonnet 4.6",
+  "candidate_model_id": "anthropic/claude-sonnet-4.6",
+  "created_at": "2026-03-08T12:25:48Z",
+  "metadata": {
+    "finish_reason": "stop",
+    "generation_attempt": 1,
+    "generation_settings": {
+      "max_output_tokens": 10000,
+      "reasoning_effort": "medium"
+    },
+    "id": "gen-1772972732-izaHvb2R3vwVxsjWEuw0",
+    "quality_guard": {
+      "minimum_words": 100,
+      "reason": "",
+      "status": "ok",
+      "word_count": 463
+    },
+    "raw_response_text": "# INTERNAL MEMORANDUM\n\n---\n\n**TO:** All Warehouse Staff\n**FROM:** Operations Management\n**DATE:** November 10, 2025\n**RE:** Holiday Season Shift Schedule Changes \u2013 Effective December 1, 2025\n\n---\n\n**PURPOSE**\n\nAs we approach our busiest time of year, we want to give you advance notice of upcoming changes to shift schedules across all warehouse departments. These adjustments are designed to meet increased order volume while ensuring fair and manageable workloads for every team member.\n\n---\n\n**SCHEDULE CHANGES**\n\nEffective **Monday, December 1, 2025**, the following changes will be in place through **Saturday, January 10, 2026**:\n\n- **First Shift:** 5:00 AM \u2013 1:30 PM (previously 6:00 AM \u2013 2:30 PM)\n- **Second Shift:** 1:00 PM \u2013 9:30 PM (no change)\n- **Third Shift:** 9:00 PM \u2013 5:30 AM (previously 10:00 PM \u2013 6:30 AM)\n- **Weekend Shifts:** Mandatory overtime availability will be offered on a rotating basis. Volunteers are encouraged to sign up with their supervisors by November 22.\n\nAll shifts will include two paid 15-minute breaks and one 30-minute unpaid meal break.\n\n---\n\n**ADDITIONAL STAFFING NOTES**\n\n- Temporary seasonal employees will join the floor beginning December 1. Department leads will conduct brief orientation walkthroughs during the first week.\n- Cross-training opportunities will be available for employees interested in working in adjacent departments during peak hours. Speak with your supervisor if you are interested.\n- Overtime pay at **1.5x the standard hourly rate** will apply to all hours worked beyond 40 hours per week, in accordance with company policy.\n\n---\n\n**TIME-OFF REQUESTS**\n\nWe understand the holidays are an important time for everyone. However, please note that **blackout dates** for time-off requests are in effect from **December 18 through December 28** and **December 31 through January 2**. Requests for these dates submitted prior to November 1 that were already approved will be honored.\n\nIf you have extenuating circumstances, please speak with your direct supervisor as soon as possible.\n\n---\n\n**WHAT YOU NEED TO DO**\n\n1. Review your updated schedule in the employee scheduling portal by **November 17**.\n2. Contact your shift supervisor with any conflicts or questions no later than **November 20**.\n3. Sign up for optional weekend overtime shifts by **November 22**.\n\n---\n\n**A NOTE FROM MANAGEMENT**\n\nWe recognize that schedule changes can affect your routines and personal plans, and we sincerely appreciate your flexibility and dedication. The effort this team puts in during the holiday season is what allows us to deliver for our customers, and that does not go unnoticed. Seasonal performance bonuses and recognition details will be shared in a separate communication the week of November 17.\n\nThank you for everything you do. Let's make this our best season yet.\n\n---\n\n*Questions? Contact your shift supervisor or reach the HR department at hr@company.com or extension 204.*\n\n---\n*This memo is for internal distribution only.*",
+    "sanitization": {
+      "changed": false,
+      "patterns": [],
+      "removed_chars": 0,
+      "removed_ratio": 0.0
+    },
+    "usage": {
+      "completion_tokens": 773,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 33
+      },
+      "cost": 0.011814,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.011595,
+        "upstream_inference_cost": 0.011814,
+        "upstream_inference_prompt_cost": 0.000219
+      },
+      "is_byok": false,
+      "prompt_tokens": 73,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 846
+    }
+  },
+  "prompt_category": "memo",
+  "prompt_id": "memo_schedule_change",
+  "response_text": "# INTERNAL MEMORANDUM\n\n---\n\n**TO:** All Warehouse Staff\n**FROM:** Operations Management\n**DATE:** November 10, 2025\n**RE:** Holiday Season Shift Schedule Changes \u2013 Effective December 1, 2025\n\n---\n\n**PURPOSE**\n\nAs we approach our busiest time of year, we want to give you advance notice of upcoming changes to shift schedules across all warehouse departments. These adjustments are designed to meet increased order volume while ensuring fair and manageable workloads for every team member.\n\n---\n\n**SCHEDULE CHANGES**\n\nEffective **Monday, December 1, 2025**, the following changes will be in place through **Saturday, January 10, 2026**:\n\n- **First Shift:** 5:00 AM \u2013 1:30 PM (previously 6:00 AM \u2013 2:30 PM)\n- **Second Shift:** 1:00 PM \u2013 9:30 PM (no change)\n- **Third Shift:** 9:00 PM \u2013 5:30 AM (previously 10:00 PM \u2013 6:30 AM)\n- **Weekend Shifts:** Mandatory overtime availability will be offered on a rotating basis. Volunteers are encouraged to sign up with their supervisors by November 22.\n\nAll shifts will include two paid 15-minute breaks and one 30-minute unpaid meal break.\n\n---\n\n**ADDITIONAL STAFFING NOTES**\n\n- Temporary seasonal employees will join the floor beginning December 1. Department leads will conduct brief orientation walkthroughs during the first week.\n- Cross-training opportunities will be available for employees interested in working in adjacent departments during peak hours. Speak with your supervisor if you are interested.\n- Overtime pay at **1.5x the standard hourly rate** will apply to all hours worked beyond 40 hours per week, in accordance with company policy.\n\n---\n\n**TIME-OFF REQUESTS**\n\nWe understand the holidays are an important time for everyone. However, please note that **blackout dates** for time-off requests are in effect from **December 18 through December 28** and **December 31 through January 2**. Requests for these dates submitted prior to November 1 that were already approved will be honored.\n\nIf you have extenuating circumstances, please speak with your direct supervisor as soon as possible.\n\n---\n\n**WHAT YOU NEED TO DO**\n\n1. Review your updated schedule in the employee scheduling portal by **November 17**.\n2. Contact your shift supervisor with any conflicts or questions no later than **November 20**.\n3. Sign up for optional weekend overtime shifts by **November 22**.\n\n---\n\n**A NOTE FROM MANAGEMENT**\n\nWe recognize that schedule changes can affect your routines and personal plans, and we sincerely appreciate your flexibility and dedication. The effort this team puts in during the holiday season is what allows us to deliver for our customers, and that does not go unnoticed. Seasonal performance bonuses and recognition details will be shared in a separate communication the week of November 17.\n\nThank you for everything you do. Let's make this our best season yet.\n\n---\n\n*Questions? Contact your shift supervisor or reach the HR department at hr@company.com or extension 204.*\n\n---\n*This memo is for internal distribution only.*",
+  "run_name": "2026-03-08-openrouter-v0-2-clean-3"
+}

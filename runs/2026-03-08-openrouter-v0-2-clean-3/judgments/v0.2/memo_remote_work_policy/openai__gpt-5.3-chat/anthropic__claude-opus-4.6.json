@@ -1,0 +1,47 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.2",
+  "candidate_model_id": "openai/gpt-5.3-chat",
+  "created_at": "2026-03-08T12:28:04Z",
+  "judge_model_id": "anthropic/claude-opus-4.6",
+  "metadata": {
+    "id": "gen-1772972871-s3vQmkAYs96HVubuXV7p",
+    "raw_text": "{\"scores\": {\"clarity\": 5, \"simplicity\": 5, \"brevity_economy\": 4, \"structure_flow\": 5, \"specificity_precision\": 4, \"humanity_voice\": 4, \"overall\": 5}, \"rationale\": \"Exceptionally clear and well-organized memo. Headers cleanly separate policy, rationale, and next steps. Specific dates (May 1, April 15), concrete parameters (three days remote, two in-office collaboration days), and numbered action items make it immediately actionable. Language is plain and direct throughout. Minor deductions: the 'Why' section relies on slightly generic corporate reasoning ('creativity, faster decision-making, stronger relationships') rather than citing the actual data mentioned in the opening, and the closing sentence tips into light corporate boilerplate. Voice is warm and appropriate for an all-hands memo but doesn't stand out as distinctively human. Overall an excellent, near-ideal example of this format.\"}",
+    "usage": {
+      "completion_tokens": 605,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 376
+      },
+      "cost": 0.0194,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.015125,
+        "upstream_inference_cost": 0.0194,
+        "upstream_inference_prompt_cost": 0.004275
+      },
+      "is_byok": false,
+      "prompt_tokens": 855,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 1460
+    }
+  },
+  "prompt_category": "memo",
+  "prompt_id": "memo_remote_work_policy",
+  "rationale": "Exceptionally clear and well-organized memo. Headers cleanly separate policy, rationale, and next steps. Specific dates (May 1, April 15), concrete parameters (three days remote, two in-office collaboration days), and numbered action items make it immediately actionable. Language is plain and direct throughout. Minor deductions: the 'Why' section relies on slightly generic corporate reasoning ('creativity, faster decision-making, stronger relationships') rather than citing the actual data mentioned in the opening, and the closing sentence tips into light corporate boilerplate. Voice is warm and appropriate for an all-hands memo but doesn't stand out as distinctively human. Overall an excellent, near-ideal example of this format.",
+  "run_name": "2026-03-08-openrouter-v0-2-clean-3",
+  "scores": {
+    "brevity_economy": 4,
+    "clarity": 5,
+    "humanity_voice": 4,
+    "overall": 5,
+    "simplicity": 5,
+    "specificity_precision": 4,
+    "structure_flow": 5
+  }
+}

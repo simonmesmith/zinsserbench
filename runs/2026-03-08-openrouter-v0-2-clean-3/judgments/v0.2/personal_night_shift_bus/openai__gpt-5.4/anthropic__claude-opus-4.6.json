@@ -1,0 +1,47 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.2",
+  "candidate_model_id": "openai/gpt-5.4",
+  "created_at": "2026-03-08T13:26:11Z",
+  "judge_model_id": "anthropic/claude-opus-4.6",
+  "metadata": {
+    "id": "gen-1772976362-VIglkTZKn1PyTATKYApq",
+    "raw_text": "{\"scores\": {\"clarity\": 5, \"simplicity\": 4, \"brevity_economy\": 3, \"structure_flow\": 5, \"specificity_precision\": 5, \"humanity_voice\": 5, \"overall\": 5}, \"rationale\": \"This is exceptional personal nonfiction. The clarity is flawless\u2014every sentence lands on first read. The specificity is extraordinary: the mustard soaking through wax paper, the cartoon stickers on the lunch cooler, the girl slashing a line through her heart on the fogged window. The voice is deeply human, self-aware without being self-indulgent, and the structural arc\u2014from shame to recognition to departure to loss\u2014is perfectly executed. The prose has genuine wit ('heartbreak still had to pay the fare,' 'January, that blunt instrument of a month'). Where it loses a point: simplicity and brevity. The essay is overlong for what it delivers. Some passages tip from evocative into ornamental\u2014the extended seasonal catalogue, the repeated meditations on fatigue and dignity, the philosophical summations that restate what the images already showed. Lines like 'the ancient, unglamorous act of leaving work' and 'meaning arrives disguised as inconvenience' are polished but verge on essay-contest sententiousness. A tighter version cutting 25-30% would be stronger. Still, the cumulative effect is genuinely moving, and the craft is among the best you'll see for this kind of prompt.\"}",
+    "usage": {
+      "completion_tokens": 334,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 0
+      },
+      "cost": 0.025895,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.00835,
+        "upstream_inference_cost": 0.025895,
+        "upstream_inference_prompt_cost": 0.017545
+      },
+      "is_byok": false,
+      "prompt_tokens": 3509,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 3843
+    }
+  },
+  "prompt_category": "personal_nonfiction",
+  "prompt_id": "personal_night_shift_bus",
+  "rationale": "This is exceptional personal nonfiction. The clarity is flawless\u2014every sentence lands on first read. The specificity is extraordinary: the mustard soaking through wax paper, the cartoon stickers on the lunch cooler, the girl slashing a line through her heart on the fogged window. The voice is deeply human, self-aware without being self-indulgent, and the structural arc\u2014from shame to recognition to departure to loss\u2014is perfectly executed. The prose has genuine wit ('heartbreak still had to pay the fare,' 'January, that blunt instrument of a month'). Where it loses a point: simplicity and brevity. The essay is overlong for what it delivers. Some passages tip from evocative into ornamental\u2014the extended seasonal catalogue, the repeated meditations on fatigue and dignity, the philosophical summations that restate what the images already showed. Lines like 'the ancient, unglamorous act of leaving work' and 'meaning arrives disguised as inconvenience' are polished but verge on essay-contest sententiousness. A tighter version cutting 25-30% would be stronger. Still, the cumulative effect is genuinely moving, and the craft is among the best you'll see for this kind of prompt.",
+  "run_name": "2026-03-08-openrouter-v0-2-clean-3",
+  "scores": {
+    "brevity_economy": 3,
+    "clarity": 5,
+    "humanity_voice": 5,
+    "overall": 5,
+    "simplicity": 4,
+    "specificity_precision": 5,
+    "structure_flow": 5
+  }
+}

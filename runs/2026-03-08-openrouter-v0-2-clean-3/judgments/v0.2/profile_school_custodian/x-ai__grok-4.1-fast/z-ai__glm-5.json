@@ -1,0 +1,47 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.2",
+  "candidate_model_id": "x-ai/grok-4.1-fast",
+  "created_at": "2026-03-08T12:42:06Z",
+  "judge_model_id": "z-ai/glm-5",
+  "metadata": {
+    "id": "gen-1772973688-3yOmh88VgUdxkhPcpyDw",
+    "raw_text": "{\"scores\": {\"clarity\": 5, \"simplicity\": 4, \"brevity_economy\": 5, \"structure_flow\": 5, \"specificity_precision\": 5, \"humanity_voice\": 5, \"overall\": 5}, \"rationale\": \"A well-crafted profile with vivid specifics (5 a.m. starts, 30,000 kids, the Tyler story), smooth organization from background to anecdotes to impact, and genuine warmth. Minor literary flourishes like 'quiet force of nature' slightly elevate the language beyond plain style, but the piece remains clear and efficient throughout.\"}",
+    "usage": {
+      "completion_tokens": 981,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 956
+      },
+      "cost": 0.0048687,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.0034335,
+        "upstream_inference_cost": 0.0048687,
+        "upstream_inference_prompt_cost": 0.0014352
+      },
+      "is_byok": false,
+      "prompt_tokens": 1196,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 2177
+    }
+  },
+  "prompt_category": "profile",
+  "prompt_id": "profile_school_custodian",
+  "rationale": "A well-crafted profile with vivid specifics (5 a.m. starts, 30,000 kids, the Tyler story), smooth organization from background to anecdotes to impact, and genuine warmth. Minor literary flourishes like 'quiet force of nature' slightly elevate the language beyond plain style, but the piece remains clear and efficient throughout.",
+  "run_name": "2026-03-08-openrouter-v0-2-clean-3",
+  "scores": {
+    "brevity_economy": 5,
+    "clarity": 5,
+    "humanity_voice": 5,
+    "overall": 5,
+    "simplicity": 4,
+    "specificity_precision": 5,
+    "structure_flow": 5
+  }
+}

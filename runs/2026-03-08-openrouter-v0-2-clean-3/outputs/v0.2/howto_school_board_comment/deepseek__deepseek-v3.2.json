@@ -1,0 +1,56 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.2",
+  "candidate_label": "DeepSeek V3.2",
+  "candidate_model_id": "deepseek/deepseek-v3.2",
+  "created_at": "2026-03-08T12:20:06Z",
+  "metadata": {
+    "finish_reason": "stop",
+    "generation_attempt": 1,
+    "generation_settings": {
+      "max_output_tokens": 10000,
+      "reasoning_effort": "medium"
+    },
+    "id": "gen-1772972369-ooyiEQk66rR6XpLt0kjm",
+    "quality_guard": {
+      "minimum_words": 140,
+      "reason": "",
+      "status": "ok",
+      "word_count": 716
+    },
+    "raw_response_text": "## A Practical Guide for Parents: Preparing to Speak at a School Board Meeting\n\nSpeaking at a school board meeting can feel daunting, but with preparation, you can present your perspective clearly and effectively. This guide will walk you through the steps to get ready.\n\n### Before the Meeting: Laying the Groundwork\n\n1.  **Know the Rules:** Visit your school district's website. Find the \"Board of Education\" section and look for:\n    *   **Public Comment Policy:** This outlines how to sign up, time limits (often 2-3 minutes), and rules of conduct.\n    *   **Meeting Agenda:** Review it to understand where public comment falls and what other topics are being discussed.\n    *   **Board Member Names & Roles:** Knowing who you're addressing shows respect and helps you tailor your message.\n\n2.  **Define Your Goal:** Be specific. What do you want the board to *know, feel, or do*? Examples:\n    *   \"I want them to understand the safety concerns at the crosswalk on Maple Street.\"\n    *   \"I want to express support for the proposed music program expansion.\"\n    *   \"I am requesting a review of the homework policy for third graders.\"\n\n3.  **Do Your Homework:** Ground your comments in facts.\n    *   **Gather Data:** Use specific examples, dates, and, if possible, numbers. (\"On three occasions last month...\").\n    *   **Review Relevant Policies:** Reference the specific policy or curriculum you're discussing.\n    *   **Connect to District Goals:** Frame your issue within the district's stated mission or strategic plan (e.g., \"This supports our goal of inclusive excellence...\").\n\n### Crafting Your Remarks: Be Clear, Concise, and Compelling\n\n1.  **Write a Script:** For a 3-minute comment, aim for about 400-450 words. **Practice reading it aloud with a timer.**\n2.  **Structure Your Message:**\n    *   **Introduction (15 sec):** \"Good evening. My name is [Your Name], and I have a [son/daughter/child] at [School Name]. Thank you for the opportunity to speak.\"\n    *   **State Your Topic & Position (30 sec):** Clearly state the issue and your main point. \"I am here tonight to express my strong support for the proposed after-school science club.\"\n    *   **Share Your \"Why\" (90 sec):** This is the core. Use 1-3 concise, powerful points.\n        *   **Personal Story:** \"My child came home last week excited about the experiment they did in class. This club would nurture that spark.\"\n        *   **Community Impact:** \"This addresses the need for more STEM opportunities, which we know is critical for future careers.\"\n        *   **Fact or Data:** \"Research shows that hands-on science programs improve long-term academic engagement.\"\n    *   **Make a Clear Request or Conclusion (30 sec):** Restate what you want. \"I urge the board to approve the funding for this valuable program.\"\n    *   **Thank You (15 sec):** \"Thank you for your time and consideration.\"\n\n3.  **Edit Ruthlessly:**\n    *   Avoid jargon, anger, and personal attacks.\n    *   Focus on solutions, not just problems.\n    *   Keep language respectful and collaborative. You are addressing elected officials who are also community members.\n\n### The Day of the Meeting: Final Prep and Delivery\n\n1.  **Sign Up:** Follow the district's procedure to register for public comment, often done before the meeting starts.\n2.  **Dress Professionally:** Business casual is a safe choice. It shows you take the process seriously.\n3.  **Bring Supplies:**\n    *   A printed copy of your remarks in large, easy-to-read font.\n    *   A backup copy on your phone.\n    *   A bottle of water.\n4.  **Arrive Early:** Get a feel for the room, find a seat, and listen to the meeting's flow.\n5.  **Deliver with Confidence:**\n    *   **Breathe.** It's normal to be nervous.\n    *   **Speak slowly and clearly.** Aim for a pace slightly slower than normal conversation.\n    *   **Make eye contact.** Look at the board members, especially the president.\n    *   **Stick to your script.** The time limit is strict; going off-topic wastes your precious minutes.\n    *   **Thank the board again when you finish.**\n\n### After You Speak\n\n*   **Be a Respectful Listener:** Stay to hear other comments and board discussions. It shows you are engaged in the entire process.\n*   **Follow Up:** If you made a specific request, you can send a brief, polite email to the board clerk the next day, thanking them again and attaching your remarks for the official record.\n\n**Remember:** Your voice matters. School boards need to hear from the families they serve. By being prepared, respectful, and clear, you ensure your message is heard and respected in return. Good luck",
+    "sanitization": {
+      "changed": false,
+      "patterns": [],
+      "removed_chars": 0,
+      "removed_ratio": 0.0
+    },
+    "usage": {
+      "completion_tokens": 1196,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 147
+      },
+      "cost": 0.00046722,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.00045448,
+        "upstream_inference_cost": 0.00046722,
+        "upstream_inference_prompt_cost": 1.274e-05
+      },
+      "is_byok": false,
+      "prompt_tokens": 49,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 1245
+    }
+  },
+  "prompt_category": "service_howto",
+  "prompt_id": "howto_school_board_comment",
+  "response_text": "## A Practical Guide for Parents: Preparing to Speak at a School Board Meeting\n\nSpeaking at a school board meeting can feel daunting, but with preparation, you can present your perspective clearly and effectively. This guide will walk you through the steps to get ready.\n\n### Before the Meeting: Laying the Groundwork\n\n1.  **Know the Rules:** Visit your school district's website. Find the \"Board of Education\" section and look for:\n    *   **Public Comment Policy:** This outlines how to sign up, time limits (often 2-3 minutes), and rules of conduct.\n    *   **Meeting Agenda:** Review it to understand where public comment falls and what other topics are being discussed.\n    *   **Board Member Names & Roles:** Knowing who you're addressing shows respect and helps you tailor your message.\n\n2.  **Define Your Goal:** Be specific. What do you want the board to *know, feel, or do*? Examples:\n    *   \"I want them to understand the safety concerns at the crosswalk on Maple Street.\"\n    *   \"I want to express support for the proposed music program expansion.\"\n    *   \"I am requesting a review of the homework policy for third graders.\"\n\n3.  **Do Your Homework:** Ground your comments in facts.\n    *   **Gather Data:** Use specific examples, dates, and, if possible, numbers. (\"On three occasions last month...\").\n    *   **Review Relevant Policies:** Reference the specific policy or curriculum you're discussing.\n    *   **Connect to District Goals:** Frame your issue within the district's stated mission or strategic plan (e.g., \"This supports our goal of inclusive excellence...\").\n\n### Crafting Your Remarks: Be Clear, Concise, and Compelling\n\n1.  **Write a Script:** For a 3-minute comment, aim for about 400-450 words. **Practice reading it aloud with a timer.**\n2.  **Structure Your Message:**\n    *   **Introduction (15 sec):** \"Good evening. My name is [Your Name], and I have a [son/daughter/child] at [School Name]. Thank you for the opportunity to speak.\"\n    *   **State Your Topic & Position (30 sec):** Clearly state the issue and your main point. \"I am here tonight to express my strong support for the proposed after-school science club.\"\n    *   **Share Your \"Why\" (90 sec):** This is the core. Use 1-3 concise, powerful points.\n        *   **Personal Story:** \"My child came home last week excited about the experiment they did in class. This club would nurture that spark.\"\n        *   **Community Impact:** \"This addresses the need for more STEM opportunities, which we know is critical for future careers.\"\n        *   **Fact or Data:** \"Research shows that hands-on science programs improve long-term academic engagement.\"\n    *   **Make a Clear Request or Conclusion (30 sec):** Restate what you want. \"I urge the board to approve the funding for this valuable program.\"\n    *   **Thank You (15 sec):** \"Thank you for your time and consideration.\"\n\n3.  **Edit Ruthlessly:**\n    *   Avoid jargon, anger, and personal attacks.\n    *   Focus on solutions, not just problems.\n    *   Keep language respectful and collaborative. You are addressing elected officials who are also community members.\n\n### The Day of the Meeting: Final Prep and Delivery\n\n1.  **Sign Up:** Follow the district's procedure to register for public comment, often done before the meeting starts.\n2.  **Dress Professionally:** Business casual is a safe choice. It shows you take the process seriously.\n3.  **Bring Supplies:**\n    *   A printed copy of your remarks in large, easy-to-read font.\n    *   A backup copy on your phone.\n    *   A bottle of water.\n4.  **Arrive Early:** Get a feel for the room, find a seat, and listen to the meeting's flow.\n5.  **Deliver with Confidence:**\n    *   **Breathe.** It's normal to be nervous.\n    *   **Speak slowly and clearly.** Aim for a pace slightly slower than normal conversation.\n    *   **Make eye contact.** Look at the board members, especially the president.\n    *   **Stick to your script.** The time limit is strict; going off-topic wastes your precious minutes.\n    *   **Thank the board again when you finish.**\n\n### After You Speak\n\n*   **Be a Respectful Listener:** Stay to hear other comments and board discussions. It shows you are engaged in the entire process.\n*   **Follow Up:** If you made a specific request, you can send a brief, polite email to the board clerk the next day, thanking them again and attaching your remarks for the official record.\n\n**Remember:** Your voice matters. School boards need to hear from the families they serve. By being prepared, respectful, and clear, you ensure your message is heard and respected in return. Good luck",
+  "run_name": "2026-03-08-openrouter-v0-2-clean-3"
+}

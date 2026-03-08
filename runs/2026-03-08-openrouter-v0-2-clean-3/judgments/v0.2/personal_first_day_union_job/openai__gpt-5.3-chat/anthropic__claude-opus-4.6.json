@@ -1,0 +1,47 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.2",
+  "candidate_model_id": "openai/gpt-5.3-chat",
+  "created_at": "2026-03-08T12:59:35Z",
+  "judge_model_id": "anthropic/claude-opus-4.6",
+  "metadata": {
+    "id": "gen-1772974767-6yKl1yKmYGWOK98TpamP",
+    "raw_text": "{\"scores\": {\"clarity\": 5, \"simplicity\": 5, \"brevity_economy\": 5, \"structure_flow\": 5, \"specificity_precision\": 4, \"humanity_voice\": 5, \"overall\": 5}, \"rationale\": \"Exceptionally clean, controlled essay. Every scene advances the central realization without redundancy. The dialogue is natural and does real work\u2014Luis's 'This is your job too now' and Donna's 'we' carry thematic weight without being underlined. Language is plain throughout with no inflated diction. Structure moves chronologically through the day with a reflective turn at the end that earns its abstraction. The only slight weakness is specificity: the shop, the machines, and the product remain unnamed and somewhat generic\u2014we never learn what's being made or what the narrator's actual task is, which keeps the setting slightly impressionistic rather than fully grounded. But the sensory details that are present (steel carts, compressor coughing, union stickers on the fridge) are well chosen. Voice is warm, credible, and restrained\u2014it trusts the reader to draw conclusions. One of the better personal essays you could ask for on this prompt.\"}",
+    "usage": {
+      "completion_tokens": 272,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 0
+      },
+      "cost": 0.014215,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.0068,
+        "upstream_inference_cost": 0.014215,
+        "upstream_inference_prompt_cost": 0.007415
+      },
+      "is_byok": false,
+      "prompt_tokens": 1483,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 1755
+    }
+  },
+  "prompt_category": "personal_nonfiction",
+  "prompt_id": "personal_first_day_union_job",
+  "rationale": "Exceptionally clean, controlled essay. Every scene advances the central realization without redundancy. The dialogue is natural and does real work\u2014Luis's 'This is your job too now' and Donna's 'we' carry thematic weight without being underlined. Language is plain throughout with no inflated diction. Structure moves chronologically through the day with a reflective turn at the end that earns its abstraction. The only slight weakness is specificity: the shop, the machines, and the product remain unnamed and somewhat generic\u2014we never learn what's being made or what the narrator's actual task is, which keeps the setting slightly impressionistic rather than fully grounded. But the sensory details that are present (steel carts, compressor coughing, union stickers on the fridge) are well chosen. Voice is warm, credible, and restrained\u2014it trusts the reader to draw conclusions. One of the better personal essays you could ask for on this prompt.",
+  "run_name": "2026-03-08-openrouter-v0-2-clean-3",
+  "scores": {
+    "brevity_economy": 5,
+    "clarity": 5,
+    "humanity_voice": 5,
+    "overall": 5,
+    "simplicity": 5,
+    "specificity_precision": 4,
+    "structure_flow": 5
+  }
+}

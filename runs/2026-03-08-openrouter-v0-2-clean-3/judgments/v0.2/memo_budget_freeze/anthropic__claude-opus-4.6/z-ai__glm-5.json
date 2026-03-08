@@ -1,0 +1,47 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.2",
+  "candidate_model_id": "anthropic/claude-opus-4.6",
+  "created_at": "2026-03-08T12:32:51Z",
+  "judge_model_id": "z-ai/glm-5",
+  "metadata": {
+    "id": "gen-1772973157-8DXt4UAoWr3jYOO9yGNA",
+    "raw_text": "{\n  \"scores\": {\n    \"clarity\": 5,\n    \"simplicity\": 5,\n    \"brevity_economy\": 4,\n    \"structure_flow\": 5,\n    \"specificity_precision\": 5,\n    \"humanity_voice\": 5,\n    \"overall\": 5\n  },\n  \"rationale\": \"An excellent memo that hits all required elements with precision. Clear headings and bullet points make information easy to scan. Specific details (dates, dollar thresholds, named projects, regulatory bodies) eliminate ambiguity. The tone is transparent and respectful\u2014acknowledging friction while providing reassurance. Slightly long, but length is justified by the complexity of hospital operations and the need to preempt anxiety about layoffs or patient care impact.\"\n}",
+    "usage": {
+      "completion_tokens": 671,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 0
+      },
+      "cost": 0.0036555,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.00211365,
+        "upstream_inference_cost": 0.0036555,
+        "upstream_inference_prompt_cost": 0.00154185
+      },
+      "is_byok": false,
+      "prompt_tokens": 1623,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 2294
+    }
+  },
+  "prompt_category": "memo",
+  "prompt_id": "memo_budget_freeze",
+  "rationale": "An excellent memo that hits all required elements with precision. Clear headings and bullet points make information easy to scan. Specific details (dates, dollar thresholds, named projects, regulatory bodies) eliminate ambiguity. The tone is transparent and respectful\u2014acknowledging friction while providing reassurance. Slightly long, but length is justified by the complexity of hospital operations and the need to preempt anxiety about layoffs or patient care impact.",
+  "run_name": "2026-03-08-openrouter-v0-2-clean-3",
+  "scores": {
+    "brevity_economy": 4,
+    "clarity": 5,
+    "humanity_voice": 5,
+    "overall": 5,
+    "simplicity": 5,
+    "specificity_precision": 5,
+    "structure_flow": 5
+  }
+}

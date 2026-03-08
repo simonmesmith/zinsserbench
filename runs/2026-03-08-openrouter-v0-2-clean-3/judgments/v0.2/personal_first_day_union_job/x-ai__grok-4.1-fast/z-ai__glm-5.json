@@ -1,0 +1,47 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.2",
+  "candidate_model_id": "x-ai/grok-4.1-fast",
+  "created_at": "2026-03-08T13:01:34Z",
+  "judge_model_id": "z-ai/glm-5",
+  "metadata": {
+    "id": "gen-1772974885-dPhdRS5rTlZUFkT0m5gM",
+    "raw_text": "```json\n{\n  \"scores\": {\n    \"clarity\": 5,\n    \"simplicity\": 4,\n    \"brevity_economy\": 4,\n    \"structure_flow\": 5,\n    \"specificity_precision\": 5,\n    \"humanity_voice\": 5,\n    \"overall\": 5\n  },\n  \"rationale\": \"A strong personal essay with vivid specifics (the guard's pin, Earl's missing pinky, the e-stop moment) and a clear narrative arc. The voice is authentic and grounded, moving from the narrator's prior gig-work grind to the revelation of collective power. Clean structure follows the first day chronologically, and the prose is tight without being sparse.\"\n}\n```",
+    "usage": {
+      "completion_tokens": 284,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 130
+      },
+      "cost": 0.00193648,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.00072704,
+        "upstream_inference_cost": 0.00193648,
+        "upstream_inference_prompt_cost": 0.00120944
+      },
+      "is_byok": false,
+      "prompt_tokens": 1563,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 64,
+        "video_tokens": 0
+      },
+      "total_tokens": 1847
+    }
+  },
+  "prompt_category": "personal_nonfiction",
+  "prompt_id": "personal_first_day_union_job",
+  "rationale": "A strong personal essay with vivid specifics (the guard's pin, Earl's missing pinky, the e-stop moment) and a clear narrative arc. The voice is authentic and grounded, moving from the narrator's prior gig-work grind to the revelation of collective power. Clean structure follows the first day chronologically, and the prose is tight without being sparse.",
+  "run_name": "2026-03-08-openrouter-v0-2-clean-3",
+  "scores": {
+    "brevity_economy": 4,
+    "clarity": 5,
+    "humanity_voice": 5,
+    "overall": 5,
+    "simplicity": 4,
+    "specificity_precision": 5,
+    "structure_flow": 5
+  }
+}

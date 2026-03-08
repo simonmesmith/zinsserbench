@@ -1,0 +1,47 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.2",
+  "candidate_model_id": "moonshotai/kimi-k2.5",
+  "created_at": "2026-03-08T13:33:54Z",
+  "judge_model_id": "openai/gpt-5.4",
+  "metadata": {
+    "id": "gen-1772976829-7alk8TeTdv0XSRbkbPe1",
+    "raw_text": "{\"scores\":{\"clarity\":5,\"simplicity\":4,\"brevity_economy\":4,\"structure_flow\":5,\"specificity_precision\":5,\"humanity_voice\":5,\"overall\":5},\"rationale\":\"Clear, well-organized explainer that answers the prompt directly and uses strong examples to make the tax formula and year-to-year changes easy to follow. The voice is friendly and reader-aware, and the wording is concrete and precise. It loses a little on simplicity and economy because it is somewhat long and includes a few more technical terms than a strictly plain-English version needs.\"}",
+    "usage": {
+      "completion_tokens": 310,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 181
+      },
+      "cost": 0.00885,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.00465,
+        "upstream_inference_cost": 0.00885,
+        "upstream_inference_prompt_cost": 0.0042
+      },
+      "is_byok": false,
+      "prompt_tokens": 1680,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 1990
+    }
+  },
+  "prompt_category": "explain",
+  "prompt_id": "explain_property_tax",
+  "rationale": "Clear, well-organized explainer that answers the prompt directly and uses strong examples to make the tax formula and year-to-year changes easy to follow. The voice is friendly and reader-aware, and the wording is concrete and precise. It loses a little on simplicity and economy because it is somewhat long and includes a few more technical terms than a strictly plain-English version needs.",
+  "run_name": "2026-03-08-openrouter-v0-2-clean-3",
+  "scores": {
+    "brevity_economy": 4,
+    "clarity": 5,
+    "humanity_voice": 5,
+    "overall": 5,
+    "simplicity": 4,
+    "specificity_precision": 5,
+    "structure_flow": 5
+  }
+}

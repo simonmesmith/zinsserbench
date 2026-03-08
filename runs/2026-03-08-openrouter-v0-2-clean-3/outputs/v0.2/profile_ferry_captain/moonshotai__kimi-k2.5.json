@@ -1,0 +1,56 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.2",
+  "candidate_label": "Kimi K2.5",
+  "candidate_model_id": "moonshotai/kimi-k2.5",
+  "created_at": "2026-03-08T12:03:31Z",
+  "metadata": {
+    "finish_reason": "stop",
+    "generation_attempt": 1,
+    "generation_settings": {
+      "max_output_tokens": 10000,
+      "reasoning_effort": "medium"
+    },
+    "id": "gen-1772971366-3AG20cHiExlqMNTmfqkY",
+    "quality_guard": {
+      "minimum_words": 200,
+      "reason": "",
+      "status": "ok",
+      "word_count": 739
+    },
+    "raw_response_text": "At 5:47 a.m., twelve minutes before the first scheduled departure, Thomas Hale climbs the starboard ladder of the MV *Reliant* with the same three groans of the metal rungs he has heard for thirty years. He is sixty-two now, and his knees announce themselves on damp mornings, but his hands\u2014thick-fingered and permanently stained with diesel and salt\u2014remain steady as he unlocks the wheelhouse.\n\nThe route is a forty-five-minute diagonal across the channel between Port McAllister and Crescent Bay, two towns that together barely total four thousand residents. The distance is short enough that, on clear days, you can watch the weather change from one shore to the other, but long enough that the currents in the middle can turn treacherous without warning. Hale has made this crossing roughly 130,000 times.\n\nHe started in 1994, when the previous captain retired mid-season and the state ferry authority needed someone who already knew the rocks. Hale had been working the fuel dock, having fled a failed marriage in Tacoma. He took the job temporarily. Three decades later, he knows the route the way a pianist knows a score\u2014less as geography than as muscle memory. He can feel the tide shift through the deck plates, can predict fog by the pressure behind his eyes.\n\nThe *Reliant* herself is a relic, built in 1978, all steel and analog gauges. Her wheelhouse smells of coffee, ozone, and the peculiar vanilla scent of aging electrical tape. Hale keeps a photograph taped to the console: his daughter at age six, holding a lingcod on the aft deck, now thirty-two and living in Spokane. Beside it hangs a laminated card with the radio frequencies, the ink faded to lavender.\n\nPassengers fall into categories Hale recognizes by their footsteps. The 6:00 a.m. run belongs to the commuters\u2014nurses, a high school principal, a carpenter who builds custom cabinets in both towns. They board with thermoses and newspapers, nodding at Hale without needing to speak. The summer crowd arrives later, cameras already raised, asking questions he has answered ten thousand times: *How deep is the channel? Do you ever see whales?* He answers patiently, though he no longer looks up from his charts.\n\nWhat the tourists miss is the texture of repetition. Hale has watched the same five houses on the north shore weather thirty winters, their cedar siding silvering in stages he could date like tree rings. He has seen marriages begin and end in the vehicles parked on his car deck\u2014first the eager faces in the front seat, later the rigid silences, eventually single passengers staring at the water. He once delivered a baby in the passenger cabin during a January storm, the mother a Crescent Bay woman who misjudged her labor; the child, now a deckhand on a crab boat, waves when they pass in the harbor.\n\nThe work has taken its toll. His hearing is shot in the left ear from three decades of the diesel thrum. His shoulders sit unevenly from decades of compensating for the channel\u2019s cross-currents. But the job has also given him a peculiar authority, a position outside the normal commerce of the towns. He is neither Port McAllister nor Crescent Bay, but the thread that stitches them together. When the salmon run failed in 2008, he noticed the empty coolers first. When the new brewery opened in Crescent Bay, he counted the growlers in the foot traffic.\n\nAt 7:32 p.m., Hale makes his final approach into Port McAllister. The sun is dropping behind the Olympic Mountains, turning the water the color of bruised plums. He throttles back, feeling the *Reliant*\u2019s familiar shudder as she transitions from headway to glide. The three blasts of the horn echo off the breakwater\u2014two long, one short, the same signal he has sent since the first Bush administration.\n\nOn the dock, the night watchman raises a hand. Hale responds with two fingers lifted from the wheel, his standard salute. The ramp lowers with a hydraulic sigh. Cars roll off, tail lights disappearing into the town\u2019s sodium glow. Hale will secure the lines, lock the wheelhouse, and walk home to a cottage three blocks from the terminal, where he will sleep six hours and return to do it again.\n\nTomorrow the tide will be twenty minutes later, the light slightly different, the passengers mostly the same. The channel will wait, patient and unchanged, and Hale will cross it once more, stitching the two towns together against the dark.",
+    "sanitization": {
+      "changed": false,
+      "patterns": [],
+      "removed_chars": 0,
+      "removed_ratio": 0.0
+    },
+    "usage": {
+      "completion_tokens": 1378,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 526
+      },
+      "cost": 0.0033377,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.0033072,
+        "upstream_inference_cost": 0.0033377,
+        "upstream_inference_prompt_cost": 3.05e-05
+      },
+      "is_byok": false,
+      "prompt_tokens": 61,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 1439
+    }
+  },
+  "prompt_category": "profile",
+  "prompt_id": "profile_ferry_captain",
+  "response_text": "At 5:47 a.m., twelve minutes before the first scheduled departure, Thomas Hale climbs the starboard ladder of the MV *Reliant* with the same three groans of the metal rungs he has heard for thirty years. He is sixty-two now, and his knees announce themselves on damp mornings, but his hands\u2014thick-fingered and permanently stained with diesel and salt\u2014remain steady as he unlocks the wheelhouse.\n\nThe route is a forty-five-minute diagonal across the channel between Port McAllister and Crescent Bay, two towns that together barely total four thousand residents. The distance is short enough that, on clear days, you can watch the weather change from one shore to the other, but long enough that the currents in the middle can turn treacherous without warning. Hale has made this crossing roughly 130,000 times.\n\nHe started in 1994, when the previous captain retired mid-season and the state ferry authority needed someone who already knew the rocks. Hale had been working the fuel dock, having fled a failed marriage in Tacoma. He took the job temporarily. Three decades later, he knows the route the way a pianist knows a score\u2014less as geography than as muscle memory. He can feel the tide shift through the deck plates, can predict fog by the pressure behind his eyes.\n\nThe *Reliant* herself is a relic, built in 1978, all steel and analog gauges. Her wheelhouse smells of coffee, ozone, and the peculiar vanilla scent of aging electrical tape. Hale keeps a photograph taped to the console: his daughter at age six, holding a lingcod on the aft deck, now thirty-two and living in Spokane. Beside it hangs a laminated card with the radio frequencies, the ink faded to lavender.\n\nPassengers fall into categories Hale recognizes by their footsteps. The 6:00 a.m. run belongs to the commuters\u2014nurses, a high school principal, a carpenter who builds custom cabinets in both towns. They board with thermoses and newspapers, nodding at Hale without needing to speak. The summer crowd arrives later, cameras already raised, asking questions he has answered ten thousand times: *How deep is the channel? Do you ever see whales?* He answers patiently, though he no longer looks up from his charts.\n\nWhat the tourists miss is the texture of repetition. Hale has watched the same five houses on the north shore weather thirty winters, their cedar siding silvering in stages he could date like tree rings. He has seen marriages begin and end in the vehicles parked on his car deck\u2014first the eager faces in the front seat, later the rigid silences, eventually single passengers staring at the water. He once delivered a baby in the passenger cabin during a January storm, the mother a Crescent Bay woman who misjudged her labor; the child, now a deckhand on a crab boat, waves when they pass in the harbor.\n\nThe work has taken its toll. His hearing is shot in the left ear from three decades of the diesel thrum. His shoulders sit unevenly from decades of compensating for the channel\u2019s cross-currents. But the job has also given him a peculiar authority, a position outside the normal commerce of the towns. He is neither Port McAllister nor Crescent Bay, but the thread that stitches them together. When the salmon run failed in 2008, he noticed the empty coolers first. When the new brewery opened in Crescent Bay, he counted the growlers in the foot traffic.\n\nAt 7:32 p.m., Hale makes his final approach into Port McAllister. The sun is dropping behind the Olympic Mountains, turning the water the color of bruised plums. He throttles back, feeling the *Reliant*\u2019s familiar shudder as she transitions from headway to glide. The three blasts of the horn echo off the breakwater\u2014two long, one short, the same signal he has sent since the first Bush administration.\n\nOn the dock, the night watchman raises a hand. Hale responds with two fingers lifted from the wheel, his standard salute. The ramp lowers with a hydraulic sigh. Cars roll off, tail lights disappearing into the town\u2019s sodium glow. Hale will secure the lines, lock the wheelhouse, and walk home to a cottage three blocks from the terminal, where he will sleep six hours and return to do it again.\n\nTomorrow the tide will be twenty minutes later, the light slightly different, the passengers mostly the same. The channel will wait, patient and unchanged, and Hale will cross it once more, stitching the two towns together against the dark.",
+  "run_name": "2026-03-08-openrouter-v0-2-clean-3"
+}

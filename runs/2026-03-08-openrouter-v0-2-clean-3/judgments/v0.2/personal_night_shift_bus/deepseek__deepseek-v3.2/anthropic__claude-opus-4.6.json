@@ -1,0 +1,47 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.2",
+  "candidate_model_id": "deepseek/deepseek-v3.2",
+  "created_at": "2026-03-08T13:29:30Z",
+  "judge_model_id": "anthropic/claude-opus-4.6",
+  "metadata": {
+    "id": "gen-1772976563-l2KvZek7vXpR3nGANJvY",
+    "raw_text": "{\"scores\": {\"clarity\": 5, \"simplicity\": 4, \"brevity_economy\": 4, \"structure_flow\": 5, \"specificity_precision\": 4, \"humanity_voice\": 5, \"overall\": 5}, \"rationale\": \"This is a beautifully crafted personal essay with strong sensory detail (the smell, the pothole on Seventh Street, Mike and Frank's exchanges) and a clear chronological arc from routine to departure. The voice is warm and authentic, never mechanical. A few moments tip toward literary polish that slightly inflates the language\u2014'fluorescent-lit capsule,' 'our isolation was communal,' 'rolling testament'\u2014and the penultimate paragraph's reflection edges toward sentimentality. The handkerchief scene is the essay's strongest moment: specific, restrained, and earned. Structure is excellent: opening establishes setting, middle builds the cast and rhythm, the February scene provides a turning point, and the ending lands cleanly. Minor ding on simplicity for occasional ornamental phrasing, and on brevity because the final two paragraphs both serve as conclusions and could be tightened. Overall, this is highly effective personal nonfiction.\"}",
+    "usage": {
+      "completion_tokens": 268,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 0
+      },
+      "cost": 0.01283,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.0067,
+        "upstream_inference_cost": 0.01283,
+        "upstream_inference_prompt_cost": 0.00613
+      },
+      "is_byok": false,
+      "prompt_tokens": 1226,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 1494
+    }
+  },
+  "prompt_category": "personal_nonfiction",
+  "prompt_id": "personal_night_shift_bus",
+  "rationale": "This is a beautifully crafted personal essay with strong sensory detail (the smell, the pothole on Seventh Street, Mike and Frank's exchanges) and a clear chronological arc from routine to departure. The voice is warm and authentic, never mechanical. A few moments tip toward literary polish that slightly inflates the language\u2014'fluorescent-lit capsule,' 'our isolation was communal,' 'rolling testament'\u2014and the penultimate paragraph's reflection edges toward sentimentality. The handkerchief scene is the essay's strongest moment: specific, restrained, and earned. Structure is excellent: opening establishes setting, middle builds the cast and rhythm, the February scene provides a turning point, and the ending lands cleanly. Minor ding on simplicity for occasional ornamental phrasing, and on brevity because the final two paragraphs both serve as conclusions and could be tightened. Overall, this is highly effective personal nonfiction.",
+  "run_name": "2026-03-08-openrouter-v0-2-clean-3",
+  "scores": {
+    "brevity_economy": 4,
+    "clarity": 5,
+    "humanity_voice": 5,
+    "overall": 5,
+    "simplicity": 4,
+    "specificity_precision": 4,
+    "structure_flow": 5
+  }
+}

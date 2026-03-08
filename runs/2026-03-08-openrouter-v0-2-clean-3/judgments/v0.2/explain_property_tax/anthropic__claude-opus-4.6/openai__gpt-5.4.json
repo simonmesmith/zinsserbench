@@ -1,0 +1,47 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.2",
+  "candidate_model_id": "anthropic/claude-opus-4.6",
+  "created_at": "2026-03-08T13:32:59Z",
+  "judge_model_id": "openai/gpt-5.4",
+  "metadata": {
+    "id": "gen-1772976774-RrWQN8HgSjjUxJjSsuKj",
+    "raw_text": "{\"scores\":{\"clarity\":5,\"simplicity\":4,\"brevity_economy\":3,\"structure_flow\":5,\"specificity_precision\":5,\"humanity_voice\":4,\"overall\":5},\"rationale\":\"Clear, well-organized, and highly informative. It explains the core formula, reassessment, rates, exemptions, and appeals in plain terms with useful examples. The main weakness is length: it goes beyond a lean explainer and includes some extra detail and jargon, even though most terms are defined. Voice is helpful and reader-focused, if slightly textbook in places.\"}",
+    "usage": {
+      "completion_tokens": 249,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 121
+      },
+      "cost": 0.009835,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.003735,
+        "upstream_inference_cost": 0.009835,
+        "upstream_inference_prompt_cost": 0.0061
+      },
+      "is_byok": false,
+      "prompt_tokens": 2440,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 2689
+    }
+  },
+  "prompt_category": "explain",
+  "prompt_id": "explain_property_tax",
+  "rationale": "Clear, well-organized, and highly informative. It explains the core formula, reassessment, rates, exemptions, and appeals in plain terms with useful examples. The main weakness is length: it goes beyond a lean explainer and includes some extra detail and jargon, even though most terms are defined. Voice is helpful and reader-focused, if slightly textbook in places.",
+  "run_name": "2026-03-08-openrouter-v0-2-clean-3",
+  "scores": {
+    "brevity_economy": 3,
+    "clarity": 5,
+    "humanity_voice": 4,
+    "overall": 5,
+    "simplicity": 4,
+    "specificity_precision": 5,
+    "structure_flow": 5
+  }
+}

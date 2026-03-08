@@ -1,0 +1,47 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.2",
+  "candidate_model_id": "x-ai/grok-4.1-fast",
+  "created_at": "2026-03-08T12:41:19Z",
+  "judge_model_id": "openai/gpt-5.4",
+  "metadata": {
+    "id": "gen-1772973673-nEM8ZRkqla3I6RvyX8CE",
+    "raw_text": "{\"scores\":{\"clarity\":5,\"simplicity\":3,\"brevity_economy\":4,\"structure_flow\":5,\"specificity_precision\":5,\"humanity_voice\":5,\"overall\":4},\"rationale\":\"Clear, well-organized profile with vivid concrete details, strong scene-setting, and a warm human voice. It moves smoothly and makes the subject memorable. The main weakness is some feature-style overstatement and clich\u00e9 ('quiet force of nature,' 'heartbeat here'), which makes the language less plain and slightly less economical.\"}",
+    "usage": {
+      "completion_tokens": 339,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 222
+      },
+      "cost": 0.0080375,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.005085,
+        "upstream_inference_cost": 0.0080375,
+        "upstream_inference_prompt_cost": 0.0029525
+      },
+      "is_byok": false,
+      "prompt_tokens": 1181,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 1520
+    }
+  },
+  "prompt_category": "profile",
+  "prompt_id": "profile_school_custodian",
+  "rationale": "Clear, well-organized profile with vivid concrete details, strong scene-setting, and a warm human voice. It moves smoothly and makes the subject memorable. The main weakness is some feature-style overstatement and clich\u00e9 ('quiet force of nature,' 'heartbeat here'), which makes the language less plain and slightly less economical.",
+  "run_name": "2026-03-08-openrouter-v0-2-clean-3",
+  "scores": {
+    "brevity_economy": 4,
+    "clarity": 5,
+    "humanity_voice": 5,
+    "overall": 4,
+    "simplicity": 3,
+    "specificity_precision": 5,
+    "structure_flow": 5
+  }
+}

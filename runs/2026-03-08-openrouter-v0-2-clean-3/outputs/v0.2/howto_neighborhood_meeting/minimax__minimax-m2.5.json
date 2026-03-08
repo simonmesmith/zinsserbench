@@ -1,0 +1,56 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.2",
+  "candidate_label": "MiniMax M2.5",
+  "candidate_model_id": "minimax/minimax-m2.5",
+  "created_at": "2026-03-08T12:05:39Z",
+  "metadata": {
+    "finish_reason": "stop",
+    "generation_attempt": 1,
+    "generation_settings": {
+      "max_output_tokens": 10000,
+      "reasoning_effort": "medium"
+    },
+    "id": "gen-1772971505-rHldiChvArEwn7LpkoM7",
+    "quality_guard": {
+      "minimum_words": 140,
+      "reason": "",
+      "status": "ok",
+      "word_count": 638
+    },
+    "raw_response_text": "# How to Organize a Neighborhood Meeting About Traffic Safety\n\n## Step 1: Define Your Purpose and Goals\n\nBefore reaching out to neighbors, clarify what you want to accomplish. Are you concerned about speeding, lack of crosswalks, dangerous intersections, or pedestrian safety? Having a clear focus will help you communicate the meeting's purpose and keep discussions productive.\n\nWrite down 2-3 specific outcomes you'd like to achieve, such as:\n\n- Collecting signatures for a traffic study request\n- Forming a committee to work with city officials\n- Sharing information about existing reporting channels\n\n## Step 2: Build Your Organizing Committee\n\nYou don't have to do this alone. Recruit 2-4 neighbors who share your concerns. This group can help with:\n\n- Distributing flyers\n- Hosting at different homes if needed\n- Bringing different perspectives to the discussion\n\nReach out to neighbors you already know, post in local online community groups, or simply knock on doors on your block.\n\n## Step 3: Choose a Date, Time, and Location\n\nSelect a time that maximizes attendance\u2014weekend mornings or early evenings tend to work well. Avoid holidays or school vacation weeks.\n\nFor location, consider:\n\n- Your own home or a neighbor's living room (works for small groups of 10-20)\n- A local library meeting room or community center (better for larger gatherings)\n- A park setting (informal and family-friendly)\n\n## Step 4: Invite the Community\n\nCreate a simple flyer with:\n\n- The date, time, and location\n- A brief statement of the issue (e.g., \"Join us to discuss speeding on Oak Street\")\n- Your contact information\n\nDistribute flyers door-to-door, post in neighborhood apps or Facebook groups, put notices on community bulletin boards, and ask neighbors to spread the word. Send reminders 2-3 days before the meeting.\n\n## Step 5: Prepare for the Meeting\n\nGather materials to help the discussion:\n\n- Print copies of any relevant traffic data or crash reports (available from your city's transportation department)\n- Bring a blank sign-in sheet to collect names and contact information\n- Prepare a simple agenda and stick to it\n\nConsider inviting a city transportation official or police liaison to attend, though give attendees notice so they can prepare questions.\n\n## Step 6: Run an Effective Meeting\n\nStart on time, even if fewer people have arrived. A typical structure:\n\n| Time | Activity |\n|------|----------|\n| 0-10 min | Welcome, introductions, purpose statement |\n| 10-25 min | Share specific concerns and examples |\n| 25-40 min | Discuss possible solutions and next steps |\n| 40-50 min | Assign action items and form a committee |\n| 50-60 min | Open floor for additional input |\n\nKeep the tone collaborative rather than confrontational. Focus on facts and shared goals. Designate someone to take notes.\n\n## Step 7: Follow Up\n\nWithin 48 hours, send a summary email to everyone who attended:\n\n- Recap the concerns raised\n- List the action items agreed upon\n- Include next steps and who is responsible\n- Attach the sign-in sheet if you collected contacts\n\nThis keeps momentum going and ensures accountability.\n\n## Step 8: Take Action\n\nCommon next steps include:\n\n- **Submit a formal request** to your city's transportation or public works department for a traffic study or safety improvements\n- **Attend a city council or traffic board meeting** to present community concerns\n- **Organize a petition** to demonstrate broad neighborhood support\n- **Request a speed bump or crosswalk** through official channels\n- **Connect with neighborhood associations** or local safety organizations for additional support\n\nDocument everything and keep neighbors updated on progress.\n\n---\n\nOrganizing a neighborhood meeting is about bringing people together around a shared concern. You don't need expertise\u2014just a willingness to listen, facilitate, and follow through. The meeting itself is just the beginning; the real work happens in the follow-up and continued engagement with city officials and your neighbors.",
+    "sanitization": {
+      "changed": false,
+      "patterns": [],
+      "removed_chars": 0,
+      "removed_ratio": 0.0
+    },
+    "usage": {
+      "completion_tokens": 954,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 178
+      },
+      "cost": 0.001164,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.0011448,
+        "upstream_inference_cost": 0.001164,
+        "upstream_inference_prompt_cost": 1.92e-05
+      },
+      "is_byok": false,
+      "prompt_tokens": 64,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 1018
+    }
+  },
+  "prompt_category": "service_howto",
+  "prompt_id": "howto_neighborhood_meeting",
+  "response_text": "# How to Organize a Neighborhood Meeting About Traffic Safety\n\n## Step 1: Define Your Purpose and Goals\n\nBefore reaching out to neighbors, clarify what you want to accomplish. Are you concerned about speeding, lack of crosswalks, dangerous intersections, or pedestrian safety? Having a clear focus will help you communicate the meeting's purpose and keep discussions productive.\n\nWrite down 2-3 specific outcomes you'd like to achieve, such as:\n\n- Collecting signatures for a traffic study request\n- Forming a committee to work with city officials\n- Sharing information about existing reporting channels\n\n## Step 2: Build Your Organizing Committee\n\nYou don't have to do this alone. Recruit 2-4 neighbors who share your concerns. This group can help with:\n\n- Distributing flyers\n- Hosting at different homes if needed\n- Bringing different perspectives to the discussion\n\nReach out to neighbors you already know, post in local online community groups, or simply knock on doors on your block.\n\n## Step 3: Choose a Date, Time, and Location\n\nSelect a time that maximizes attendance\u2014weekend mornings or early evenings tend to work well. Avoid holidays or school vacation weeks.\n\nFor location, consider:\n\n- Your own home or a neighbor's living room (works for small groups of 10-20)\n- A local library meeting room or community center (better for larger gatherings)\n- A park setting (informal and family-friendly)\n\n## Step 4: Invite the Community\n\nCreate a simple flyer with:\n\n- The date, time, and location\n- A brief statement of the issue (e.g., \"Join us to discuss speeding on Oak Street\")\n- Your contact information\n\nDistribute flyers door-to-door, post in neighborhood apps or Facebook groups, put notices on community bulletin boards, and ask neighbors to spread the word. Send reminders 2-3 days before the meeting.\n\n## Step 5: Prepare for the Meeting\n\nGather materials to help the discussion:\n\n- Print copies of any relevant traffic data or crash reports (available from your city's transportation department)\n- Bring a blank sign-in sheet to collect names and contact information\n- Prepare a simple agenda and stick to it\n\nConsider inviting a city transportation official or police liaison to attend, though give attendees notice so they can prepare questions.\n\n## Step 6: Run an Effective Meeting\n\nStart on time, even if fewer people have arrived. A typical structure:\n\n| Time | Activity |\n|------|----------|\n| 0-10 min | Welcome, introductions, purpose statement |\n| 10-25 min | Share specific concerns and examples |\n| 25-40 min | Discuss possible solutions and next steps |\n| 40-50 min | Assign action items and form a committee |\n| 50-60 min | Open floor for additional input |\n\nKeep the tone collaborative rather than confrontational. Focus on facts and shared goals. Designate someone to take notes.\n\n## Step 7: Follow Up\n\nWithin 48 hours, send a summary email to everyone who attended:\n\n- Recap the concerns raised\n- List the action items agreed upon\n- Include next steps and who is responsible\n- Attach the sign-in sheet if you collected contacts\n\nThis keeps momentum going and ensures accountability.\n\n## Step 8: Take Action\n\nCommon next steps include:\n\n- **Submit a formal request** to your city's transportation or public works department for a traffic study or safety improvements\n- **Attend a city council or traffic board meeting** to present community concerns\n- **Organize a petition** to demonstrate broad neighborhood support\n- **Request a speed bump or crosswalk** through official channels\n- **Connect with neighborhood associations** or local safety organizations for additional support\n\nDocument everything and keep neighbors updated on progress.\n\n---\n\nOrganizing a neighborhood meeting is about bringing people together around a shared concern. You don't need expertise\u2014just a willingness to listen, facilitate, and follow through. The meeting itself is just the beginning; the real work happens in the follow-up and continued engagement with city officials and your neighbors.",
+  "run_name": "2026-03-08-openrouter-v0-2-clean-3"
+}

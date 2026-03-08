@@ -1,0 +1,56 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.2",
+  "candidate_label": "Gemini 3.1 Flash Lite Preview",
+  "candidate_model_id": "google/gemini-3.1-flash-lite-preview",
+  "created_at": "2026-03-08T12:14:52Z",
+  "metadata": {
+    "finish_reason": "stop",
+    "generation_attempt": 1,
+    "generation_settings": {
+      "max_output_tokens": 10000,
+      "reasoning_effort": "medium"
+    },
+    "id": "gen-1772972085-se1c9wcLSDPH7vQECDKC",
+    "quality_guard": {
+      "minimum_words": 120,
+      "reason": "",
+      "status": "ok",
+      "word_count": 537
+    },
+    "raw_response_text": "### What Is a Food Recall?\n\nA food recall occurs when a manufacturer or a government agency (such as the FDA or USDA) determines that a food product is unsafe for consumption. This can happen for several reasons, including:\n\n*   **Contamination:** The presence of harmful bacteria (like *Salmonella*, *Listeria*, or *E. coli*), viruses, or parasites.\n*   **Foreign Objects:** The accidental inclusion of physical hazards like metal, glass, or plastic fragments.\n*   **Undeclared Allergens:** The most common cause of recalls. This happens when a product contains an ingredient (like peanuts, milk, or soy) that is not listed on the label, posing a severe risk to people with food allergies.\n*   **Mislabeling:** Incorrect instructions or ingredient lists that could lead to improper storage or consumption.\n\nA recall is a safety net designed to remove potentially dangerous items from store shelves and your pantry. It does not necessarily mean that every single package of that product is contaminated, but it does mean the risk is high enough that the product should not be consumed.\n\n---\n\n### What to Do If You Have a Recalled Product\n\nIf you hear that a product in your kitchen has been recalled, follow these steps immediately:\n\n**1. Verify the Product Details**\nNot every product from a specific brand is always recalled. Check the packaging for the specific **lot number, expiration date, or UPC code** listed in the official recall notice. If your product matches these details, it is part of the recall.\n\n**2. Stop Using It Immediately**\nDo not eat the product, even if it looks, smells, and tastes fine. Bacteria like *Listeria* or *Salmonella* do not change the appearance or odor of food. Do not feed it to pets, and do not donate it to a food bank or give it to a friend.\n\n**3. Dispose of or Return the Item**\n*   **Return it:** Most retailers will offer a full refund for recalled items, even without a receipt. Take the product back to the store where you purchased it.\n*   **Dispose of it:** If you cannot return it, throw it away in a sealed bag so that it cannot be retrieved by children or pets. \n*   **Clean up:** If the recalled food touched other surfaces (like countertops, cutting boards, or refrigerator shelves), wash those surfaces thoroughly with hot, soapy water to prevent cross-contamination.\n\n**4. Monitor Your Health**\nIf you have already eaten the product, don\u2019t panic. Most people will not experience severe illness. However, monitor yourself for symptoms such as fever, nausea, vomiting, diarrhea, or abdominal cramps. If you develop symptoms, contact your healthcare provider and let them know you consumed a recalled food product.\n\n---\n\n### How to Stay Informed\n\nRecalls happen frequently, and it is difficult to keep track of every announcement. To stay updated:\n\n*   **Bookmark Official Sources:** Check [FoodSafety.gov](https://www.foodsafety.gov) for a consolidated list of all current food recalls from both the FDA and the USDA.\n*   **Sign Up for Alerts:** You can sign up for email notifications from the FDA and USDA to receive alerts the moment a recall is issued.\n*   **Check Your Grocery App:** Many major grocery chains now send push notifications or emails to loyalty program members if a product they purchased is subject to a recall.",
+    "sanitization": {
+      "changed": false,
+      "patterns": [],
+      "removed_chars": 0,
+      "removed_ratio": 0.0
+    },
+    "usage": {
+      "completion_tokens": 1566,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 850
+      },
+      "cost": 0.002362,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.002349,
+        "upstream_inference_cost": 0.002362,
+        "upstream_inference_prompt_cost": 1.3e-05
+      },
+      "is_byok": false,
+      "prompt_tokens": 52,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 1618
+    }
+  },
+  "prompt_category": "explain",
+  "prompt_id": "explain_food_recall",
+  "response_text": "### What Is a Food Recall?\n\nA food recall occurs when a manufacturer or a government agency (such as the FDA or USDA) determines that a food product is unsafe for consumption. This can happen for several reasons, including:\n\n*   **Contamination:** The presence of harmful bacteria (like *Salmonella*, *Listeria*, or *E. coli*), viruses, or parasites.\n*   **Foreign Objects:** The accidental inclusion of physical hazards like metal, glass, or plastic fragments.\n*   **Undeclared Allergens:** The most common cause of recalls. This happens when a product contains an ingredient (like peanuts, milk, or soy) that is not listed on the label, posing a severe risk to people with food allergies.\n*   **Mislabeling:** Incorrect instructions or ingredient lists that could lead to improper storage or consumption.\n\nA recall is a safety net designed to remove potentially dangerous items from store shelves and your pantry. It does not necessarily mean that every single package of that product is contaminated, but it does mean the risk is high enough that the product should not be consumed.\n\n---\n\n### What to Do If You Have a Recalled Product\n\nIf you hear that a product in your kitchen has been recalled, follow these steps immediately:\n\n**1. Verify the Product Details**\nNot every product from a specific brand is always recalled. Check the packaging for the specific **lot number, expiration date, or UPC code** listed in the official recall notice. If your product matches these details, it is part of the recall.\n\n**2. Stop Using It Immediately**\nDo not eat the product, even if it looks, smells, and tastes fine. Bacteria like *Listeria* or *Salmonella* do not change the appearance or odor of food. Do not feed it to pets, and do not donate it to a food bank or give it to a friend.\n\n**3. Dispose of or Return the Item**\n*   **Return it:** Most retailers will offer a full refund for recalled items, even without a receipt. Take the product back to the store where you purchased it.\n*   **Dispose of it:** If you cannot return it, throw it away in a sealed bag so that it cannot be retrieved by children or pets. \n*   **Clean up:** If the recalled food touched other surfaces (like countertops, cutting boards, or refrigerator shelves), wash those surfaces thoroughly with hot, soapy water to prevent cross-contamination.\n\n**4. Monitor Your Health**\nIf you have already eaten the product, don\u2019t panic. Most people will not experience severe illness. However, monitor yourself for symptoms such as fever, nausea, vomiting, diarrhea, or abdominal cramps. If you develop symptoms, contact your healthcare provider and let them know you consumed a recalled food product.\n\n---\n\n### How to Stay Informed\n\nRecalls happen frequently, and it is difficult to keep track of every announcement. To stay updated:\n\n*   **Bookmark Official Sources:** Check [FoodSafety.gov](https://www.foodsafety.gov) for a consolidated list of all current food recalls from both the FDA and the USDA.\n*   **Sign Up for Alerts:** You can sign up for email notifications from the FDA and USDA to receive alerts the moment a recall is issued.\n*   **Check Your Grocery App:** Many major grocery chains now send push notifications or emails to loyalty program members if a product they purchased is subject to a recall.",
+  "run_name": "2026-03-08-openrouter-v0-2-clean-3"
+}

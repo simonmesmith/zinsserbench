@@ -1,0 +1,47 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.2",
+  "candidate_model_id": "moonshotai/kimi-k2.5",
+  "created_at": "2026-03-08T12:30:09Z",
+  "judge_model_id": "anthropic/claude-opus-4.6",
+  "metadata": {
+    "id": "gen-1772973000-MXBnh0nJRCbtdAbwBBt6",
+    "raw_text": "{\"scores\": {\"clarity\": 5, \"simplicity\": 5, \"brevity_economy\": 4, \"structure_flow\": 5, \"specificity_precision\": 5, \"humanity_voice\": 4, \"overall\": 5}, \"rationale\": \"Exceptionally well-structured memo that covers all three required elements (policy, rationale, next steps) with concrete details: specific percentages (15% faster), dollar amounts ($1,000/$500 stipends), timelines (48-hour manager review, 90-day trial), and named tools (BambooHR, OfficeSpace, Slack). The three work arrangement options are clearly delineated with bullet points. Next steps are sequenced with escalating deadlines, making action items unmistakable. Minor ding on brevity\u2014the closing paragraph edges into corporate inspiration-speak ('fuels both your personal wellbeing and our collective innovation'), and the 'Most importantly, we trust our team' paragraph, while warm, is slightly performative. The humanity score is strong but not perfect; the voice is polished and professional rather than distinctively personal\u2014it reads like an excellent template more than a specific COO's voice. Overall, this is a near-ideal internal memo for the stated scenario.\"}",
+    "usage": {
+      "completion_tokens": 281,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 0
+      },
+      "cost": 0.01289,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.007025,
+        "upstream_inference_cost": 0.01289,
+        "upstream_inference_prompt_cost": 0.005865
+      },
+      "is_byok": false,
+      "prompt_tokens": 1173,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 1454
+    }
+  },
+  "prompt_category": "memo",
+  "prompt_id": "memo_remote_work_policy",
+  "rationale": "Exceptionally well-structured memo that covers all three required elements (policy, rationale, next steps) with concrete details: specific percentages (15% faster), dollar amounts ($1,000/$500 stipends), timelines (48-hour manager review, 90-day trial), and named tools (BambooHR, OfficeSpace, Slack). The three work arrangement options are clearly delineated with bullet points. Next steps are sequenced with escalating deadlines, making action items unmistakable. Minor ding on brevity\u2014the closing paragraph edges into corporate inspiration-speak ('fuels both your personal wellbeing and our collective innovation'), and the 'Most importantly, we trust our team' paragraph, while warm, is slightly performative. The humanity score is strong but not perfect; the voice is polished and professional rather than distinctively personal\u2014it reads like an excellent template more than a specific COO's voice. Overall, this is a near-ideal internal memo for the stated scenario.",
+  "run_name": "2026-03-08-openrouter-v0-2-clean-3",
+  "scores": {
+    "brevity_economy": 4,
+    "clarity": 5,
+    "humanity_voice": 4,
+    "overall": 5,
+    "simplicity": 5,
+    "specificity_precision": 5,
+    "structure_flow": 5
+  }
+}

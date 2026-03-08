@@ -1,0 +1,47 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.2",
+  "candidate_model_id": "moonshotai/kimi-k2.5",
+  "created_at": "2026-03-08T13:16:18Z",
+  "judge_model_id": "anthropic/claude-opus-4.6",
+  "metadata": {
+    "id": "gen-1772975771-f3ws9sB5M3Ak36ImMaU1",
+    "raw_text": "{\"scores\": {\"clarity\": 5, \"simplicity\": 4, \"brevity_economy\": 4, \"structure_flow\": 5, \"specificity_precision\": 5, \"humanity_voice\": 5, \"overall\": 5}, \"rationale\": \"Exceptionally well-crafted profile that follows Marcus through a single day with vivid, concrete detail\u2014183 cases, $12.47 in a pocket, the cat, the scratched plexiglass. The chronological structure is natural and propulsive. The voice is warm and literary without becoming sentimental; it earns its emotional moments through specificity rather than abstraction. Minor dings: a few passages tip slightly toward literary flourish ('like trying to measure the weight of water,' 'the only dignity he can afford to give') that edge past plain directness, and the closing paragraph leans into a rhetorical crescendo that, while effective, adds length. But these are small costs for writing this alive and humane. The piece reads like polished longform journalism.\"}",
+    "usage": {
+      "completion_tokens": 233,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 0
+      },
+      "cost": 0.014495,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.005825,
+        "upstream_inference_cost": 0.014495,
+        "upstream_inference_prompt_cost": 0.00867
+      },
+      "is_byok": false,
+      "prompt_tokens": 1734,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 1967
+    }
+  },
+  "prompt_category": "profile",
+  "prompt_id": "profile_public_defender",
+  "rationale": "Exceptionally well-crafted profile that follows Marcus through a single day with vivid, concrete detail\u2014183 cases, $12.47 in a pocket, the cat, the scratched plexiglass. The chronological structure is natural and propulsive. The voice is warm and literary without becoming sentimental; it earns its emotional moments through specificity rather than abstraction. Minor dings: a few passages tip slightly toward literary flourish ('like trying to measure the weight of water,' 'the only dignity he can afford to give') that edge past plain directness, and the closing paragraph leans into a rhetorical crescendo that, while effective, adds length. But these are small costs for writing this alive and humane. The piece reads like polished longform journalism.",
+  "run_name": "2026-03-08-openrouter-v0-2-clean-3",
+  "scores": {
+    "brevity_economy": 4,
+    "clarity": 5,
+    "humanity_voice": 5,
+    "overall": 5,
+    "simplicity": 4,
+    "specificity_precision": 5,
+    "structure_flow": 5
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.2",
+  "candidate_model_id": "openai/gpt-5.4",
+  "created_at": "2026-03-08T12:31:00Z",
+  "judge_model_id": "anthropic/claude-opus-4.6",
+  "metadata": {
+    "id": "gen-1772973052-gouDYnM6but5SP2BXJfa",
+    "raw_text": "{\"scores\": {\"clarity\": 5, \"simplicity\": 4, \"brevity_economy\": 3, \"structure_flow\": 5, \"specificity_precision\": 4, \"humanity_voice\": 4, \"overall\": 4}, \"rationale\": \"Exceptionally clear and well-organized with logical sections that answer exactly what the prompt asks. The 'What is affected' and 'What is not affected' lists are immediately scannable and useful. However, the memo is notably long for an internal communication\u2014the questions section reformulates as questions what was already stated in the affected/not-affected lists, creating redundancy. The exception process section, while helpful, adds further length. Language is mostly plain but occasionally stacks synonyms ('leadership, judgment, and cooperation') and uses some corporate padding ('We recognize the added burden this creates'). Specificity is good for a template but weakened by placeholder brackets and the inherent generality of a freeze memo that doesn't name dollar thresholds, a timeline, or a named contact for exceptions. Voice is professional and appropriately warm for a hospital setting, though it reads more like a polished template than a memo from a real person with a real situation.\"}",
+    "usage": {
+      "completion_tokens": 264,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 0
+      },
+      "cost": 0.0129,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.0066,
+        "upstream_inference_cost": 0.0129,
+        "upstream_inference_prompt_cost": 0.0063
+      },
+      "is_byok": false,
+      "prompt_tokens": 1260,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 1524
+    }
+  },
+  "prompt_category": "memo",
+  "prompt_id": "memo_budget_freeze",
+  "rationale": "Exceptionally clear and well-organized with logical sections that answer exactly what the prompt asks. The 'What is affected' and 'What is not affected' lists are immediately scannable and useful. However, the memo is notably long for an internal communication\u2014the questions section reformulates as questions what was already stated in the affected/not-affected lists, creating redundancy. The exception process section, while helpful, adds further length. Language is mostly plain but occasionally stacks synonyms ('leadership, judgment, and cooperation') and uses some corporate padding ('We recognize the added burden this creates'). Specificity is good for a template but weakened by placeholder brackets and the inherent generality of a freeze memo that doesn't name dollar thresholds, a timeline, or a named contact for exceptions. Voice is professional and appropriately warm for a hospital setting, though it reads more like a polished template than a memo from a real person with a real situation.",
+  "run_name": "2026-03-08-openrouter-v0-2-clean-3",
+  "scores": {
+    "brevity_economy": 3,
+    "clarity": 5,
+    "humanity_voice": 4,
+    "overall": 4,
+    "simplicity": 4,
+    "specificity_precision": 4,
+    "structure_flow": 5
+  }
+}

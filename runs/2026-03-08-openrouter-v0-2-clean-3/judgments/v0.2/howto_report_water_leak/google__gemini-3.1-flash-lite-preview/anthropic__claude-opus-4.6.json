@@ -1,0 +1,47 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.2",
+  "candidate_model_id": "google/gemini-3.1-flash-lite-preview",
+  "created_at": "2026-03-08T12:50:11Z",
+  "judge_model_id": "anthropic/claude-opus-4.6",
+  "metadata": {
+    "id": "gen-1772974196-KmEkgAAjUd1WBPz3U5ik",
+    "raw_text": "{\"scores\": {\"clarity\": 5, \"simplicity\": 5, \"brevity_economy\": 4, \"structure_flow\": 5, \"specificity_precision\": 5, \"humanity_voice\": 4, \"overall\": 5}, \"rationale\": \"Exceptionally clear and well-organized guide. Steps follow a logical priority order (contain \u2192 safety \u2192 document \u2192 notify \u2192 prevent mold \u2192 rights). Concrete, actionable details elevate it: the screwdriver tip for a bulging ceiling, the towel-in-bucket trick, the template email text, the 24\u201348 hour mold window, and the distinction between renter's and landlord's insurance. Language is plain and direct throughout. The electrical safety warning is well-placed and appropriately emphatic. Minor deductions: brevity loses a point for slight over-explanation in a few bullets (e.g., the mold-monitoring bullet largely restates the ventilation advice), and voice, while warm and reader-aware in the opening, settles into a competent but somewhat clinical tone in the middle sections. Overall, this is a model practical guide.\"}",
+    "usage": {
+      "completion_tokens": 671,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 389
+      },
+      "cost": 0.023335,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.016775,
+        "upstream_inference_cost": 0.023335,
+        "upstream_inference_prompt_cost": 0.00656
+      },
+      "is_byok": false,
+      "prompt_tokens": 1312,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 1983
+    }
+  },
+  "prompt_category": "service_howto",
+  "prompt_id": "howto_report_water_leak",
+  "rationale": "Exceptionally clear and well-organized guide. Steps follow a logical priority order (contain \u2192 safety \u2192 document \u2192 notify \u2192 prevent mold \u2192 rights). Concrete, actionable details elevate it: the screwdriver tip for a bulging ceiling, the towel-in-bucket trick, the template email text, the 24\u201348 hour mold window, and the distinction between renter's and landlord's insurance. Language is plain and direct throughout. The electrical safety warning is well-placed and appropriately emphatic. Minor deductions: brevity loses a point for slight over-explanation in a few bullets (e.g., the mold-monitoring bullet largely restates the ventilation advice), and voice, while warm and reader-aware in the opening, settles into a competent but somewhat clinical tone in the middle sections. Overall, this is a model practical guide.",
+  "run_name": "2026-03-08-openrouter-v0-2-clean-3",
+  "scores": {
+    "brevity_economy": 4,
+    "clarity": 5,
+    "humanity_voice": 4,
+    "overall": 5,
+    "simplicity": 5,
+    "specificity_precision": 5,
+    "structure_flow": 5
+  }
+}

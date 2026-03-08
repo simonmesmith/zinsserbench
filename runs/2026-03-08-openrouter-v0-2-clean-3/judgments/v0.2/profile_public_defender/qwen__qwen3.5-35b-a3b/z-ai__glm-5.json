@@ -1,0 +1,47 @@
+{
+  "backend": "openrouter",
+  "benchmark_version": "v0.2",
+  "candidate_model_id": "qwen/qwen3.5-35b-a3b",
+  "created_at": "2026-03-08T13:17:04Z",
+  "judge_model_id": "z-ai/glm-5",
+  "metadata": {
+    "id": "gen-1772975816-VFgz76smuQIKYxk8YBLP",
+    "raw_text": "{\"scores\": {\"clarity\": 5, \"simplicity\": 5, \"brevity_economy\": 5, \"structure_flow\": 5, \"specificity_precision\": 5, \"humanity_voice\": 5, \"overall\": 5}, \"rationale\": \"A tightly written profile that follows a clear chronological structure through one day. Uses precise details (187 cases, 42 felonies, specific times) rather than vague generalities. The prose is plain and direct, with no wasted words. Strong human voice captures both the grind and the moral weight of the work. The piece earns its emotional resonance through concrete scenes rather than sentimentality.\"}",
+    "usage": {
+      "completion_tokens": 677,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 610
+      },
+      "cost": 0.0037634,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.0021664,
+        "upstream_inference_cost": 0.0037634,
+        "upstream_inference_prompt_cost": 0.001597
+      },
+      "is_byok": false,
+      "prompt_tokens": 1597,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 2274
+    }
+  },
+  "prompt_category": "profile",
+  "prompt_id": "profile_public_defender",
+  "rationale": "A tightly written profile that follows a clear chronological structure through one day. Uses precise details (187 cases, 42 felonies, specific times) rather than vague generalities. The prose is plain and direct, with no wasted words. Strong human voice captures both the grind and the moral weight of the work. The piece earns its emotional resonance through concrete scenes rather than sentimentality.",
+  "run_name": "2026-03-08-openrouter-v0-2-clean-3",
+  "scores": {
+    "brevity_economy": 5,
+    "clarity": 5,
+    "humanity_voice": 5,
+    "overall": 5,
+    "simplicity": 5,
+    "specificity_precision": 5,
+    "structure_flow": 5
+  }
+}
