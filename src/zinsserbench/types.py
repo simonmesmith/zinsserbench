@@ -15,6 +15,8 @@ RUBRIC_AXES = [
     "overall",
 ]
 
+NON_OVERALL_RUBRIC_AXES = [axis for axis in RUBRIC_AXES if axis != "overall"]
+
 PROMPT_CATEGORIES = [
     "memo",
     "explain",

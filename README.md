@@ -8,17 +8,39 @@ ZinsserBench is a benchmark that tests how well language models write the kinds 
 
 The most recent completed run (`2026-03-08-openrouter-v0-2-clean-3`, benchmark version `v0.2`) tested 12 candidate models across 20 prompts. Scores are on a 1-to-5 scale. Higher is better.
 
-![Overall scores](runs/2026-03-08-openrouter-v0-2-clean-3/analysis/overall_scores.svg)
+The primary writing metric is now **criteria average**: for each judged response, ZinsserBench averages the six rubric criteria other than `overall`, then averages those item-level means across the benchmark for each model. The judges' explicit `overall` score is still reported as **overall average**, but it is now treated as a secondary diagnostic.
 
-**Top three by overall writing quality:**
+![Criteria average](runs/2026-03-08-openrouter-v0-2-clean-3/analysis/criteria_average.svg)
 
-| Rank | Model | Overall |
+**Top three by criteria average:**
+
+| Rank | Model | Criteria average |
 | ---: | --- | ---: |
-| 1 | anthropic/claude-sonnet-4.6 | 5.00 |
-| 2 | moonshotai/kimi-k2.5 | 4.98 |
-| 3 | anthropic/claude-opus-4.6 | 4.97 |
+| 1 | anthropic/claude-sonnet-4.6 | 4.81 |
+| 2 | anthropic/claude-opus-4.6 | 4.79 |
+| 3 | openai/gpt-5.3-chat | 4.79 |
 
 Full results are in the [detailed report](runs/2026-03-08-openrouter-v0-2-clean-3/analysis/REPORT.md).
+
+### Overall vs. criteria
+
+The explicit `overall` score is still useful, but mostly as a check on how much judges' holistic impressions differ from the six scored criteria.
+
+![Overall average](runs/2026-03-08-openrouter-v0-2-clean-3/analysis/overall_average.svg)
+
+![Overall vs criteria](runs/2026-03-08-openrouter-v0-2-clean-3/analysis/overall_vs_criteria.svg)
+
+![Criteria minus overall](runs/2026-03-08-openrouter-v0-2-clean-3/analysis/criteria_minus_overall.svg)
+
+In the current `v0.2` run, most models receive slightly higher `overall` scores than their criteria-based averages. That makes `overall` a useful diagnostic signal, but a weak choice for the headline leaderboard if the goal is to anchor rankings in the explicit rubric dimensions.
+
+### Axis drill-down
+
+To see where each model is strong or weak, the analysis also includes an axis heatmap based on the averaged rubric criteria.
+
+![Axis heatmap](runs/2026-03-08-openrouter-v0-2-clean-3/analysis/axis_heatmap.svg)
+
+This is one of the most useful views in the report because it shows strengths and weaknesses by criterion, not just a single rolled-up score. The heatmap uses one global score-to-color scale across all cells, so the same numeric score always appears with the same color.
 
 ### Judge agreement
 
@@ -66,8 +88,9 @@ Nonfiction is also where weak writing habits become obvious. Models can hide beh
 1. ZinsserBench gives every candidate model the same set of nonfiction writing prompts.
 2. The prompts cover several common forms: explainers, internal memos, profiles, practical how-to guidance, opinion writing, and personal nonfiction.
 3. A separate judge panel scores every response on the rubric above.
-4. The repo aggregates those scores into two headline views:
-   - **Writing score** -- how well a model writes across the full benchmark.
+4. The repo aggregates those scores into three headline views:
+   - **Criteria average** -- the primary writing score, based on the six explicit rubric criteria and excluding the separate `overall` field.
+   - **Overall average** -- a secondary diagnostic based on judges' explicit overall scores.
    - **Judge quality** -- how closely a judge agrees with the rest of the panel.
 
 This makes the benchmark useful for two questions: *Which models write the strongest nonfiction?* and *Which models are the most reliable judges of nonfiction quality?*
@@ -200,12 +223,12 @@ After a run, `runs/<run_name>/analysis/` contains:
 - `skipped_same_company_judgments.csv`
 - `excluded_for_insufficient_judges.csv`
 - `response_lengths_by_model.csv`
-- `writing_by_model.csv` -- the leaderboard
+- `writing_by_model.csv` -- the leaderboard with `criteria_average`, `overall_average`, and the gap between them
 - `writing_by_model_axis.csv`, `writing_by_model_category.csv`, `writing_by_model_prompt.csv`
 - `writing_by_prompt_axis.csv`
 - `judge_quality.csv`
 - `model_prompt_details.csv` -- the main drill-down table for a specific model + prompt
-- Headline SVG charts with adaptive left margins for long model names and source attribution
+- Headline SVG charts plus comparison/drill-down SVGs such as `criteria_average.svg`, `overall_average.svg`, `overall_vs_criteria.svg`, `criteria_minus_overall.svg`, and `axis_heatmap.svg`
 
 ### Testing
 

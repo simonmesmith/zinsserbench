@@ -8,7 +8,7 @@ from typing import Dict, List, Tuple
 from .quality import evaluate_output
 from .specs import load_benchmark_version
 from .storage import RunStorage
-from .types import JudgmentRecord, RUBRIC_AXES, model_company
+from .types import JudgmentRecord, NON_OVERALL_RUBRIC_AXES, RUBRIC_AXES, model_company
 
 
 def aggregate_run(root: Path, run_name: str) -> Dict[str, object]:
@@ -106,7 +106,10 @@ def aggregate_run(root: Path, run_name: str) -> Dict[str, object]:
         output_lookup,
         benchmark.judges,
     )
-    writing_by_model = _average_group(per_item, ("candidate_model_id",), RUBRIC_AXES)
+    writing_by_model = _average_group(per_item, ("candidate_model_id",), RUBRIC_AXES + ["criteria_average"])
+    for row in writing_by_model:
+        row["overall_average"] = row["overall"]
+        row["criteria_minus_overall"] = round(row["criteria_average"] - row["overall_average"], 4)
     writing_by_model_axis = _average_group(per_axis, ("candidate_model_id", "axis"), ["score"])
     writing_by_model_category = _average_group(per_axis, ("candidate_model_id", "prompt_category"), ["score"])
     writing_by_model_prompt = _average_group(per_axis, ("candidate_model_id", "prompt_id"), ["score"])
@@ -145,6 +148,9 @@ def aggregate_run(root: Path, run_name: str) -> Dict[str, object]:
                 "prompt_category": item["prompt_category"],
                 "candidate_response_text": output_lookup[(item["prompt_id"], item["candidate_model_id"])].response_text,
                 "scores": item["scores"],
+                "overall_average": item["overall"],
+                "criteria_average": item["criteria_average"],
+                "criteria_minus_overall": round(item["criteria_average"] - item["overall"], 4),
             }
             for item in sorted(per_item, key=lambda row: (row["candidate_model_id"], row["prompt_id"]))
         ],
@@ -234,12 +240,17 @@ def _build_per_item_records(
         averaged_scores = {
             axis: round(sum(values) / len(values), 4) for axis, values in bucket["scores"].items() if values
         }
+        criteria_average = round(
+            sum(averaged_scores[axis] for axis in NON_OVERALL_RUBRIC_AXES) / len(NON_OVERALL_RUBRIC_AXES),
+            4,
+        )
         rows.append(
             {
                 "prompt_id": bucket["prompt_id"],
                 "prompt_category": bucket["prompt_category"],
                 "candidate_model_id": bucket["candidate_model_id"],
                 "scores": averaged_scores,
+                "criteria_average": criteria_average,
                 **averaged_scores,
             }
         )

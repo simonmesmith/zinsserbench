@@ -77,7 +77,11 @@ class ZinsserBenchTests(unittest.TestCase):
         analysis_dir = self.temp_dir / "runs" / "fixture-run" / "analysis"
         self.assertTrue((analysis_dir / "summary.json").exists())
         self.assertTrue((analysis_dir / "REPORT.md").exists())
-        self.assertTrue((analysis_dir / "overall_scores.svg").exists())
+        self.assertTrue((analysis_dir / "criteria_average.svg").exists())
+        self.assertTrue((analysis_dir / "overall_average.svg").exists())
+        self.assertTrue((analysis_dir / "overall_vs_criteria.svg").exists())
+        self.assertTrue((analysis_dir / "criteria_minus_overall.svg").exists())
+        self.assertTrue((analysis_dir / "axis_heatmap.svg").exists())
         self.assertTrue((analysis_dir / "judge_quality.svg").exists())
         self.assertTrue((analysis_dir / "exact_cap_hits.csv").exists())
         self.assertTrue((analysis_dir / "truncation_warnings.csv").exists())
@@ -87,10 +91,53 @@ class ZinsserBenchTests(unittest.TestCase):
         with (analysis_dir / "writing_by_model.csv").open("r", encoding="utf-8") as handle:
             rows = list(csv.DictReader(handle))
         self.assertEqual(12, len(rows))
+        self.assertIn("criteria_average", rows[0])
+        self.assertIn("overall_average", rows[0])
+        self.assertIn("criteria_minus_overall", rows[0])
 
         with (analysis_dir / "model_prompt_details.csv").open("r", encoding="utf-8") as handle:
             rows = list(csv.DictReader(handle))
         self.assertEqual(240, len(rows))
+        self.assertIn("criteria_average", rows[0])
+        self.assertIn("overall_average", rows[0])
+
+    def test_criteria_average_is_computed_from_non_overall_axes_only(self) -> None:
+        generate_missing(self.temp_dir, "fixture-run", "v0.1", self.backend, self.settings)
+        judge_missing(self.temp_dir, "fixture-run", "v0.1", self.backend, self.settings)
+
+        judgment_path = (
+            self.temp_dir
+            / "runs"
+            / "fixture-run"
+            / "judgments"
+            / "v0.1"
+            / "memo_budget_freeze"
+            / "openai__gpt-5.4"
+            / "anthropic__claude-opus-4.6.json"
+        )
+        payload = json.loads(judgment_path.read_text(encoding="utf-8"))
+        payload["scores"] = {
+            "clarity": 1,
+            "simplicity": 1,
+            "brevity_economy": 1,
+            "structure_flow": 1,
+            "specificity_precision": 1,
+            "humanity_voice": 1,
+            "overall": 5,
+        }
+        judgment_path.write_text(json.dumps(payload, indent=2, sort_keys=True) + "\n", encoding="utf-8")
+
+        summary = aggregate_run(self.temp_dir, "fixture-run")
+        model_row = next(row for row in summary["writing_by_model"] if row["candidate_model_id"] == "openai/gpt-5.4")
+        detail_row = next(
+            row
+            for row in summary["model_prompt_details"]
+            if row["candidate_model_id"] == "openai/gpt-5.4" and row["prompt_id"] == "memo_budget_freeze"
+        )
+
+        self.assertLess(detail_row["criteria_average"], detail_row["scores"]["overall"])
+        self.assertEqual(model_row["overall_average"], model_row["overall"])
+        self.assertNotEqual(model_row["criteria_average"], model_row["overall_average"])
 
     def test_add_model_only_backfills_missing_work(self) -> None:
         generate_missing(self.temp_dir, "fixture-run", "v0.1", self.backend, self.settings)

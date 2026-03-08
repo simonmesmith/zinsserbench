@@ -7,22 +7,24 @@
 - Outputs sanitized before judging: `6`
 - Same-company judgments skipped: `140`
 
-## Overall writing leaderboard
+## Writing leaderboard
 
-| candidate_model_id | overall | clarity | simplicity | structure_flow |
-| --- | --- | --- | --- | --- |
-| anthropic/claude-sonnet-4.6 | 5.0 | 5.0 | 4.5834 | 5.0 |
-| moonshotai/kimi-k2.5 | 4.975 | 4.9875 | 4.475 | 4.9875 |
-| anthropic/claude-opus-4.6 | 4.9667 | 5.0 | 4.6334 | 5.0 |
-| google/gemini-3.1-pro-preview | 4.9333 | 5.0 | 4.4 | 5.0 |
-| openai/gpt-5.4 | 4.85 | 5.0 | 4.8167 | 5.0 |
-| z-ai/glm-5 | 4.85 | 5.0 | 4.3667 | 5.0 |
-| openai/gpt-5.3-chat | 4.8333 | 5.0 | 4.9833 | 4.9833 |
-| deepseek/deepseek-v3.2 | 4.8125 | 5.0 | 4.25 | 5.0 |
-| google/gemini-3.1-flash-lite-preview | 4.7167 | 5.0 | 4.15 | 5.0 |
-| minimax/minimax-m2.5 | 4.7125 | 4.9875 | 4.6 | 4.9875 |
-| x-ai/grok-4.1-fast | 4.65 | 4.9625 | 4.175 | 4.9875 |
-| qwen/qwen3.5-35b-a3b | 4.2375 | 4.7625 | 4.2 | 4.45 |
+| candidate_model_id | criteria_average | overall_average | criteria_minus_overall | clarity | simplicity | structure_flow |
+| --- | --- | --- | --- | --- | --- | --- |
+| anthropic/claude-sonnet-4.6 | 4.8111 | 5.0 | -0.1889 | 5.0 | 4.5834 | 5.0 |
+| anthropic/claude-opus-4.6 | 4.7861 | 4.9667 | -0.1806 | 5.0 | 4.6334 | 5.0 |
+| openai/gpt-5.3-chat | 4.7861 | 4.8333 | -0.0472 | 5.0 | 4.9833 | 4.9833 |
+| moonshotai/kimi-k2.5 | 4.7729 | 4.975 | -0.2021 | 4.9875 | 4.475 | 4.9875 |
+| openai/gpt-5.4 | 4.6944 | 4.85 | -0.1556 | 5.0 | 4.8167 | 5.0 |
+| google/gemini-3.1-pro-preview | 4.6778 | 4.9333 | -0.2555 | 5.0 | 4.4 | 5.0 |
+| z-ai/glm-5 | 4.6556 | 4.85 | -0.1944 | 5.0 | 4.3667 | 5.0 |
+| deepseek/deepseek-v3.2 | 4.6292 | 4.8125 | -0.1833 | 5.0 | 4.25 | 5.0 |
+| minimax/minimax-m2.5 | 4.6208 | 4.7125 | -0.0917 | 4.9875 | 4.6 | 4.9875 |
+| x-ai/grok-4.1-fast | 4.5979 | 4.65 | -0.0521 | 4.9625 | 4.175 | 4.9875 |
+| google/gemini-3.1-flash-lite-preview | 4.5417 | 4.7167 | -0.175 | 5.0 | 4.15 | 5.0 |
+| qwen/qwen3.5-35b-a3b | 4.2479 | 4.2375 | 0.0104 | 4.7625 | 4.2 | 4.45 |
+
+Criteria average is the primary headline metric. It averages the six rubric criteria for each judged item, then averages those item-level means across the benchmark. Overall average is retained as a secondary diagnostic based on the judges' explicit overall scores.
 
 ## Judge quality leaderboard
 
@@ -224,6 +226,14 @@ None.
 
 ## Charts
 
-![Overall scores](overall_scores.svg)
+![Criteria average](criteria_average.svg)
+
+![Overall average](overall_average.svg)
 
 ![Judge quality](judge_quality.svg)
+
+![Overall vs criteria](overall_vs_criteria.svg)
+
+![Criteria minus overall](criteria_minus_overall.svg)
+
+![Axis heatmap](axis_heatmap.svg)
